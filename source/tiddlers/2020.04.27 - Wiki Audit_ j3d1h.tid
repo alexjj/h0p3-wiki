@@ -1,0 +1,6 @@
+created: 20200427210042042
+modified: 20200427215516241
+tags: [[Wiki Audit]] j3d1h
+title: 2020.04.27 - Wiki Audit: j3d1h
+
+Added a button next to the sidebar button. It changes the font - setting 1 is Zing, setting 2 is default mono, setting 3 is complete default. Basically the same code as VIXI's size button. The dotted circle means you're initializing it. This is affected over bob, so use carefully!

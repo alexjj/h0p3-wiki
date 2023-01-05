@@ -1,0 +1,52 @@
+aliases: [[m16]]
+created: 20190227183353357
+modified: 20221123220936775
+tags: Monster-Φ Dreams
+title: monster-16
+
+//My first failed attempt was a deafening 4xE5-4640 w/128GB RAM. Roughly, the real [[m16]] is double the compute and quadruple the IO of [[m10]].//
+
+!! Hardware:
+
+* Ryzen 5 3600X
+* 64GB RAM
+* 2x1TB M.2 NVMe SSD
+* 2TB Sata3 SSD
+* 2x8TB HDDs
+* ASRock x570 Phantom Gaming 4
+* GTX 1650
+* ~~RX 570~~<<ref "u">>
+* Seasonic 450W
+* Tempered Glass, PSU-Shrouded ATX w/3 fans, 120mm CPU Watercooler
+* Das Keyboard Model S Pro MX Blue
+* ~~Anker Vertical Ergonomic Optical Wired Mouse~~ RIP <3
+* Logitech MX Vertical Wireless Mouse
+* ~~Nostromo RZ07 Keypad~~<<ref "s">>
+* HW197 Arteck 2.4G Wireless Touch Keyboard
+* T16 ANEWISH 2.4G Mini Wireless Touch Keyboard 
+* Logitech C920 Camera
+* NW-7000 USB Condenser Microphone + Scissor Arm Stand
+* 42" 1080p TV (middle)
+* ~~22" 1080p Monitor (left, horiz)~~ RIP <3
+* 27" 1080p Monitor (left, horiz)
+* 24" 1080p Monitor (right, vert)
+* Rybozen USB+HDMI KVM
+
+!! [[Root Users]] on the device:
+
+* [[h0p3]]
+* [[k0sh3k]]
+* [[Sphygmus]]
+* [[1uxb0x]]
+* [[j3d1h]]
+* [[5c0ut]]
+
+!! Tagged:
+
+<<list-links "[tag[monster-16]]">>
+
+
+---
+<<footnotes "u" "After adding more drives, I ended up lacking the power for this, and I ended up not needing passthrough (glad I'm not gaming).">>
+
+<<footnotes "s" "Enjoy, sir.">>

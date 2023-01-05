@@ -1,0 +1,9 @@
+{
+    "title": "$:/plugins/matabele/action-maketid",
+    "author": "Matabele",
+    "core-version": ">=5.1.8",
+    "description": "Widget and filter operator to create new tiddlers",
+    "list": "filter widget",
+    "plugin-type": "plugin",
+    "version": "0.0.2"
+}

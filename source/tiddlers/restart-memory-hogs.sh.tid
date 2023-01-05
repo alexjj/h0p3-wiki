@@ -1,0 +1,21 @@
+created: 20220122061542489
+modified: 20220126123544361
+tags: Script j3d1h ASmith bash
+title: restart-memory-hogs.sh
+
+```bash
+#!/bin/bash
+
+TOUCHY=$(xprintidle) #get time since last touched
+
+if [[ $TOUCHY -gt 3600000 ]] #1 hour in milliseconds
+then
+    RIGHTNOW=$(date +%s) #grab current unix time
+    WAITDATE=$(cat restart-memory-hogs.lock) #grab logged +12h timestamp
+    if [[ $RIGHTNOW -ge $WAITDATE ]] #if it's been 12 hours...
+    then
+	date --date='+12 hours' +%s > restart-memory-hogs.lock #replace logged timestamp w/ 12h from now
+	#do your stuff
+    fi
+fi
+```

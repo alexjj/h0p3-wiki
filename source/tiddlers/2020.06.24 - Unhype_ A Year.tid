@@ -1,0 +1,76 @@
+created: 20200626172904739
+modified: 20200715035934354
+tags: [[Le Reddit Log]] [[FTO Mode: Alien]] [[FTO: Seemingly One-Off Online Encounters]] Chatlog FTO
+title: 2020.06.24 - Unhype: A Year
+
+"""
+Jun 9, 19
+
+h0p3 09:13 AM
+Hey, I just stumbled across your sub. I'd like to know more about the process you've used to do this.
+I have a very large body of sorted and annotated bookmarks (~22k links) from the past 2 years, and I'd like to do something similar.
+
+Jun 24, 20
+
+Unhype 01:03 PM
+hey which sub?
+
+h0p3 01:48 PM
+Yo. =)
+/r/Unhype 
+
+Unhype 01:56 PM
+hey if you've got links collected and just need to post them, the easiest methos is using Python + PRAW
+method*
+i had a very elaborate bot that was picking links that i like which was related to my work
+
+h0p3 02:02 PM
+I appreciate that.
+Thank you. It's not the posting that I'm looking to do. I'm looking for a bot that would use my body of links (and even my knowledgebase in general) to select links for me.
+My name is h0p3, btw. It's nice to meet you.
+https://philosopher.life/
+
+Unhype 03:16 PM
+i wasn't using any preexisting libraries, just coded the bot from scratch. It was a very long term project that I used at work at a marketing agency to choose suitable links for social media automation
+cool nice to meet you
+i got a feeling you will appreciate one of my old sites
+oh damn the domain expired :(
+nevermind :P
+
+h0p3 03:36 PM
+archive.org have a cached copy?
+Yesterday
+
+Unhype 03:36 AM
+it doesn't because I blocked robots AFAIR... I'll put it up eventually. I was using these free dot.tk domains in the past and got to remember to renew them manually every year :/ i think I'm gonna host hobby stuff on github pages now. Know any hosting/domain alternatives that will potentially not expires?
+expire*
+Your website looks like something different. I've never seen a site like this, which is a big compliment.
+a bit worried that github was bought by MS though
+
+h0p3 03:33 PM
+I use github for my primary webserver. I'm not happy about it, but I'll take what's free here. I don't have any free recommendations (though, I enjoy bargain hunting) that will beat github pages. It is probably time to start hunting for something else given MS' buyout. You are right.
+I request the blocking of all robots except archive.org.
+I am hoping that Beaker Browser's revamp will offer a user-friendly experience with enough reach.
+Thank you for the compliment. I think it's worth exploring. It's much, much bigger than it looks.
+
+Unhype 04:18 PM
+I don't mind paying. My problem is that i'd like to create more "permanent" websites and I got a lot of hobbies and projects and I tend to forget renewing them/I change credit cards etc. So far all the weird blogs I started @blogspot 10+ years ago are still up so that's cool at least :). cheers
+
+Jun 27
+
+Unhype 03:27 PM
+
+hey this might sound weird, but I was randomly going through /r/onions and noticed somebody mentioned your site so I thought I will let you know (what are the chances?): https://www.reddit.com/r/onions/comments/h8pjav/onion_links/
+
+h0p3 06:48 PM
+
+That is curious. I will be reaching out to them. 
+
+I run that server, but I am surprised to see anyone mention it.
+
+Jun 28
+
+Unhype 03:05 AM
+
+I know people run crawlers on the darknet and may have discovered the address if it's linked anywhere
+"""

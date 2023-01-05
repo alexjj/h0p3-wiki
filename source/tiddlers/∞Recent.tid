@@ -1,0 +1,6 @@
+created: 20210303094026842
+modified: 20210303094029837
+tags: Timelines
+title: ∞Recent
+
+<$macrocall $name="timelimitless" format={{$:/language/RecentChanges/DateFormat}}/>

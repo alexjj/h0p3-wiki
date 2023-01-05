@@ -1,0 +1,10 @@
+.matched{
+    background-color:#101010;
+    color:#42F74C;
+    border-color:#42F74C;
+    border-width:1px;
+    border-style:solid;
+/*    border:solid;*/
+}
+.tw-context {/*border:1px solid;
+  /*word-break: break-all; word-wrap: break-word*/}

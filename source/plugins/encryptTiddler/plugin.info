@@ -1,0 +1,12 @@
+{
+    "title": "$:/plugins/danielo/encryptTiddler",
+    "author": "DanieloRodrigez",
+    "core-version": ">=5.1.1",
+    "dependents": "",
+    "description": "adds the ability to encrypt single tiddlers",
+    "list": "Encrypt-Tiddler Changelog",
+    "plugin-type": "plugin",
+    "revision": "0",
+    "source": "https://github.com/danielo515/TIddlywiki5-EncryptTiddlerPlugin",
+    "version": "2.1"
+}

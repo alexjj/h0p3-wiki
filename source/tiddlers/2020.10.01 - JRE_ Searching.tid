@@ -1,0 +1,47 @@
+created: 20210709101355966
+modified: 20210709132626582
+tags: JRE Chatlog
+title: 2020.10.01 - JRE: Searching
+
+"""
+`[search[JRE]] +[days:modified[-30]] +[sort[modified]]`
+Oct 1, 2020 8:50pm
+this is also the same thing: `[search[JRE]days:modified[-7]sort[modified]]`
+Oct 1, 2020 8:51pm
+That is a filter expression. It has three stages.
+Oct 1, 2020 8:51pm
+First is a search for the term "JRE" as it is found in a tiddler (including title, tag, field, and body). All tiddlers that meet that condition are passed onto the next function which selects those tiddlers that have been modified in the past 30 days. Then, that set of tidders are sorted by date modified.
+Oct 1, 2020 8:52pm
+The filter expression can be used to do a lot in the wiki. You can head to the "Filter" based advanced search: https://philosopher.life/#:%24%3A%2FAdvancedSearch
+Oct 1, 2020 8:53pm
+It's possible to do a context search limited by the filter (highlight various phrases).
+Oct 1, 2020 8:54pm
+Oh, sorry, those aren't the same, one will check for the past 7 days, and the other for 30.
+Oct 1, 2020 8:56pm
+Does it bum you out that people are most interested in reading about your thoughts on them.
+Oct 1, 2020 8:57pm
+You can even bookmark the query: `https://philosopher.life/#:[search[JRE]] +[days:modified[-30]] +[sort[modified]]`
+Oct 1, 2020 8:58pm
+Also, worth thinking about: https://philosopher.life/#Hao%202%20Search%20Dis%20Wiki
+Oct 1, 2020 8:59pm
+I am honored that people are interested in my thoughts about them and what I have to say directly to them over my wiki as well.
+Oct 1, 2020 9:00pm
+I think it's a good thing that a person thinks that one of the most [[salient]] things to them (in their context) is about them. That is correct.
+Oct 1, 2020 9:02pm
+Imho, that should be the first thing someone searches for in my wiki.
+Oct 1, 2020 9:03pm
+I think what is [[salient]] for [[the other]] isn't necessarily what they take to perhaps be most low-hanging-fruit interesting. Insofar as there is a gap there, that can be a bummer.
+Oct 1, 2020 9:06pm
+There is also a difference between someone who is only interested in their [[name]] and one is most interested in their name.
+Oct 1, 2020 9:07pm
+I also think I work very hard to explain (and even summarize) my perspective as best I know how. I think the [[hyperconversation]] does a lot of work that can't be done any other way. I realize the thing I toil at every day is not fun to read for almost anyone. I also want to take into account where people are at in how I think about the expectations, boundaries, direction, and [[intimacy]] of a relationship. I have enormous privileges here, and I owe a lot to everyone. I also realize that it often takes [[others]] more effort to understand 60% of who I am (my desires, beliefs, story, etc.) than for me to understand 60% of theirs, and I do not intend for there to be an asymmetry in effort. A hedged-charitable weighing of skin in the game plays a role in how I prioritize and pick out what is [[salient]] in my context.
+Oct 1, 2020 9:21pm
+[[T-Money]] is a go to example. I'm a free source of emotional labor for him. Now, he works hard to act like he cares what I think and feel, but it's demonstrably the case that he doesn't care much other than how it affects him. It bums me out that I don't get to have depth in the relationship, and I think he often is just using me. It's my honor to be useful to him, and especially to be useful to his daughter.
+Oct 1, 2020 9:25pm
+I don't think most people are quite like [[T-Money]] though. There's also something to be said for just looking at the wiki without asking anything of me (I think this is one of multiplicative benefits of writing openly).
+Oct 1, 2020 9:29pm
+I work toward being able to tell (and rethink, revise, and retell) the stories of who we are together. There's habit and inertia in our narrative-driven attention-spans. Progress in mutual story-telling [[irwartfrr]] is important to me. I often feel like I have to simply accept a lie with [[T-Money]], pass over it. Maybe it's just a mistake to be corrected (and, my wiki is proof that I make countless mistakes). That's much closer to the bummer for me. There's a Golden Rule matter at stake in how I hope to reason about how desires, even those involving my wiki, are weighed. I can't say I know how to do it well enough.
+Oct 1, 2020 9:37pm
+Overall, though, I think it's absolutely critical that any reader has the chance to sift and search for what they think matters. In a sense, only they can write that part of our story. So, I tend to think it's a good thing they search for even primarily themselves.
+Oct 1, 2020 9:44pm
+"""

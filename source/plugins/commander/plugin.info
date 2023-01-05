@@ -1,0 +1,14 @@
+{
+    "title": "$:/plugins/kookma/commander",
+    "author": "Mohammad Rahmani",
+    "core-version": "5.1.19",
+    "created": "NaNNaNNaNNaNNaNNaNNaN",
+    "creator": "Mohammad",
+    "description": "Tiddler Commander",
+    "list": "readme license authors",
+    "modified": "NaNNaNNaNNaNNaNNaNNaN",
+    "modifier": "Mohammad",
+    "plugin-type": "plugin",
+    "tags": "",
+    "version": "0.0.15"
+}

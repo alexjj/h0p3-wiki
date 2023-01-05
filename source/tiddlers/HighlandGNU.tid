@@ -1,0 +1,41 @@
+created: 20220415141644659
+modified: 20220415163957583
+tags: Aether [[FTO: Seemingly One-Off Online Encounters]] FTO [[FTO Mode: Alien]]
+title: HighlandGNU
+
+!! Information:
+
+* `aether://user/12447b6a62cc0e73af2b5847724be5ab395c554b9bfc72f2de2174c9a886385e`
+
+!! Communications:
+
+; 2022.04.15 - HighlandGNU: Flaws in Aether
+
+<<<
+>>> I'm probably unfamiliar with your use of the term "blocknet".
+
+>>> Flooding that drowns out genuine signal may be a type of censorship ([[https://philosopher.life/#COINTELPRO Forum Techniques]]), but a proper floodnet should otherwise be fairly resistant to a firewall style of outright blocking. Moderation that isn't built on friend-to-friend P2P concepts will centralize either through sybil attacks or a complete lack of distributed governance. It's worth giving up global consensus such that we don't all end up seeing the same feeds.
+
+>>> Aether is not currently built for significant anonymity beyond standard VPNs. That's on the wishlist. Friend-to-friend trust requires at least pseudonymity, though it can and should still be routed over mixnets or onion routing tools by default.
+
+>>> Flood routing can still operate on friend-to-friend networks, and there can be additional benefits for networking with known friends instead of strangers in some cases. Bootstrapping into such networks may have a higher barrier to entry than most randos are willing to pay. To ease that pain, in my experience, natural federation emerges, with some powerusers (or honeypots*) taking on any anon who wishes to connect. If content (and therefore the semantic identities of users) is too ephemeral, it can be difficult for long-term relationships among users to form. I will continue to argue that the health of the network must be based upon users putting their computational skin in the game, seeding resources long-term, as we find on standard torrent networks.
+
+>>> To my eyes, Aether is so small and fragile while not suffering from any major attacks (except what accidentally occurred recently) that it makes sense for everyone to see everything. The mechanisms need to be already in place to switch though. Making it so that the users control and practice choosing who their moderators and curators are from the beginning for at least some of their feeds will allow the network to organically scale while maximizing signal-to-noise ratios and trust too.
+
+>> Would that be possible without reducing anonymity on the network as a whole? Because Aether is a floodnet, it is difficult to target censorship, in the way that might be possible on a blocknet.
+
+> Those attacks don't exist on this network because no one has tried. They will work though. PoW for new post from a new user is probably around 20 seconds per core on my machine.
+
+> This is a reason that I'd like to have a shard of feeds and networks based on just people I pick for moderation and curation. Happy to distribute, proxy, and host for them too. Friend-2-friend models can defeat many of these classic problems. I don't need a global consensus, but I do need to be able to leverage chains of trust.
+
+There are some other reasons mentioned here:
+
+https://github.com/plebbit/whitepaper/discussions/2#discussioncomment-2562316
+
+* POW (Proof of Work), it is argued, cannot defeat spammers, who would pay for the POW and then flood the network with spam
+* Sybil attacks could be used to vote out a moderator, it is argued
+
+@b might have something to say about this
+
+Plebbit looks like it could be very good. It only exists as a whitepaper at the moment, and a bit of code. I think most people who hear "Plebbit" think that it is just a derogatory reference to Reddit. They are entirely unaware that there is potentially a viable solution there.
+<<<

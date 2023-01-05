@@ -1,0 +1,67 @@
+created: 20201115030210467
+creator: sphygmus
+modified: 20201115105742570
+modifier: sphygmus
+revision: 0
+tags: Note Sphygmus From
+title: 2020.11.14 - hyper/space: holding conversations without notifications
+type: text/vnd.tiddlywiki
+
+<<<
+"""
+so how do you have conversation
+they speak from their sites
+go to their site and read what they have written
+and copy portions back
+you are moving manually text
+it is not an organic conversation
+"""
+<<< [[IndieWebCamp East 2020|https://etherpad.indieweb.org/spreadingindieweb]]
+
+* interesting notes here... I feel like "oh you just read their site and trust / know that the other person is reading the site" is such a huge leap away from things like the "feed" and heck even IMing, where notifications of messages are instant. it's slightly more like blog days but even then feed readers could notify you of posts...
+
+** I think one of the harder parts to solve for is -- okay, this method works when I'm literally reading your wiki every day / every other day / at least catching up on everything you've written in a week at some point during that week -- but what if I, some reader who also converses with you, only can check in once every two weeks, or once a month, and your notes to me get "lost" or "buried" because they're not surfaced for me?
+
+*** currently this relies on my knowledge of how to go find those notes -- ie, filter searching for my name or looking for new tagged things -- but also doesn't catch the more subtle conversational winks and nods unless I'm reading //everything// created in the time period in which I wasn't reading (perhaps not an unreasonable ask) (and perhaps those nods can only exist because of the frequency with which we're both writing and reading each other?) -- this knowledge is shared because I use the same tool, but if I didn't use the same tool I probably wouldn't have the same skill?
+
+** is it worth trying to build tooling for these readers? but the lack of it as being a natural filtering mechanism of sorts as has been brought up before.
+
+* [[dunbar's number|https://en.wikipedia.org/wiki/Dunbar%27s_number]] problem too -- what is the max number of people I could keep with with a daily or weekly wiki read-through? for me, two? with the few others I check up on mayyybe monthly or bi-monthly?
+** b/c when you're asking for that level of connection it requires a certain amount of focused attention and emotional engagement (that most people don't want to engage in, or don't have the ability to sustain longer term given relative busy-ness of life circumstances etc.)
+*** which is why also supplementing the wiki with something like the LLounge is nice because that provides the easy "hanging out" social connection building in addition to the deeper bridge building of the wiki...
+
+<<<
+the enormous amount of material to be read, leading to the desire to skim everything because there is way too much material to pay close attention to anything for very long.
+<<< [[How We Read: Close, Hyper, Machine, p.67|https://www.ade.mla.org/content/download/7915/225678]]
+
+Is this not something the IndieWeb has to contend with?
+
+---
+anyway I wanted to push back on the "it is not an organic conversation" b/c like -- WHAT ''IS'' AN ORGANIC CONVERSATION //ANYWAY// ????
+
+what qualities of the hyperconversation make it "un-natural" as such?
+
+idk why this bugs me so much, but it does. maybe I'm just contrarian.
+
+---
+GOSH I LOVE SYNCHRONICITY and the way the wiki provides for this sort of thing, too -- see, look -- at this time last year I had thoughts on the same: 
+
+<<<
+{{191114 – Log: Each On Their Hill Around}}
+<<< [[191114 – Log: Each On Their Hill Around]]
+
+it's like a two part equation, in which both are necessary and valuable but neither one supersedes the other and they both contribute equally... heh. a dialectic, perhaps.<<footnote "?" "though I feel like my understanding of the word philosophically is erm, probably not thorough.">>
+
+<<<
+I will not attempt to define meaning but merely observe that wherever and however it occurs, meaning is sensitively dependent on context. The same sentence, uttered in two different contexts, may mean something entirely different in one compared with the other. Close reading typically occurs in a mono-local context (that is, with a single text). here the context is quite rich, including the entire text and other texts connected with it through networks of allusions, citations, and iterative quotations.
+<<< [[How We Read: Close, Hyper, Machine, p. 74|https://www.ade.mla.org/content/download/7915/225678]]
+
+''We are able to closely read each other because of the rich context generated through our hypertext wiki objects.''
+
+---
+^^I'm not sure why people appear to struggle so much with the idea of returning to a website again and again to read the new stuff -- isn't like, visiting websites part of the notion of hypertext<<footnote "trail" "look up //hypertext// in wiki > see a short story by borges considered to be an inspiration for hypertext > ahhh a link with tapeda and borges. perhaps it should go on the reading list.">> itself in digital form? it's really feeds and subscriptions and notifications that are new and diluting the "pure experience" if you will.^^
+
+---
+> an argument in which both people are working together to find the truth... 
+
+lmfao yes it does seem that most people on the internet aren't in it to be dialectical.

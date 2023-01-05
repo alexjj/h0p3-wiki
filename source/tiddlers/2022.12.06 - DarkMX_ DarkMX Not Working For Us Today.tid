@@ -1,0 +1,100 @@
+created: 20221207010036886
+modified: 20221207082500716
+tags: Chatlog DarkMX
+title: 2022.12.06 - DarkMX: DarkMX Not Working For Us Today
+
+https://darkmx.app/forum/96
+
+by Guest on 2022/12/07 01:29:35 AM        Pending
+
+Three people in our house use it, and we're having trouble today. We're long-term, everyday users with no major systems changes.
+
+I'm on 1.25, Arch Linux. This is my error:
+
+```
+$❯ ./darkmx
+(darkmx:3505117): Gtk-WARNING **: 18:44:52.564: Unable to locate theme engine in module_path: "murrine",
+(darkmx:3505117): Gtk-WARNING **: 18:44:52.564: Unable to locate theme engine in module_path: "murrine",
+(darkmx:3505117): Gtk-WARNING **: 18:44:52.565: Unable to locate theme engine in module_path: "murrine",
+(darkmx:3505117): Pango-WARNING **: 18:45:29.931: Invalid UTF-8 string passed to pango_layout_set_text()
+(darkmx:3505117): Pango-WARNING **: 18:45:29.970: Invalid UTF-8 string passed to pango_layout_set_text()
+(darkmx:3505117): Pango-WARNING **: 18:45:29.997: Invalid UTF-8 string passed to pango_layout_set_text()
+(darkmx:3505117): Pango-WARNING **: 18:45:30.004: Invalid UTF-8 string passed to pango_layout_set_text()
+(darkmx:3505117): Pango-WARNING **: 18:45:30.551: Invalid UTF-8 string passed to pango_layout_set_text()
+[1]    3505117 segmentation fault (core dumped)  ./darkmx
+
+$❯ cat ~/darkmx_crash_report.dat
+hdr: 125 darkmx_1.25
+bld: L64
+sig: 11 11 0 1 0
+time: 0000000000000000 0000000000000000
+lbas: 0
+loc: 0000000000000000 0000000000000000 0
+
+stk: 000000000072e93f
+stk: 0000000001a5dce7
+stk: 0000000001a2847f
+stk: 00000000005d795a
+stk: 00000000005d569d
+stk: 00000000007344f8
+stk: 00007ff2cfe5f87b
+stk: 00007ff2cfe5eddf
+stk: 0000000000736a28
+stk: 00007ff2cf1ff290
+stk: 00000000004889be
+
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+exd: 0000000000000000 0
+
+esd:
+esd: 1979013378
+esd: 1790627051
+esd: []
+esd: [2100571114,1,2096411134,0,2118712105,1]
+esd:
+esd:
+esd: []
+esd:
+esd:
+esd:
+esd:
+esd:
+esd:
+esd:
+esd:
+```
+
+Immediately after the initial loading screen, it crashes.
+
+Another person on 1.23-1, Arch, has a similar output.
+
+Another person on 1.23.?, Windows, also isn't able to connect.
+
+Other Tor processes in the house are working fine. Presumably, we're the only people having this problem. Please let me know if I can do anything to assist in debugging. 
+
+>  Thanks for the info. The Devs know about this and are releasing a fix later today. 
+
+''''
+
+> DarkMX v1.26 is out. Everything should work.
+
+''''
+
+> Fixed for v1.26, just released.  There was a bug in processing a change to the root directory list but we're all set now.
+> Sorry about that... 
+
+There's nothing to apologize for, sir. We are [[lucky]] to be able to use this software. It's a shining beacon in the desert. Thank you.

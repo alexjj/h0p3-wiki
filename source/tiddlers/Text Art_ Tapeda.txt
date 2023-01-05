@@ -1,0 +1,104 @@
+`9MBBBBBBBBBBBBBBBBBBBBggwjj..
+......jjjjjj.....  .T9MBBBg.          `"TT9PBBBBBgw,.
+..jgBBBBBBBBBBBBBBBPT9MBBBBBBg.. T5BBB,.                |`TMBBBbw..
+..gBBBBBBBBBBBBBBBBBP'     jBBBBBBBBBBBBw.|TBBb,                    |T9BBBg,.
+.jWBBBBBBBBBBBBBBBBMP'  .x^  .BBBBBBBBBBBBBBBBBBg.75BBBBBBBBBggx,..           `TMBBg,
+..ABB$4BBBBBBM$'^       .jWB'  .dBBBBBBBBBBBBBBBP$'`9BBg.`MBBBBPBBBBBBBBBBBgg..        `5BBg.
+.xBBR'  .BBBMT   ...jgggBBBBP^  .dBBBBBBBBBBBBP'    ..jgBBBBBp ?BBBm.    `TTPBBBBBBBBg..      `5BBg.
+.gBBBBF   .BP'  .gBBBBBBBBP$'       .BBBBBBMP'     .jWBBBBBBBBBBBBb.|MBBBp         .T9MBBBBBBg.      ?RBb,
+.gBBBBBBF    '  .WBBBBBP'        ..Y   ^    ...xWP  .jBBBBBBBBBBBBBBBBBb.JMBBBB,            |TMBBBBBg.     `MBB,
+.jBBBBBBBBY     .yBBBBBT .jZ'   ..wBP  jggBBBBBBM$        .`TTPBBBBBBBBBBBBBb.JBBBBBb.              `9BBBBBw.    `MBb,
+.WBBBBBBBBP     .dBBBBM\jWBB'.ygBBBMT.aYjBBBBBB$ .xBBBBBBBggj..      `TMBBBBBBBBm ?BBBBBBp        ..      `9BBBBg.    *RBg.
+.jBBBBBBBBBM'    .xBBBBBFjBBBBF ,'+..gBBP jBBBBBBl JBBBBBBBBBBBBBBBBBWw.     |TMBBBBB,.MBZBBBBb,     8BBBb,      ?RBBBp.    9BB,
+.aBBBBBBBBBP^    .jBBBBBBBBBBB$ .wBBBBM$^..BBBBBBBBBc 9BBBBBBBBBBP'....             `5BBm 3BmJ5BBBBp    9BBBBBBp.     `5BBBw    `MBm
+.dBBBBBBBBBD^    .yBBBBBBBBBBBFjABBBP^ ..gBBBBBBBPT+jjegBBBBBBBBBB! BBBBBBBg,  .9BBBg,.  JBD JBb  ?BBBBm.  3BBE5BBBBp      7RBBb.   ,9Bm.
+.dBBBBBBBBBBB   jgBBBBBBM4BBBBBDdBBB\. .dBBBBBBBBF dBBBBBBBBBBBBBBBBb 9BBBBBBBBBB,  9BBBBBBg,BB..BD   ,9BBBb. 3BB, ?BBBBB,      ?BBB,    9Bb.
+.dBBBBBBBBBBBBK  JBBBBBBP'.BBBBBBBBBBAB' dBBBBBBBBB:.BBBBBBBBBBBBBBBBBPP 3BBBBBBP"T9Bm. ?BBBBBBBBB,.BD     `MBBB,@BL   ,9BBBBw      JRBBm    9Bb.
+jBBBBBBBBBBBBBF  .BBBBBBBBgBBBBBBBBBBBBF jBBBBBBBBBB,.BBBBBBBBBBBBBP^ .gBBBBBBBBB,.BB, 7\  9BBBBBBBB,.Bb       ?BBBBB      9BBBBw      .9BBm    9Bm
+.BR!.BBBBBBBBBBY  .BggBBBBBBBSdBBBBBBBBBF .BBBBBBPT'ijjjgggBgggge%TPF  BBBBBBBBBBBBB,3BBB,    JBBBBBBBB,JBL        J9BBL       9BBBB,       9BBm   .9Bm
+.dBB! .BBBBBBBBT  .ABBBBBBBBBF BBBBBBBBBB^ .BBBBggBBDjBBBBBBBBBBBBBBBBBp.?BBBBBBBBBBBBBmJBBBb   qyBBBBBBBD 3B,          7B        JBBBBD.      .MBBm   JBB,
+.BBBB   7BBBM$   .dBBBBBBBBBB' .BBBBBBBBBB  3BBBBBBBBBuJ5BBBBBBBBBBBBBBBBBBm,9BBBBBBPTTT5LJBBBB,  @BBBBBBBBL BE             ...wggBBBBBBBBm       JBBBu   3Bb
+.dBBBBD         .jBBBBBBBBBBP$'  .BBBBBBBBBB  .MPT"              79B\BBBBBBBBBBB,9BBF .wBBgg.3BBBBc  BBBBBBBBB,JB;        .jBBBBBBBBBBBBBBBBBBBBgj..  9BBB.  .5B,
+.BBBBBBK  .g,..jBBBBBBBBBP^      .dBBBBBBBBBBm      .........          9BBBBBBBBBBbJB jBBBBBBBBBBBBBc    `9BBBBb BD     .xBBBBBBBBBBBP$T""^`""TTPBBBBBBWeBBBm.  JBb
+jBBBBBPT   jBTBBBBBBBBP'        .8P9swWBBBBBBBBF    7BBBBBBBBBBBBBg,      3BBBBBBBBBD .BBBBBBBBBBBBBBB,       `8B 4B,  .dBBBBBBBBP' JBB,              `BBBBBBBBBp..BB,
+.dBBP'  .,   @BBBBBBBBBBBBggjjjjjwgBBBBBBBBBBPT   .jWBBBBBBBBBBBBBBBBBBBw     8BBBBBBBBbjBBBBBBBBBBB^ ?BB  @BB,  jBl.BL jBBBBBBB$      jBK               BB^,TBBBBBBb,9Bp
+.BR  .jBBBB  .BBBBB$     `TTT5BBBBBBBBBBBBP'                 `T5BBBBBBBBBBBm    3BBBBBBBBrJBBBBBBBBBK.g. 8L .BBBBB,BE @DBBBBBBM'        .Bl              dB'     ?MBBBBBZBm
+.BF.yBBBBBBE  .BBP          .WBBBBBBBBBM$       . ........         `9BBBBBBBBD.   3BBBBBBBB BBBBBBBBBl.BB  5  @BBBBBBB dBBBBBBY          JF            .jBP^         9BBBBBBb
+.BBBBBBBBBBBK  .F         .aBBBBBBBBBB$    .jgBBPaBBBBBBBBBBBBBg.      `BBBBBBBB    @BBBBBBB;JBBP$T9BBKjBBb    jBBBBBBB dBBBBR          .dF          dBP$'              ?BBBBBD
+.BBBBBBBBPT^        j,  ..BBBBBDT^      .wBBBBBBBljBBBBBBBBBBBBBBBBB,     JBBBBBBE   .BBBBBBBK.P .jg,.JKjBBB     BBBBBBB JBBBF            JBn....... .dK                   3BBBBB.
+.BBBBBP^  ..wB;      dBgdBBBBBP       .gBBBBBBBBB\dBBBBBBBBBBBBBBBBBBBBm.    9BBBBB;   @BBBBBBD .BBBBBBB,dBBB; jw @BBBBBB JBBBw.         .yBBBBBBBBBBBBBg.                  .dBBBBB
+.BBBP  .jWBBBBBBgw.   JBBBBBP'       jBBBBBBBBBBB.QBBBBBBBBBBBBBBBBBBBBFzZ:    JBBBBE   dBBBBBBB @BBBBBBBBBBBBK .BBBBBBBBB dBBFTMD      jBP'jBBBBBBBBBBBBBBBBg.     .      .jBBF3BBBB
+.BBY .jBBBBBBBBBBBBBE  @BBB$       .fdBBBBBBBBBBB!.BBBBBBBBBBBBBBBF|.ggggBBBb    JBBBB   JBBBBBBB @BBBBBBBBBBBBK  BBBBBBBBB dBB   JD   .BP   @BBBBTTTTRBBBBBBTRBBp. .B5BBBBBBPT   ,BBBD
+.BD .gBBBBBBBBBBBBBBBE  @M'  .,   .dBmjBBBBBBBBBBB  $'`........,T5F.BBBBBBBBBBE    @BBB   JBBBBBBB BBBBBBBBBBBBBK  BBBBBBBBF BBE    BWWyBF    BBBBF      9BBBB;  9BBBP'             .BBBb
+dBidBBBBBBBBBBBBBBBBB^     .AF   jBBBFdBBBBBBBBPT    `"T5BBBBBBBBBp.9BBBBBBBBBBL   jBBB   dBBBBBBF.BBBBBBBBBBBBBl  9BBBBBBB!.BBE      .BF     BBBBK      .BBBB;   .BBBm              .BBBm
+jBBBBBBBBBBBBBP$'        .eBBF  .dBBBB.BBBBBBP'             ?BBBBBBBBB,3BBBBBBBBB   .BBB   BBBBBBB!jBBBBBBBBBBBBB!   JBBBBBD JBBE      dE      @BBBB      dBBBB   .BM`BBBv             .BBBr
+.BBBBBBBBBB$^   ..gBBBBl.ABBBF  .BBBBBE.BBBB$      ..j,.       3BBBBBBBBmjBBBBBBBB,   BBE  .BBBBBBB BBBBBBBBBBBBBB  .D. 9BBB'.BBBB     .Bl      JBBBBb   .dBBBB'  jB$   @BBb             jBBB
+dBBBBBBMT  ..gBBBBBBBBBBBBBBF  .BBBBBBE JBY     .jBBBBBBBBw     JBBBBBBBBLJBBBBBBB;   BB'  dBBBBBBF.TTMBBBBBBF?BBE  JBB, 8BE JBBBB,    .B;       BBBBBBBBBBBBBF .BF     dBBBE             JBBE
+.BBBBBF  .jBBBBBBBBBBBBBBBBBF   .BBBBBBBm       jBBBBBBBBBBBb     dBBBBBBBB,T'+79BB   .BF  .BBBBBBB .,.  ?BBB$.,@B' .BBBD dB .BBBBBBg,  .B;       .BBBBBBBBBBBF.BP      .BBBBBD             BBBr
+BBBBF  .ABBBBBBBBBBBBBBBBBBB   j.3BBBBBB!.c    JBBBBBBBBBBBBB;    jBBBBBBBBljBBBBpP   .E  .BBBBBBB!jBBBBb JB'jB!3E  JBBBBgB'.BB8BBBBm?D.gBl         9BBBBBBBBDP'        dBBBBBBb   .        .BBB
+jBBP  .BBBBBBBBBBP$'           .BDJBBBBF.aB    jBBBBBBBBBBBBBB!    JBBBBBBBBE.BBBBBK   J  .BBBBBBBF.BBBBBBB  jBB;J! .BBBBBBF dB! 9BBBBm   3E            `"TT"           JBBBF9BBBBgARb.      .@BBL
+BB$ .ABBBBBBBP'      ..jwggggw JBDjBBBF.BBF   .BBBBBBBBBBBBBBF    .BBBBBBBBBFJBBBBE      .QBBBBBBF.BBBBBBBBbBBBB   .BBBBBBF jB'   3BBBBb  .B,                          jBBBF  @BBB   .9BBgggBBBBBB
+.B' jBBBBBBP'    ..gBBBBBBBBBBE @BB BBEjBBB^    *BBBBBBBBBBBM'    .BBBBBBBBBBKdBBBE      .BBBBBBBF.BBBBBBBBBBBBBK  .BBBBBBF jB'     JBBBBBp jB                        .dBBBF   .BBBL      `"""  @BBL
+@B.BBBBBBP    .jBBBBBBBBBBBBBBK BBB,JBjBBBB j.     `T5MMM$'      .BBBBBBBBBBB|BBBF      .BBBBBBB'.BBBBBBBBBBBBBF   .BBBBB' dB'        ?BBBBBpJD.                     jBBBB'     3BBB            JBBB
+.BBBBBBBB'   .dBBBBBBBBBBBBBBBBl.BBBB, BBBBB jBb.              .jBBBBBBBBBBBBFJBB$      jBBBBBBM jBBBBBBBBBBBBBF    .BBBM .BB!           ?BBBBBBBw                 .jBBBBF       .BBB;           .BBB;
+JBBBBBBF   .dBBBBBBBBBBBBBBBBBBl BBBBBjBBBBB;.BBBBWx..    ..jgBBBBBBBBBBBBBBBjBP      .BBBBBBB$ JBBBBBBBBBBBBBF  jK .BBP .BF               |5BBBBBBB,.          .jBBBBBP          @BBK            BBBb
+dBBBBBF   .BBBBBBBBBBBBBBBBMPPP' @BBBK@BBBBBE 3BBBBBBBBBBBBBBBBBBBBBBBBBBBBB2$      .BBBBBBBP jb 3BBBBBBBBBBB' .BBKjBP .dB$                   |9BBBBBBBBBBggBBBBBBBBP^            3BBE            @BBB
+.BBBBB'   jBBBBBBBBBM$'...jggggg, JBBBlBBBBBBBc 8BBBBBBBBBBBBBBBBBBBBBBBBBBF       .BBBBBBBM'.BBBr.BBBP^.BBBP .dBBBBP' jBP                          TTPBBBBBBBBBPT"                dBBB            dBBB;
+.BBBB'   dBBBBBBB$  dBBBBBBBBBBBB  @BB;BBBBBBBBp 9BBBBBBBBBBBBBBBBBBBBBBP'      .gBBBBBBBR'.ABBBBD T:j, JBF  jBBBBP^ jBM'           ......                                         dBBBB,jm        @BBBl
+.BBBF   JBBBBBPiyBBb,JBBBBBBBBBMP' .BBlBBBBBBBBBb. ?PBBBBBBBBBBBBBBBPT       .jBBBBBBBBM'.BBBBBBBBgBBE .P .jBBBBP  .BBk.jggBBBBBBBBBBBBBBBBBBBBBBBgg,..                            BBBE " 9B,     .BBBBE
+JBBF   .BBBBFjBBBBBBB;@BBBPT        .Bb3BBBBBBBBBBB,.    `"""""          ..gBBBBBBBBBP^jBBBBBBBBBBBBY   .dBBBP' .jBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBg.                      .BBBK    ,9BBBBBBBBBBB
+dBB   .BBBPjBBBBBBBBBLBP              5JBBBBBBBBBBBBBBBg,.        ...jgBBBBBBBBBBBBTjdm.BBBBBBBBBM'  .jBBBP'  .WBBBBBBBBBBBBP$T"^    ..jxcTTT""^ ``TTPBBBBBBBBw                   dBBB         `"|B@BBBB
+dB'   JBBtaBBBBBBBBBBP      .gBBB,     'JBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB$xgBBBBr3BBBBBB$  .jBBM$^  .gBBBBBBBBP'         .jZPT^                   TMBBBBBb.               .BBBF           d\BBBBB
+dB   .BB|BBBBBBBBBBBF     jBBBBBBB,      JBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBM5jgBBBBBBBD.BBBP .jWBM$   .jWBBBBBBPT         ..ePT                            ?BBBBBb.            .BBBE           JF.BBBBB
+dB   .B|BBBBBBBBBBBF    .BBBBBBBBBBp       9BBBBBBBBBBBBBBBBBBBBBBBBBBBBM5seBBBBBBBBBBBP ` .jBBP^  ..gBBBBBP'  3b       .jRT                                  3BBBBBc          jBBBD          .dF dBBBBB
+3B   3\BBBBBBBBBBBB    .BBBBBBBBBBBBB,       ,9BBBBBBBBBBBBBBBBBBBBBPSygBBBBBBBBBBP'    .jBB$  ..gBBBBBBM'     .B,   .gRT                                      JBBBBBm       .BBBBF          .B' .BBBB@B
+dB   FJBBBBBBBBBBBl    BBBBBBBBBBBBBBBBw         .TTPBBBBBBBB5QgggBBBBBBBMP$T"        .ABP  .jBBMGWBBBP         3D.jB$          ..jgBBBBBBBBBBBBg,.             3fBBBBp  ..gBBBBM'@        .jP   dBBBFdB
+JB,    ..  `RBBBBB    .BBBBBBBBBBBBBBBBBBBw.                                       .jBM' .jBBPiaBBBBT           .BP^        .jBBBBBBBBBBBBBBBBBBBBBBB,          .D 8BBBBBBBBBP'   @,     .jP'   .BBBE dB
+.B;  JBBBBBB,JBBBD    dBBBBBBBBBBBBBBBBBBBBBBBg,.                           ...jggBBP^ .BBP^.WBM@BF  .,      .jBP        .gBBBBBBBBP'              `9BBm         @  @BBPT^        JBw...dP^    .BBBB  BD
+.BK  @BBBBBBBBjgp'    @BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBggjj........jwgggBBBBBBBBBBBP .jBM' .BBM'.BByBPBE    .jBP       .gBBBBBBBP^                     ,BB,       d   BBl          .jBBMT      .BBBB' .BF
+@B  BBBBBBBBBBBBL    @BBBBBBBBBBBBBBP$'`       `TTPBBBBBBBBBBBBBBBBBBBBBBBBBBBBP! jBP^ .ABD'  JBP'  3B,  jBP       jBBBBBBBM'                         .BB,      3   JBBxjjjjjggBBM$^        .BBBB'  .Bl
+3B, BBBBBBBBBBBBB    @BBBBBBBBBBP'      .......      .TBBBBBBBBBBBBBBBBBBBBBBBY jBBB  jBBF          .Bb.BP      .jBBBBBBBSF                            .BE      B    BBTTTTT"^             .BBBB'   JB
+.Bl @BBBBBBBBBBBB    JBBBBBBBB$    ..gBBBBBBBBBBBW,      ?RBBBBBBBBBBBBBBBBBF .BB9BB.BBB!            JBB'      jBBBBBBM'.F              .jgBBBBBBBg,.   @B,    .F    @B                  .ABBBE     @B
+BD JBBBBBBBBBBBB,   .BBBBBBP    .ABBBBBBBBBBBBBBBBBB,v     9BBBBBBBBBBBBBB$ jBF .BBBBE             .BF      .BBBBBBB' .D            .WBBBBBBBBBBBBBBBp jBl    dBc   dB                .dBBBBF     .BF
+4B,.BBBBBBBBBBBBL    @BBBD^   .BBBBBBBBBBBBBBBBBBBBBBm9b,    9BBBBBBBBBBB'.dB'  .BBBD             jBY      jBBBBBBF   d!          jBBBBBBBPTTTTTRBBBBBBgBl   jF9B,  dB             ..BBBBBF      jBB^
+.Bb BBBBBBBBBBBBB    .BBF   .dBBBBBBBBBBBBBBBBBBBBBBBBL3BB,    9BBBBBBBB .BR    jBBB             jB!      dBBBBBBF   .B          dBBBBBP          .9BBBBB!  jF  @K  @E          .jBBBBBBP      .BBBE
+3B,   ..j..?MBBBl    JE   .BBBBBBBBBBBBBBBBBBBBBBBBBBB,@BBb    JBBBBBB .BF    jBBBK  .g        jB^     .dBBBBBBE    .B         dBBBBE              dBBBB  jF   jD .Bbj...jjgBBBBBBBBP'      .dBBSB!
+.Bb dBBBBBBBpJ\j.        .BBBBBBBBBBBBBMPBBBBBBBBBBBBBE.BBBB    .BBBB^.BF    .BBTB! .BBb      .B!      dBBBBBBB     .B        .BBBBB              .BBBBF.BF    .E JBBBBBBBBBBBBM$'        .jBBF BB
+3B,JBBBBBBBBBBBBb      .BBBBBBBBBPi,       ?BBBBBBBBBB jym7B    .BB'.BB,   .BBF.B,.B'3Bb    .B'      JBBFJBBBEN.   .B        .BBBBB             .BBBBBdBF     .BmBBBF                  .aBBP' .B'
+BD BBBBBBBBBBBBBb     JBBBBBBP'jB!          8BBBBBBBB;dBBBp.   .BF dBBb   dBB^ BgB'  JBBBggBF      .BBE dBBB! 7MBBPBr       .BBBBBb           .BBBBBBBD       .BBBE                ..BBBP'  .BE
+JBLjBBBBBBBBBBBBBb    BBBBBP!jBD      .      BBBBBBBB!dBBBBB,  dB .BPBBc .BBE  JP      `TPDB       BBB! @BBB!      JB        JBBBBBB,       .ABBBBBBT3BE      dBBB              .jBBBB$     JB!
+8B,3BBBBBBBBBBBBBb   BBBB'.BBB^   .ABBBb    jBBBBBBB dBBBBBK .BK.BE ,BBmJBBK             BF      jBBD  @BBB;       9D        JBBBBBBBBgwwBBBBBBBBT   3B     dBBB!  .yB  ...jgBBBBPT       .BF
+BD 8BBBBBBBBBBBBBB,  9F jBBBF   .BBBBBBL    @BBBBBF.BBBBBBB dB .B!   9BBBB!            .B       @BBK  3BBBL        JBw        9BBBBBBBBBBBBBBP^     dF   .ABBB' .dBBBBBBBBBM$'          .BE
+.Bb @BBBBBBBBBBBBBBb   dBBBB!   JBBBBBBB    dBBBBB JBBBBBBB.BF @B     JBBB             JB      .BBBl  JBBBB          ?Bb,        T5MBBBBBBP^       .B   .BBBB:jBBBBBBF^               .dBB^
+JBp @BBBBBBBBBBBBBBP   *BBB    JBBBBBBB    dBBBB'.,srBBBBD.B!.BF      dBB             @E      .BBBl   BBBBb          dBT5BBBBggBBBBBPBB;          JW .dBBBBBBBB$ @BD               .dBBB'
+3Bc 9BBBBP' .,,+T\dBBb. .9!     |TPPM$    BBBF jBBBEJBBBFJB jB!      3BB             @K      .BBBK   jBBBBb   ....jBP^              jB!          .BgBBBBBBBM'   @BD            ..BBBDBF
+9B, JM' .BBBBBBBBBBBBBBg.               .BP .BBBBBBm,9B^3B dB     . dBB             @K      .BBBD    JBBBBBD8M                     BF          .BBBBBBBBP     .BBBBg,.     .jBBBP'.BF
+9B,  .ABBBBBBBBBBBBBBBBBBBg.           ..gBBBBBBBBBBg, @B dB     BBjBB,  .B,     .jBE       BBBB,    JBBBBBm.                   .ZY        .jBBBBBBBM'    .w,.BBBBBBB..wBBBBP'  .BF
+9Bv  7BBBBBBBBBBBBBBBBBBBB.WBBBBgggBB,9BBBBBBBBBBBBF  @B dB     @BBBBl  .B9BbjjgBM8B       3BBBb      9BBBBBB,                .B,     ..gBBBBBBBB$    ..BBBBjBBBBBBBBBBP'     .BF
+3Bn   9BBBBBBBBBBBBBBBP$TjBBBBBBBBBBD:dBBBBBBBBBBF   @B 3B     JBBBBD  .B  ?5P$^ .B,       BBBBp      .9BBBBBBBg,.           .P ..jgBBBBMT         .dBBBBBBBBBP3BBB        .jBF
+3Bm    ?BBBBBBBBBBF..BBBBBBBBBBBBBF.BBBBBBBBBBBY    dB dB      BBEBBl .B         @L       jBBBBm        ?MBBBBBBBBBBBggggggBBBBBBBBBM$         .jBBBBBBBBBBP^ JBBB      .dBBF
+JBB,    ,9BBBBBB'.BBBBBBBBBBBBBBB JBBBBBBBBBP     .dB;jBB,    JBB 8BmdB         jB,       JBBBBD,          T9MBBBBBBBBBBBBBBBBBBP'           795PBBBBBBMT    dBBF  ..gBBBBF
+,BBBw     .?BB' dBBBBBBBBBBBBBBB JBBBBBBMT      .BBBL.BBBBb,. BBL 7BBF          3E        .BBBBBb,                  ..gBBBBP'        ..jwggggwj...        , @BBbgBBBP'dB'
+9BBBb,        PBBBBBBBBBBBBBBBl 9BBPT       .dBBBBB @BRBBBBBBBB,              jBb         ?BBBBBBBg..           9BBBBE^   .  ...gRPTgBBBBBBBBBP       .9'.BBBMP'  .BD^
+JBBBBBm.  i,.    `TT5PBBBBBBP$           .WBBBBBBB;.BL .TMBBBBB,            .BF9b          ?BBBBBBBBBBBBBBBBBBBBBBBBBB          .dBBBBBBBPT       ..gBBwdBBB    .BF
+.5BBBBBw  JBBBBgj...                ..ABBBBBBBBBBD @B       @BB,   .Bg,...gBE  JBp          dTT5BBBBBBBBBBBBBBBMPT9BBl         .BBBP$'         .BBBBBBBBBBE  .dB$
+3BBBBBB,  9BBBBBBBD.     ....jwgBBBBBBBBBBBBBBBBr.Bb      .BBBv   JB79MPP'     ?Bm.      "         ``5B,        .BBK         JBB'         .aBBBM$" |9BBBl .BP
+.9BBBBBb, J5BBBBBBBm    3BBBBBBBBE?BBBBBBBBBBBBB JBr     jjBBBb   JB.           .9Bg,.               4E...jr^  jBB'         dB!        .aBBB$       4BBiABY
+JBBBBBBb. |BBBBBBBB,   JBBBBBBBB  |MBBBBBBBBBBb 3B,     9BBBBBp  JB,            dBBTT56ej......xggDBPP'     .BD^        .2$      .j.jBBBY         .BBBF
+?BBBBBBb. |MBBBBBBB,   ?BBBBBBr .  ?BBBBBBBBBL @B,     JBBBBBBw jB,        .jBBP             JB;         .BB            ....     3BBF           jBM!
+9BBBBBBb. ,8BBBBBBB,   `MBBBB .Bw  J9BBBBBBBc @B,      ?BBm,?PBP      ?BDTT^               jB!        .BB'.r         JBF      .BBB          .BB'
+9BBBBBBB,  ?BBBBBBBw   .9BBl jBBp   ?RBBBBBn 9BB,.     ?BBB,         .Bb                .BB        .ABBBY  .Z     .F     ..jBBBF        .BBY
+9BBBBBBBm. J9BBBBBBb,   |5  JBBBm.   9BBBBm 3BBBBBgx.. `BBBBg.      dB!        ...xgBM$^      .xBBBP'  .xR           .dBBBBBF       .BBY
+?BBBBBBBB,  `5BBBBBBb,     JBBBBb,   |RBBb JBBTPBBBBBBBBBBBBBBBgBBP'         JBB,        jBBM$'  ..gBMY  j       .ABBBBBP'      jBM'
+J5BBBBBBBb.  |9BBBBBBBw.  .BBBBBBp    9BB, MBu  `9BBBBBBBg,,                .BB      .BP'..jgBBMBE    .D     .ABBBBBP      .gBP'
+?BBBBBBBBb.   TMBBBBBBBBBBBBBBBBb.   3Bb JBD.     `TMBBBBBBBBgw....   ..gBMY     .BGgR$^ ...AB' .jBP    .dBBBBBP      .BBP
+,9BBBBBBBBW,    TMBBBBBBBBBBBBBBBm. .MBp 9Bb          `TTPBBBBBBBBBBM$^   .....BBP:.gBBBBBByWBB$    .ABBBBBB'    .gBP'
+|5BBBBBBBBBg.    `9BBBBBBBBBBBBBB, |BBw 9Bb.              .BBBMtjwgBBBBBBBBBBWBBBBBBBBBBPT    .jBBBBBBBR   .yBBT
+|9BBBBBBBBBBg..    `TPBBBBBBBBBBb,`BBw 9Bb,         .jgBBBBBBPT'     jBBBBBBBBP$'      ..gBBBP^jBBBF .gBPT
+.?BBBBBBBBBBBBg,.     |TTPBBBBBBmJMBm.?BBg...jgBBBBBBP'           |eBBBP'  ....jggBBBBB$   jBBBBWBMT
+`9BBBBBBBBBBBBBBg,..       ``TT 9BBw,?BBBBBP$'              .dBBB$.jWBBBBBBBBBPT^     jBBBBP'
+`9BBBBBBBBBBBBBBBBBBggj...... |MBB,,TMBBg.            .jBBBBABBBPT"           ..gBBP'
+79BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBg. TPBBBg,.     .BBBBBBP'          ...gBBBP'
+`TPBBBBBBBBBBBBBBBBBBBBBBBBBBBBg,. `TPBBBBBBBBBbxjjjjjjjgggBBBBPT'
+`T5BBBBBBBBBBBBBBBBBBBBBBBBBBBg,.    ""TTTTTTTTT""`
+`TTT5PBBBBBBBBBBBBBBBBBBBBBm,

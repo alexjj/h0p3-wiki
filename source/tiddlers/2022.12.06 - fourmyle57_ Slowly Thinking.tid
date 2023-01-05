@@ -1,0 +1,127 @@
+created: 20221206211146908
+modified: 20221227032846163
+tags: [[Recent Obsession]] fourmyle57 Note To
+title: 2022.12.06 - fourmyle57: Slowly Thinking
+
+//Once again, I'm slowly thinking about your words. I'm going to work toward being more hedged-conservative in generating notifications too. We have time, after all, and I also think the asymmetries between us are considerable. I have little evidence of your identity, and so I'm looking to see your skin in the game here.//
+
+I [[hope]] you will find my argumentativeness useful. Please feel free to ignore what I say and pick out only what is [[salient]] to your mission. I am a sounding board. I will tell you what I think, and that may not be sufficiently relevant (I often simply don't know).
+
+> I'm def on the spectrum too, mine is more from being raised old school in rural Appalachia and being Scotts-Irish though. Harder to like people that weren't from a place like that. Definitely actually have ADHD too. I am very patient.
+
+I was raised in Kentucky (lived in Mannsville, which was 20 minutes away from the big city, Campbellsville), and I think I've some appreciation for that upbringing. I think it's difficult to describe it to [[others]] (though I have done my best). I'm half Scottish-Irish. I'm [[grateful]] for your patience. It sounds like we've got a lot of story in common too. It will be up to you to decide how personal you want our relationship to grow over time; it's my vocation to be personal.
+
+> Yep, designing this and thinking about what users actually want is key. A prototype should be built with off the shelf tools to start and we can make things custom later. It's easier to get started and stay motivated if we leverage some things as primitives like Wireguard.
+
+I stand in disagreement, but I admire the reasoning. I will do my best to assist you; it is possible that I will only be useful as someone who understands what you're working on (to whatever [[dok]] I do*). 
+
+I am still coming to understand your vision. It may take some time for me to express why I think we're stuck going custom otherwise. A prototype for us to consider in house may be valuable, but I'm not convinced we get more than one major shot with the public. This is an odd sphere to develop for.
+
+I think just the DHT would take even someone as skilled as yourself years to get right, from theory to testing suite (which probably needs to be considerable from the beginning).<<ref "ts">>
+
+> Agree, radical transparency is a value of mine. 
+
+I'm glad to hear it. I'm unable to explain in just this [[note]] what it means to me. In time, you may see.
+
+> Staying anon on this project is important because if we actually pull it off then ((they)) won't be able to twist our arm into compromising the system.
+
+Perhaps. There may be many sufficient reasons for attempting to maintain our [[anonymity]] in this case. I also think it is quite difficult to achieve. If you are careful, I think you may be able to do so. I am not convinced I will be able to anywhere near as I'd like. Unfortunately, there is little room for error. It may be the case that you will want to go all out here. There may be places you shouldn't expose yourself, and I can [[help]] as your proxy.
+
+> For me, a darknet is moral even if some users are evil. 
+
+Indeed, I think most networks serve mostly evil people. We're stuck helping them to help those who actually merit our help. I'll argue that the principles of the design can be moral even if the resulting consequences, how people use such a tool, aren't [[good]]. That's an expensive pill to swallow sometimes.
+
+> It's a trade off and evil users use the current Internet for child porn etc. We aren't adding that. This balances out because good users could use the system for noble purposes likes revolutions. It's a wash. 
+
+I intend to make it so that people can distribute child pornography safely and without censorship. It is a secondary effect. I don't think it's a wash though. I'm not convinced a justified government in the 21st century can exist without the tooling we're trying to build.
+
+> No state, or mob, should be able to delete your ideas from the darknet no matter how vile they think they are. 
+
+Ideally. I think this is not easy to achieve without [[anonymity]] for at least those holding the data (with redundancy). In a practical manner, having a functioning p2p network on which to even achieve network effect is key to preventing censorship. If people aren't going to fire up their p2p tool, it's already censored in some respects. 
+
+> Federation doesn't work either for the same reason the ancient Greeks knew direct democracy doesn't work. It's mob rule. Only the owner of content should decide who its shared with or if it's public or if it should be deleted.
+
+I'm going to wait to respond to this (beyond my considerable writing in the ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 on the matters already). I think it is an exceptionally complex topic. I think you may be disappointed in many respects here.
+
+> You certainly know a lot more about the scene than I do, just starting to get my feet wet. Combined with my "big tech" dist systems experience and mobile dev experience we should make a nice team. You also have recruiting of other anons locked down. We will need to make a community.
+
+I think I'm an outsider of various scenes as well. I do not like participating in secret clubs except those that naturally arise from how we curate which public places we participate in.
+
+> I have been training my math the past few months and will continue, knowing how cryptography works won't be important at the beginning but could be down the road. I have some training in this area from college but it's been a while. It's hard to promise users something is secure if you don't understand it. 
+
+I appreciate how you wish to do your due diligence and to offer your work with peace of mind given a deep understanding of it. Ultimately, we don't understand our stacks. They are simply too complex. 
+
+> Great, this is also a long term thing for me. My day job keeps me quite busy. The key will be to make slow and steady progress. Research and knowledge is key to something like this too.
+
+It sounds like gettin' your hands dirty is a crucial way for you to make progress. So, I'm excited to see what you're prototyping.
+
+<<<
+I may be misunderstanding you. Please correct me. I think Wireguard would be a valuable tool, yes. And, the seamlessness is crucial, yes. For where it should be used, I think there are good reasons to prefer Wireguard over other options as well. At the very least, I think offering a few key out-of-the-box Wireguard VPN configurations for some of the networks we'd build would be necessary (what the god-tier programmer of zerotier wished he could build). I suggest Wireguard is something we'd be using to build some types of networks on top of the DHT, and I'll say the same of other types of tools, like shadowsocks. Random tools for thought:
+
+* https://github.com/manuels/wireguard-p2p
+* https://github.com/dswd/vpncloud
+* https://github.com/yggdrasil-network/yggdrasil-go
+* https://www.v2fly.org/
+* https://git.2f30.org/ratox/file/README.html
+* https://spork.sh/
+
+Collectively maintaining the ability to even begin to discover and connect to other users in almost arbitrary topologies is the problem I think we're facing. I think it's really hard to build a safe, tough, high-performance DHT that has avoided decentralization as far as is feasible. I still think it should be from scratch, but perhaps Wireguard would be the preferred base for the edge layer. There are SSH options that seem decent too. 
+
+I also like relying upon tools that are so thoroughly understood and trusted by others. So, keep going on the Wireguard idea, please. Tell me what you see. 
+<<<
+
+> The reason for NAT is IPv4 started to run out of addressed. 
+
+`/nod`. I think that even from beginning, at least for many users, though excluding its creators, [[NAT|http://www.sigcomm.org/node/3761#:~:text=Early%20in%201994%2C%20according%20to,was%20published%20(RFC%201631).]] exists to ease the burden of connecting private networks to the internet. I suggest NAT has served multiple purposes. Today, it aids in the centralization of [[power]] on internet infrastructure. To my eyes, ipv6 deployment has been purposely held back because it was profitable. May that pass quickly. Even with ipv6, we'll still need a DHT.
+
+> ISPs quit making it easy for residential users to have static IPs years ago. If a user has a static IP they can easily self host things. The Internet is already largely decentralized besides DNS. 
+
+Perhaps we are not on the same page, my friend. I will do my best to assist you even if we do not end up on the same page here as well. I've been on this network since 1994, and it feels like it has, per capita, continued to centralize more and more. Ideally, our tooling would be easy enough to modify to enable other kinds of networks to bridge in as well.
+
+> Wireguard is the easiest way I know of to self host something without a static IP. 
+
+Hrm. That might be right. Perhaps it depends on what you are trying to host as well. Dynamic DNS services may be at least as easy (I found this easier to do than setting up my own VPN, and I think that would be true for most folks). I think the Spork model is also a contender, especially since tools can abstract this way. To my eyes, the most common DHTs are attempting to solve, in part, the problem of static IPs. In fact, that's a key part of what I suggested we take ourselves to be building in the first place. It has been demonstrated to us that we will never own our IP addresses, but we can own asymmetric keys. Entrypoints to DHTs have to be decentralized further, but it's the best chance we've got.
+
+Aside, for [[anonymity]]'s sake (which comes in degrees), we might even tend to prefer dynamic IPs. 
+
+I'm still arguing to you that the hard part of our work is everything that comes before Wireguard.
+
+> All you need to do is setup an (free tier) AWS EC2 instance as the Wireguard service and tunnel to it from the server in your basement. Add a reverse proxy like NGINX and you can host services from home reliably. At that point it's like you have a static IP. We could wrap this up in an App for mobile users as long as they provided their own AWS account (need a credit card linked, but the node is free tier) with 1 button. 
+
+In practice, what you've picked out will tend to federate or only be used by the relatively privileged. We have a more fundamental disagreement, perhaps: I'm opposed to any model which requires the average person to run a server in datacenters (or rely upon federation to do so). I don't care how convenient it can be made. The people must own the means of production. If we build it correctly, the ability to use a datacenter if we want it will just naturally fall out as a byproduct.
+
+> Envisioning this as something like p2p Dropbox. 
+
+I believe [[Resilio Sync]] is the best version of p2p Dropbox available to the public at the moment. I've used them both since they came out, and I've seen Resilio Sync grow to be the clear winner. I've found no substitute, and that's been a motivator for this project as well. Beyond the DHT, this may be a relatively difficult problem on its own (CRDT quality). I think we will have to relearn many lessons from others on this one. Aside, to my knowledge, none of the p2p tools in this space do file segmentation and parallel connections to get around peering arrangement bottlenecks; all major onion-routing networks lack performance for this reason as well.
+
+> I just want to take photos with my phone and they go to my phone's storage. Then they sync to the p2p dht cloud we are building. I can select who to share them with or if they should be public.
+
+Sometimes I wonder if the permissions capabilities of Linux itself might ultimately serve this purpose in a nicely generalized manner. That's probably not the way to go, if I had to hazard a guess.
+
+Presumably, you'll be sharing a unique key with each type of group, and deduplication of files can be handled on your own system. 
+
+> Wireguard makes this "easy". Hopefully abstracted from the user, all that needs to happen is I need to associate my Wireguard VPC/VLAN with another by adding a Wireguard pub key. 
+
+It seems like one of the hard parts is automating the distribution of IP address knowledge between nodes without centralizing. Once that problem is solved, any number of services should fall into place. Wireguard does make it easy; it's the DHT, both in theory and practice (as ideally there are at minimum thousands of nodes to buy us the properties we need) that we're lacking.
+
+> The trouble for mobile users still is availability.
+
+I agree, that is a key issue. It's a profoundly unreliable device. And, perhaps availability is a philosophically inclusive term when I look at it. We face many performance problems.
+
+I'll add that you and I are privileged. Our phones can compete with our desktops in a number of benchmarks. Our target users do not have this performance yet (and I do not know when). Shit hardware slurping 50kb/s is something that we have to prepare for. If we aren't serving the global poor, we've failed in the mission.
+
+> Mobile clients should be thin like you mentioned.  They are the source of truth for that users data but that data syncs to the system. When another user shares something to a mobile user the system only needs to send that users pub key and "link" the VPC each user is in and notification to download the shared data.  Once the mobile app receives this message and the VPCs are peered it can simply download the file to disk. 
+
+I am not convinced mobile clients should be the source of truth for a user's data in all cases, unless it's the only device they have. That might be your point. I think the mobile app should pull in this case, unless they are wired already or have specified push options (preferably temporarily). Coordinating volunteer VPCs on behalf of mobile clients will be quite difficult but crucial. There will likely need to be some social proofs to avoid sybil attacks, but avoiding federation at the same time is also no easy task.
+
+> Perhaps there many DHTs.  The inner main DHT values are VPC CIDR ranges. Each range is another DHT with wiles.  The outter DHTs can be linked via Wireguard or peering etc.  This is not dissimilar from the goals of AWS PrivateLink which is trying to link business VPCs on AWS together.  I can draw this later to make it easier to understand what I am thinking.
+
+I'm interested to see it, and I think we are going to need multiple DHTs (perhaps multiples at each ring).
+
+> Will set this up when I can.
+
+I think it will end up being crucial for maintaining your [[anonymity]] long-term, and I think it will provide a sense of what we're up against. It may give us food for thought about the tool we're build too.
+
+
+---
+<<footnotes "ts" "There are lots of odd approaches we're gonna need, I think.">>

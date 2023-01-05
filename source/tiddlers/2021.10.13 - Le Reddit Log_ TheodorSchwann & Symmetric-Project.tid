@@ -1,0 +1,90 @@
+created: 20211014111357116
+modified: 20211014201135854
+tags: [[Le Reddit Log]]
+title: 2021.10.13 - Le Reddit Log: TheodorSchwann & Symmetric-Project
+
+https://www.reddit.com/r/HiddenPolicy/comments/q6topg/what_banned_subreddits_you_would_like_to_see/
+
+<<<
+While some subreddits are better to be kept private for the benefit of the majority, this was not the case in many of the subreddit bans. We at [Symmetric](https://github.com/symmetric-project) (open-source, decentralized Reddit alternative), would like to know what banned subreddits you would like to see back.
+
+We want to restore all the lost content to the best of all capabilities before we launch in 7 days so your feedback will help us a lot. Thank you in advance!
+<<<
+
+My name is h0p3. My Tox key: 
+
+FDD7005639C618263AB2EEDAB974F7576C7C0DED6217EED9E9DC0344C622E72AEEF7055F8B4D
+
+I'm free to speak with you at length if you need. I have a bunch of questions, and please feel free to ignore them. What do you think of [Aether](https://getaether.net) (I've been using it for almost two years now, and I've found it quite effective)? Why should I use your tool instead? Where's your whitepaper<<ref "o">> (I realize we are busy people, and you've got more than enough on your plate as it is)? For lack of a better phrase, what's your network topology look like? How decentralized are you going to go? Why should we think "true decentralization while having the idea of a subreddit is not practically possible because too much computation would be necessary"? Since you're on the ground floor, any possible way you'd combined [Tiddlywiki](https://tiddlywiki.com) into the product (I think that would make it quite unique)? If necessary, how do you aim to achieve the requisite network effect? What's the purpose of Symmetric?
+
+<<<
+Aether is great but unfortunately very different from Reddit (not search engine indexable). Aether is more like a decentralized ephemeral chat than a website which you can hop instantly. You need a client and on top of that the UI is too different that the one of Reddit. Symmetric would be different in that the UI would be a close copy of Reddit and it would be indexable by search engines. I agree true decentralization is not practically possible because too much computation power would be required and it wouldn't be scallable.
+
+We either think to make each subreddit self-hostable or somehow host each subreddit in a smart contract (Ethereum) so that the servers would still be centralized effectively no one would be able to control them in a malicious way.
+
+What do you mean by combining Tiddlywiki? Can you be more explicit?
+
+In terms of networks effects, we just want to restore the banned subreddits and then we'll see how it will work out.
+
+The purpose is simply to become a better Reddit. That is, give revenue to the subreddit creators (not RedditCorp) and allow for better decentralization.
+<<<
+
+<<<
+Sent a DM
+
+> TheodorSchwann: Why do you want to speak over Tox?
+
+> h0p3: It's my preference to speak with tools I own. Sometimes it's useful to have privacy too.
+
+> TheodorSchwann: This makes sense
+<<<
+
+I appreciate your answers. Thank you.
+
+> Aether is great but unfortunately very different from Reddit (not search engine indexable).
+
+If I understand correctly, they are working on a web portal to it. That said, I cannot say I believe they will decentralize this tooling nor that it would be fit for search engine indexing (especially as the big players may use non-trivial custom crawling for Plebbit). 
+
+> Aether is more like a decentralized ephemeral chat than a website which you can hop instantly. 
+
+I agree that it's not a website (yet). I agree it's built with ephemerality in mind (not all its users use it as such, though almost all do). We may have to talk about what consists in "chat", and the lines do get blurry (Matrix and Discord may be reasonable examples of this blurring). Very roughly, the ability to generate arbitrary feeds from a pool of nested comments surrounding objects is basically what we're worried about, right? Aether does that. I think it functions far more like a forum, especially when you see how slow the flood routing goes. I suggest that their decentralized governance modeling (however simple) is worth your time.
+
+> You need a client and on top of that the UI is too different that the one of Reddit. 
+
+Too different for what? I understand we're nostalgic for old.reddit/RES, but I suggest that many of the users who are willing to look outside the mainstream are going to be more open to a different UI. I do appreciate the "if it aint broke, don't fix it" though. I ask you to keep an open mind here.
+
+> Symmetric would be different in that the UI would be a close copy of Reddit and it would be indexable by search engines.
+
+Indexability is useful, although I'm not sure it will buy you much. Long-run, on the assumption of massive success, yeah it probably will be a big deal. Search may be something that can be done more locally (and, I think that would be one of the real strengths), but discoverability online is still valuable. 
+
+> I agree true decentralization is not practically possible because too much computation power would be required and it wouldn't be scallable.
+
+I'm asking you why you think that. That's quite a claim.<<ref "e">> So, I'll hand you that Reddit has been historically plagued by performance problems, and if they can't do it cleanly on their clusters, it seems far less likely that we could do it on our networks (Aether already does the most important parts of the work in a scalable way). Please be specific with me if you can. You might have a very particular model of a Reddit-clone in mind, and I'm wondering if much of the functionality can be preserved while still scaling (and I recognize that some degrees of federation may be necessary). Roughly, decentralize until it hurts, then federate until it works.
+
+> We either think to make each subreddit self-hostable or somehow host each subreddit in a smart contract (Ethereum) so that the servers would still be centralized effectively no one would be able to control them in a malicious way.
+
+I'm not a fan of many blockchains, although solving Zooko's triangle and cybersquatting may be valuable. I'm interested in choosing my own moderators, curators, and feed algorithms. If you aren't decentralizing that, this looks like forum software that hopes to federate archives and continue the conversation of the silenced while still being quite centralized. If the servers are centralized, someone can control them maliciously. 
+
+Will multiple users be hosting the content and computation of a subreddit? How will that work?
+
+I'm not a fan of IPFS (I've tried it many times, from the beginning), but [Hypercore](https://hypercore-protocol.org/) has made significant improvements. If you're looking for FLOSS mutable torrents, that's probably the best we've got right now (as scary as that may be<<ref "i">>). CockroachDB, [VPNCloud](https://github.com/dswd/vpncloud), and [raTox](https://github.com/pranomostro/ratox) might also be worth your time. At the very least, I could see value in making it expensive to play whack-a-mole on those who are willing to host. Ideally, it would be effortless to mirror or contribute back.
+
+> What do you mean by combining Tiddlywiki? Can you be more explicit?
+
+Ah, don't worry about it. I don't think this is where you want to go. You're going more for a clone (and I appreciate that), so that's where I'm going to focus.
+
+> In terms of networks effects, we just want to restore the banned subreddits and then we'll see how it will work out.
+
+I see. You are doing important work, my friend. Thank you for your contribution to Humanity. Many people will despise what you do, and perhaps it will not have the results you hope for, but I hold your intention and effort in high regard here. 
+
+> The purpose is simply to become a better Reddit. That is, give revenue to the subreddit creators (not RedditCorp) and allow for better decentralization.
+
+We could all use a better Reddit. How do you envision the flow of money? Are you willing to build this such that it isn't concerned with revenue (and, there are many, many networks that survive on simply computational donations)? What parts of the process, social dynamic, or power structures are you actually decentralizing?
+
+
+---
+<<footnotes "o" "I only ask because he had promised it several times a while back.">>
+
+<<footnotes "e" "Especially if you're just gonna build the tool in javascript. Again, I think this problem is not for any single person to solve unless they are some god-tier programmer devoting a decade of their life.">>
+
+<<footnotes "i" "I say this in the belief that it merits 10 millions dollars of upfront support, and perhaps way more long-term. I am shocked by what they have accomplished.">>

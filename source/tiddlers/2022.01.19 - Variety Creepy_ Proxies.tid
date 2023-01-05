@@ -1,0 +1,83 @@
+created: 20220119061802866
+modified: 20220121114339740
+tags: [[Sinister Nescience]] [[Variety Creepy]] To BAGD Letter Dreams [[The_Idiot ׀ Fitter]]
+title: 2022.01.19 - Variety Creepy: Proxies
+
+Dear Variety Creepy,
+
+I'm glad you're hanging in there. And, I'm glad you are looking forward. I think this is an important topic. 
+
+> I want to move on with my life. I don't want to meet people from my old life at all! No matter who they are. I need a fresh start. That's why I don't want to run into them.
+
+You may have many of those in life, to varying [[dok]]. 
+
+> Well, my brother is moving to the US in August for master's degree. 
+
+I didn't realize he was that much older. He'd be [[lucky]] to be half as smart as you. What's he going to study? Does he intend to live here longer-term like other extended family?  How do you predict his life will turn out?
+
+> My dad wouldn't be in the city for half the time. 
+
+How much and where does he have to travel for his job? Has it always been that way?
+
+> There are many people who already commute from Mysore to Bangalore on a daily basis. It's about 110 kilometers away.
+
+Ugh. Fuck me, that is a terrible commute. 90 minute one-way is the worst I've had to endure. 110 kilometers could mean hours. 
+
+> By the way, do you know any VPN software that is free and does not misuse my data? NordVPN seems good but I'm broke and my parents wouldn't shell out money for a VPN because they would call it unnecessary. I have checked other free VPN software, but I did notice that they keep track of my data, and sell it off to potential buyers.
+
+I am always required to note that an [[anon]] could puppet your account, but I obviously take you seriously and believe you are who you say you are. [[lg.]] is an interesting person to consider, btw. 
+
+I can't say I have much [[trust]] in this sphere, and I'm wrong here often. Some VPN providers<<ref "vpn">> are creating attestation toolchains to prove certain things about their infrastructure, but even then we may still have serious questions. Free as in beer professional VPN sites merit little or none of your attention.<<ref "tc">> Volunteer networks are your best bet, but they still have plenty of honeypots. Make sure you're using E2EE tooling inside that tunnel no matter what. https://www.softether.org/ has traditionally been a decent option, we [[hope]]. 
+
+You could roll your own pretty cheaply (a worthy educational project, if you are looking for an angle with your parents), though you are still ultimately beholden to your VPS provider (and they to their devices, datacenter, etc.). Pick up something dirt cheap<<ref "anon">> at https://lowendtalk.com/, and use Wireguard or OpenVPN. Or, accelerate the process and skiddie hard:<<ref "sk">>
+
+* [[openvpn-install.sh]]
+* [[wireguard-install.sh]]
+
+You might find a full VPN isn't necessary (or even preferred) in many cases, especially if you are just looking to forward particular traffic through a proxy. There are plenty of types of proxies reasonably suited for the web out there. Tor Browser is a sledgehammer (with non-trivial limitations). You could run your own on a VPS, and I'd suggest Shadowsocks. 
+
+Assuming you won't be able to take these options, I'll provide for you. `/salute`.
+
+I've got a Shadowsocks proxy set up for you or [[other]] [[anon]]s to use (though, again, you are trusting me, my VPS provider, etc.):<<ref "mix">>
+
+```
+  address: rn.philosopher.life
+     port: 8008
+     pass: titties
+  timeout: 300
+   method: chacha20-ietf-poly1305
+fast_open: true
+```
+
+I've included (note that the private keys have been made public) openvpn and wireguard client conf files for [[connect]]ing to rn.philosopher.life as well.
+
+* [[AnoNomad.ovpn]]
+* [[wg0-client-AnoNomad.conf]]
+
+> Is ProtonVPN good? It's from the same people who run ProtonMail
+
+I've never touched it. They have a decent (though not flawless) track record with their primary service. If you are more specific about what it is that you are trying to accomplish, I may be able to make more specific suggestions, questions, or cautions.
+
+If you are looking for something very local, physical, we can build one of those too. <<tag "Cheapskate">>hardware proxy hacks that use the least amount of energy, material, know-how, and privilege (maximizing the minimum, giving the best hacks we can to those most in need with what little we have) are something I would hold in very high esteem.
+
+What UDP protocol would you dream? What libary can we build that targets everything well enough? The one protocol + tool that fits wisely,  that eventually crawls out and enables Risc-V oriented FPGAs to be the backbone of the routing of a network we trust highly, verifiably [[irwartfrr]]. That's my guess, maybe with some basic ML models to filter for [[salience]].<<ref "ml">> I don't know well enough what the fitting next generation [[computing]] should be. I am thinking about the problem, though [[fff]]ingly.
+
+I would like to know your opinion about proxy voting, should the occasion ever present itself.
+
+[[Love]],
+
+[[h0p3]]
+
+
+---
+<<footnotes "vpn" "I consider this phrase a philosophical question. You know how some people use the word 'crypto' to just talk about cryptocurrencies (perhaps of a particular kind) when it really usefully might pick out more, the concept of the vpn is worth [[wrestling]] about.">>
+
+<<footnotes "tc" "Though there are non ad hoc cornercases.">>
+
+<<footnotes "anon" "Don't Risk Your Life On It Tinfoil: remember that you can launder through Monero, and connect through tor (to configure and use the server) to your own VPS to hide your client from your own server while still using that VPS as the edge router and perhaps benefiting from a clean IP that doesn't have any attachment to the source of payment. You can even route shadowsocks through Tor (`proxychains ss-qt5`), as you may prefer in the case of using even my own server (though that server's IP is greylisty at this point).">>
+
+<<footnotes "sk" "I do honor and adore these scripts. They do the proletariat [[justice]], [[nomad]].">>
+
+<<footnotes "mix" "Perhaps there's the plausible deniability of a mixnet here, in theory. May we all wisely put our skin in the game for that which matters most. In any case, let me know if don't work.">>
+
+<<footnotes "ml" "ML empowered clientside ad-blockers and spam detection, prediction, and prioritizing for the people by the people.">>

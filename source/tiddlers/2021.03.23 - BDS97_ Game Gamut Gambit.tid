@@ -1,0 +1,507 @@
+created: 20210323065930968
+modified: 20210323071141089
+tags: BDS97 Chatlog
+title: 2021.03.23 - BDS97: Game Gamut Gambit
+
+"""
+[23:16:36] h0p3: Long time, no see, sir. How's life going?
+[23:17:14] b3nsn0w: hi
+[23:17:20] h0p3: hi =)
+[23:17:56] b3nsn0w: mostly as usual, trying to figure out how to get stuff done
+[23:18:08] h0p3: yes, sir. I know that feel.
+[23:18:19] h0p3: The whirlwind never ends.
+[23:18:35] b3nsn0w: yeah, that's unfortunately true
+[23:19:13] b3nsn0w: currently starting work on a startup with a few colleauges (same ones I freelance with)
+[23:19:34] b3nsn0w: that could actually put an end to it somewhat, years down the line, provided it's successful of course
+[23:19:41] b3nsn0w: but that's anything but provided with startups
+[23:19:54] h0p3: daunting to me
+[23:20:38] h0p3: I was talking with the kids about just working on a pinephone, not sure if they want it. At the very least, we will play magic. 
+[23:20:42] h0p3: If I can ever be useful to you, let me know. 
+[23:21:03] b3nsn0w: alright, thanks, will do
+[23:21:30] b3nsn0w: that's actually a super interesting idea, given what you can do with philosophy
+[23:22:02] b3nsn0w: anyway, how's live on your side?
+[23:22:05] b3nsn0w: *life
+[23:23:01] h0p3: Oh, it's been a maze, not much different in some ways. 
+[23:24:08] h0p3: I have an intruder on my computer, she has all my passwords, full access, regularly remote desktops in, I like to troll her. Been writing with her in a workspace in i3, her own room on the machine.
+[23:24:18] h0p3: It's a nice feeling.
+[23:24:25] h0p3: I don't know how to explain it.
+[23:24:43] b3nsn0w: sounds fun
+[23:25:02] h0p3: It is. And, most forms of fun I deny myself, but not this. 
+[23:25:22] h0p3: I've joined the losers who call themselves "vapers." It's been pleasant.
+[23:25:59] b3nsn0w: as in, the actual vaping or the social aspect?
+[23:26:10] h0p3: I'm not sure, lol.
+[23:26:25] h0p3: Either way, I am a lucky man to be one of them. 
+[23:26:34] h0p3: Delta 8 is delightful.
+[23:26:57] b3nsn0w: oh
+[23:27:24] b3nsn0w: well, if it works for you
+[23:27:35] h0p3: Anything that intensifies my paranoia has to be a good thing, right? =)
+[23:27:47] h0p3: Come, help me rationalize this behavior.
+[23:28:00] b3nsn0w: the only "light" drug I look down on is regular cigs
+[23:28:21] h0p3: I hear that.
+[23:28:44] b3nsn0w: never done any of it myself (not even alcohol) but if it's fun for you do what makes you happy
+[23:29:29] b3nsn0w: addictions are a bitch, so probably watch out for that, but you can addicted to a ton of stuff in life, not just substances
+[23:30:04] b3nsn0w: I literally have adblock rules in my browser to stop me from relapsing into addictions of specific websites
+[23:30:12] h0p3: I make a distinction between dependence and addiction (presumably, addiction is an unjustified dependence). 
+[23:30:18] h0p3: You are a saint, sir.
+[23:30:25] h0p3: That is impossible for me.
+[23:30:33] h0p3: It's probably an addiction.
+[23:31:18] h0p3: I have an addictive personality.
+[23:32:05] b3nsn0w: I think most of us do
+[23:32:31] b3nsn0w: and I've seen some pretty damn disgusting shit from people who I can only describe as silicon valley sociopaths
+[23:32:38] b3nsn0w: analytics for games, to exploit this specifically
+[23:33:01] h0p3: yes, sir. Terrifying to me. 
+[23:33:29] b3nsn0w: on a bit lighter level, this is how imgur looks to me if I load it up
+[23:33:45] b3nsn0w: (lol at the ad, I'm getting my imgur imgur-free, bitch)
+[23:34:03] b3nsn0w: would have blocked it entirely in adblock, but I still use it to share images on reddit, so had to go this way
+[23:34:26] b3nsn0w: the problem is habits can only be created and maybe somewhat overwritten, but never destroyed
+[23:34:44] h0p3: they can fade
+[23:34:54] b3nsn0w: so I had this thing when I just loaded the website up and I was already 2-3 posts in before I realized what the hell I was doing
+[23:35:14] b3nsn0w: decided to quit because the mods are total assholes, and it was also taking up a lot of time
+[23:35:28] b3nsn0w: but you're right, it does fade
+[23:35:33] h0p3: I wish I could pick my mods. 
+[23:35:37] h0p3: Aint nobody got that right.
+[23:35:46] h0p3: Not even that Aether app. 
+[23:36:10] b3nsn0w: how's that going?
+[23:36:15] b3nsn0w: is it like a decentralized reddit?
+[23:36:46] h0p3: Aspects of it are decentralized. It is still controlled by a central authority though, and they've not purposely set it aside to be completely owned by the people. 
+[23:37:02] h0p3: The data is stored between peers for 6 months. 
+[23:37:28] h0p3: Met some interesting folks, and, of course, it has the influx of some users I really don't care for (such is life on such tooling). 
+[23:37:38] h0p3: That reminds me of two things now. 
+[23:37:55] h0p3: One, of the silicon sociopaths, I have no intention of being nice to them: https://philosopher.life/#JYU
+[23:38:57] h0p3: There is this person who mentioned me, and I gave them the information they asked for (since my plaintext is different), but I want your opinion about them (and, you may ask me to be silent about it). https://twitter.com/kortina/status/1373855060262744069
+[23:39:51] h0p3: I quietly point to you sometimes. If someone needs a programmer I admire, I often pick you out.
+[23:42:09] b3nsn0w: kinda interesting, still trying to figure out the context on the second one
+[23:42:35] b3nsn0w: on the first, not that surprised at the sci-fi author bit, it checks all the boxes
+[23:42:36] h0p3: https://philosopher.life/#%40%3A%20hypertext%202020
+[23:42:53] b3nsn0w: writing code and programming are actually very similar mental tasks
+[23:43:06] h0p3: Also, in case this would be useful (since I've been quietish): https://philosopher.life/#Hidden%3A%20Sidebar
+[23:43:17] b3nsn0w: we're mostly nerds, so interest in sci-fi topics is kind of a given
+[23:43:29] b3nsn0w: and it's a quiet life, once you can master writing
+[23:43:48] b3nsn0w: anyway, looking at your links now
+[23:43:55] h0p3: Oh, keep going! I want to know the difference. I apologize, maybe it's an obvious point. 
+[23:44:12] b3nsn0w: most of the difference is the computer tells you that you're wrong
+[23:44:35] b3nsn0w: there's also a skillset difference of course, you need some for programming, some for writing
+[23:44:47] b3nsn0w: but yeah, the most important part is one is an art, and the other is a means to an end
+[23:44:53] b3nsn0w: (outside of the demoscene, mostly)
+[23:45:09] h0p3: That is quite a strong claim. Thank you. 
+[23:46:48] h0p3: My second reminder, I recently received this from a friend of a friend, https://philosopher.life/#2021.03.15%20-%20MJos%3A%20h0p3%20thoughts%20on%20decentralized%20web - I don't know if you would find it interesting or useful. It may be a conversation you might want to join. I'm certainly interested in your opinion, and I think they would be too.
+[23:50:41] b3nsn0w: oh, the cap theorem
+[23:50:53] b3nsn0w: that's actually directly relevant to what I'm working on right now
+[23:51:16] b3nsn0w: in the past few projects, we've been seeing the same challenges with coding
+[23:51:48] b3nsn0w: essentially, there is a lot of repetitive coding in website work, and in coding anything that's repetitive can usually have a general solution
+[23:52:26] b3nsn0w: so I'm readying a secret weapon to basically shrink our codebases down to the business logic, and just have a system take care of everything else
+[23:52:35] b3nsn0w: including the database and stuff
+[23:53:15] b3nsn0w: "eventual consistency" is not CAP, it sacrifices the C
+[23:53:40] b3nsn0w: that said, it's indeed the best option
+[23:54:06] b3nsn0w: but this is hella interesting
+[23:54:49] h0p3: My first thought was that latency would dictate a fuckton of what could be built with it. 
+[23:55:10] b3nsn0w: yep, that's the whole point of the theorem
+[23:55:28] b3nsn0w: it's what you can do within the latency window
+[23:55:44] b3nsn0w: anyway, don't wanna cut you off
+[23:56:32] h0p3: You didn't. I'm not sure how to reason about the latency. What does an ideal use of sync9 look like? 
+[23:57:54] h0p3: Collaborative chat and forums should be solid, but pushing the boundaries of that latency as far as it goes, what kinds of tasks would we want collaborative that could likely be achieved with it? 
+[23:58:53] h0p3: Having a shared desktop with Sphygmus has been tremendous. I'm wondering if that can be reasonable replicated (even if it required enormous fine-tuning, this is the ideal we are talking about). 
+[23:59:11] b3nsn0w: not sure on the use cases yet
+[23:59:18] b3nsn0w: I'd say look into couchdb if you found this interesting
+[23:59:32] b3nsn0w: this whole sync9 thing feels like a rudimentary implementation of the same concept
+[23:59:47] b3nsn0w: it's actually my favorite database solution for now, it can do some incredible things
+[23:59:53] h0p3: like what?
+[00:00:04] h0p3: I'm your retard*
+[00:00:15] b3nsn0w: I'm basically just using it as a general purpose database solution for any website or web app
+[00:00:29] b3nsn0w: gonna build a social media on it shortly, that's the startup thing
+[00:00:38] b3nsn0w: and there have been others who built great things on it
+[00:00:46] b3nsn0w: npm runs on couchdb for example, as far as I know
+[00:01:11] b3nsn0w: the point is, you're basically storing data in JSON files with a key for each
+[00:01:33] b3nsn0w: there are some awesome ways of retrieving specific data you'd like to use with very well-defined performance characteristics
+[00:01:41] b3nsn0w: https://taamusic.com
+[00:01:45] b3nsn0w: I think I showed you this site before
+[00:02:08] b3nsn0w: we've built this with an early implementation of the "secret weapon", and the most important change is we've just used MySQL for it
+[00:02:13] b3nsn0w: and it's so damn slow sometimes...
+[00:02:37] b3nsn0w: because MySQL is a control freak, it wants to know your entire query and optimize it by some magic (which often fails)
+[00:02:54] b3nsn0w: plus it does the CA part of the CAP theorem, sacrificing partition tolerance
+[00:02:57] b3nsn0w: so you can't even speed it up
+[00:03:24] h0p3: Been over a decade since I used MySQL. I'm not a fan. 
+[00:03:58] h0p3: Is couchdb well-suited for P2P tasks?
+[00:04:09] b3nsn0w: anyway, here's the relevant part if you're interested https://docs.couchdb.org/en/stable/replication/conflicts.html
+[00:04:23] b3nsn0w: it could actually be amazing for it, if you ran it on client nodes
+[00:10:12] b3nsn0w: this braid thing sounds interesting btw
+[00:10:18] h0p3: indeed, it is
+[00:10:31] b3nsn0w: and also, I really hope I didn't just drop a ton of super technical details on you
+[00:10:36] h0p3: No. I'm thinking.
+[00:10:37] h0p3: Thank you.
+[00:10:56] h0p3: Be as verbose as you wish, even about just your gut instincts.
+[00:11:17] h0p3: Seems like what's missing the networking part of this problem. 
+[00:12:24] h0p3: Maybe https://github.com/natevw/PeerPouch
+[00:12:40] b3nsn0w: woah, nice
+[00:12:45] h0p3: but, I'm not sold by WebRTC just yet. Are you? 
+[00:13:13] b3nsn0w: it's a bit problematic, but it's the best we got in a browser
+[00:13:26] h0p3: aye, I think that's very fair
+[00:13:32] b3nsn0w: I wish I would have sat down and just actually built atropos anywhere in the ~5 years we've been talking about it
+[00:13:42] h0p3: You are dreaming with me. I am grateful. 
+[00:13:43] b3nsn0w: the presence of dedicated nodes could solve the problem of having to run STUN and TURN servers
+[00:14:25] b3nsn0w: on my mental map of it, webatropos is basically a webrtc version that lets you tap into the same main network, and communicate directly with web and hybrid nodes
+[00:14:28] b3nsn0w: kinda like webtorrent
+[00:15:08] h0p3: Gonna have to have people willing to proxy and gateway no matter what. Federation must occur unless we are just going to scan randomly. 
+[00:15:59] b3nsn0w: we can probably scan randomly for bittorrent dht nodes, at least in non-web clients
+[00:16:14] b3nsn0w: sounds like the largest decentralized network from which we could bootstrap a connection
+[00:16:21] h0p3: WebRTC users are held hostage by the browser. I hate it.
+[00:16:30] h0p3: I don't know what to do.
+[00:16:38] b3nsn0w: yeah, but once you get an entry point you can solve it
+[00:17:13] b3nsn0w: idk if sites can talk to each other and solve it without a browser extension's involvement, or if each one of them will need its own set of clients
+[00:17:23] b3nsn0w: probably the latter, for anti-tracking reasons
+[00:17:40] b3nsn0w: if that was possible the silicon valley sociopaths would have abused it already to target ads or something
+[00:22:11] h0p3: What kinds of games would be suited for this? 
+[00:22:32] h0p3: Some probably cannot be played at all because you have to trust too much, right? 
+[00:23:36] h0p3: The shared database holds the gamestate. What gamestates (and fitting machines for those states) fit the latency we predict?
+[00:24:00] b3nsn0w: actually, good question
+[00:24:40] b3nsn0w: if you're talking videogames, most of the trust wouldn't even be a problem
+[00:25:14] b3nsn0w: my plan for that is to create a deterministic state management engine, where you send in your inputs and each node calculates the game state on its own
+[00:25:22] b3nsn0w: kind of like an evolution on deterministic lockstep
+[00:26:13] b3nsn0w: am I misinterpreting the kind of "game" in the question?
+[00:26:19] h0p3: Nope. 
+[00:26:38] h0p3: Now, I feel like I don't understand why CouchDB is valuable. I'm sorry. 
+[00:26:58] b3nsn0w: I wouldn't actually use couchdb for videogames
+[00:27:26] b3nsn0w: or, at least not for the gamestate, maybe for saved data
+[00:27:37] b3nsn0w: it's a great general-purpose database for most web apps
+[00:28:01] b3nsn0w: and the reason it's so great for decentralized stuff is because it's built with master-master replication in mind
+[00:28:21] b3nsn0w: most generic database solutions only do master-slave replication at best
+[00:28:37] b3nsn0w: if your data is saved on the master node, it's saved, otherwise it's not there yet
+[00:28:44] b3nsn0w: which centralizes the whole thing
+[00:28:53] b3nsn0w: in couchdb, every database node is "the" database
+[00:29:11] b3nsn0w: so you can have the application running entirely offline on your device, and at the same time entirely offline on someone else's device
+[00:29:20] b3nsn0w: then when you both come online, it syncs
+[00:29:33] b3nsn0w: and conflict resolution is built into its design, if you've edited the same documents
+[00:30:22] h0p3: I would store long-term metadata about games in such a thing, saved data. Yeah. Player-built documentation, custom maps, sprites, mods. 
+[00:31:54] h0p3: Redis uses CRDTs. 
+[00:33:10] b3nsn0w: that's interesting
+[00:33:34] b3nsn0w: Redis does CP of the CAP theorem by the way, while CouchDB is on AP
+[00:34:05] b3nsn0w: meaning that Redis sacrifices availability, you have to reach the remote node to write as far as I know
+[00:34:20] b3nsn0w: it has master-slave replication with automatic failover if the master node dies, but it's still centralized
+[00:34:47] b3nsn0w: CRDTs sound interesting by the way, but can't see everything using those
+[00:35:20] b3nsn0w: do you remember this thing? https://uncensoredlibrary.com/en
+[00:35:59] h0p3: Yes.
+[00:36:02] h0p3: Gorgeous.
+[00:36:43] h0p3: I sent it to my wife last year in my Link Log. She's a librarian, so it's extra special to her. 
+[00:36:59] h0p3: I haven't followed it though.
+[00:37:00] h0p3: Have you?
+[00:37:10] b3nsn0w: nope, but it's been on my mind
+[00:37:46] b3nsn0w: I've been casually brainstorming on a decentralized MMO
+[00:38:19] h0p3: I've never seen a great example of one.
+[00:38:21] h0p3: I don't believe.
+[00:38:30] b3nsn0w: built on something like IOTA's tangle, peer-verified, and sufficiently encrypted
+[00:38:41] b3nsn0w: still struggling to find a balance for this latter one
+[00:39:17] h0p3: A turn-based game might be most fitting.
+[00:39:33] b3nsn0w: with the netcode protocol I have in mind, cheating would be out of the question
+[00:39:53] b3nsn0w: players can only send their controller state, and everyone calculates the game state based on that
+[00:40:11] b3nsn0w: if someone desyncs, they appear to quit for you, and you appear to quit for them
+[00:40:35] b3nsn0w: so try to cheat and you just blipped yourself out of existence
+[00:40:56] b3nsn0w: the issue comes when you try to save a gamestate with cheating
+[00:40:57] h0p3: Can you resync up if you just lost a connection or something?
+[00:41:09] b3nsn0w: yeah, that would be part of the protocol
+[00:41:11] h0p3: k
+[00:41:30] h0p3: Negotiating in a way that agrees to the consensus? 
+[00:42:20] b3nsn0w: even on saves we would have history down to game tick and inputs for each player
+[00:42:36] h0p3: Noice
+[00:42:52] h0p3: complete replayability
+[00:43:03] b3nsn0w: so if there's ever a conflict about "this time block contains a cheat / no, nothing to see here, move along", other nodes can just come in, and a large chunk of the network would vote, based on their source code
+[00:43:37] b3nsn0w: usually they'd be only verified by a small number of nodes, for saving compute power
+[00:44:32] b3nsn0w: it gets a bit complex, but I think it could run "realtime" games too
+[00:46:02] h0p3: Would it be more like reading a chess notation matchup or more like entering a Minecraft world where the blocks that were changed stay changed? 
+[00:46:25] b3nsn0w: more like Minecraft in that sense
+[00:46:40] b3nsn0w: that's the whole point of maintaining the tangle
+[00:47:05] h0p3: (well, for ELO and other things, I could imagine wanting to maintain the tangle)
+[00:47:12] b3nsn0w: if you have a known starting point and peers can stay connected for the whole match, you don't even need all that complexity, everyone just receives everyone else's inputs
+[00:47:27] b3nsn0w: yeah, I guess so, but again, the tangle is about the save state
+[00:48:30] h0p3: I suppose some would hold the entire chain, some just the tip. 
+[00:49:09] b3nsn0w: or it would be distributed across many nodes, like a crazy large torrent with good availability
+[00:49:19] b3nsn0w: kind of like a supertorrent, if you will
+[00:49:22] h0p3: 7 full copies across 20 nodes
+[00:49:28] b3nsn0w: something like that
+[00:49:40] b3nsn0w: and yeah, this would necessitate the entire plan for atropos
+[00:50:22] b3nsn0w: the biggest issue IMO is privacy
+[00:50:32] b3nsn0w: the entire map and its entire history would need to be public by necessity
+[00:50:47] h0p3: There's gonna be costs for realtime that we have to pay.
+[00:51:05] b3nsn0w: some of this can be solved through making sure only part of the game goes through the tangle-verified part
+[00:51:21] b3nsn0w: for example, there's no point sending voice comms or facial data over it
+[00:51:57] b3nsn0w: and in-game documents could be encrypted by the same paradigm as random files or private blog posts, where only the people allowed to read it receive a key
+[00:52:24] b3nsn0w: but anything that can affect the game world has to stay on the tangle
+[00:52:49] b3nsn0w: so for example, with minecraft, you'd have the book item on the tangle, but its contents in a different, encrypted file on the atropos supertorrent
+[00:52:57] b3nsn0w: or ipfs, if we go with existing tech
+[00:53:32] h0p3: The jumping in points to the VPNs that would be created over the Tangle would sit on the tangle though, maybe?
+[00:53:57] h0p3: (I'm stretching that concept too far, but it does sound like a VPN to me). 
+[00:54:27] b3nsn0w: idk if there's a VPN part to it
+[00:54:50] b3nsn0w: the netcode would definitely run through atropos, but that's mostly for censorship-resistance
+[00:55:06] b3nsn0w: the problem is, you have this entire game world, where you can no longer view its present state, but also its entire past
+[00:55:25] b3nsn0w: if you want to, you could follow a character back to their initial creation
+[00:55:35] b3nsn0w: and that enables a scary amount of metadata
+[00:56:08] b3nsn0w: for example, if we decide to meet in city X in the game, anyone in the future would be able to see that our characters met there
+[00:56:14] h0p3: I admire that it is a human that chooses what we keep in our archives. 
+[00:56:35] b3nsn0w: even if they couldn't read chat, look at our faces, or hear what we told each other
+[00:56:59] h0p3: Still tells a ton. 
+[00:57:18] b3nsn0w: yep
+[00:57:36] h0p3: I would love to hear what Eve players would do in such a world.
+[00:57:54] h0p3: Correlate everything
+[00:58:08] b3nsn0w: a possible solution is off-tangle locations in the game, but if you're off-tangle you can't earn items in-game or do any such thing
+[00:58:29] b3nsn0w: I'm thinking of building
+[00:59:01] b3nsn0w: that could be done through in-game material transactions, so you wouldn't see the actual building action, just that someone gave X to someone or transformed X to Y according to in-game rules
+[00:59:30] b3nsn0w: and then you'd have fully verified structures, earned in "the overworld"
+[00:59:52] b3nsn0w: hell, that could even be part of the lore of the game
+[01:00:59] h0p3: Does X have to be a known thing, or can the stats on such an item be hidden from the tangle while still holding a hash? Is there homomorphic work to be done here? Can my magic item enchant that magic item without giving away too much information while still being trusted?
+[01:01:39] b3nsn0w: good question
+[01:02:27] b3nsn0w: I guess snarks could be used to break the chain, but if it's unique it would still be somewhat traceable
+[01:04:44] h0p3: I like that a company doesn't own my character, my items, my history. I have 90 or more days played on my Necromancer in Everquest (and, I've got way more time invested in that game, probably a year of my life, in-game). Now, say what you will about my stupidity (which is tremendous, I know), but it kills me that they can just destroy my accounts and more.
+[01:05:14] b3nsn0w: yeah, IMO that would make the game "a real place" in some sense
+[01:05:21] b3nsn0w: like, anything you have there, you actually own it
+[01:05:25] h0p3: Yes!
+[01:05:36] h0p3: May the ~~workers~~ gamers own the means of production.
+[01:06:14] b3nsn0w: it would get even more insane if the game starts up an economy using some currency that can be earned through in-game challenges
+[01:06:25] b3nsn0w: we would need some damn strong anti-bot protection
+[01:06:33] h0p3: I love Auction Houses.
+[01:06:38] h0p3: I'm an addict.
+[01:06:41] h0p3: Straightup
+[01:08:02] h0p3: Been a while since I've been interested in cryptocurrency, but I would adore it here.
+[01:08:26] b3nsn0w: yeah, same tbh
+[01:08:56] b3nsn0w: if we could even redirect mining to build a captcha instead of hashing
+[01:09:26] b3nsn0w: like, we get player inputs, that's a huge part of the game design
+[01:09:51] b3nsn0w: and if it's in VR that would mean two human hands and a head with 6DOF on each
+[01:10:12] b3nsn0w: we could totally build a GAN that tells one apart from a machine, and in its other half tries to fake it
+[01:10:35] b3nsn0w: and training this GAN could be verifiable work
+[01:10:41] b3nsn0w: so it could be used for PoW mining
+[01:11:25] b3nsn0w: and with that much resources thrown at it, and with a direct incentive given to anyone who can beat the AI to basically just submit their solution and instantly get a huge payout in coin, it could be an unbeatable AI
+[01:11:41] h0p3: Would it ever make the game susceptible to Chinese farming in such a way that it would be lucrative to play the game?
+[01:12:03] h0p3: Ah, yeah, being good at it. 
+[01:12:11] h0p3: Playing to win cash monies, yo
+[01:12:16] h0p3: Real gamblin
+[01:12:30] b3nsn0w: yeah, but who would want to work for X company to play the game if they could just play it for themselves too
+[01:12:52] b3nsn0w: usually it's because said company controls the sale of the stuff you get in the game
+[01:13:19] b3nsn0w: but if your in-game cash is just a cryptocoin, why the hell not just go and exchange it out yourself
+[01:13:26] h0p3: True dat
+[01:13:53] h0p3: Proof of Playing
+[01:14:09] b3nsn0w: yep
+[01:14:27] b3nsn0w: also a pretty damn good way to do online sales to actual humans and not bots
+[01:14:31] b3nsn0w: just put your store in the game
+[01:15:16] h0p3: Hrm, I anticipate bots still, even if it's one human controlling many.
+[01:15:33] b3nsn0w: yeah, people would try
+[01:15:55] b3nsn0w: it's a game of incentives, can we get the world's best AI researchers to create a machine together that no single party can beat?
+[01:16:42] h0p3: What are the implications of having an AI play against it? 
+[01:17:31] b3nsn0w: the point of a GAN is that you have one AI trying to copy something, and one AI trying to tell it apart from the real thing
+[01:17:45] b3nsn0w: as the copying one improves, you get better data to train its adversary
+[01:17:47] b3nsn0w: and vice versa
+[01:18:05] b3nsn0w: the two create a feedback loop for each other, infinitely coming up with better and better strategies
+[01:18:40] b3nsn0w: if you find a way to beat one, you can essentially submit that and earn coin that way
+[01:18:55] b3nsn0w: and it's now available as an adversary for the other one, to beat your strategy on that
+[01:20:01] h0p3: Very high-latency GAN recreated then. 
+[01:21:20] b3nsn0w: really, the two things we need is to make sure that 1. the best AI to tell apart bots from humans is much more capable than the AI any single party could create to beat it, and 2. the one AI that can beat it is on the chain, and we can mark its behavior
+[01:21:35] b3nsn0w: so that if you try to use the included adversary you're gonna be noticed in prod for sure
+[01:21:59] b3nsn0w: that way, botting on the game would be analogous to a 51% attack
+[01:27:08] b3nsn0w: this auction house stuff is super interesting, by the way
+[01:27:33] b3nsn0w: I'm reading up on it
+[01:29:28] h0p3: Diablo 2 and 3 (well, I don't know what 3 is like now, not really) had so many special, truly unique items crafted in the game. It MADE those games something special. AH on D3 was dope AF, but it was farmed and botted into oblivion (me too `/raises-hand`...surprisingly simple scripts did just fine).
+[01:30:01] h0p3: Everyone can have their cookie-cutter build, but some very rare collections of items enabled builds that could not be accomplished any other way. 
+[01:30:14] h0p3: Sometimes only one person in the world could do what they did.
+[01:30:46] h0p3: I want the perfect skinner box.
+[01:30:53] h0p3: Drugged out of my mind.
+[01:31:43] b3nsn0w: have you seen (or read) Ready Player One?
+[01:32:09] h0p3: Watched it. 
+[01:32:20] b3nsn0w: yeah, me too, haven't read the book
+[01:32:25] b3nsn0w: as far as I heard there are some differences
+[01:32:34] b3nsn0w: anyway, my vision for this one is more like the Oasis
+[01:32:53] b3nsn0w: but basically any game should aim to be somewhat of a skinner box IMO
+[01:33:34] h0p3: de-capitalized, de-externally-commodified, owned by the players
+[01:33:41] h0p3: That's a tit worth sucking.
+[01:34:17] b3nsn0w: I think the answer to how to make a game like this truly fun is somewhere in the Maslow pyramid
+[01:34:26] b3nsn0w: that's also why I think Minecraft is still going so damn strong
+[01:34:37] b3nsn0w: it's basically one of the best games yet for self-expression
+[01:35:08] h0p3: You can tell the stories of who you are with each other in varying degrees of complexity. The blocks provide rhetorical vehicles that anyone can understand with practice. 
+[01:36:20] h0p3: Low-friction, even kids can do it.
+[01:36:33] b3nsn0w: yeah, that's where its true power is
+[01:36:50] b3nsn0w: it's a living, breathing world, that you can shape to your whims to an unparalleled degree
+[01:36:59] h0p3: A tactile social media
+[01:37:05] b3nsn0w: that too
+[01:37:30] b3nsn0w: I've been part of a group about a year ago, at the beginning of all the quarantine stuff
+[01:37:36] b3nsn0w: we basically played Minecraft to socialize
+[01:37:46] b3nsn0w: and it's been so great, it was basically a virtual place to hang out
+[01:38:06] b3nsn0w: there is a lot that it leaves to be desired, but this is something that for some reason none of its clones could capture yet
+[01:38:28] b3nsn0w: all of them feel the need to theme it somehow, which takes away from the freedom, makes it more about the game and less about the player
+[01:38:37] b3nsn0w: and then they introduce challenges and stuff
+[01:38:45] b3nsn0w: which is, while nice, not what Minecraft is about
+[01:39:09] h0p3: I'd be fine with P2P Minecraft, portals from my worlds into yours. 
+[01:39:36] h0p3: Transferring items across them would be interesting, no doubt.
+[01:40:03] h0p3: Open and Closed Battle.net
+[01:40:07] b3nsn0w: you can't kill players in off-tangle worlds anyway, any sort of exchange there has to be consensual by necessity
+[01:40:17] h0p3: I consent to hardcore mode, sir.
+[01:40:34] b3nsn0w: (there would be some in-game name for off-tangle for sure)
+[01:40:51] b3nsn0w: lol yeah, the one rule of fight club
+[01:41:28] h0p3: I was talking with my offspring (15 and 13 now) about two things. 
+[01:42:34] h0p3: One, that pinephone, about a T1 hypervisor with different systems made clean with each other. I'd keep my mobile fully separate from my docking station in it.
+[01:42:54] h0p3: Qubes quality security would be nice, but it's so expensive.
+[01:44:49] h0p3: Two, we've been cube-drafting in Magic: The Gathering. Getting around to perhaps designing our cube further, maybe designing our own cards, and perhaps our own format. Thinking about gutting the engine and building with it. There's plenty of interesting tooling for digital board/card games, though they are federated at best. 
+[01:45:27] b3nsn0w: oh, on that one
+[01:45:43] b3nsn0w: that feels like a thing that would be amazing as a mobile game
+[01:46:07] b3nsn0w: trading card games were amazing for the social aspect the trading brought
+[01:46:17] b3nsn0w: and then everything just went online
+[01:46:49] b3nsn0w: idk if there are any specific communities around paper-based cards, but I still remember when it was a big thing in my school, even though I was kinda late for it
+[01:47:21] h0p3: I am worried that the vast majority of players could not play Magic on a phone.
+[01:47:42] h0p3: It's something I need to think about. A great point though.
+[01:47:46] b3nsn0w: I never played Magic, dunno about the specific complexity of it
+[01:48:02] b3nsn0w: but IMO phones are vastly underutilized gaming devices
+[01:48:26] h0p3: It really does require a full table. The gamestate would have to shrunk or a map we walk across (or both). 
+[01:48:28] b3nsn0w: they have some unique capabilities that could be explored, and local multiplayer is one of them
+[01:48:49] b3nsn0w: maybe if they make AR glasses mainstream... one day
+[01:49:03] h0p3: Aye. That will work.
+[01:49:39] b3nsn0w: idk how far we are from it, but I think VR glasses with good enough cameras could do the trick
+[01:49:54] b3nsn0w: I got a quest 2, dunno if I've talked about it yet
+[01:50:14] b3nsn0w: not in love with facebook's tracking, and there are some visible cost-saving measures, but everything else about it is incredible
+[01:50:53] b3nsn0w: and the cameras are part of it, you can comfortably enable passthrough (a quick double-tap on the headset) and see a monochrome world around you
+[01:51:39] h0p3: My offspring have an unopened oculus sitting there.
+[01:51:57] h0p3: Uncle got it for them. They loved it before. Don't know why they don't want to.
+[01:52:13] b3nsn0w: which model?
+[01:52:35] h0p3: sec, lemme check
+[01:52:47] h0p3: pretty sure they need to use custom software on it to make it work right
+[01:53:05] b3nsn0w: guessing it's a quest then
+[01:53:07] b3nsn0w: is it black or white?
+[01:53:40] h0p3: Yeah, Quest 2.
+[01:53:50] b3nsn0w: wow, nice
+[01:53:57] b3nsn0w: that's the cool one
+[01:54:17] b3nsn0w: this is my storage solution for mine
+[01:54:32] b3nsn0w: it's got cameras all over it, it runs facebook's OS, has its own battery, and knows my wifi password
+[01:54:35] b3nsn0w: I don't trust the damn thing
+[01:54:40] b3nsn0w: but is it ever fun to use
+[01:55:01] b3nsn0w: pro tip: polaroid's box camera bags are the perfect size
+[01:55:22] h0p3: You can trap it on the wifi, worked to do that on my oil-company's spyware blackdrop that sits on my tank downstairs with me.
+[01:56:09] b3nsn0w: and you just load apps on it through sidequest?
+[01:56:20] b3nsn0w: or use it connected to a PC, or something
+[01:57:09] b3nsn0w: I have a dedicated router for it in my room to get that low-latency goodness, can't tell the difference between wired and wireless
+[01:57:24] b3nsn0w: other than one uses SteamVR and the other connects through Oculus's own API
+[01:58:22] b3nsn0w: anyway, definitely can recommend, it surprised me how polished the experience already is
+[01:58:35] h0p3: I keep my phone in a box.
+[01:58:41] b3nsn0w: but treat using it as if you were on a zoom call with zuckerberg
+[01:59:09] b3nsn0w: that's probably a good idea
+[02:00:20] h0p3: I'm only going to watch pornography on VR, I hope. 
+[02:00:51] h0p3: We should bust it out. 
+[02:01:24] b3nsn0w: it's honestly amazing
+[02:01:57] b3nsn0w: although, on the other hand, there's still a long way to go until we get to a point where you can put on a VR headset and see the world around yourself the same way you'd see it without
+[02:02:08] b3nsn0w: but it's gonna happen, I'd say about five years
+[02:03:03] b3nsn0w: also, I highly recommend Beat Saber, it's the one thing that got me to exercise
+[02:03:38] h0p3: I have played that game. Super fun.
+[02:03:47] h0p3: There's another one that blew my fucking mind.
+[02:03:53] h0p3: actually, a few.
+[02:04:46] h0p3: Huge Ender's Game retardfan, and Echo Arena is amazing to me.
+[02:04:59] b3nsn0w: yeah, that's awesome
+[02:05:20] b3nsn0w: I'm not super big on multiplayer, but that's the only reason I don't play that game
+[02:05:29] b3nsn0w: it's an incredible use of VR
+[02:05:35] h0p3: I'm here to destroy 12 year olds, always.
+[02:05:59] b3nsn0w: lol
+[02:06:41] b3nsn0w: what's your strongest gaming-capable PC?
+[02:07:30] b3nsn0w: also, do you have any game controllers? (joysticks, steering wheels, playstation or xbox controllers, etc)
+[02:09:00] h0p3: Offspring have better GPUs, by miles. But my wife and I have the best CPUs, RAM, and NVMEs.
+[02:09:26] h0p3: (recently looked at some builds from a friend, and GPU prices seem extraordinary to me)
+[02:09:43] b3nsn0w: yeah, the GPU market is fucked atm, there's a mining wave going on
+[02:10:08] b3nsn0w: it's likely not gonna get better until 2022, unless nvidia can figure out the mining limiter
+[02:10:43] h0p3: I'm not convinced they can
+[02:10:57] h0p3: Not without something profoundly ridiculously immoral
+[02:11:05] b3nsn0w: that sounds on par for nvidia
+[02:11:15] h0p3: it do don't it?
+[02:11:39] b3nsn0w: anyway, it's been going way better for their limiter than anyone has been saying, like "it's so gonna get cracked"
+[02:11:45] b3nsn0w: nothing's cracked yet
+[02:12:15] b3nsn0w: they "accidentally" released the 470.05 beta driver, which re-enables mining if you got 8 PCIe lanes and a display in the card
+[02:12:31] b3nsn0w: the latter can be spoofed, but the former is still somewhat of a limiting factor
+[02:12:43] b3nsn0w: idk if they cracked that limit yet, but I haven't seen it anywhere
+[02:13:20] b3nsn0w: that said, it's been grabbed up by miners anyway, because there are altcoins they can mine, but so far everything went like nvidia told them, they just weren't saying the stuff gamers wanted to see
+[02:13:28] b3nsn0w: I'm guessing it's a test flight
+[02:13:51] b3nsn0w: at the same time, they're trying to sell a mining 1660 super for $723, with no display outputs so it can't be resold to gamers
+[02:14:13] h0p3: That is mind blowing to me
+[02:14:26] b3nsn0w: that's what an equivalent ASIC would cost
+[02:14:31] h0p3: What in the ever living fuck is that "innovation"?
+[02:14:48] b3nsn0w: it's just opportunism
+[02:15:30] h0p3: One day, in some future dystopia, Nestle and Nvidia will combine to take over the world. 
+[02:15:48] b3nsn0w: ethash only runs on GPUs, and only Nvidia and AMD make GPUs with more than 4 GB VRAM, so if AMD can just keep deprioritizing their GPU business Nvidia can become the ASIC manufacturer
+[02:15:58] b3nsn0w: they only need to make sure their own gaming products don't interfere
+[02:16:32] b3nsn0w: and they got a pretty damn strong AI accelerator in the card, plus all the GPU mining algorithms use some form of a DAG, so they're quite characteristic
+[02:16:57] b3nsn0w: they've had a signed VBIOS for a while
+[02:17:04] b3nsn0w: there's not a lot of magic left there
+[02:17:18] h0p3: I'd be fine with a cryptocurrency designed to tax the wealthy automagically, every night. Make it fiat, the only legal tender for as much of the market and monetary infrastructure as possible.
+[02:17:53] h0p3: Not convinced it should be proof of work, and maybe stake works if it's constantly being distributed.
+[02:18:19] b3nsn0w: if it's government-controlled it doesn't even need a consensus mechanism
+[02:18:30] b3nsn0w: and you'd need government control for the automatic taxation to work
+[02:18:53] h0p3: You'd need government control for handing out wallets.
+[02:19:46] b3nsn0w: just one receiving address for every citizen, and give a half-life to coins after which they come back to the government wallet
+[02:20:24] b3nsn0w: would cut out a ton of problems with complex taxation that politicians use for corruption
+[02:20:56] b3nsn0w: and resolve UBI in a way that doesn't completely invalidate actually doing something with your life
+[02:21:29] b3nsn0w: plus no more hoarding for the rich, because if you do that you'll be the one paying for everything
+[02:24:12] h0p3: I could imagine wanting some kind of consensus mechanism from country to country.
+[02:24:37] h0p3: Still might just have to be a unified government no matter what.
+[02:27:56] b3nsn0w: back on the topic of VR, by the way
+[02:28:06] b3nsn0w: (sorry, I'm kinda shit at economics)
+[02:28:19] b3nsn0w: one of my favorite experiences has been MS Flight Sim
+[02:28:38] b3nsn0w: for anything cockpit-based, it's just an insane jump to be able to look around and see everything
+[02:29:07] h0p3: No, I'm happy to speak about anything with you.* Please, talk. I like listening to you.
+[02:29:29] h0p3: Yes, simulators have be where it's at. 
+[02:29:56] h0p3: When I was in pipefitting school, I felt like VR could easily be used to solve a surprising percentage of the problems for mastery. 
+[02:30:08] h0p3: Even dumb things like practicing safety correctly would go far.
+[02:30:20] h0p3: There's money in those simulations, imho.
+[02:31:56] h0p3: Some of the junk pipes I consumed on a given day cost as much as the VR headset, as it were.
+[02:32:33] h0p3: Most of it could be accurately represented and gamified, though there is no substitution for the practice itself.
+[02:32:45] h0p3: It would cut costs everywhere.
+[02:32:47] b3nsn0w: yeah, agreed on that
+[02:33:05] b3nsn0w: it feels a bit more real than you'd think, but still there's a considerable difference between VR and the real thing
+[02:34:33] b3nsn0w: as for money, I think at this point there would be a ton of it in actually good games
+[02:34:46] b3nsn0w: there are unfortunately few beyond simulators
+[02:35:08] b3nsn0w: No Man's Sky has been surprising, you basically get the whole experience in roomscale VR
+[02:35:32] b3nsn0w: there's of course Half Life Alyx, aka the one AAA-quality VR game
+[02:35:55] b3nsn0w: but other than that there are few that aren't built on one trick only, like Superhot
+[02:37:21] h0p3: I could not play Half Life Alyx. Simply too scary. 
+[02:37:53] h0p3: Superhot is neato. 
+[02:38:49] h0p3: Hard to build games designed for it. It's still in its infancy.
+[02:39:10] b3nsn0w: it's been there for a while
+[02:40:50] b3nsn0w: which locomotion system did you use btw?
+[02:40:59] b3nsn0w: just the standard teleport?
+[02:41:48] h0p3: I played only briefly on my brother's VR set. He has an old one (just got a new one too for Xmas). I don't remember. It's actually been quite a while since I've played.
+[02:42:05] h0p3: I'm doing my best to avoid gaming.
+[02:42:22] h0p3: Addiction is simply too strong for me (as my Everquest and Diablo skinnerboxes demonstrate).
+[02:43:35] h0p3: I can't myself doing work in VR, not something that actually uses the VR space and interactions yet. Hard to beat the desk as is.
+[02:43:56] h0p3: AR seems like a bigger winner to me. 
+[02:44:38] h0p3: Does it help me pick out what is salient in the world itself better? Like goggles that help me make better decisions or interact with it in a more useful way? 
+[02:45:09] b3nsn0w: idk, the quest isn't really AR yet, it's more of a compatibility mode
+[02:45:41] b3nsn0w: great for setting up the guardian and for finding a cable to plug in or two, but you can't see reality enough yet to actually interact with the world
+[02:46:04] b3nsn0w: the hololens from microsoft is more like that idea, but it's still using a weird way to project the image
+[02:46:23] b3nsn0w: it has a super low field of view for the AR elements
+[02:46:36] b3nsn0w: and it can't darken anything, only lighten, because of the optical setup
+[02:46:58] h0p3: Yes, the hololens looks more important to me. 
+[02:47:19] b3nsn0w: Apple is allegedly working on an AR headset that would be VR with cameras, with an 8K screen and eye tracking for foveated rendering
+[02:47:32] b3nsn0w: tbh I hope they do it, because that would mean others would do it too, and that's the way IMO
+[02:47:57] h0p3: Wait until it tracks my pulse and FMRI's me for muh secrets.
+[02:48:21] h0p3: Eye-tracking is this necessary evil that creeps me the fuck out.
+[02:48:41] h0p3: I get it. It's magic that can be used for good. 
+[02:49:35] h0p3: "In the land of redmond where the AR shadows lie"
+[02:50:08] h0p3: Gaslighting devices. 
+[02:50:31] b3nsn0w: yeah, tbh that can get super creepy fast
+[02:50:52] b3nsn0w: I really only want to use it for gaming, don't see VR overtaking productivity anytime soon
+[02:51:05] h0p3: Yeah, dope for gaming. 
+[02:51:45] h0p3: I wanna try it while floating in water. 
+[02:52:09] b3nsn0w: wow
+[02:52:14] b3nsn0w: now that would be super interesting
+[02:52:25] b3nsn0w: play subnautica that way
+[02:52:38] h0p3: i m m e r s i o n
+[02:52:53] b3nsn0w: if you thought half life alyx was scary...
+[02:53:06] h0p3: My offspring play that game. I cannot.
+[02:53:14] h0p3: They are just more courageous than me.
+[02:53:45] b3nsn0w: yeah, it's actually right past my limit as well
+[02:53:48] h0p3: I don't understand the desire to be scared. 
+[02:53:58] h0p3: I'll agree it's important in media. 
+[02:54:11] b3nsn0w: it's mostly about adrenaline I guess
+[02:54:14] b3nsn0w: just another addictive substance
+[02:54:43] h0p3: Hijacking my amygdala for funsies.
+[02:55:13] b3nsn0w: until it decides it gets sad and dies
+[02:55:16] b3nsn0w: wait, that's amidala
+[02:55:32] h0p3: fear center of the brain, most likely
+[02:55:39] h0p3: an important piece of the puzzle*
+[02:56:20] h0p3: I can totally see it being useful for PTSD sufferers, training exercises, empowerment, etc.
+[02:57:11] h0p3: IIRC, the human brain recognizes the shapes of spiders and snakes before other kinds of shapes. We've evolved for it.
+[02:57:25] b3nsn0w: that's kinda crazy
+[02:57:44] b3nsn0w: but it makes sense to avoid danger
+[02:57:52] b3nsn0w: anyway, I think I gotta go now
+[02:58:03] h0p3: peace, homie, good talkin'
+[02:58:22] b3nsn0w: yeah, it's been awesome
+[02:58:50] b3nsn0w: have a great day (or night, if I'm not mistaken)
+"""

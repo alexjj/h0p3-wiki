@@ -1,0 +1,79 @@
+created: 20181215153022475
+creator: sphygmus
+title: $:/plugins/sphygmus/sbuttonsV2/settings
+type: text/vnd.tiddlywiki
+
+!! Append Button
+
+* //Title to be appended://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="1buttTitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Location to appended to://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="1buttLocation" class="tc-edit-field-value" class="reviewButton" tag=input />
+** {{$:/plugins/sphygmus/sbuttonsV2/dick##1buttLocation}}
+
+!! Wiki Review Button
+
+* //Wiki review filter to be used://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="WRfilter" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Title of the new tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="2buttTitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Tags to apply to new tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="2buttTags" class="tc-edit-field-value" class="reviewButton" tag=input />
+
+!! Append Wiki Review Button
+
+* //Wiki review filter to be used://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="WRfilter" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Title of the new tiddler (that will be appended)://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="3buttTitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Tags to apply to new tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="3buttTags" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Location to append title to://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="3buttLocation" class="tc-edit-field-value" class="reviewButton" tag=input />
+** {{$:/plugins/sphygmus/sbuttonsV2/dick##3buttLocation}}
+
+!! All In One Button
+
+* //Wiki review filter to be used://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="WRfilter" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Title of wiki review tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="WRtitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Wiki review tags://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="WRtags" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Wiki review log location://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="WRlogs" class="tc-edit-field-value" class="reviewButton" tag=input />
+** {{$:/plugins/sphygmus/sbuttonsV2/dick##WRlogs}}
+*
+* //Title of carpe diem tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="CDtitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Carpe diem tags://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="CDtags" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Carpe diem log location://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="CDlogs" class="tc-edit-field-value" class="reviewButton" tag=input />
+** {{$:/plugins/sphygmus/sbuttonsV2/dick##CDlogs}}
+*
+* //Title of prompted introspection tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="PItitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Prompted introspection tags://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="PItags" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Prompted introspection log location://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="PIlogs" class="tc-edit-field-value" class="reviewButton" tag=input />
+** {{$:/plugins/sphygmus/sbuttonsV2/dick##PIlogs}}
+
+!! Hardcoded List Button
+
+* //Filter to be used://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="4buttFilter" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Title of created tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="4buttTitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Tag(s) of created tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="4buttTags" class="tc-edit-field-value" class="reviewButton" tag=input />
+
+!! Monthly Audit (4 h0p3) Button
+
+* //Filter to be used://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="4h0p3Filter" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Title of created tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="4h0p3Title" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Tag(s) of created tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="4h0p3Tags" class="tc-edit-field-value" class="reviewButton" tag=input />

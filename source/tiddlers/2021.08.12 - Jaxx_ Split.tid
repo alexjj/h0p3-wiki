@@ -1,0 +1,24 @@
+created: 20210812093811274
+modified: 20210812211754172
+tags: ASmith Jaxx Chatlog groupchat
+title: 2021.08.12 - Jaxx: Split
+
+"""
+[21.08.12 - 03:35:07] [[Jaxx]]: Does anyone know any good file splitter and joiner programme? the one i try now do split files into parts,but when its about to split into a part for example called `<filename>.mp4.000` or `<filename>.mp4.001`,it creates a zipped file with the original file inside and if i remove that zipped file,i cant join the parts back together as 1 whole file
+[21.08.12 - 03:55:34] [[ASmith]]: I use the utility named 'zipsplit' Jaxx 
+[21.08.12 - 03:56:26] [[ASmith]]: working example zipsplit -n 1073741824 $Z
+[21.08.12 - 03:57:13] [[ASmith]]: that code directs zipsplit to split filename stored as $Z into 1GB chunks
+[21.08.12 - 03:58:17] [[ASmith]]: if the file is larger than 1 GB then you'd have multiple 1 GB and the remaining part in the last chunk, ALL would be successful as being able to be decompressed and used individually
+[21.08.12 - 03:58:42] [[ASmith]]: its late, I'm tired, hope that helps Jaxx 
+[21.08.12 - 03:59:58] [[ASmith]]: to join all the files you push them all into a aptly named folder and then zip compress that folder, DONE.
+[21.08.12 - 04:05:15] [[h0p3]]: This may be irrelevant, but I'm hunting for more on this: https://philosopher.life/#2021.08.12%20-%20%2Fb%2F
+[21.08.12 - 04:10:26] [[Jaxx]]: h0p3, are u familiar with programme such as "File splitter & Joiner"?
+[21.08.12 - 04:12:12] [[h0p3]]: I've tried a few, but it has been a very long time. I tend to use mutable torrents (automatically chunks) or multi-threaded/multi-segment FTP tools (like LFTP) to push large files around. I don't split or join files anymore. I forget what tooling I even used at this point.
+[21.08.12 - 04:12:56] [[Jaxx]]: h0p3, there is something that confuse me about it. i try explain it on a pastebin,its easier
+[21.08.12 - 04:17:27] [[Jaxx]]: h0p3, https://takeanote.cc/Jaxx
+[21.08.12 - 04:17:42] [[Jaxx]]: Read that
+[21.08.12 - 04:26:50] [[Jaxx]]: you read it?
+[21.08.12 - 04:31:58] [[Jaxx]]: ?
+[21.08.12 - 05:05:17] [[h0p3]]: Sorry, got caught in the middle of something. I did read it. I don't know the answer, Jaxx. =(.
+[21.08.12 - 05:05:36] [[Jaxx]]: no worries :) .. thanks though
+"""

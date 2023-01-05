@@ -1,0 +1,434 @@
+aliases: Fallacy fallacy fallacies fallacious Fallacious
+created: 20200505050653141
+modified: 20200519200706471
+tags: [[Φιλοσοφική ανάλυση]] [[Be A Good Dad]] Neat
+title: Fallacies
+
+//We're all confused and defective somewhere, sometimes unintentionally. Poor philosophical reasoning can also boil down to sophistry, an exhausting refuge of confusionist malice conveniently for the sake of ignorance. Go on and shuffle fashionably plausible words around until you assert your irrefutable dominance in every one-up idealogical word-fight because, of course, there are no eternal truths or objective standards of meaning that can really justify criticizing or improving interactive protocols for resolving disagreements between clearly delusional so-called agents constituted by incoherent fragments of changing beliefs and desires over incommensurable timeslices. None of it really matters unless I say it does, of course. After all, constructivist theories in merely materialist dialectics are reducible to the atelic evolution of relativist self-created illusions of the self within mere self-created language games qua a war of all against all for the sake of nothing real. Furthermore, don't forget to systematically exaggerate both your opponent's inexcusable motives and your own virtuous sensibilities + divinely inspired hermeneutics. At the top going down and bottom going up, wherever they meet, we can only have [[faith]], itself a seemingly vicious spiralic, paradoxical fallacy of apparently fooling ourselves into believing we cannot be fooled, a sometimes understandably ununderstable failure to escape both believing what we perceive and perceiving what we believe.<<ref "q">> It is not so easy to peel apart good sounding arguments from good, sound arguments. Thus, who will we be? What ought we sacrifically seek with our thoughts and words? Surely, [[ITS]], however [[fff]]ingly, it is based on the pragmatically [[hope]]ful conviction in collaboratively adversarial ~~ranting~~ Reason reflectively toward [[The Good]], i.e. philosophy.//
+
+<<<
+The specialist is one who never makes small mistakes while moving towards the grand fallacy.
+
+-- Marshall McLuhan, //Understanding Media//
+<<<
+
+<<<
+[,,,,[[ITS]]], [w]hat can be asserted without evidence can also be dismissed without evidence.
+
+-- Christopher Hitchens, //God is Not Great//
+<<<
+
+<<<
+The laws of probability, so true in general, so fallacious in particular. 
+
+-- Edward Gibbon, //From Memoirs of My Life//
+<<<
+
+<<<
+Once master the machinery of Symbolic Logic, and you have a mental occupation always at hand, of absorbing interest, and one that will be of real use to you in any subject you may take up. It will give you clearness of thought—the ability to see your way through a puzzle—the habit of arranging your ideas in an orderly and get-at-able form—and, more valuable than all, the power to detect fallacies, and to tear to pieces the flimsy illogical arguments, which you will so continually encounter in books, in newspapers, in speeches, and even in sermons, and which so easily delude those who have never taken the trouble to master this fascinating Art
+
+-- Lewis Carroll, //Symbolic Logic, Part 1: Elementary//
+<<<
+
+<<<
+We reason from our bedrock beliefs, not to them. Infanticide and slavery are not forbidden in our society because the arguments against these practices are stronger than the arguments in favor of them, but because the practices revolt us. We would not listen to anyone who cared to make arguments in favor of them.
+
+-- Richard Posner, //Overcoming Law//
+<<<
+
+
+* Definitions & Properties
+** Making the wrong ([[irwrongfrr]]) moves in languages games.
+** Formal/Logical/Deductive Fallacy: structurally invalid arguments that may still be rhetorically persuasive.
+** Informal/Material/Inductive Fallacy: hey, I don't like your vicious sensibilities, brainwasher...or, we have circularly begged the question, what is fallacious is fallacious because we said it was fallacious.
+
+* Overemphasis
+** Epistemology for plebs. 
+
+* Bias vs Fallacy
+** Biases affect how you interpret and process information, and fallacies relate to how you construct your arguments and communicate your ideas. Biases may incline us to employ fallacies.
+*** I don't see why these peel apart so nicely at all, unless it is a matter of choice.
+*** Biases and fallacies can both be adaptive in some contexts. 
+**** Even fallacies can result in otherwise sound arguments, even if the initial fallacy which started the engine wasn't fitting.
+*** Perhaps fallacies are definitionally mistakes, unlike bias?
+*** Fallacies seem to be rhetorical devices for injecting bias into dialectics.
+
+---
+
+!! Syllogistic fallacy:
+
+A syllogistic fallacy is any instance in which a syllogism with incorrect structure is used.
+
+* Four-term fallacy: Any syllogism in which four terms are present, instead of the mandatory three, often due to using an ambiguous term in a premise of a logical syllogism.
+* Enthymeme: When an unstated premise is necessary for logical validity.
+** Argument from incredulity: //P1//: One can't imagine how X could be true.  //P2//: (unstated) If X is true, then one could imagine how X could be true. //C//: X is false. The contrapositive of this fallacy is the Argument from credulity: //P1//: One can imagine how X could be true. //P2//: (unstated) If one could imagine how X could be true, then X is true. //C//: X is true.
+** Affirming the consequent, Commutation of Conditionals, known as illicit (false) conversion in quantificational logic and as confusion of the inverse in statistics (If P then Q. Therefore, if Q then P.), is an argument which needs to state P if and only if Q in order to be valid, but does not.
+** It is possible to interpret these particular propositional fallacies as complementary enthymemes:
+*** Affirming a disjunct (also depends on P or Q being Fallacy of ambiguity, ambiguous between inclusive and exclusive or): P or Q. P. Therefore, not Q.
+*** Denying a conjunct (or false dilemma): Not both P and Q. Not P. Therefore, Q.
+** It is possible to interpret these particular propositional fallacies as not stating If P then Q or If Q then P (i. e. the principle of totality for material implication):
+*** Affirming the consequent: If P then Q. Q. Therefore, P. 
+*** Denying the antecedent: If P, then Q. Not P. Therefore, not Q.
+*** Negating antecedent and consequent (also known as improper transposition): If P then Q. Therefore, if not-P then not-Q. (also leaves half of the conclusion, which also being necessary for logical validity, unstated)
+*** Confusion of the inverse: Given two events A and B, the probability of A happening given that B has happened is assumed to be about the same as the probability of B given A. More formally, P(A, B) is assumed to be approximately equal to P(B, A). It is a fallacy one encounters when using Bayes' Theorem (as are base rate fallacies in general).
+** It is possible to interpret these particular fallacies of quantificational logic as having an unstated premise which is necessary for logical validity:
+*** Existential assumption: All X, if they existed, would be Y. All Y that exist are Z. (An X exists.) All X are Z.
+*** Some Are/Some Are Not (also known as unwarranted contrast and negative conclusion from affirmative premises or affirmative conclusion from a negative premise): (Any S which exists is P or it is not.) Some S are P. Therefore, some S are not P. or vice versa
+** Emotional appeals frequently appear as enthymemes because they depend on evaluating an argument based on feelings rather than logic. Emotional appeals, while primarily syllogistic, are often also informal fallacies.
+*** Appeal to novelty (//argumentum ad novitatem//): Arguing that a claim is valid because it is novel.  
+*** What's the harm: It's just homeopathy, some water (and your payment of $50); what harm can it do?
+*** Appeal to nature (//argumentum ad naturam//) — Arguing that something is good because it is "natural". 
+*** Appeal to ancient wisdom, Argument from age: It's right because the Maya/Chinese/Hebrews said it thousands of years ago! 
+*** Argument to the Purse (//argumentum ad crumenam//): Using one's possession of money (or lack of it) to prove the truth of a claim. 
+**** Appeal to wealth: I have made a bunch of money so anything I tweet must be true!
+**** Appeal to poverty: My lack of money proves that I know the secret to happiness. 
+*** Appeal to accomplishment (also known as appeal to success): I have three doctorates at BS University and have written 7 best-selling books on the subject of the Quantum woo, quantum dream states therefore anything I say is true.  
+*** Appeal to confidence, Appeal to confidence/Trust: Trust me, I know what I'm doing.
+*** Appeal to intuition: I have a gut feeling that something is true, therefore it is (even if it has at most only a weak factual basis).
+*** Appeal to gravity: I'm the only one up here who takes this seriously. Disregard these jokers — I have the truth.
+*** Appeal to desperation: Something must be done about these illegal immigrants. Great Wall of America, Let's build a border wall! 
+*** Appeal to normality: It is normal in America to be in debt therefore it is nothing to worry about. Let me tell you about our financing options…
+*** Appeal to common Folk: Joe the Plumber is a common man. He says to do X. You are a common man, therefore X is the right thing to do.
+*** Appeal to closure: Crime X occurred. Person Y looked suspicious but no evidence connected him to it and no other suspects were found, thus facilitating the scapegoating of person Y, whom the police then arrests out of a desire to close the case. 
+*** Appeal to flattery: What a lovely fallacy you have there! You must be a smart person, someone who'd find quantum healing quite fascinating.
+*** Appeal to emotion:
+**** Appeal to shame (//reductio ad ridiculum//): Would you say that in front of your mother (if you knew how ridiculous she thought it was)? 
+**** Appeal to pity (//argumentum ad misericordiam//): Using the emotion of pity to distract from the truth of an argument. Many people in the USA view innocent by reason of insanity as an example of this fallacy which has lead to the adoption of guilty but mentally ill laws.
+**** //Argumentum ad fastidium//: Ugh, that's so gross — it must be false.
+**** Appeal to anger (//argumentum ad iram//): When Rush Limbaugh's anger is used to prove the claims he is making. 
+**** Appeal to hate (//argumentum ad odium//): Don't you hate it when people point out your logical fallacies? I know I do. So come join me in my campaign against logic!"  
+**** Appeal to pride (//argumentum ad superbiam//): You know what is wrong with this country? People are no longer proud to be an American. Well I am and together we can MAGA!
+**** Appeal to fear (//argumentum ad metum//, //argumentum in terrorem//): We're surrounded by logical fallacies! //RUN!!//
+*** Loaded language (also known as prejudicial language):  Using terms such as “hard-working Americans” that elicit strong emotions in the listener in order to establish the truth of an argument.
+** Argument by pigheadedness: Stubbornly refusing to accept rational counter arguments to one’s position without providing any reasons as to why the counter arguments are wrong.
+** Fallacies of vacuity are the ultimate enthymemes because they "(do) not establish what the proponent of the argument intended because (they don't) put forward a substantive claim in favor of the conclusion [(i. e. a substantive premise)]." Thought-terminating clichés often contain this type of fallacy.
+*** Self-sealing arguments can't be argued against because they are constructed in a way that seals themselves off from criticism although they are obviously based on invalid reasoning or speculative premises and therefore are Not even wrong or Fractally wrong (or unfalsifiable), but nevertheless it is doubtful that they can truly be proven correct.
+**** Counterfactual fallacy (Hypothesis contrary to fact): If Alexander the Great hadn't died, then the Greek Empire wouldn’t have fought amongst itself and the world would be far more intelligent than it is now as it would have been run by the Greeks.
+**** Conspiracy theory: Of course Donald Trump, I can't prove JFK was assassinated by Ted Cruz's dad. The government has covered it up!
+*** Meaningless Question: How much wood could a woodchuck chuck if a woodchuck could chuck wood?
+*** Circular reasoning (also known as //circulus in demonstrando//) and begging the question (also known as //petitio principii//): Assuming the initial point. Claim A assumes A is true. Therefore, claim A is true.
+**** Infinite regress, Homunculus fallacy: If I say X, and then say that X proves that X is true, then I win!
+**** Subverted Support: Trying to explain how some phenomenon occurred when there is no evidence that the phenomenon occurred. Example – Conservative Christian explanations of the great flood and Noah's Ark.
+**** Appeal to faith: Arguing that one must use faith rather than reason to understand something to be true.
+**** Loaded question, Complex question fallacy (also known as //plurium interrogationum// or loaded question): Asking a question, which has an assumption built into it, so that it can't be answered without appearing to agree to the assumption, or else appearing evasive by questioning the assumption. To be distinguished from a leading question, which is not a fallacy, but is a way of suggesting the desired answer by how the question is phrased. "Are you still beating your wife?" is a //loaded// or complex question, for it assumes that at one time you did beat your wife; while "You weren't beating your wife, were you?" is a //leading question//, for it suggests the simple answer //no//. 
+**** Tautology: A is true because A is true (Necessitarian determinism strengthens this A is true because A always had to be true), e.g. the just because fallacy (not to be confused with //ipse dixit//, a.k.a. because I said so): Student: Why is the Sun yellow? Teacher: Just because.
+*** Inconsistencies: An error in logic that concerns compound propositions, two of whose parts contradict one another in such a way that both cannot be true. (i.e., P and not P; If P then not P. P. Therefore, not P: which is also Fallacy of ambiguity, ambiguous between //modus tollens// and //modus ponens//)
+**** Self-refuting idea (also known as //contradictio in adjecto// and conflicting conditions): A claim that on closer inspection disagrees with itself.
+***** Stolen concept fallacy: When the thing you are seeking to disprove requires the existence of the thing you are trying to disprove. Example: "Logic can't possibly be a way to derive truth. To prove to you why I think this way…"
+***** Kettle Logic: A collection of arguments made to try and prove a point but the arguments contradict one another.
+**** Double standard: Using one set of criterion for one person (or group of people) and another set of criterion for a different person (or group of people) when only one set of criterion should be used.
+**** Special pleading: When universal rules no longer apply in this specific instance. Examples:
+***** I know the law says that there is no left turn on red, but I was in a real hurry… 
+***** Notable Effort: You have made a notable effort while in prison, therefore life imprisonment no longer means spending your life in prison.
+*** Having your cake: If-by-whiskey: Using words with strong connotations to hide the fact that one is supporting both sides of an issue and therefore not stating a position.
+*** Argument by assertion: If you say something enough times, it eventually becomes true and therefore you win the argument. The less kind name for this is //Argumentum ad nauseam// (argument by repetition): If you say something often enough to make people vomit, you win. The reverse side of this is //argumentum e[x] nausea//: If people have told you something often enough to make you vomit, you win by saying anything that is not that.
+**** Argument from silence (//argumentum e[x] silentio//): The lack of response to my point(s) makes my point(s) correct!/The lack of response to my counterpoint(s) to your point(s) makes your point(s) incorrect! Example: the Silent Majority.
+*** Definitional fallacies, Circular definition: fails to establish any new information about its referend.
+*** Phantom distinction (also known as distinction without a difference): When someone spends time arguing for the superiority of one term over another (rather than the intended debate), yet there is no effective difference.
+*** Deepity: A statement which Equivocation, equivocates between one vacuous meaning it has, which is true, and another, which, though sounding profound, is false if it is at all meaningful
+* Universal conclusion from a particular premise: Asserting some universal fact from particular premises. Only IAA/AIA, IIA and IOE/OIE syllogisms commit this fallacy without drawing an impossible conclusion (AIA also has an undistributed middle term and OIE also has an illicit minor)
+** Some S are M. All M are P. Therefore, all S are P./All S are M. Some M are P. Therefore, all S are P
+** Some S are M. Some M are P. Therefore, all S are P. (i.e., induction)
+** Some S are M. Some P are not M. Therefore, no S are P./Some S are not M. Some P are M. Therefore, no S are P.
+* Negative conclusion from affirmative premises: Asserting some negative fact from positive premises.
+* Affirmative conclusion from a negative premise: Asserting some positive fact from negative premises.
+* Fallacy of exclusive premises (also known as two negative premises): a categorical syllogism that is invalid because both of its premises are negative.
+* Illicit process: Incorrectly concluding for all of a set when the premises apply to only some of a set. Specifically, the illicit major and illicit minor.
+** Illicit major: All A are B. No C are A. Therefore, no C are B.
+** Illicit minor: All A are B. All A are C. Therefore, all C are B.
+* Undistributed middle: the middle term in a categorical syllogism is not distributed in either the minor premise or the major premise.
+
+!! Fallacies of quantificational logic (also known as fallacies of predicate logic):
+
+A logical mistake that involves numerical concepts such as the difference between "some" and "all".
+
+* Illicit contraposition: No S are P. Therefore, no non-P are non-S.
+* Quantifier-shift fallacy (or scope fallacy): Every X has the relation R to some Y. Therefore, some Y has the inverse of relation R to every X. 
+
+!! Probabilistic fallacy:
+
+When the conclusion reached from the premises of an argument violates the laws of probability. This was placed in the formal category due to the fact that statistics are based in mathematical logical proofs.
+
+* Base rate fallacy (also known as base rate neglect): Incorrectly ignoring statistical information in favor of irrelevant information to make a judgment.
+** Bayes' Theorem and Jurisprudence, Prosecutor's fallacy: Jurisprudence in the USA can be described as poorly executed statistical inference done by three unqualified statisticians before a statistically ignorant jury. In Europe, this is not necessarily the case as they appear to understand the importance of Bayesian inference. Using some form of statistical inference is the only mathematically valid way to evaluate evidence and determine the likelihood of guilt and innocence, but using Bayesian statistics is against USA's laws. The prosecutor's fallacy occurs when someone overemphasizes the weight of the evidence proving someone's guilt. Very frequently, this comes down to false allegations as proof (blindly trusting the accuser, assuming the guilt of the accused) when people assume that the victim of an alleged crime is telling the truth and this assumption is wrong. This is an //ipse dixit// fallacy committed by overzealous prosecutors. According to a federally-funded study made available online by the National Criminal Justice Reference Service, 2-8% of reported rapes in Los Angeles, California were false allegations. 
+** Bayes' Theorem and Jurisprudence, Defense attorney's fallacy: When someone downplays the weight of the evidence proving someone's guilt. Very frequently, this comes down to blaming the victim when a victim's actions are used as proof that some offense against them was justified or didn't occur. This is an //ad hominem// fallacy commonly used by defense attorneys in cases involving rape.
+* Multiple comparisons fallacy: A group of statistical studies shows that out of N studies, B number of studies produced result C and D number of studies produced result E. The media reports "Studies show E," ignoring result C.  
+* Overfitting: Failing to ignore data outliers resulting in a model that is not representative of the general trend of the data set.
+* Data dredging (also known as post-designation, data fishing and the Texas sharpshooter fallacy): This is when you test all kinds of different hypotheses against the same set of data until you find something that is statistically significant, which you then use as an //ad hoc// conclusion without looking for corroborating data (or using any that you already know). This is a fallacy because that statistical result is most likely due to chance. This is also a pattern recognition error. 
+* Conjunction fallacy: A is a subset of B. Therefore, A is more probable than B.
+* Disjunction fallacy: Event A is more probable than the likelihood of event A or event B.
+* Gambler's fallacy: I lost the last twenty dice rolls — I'm due for a win, so I had better double down! Conversely, I won the last twenty dice rolls — What if I'm due for a loss? At least I can absorb it if I don't get carried away with my next bet. 
+* Clustering illusion:
+** The Hot hand fallacy: I am on a hot streak! Just one more hand! I can't lose!
+** Drought fallacy: I am in a drought! No more hands! I must lose!
+
+!!!B ad reasons fallacy:
+
+Fallacy fallacy (//argumentum ad logicam//): 
+
+* Forward: Argument A for the conclusion B is fallacious. Therefore, B is false.
+* Converse: The conclusion B is false. Therefore, Argument A for B is fallacious.
+* Converse of Inverse: Argument A for the conclusion B is not fallacious. Therefore, B is true.
+* Inverse: The conclusion B is true. Therefore, Argument A for B is not fallacious.
+
+!! Fallacy of modal logic:
+
+The Fallacy of modal logic is a formal fallacy in which modalities play a role in creating a fallacious argument. 
+
+Modal Scope Fallacy: A fallacy in which an unwarranted degree of necessity falls on the conclusion of an argument. An example would be, "if Barack is President, then he must be 35-years old or older," since it is not his presidency that causes him to be this age.
+
+!! Masked man fallacy:
+
+The masked man fallacy (also known as illicit substitution of identicals) is a fallacy that involves confusion between extensions and intensions. Effectively, conflating knowing something with knowing it under all of its names. E.g. "I know who Bruce Wayne is, but I don't know who Batman is. Therefore, Bruce Wayne is not Batman."
+
+!! Informal:
+
+!! Fallacies of presumption:
+
+Fallacies of presumption occur when one uses a fallacious or unwarranted assumption to establish a conclusion. 
+
+!!! Jumping to conclusions:
+
+Jumping to a conclusion occurs when coming to a judgement without taking the time to rationally evaluate the merits of the argument.
+
+* Fallacy of accident, Accident Fallacy (//a dicto simpliciter ad dictum secundum quid//): When a rule of thumb is taken to be universally true.
+** Ecological fallacy: Interpreting statistical data about a group to make inferences about an individual of that group and coming to an incorrect conclusion.
+** Stereotype, Stereotyping fallacy: Assuming that all individuals of a group have a certain characteristic when this doesn't hold true for all individuals. Example: Stipulating that "All men are taller than women," is a stereotype as there are women who are taller than most men and men that are shorter than most women. On the other hand, stipulating "Men are usually taller than women." is not a stereotype fallacy. Rather, it is an accurate statistical statement. 
+* Overgeneralization, Hasty generalization (also known as overgeneralization and conversely the  fallacy of accident): Taking a few specifics and making a general rule out of them, without the few specifics adequately representing the entire group. This is frequently due to an Selection bias, Unrepresentative Sample (also known as biased sample fallacy and selection bias) leading to one drawing a conclusion about a population based upon a sample that isn't reflective of the population that it is supposed to represent. 
+** Self–selection — a fallacious way of collecting data where the participants who choose to participate in the study are not likely to be representative of the population that it is supposed to represent (such as online polls).
+** Double counting — When something is counted twice resulting in a statistical error. For example, let's say that one is wishing to determine what percentage of people have a medical condition that could be described as intersex. In order to tabulate this figure, one could include people who have a genetic disorder called MKRH syndrome and people who have a phenotype called vaginal hypoplasia. If one includes both groups unquestioningly, there is likely to be double counting as MKRH syndrome causes vaginal hypoplasia.
+** Survivorship bias, Survivorship fallacy: An unrepresentative sample where 'survivors', 'winners' or 'high performers' are cherry picked to form an optimistically-biased sample. Example: Say 80% of people in a population are Christian and 20% are not, and car crashes kill and save lives independent of one's religious beliefs. 80% of the survivors say that Christianity saved their life which leaves the false impression that Christianity works because the 80% of the people who died who are Christians don't get to tell how Christianity didn't save their life… because they are dead.
+** Reverse survivorship/Casualty fallacy: An unrepresentative sample where 'casualties', 'losers' or 'low performers' are cherry picked to form a pessimistically-biased sample.
+** Sample size, Small sample: Using a sample size that is too small to generate statistically relevant conclusions due to insufficient data. 
+*** Insufficient statistics: the drawing of statistical conclusions from the small sample size. 
+*** Overprecision (also known as fake precision): Assuming a prediction is //exactly// correct for any given point.
+*** Anecdotal evidence or pragmatic fallacy: Using anecdotal evidence to make a general point. Example: Lorenzen Wright married his high-school sweetheart who is now on trial for his murder. This proves that you should never marry your high-school sweetheart. Cherry picking (also known as one-sidedness, suppressed evidence, and the fallacy of exclusion among others) is the result of intentionally only using information that supports one's desired general point and ignoring the evidence that contradicts it. 
+**** Apex fallacy: Using the best/worst group to generalize to the whole group, e.g. nutpicking where one is using examples that are insane(ly great) to represent a group.
+**** Lack of proportion: Exaggerating or downplaying and/or contradicting a piece(s) of evidence that one is using to reach a conclusion.
+***** Disregarding known science:  Making a claim (without good evidence) that ignores and/or contradicts a scientifically-substantiated fact.
+***** Exaggeration: Overemphasizing information of questionable relevance when coming to a conclusion.
+**** Argument by selective reading: Acting as if the weakest argument made by an opponent was the only one made and focusing one's rebuttal on only that argument.
+**** Oversimplification: Making a complicated issue appear simple when it really isn’t.
+** Ludic fallacy: Presuming that your statistical model works in situations where it doesn't.
+** Selective attention: Focusing on certain particulars of an argument while ignoring other aspects of it, such as in the case of the availability heuristic when certain facts are more easily recalled than others, resulting in an unrepresentative sample from which to draw conclusions. 
+*** Misleading vividness: A few dramatic events such as plane crashes give the mistaken imprecision that it is unsafe to fly when, in fact, it is statistically safer to fly than it is to drive. 
+*** Spotlight fallacy: when highly publicized data on a group is incorrectly assumed to represent a different or larger group, e.g. the tokenism of a rich politician who goes to a homeless shelter on Thanksgiving and shakes a couple of hands for about an hour then goes home to his or her mansion. News reports show the politician shaking hands. The next day, the politician gives tax breaks to the 1% and raises taxes on the middle class.
+*** Historian's fallacy: Dixiecrat fallacy: Dems supported segregation! Dems are racist!
+*** Retrospective determinism: Assuming that because an event occurred under a set of circumstances, that it was bound to happen under those circumstances. 
+*** Confirmation bias: Seeing only evidence that supports one's hypothesis and overlooking evidence that would contradict it. The toupée fallacy strengthens this with the claim that one is inherently not privy to this evidence.
+
+!!! No True Scotsman:
+
+When groups are redefined on the spot such as because they are indefensible from someone pointing it out the their obvious deficiencies so the claimant revises their claim, most frequently by using numerous exceptions to a claim to make it "accurate," in spite of this resulting in the claim having no real meaning, and acts as if was the same as the original claim. Examples:
+
+* //P//: Christians are inherently moral people, but there are Child sexual abuse in the Roman Catholic Church, Catholic priests who have molested altar boys (because people with authority tend to abuse it), which is inherently immmoral. //C1//: Therefore the molested altar boys, and not the priests (if anybody in that scandal could have been) were the //true// Christians. //C2//: Therefore, the //true// Christians are the ones have no "true" authority within the church.   
+* Except for 9/11, the Iraq War, invasion of Iraq, the federal response to Katrina, and Great Depression, the financial crisis, George W. Bush's tenure as President proved that he was skilled at his job.
+
+!!! Category mistake:
+
+Confusing what is true of a part with what is true of the whole.
+
+* Fallacy of composition: Individual things a whole entity is comprised of has characteristics A, B and C etc., therefore the whole entity has characteristics A, B and C.
+* Fallacy of division: The whole entity has characteristics A, B and C therefore its parts have characteristics A, B and C.
+
+!!! False dilemma:
+
+False dilemma (also known as the Black-or-White fallacy, false dichotomy or false dilemma): When two opposing views are presented as the only options when they are not. 
+
+The alternative advance is when both of the options presented to you are essentially the same thing, just worded differently.
+
+!!! False equivalence:
+
+False equivalence: When you presume that two things are the same when they are not. 
+
+* Moral equivalence: Arguing that two things are morally equal, even though they are not.
+* Political correctness fallacy: When you presume that people's ideas are of equal value or are equally true when they are not. (Think Galileo.) In the case of argument to moderation (//argumentum ad temperantiam//), one is technically presuming that somewhere between two disparate positions, both of which being partially incorrect, there must be a compromise position between them that is correct. Examples:
+** Medicare Part D was such a great bill because it was a compromise between the positions of the Republicans and the Democrats. In fact, it was so great that pharmaceutical companies are price-fixing drugs, violating anti-trust laws, and costing American taxpayers billions of dollars. Here is a 60 Minutes expose of just how great the compromise between Republicans and Democrats is for America.
+** Winner-take-all is an anti-Democracy, democratic way to run a multi-candidate election, but people would have "too much of a vote" in a purely proportional system. Therefore, Republican Presidential Primaries began to be run so as to award delegates to all candidates so long as none must have gotten an absolute majority of the vote in that state.
+* Balance fallacy — Giving equal weighting to both sides of an argument, even if one really doesn't deserve the time.
+
+!! Fallacies of relevance:
+
+Red herring: A group of fallacies which bring up facts or issues which are irrelevant to the argument often in an attempt to distract the opponent and/or audience.
+
+* Rights To Ought: The speaker deflects criticism for a behaviour or statement by declaring that they have the 'right' to perform said action. This is utterly irrelevant. Just because you //can// do something, does not mean it is desirable, pragmatic, or beneficial in anyway to anyone.
+** Red herring: A distraction from the original argument or points presented.
+*** //Ignoratio elenchi//: Missing the point by refuting something that is not stated. Related to the straw man.
+ 
+!!! Argument from ignorance:
+
+Argument from ignorance (//argumentum ad ignorantiam//): When it is claimed that a proposition is true because it has not yet been proven false or that it is false because it has not yet been proven true.
+
+* Science doesn't know everything: //P1//: If science (or a person) can't explain X, then Y is true. //P2//: Science can't explain X. //C//: Y is true.
+** Moving the goalposts: Science explains/discovers the X of the first premise leading to the refutation of the support for Y. New requirement: Well if science can't explain Z then Y is true.  Science explains Z. New requirement: Well is science can't explain W… Inflation of conflict results if the argument refers to an incomplete agreement on a certain X, Z, or W, as sufficient to cause people not to know anything at all.  
+** Confusing the currently unexplained with the unexplainable: Science hasn't explained how the Big Bang began (X), therefore Y ! it will forever remain unknown.
+** One single proof: Dismissing all circumstantial evidence in favor of a single "smoking gun" that may not (and may not need to) exist.
+* Burden of proof, Shifting of the burden of proof (//onus probandi//): When one asserts something to be true without evidence for one's position, or against it in the case of a negative proof (also known as proving non-existence), and then one asks people to prove them wrong. (A person asserting a fact is the one who has to have proof, not the other way around.)
+* Missing data fallacy: One's hypothesis has been proven wrong. One asserts, "Well there is yet to be discovered information that will prove my flawed hypothesis or conclusion to be true."
+* Appeal to complexity: I can't understand something therefore no one else can either. This could be due to Willful ignorance.
+
+!!! Genetic fallacy:
+
+Genetic fallacy: Occurs when the origin of a claim is used to establish truth or falsehood rather than the claim's current factual merits.
+
+!!!! Appeal to false authority:
+
+Appeal to authority, Appeal to false authority (//argumentum ad verecundiam//): Incorrectly asserting that respect given to some authority proves the assertion to be true.
+
+* Ultracrepidarianism: When a source is quoted outside their expertise, as if expertise in one field extended to another.
+** Professor of nothing: When a source is introduced as "Prof." or "Dr.", yet they aren't, or their credentials are from a diploma mill.
+** Appeal to celebrity: When a source is supposedly authoritative because of the respect people give them.
+* False attribution: Using an unreliable, fabricated, irrelevant or other form of untrustworthy source as the basis of one's argument.
+** Argumentum ad dictionarium, Appeal to definition (//argumentum ad dictionarium//): If the dictionary says what I think something means, the dictionary is right. If not, find a new dictionary. The etymological fallacy occurs when this fallacy confuses the original meaning of a word and its current meaning. 
+** Generalization from fictional evidence: Using a fake story to make a general point.
+** Linking to authority: When a source is "cited" in-text yet the reference doesn't exist / is irrelevant / says something else.
+** Anonymous authority: When a source is quoted (or supposedly quoted), but no name is given, e.g. because the person citing it doesn't have first-hand knowledge of it but knows somebody (who knows somebody…) who said that this is what it said. (It is not hearsay if the source states something so do that instead.) 
+** Quote mining (it is also a fallacy of accent): When an authority is selectively quoted to distort their views, or misquoting someone to gain the appearance of authority.
+** Invincible authority: When a source is the //entirety// of an argument (which one knows due to amazing familiarity with the source/argument if not complete omniscience).
+* Alleged certainty: Asserting that a conclusion is certain because everyone knows it to be true even though there are people who would rationally disagree with one's assertion.
+** Common sense, Appeal to common sense: Arguing that the conclusion one reached is supported by “common sense." As many of the readers of this page probably realize, there is no agreed upon common sense. Or, if it does exist, it is awfully fallacious.    
+** Appeal to self-evident truth: Arguing that something is true because it is "self-evident." What is or is not self-evident is highly debatable and subjective by definition. But that (self-evidently) doesn't stop you from fantasy projection, or expecting other people to accept your subjective interpretation of experiences as the basis for objective truth. 
+** Proof surrogate: To prove X, I will assert it to be true without providing any evidence for my conclusion, but I will assert it confidently so you will believe me.
+* Blind authority fallacy (also known as the Nuremberg defense, appeal to the law and Divine command theory, appeal to Heaven or //deus vult//): When one believes something to be true simply because the person saying it is in charge, e.g. the "rights to ought fallacy" of confusing what one has a legal right to do with what one ought to do. Which is to say, one has the legal right to protest a march for breast cancer awareness. Having that right doesn't mean that one ought to do it though.
+* Argument from consequences, Appeal to consequences of a belief (//argumentum ad consequentiam//): Whether something is true or not depends on whether the consequences of it being true are desirable or undesirable e. g. appeal to force (//argumentum ad baculum//) wherein one uses force or the threat of it to provide support to one's argument. The negative outcomes are being actualized by the one making the argument.
+** Argument by censorship: I have created silence; this shows that my point cannot be responded to!
+** Galileo gambit — If someone is going against the tide of popular thinking, for which people have even died (//argumentum ad martyrdom//), they must be correct because Galileo was right, while in reality, Galileo was right because he had evidence.
+** (Self-)Righteousness fallacy: Assuming that if a person (whether self or other) has good intentions, then they also know the truth.
+** Wishful thinking: The desire for something, especially if improbable (Appeal to probability, appeal to possibility) or even impossible, to be true makes it true.
+* //Argumentum ad populum// (also known as the bandwagon fallacy, appeal to common belief, and the authority of the many among others): Most people believe X to be true therefore it must be true.
+** Groupthink: When one reasons the same way everyone else does in their group out of a desire for social acceptance or because one is too stupid to think independently.
+** Appeal to tradition (//argumentum ad antiquitatem//): Because it's //always// been that way, it's absolutely the right way! 
+** Appeal to popularity (//argumentum ad numeram//): The popular thing to do or believe in is also the right thing to do or believe in, even in spite of a Silent Majority precluding much, if any evidence of its popularity.
+* //Ipse dixit//: When a source is the person making the argument. Example: Person X stole 10 million dollars from me because I said so even if I don't actually have 10 million dollars for anybody to steal.
+
+!!!! //Ad hoc//:
+
+//Ad hoc// (meaning literally, "for this"): When some idea is asserted purely to shore up some other idea. 
+
+* Deceit, Lying: Intentionally saying something that isn't true. 
+** //Argumentum ex culo//: When some fact is cited to defend something, but the fact is entirely fictional.
+** Rationalization (also known as making excuses): Inventing a reason for something instead of giving the real reason. Example: "I can't go on a date with you because I am too busy with school right now to get involved with someone." 
+* Deceit, Misrepresentation: A mischaracterization of an opposing position, very often a straw man which is for greater rhetorical flexibility like what Ayn Rand did with socialism.
+* //Causality, Non causa pro causa// (also known as false cause) is an enthymeme which does not state that everything is the effect of something else, especially in certain forms:
+** //Post hoc, ergo propter hoc//: Because event A happened before B, A must have caused B.
+** //Correlation does not equal causation, Cum hoc, ergo propter hoc// (also known as correlation does not imply causation): Concluding that because A is correlated with B, A caused B.
+*** Confounding causation (also known as joint effect): Asserting X causes Y when, in reality, X and Y are both caused by Z (either simultaneously or sequentially).  
+*** Coincidence: Asserting X causes Y when, in reality, the correlation is a statistical anomaly. 
+*** Wrong direction, Reverse causation (or wrong direction): When a cause is mistakenly considered an effect.
+** Regression fallacy: Something naturally fluctuates. For example, a person gets sick on occasion. When they get sick, they take snake oil as a cure-all. They later feel better because they have Regression to the mean, reverted to the mean which for them is feeling healthy.  They falsely conclude snake oil was a cure even though they only reverted to the mean.
+** Magical thinking (or superstitious thinking): Making causal connections between A and B based upon superstition rather than evidence.  I danced for rain. It rains a week later. I caused the rain. I wore my lucky baseball cap. My team won. My wearing of the baseball cap has the power to make my team win. 
+** Genuine but insignificant cause, Fallacy of the single cause (also known as causal oversimplification, causal reductionism, and the reduction fallacy): When it is assumed that there is a single, simple cause of an outcome when in reality it may have been caused by a number of jointly sufficient causes, e.g. the insignificant cause, which is the one minor factor out several contributing factors that is the sole cause.
+* Irrelevant reason — When one uses premises that are not relevant to the issue at hand.  
+** Psychogenetic Fallacy: Assuming that there is a psychological reason why an argument is invalid.  Example:  You think I am dumb because you are on your period.
+** Confusing an explanation with an excuse: Assuming that someone’s explanation for bad behavior somehow excuses it.
+* Slothful induction (also known as appeal to coincidence): Ignoring the strongest conclusion of an inductive argument to focus on a weaker one.
+** Least Plausible Hypothesis: Favoring a hypothesis with a lower probability of likelihood over one that is far more probable.
+** Holmesian fallacy, Far-Fetched Hypothesis: Favoring a hypothesis that is not plausible over the more probable hypothesis.
+* Smokescreen: offering up irrelevant information to obscure the relevant information. 
+** Quantum Physics Fallacy: Hmmm… how do I prove point X?  Oh I know.  People don't understand quantum physics so I will say that point X is proven by the uncertainty principle.
+** Zero-Sum Fallacy: Hmmm… now how do I now prove point Y? I think I will use game theory and call it a zero sum game. This is a fallacy commonly found in economics. There are valid ways to use game theory in economics but you have got to be smart about it 
+** Spiritual Fallacy: When something can not be explained using conventional logic, the person claims that it's correct in a 'spiritual' way. Examples:
+*** the Holy Trinity of Christianity (i.e., "The Holy Spirit, God, and Jesus are all one entity but they are also three separate entities at the same time").
+*** the interpretation of the Bible as somehow forbidding male-male sex absolutely (also includes Quote Mining and Destruction in Translation)
+** Chewbacca Defense which is a parody of Johnnie Cochran's famous closing argument in the O. J. Simpson trial: "Cochran: Ladies and gentlemen of this supposed jury, I have one final thing I want you to consider. Ladies and gentlemen, this is Chewbacca. Chewbacca is a Wookiee from the planet Kashyyyk. But Chewbacca lives on the planet Endor. Now think about it; that does not make sense!" (technically not ad hoc, most of this is true of what is in //Star Wars//)
+** //Ad hominem//: When the source of the argument is attacked, rather than their idea. 
+*** Association fallacy: When someone's associations are used as evidence against their ideas. 
+**** Bad Seed: Arguing that the "Apple doesn't fall far from the tree." 
+**** The Hitler Card (also known as Reductio ad Hitlerum): Hitler spoke German and you are learning to speak German as a second language, therefore your arguments have no merit as you are just like Hitler.
+*** Appeal to bias (also known as //ad hominem// circumstantial and vested interest): Arguing that someone's argument has no merit because he or she stands to profit from it being true in some way. The Shill gambit (also known as faulty motives) is the form of this fallacy asserting an arguer is working for someone and spreading disinformation.
+*** //Appeal to Confidence, Ad Fidentiam// (//argumentum ad fidentiam//): attacking a person's self-confidence. //Argumentum ad cellarium// is the form of this fallacy specifically accusing the arguer of still being in "mom's basement".
+*** Poisoning the well and demonization: Where an opponent is pre-painted as (unequivocally) terrible.
+*** //Tu quoque// (//argumentum ad hominem tu quoque//): Where a criticism is falsely dismissed because its author is also guilty of the charge. Whataboutism is the form of this fallacy which includes red herrings or balance fallacies.
+*** Relativist_fallacy, Subjectivist fallacy (also known as: relativist fallacy): When some objective fact is asserted to be true for some people but not true for others. 
+*** Damning with faint praise: When someone is attacked through praise of an achievement that isn't praiseworthy or isn't significantly praiseworthy, suggesting that no achievements worthy of praise exist.
+*** Tone argument: If you can't keep it civil, you clearly can't make truthful statements!
+*** Appeal to identity, Identity fallacy (also known as Bulverism): When the truth of an argument is determined by one's physical appearance, social class, or other form of social identity: Chinese immigrant: Not all Chinese people are good at math. Person 2: Yes they are. And why should I believe you? You are Chinese!   
+*** Fallacy of opposition (a.k.a., Gadarene swine fallacy, traitorous critic [//fallacy ergo decedo//]): Example — Person 1: No foreign country has as many problems with gun violence as America because of their tougher gun laws. Person 2: Well if you like them all so much more, which one are you just going to move to?): When someone's opposition to your opinion is taken as proof of their incorrectness.  
+*** Two wrongs make a right: A Hatfield: "A McCoy killed our kin! That ain't right! Lets get em!" (kills a McCoy). A McCoy: "A Hatfield killed our kin! That ain't right! Let's get em!" (Kills a Hatfield) (Repeat)
+** Emotional appeal: Evaluating an argument based on feelings rather than logic. These appeals are usually syllogistic, see the *emotionalappeal, Emotional appeal section above.
+
+!!! Weak analogy:
+
+Argument from analogy, Weak analogy: Using an analogy that is too irrelevant for it to be used to prove or disprove an argument. 
+
+* Faulty Comparison: Comparing two things as if they were related when they are not in order to convey the idea that one is better than the other is. Example: X motorcycle gets 5 times better gas mileage than the best selling Y automobile. 
+* Incomplete Comparison: A comparison that fails to state what it is being compared to. Example: Our garbage bags are 40% stronger!
+* Extended analogy (Reductio ad Hitlerum): Saying something is bad because Hitler (allegedly) did it. Sometimes called "Hitler ate sugar."
+* Argumentum ad lunam, Appeal to the Moon (//argumentum ad lunam//): Arguing if we can put a man on the moon, then surely we can cure trisomy 13.
+* Appeal to Extremes: Misrepresenting a reasonable argument by using extreme examples to try and prove the argument to be fallacious.
+
+!! Fallacies of clarity/ambiguity/vagueness:
+
+Fallacy of ambiguity, Fallacies of clarity/ambiguity/vagueness (equivocations): Fallacies that lead to logical confusion because of a lack of logical or linguistic precision. Often (subconsciously/unconsciously) substituting the meaning of a given word in one context for another context that is inappropriate in order to make your argument. Intentional (also known as ambiguous middle term) and extensional fallacies depend on using words or phrases that are open to more than one interpretation and treating the different meanings for the same word or object as being equivalent when the differences matter although each type depends on it in a different way.
+
+* Continuum fallacy, Argument of the Beard (also known as the fallacy of the heap and the continuum fallacy): When one argues that there is no difference between two extremes of a spectrum because one is not sure when a man goes from being clean shaven to having a beard.
+** Science was wrong before: And therefore it can never be right.
+** Wronger than wrong: The fallacy of assuming that different degrees of "wrong" are the same.
+** Not as bad as (also known as relative privation): A moral fallacy that says because B is worse than A, A should be seen as something good. Example: Sure you may have lost your arm, but at least it wasn't both of your legs.
+** Nirvana fallacy: Claiming that a realistic solution is useless because it is not as good as an idealized perfect solution. 
+* Slippery slope: A leads to B which leads to C which leads to D which leads E which leads to zebras having relations with elephants. 
+* Definitional fallacies, Fallacy of definition: Fallacies that convey confusion about the exact meaning of a word or phrase. The most obvious of these is the Definitional fallacies, circular definition, which fails to establish any new information about its referend.
+** Phantom distinction (also known as distinction without a difference): When someone spends time arguing for the superiority of one term over another (rather than the intended debate), yet there is no effective difference.
+** Definist fallacy: When one makes up definitions with no real meaning and/or with loaded language in order to make one's position easier to defend.
+** Failure to elucidate (//obscurum per obscurius//): Purposefully making a definition more difficult than it needs to be. 
+*** Proof by Intimidation (//argumentum verbosum//): Purposefully making one's argument incomprehensible in order to intimidate those who would object to the premises if they could understand what was being said.
+*** Deepity: "Love is more than just chemicals. It is also the quantum fluctuations of the sublime."
+** Suppressed correlative: Attempting to redefine two mutually exclusive options so that one encompasses the other.  Example: Person 1: That haunted house was pretty good. Were you scared or not? Person 2: Well, if you define scared as not having complete understanding of the future, then I am always scared.
+* Fallacy of accent: When the meaning of a text is changed by what word or words are stressed, and stress is unclear. For example, "She is a //born-again// virgin?" is a different form of disbelief than "She is a born-again //virgin//?"  A fallacy occurs when something is stressed in way X in statement 1 and way Y in statement 2. Extreme forms of this fallacy such as much Quote mining, quoting out of context (also known as contextomy) involve omitting what would be the unstressed word(s) outright to distort the meaning of a text.
+* Mistaking the map for the territory: When a term is treated as representing its semantics
+** Reification (also known as hypostatisation): When an abstraction is treated as if it was something concrete. 
+** Mistaking the map for the territory*Pathetic fallacy and anthropomorphism, Anthropomorphism: the attribution of human traits to animals, a deity(s), or inanimate objects (pathetic fallacy).
+* Appeal to equality: Using the ambiguous and emotionally-charged word of 'equality' to argue that people, things, or concepts (places, ideas or data) should be treated equally when what exactly that means is far from apparent.
+* Use-mention error: Confusing a descriptive word of a thing with the thing itself. Example: Anslem's ontological argument.
+* Deepity: A statement which equivocates between one vacuous meaning it has, which is true, and another, which, though sounding profound, is false if it is at all meaningful 
+* Fallacy of amphiboly: When a sentence, because of its grammar, structure, or punctuation, can be interpreted in multiple ways. 
+** Scope fallacy: When the scope of a logical operator (e.g., "not" [or "some", "every" or "all" in the case of the "fallacy of every and all"]) is vague and allows for misinterpretation and incorrect conclusions.
+** Type-tken fallacy: A fallacy that confuses types of things with tokens (or number of things) Example: Person 1: We sell dozens of signs (type), anything from stop signs to deer crossing signs.  
+Person 2: How do you stay in business if you only sell dozens of signs? (token)
+
+!! Conditional:
+
+For the purpose this list, a conditional "fallacy" is an argument that may or may not be fallacious depending on how the argument is constructed. The fallacious forms of the argument can be placed in the informal category section (and many such fallacies are already listed there).
+
+* Appeal to authority: When an appeal to authority is done correctly, then it can be called an appeal to a qualified authority and is not a fallacy. When it is done incorrectly, it can be called an appeal to false authority. Determining what is or is not a qualified authority is the subject of epistemology and it is beyond the scope of this fallacy list. While determining an authority's qualifications is often viewed from a scientific vantage point, it is not limited to that field of study. The "He said she said" problem is also a question of whether an authority is qualified or not.
+* Is–ought problem, Is/ought problem (also known as Hume's law): The is/ought problem stipulates that "what is" is fundamentally distinct from "what ought". Consider the issue of black rhinos.  Descriptions about what is happening to black rhinos (what is) cannot determine whether rhinos ought to be environmentally protected or allowed to go extinct (what ought). The ought is a human value that is associated with the "what is" but it is not a "what is" itself as it is contingent on subjective experience which varies from person to person (though there are some oughts that are more universal than others). Most of the problems pertaining to the is/ought problem have been placed in the conditional category as they are contingent on the values a person or society stipulates to be true, though some of the fallacies associated with is/ought problem have been placed in the informal category due to relatedness to other fallacies. For example, the "rights to ought fallacy" was placed under the "appeal to the law fallacy" due to their close association. The following are fallacies associated with the is/ought problem that are often seen as being examples of fallacious reasoning. 
+** Naturalistic fallacy, Moralistic fallacy: Concluding "what ought" determines "what is". Example: Homosexuality ought not to occur and therefore it is not something that is natural.
+** Naturalistic fallacy: Concluding "what is" determines "what ought". Example: Pedophilia is natural and therefore it ought to be allowed. 
+** McNamara fallacy: Making a decision based only upon things that can be quantified and ignoring things that have a qualitative component. Example — Quantitative argument made: Denying education to people that are here illegally will save taxpayers X amount of dollars. Qualitative argument ignored: Seven-year-old is on the street instead of school because his parents are at work and he or she has no adult supervision.
+** Economic fallacies: Economics can be thought of as collective ought.  We ought to promote //laissez-faire// capitalism or we ought to promote socialism, for example. Given that economics is entangled with what people believe ought to occur, economic fallacies can be characterized as a subcategory of the is/ought problem. 
+*** Hyperbolic discounting: When one chooses to ignore the future in order to focus on present rewards. Example: Present: Fracking boosts the local economy! Future: Florida is under the sea. 
+*** Sunk cost: I have spent X amount of money searching for this sunken treasure and its not anywhere where I thought it would be. Well I better spend some more money or else all the money I spent would have been wasted. Example: Oak Island money pit.
+*** Broken window fallacy: A fallacy that asserts that the destruction of property in things like natural disasters actually boosts the economy. It fails to factor in what the money would otherwise be used for if it wasn't being used for reconstruction. 
+*** Just in case fallacy: Basing one's judgement on the worst-case scenario without adequately factoring in the cost-to-benefit ratio that would cause one to come to a different conclusion. For example, one could conclude that one should spend money on flood insurance for a home in the middle of the Mojave desert due to the very unlikely scenario that changing weather patterns could cause ones home to be caught in an unprecedented deluge of water.
+*** Game theory fallacies: These fallacies are conditional. When game theory is done properly as it was by then it is not a fallacy. When it is done improperly, then it is //ad hoc//.
+
+!! Argumentative:
+
+For the purposes of this list, argumentative fallacies are ones that occur in communication, both the verbal and written forms of it. These fallacies often incorporate many of the informal fallacies listed above when they are presenting information.
+
+* Having Your Cake (If-by-whiskey): Using words with strong connotations to hide the fact that one is supporting both sides of an issue and therefore not stating a position.
+* Slanting: presenting a false representation for a particular argument by misrepresenting, falsifying, misconstruing, and/or suppressing evidence.  
+** Statistics, Lying with statistics: Using flawed statistics or a biased presentation of a statistical outcome to convey the idea that one's position has more support for it than it does.
+** Argument by gGibberish: "Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children" (the title for Andrew Wakefield's paper in the //Lancet//). Alphabet soup results from boiling this fallacy down to acronyms.
+** Smear tactic: attacking an opponent's character or position in an untruthful way. 
+** Spin doctoring: Seeking to deceive people by presenting deceptive information that creates a distorted view of reality tailored to one's agenda.
+** Shoehorning: Current event X happens. Someone with an agenda uses X to show how their agenda is correct even though there is no rational connection between the two events. Example: A devastating earthquake hits Haiti. A religious commentator says Haiti is paying for its pact with the devil.
+* Style over substance fallacy: Using language or rhetoric (//ethos// or //pathos//) to enhance the //appeal// of an argument, but not its validity, or arguing the method of presentation affects the truth of a claim.
+** Escape hatch: When some rhetorical technique is used to evade the burden of proof.
+** Handwave: The act of glossing over a difficult component in an argument, by ignoring or distracting from it.
+** Argument by fast talking: When one talks like an auctioneer to convey the idea that one is really intelligent and therefore must be right.
+** Gish Gallop: The debate tactic of drowning your opponent in a flood of individually-weak arguments in order to prevent rebuttal of the whole argument collection without great effort. 
+** Argument by personal charm: Using one's charm or sex appeal to win over an audience rather than reasoned arguments.
+** Argument by emotive language: Using loaded language in an argument instead of rational arguments based on statements of fact in order to persuade the listener to one's position.
+** Bait-and-switch, Hypnotic bait and switch: When you begin with a bunch of uncontroversial statements that the listener will agree with then switch to a controversial statement to get the listener to agree with that statement as well. It is a common sales technique. Motte and bailey combines this with equivocation between the uncontroversial but not very useful statements and the more useful, but much more controversial one in order to enable yourself to pretend that the listener doesn't really disagree with you.
+* Argument by pigheadedness: Stubbornly refusing to accept rational counter-arguments to one's position without providing any reasons as to why the counter arguments are wrong.
+* Quibbling and logic chopping: Focusing on a minor point and falsely believing that this minor point undermines the larger issue. Sometimes being incredibly precise about what one is saying is needed such as in scientific papers, but in everyday life it is oftentimes useful to talk in more general terms than to get caught up in the details.
+* //Argumentum ad nauseam// (argument by repetition): If you say something often enough to make people vomit, you win. The reverse side of this is Argumentum e[x] nausea: If people have told you something often enough to make you vomit, you win by saying anything that is not that.
+** Argument from silence (//argumentum e[x] silentio//): The lack of response to my point(s) makes my point(s) correct!/The lack of response to my counterpoint(s) to your point(s) makes your point(s) incorrect!
+** Argument by assertion: If you say something enough times, it eventually becomes true and therefore you win the argument.
+* Avoiding the issue and avoiding the question: These are often ambiguous because the lead-in to either doesn't particularly directly tell the respondent whether they are to be addressing a specific question or an entire issue. Example: 
+:::Person 1: There are reports of you having an affair with your intern. (Ambiguous: Is this supposed to be //the one affair// Person 2 is reportedly having with one particular intern or one of multiple interns with whom Person 2 is concurrently having affairs?)
+
+
+---
+<<footnotes "q" "Quietism is quite a commitment, so stfu.">>

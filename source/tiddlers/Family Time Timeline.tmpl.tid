@@ -1,0 +1,58 @@
+aliases: [[fire]] [[Fire]] [[burn]] [[Burn]] [[flame]] [[Flame]] [[/fire]] [[/Fire]] [[Fire.timeline]] [[fire.timeline]] [[Fire Timeline]] [[Fire timeline]]
+caption: 🔥
+created: 20200617212347327
+modified: 20211127195039172
+tags: Timelines More fttl .tmpl
+title: Family Time Timeline.tmpl
+
+<div class="tc-menu-list-item">
+█▓▒▒░░░░ <$button class="tc-btn-invisible tc-tiddlylink">
+<$list filter="[tag[𝕱𝕴𝕽𝕰]] [tag[🔥]] [tag[/fire]] [tag[@]] [tag[Hot]] [tag[Leet]] [tag[Neat]] [tag[Nifty]] [tag[To]] [tag[From]] [tag[Leet Drafting]] [tag[Φιλοσοφική ανάλυση]] +[has[modified]nsort[modified]days:modified[-7]!prefix[Hidden:]!tag[Hidden]!tag[no-recent]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+
+<$list filter="[tag[𝕱𝕴𝕽𝕰]] [tag[🔥]] [tag[/fire]] [tag[@]] [tag[Hot]] [tag[Leet]] [tag[Neat]] [tag[Nifty]] [tag[To]] [tag[From]] [tag[Leet Drafting]] [tag[Φιλοσοφική ανάλυση]] +[has[modified]nsort[modified]days:modified[-7]!prefix[Hidden:]!tag[Hidden]!tag[no-recent]] +[first[]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<span style="color:#66ff66">🔥HP, Lagniappe, & 𝕱𝕴𝕽𝕰🔥</span>
+</$button> ░░░░▒▒▓█
+
+<$list filter="[tag[𝕱𝕴𝕽𝕰]] [tag[🔥]] [tag[/fire]] [tag[@]] [tag[Hot]] [tag[Leet]] [tag[Neat]] [tag[Nifty]] [tag[To]] [tag[From]] [tag[Leet Drafting]] [tag[Φιλοσοφική ανάλυση]] +[has[modified]nsort[modified]days:modified[-7]!prefix[Hidden:]!tag[Hidden]!tag[no-recent]]">
+<div class="tc-menu-list-subitem">
+<$link to={{!!title}}>
+<<timeline-title>>
+</$link>
+</div>
+</$list>
+
+
+
+<br>
+
+█▓▒▒░░░░ <$button class="tc-btn-invisible tc-tiddlylink">
+<$list filter="[!is[system]has[created]nsort[created]!prefix[Hidden:]!tag[Hidden]!tag[no-recent]!tag[𝕱𝕴𝕽𝕰]!tag[🔥]!tag[/fire]!tag[Leet]!tag[Leet Drafting]!tag[Φιλοσοφική ανάλυση]] +[days:created[-7]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+
+<$list filter="[!is[system]has[created]nsort[created]!prefix[Hidden:]!tag[Hidden]!tag[no-recent]!tag[𝕱𝕴𝕽𝕰]!tag[🔥]!tag[/fire]!tag[Leet]!tag[Leet Drafting]!tag[Φιλοσοφική ανάλυση]] +[days:created[-7]] +[first[]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<span style="color:#66ff66">Mana</span>
+</$button> ░░░░▒▒▓█
+
+<$list filter="[!is[system]has[created]nsort[created]!prefix[Hidden:]!tag[Hidden]!tag[no-recent]!tag[𝕱𝕴𝕽𝕰]!tag[🔥]!tag[/fire]!tag[Leet]!tag[Leet Drafting]!tag[Φιλοσοφική ανάλυση]] +[days:created[-7]]">
+<div class="tc-menu-list-subitem">
+<$link to={{!!title}}>
+<<timeline-title>>
+</$link>
+</div>
+</$list>
+</div>

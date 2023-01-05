@@ -1,0 +1,160 @@
+created: 20211130193150986
+modified: 20220724193034876
+tags: Computing Dreams To Note [[papa smurf is real]]
+title: DarkMX
+
+//You're reading an open draft of my brainstorming. Consider wandering this place to appreciate what that means, please.//
+
+
+<br>
+
+!! `/wave`:
+
+For new and experimental software in a crowded space (one in which many seem to be reinventing and relearning the same lessons decade after decade): [[DarkMX]] is [[power]]ful and downright elegant. I am shocked by what you've accomplished (part of me says I shouldn't be given all your other amazing contributions to Humanity, but still: dude, this is amazing!). [[Long-time|2021.05.04 - Carpe Tempus Segmentum: Basement Dwelling]] fan here. I'm a nobody, but I have some thoughts (and I'm happy to speak at length about them). I'm handing you a candid perspective, but I do not mean to sound even remotely entitled. Feel free to ignore my opinions and suggestions, but please do accept my thanks. 
+
+The brilliance of one-click, turn-key servers cannot be understated. The fine-grained control will allow this tool to scale up and evolve. I [[hope]] it does! I say all of the following on the assumption that your work (or something parallel) merits tax-payer funding, and I seek an ideal that I don't anticipate any one person is likely capable of pursuing (I do not claim it is your personal obligation to meet the moral rights humanity is entitled to in this sphere all by yourself). Again, it's amazing what you have accomplished. Thank you.
+
+
+<br>
+
+!! Source:
+
+I'm sure you're tired of it. `/nod`. I see lots of apologists for you. I know you've been down this road with many people. This is a big deal, and I have to open with it. At the moment, you ride on your well-earned reputation (and, yes, this issue does tarnish it). While I highly recommend checking it out in at least a throwaway VM (because it's brilliant, even where it is wrong), I don't fucking trust https://utopia-ecosystem.com. Do you? The only reason I'm still here with DarkMX is because I trust the quality of the software you've built before (IIRC, I started using WinMX back in ~2002 [about two decades ago, homie! god damn we're old], and thank you; it was amazing), but plenty of people in this space are not going to hand you that much (and perhaps shouldn't). Yes, the source should be at least available for auditing. I'm always going to have a giant asterisk on this software, just like [[Resilio Sync]] (which I have far, far more doubts about, obviously). I'm not your average beast in this space, if you want to talk about it. 
+
+
+<br>
+
+!! Further Decentralization:
+
+File-sharing is the immediate, free capital that brings people to the table, and it's something everyone can passively provide, even if they don't otherwise actively participate in community building. That meets a crucial need in [[The Great Human Conversation]], and it's a solid instrumental base upon which to build further. You're constructing a social network on top of it (dope). People do own the means of production in a simple, immediate sense on DarkMX, but long-term, I [[hope]] to see servers more fully distributed; that might be a job for someone else entirely. The move away from federation is damned hard. 
+
+If you get a CLI version of this tool up, we can test it in immunes. I worry that search wouldn't scale up as well as I'd like, but I think the problem of adverserial decentralised information retrieval with 100k users could be an even bigger problem (it can still scale, I assume, but perhaps there are some limits we don't know yet).
+
+
+<br>
+
+!! Persistent Messaging:
+
+You could have ran with any number of protocols and libraries here, but you're doing your thing. I appreciate that. I think tools like this probably should be built largely from scratch (I ran into some very ugly errors in the Session client, for example, that probably would not have arisen if they were building from scratch).
+
+Direct messaging is still a prototype at the moment. The UI is rough, it's too ephemeral, and it's not designed for long-term, comfortable use. Long-term, there's a ton to smooth out here, and I think a history is a key start (perhaps the ability to turn a history off makes sense for an application like this). That should be default on. 
+
+Messaging from the darkweb is pretty amazing. It would be nice if there were a way to synchronize chat histories (a non-trivial problem, perhaps).
+
+You might find [[2021.11.17 - HN Log: Arathorn & P2P Matrix]], [[Outopos: Meh]], and [[MuWire]] of interest. 
+
+
+<br>
+
+!! CLI:
+
+The GUI is legible, and even a boomer can use it. That's crucial (thank you). However, I think you should allow your [[power]]users, potatoes, experimenters and explorers (most people on the network anyway), and autistic retards (`/raises-hand`) to take control of the machine from the command line. It's not just about running it headless; it's about being to construct custom tools for it, to bridge and pipe into other machines, and to use the tool even as it was unintended. To my eyes, this is the best possible plugin system. 
+
+Command line access would enable me to just build my own notifications (it's broken on my system), use other interfaces for chat, bots (yup, ultimately, this is a good thing), remote control more effectively, etc. It can enable automated real-world testing, and I think some of the weaknesses of the software might be fixed by allowing us to use our own tools.
+
+raTox merits your consideration (hell, you might even consider just using it) as a partial example. Tangentially, a Whonix Mode seems worthy.
+
+
+<br>
+
+!! Mobile:
+
+Given the amazing Tor webserver work, you've nearly eliminated the need for a mobile app (at least in a pinch): there's a sufficiently workable thinclient available from within a Tor Browser (or similar). If you enable a serious CLI, other mobile options may become far more relevant. Considering the number of humans who only have an android phone, it's worth considering.
+
+
+<br>
+
+!! Synchronization:
+
+This is a beast of a problem, but sharing ownership of various objects still might not be working well. For example, root keys to servers don't seem to allow remote control of a server. The number of users presented on a server doesn't appear accurate (or something else is wrong). It's not even always allowing multiple users to sustain a server either. The problem of synchronization goes much deeper though.
+
+File-hashing (or even just searching for new files) can be prohibitively expensive and has lots of problems, especially for those who wish to share large libraries (and, in the end, that is non-trivially the point, right?). Eliminating this bottleneck seems wise! Unfortunately, there are some kinds of problems that can only be solved with file-hashing. 
+
+I think you have a chance to blow away the competition too. You've built a torrent client, so why not go for mutable torrents? We all need high-performance, cross-platform, delta-encoded, compressed, and encrypted real-time file syncs of nearly arbitrary directory sizes and quantities, optimized for WAN, NAT traversal, Dynamic IPs. If you can do that across anonymizing protocols: you've found the holy grail.
+
+Some consider it poor form to torrent over Tor, even when it is set up correctly not to leak information. Perhaps i2p is the way to go here, but I like having both. I'm not a fan of IPFS (tried it many times): hypercored gets closer ([[Resilio Sync]], to my eyes, is the most performant mutable torrent client for every day users I've found). Having a synchronizing swarm is a worthy task. Further, since we're bottlenecked, pushing and sucking through a straw: multiplexing merits strong consideration. Fire up multiple circuits to push different parts of the tree in parallel, just as you would to get around peering problems on the internet backbone.
+
+
+<br>
+
+!! Text & Hypertext:
+
+Oh, man, link processing is a treat in this tool, and it's another vector to grow. The special treatment of .txt files is cool, reminds me of gopher and networks that have long elevated the plain written word. I could see this being expanded to include markdown and more. I would ask that html be something you consider rendering, but there's something to be said for the safety, performance, and universality of sticking to plain txt files. If you stick to plaintext (I'm running into a lot of font bugs), I think defaulting to monospace makes sense. I can change that in my DarkMX settings, but I can't make that happen for anyone else (nor in their Tor Browsers).
+
+Like an instance of Zawinski's Law for the web itself, there's a non-trivial attempt to build a simplified web here. I'm also incredibly [[bias]]ed here. I've constructed this ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 on the assumption that I would host it on tools like yours (this is [[hao]] I think it should be done). Beaker-Browser is significantly ahead of almost every network on this issue (though by no means close to what we need). I think there's two relatively painless approaches that merit consideration. 
+
+# Embed a hardened web-browser and prevent it from making any non-local connections whatsoever. Boom: you instantly have high-performance, well-understood, widely-tooled hypertext and more, and perhaps DarkMX will continue to benefit from the future evolution of the primary VM of the average person.
+#* Alternatively, you might also poke a hole just to open darkmx [[link]]s. That might take considerably more work, but it's still probably much cheaper than building your own here. 
+# Automatically opening Tor Browser inside of [[DarkMX]] makes a ton of sense too, but I don't know how easy it is to embed it (seems not easy given Mozilla's struggles, as Gecko and Servo just aren't as portable, in this sense, as what Google has made, unfortunately).
+
+
+<br>
+
+!! Syndication, Feeds, Subscriptions, Curation, Distributed Governance:
+
+I've been chatting about [[P2P: Aether]] with its creators, they, and I think [[kickscondor]] (https://fraidyc.at is non-trivially in a correct direction), and perhaps [[search_social]] are worth your time on these topics too. This is a feature [[MuWire]] and Retroshare have, in some respects, and I think it could make a huge difference for [[DarkMX]]. Following users, following tags, being able to create our own feeds and categories of feeds, being able to share our feeds, voting and curation based upon the consensus of those I've hand-picked (leveraging the trust I do have in [[others]]), and client-side custom automation may go a long way. 
+
+To my eyes, this is the hardest technical problem we face in a tool like [[DarkMX]] (assuming one isn't going to re-write every network protocol from scratch). This is more than a moonshot even for 100 engineers, I realize.
+
+
+<br>
+
+!! Passwords:
+
+Does your hash function have a good password hasher (we can't tell because we can't see the source)? If you're concerned about weaker passwords (and, I know, I know: it's the user's responsibility!), including a name as part of the password (almost like a salt) may be worthy. 
+
+I'd like to add that Tox's password requirement to unlock a database has some merit worth considering (though I think making it default yet optional is worthy, or at least a password that can be entered from the command line to aid in automation). It //will// buy some percentage of people something valuable (I've experienced it myself), even if it does not defeat all enemies (as in the case of steganography too). It's a low-hanging fruit method for even a borrower to increase the likelihood that they have functionally owned the means of production even within environments they do not.
+
+Complex keying may be worth considering. [[Verify]]ing this ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 isn't pleasant, but it should work. The ability to lose control of my machine (and my current slave key) while still retaining the ability to generate another from memory seems indispensable. I don't know of another way to maintain identities across serious attacks on our own infrastructures. 
+
+
+<br>
+
+!! One Ring to Sit On All The Networks:
+
+I ask you consider adding i2pd. There are people who don't trust Tor to some [[dok]]. There's also lot of directions to go here. This tool has much in common with [[MuWire|https://muwire.com/]] and [[Retroshare|https://retroshare.cc/]] (there's features in this tool that are worth reckoning with). EZ mode custom chains proxying could be quite useful.
+
+
+<br>
+
+!! Sharegroups & Privileges:
+
+Sharegroups seem so powerful they might deserve their own tab at the top, especially as they are related to more than just the library. 
+
+Users should be able to select sharegroups from the beginning. When we create a new server, we want to be able to pick the sharegroups before it goes live. There should be no windows in which it is public, and it should be difficult to screw it up (we screwed up a bunch, but maybe that's because we aren't very smart). For those who are trying to create and maintain their own private islands of networks, it's pretty easy to make a mistake that reveals it to everyone. 
+
+The ability to [[share]] with you something not on my hard drive but on someone else's that you can't access, further [[anonymizing]] friend-to-friend file-sharing, in which I act as a proxy, may be quite reasonable. There's only so much hard drive space to go around, and this still enables me to protect the identities of my friends (beyond what Tor can do).
+
+
+<br>
+
+!! Debugging:
+
+* Your diagnostics are gorgeous. More debugging options would be useful. Soulseek is exemplary here.
+* Notifications don't work well for me on loonix. I'd prefer to take control of that anyway.
+* It couldn't load the 100 million files (that it didn't hash), and after I deleted them, it's still burning 100% core use and 33.9% of memory (of 64GB). Oh, nobody can join the network, but they can the chatroom still. Some crashes/freezes too.
+** Currently, ~70% of Ryzen 5 3600X core and 2.3GB of RAM after 200 hours of running. That still seems quite high.
+* In practice, markup for `[[foobar]]` renders as `[foobar]]`. Unicode is not well-supported in a number of respects either.
+** I find it endearing still.
+
+
+<br>
+
+!! Ignore Me:
+
+```
+
+ ▉▊▋▌▍▎▏   ║║╔║║╔╗ ║ ╔╦╦╦═╦╗╔═╦═╦══╦═╗    ▎▍▌▋▊▉
+ ▉▊▋▌▍▎▏   ╠╣╠║║║║ ║ ║║║║╩╣╚╣═╣║║║║║╩╣    ▎▍▌▋▊▉
+ ▉▊▋▌▍▎▏   ║║╚╚╚╚╝ O ╚══╩═╩═╩═╩═╩╩╩╩═╝    ▎▍▌▋▊▉
+
+
+↣ https://philosopher.life|"Current Clearnet Address of ⦗ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱: h0p3⦘" (real-time)
+↣ http://k53zlirxiykmc5tkenqxqysnxc2wvhp2kr3gp2kaswkfoxvwerx2xead.onion/public-share/personal-sites/hypertext-h0p3/daily/index.html|"h0p3's DarkMX Website Mirror of ⦗ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱: h0p3⦘" (nightly)
+↣ darkmx:file:h0p3@k53zlirxiykmc5tkenqxqysnxc2wvhp2kr3gp2kaswkfoxvwerxq/public-share/personal-sites/hypertext-h0p3/daily/index.html|"h0p3's DarkMX Shared HTML File of ⦗ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱: h0p3⦘" (nightly)
+↣ http://k53zlirxiykmc5tkenqxqysnxc2wvhp2kr3gp2kaswkfoxvwerx2xead.onion|"h0p3's DarkMX Website" (with shared library & chatserver webclient)
+↣ darkmx:user:h0p3@k53zlirxiykmc5tkenqxqysnxc2wvhp2kr3gp2kaswkfoxvwerxq|"h0p3's DarkMX User Key"
+↣ darkmx:network:h0p3@ojeygrcpo7ecpgicnjed3msaspvnhdejaxey4tqctcskolihmiia|"h0p3's DarkMX Network" (all may connect)
+↣ darkmx:chat:%E2%A6%97%E2%84%8D%F0%9D%95%AA%F0%9D%95%A1%F0%9D%95%96%F0%9D%95%A3%F0%9D%94%B1%F0%9D%94%A2%F0%9D%94%B5%F0%9D%94%B1%3A%20h0p3%E2%A6%98@teeglqp47ve3uw3gfa5xlxuaasopqd7v4y2dng53jjwbyrtiacoa|"h0p3's DarkMX Chatserver" (come say "hi")
+↣ https://philosopher.life/#DarkMX|"h0p3's DarkMX Brainstorming" (or search your copy of ⦗ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱: h0p3⦘ for 'DarkMX')
+```

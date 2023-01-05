@@ -1,0 +1,28 @@
+created: 20220101051854825
+modified: 20220102234126078
+tags: Zoinks Note From
+title: 2022.01.01 - Zoinks: Searching
+
+> I agree that mail seems better than chat on this platform. Zawinski's Law, however it should be interpreted, is already complete here. It's fantastic. If our trusted proxies ([[anonymous]] friends included) could hold mail for us, that would be amazing (solves a non-trivial problem, imho). That's also a hop, skip, and a jump away from solving a problem that many [[p2p chat|2021.11.17 - HN Log: Arathorn & P2P Matrix]] applications seem to have, including persistent group-chat, multi-device (unified logical account), and perhaps even resource limits on mobile or similar potato sitcheeyashuns.
+
+I haven't seen many people speak in hypertext, very cyberpunk. I think mail seems to just sit in the outbox until a connection can be made. I am hoping for a global MuWire chat, that would be sweet.
+ 
+> What was your experiment? I can't say I've much experience with people on any network using the trust/untrust flags (or more complex signaling either). I am interested in how to construct and curate good feeds (especially [[for the sake of|FTSO]] [[liquid democracy|Justice]], including picking not only the sources of underlying data but those who moderate, name, or rank it (or themselves) otherwise. Distributed governance is a hard problem, and I'm looking for information on how to do that well, preferably with working software examples.
+
+To see if my connection count would degrade if I blocked everyone that searched for a certain kind of content. To answer a larger question of if the network is primarily used for such content. I am happy to report it is not, at least from this experiment.
+
+Governance is indeed a hard problem, yet to be solved even after thousands of years. :)
+
+> I'm happy to [[share]] what I have or find. I consider it my moral obligation. If you are in need of anything, please let me know. I'll do what I can to get it for ya.
+> 
+> Snapshots get the job done in a pinch, and hopefully you'll appreciate the offline usability of the [hypertext] ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 (both from a decent text editor and a browser; I've pushed for both). I give up my [[privacy]] pretty radically (I'm a special kind of retard), and I [[aim]] to be an open book (many retarded scribbles :P). I [[like]] to give fitting reason for [[others]] to [[trust]] me (keep your copy in case you may need it again some day). In an case, unfortunately, MuWire isn't quite suited at the moment to distribute a constantly changing html file (have it set to nightly update for these sorts of tools). Few p2p file-sharing tools can handle it (have you tried DarkMX and Retroshare out?) Also, I've a [[tox|Contact]] account.
+
+I have used Retroshare and Tox. I dropped RS for being too difficult to configure, I dropped Tox for security concerns. And lack of users to talk/share with on both at the time. I've never used DarkMX. I do like anonymity networks, but only MuWire and Tor have the simplest user experience so far and that goes a long way for adoption imo.
+
+At the moment I am searching for artificial intelligence/machine learning material but at the layman level. I have difficulty understanding the formal math formulas!
+
+MuWire has a feed/subscription system. That might do the job with snapshots. I think that you can have only one feed though which is a bummer.
+
+> Happen to know [[ASmith]]? He's an [[good]] man. Doin' the lawd's work, imho.
+
+Nope, never spoke to him. What's he do?

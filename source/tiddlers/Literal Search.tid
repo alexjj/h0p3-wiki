@@ -1,0 +1,22 @@
+caption: Literal
+created: 20221118215703953
+list: 
+modified: 20221119044554344
+tags: $:/tags/SearchResults j3d1h
+title: Literal Search
+
+\define searchResultList()
+<$button class="tc-btn-invisible tc-tiddlylink">
+<$list filter="[search:text:literal{$(searchTiddler)$}!is[system]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<span style="color:#66ff66">//<small>Open all</small>//</span>
+</$button>
+
+
+<$list filter="[search:text:literal{$(searchTiddler)$}!is[system]]" template="$:/core/ui/ListItemTemplate"/>
+
+\end
+<<searchResultList>>

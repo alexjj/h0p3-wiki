@@ -1,0 +1,29 @@
+created: 20220903040327228
+modified: 20220904065917406
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]]
+title: 2022.09.03 - Carpe Tempus Segmentum: Surely, It'll Work
+
+[[TTTOTW]]. Syu. So far no flicker without ~~Retroshare~~ KVMs. Upgraded MuWire, two versions ahead. I am increasingly convinced that the base [[Monsternix]] install should be the simplest, hardest to break configuration, and that anything that is out-of-the-ordinary custom is best left to `/home/h0p3/bin`, etc. Handling my own binaries and configurations as something fully separate from the underlying distribution seems the only safe route in the long-run. Testing out btrfs on `/mnt/m16-old-storage`, `sudo chown h0p3 /mnt/m16-old-storage `, and the rsync is taking forever. I did look at a 16GB drive, which is stupid expensive, but I would use the shit out of it (and I serve a lot of people with it every day).<<ref "t">> I'm now down to my last TB. I do not anticipate btrfs compression is going to matter here, but that's why I'm testing. If I don't see any serious gains from it, then I'm going to drop it. Deduping is the next step. After that, I've squeezed everything I can.
+
+I'm disheartened by being unable to find people who want to even talk about DHTs, and even fewer who would have the proper ethos to recognize the moral implications of its possible structuring. Been a very long time since I looked, but I can see from  [[i2p's netDB|https://geti2p.net/en/docs/discussions/netdb]] usage that it is far more centralized now than I thought (which is kinda shocking considering how fucking terrible the performance is in practice). Before I would go to work on that, I think I need to get [[Monsternix]] up and running. It's a huge overhaul. `pacman -Q` shows 2k packages I have to walk through.
+
+Killed another [[NixOS]] build on switch right after it passed the test. Clearly, I have no idea how to safely update the kernel with this tooling. Destroyed `/boot` in the process. Recovering from userspace is usually easy enough. I may need to actually set up a rescue environment to recover with. Dual-booting with chain bootloaders may be the way to go. I do not understand how this has not already been solved given how easy it is to destroy everything.
+
+Eventually fell asleep by unknown time. Woke at 1? Meditation. //Skintime// with my sympaticon. [[Morning Routine]].
+
+Coffee. [[TTTOTW]]. Chat with [[Variety Creepy]]. Couldn't take [[JRE]]'s call in time. Clarinet. [[TTTOTW]].
+
+Watched Hebrew Bible classes with mi amor and my sympaticon. We all had plenty to say about it. It's a well-done course.
+
+Call [[JRE]] back. Restarting phone fixed the trouble I had. `/nod`. 
+
+Hunted for beads through craft supply boxes. //Raw Skintime// with mi amor. //Inform the Men!// Shower of the gods! Clarinet.
+
+//The Walk// with my sympaticon. Neighborhood Joe is graduating in 9 days. Good.
+
+[[TTTOTW]]. Looks like I'm SOL on the DHT front. `/shrug`. To be predicted. 
+
+Prepared a midnight schnackmeal with my sympaticon. Hugs'n'bugs with [[5c0ut]]. Picked up a good mat for the bathtub since we've destroyed two, and a vertical mouse. Mi amor will take [[monster-16]]'s, I believe. 
+
+---
+<<footnotes "t" "Outside of a specialized device meant for archiving or in corporate environments with a lot of money, I remain unconvinced that I should rely upon pooling devices for any primary storage, but backups are possibly another matter. I'm hoping that I will be able to simply buy a drive that doubles my current storage, move the data, pool the old ones together for backup, rinse and repeat until I die. I could just buy them in pairs instead (considering that I'm on my [[monster]] 12 hours a day, dropping another $500 into what was already well-conceived budget build every few years isn't absurd either). Not like I wouldn't use 2 8 TB drives extra, and that might be easiest in the long-run.">>

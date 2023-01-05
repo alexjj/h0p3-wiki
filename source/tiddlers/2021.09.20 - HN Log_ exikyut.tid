@@ -1,0 +1,88 @@
+created: 20210920170303395
+modified: 20210924215440224
+tags: [[HN Log]] Note To
+title: 2021.09.20 - HN Log: exikyut
+
+https://news.ycombinator.com/item?id=28574202
+
+<<<
+This has prompted some unexpected reflection. If I may, I have a somewhat orthogonal (tangentially related), slightly soapbox-y, philosophical question about the meaning of meaningfulness, which may not make any sense (recommendations for good sanitariums accepted).
+The GIF of this shows
+
+  C:\>dsl
+  Starting DOS subsystem for Linux, please wait... ok
+  
+  C:\>_
+and this immediately got me headscratching about the mechanics of how this was done. My first serious consideration (after noticing the Building section and hastily discarding notions of "remote/out-of-band terminal I/O...?") was that it was somehow boxing Linux up into a TSR and then somehow running that in the background. Coool.
+But no; the custom init.c uses virtual 8086 (vm86) mode to call back into DOS, trapping on a specific interrupt to enable DOS<->Linux communication. The launcher loads Linux into memory and jumps into it just like a bootloader would, then the init program maps the first 1MB of RAM (to cover all 640K of conventional memory) and hands the whole DOS address space area to vm86(2) to continue within DOS where everything left off. So, this isn't a TSR in the literal sense (it doesn't exit using INT 27h, "Terminate and stay resident"), nor in the figurative sense, wherein the program encapsulates Linux and then returns to DOS (which certain interpretations of the program output might suggest) in the same way exiting Netware or Windows 9x ("reboot in DOS mode", in certain circumstances) would. (But there are some interesting "it quacks like a duck" arguments in there, I can't deny that.)
+
+The actual situation is basically the reverse of my first impression - this isn't a TSR that runs Linux, it's a DOS program that launches Linux that then continues DOS using v86. I've read how mainframes perform similar insanity, like where the kernel will initialize a VMM and then promote the bootloader/boot-up code into a task/process during startup. By some measures, this madness is arguably more awesome than a TSR.
+
+Now, my question, which is squishy, and which I don't know how to articulate well (read: more concisely). Being able to run Linux in a TSR - cooool - leaps out at me as a captivating ball of interestingness that stands well above all the "oh yeah that would be kind of neat to look at one day... after I count to infinity twice" intrinsically non-interesting, passive armchair thoughts I'll forget within seconds of thinking of them. But I'd probably be able to keep coming back to an idea like "Linux in TSR" for many months before giving up.
+
+Flip the whole thing around, though ("start Linux and then resume DOS in emulation"), and poof, the interestingness is all gone. I think this is not because I consider the idea fundamentally less cool (or worse, think it's outright silly or stupid!), but due to the opposite physiological reaction.
+
+I discovered https://www.teamten.com/lawrence/writings/norris-numbers.htm... yesterday. It was a really cool read, describing how programmers hit walls in terms of how much code they can write (and presumably then continue to reason about) before everything devolves into madness. I think I've been dealing with an almost identical type of wall for some time, which I'm not sure how to scale.
+
+Learning and experience seem to basically be ways to build neurological surface area (or, room to store irreducible complexity) that allow us to stuff more and more stuff into our creative problem-solving/reward loops ("productivity: finding happiness, just with ever more (and more...) steps!"). As this develops, and as we associatively fold doing more things into our reward loops, it seems that the habit-forming parts of the brain coordinate subconsciously with the parts of our executive function that internalize the core intrinsics of whatever we're learning about, and we just find ourselves especially drawn to things that will further deepen and specialize our understanding. And sometimes, we find areas are so interesting that the persistence is just there to keep at certain things even when they're hard. And that persistence... is our worldview, or focal point, of "what I'm doing right now". It's our baseline watermark, or threshold, of keeping on.
+
+But this process seems to have a hair-trigger limit. Push the whole thing even a tiny bit too hard, and it loudly cracks, sparks fly and springs and gears go everywhere.
+
+I think the inspiration associated with restriction and limitation is strongly related to this. It seems that the most fun projects are those that exceed an individual's (socially?) measured accomplishment by a significant amount, but fit well within the complexity scale of the untapped feedback-loop surface area.
+
+Which leads me to my current existential juxtaposition. The systemic incoherence that accompanies ADHD, autism and depression (or any combination thereof), and the subsequent conscious "driving" of the brain (and veering all over the metaphorical road, without access to the feedback loops available to the subconscious), exacerbates this situation; without the machinery to maintain relaxed focus without losing disorientation, I constantly consciously course-correct - but these systems do not like to be "driven", they only function correctly when they can lead, and when there is harmony.
+
+It also seems very difficult (at the very least) to consciously drive the machinery/focus that builds raw mental capacity; I wonder if this construction process is subconscious by design, while the usage or resolution process of achievement, that chases the delta between untapped potential and achievement, is conscious by design. If so, yay.
+
+Without the cohesion of subconscious-first leadership, building and maintaining this delta between capacity and interest is a game of second-guessing how my brain works, which I'm not winning at, and so the level of fundamental interest I have in the sorts of things I do want to master lags behind my logical interest levels.
+
+To complete my question, I look at projects like this, and I perceive their complexity scales like a person standing within a tiny fenced-in square and saying "I am outside the fence". If the person were defined to be inside the tiny square, that would represent a small amount of problem-solving complexity that might even be described as "cute" (see also: every well-executed minimalist software project ever). But with the definitions flipped around, the complexity quotient might as well be practically infinite, because it falls outside of the incredibly narrow window of surface area I have available, which I don't know how to build upon and expand, and so the interest just vaporizes. Thus, this project is too cool to be fundamentally interesting to me! :( (And yes, this is a meta-explanation; the "Linux in DOS vs DOS in Linux" pathway was what got me thinking about all this, and then gave me the mental framework to follow the ideas well enough to write them down.)
+
+So, to anyone out there that this makes sense to, who has maybe figured out how to, well, https://twitter.com/Davidson_03/status/846740485200891909...
+
+...I'm stuck. My brain thinks that logical awesomeness should directly translate to follow-through and persistence. I logically know it doesn't work that way (something something effort). But there's a short-circuit somewhere (kinda like the example of the monkey who had its fingers bound together for a few months, then couldn't move them independently - except instead of fusing, I'm dealing with something that never spliced apart), and the step(s) that are supposed to go in the middle are missing. Wat do, if you by any chance know?
+
+This was a weird ramble, and if you got to the end of it, thanks very much for taking the time.
+<<<
+
+Hi there. I'm a fellow 4eak. =). Perhaps this is irrelevant or missing the point (and I apologize if so). If I've understood correctly, maybe it isn't really that awesome to you. Often, I see myself just filtering through what looks interesting to find the very few pieces that maintain their persistent salience in my perception (though, I am often wrong).
+
+<<<
+O.o
+
+No, this does sound relevant. I just googled "4eak" and found https://proteopedia.org/wiki/index.php/4eak and https://www.uniprot.org/uniprot/P54645, and then from there learned about AMPK, which looks very interesting. Thanks very much for this reference, I'll definitely take a look.
+
+Also, I find I honestly kinda resonate with https://philosopher.life. I find writing an slow and arduous process, though (related kinda-interesting relevant subthread: https://news.ycombinator.com/item?id=27112463 - the 4 comments represent the specific reference, while reading further athread (up-thread?) is likely useful for context).
+
+For me, writing is a bit like putting a train on a multi-track rollercoaster ride and then finding all the carriages on different tracks at the end ("Noooo, that carriage is upside down and all the passengers fell out.") Now I think about it a good visual analogy would be https://www.youtube.com/watch?v=bcXiwNjkhxU&t=95s.
+
+I think my brain has a few wiring bottlenecks in it somewhere, meaning I can only fit a certain amount of semantic value into my immediate focus, and much less than I know I should be able to. So, for example, if I'm listening to a piece of music in my head and want to actually switch to the track I'm thinking of, I basically get one shot to go "is this it", since whatever my ears hear next will immediately cancel out my memory of whatever pops into my head, even if I pause it. This seems to be a generalized extreme short-term memory problem; if I think of X, and then get a flash of insight on how it relates to Y, I'll immediately a) forgot X, and b) be incapable of deriving insight from the intersection between the two. I find I seem to be most appreciative of the contrasts between things, so this memory breakdown is extremely annoying.
+
+And all this makes summarizing and writing tricky. I'd love to do more of it, but... welp. And so, it's kinda weird, but cool weird, to be reading the kinds of things on philosopher.life that I could see myself writing if a few settings on the character sheet were upped to 11 (particularly the above, which are at like 0.1 or 0.2) :). I particularly resonate with the existentiality, and the sense of incompleteness - in the non-exceptional sense, like I don't just mean "oh yeah I kinda see like 0.2% of myself in this haha", I can see these themes throughout almost everything, from the content to the writing style, and it is duly noted. Kind of cool that you've put that amount of effort in actually...
+
+Thanks again.
+<<<
+
+* I don't know if you'll see this (or when you will), but if you do, I really enjoyed speaking with you, and I [[hope]] you'll stay in [[contact]] with me from your own [[note]]s and devices (HN and e-mail just aren't sufficient enough for the job). 
+** Maybe I should [[ping]] you. I don't know. I'm still thinking about this sort of problem (you'd think I'd have cleaner answers for all the sitcheeyashuns by now, `/smh`). 
+* I'm glad it at least sounds relevant. It's a hard problem, and I think you wrestle with it quite well. You have a deep clarity to your introspection and self-modeling. I respect your honesty and humility too. 
+* XD. That is perfectly [[4eak]]y enough (it's usually all I ever came up with in my searches for the [[name]] as well). I hear that. `/salute`.
+* It's always an honor when an[[other]] resonates with my work. 
+* For someone who doesn't like aspects of writing, I think you do an excellent job. I like your long-windedness and nearly* overactive dot-connecting. I suggest you are a schizopoet, my friend, and I think it serves you well. 
+** I know it can feel overwhelming. A [[/b/]] might be a useful tool for you (and you can slowly build other things or processes, if you even needed them). I think it's obvious that you should continue to embrace your ability to write, however painful it may be sometimes.
+* I completely appreciate the "talk-to-the-air/sounding out...about something as though it already exists" to make tangible, visualizable, capable of routing around my autistic deficits to connect and empathize with various pieces of me. There's a unifying force to our "making it explicit" symbols sometimes, at least something trying to be a universal currency.
+* Your "indeterminate/open-ended/unconditional focus model" reminds me of dialectically oscillating between direct focus and diffuse modes that many virtuous reasoners and practitioners engage in. I would like to suggest pomos and cutting your work into two major sections of practice each day, if that is at all feasible (assuming you aren't already doing everything you can, and you could easily be doing everything right).
+** Are you talking about properties of objects in "nameless compound associations" or what kinds of stories? I wish I understood better. You obviously have a crucial [[phenomenology]], even if you feel your process is broken, it's broken in an interesting way (and, mine is wildly broken).
+** > "I can only write one-dimensionally about a single element of a given idea that I know I have a much deeper understanding of"
+*** Fascinating. I'll keep thinking about that. I have no idea what to say.
+* I very strongly appreciate your fragmented conversation train metaphor; this is part of the chaos of autism. Definitely feel that ADHD metaframing too. 
+** We practice putting these rabbitholes together in-person quite a bit in our house.
+* We both have those bottlenecks, high-variance, unpredicted (probably in a way that makes people not like being with us because it costs them much more to learn how to connect with us than the average person).
+** It is not clear to me from your writing that you're your L1 Cache is really all that bad. I bet it is well above normal, though I can see that there may be an imbalance in you (that's okay, right?).
+** I take it that your bottom-up sensations override many attempts to model them consistently. I think that it's difficult construct generalizations and foundations for our sensations to hold onto, though we have huge towers and bandwidth devoted to our senses of the immediate (overridingly so).
+* Practicing writing, [[ltf]] between X and Y, having remnants of breadcrumbs of the rabbithole help. My son has major memory problems (everyone on both sides of his family are odd, to say the least). Writing has helped us both. My writing has evolved, non-trivially, to find my lost [[son|1uxb0x]] in the desert. He is a functioning man because we practice this together.
+** Might be worth giving it another shot. I'd read what you write.
+* Hilariously selling yourself short and putting me on a pedestal. I think we clearly have a great deal in common. Your writing clicks with me, even if I don't immediately understand everything. 
+* I was just talking with [[k0sh3k]] today about how poorly people wield that word "existential," as though it boiled down to simply generating our own meaning. You wield the word more broadly, and thank you for your extremely high praise. If there is something you need me to think about, please let me know. I appreciate that you've taken the time to empathize with me. It's a rare opportunity for me, and I hope I can find a way to be useful to you as well.
+* Tell me about your [[monster]]. It sounds like you need a new one some day, especially someone with your intellect, insight, and raw curiosity.
+* It is my honor and pleasure to speak with you, [[nomad]]. May we meet again.

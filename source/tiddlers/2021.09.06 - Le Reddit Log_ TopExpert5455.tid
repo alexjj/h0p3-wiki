@@ -1,0 +1,38 @@
+created: 20210906191239116
+modified: 20210907093959425
+tags: [[Le Reddit Log]]
+title: 2021.09.06 - Le Reddit Log: TopExpert5455
+
+https://www.reddit.com/r/DeclineIntoCensorship/comments/ph6op7/censorshipresistant_reddit/hbhge2h/
+
+Don't rebuild from scratch. https://getaether.net. Use it, study it, figure out how you want to change it, contribute back or fork it. I've spoken with both of its developers. My key, btw: b7ca236cbf32d27b6bf898d03965a6b4923dec1c575406f5eafc61f9dbeff1dd
+
+<<<
+Awesome, I have been thinking for a while about an open source alternative for reddit. Most of the ideas I came up with (p2p, ephemeral, democratic,...) are already implemented in Aether. Very cool.
+
+However, really the ONLY thing that matters, for ANY social media platform is users. A large number of people must use it, otherwise it is as good as dead.
+
+My suggestion would be the following: build proxy nodes for sites like reddit. This is similar to how you can use Tor proxies to access the regular internet.
+
+Then publish an app that allows you to browse reddit and together with eather subs in a seamless matter. This can act as a gateway for people to migrate.
+
+Another must is a public, non login, non gated site where you can see at least some content of what is on the eather subs. Almost nobody will create an account for something they cannot preview.
+
+(Just my pov)
+
+FYI, I am a backend dev (~15 years experience) who also knows my way around frontend, React in particular.
+<<<
+
+Hey, you [[deleted your comment within 24 hours|https://camas.github.io/reddit-search/#{%22author%22:%22TopExpert5455%22,%22subreddit%22:%22DeclineIntoCensorship%22,%22resultSize%22:25}]]! I sent you chats. I am paying attention. 
+
+You bring up excellent points, [[anon]]. You have obviously thought quite a bit about this, and we are all [[lucky]] to hear what you have to say. I'm arguing with you because I respect you and your opinion (including what you've understandably deleted on this account). Forgive my blather, and ignore it at-will, please.
+
+We can think about definitions of "social media platform" if you'd like. I suggest that isn't the only thing that matters, and it's not necessary to have a large number of people for a functioning one or even a good one (https://multiverse.plus is a fine counterexample). And, I hate to say it, the fastest way to have a high [[S2NR]] is fairly strict moderation, even if it keeps it small (and this is especially true for specialized topics). Further, I speak with people (paltry numbers, really) from my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 often enough. Some of those relationships are non-trivial, and I'd even say wildly successful compared to most anything I've experienced on the web. I've watched [[Aether|Aether: Jibberjabber]] for [[almost three years|2018.11.04 - Link Log: Late Night Run]], and though I can't say everything about it is wonderful (it's got the problems I know you already know are there), I do check it every day (because sometimes it's right on the money). For over year, there have been some crazies (blessed are the cracked for they let the light shine in) I am honored to listen to (and sometimes interact with) on that network. 
+
+If your point is that replacing [[Reddit]] for everyone (where it's convenient, addictive, and just as content-rich) requires a network effect with enough powerusers to make it worth joining, then you are correct. Making sure that users have skin in the game and actually participate is a harder problem that I'd like to see solved. Most are here just for a dopamine hit, nothing more. I would be okay with losing most of the masses though (even if I think the tools must be built such that it serves and can serve everyone). Maybe 3% of these [[users who actually post anything|dredmorbius]] (which is a tiny fraction of the total users themselves) consistently say anything that really is worth saying in public (they are the people I'm interested in serving the most, but since I don't know who they are, I think we have to build it for everyone, including our enemies). I'm stuck on this platform like my wife is stuck on FB; it is a travesty. So, I agree that seeding a new network is key, and you are one of many who have made this suggestion on or regarding just Aether. I can't say I know how to do that well enough, and I'm too fucking autistic to know how to make it sufficiently viral for the average person. I can pick out high quality content, but that's not enough. Marketing. Wish I knew enough that threw themselves into this problem.
+
+I keep a pretty dope [[Link Log]] that I could push onto something like IPFS, but that lack of commentary is really a big deal. Pick up a 1000 more whales, and you've got content. That's still not enough, and, of course, anything big enough to threaten the giants will face severe legal problems.
+
+Your suggestion reminds me of using RSS (should check out https://fraidyc.at/). I'm reminded a bit of https://github.com/tholian-network/stealth, https://github.com/i2p/i2p.syndie, and https://hypercore-protocol.org/ too.
+
+The public-facing web gateways make sense to me (perhaps competition might be valuable, but I think the underlying structures have to be as decentralized as possible). I agree to that. Aether (perhaps Pro) has elements of this going on already, though I cannot say I care for how it is done. Appification for a phone is also probably fairly crucial at this stage too. 

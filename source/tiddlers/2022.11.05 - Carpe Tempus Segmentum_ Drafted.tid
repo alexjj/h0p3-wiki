@@ -1,0 +1,30 @@
+created: 20221105044038203
+modified: 20221107033253250
+tags: [[Carpe Tempus Segmentum]] [[Computer Musings]] Dreams
+title: 2022.11.05 - Carpe Tempus Segmentum: Drafted
+
+Saw [[5c0ut]] for a bit. It's been a bad week, and he is people'd out. He is keeping it together. Brix. Made some tendies.
+
+I continue to walk through histories on this machine trying to find what I know is unique to the extremely [[recent]] versions of the [[/b/]]uffer from memory. Some hashes and phrases hit within elf binaries and mangled gz files. Wait. We have something. YUS! Found the json in a "file" that contained lots of other random shit. Dope. Only took 19 `grep -Fr`s to find the needle chunk in the 2.7 million pseudo-file haystack (a few of them devoted instead to trying to recover [[gojreaogij]]'s log). <3 SSDs. I also am more convinced than ever that overwriting doesn't do enough, and that complete physical destruction of the SSD (and burying the parts) is the only safe option for highly sensitive data.
+
+Sleep by unknown time.
+
+Woke at 8? [[TTTOTW]]. Hugs'n'bugs. Mi amor is baking this morning. She in the mood. //Skintime// + //Red Rising// @3:02:15:19. 
+
+Truncating xsessions-errors at this point. Bandaid. I've a lot of file[[sharing]] software kicking up huge streams of errors on bad connections (which is part of why I think the file ballooned up, when we were on that bad fiber connection). Set to 500mb limit, truncated to 10k lines.
+
+Looking at self-keylogging options. Nothing is designed to do this, and those that have encryption have made poor assumptions about what it is like to be pwned (not that we are ever safe enough). Two big pieces have to be made. The first is a clean way of cascading a keylogger into running short sessions with encrypted output using ephemeral asymmetric keys (YYYY-DD-YY-MM-Pubkey.txt). The keylogger's pubkey will be constantly rotating, while the user's will just sit there. Ideally, the keylogger would handle making sure there is no gap or overlap in sessions, but because we have to do the encryption ourselves, I don't think we can solve the problem perfectly without just writing the keylogger ourselves (which, really isn't worth my time). The second is a tool for generating the user's private key (argon2) and decrypting selections of text files, probably concatenate. Both need sanitizing, and I think none of this is ideal. It's a weird place to be in computing: not trusting your own machine completely.
+
+//The Walk// with my sympaticon.
+
+Last stages of the draft of [[The Salient Cube]]. We did it. I made out like a bandit, I think. 
+
+//Raw Skintime// with mi amor. Guts not feeling great. //Inform the Men!// Shower of the gods!
+
+//Skintime// with my sympaticon. 
+
+//The Date// with mi amor. Pizza + fish'n'chips. Fizzy drank. Listened to Baden speak
+
+Sleep by 8? It was super early.
+
+Woke at 11:45. LoLWorlds Finals with my sympaticon. Fizzy water. [[TTTOTW]].

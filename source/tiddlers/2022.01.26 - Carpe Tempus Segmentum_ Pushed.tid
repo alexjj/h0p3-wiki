@@ -1,0 +1,43 @@
+created: 20220126051521238
+modified: 20220130204536329
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]]
+title: 2022.01.26 - Carpe Tempus Segmentum: Pushed
+
+[[TTTOTW]]. Candy + Water. Sleep by 1?
+
+Woke at 6:40. Just missed her. Think she's running late again. I'm hoping she's not feeling pressure (fuck it). Went to piss, and Ranga was there. He had turned the water on in the sink to drink (first time he's ever done that to my knowledge). Unfortunately, he took my pissing as a sign that I was marking the bathroom. Hard to explain to a cat that being there with me is a sign of [[intimacy]] and [[trust]], as I normally wouldn't have most creatures in the bathroom with me as I whizzed. 
+
+[[TTTOTW]]. 
+
+//Skintime// with [[ASK]]. Night terror. 
+
+Mi amor left me coffee. <3. Gracias. Assignments. [[ASK]] cut my hair and has decided to experiment with my beard. 
+
++0/+1 MWC vs UR Delver. She immediately figured how to top against muh gobbo, but eeked. G2 10 of 18 lands.
+
+[[TTTOTW]]. Noticing more people are downloading the entire [[Music: Library]]. Working on [[restart-memory-hogs.sh]], decided I'm going to restart way more (may save me on average 20GB and maybe a core). Trying beaker with [[ASK]], setting up hyper on rn (still can't get beaker to automagically autosync from startup, but I'm glad to see changes in the upgrade [also, this means I can't reliably restart this tool, unless it's purely from CLI, which I may end up doing again]). They (Sir pfrazee most of all, obviously) should be proud of how much they've been overhauling the front and backend on this tooling; I see a lot of growing pains in here. Unfortunately, (and, pfrazee has heard my praise, so I'm going to call it like I see it) it still isn't even close to ready for anyone who isn't willing to tinker (glad that hole-punching is being taken seriously, but it's still not working even when it says it is [had to forward]). Can't run httpcompressionserver as a regular user out of the box. =/. [[Resilio Sync]] and mirror up (once again, been a while :P).
+
+```bash
+# daemon errors, so went back to v14
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+source ~/.bashrc 
+# note that ubuntu's bashrc is set not to do anything with non-interactive scripting 
+# so, if necessary, fix bashrc and add `source .bashrc` to your script for crontab
+# nvm list-remote
+nvm install v14.15.0 #not nvim* =)
+npm install -g @hyperspace/cli
+hyp daemon start 
+hyp seed hyper://78ef8a742f08e98a5001d8bc796dbcce5358b3d8ad46c9ffcabdb9cfd35ee8e2/
+```
+
+Offspring came down to grind after making chili. Son is working on isometric drawing and measuring the PVC piping we want, and then he was exploring `.db` files on his machine. Daughter is working on setting a meeting up with a banker to set up an account and worked on more advanced trait concepts in [[Rust]]. [[TTTOTW]].
+
+Dadnap attempt. Cold AF. She came to tell me about her day, then left. I tried to sleep, but couldn't. She came again. //Raw Skintime//. Fireman Time!
+
+[[Family Gathering]]. Cornbread and chili. The Soap Opera Star episode of //House//. We are noisier today. =).
+
++0 MWC vs UR Delver. She played well (few things I disagreed with too), but PoP had it. Want her to try this one, as I think it's an excellent teacher. 
+
+Dialectics with [[ASK]] about the concept of [[game]]ness. Classic. Vapelyfe.
+
+//The Walk// with [[ASK]]. Bundled up with tons of layers. Rabbitholes abound.

@@ -1,0 +1,174 @@
+created: 20220830045922456
+modified: 20220830045955582
+tags: [[FTO: Seemingly One-Off Online Encounters]] FTO [[FTO Mode: Alien]]
+title: Loup Vaillant
+
+!! Information:
+
+* https://loup-vaillant.fr/
+* https://monocypher.org/
+* l@loup-vaillant.fr
+** monocypher@loup-vaillant.fr
+* https://www.reddit.com/user/loup-vaillant
+
+!! Communications:
+
+; 2022.08.28 - Loup Vaillant: Elligator2 Clarification
+
+I've been glimpsing at the notion of Elligator2 off and on since maybe 2016, and I don't understand it well enough. I do not have a formal background in mathematics, computer science, or cryptography, but I do think about them (and rely heavily upon these tools that I ultimately don't understand well enough). I'm an ignorant but curious (and maybe a tad paranoid :P) layman. 
+
+You probably have the clearest explanations I've found, and thank you for your excellent work. I am [grateful](https://philosopher.life/#Gratitude) that you've provided what you have already, and I do not claim I'm entitled to an ounce more of your time. I'm asking for your charity. I'm looking for a really high-level explanation of Elligator2. 
+
+Unfortunately, and this isn't your fault, your explanation is still pretty low-level, nuts and bolts (and I'm sure that's exactly what most people in your shoes need and appreciate). I don't really have even a basic intuition of how Elligator2 is used in practice. Can you help me or point me to something? Pretend I'm your Freshman college student or your teenage son in need of a motivating example, an intuition juicer, an ELI5 pseudocode play-by-play of the simplest real-world use. 
+
+One of the reasons I've been interested in Elligator2 is that I think it might be invaluable to an initial layer for a DHT that aimed to send packets which appear no different than random noise to middlerouters and ISPs (though, I recognize other obfuscation can be absolutely necessary for deep packet inspection, as even random strings can be redflags). To my knowledge, there aren't many DHTs that protect people's privacy and anonymity while defeating adversaries that aim to disrupt the network. That's a big deal for those who think fully distributed p2p software are keys to human flourishing in the 21st Century (I believe it, like a fanatic). I'm 95% sure that Elligator2 would be valuable here. I can only find one DHT that uses Elligator: https://wootfish.github.io/theseus.dht/ (though I cannot make any claims about this particular protocol). I'd like to understand how Elligator2 works, and how it might best influence the design of secure DHTs.
+
+<<<
+>  I'm looking for a really high-level explanation of Elligator2. 
+
+Actually, so am I. Right now the closest thing I have is [this PDF](https://ecc2015.math.u-bordeaux1.fr/documents/hamburg.pdf) from Mike Hamburg, which he suggested I add a link to in the Elligator web site. Unfortunately I’m not yet able to fully follow the reasoning here. I get most of the _idea_, but the maths don’t line up. I’ll ask Mike Hamburg about that, and when that’s done, I’ll add a page explaining exactly _why_ Elligator2 works.
+
+> I don't really have even a basic intuition of how Elligator2 is used in practice. Can you help me or point me to something?
+
+Oh. A clear use case. I think you’ll find the [Monocypher manual](https://monocypher.org/manual/advanced/elligator) to be a better user centric explanation. Scroll down for the code examples, they might help. _(You can ignore the first example that generates a key pair manually, and use `crypto_hidden_key_pair()` directly.)_
+
+At a very high level, recall what happens when Alice and Bob perform a key exchange. Let us stick to the very simple case of an _non_ authenticated key exchange, where they both use a one time key pair just for this session (the same principles will apply for authenticated key exchange such as the Noise protocols).
+
+* Alice generates the key pair (_a_, _A_).
+* Bob generates the key pair (_b_, _B_).
+* Alice sends _A_ to Bob.
+* Bob sends _B_ to Alice.
+* Alice computes _K_ = `hash`(_a_._B_).
+* Bob computes _K_ = `hash`(_b_._A_).
+
+Alice and Bob can now use their shared secret key _K_ to communicate with symmetric primitives. Note that they both compute the same _K_ thanks to Elliptic curve magic. There’s a little problem however: _A_ and _B_, which are transmitted over the network, aren’t exactly random. It’s close, but the Great Firewall of China can easily sniff all preludes and notice this departure from random, and know for sure that Elliptic curve points are being sent.
+
+For Curve25519 specifically, there are 3 sources of bias:
+
+* The most significant bit is cleared (1 bit of evidence). Solution: just replace it with a random bit, and ignore that random bit when you read the point.
+* The Curve point is in the prime order subgroup (3 bits of evidence). Solution: add a random low-order point before sending it over the network. I have a [tutorial on elliptic curves cofactor](https://loup-vaillant.fr/tutorials/cofactor) that should help you understand this one.
+* The X-coordinate we are sending satisfies the curve equation (1 bit of evidence). Solution: use Elligator2.
+
+If you do nothing, you give eavesdroppers 5 bits of evidence every time you send a public key. Meaning, there is 1 chance in 32 that a random 256-bit string satisfies all of the above. A [good API](https://elligator.org/implementations) will solve all 3 issues at once, letting you transmit fully random data instead. Here’s how this would modify the key exchange above:
+
+* Alice generates the _hidden_ key pair (_a_, _Ah_).
+* Bob generates the _hidden_ key pair (_b_, _Bh_).
+* Alice sends _Ah_ to Bob (it looks fully random).
+* Bob sends _Bh_ to Alice (it looks fully random).
+* Alice recovers _B_ = `unhide(Bh)`.
+* Bob recovers _A_ = `unhide(Ah)`.
+* Alice computes _K_ = `hash`(_a_._B_).
+* Bob computes _K_ = `hash`(_b_._A_).
+
+And that’s pretty much it. A good API would have one function to generate a key pair, and another to recover the public key from a "hidden" representative, and that’s enough. Even better, if the API is good the hidden key pairs are compatible with regular key pairs, so you don’t even need a special key exchange function to compute _K_ at the end.
+
+I hope this helps?
+<<<
+
+Yes, I think this helps, at least for working toward confirmation. Thank you. I did attempt to understand these links even before you sent them (including that PDF). So, now I'm trying to assess the practical value of this technique.
+
+From what I can see, an adversary can still attempt to unhide the keys.
+
+How expensive is it for an eavesdropper to determine that an unhidden key is being transmitted? To my understanding, they will be engaged in packet inspection, where many protocols will put key(s) in a particular slice of a packet. There's heuristics for guessing which protocol is in use, and they still have to lift segments out of the packet to test for whether or not it's likely a key. Ideally, the packet is filled with data indistinguishable from random, but unhidden keys are distinguishable with testing. Is it fair to say that Elligator will tend to pose a cost to the adversary for detecting key transmission in practice? How much more expensive it is for the adversary to unhide keys?
+
+Say that generating a regular keypair is 1 unit of computation. On a good API, how many units, on average, does elligator hidden key generator cost? How much more expensive is it to generate the hidden keypair than it is to unhide to it?
+
+Again, I'm assuming hiding ephemeral keys is really most useful for masking p2p network traffic that aims to appear no different than random. Part of me is worried that Elligator is simply too expensive for what it buys us. It still may be necessary though.
+
+<<<
+> From what I can see, an adversary can still attempt to unhide the keys.
+
+Ah, yes. Well, yes, and it works every time. Which is _exactly_ why Elligator2 works: see, Elligator2 maps _every_ random number to a curve point. If the attacker tries to decode a real public key, they’ll get a curve point. If they try to decode random garbage, they’ll get… a curve point.
+
+They’ll get a curve point every single time, so to them, there is no difference between a real public key that’s been encoded with Elligator, and random garbage. Can’t distinguish, can’t know.
+
+> How expensive is it for an eavesdropper to determine that an unhidden key is being transmitted?
+
+First thing to notice is that attackers can’t know for sure with a single key: when you take 256 random bytes, one time out of 32 they’ll look like an unhidden key. When you detect that it’s a significant _hint_, but it could also be random chance. So bear in mind that actual attackers will need to repeat their tests a number of time, and do some statistical analysis with the result.
+
+Now there are 3 conditions to look for:
+
+* Most significant bit is cleared.  Gives 1 bit of evidence for real cheap.
+* x³ + Ax² + x is a square. Gives one bit of evidence at the cost of a single exponentiation (about 10% the cost of a key exchange).
+* The point is in the prime order subgroup. Gives 3 bits of evidence at the cost of a single scalar multiplication by a constant (about half the cost of a regular key exchange). 
+
+A modern CPU should be able to do about 30.000 tests per second. Per thread. Dedicated hardware can easily match that speed with much less energy and silicon. If your adversary is a dedicated router, they’ll handle a 10GB/s connection just fine.
+
+> Is it fair to say that Elligator will tend to pose a cost to the adversary for detecting key transmission in practice?
+
+Definitely. Now that the data itself is purely random, the only thing the adversary has left is pure network analysis. They have less evidence, thus they need more analysis. And in some cases you can defeat network analysis entirely by filling all the available bandwidth with _actual_ random noise, and replacing that random noise with real data only when we need it. (Now sending random data all the time is still suspicious, but at least you’d hide for sure _when_ stuff happens.)
+
+> How much more expensive it is for the adversary to unhide keys?
+
+The adversary’s problem here is not how to unhide keys. It’s to know where to unhide them _from_. Remember, the unhide procedure works every time, so:
+
+* Representative in, curve point out.
+* Garbage in… curve point out.
+
+The difference between a representative and garbage is… err, nothing, since you get a sensible result in both cases.
+
+> Say that generating a regular keypair is 1 unit of computation. On a good API, how many units, on average, does elligator hidden key generator cost? How much more expensive is it to generate the hidden keypair than it is to unhide to it?
+
+A hidden key pair is on average 2.2 times as expensive to generate than a normal key pair:
+
+* Only half of all keys have a representative, so you need to keep generating keys until it works.
+* The cost of Elligator2 is 10% of the cost of making a single key pair.
+
+Note that in practice, many libraries use the Montgomery ladder to generate a key pair, while if we use an optimised [fixed base scalarmult](https://loup-vaillant.fr/tutorials/fast-scalarmult) in Edwards space instead we can be over twice as fast (that’s what Monocypher does). So _in practice_, switching from regular public key generation to Elligator2 has a fairly negligible cost (doing twice as much work, twice as fast).
+
+> Part of me is worried that Elligator is simply too expensive for what it buys us.
+
+It’s very cheap. Remember that Elligator is only used for _initial_ handshakes. Once the connection handshake is done, we switch to a symmetric cipher and no longer need Elligator. And if you talk to a known machine you may have established a pre-shared key (from a previous session), and will not need Elligator _at all_ (just encrypt the public keys you send).
+
+Also, an authenticated key exchange will involve more than a single key exchange. Noise XX for instance requires 3 key exchanges in addition to the generation of a single key pair. With optimised key pair generation the cost is 3.5 key exchanges. Throw in Elligator and you raise that cost to 4 key exchanges instead. So even in the very worst case, you’re looking at a 15% overhead.
+
+Another way to put it, is, on a modern CPU, the cost of Elligator is below 100 microseconds. On a single core. Unless you’re looking at making thousands of connections per second, I think you can just pretend Elligator is free.
+<<<
+
+> If they try to decode random garbage, they’ll get… a curve point.
+
+Ah! There it is. Not only does Elligator produce hidden keys that can't be distinguished from random, but its unhiding mechanism always produces a valid key from any input. `/smh`. Yup. Good. So, even the technique that would be used to infer that an unhidden key had been transmitted at all is irrelevant. I'm slow, and that was a puzzle piece I didn't understand. Thank you.
+
+> the only thing the adversary has left is pure network analysis
+
+If one doesn't require certainty, it may be more price-efficient to fingerprint through pure network analysis, especially for just redflagging a session. I've encountered network engineers who can often just glance at bare graphs and tell you what protocol was being used. To my eyes, this is actually the more difficult and pressing problem.
+
+> And in some cases you can defeat network analysis entirely by filling all the available bandwidth with actual random noise, and replacing that random noise with real data only when we need it. (Now sending random data all the time is still suspicious, but at least you’d hide for sure when stuff happens.)
+
+Spitballin' with ya here.
+
+Ideally, at least many (if not all) participants on the net are engaged in this behavior in order to help those in need blend in. Otherwise, obfuscation by embedding within "permitted" protocols and matching their usual traffic patterns may be the only route. That comes with enormous costs from what I can see. The overhead of tunneling isn't the hard part, it's the latency and loss of throughput from masquerading as "legitimate" traffic that hurts the most. Elligator seems most likely to be useful if we can meet other conditions; it opens the door. At the very least, if using an obfuscated tunnel, there's a chance for plausible deniability. 
+
+If we can get enough applications that live on top of protocols that mask traffic as random streams of noise, we'd be in better shape. Onion routing and seeding content are good ways to consume low-priority throughput, but these are often redflags as well. I can't say I'm optimistic we'll achieve such a thing, but I [[hope]],
+
+> A hidden key pair is on average 2.2 times as expensive to generate than a normal key pair...So in practice, switching from regular public key generation to Elligator2 has a fairly negligible cost (doing twice as much work, twice as fast).
+
+Gorgeous. That is very cheap! Thank you. I am kinda surprised your work hasn't seen more use in the wild yet.
+
+> Another way to put it, is, on a modern CPU, the cost of Elligator is below 100 microseconds. On a single core. Unless you’re looking at making thousands of connections per second, I think you can just pretend Elligator is free.
+
+`/nod`. Thousands of initial handshakes per second would probably only be necessary for a bootstrap, and that would not be sustained for very long if at all. Even if constantly generating ephemeral keys, you have convinced me Elligator2 performance even on a standard potato is not a major concern.
+
+Thank you for taking the time to explain and re-explain your work to me. If there's anything else you think I should look at (whether it directly pertains to this problem or something else entirely), please let me know.
+
+<<<
+> I am kinda surprised your work hasn't seen more use in the wild yet.
+
+Not quite my work. :-)
+
+The inventor of Elligator2 is Mike Hamburg (/u/bitwiseshiftleft). He got wind of Elligator1, made a better version, and published it alongside Elligator1 with Daniel Bernstein and others. That paper is from 2013.
+
+The reason this works hardly saw the light of day, I think, is because the paper’s wording is not implementer focused, and there was no reference implementation (more precisely, the tests given by the authors are pretty hard to turn into a reference implementation). This is in stark contrast with Curve15519, which came with various implementations out of the box, including a safe reference implementation in C.
+
+Long story short, [implementing Elligator2 was tricky](https://loup-vaillant.fr/articles/implementing-elligator). It took me quite a while to understand the paper, and I ultimately required the help of Mike Hamburg himself (and Andrew Moon).
+
+Now _my_ work is fairly recent. I implemented Elligator2 for Monocypher only in 2020, and published https://elligator.org only very recently (like 2 months ago). I believe this new website should enable other implementers and help popularise the concept.
+
+> Thank you for taking the time to explain and re-explain your work to me.
+
+Thank _you_ for letting me know where it wasn’t clear. I’ll think of a way to clarify the Elligator website accordingly.
+
+> If there's anything else you think I should look at (whether it directly pertains this problem or something else entirely), please let me know.
+
+I believe you’re all set. :-)
+<<<

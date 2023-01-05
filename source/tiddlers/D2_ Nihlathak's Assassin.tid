@@ -1,0 +1,38 @@
+created: 20220503175745801
+modified: 20220507191411660
+tags: D2 Walkthrough
+title: D2: Nihlathak's Assassin
+
+There are two classes that take you to the end game as fast as possible. The sorc for rushing everyone else, Mephisto runs on max MF, LK farming, and enabling Baal runs (until eventually everyone has their own handy dandy Enigma). The assasin can also do some of highest end content with the least gear. Eventually, grow a smiter, and then you make whatever you want. GG. So, given that, I'm now on the hunt for other functions where the mediocre assassin has competitive advantage until the absolute end game. 
+
+Obviously, the kicksin is the only morally correct (:P) build of the class. You spend 23 points, invest in the one point wonders, max DS for CR radius, and you can clear the standard game then DClone (on the ugly side) with fewer levels and gear than any other class, even the smiter. Treachery is part of the reason the assassin feels so strong so early too.
+
+Despite how amazing Treachery is, the assassin, outside of initial builds (not all that budget either), sheds it for ol' Yeetus the Merc as soon as PDR and resists are maxxed and EIAS is at 67 (for follow up kicks). Sans Infinity, in p8, Lightning Sentry has so few profound use cases. Venom in PvE isn't broken, but it's also not nothing. Blade Shield is actually worthy for tiny benefits. We've squeezed it down to Burst of Speed, +1 charges on DS, improvements to LS, and a slightly better pet. The value of skills suffers radical diminishing returns. You get +4 all skills and whatever to achieve 7 kick, and there's few improvement to actually make. Excepting the versatility in larger group play, the kicker is generally worse than the zeal-smiter where it counts in PvE, even though it is way more fun to play. The assassin, however, is the best farmer of Nihlathak until perhaps absolute top gear, and that's not nothing. 
+
+* The assassin is safer than the sorc and faster than everyone even after Enigma until godly gear. He can be reached more quickly than most realize, even without Enigma, by an assasin who has the tools to slip past packs quite well.
+* Once you have a smiter, acquiring Keys of Destruction are the hard part to farming Ubers. Leave your otherwise useless assassin on duty then.
+* At level 95, he is the second highest level mob in the game, ahead of even the Ancients (87) and Diablo (94). Only Baal (99) is a higher level monster, and much slower to get to. He grants non-reduced XP.
+* He can drop anything in the game, including runes, GC's that can be re-rolled to have the prized "of Vita" suffix, +40-45 life, and "Pestilent Small Charm of Anthrax" (> 100 poison damage)
+
+Death Sentries are the best corpse safety option while being offensively useful to boot, and her chance to hit Nihlathak is high enough that she is the best CB applier. You just have to get her there through a level 84 dungeon. Max resists, PDR, and the max travel speed are all that are required to CoS-> Trap -> D-Tail -> Talon in seconds.
+
+There's only 3 maps of Halls of Pain. Once you learn them, you can mostly run past every mob. Maps 1 and 2 you find the Halls of Vaught west, either at 8 o'clock or 10 o'clock. Map 2, where you end up going Northwest, is by far the fastest route for those rolling for maps in single player. In Map 3, you go East at 3-1/2 o'clockish. 
+
+The Halls of Vaught start you on the edge of a circle with X-shape extensions (like Arcane Sanctuary), but there is a signal for which route is the true one. Run around the circle, and before each direction bifuracates, look for the image of a set of red eyes found on the south-facing visible wall (actually on the adjacent sides of the southern routes because it is an isometric map) to find the correct route. 
+
+Your goal is to avoid all the mobs, and especially the Tomb Vipers. If you aren't fast enough or you fight, then you face their deadly clouds (last for about 5 seconds, which slows everything down). A percentage of their charge damage is included in an invisible secondary cloud of poison. Their poison cloud damage has a physical damage component while your character moves. You can shift+attack, but you should be able to avoid them entirely and abuse your assassin's high damage mitigation instead. Note, however, that your mercenary will often instantly die, and hence he's not worth rezzing while doing these runs. `/sadface`. 
+
+One of the assassin's surprising strengths is AoE enchantress CC. Mind Blast and Cloak of Shadows allow you to avoid fighting. That's highly preferred. She's also fast. Burst of Speed is a reasonable point dump in this case, as the fastest non-teleport runs will be through avoiding all combat and running straight to Nihlathak. A run can easily be done in a minute flat. FHR adds consistency for both the run and actually getting off abilities through the boss room's barrage, though Cloak of Shadows does enormous amounts of work. It prevents Nihlathak from seeing far enough to corpse explode. Mind Blast's conversion will even cause Nihlathak to CE next to himself and his closest minions, as his targeting AI is similar to most monsters in the game: closest target first. 
+
+On players 1, it's usually this simple:
+
+Buff + Petcast -> Run to room -> Cloak of Shadows -> Traps -> Tail -> Talon -> Loot -> Save/Exit
+
+It takes some practice, and there's plenty of variance in the encounters. Sometimes DS makes everything splat simultaneously, sometimes you'll get unlucky and die (Nihlathak's CR can 1-shot a character with 1500hp). The level of difficulty should probably be tailored:
+
+* 1-player: 1/12 chance of Key of Destruction
+* 3-player: 1/9.6 chance of Key of Destruction
+* 5-player: 1/9 chance of Key of Destruction
+* 8-player: 1/8.8 chance of Key of Destruction
+
+`/players 3` is likely a butterzone. There are many who would be comfortable running at p8 though. Note, you can get two, three, or possibly even more keys from a single drop. These keys are nonmagical and your chance to find magic items does NOT have an effect on their drop rate. Happy hunting. `/salute`.

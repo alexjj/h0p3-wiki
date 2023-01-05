@@ -1,0 +1,86 @@
+created: 20200610173640878
+modified: 20200610174817813
+tags: monster-16
+title: monster-16: h0p3's crontab
+
+```bash
+# Nightly Shreddit
+0 4 * * * cd /home/h0p3/.config/shreddit && shreddit
+
+# Nightly Webarchive Backups
+0 4 * * * /home/h0p3/scripts/daily-wbm-archive.py
+0 4 * * * cd /home/h0p3/Downloads/savetrail-jsons/ && for f in *.txt; do mv -- "$f" "${f%.txt}.json"; done
+
+
+### System Backups
+# Nightly Backup of Home to BackupNVME
+0 4 * * * rsync -acr --delete --force /home/h0p3/ /mnt/m16-backup-nvme/home
+
+# Weekly Backup of Home to New-Storage
+0 4 * * 1 rsync -acr --delete --force /home/h0p3/ /mnt/m16-new-storage/m16-home-h0p3-nightly
+
+# Monthly Backup of New-Storage to Old-Storage
+0 7 1 * * rsync -acr --delete --force /mnt/m16-new-storage/ /mnt/m16-old-storage
+
+
+### Wiki rsync backups
+# Hourly wiki backup
+0 * * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/h0p3-wiki/ /home/h0p3/syncs/h0p3-wiki-backup/index.html-backups/Hourly
+0 * * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/h0p3-bob/ /home/h0p3/syncs/h0p3-wiki-backup/Bob-backups/Hourly
+
+# Daily wiki backup @4am
+0 4 * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/h0p3-wiki/ /home/h0p3/syncs/h0p3-wiki-backup/index.html-backups/Daily
+0 4 * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/h0p3-bob/ /home/h0p3/syncs/h0p3-wiki-backup/Bob-backups/Daily
+
+# Weekly wiki backup @4am on Sunday
+0 4 * * 0 rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/h0p3-wiki/ /home/h0p3/syncs/h0p3-wiki-backup/index.html-backups/Weekly
+0 4 * * 0 rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/h0p3-bob/ /home/h0p3/syncs/h0p3-wiki-backup/Bob-backups/Weekly
+
+# Monthly wiki backup @4am on the 1st of the month
+0 4 1 * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/h0p3-wiki/ /home/h0p3/syncs/h0p3-wiki-backup/index.html-backups/Monthly
+0 4 1 * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/h0p3-bob/ /home/h0p3/syncs/h0p3-wiki-backup/Bob-backups/Monthly
+
+
+### Wiki Boots and Publishing 
+@reboot node /home/h0p3/syncs/h0p3-bob/tiddlywiki.js /home/h0p3/syncs/h0p3-bob/Wikis --wsserver
+@reboot node /home/h0p3/syncs/j3d1h-bob/tiddlywiki.js /home/h0p3/syncs/j3d1h-bob/Wikis --wsserver
+@reboot node /home/h0p3/syncs/1uxb0x-bob/tiddlywiki.js /home/h0p3/syncs/1uxb0x-bob/Wikis --wsserver
+@reboot node /home/h0p3/syncs/private-bob/tiddlywiki.js /home/h0p3/syncs/private-bob/Wikis --wsserver
+* * * * * sh /home/h0p3/scripts/checkbob.sh
+* * * * * sh /home/h0p3/syncs/bob/tidtohtml.sh
+* * * * * sh /home/h0p3/syncs/h0p3/Computers/Scripts/wiki-live-git.sh
+0 4 * * * sh /home/h0p3/syncs/h0p3/Computers/Scripts/wiki-snapshot.sh
+
+* * * * * sh /home/h0p3/syncs/j3d1h-bob/tidtohtml.sh
+* * * * * sh /home/h0p3/syncs/1uxb0x-bob/tidtohtml.sh
+0 * * * * sh /home/h0p3/syncs/bookwyrm-bob/publish.sh
+* * * * * sh /home/h0p3/syncs/private-bob/tidtohtml.sh
+
+
+### Wiki Backups
+# Daily, j3d1h
+0 4 * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/j3d1h-wiki/ /home/h0p3/syncs/j3d1h-wiki-backup/wiki-bak/daily
+0 4 * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/j3d1h-bob/ /home/h0p3/syncs/j3d1h-wiki-backup/bob-bak/daily
+# Daily, 1uxb0x
+0 4 * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/1uxb0x-wiki/ /home/h0p3/syncs/1uxb0x-wiki-backup/wiki-bak/daily
+0 4 * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/1uxb0x-bob/ /home/h0p3/syncs/1uxb0x-wiki-backup/bob-bak/daily
+# Daily, bookwyrm
+0 4 * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/bookwyrm-wiki/ /home/h0p3/syncs/bookwyrm-wiki-backup/wiki-bak/daily
+#0 4 * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/bookwyrm-bob/ /home/h0p3/syncs/bookwyrm-wiki-backup/bob-bak/daily
+# Weekly, private
+#0 4 * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/private-wiki/ /home/h0p3/syncs/private-wiki-backup/wiki-bak/weekly
+0 4 * * * rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/private-bob/ /home/h0p3/syncs/private-wiki-backup/bob-bak/weekly
+
+# Weekly, j3d1h
+0 4 * * 0 rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/j3d1h-wiki/ /home/h0p3/syncs/j3d1h-wiki-backup/wiki-bak/weekly
+0 4 * * 0 rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/j3d1h-bob/ /home/h0p3/syncs/j3d1h-wiki-backup/bob-bak/weekly
+# Weekly, 1uxb0x
+0 4 * * 0 rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/1uxb0x-wiki/ /home/h0p3/syncs/1uxb0x-wiki-backup/wiki-bak/weekly
+0 4 * * 0 rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/1uxb0x-bob/ /home/h0p3/syncs/1uxb0x-wiki-backup/bob-bak/weekly
+# Weekly, bookwyrm
+0 4 * * 0 rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/bookwyrm-wiki/ /home/h0p3/syncs/bookwyrm-wiki-backup/wiki-bak/weekly
+#0 4 * * 0 rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/bookwyrm-bob/ /home/h0p3/syncs/bookwyrm-wiki-backup/bob-bak/weekly
+# Weekly, private
+#0 4 * * 0 rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/private-wiki/ /home/h0p3/syncs/private-wiki-backup/wiki-bak/weekly
+0 4 * * 0 rsync -acr --delete --force --exclude=".*" --exclude=".*/" /home/h0p3/syncs/private-bob/ /home/h0p3/syncs/private-wiki-backup/bob-bak/weekly
+```

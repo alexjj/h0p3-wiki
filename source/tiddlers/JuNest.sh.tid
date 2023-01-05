@@ -1,0 +1,93 @@
+created: 20220128195252373
+modified: 20220218160952505
+tags: Recipe bash Script
+title: JuNest.sh
+
+!! Initial Everywhere^^tm^^ JuNest Installation:
+
+```bash
+#!/bin/bash -i
+# emulate interactive mode to bypass .bashrc's set to do nothing if non-interactive. 👀, Ubuntu.
+
+git clone https://github.com/fsquillace/junest ~/junest
+~/junest/bin/junest setup #~500MB base, ~850MB with base-dev, 
+
+if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]; then
+   echo "export PATH=~/junest/bin:\$PATH" >> ~/.zshrc
+   echo "export PATH=\$PATH:~/.junest/usr/bin_wrappers" >> ~/.zshrc #bypass calling `junest`
+   source ~/.zshrc
+elif [ -n "`$SHELL -c 'echo $BASH_VERSION'`" ]; then
+   echo "export PATH=~/junest/bin:\$PATH" >> ~/.bashrc
+   echo "export PATH=\$PATH:~/.junest/usr/bin_wrappers" >> ~/.bashrc
+   eval "$(grep -vFx '[ -z "$PS1" ] && return' ~/.bashrc)" #if emulation fails
+   source ~/.bashrc
+else
+   echo "Please manually set paths."
+fi
+
+junest -f pacman -Syyu --noconfirm
+#junest -f pacman -Sgq base-devel | grep -v sudo | pacman -S - --noconfirm #for AUR, note: sudo conflicts with sudo-fake
+```
+
+
+<br>
+
+!! Vanilla Arch Installation:
+
+```bash
+
+
+```
+
+
+<br>
+
+!! Convert To JuNest Module:
+
+```bash
+
+
+# zsh
+junest yay -S antigen-git --noconfirm
+
+export SHELL=/bin/zsh
+[ -z "$ZSH_VERSION" ] && exec /bin/zsh -l
+
+```
+
+
+
+
+<br>
+
+!! ?? Customized (like [[wireguard-install.sh]]) for multi-distro installation of systemd configuration: 
+
+```bash
+
+```
+
+
+
+<br>
+
+!! Uninstall:
+
+```bash
+#!/bin/bash -i
+# emulate interactive mode to bypass .bashrc's set to do nothing if non-interactive. 👀, Ubuntu.
+
+rm -rf ~/junest ~/.junest #`junest setup -d` nags
+
+if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]; then
+   sed -i '/export PATH=~\/junest\/bin:\$PATH/d' ~/.zshrc 2> /dev/null 
+   sed -i '/export PATH=\$PATH:~\/.junest\/usr\/bin_wrappers/d' ~/.zshrc 2> /dev/null
+   source ~/.zshrc
+elif [ -n "`$SHELL -c 'echo $BASH_VERSION'`" ]; then
+   sed -i '/export PATH=~\/junest\/bin:\$PATH/d' ~/.bashrc 2> /dev/null
+   sed -i '/export PATH=\$PATH:~\/.junest\/usr\/bin_wrappers/d' ~/.bashrc 2> /dev/null
+   eval "$(grep -vFx '[ -z "$PS1" ] && return' ~/.bashrc)" #if emulation fails
+   source ~/.bashrc
+else
+   echo "You may want to manually delete paths."
+fi
+```

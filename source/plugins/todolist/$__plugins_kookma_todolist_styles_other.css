@@ -1,0 +1,12 @@
+/* completed item */
+
+.kk-tiny-td-item-done{
+	text-decoration: red line-through;
+	font-style: italic;
+}
+
+/* inputbox for add-task */
+.kk-tiny-td-input-textbox {
+	width:100%;
+	padding-left: 5px;
+}

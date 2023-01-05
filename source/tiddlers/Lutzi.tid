@@ -1,0 +1,59 @@
+created: 20220310030430180
+modified: 20220310122741347
+tags: FTO [[FTO Mode: Alien]] Chatlog
+title: Lutzi
+
+!! Information:
+
+* Soulseek: Lutzi
+* https://github.com/LutziGoz
+
+!! Communications:
+
+; 2022.03.09 - Lutzi: Evasion
+
+<<<
+"""
+[21:31:53][h0p3] I'm happy to share with you, nomad. You can find me here: https://philosopher.life/
+[21:32:31][Lutzi] hello man 
+[21:32:52][Lutzi] TNX. looking for specific somthing? 
+[21:33:22][Lutzi] can i help with develop and python codes if you need :)
+[21:39:56][h0p3] Hello! It's a pleasure to meet you.
+[21:41:06][h0p3] I have no idea how you can help me (I'm still thinking), but I am [[grateful]] for the offer. I will keep it in mind.
+[21:42:21][h0p3] I'd like to get to know you. 
+[21:43:05][h0p3] What kinds of software interests you?
+[21:43:05][Lutzi] all right :) https://github.com/LutziGoz that's my github 
+[21:43:55][h0p3] Gracias. Looking now.
+[21:44:05][Lutzi] evasion codes from AV's 
+[21:45:10][Lutzi] hidden software for ethical hacking and attack, like armadillo packer ETC
+[21:45:40][Lutzi] or onion sites ;)
+[21:46:00][Lutzi] http://g7ejphhubv5idbbu3hb3wawrs5adw7tkx7yjabnf65xtzztgg4hcsqqd.onion/
+[21:46:20][Lutzi] official darksite of defcon ;)
+[21:50:16][Lutzi] specific attack tools like pegasus, if you have technique for evasion for cobalt strike it will be perfect. 
+[21:53:02][h0p3] I do not, sadly.
+[21:54:26][h0p3] My current concern isn't with breaking anything yet. I'm on the hunt for something constructive.
+[21:54:43][h0p3] This is an interesting piece of software: https://github.com/pranomostro/ratox
+[21:56:25][h0p3] Tox has failed to come up with multi-device (one logical account over multiple devices) and offline messaging (wherein friends could proxy for us in various respects). 
+[21:56:31][Lutzi] no man, i'm learning blue and team as well. to be a better accure, without commit any crime :)
+[21:56:59][h0p3] I understand. Makes sense.
+[21:58:25][h0p3] A P2P Etherpad/CRDT built with raTox and Python would be a worthy project, in my eyes.
+[21:58:52][h0p3] I've seen a lot of attempts, but none that work. 
+[22:01:21][h0p3] Perhaps https://github.com/rqlite/rqlite would be a useful piece here.
+[22:01:44][Lutzi] are you meaning of evasion codes? 
+[22:02:28][Lutzi] perfect. TNX for sharing. preciate 
+[22:02:41][h0p3] Wouldn't be any type of malware evasion technique. 
+[22:02:49][h0p3] Np `/salute`.
+[22:07:31][Lutzi] for Bypass AV's have a lot of technique .but i want somthing related to cobalt or discover a new software/tool to do that. evolve with obfuscation tools or somthing like this. 
+[22:08:46][h0p3] It's not a place I search anymore. I'm outta the game. I appreciate what you are looking for, my friend. I have nothing.
+[22:08:55][h0p3] I'm sorry. =(
+[22:10:04][Lutzi] it's ok man free mind everything its perfect !!
+[3:44:23][Lutzi] hey man 
+[3:44:45][Lutzi] your website with couple of vulnerabilities
+[3:45:45][Lutzi] http://icecream.me/f3c2dc0da30cde8e9cbaddf7b2602359
+[3:46:09][Lutzi] i researched that for you. 
+[7:24:00][h0p3] Thank you. =)
+[7:24:33][h0p3] [[Connect]] may be valuable here.
+[7:25:42][h0p3] Must be a part of github's build process. The site itself doesn't require it otherwise.
+[7:27:15][h0p3] The site is designed to be offline-first, so I get to be platform and distributor agnostic.
+"""
+<<<

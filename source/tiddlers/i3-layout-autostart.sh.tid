@@ -1,0 +1,157 @@
+created: 20180727050927771
+creator: h0p3
+modified: 20210108114824835
+modifier: h0p3
+tags: i3 bash Script
+title: i3-layout-autostart.sh
+
+```bash
+#!/bin/bash
+
+# Set Screen Positions and Orientations
+xrandr --output DP-0 --off --output DP-1 --mode 1920x1080 --pos 3840x0 --rotate right --output HDMI-0 --primary --mode 1920x1080 --pos 1920x420 --rotate normal --output HDMI-1 --mode 1920x1080 --pos 0x420 --rotate normal &
+sleep 1
+
+# Basic System
+conky -c /usr/share/conky/conky &
+xset r rate 250 150 &
+xset s off &
+xset -dpms &
+nm-applet &
+clipit &
+dunst &
+sleep 3
+
+# Warmup
+i3-msg 'workspace 0:Left Horizontal'
+sleep 0.1
+i3-msg 'workspace 1:/b/'
+sleep 0.1
+i3-msg 'workspace 2:ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱'
+sleep 0.1
+i3-msg 'workspace 3:Web'
+sleep 0.1
+i3-msg 'workspace 4:Files'
+sleep 0.1
+i3-msg 'workspace 5:Text'
+sleep 0.1
+i3-msg 'workspace 6:Stage⑤'
+sleep 0.1
+i3-msg 'workspace 7:Stage⑥'
+sleep 0.1
+i3-msg 'workspace 8:Virtualized'
+sleep 0.1
+i3-msg 'workspace 9:Sound'
+sleep 0.1
+i3-msg 'workspace 10:Public Chat'
+sleep 0.1
+i3-msg 'workspace 11:Private Chat'
+sleep 0.1
+i3-msg 'workspace 12:Right Vertical'
+sleep 0.1
+
+# workspace 0:Left Horizontal
+i3-msg 'workspace 0:Left Horizontal'
+sleep 0.2
+i3-msg 'layout tabbed'
+sleep 0.2
+terminator -p h0p3 -x htop &
+sleep 20
+
+# workspace 2:ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱
+i3-msg 'workspace 2:ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱'
+sleep 0.2
+i3-msg 'layout tabbed'
+sleep 0.2
+chromium &
+sleep 5
+
+# workspace 4:Files
+i3-msg 'workspace 4:Files'
+sleep 0.2
+i3-msg 'layout tabbed'
+sleep 0.2
+rats-search-git &
+qbittorrent &
+dolphin &
+sleep 10
+
+# workspace 5:Text
+i3-msg 'workspace 5:Text'
+sleep 0.2
+i3-msg 'layout tabbed'
+#i3-msg 'split v'
+sleep 0.2
+terminator -p h0p3 --working-directory=/home/h0p3/txt &
+sleep 0.2
+subl &
+sleep 3
+
+# workspace 8:Virtualized
+i3-msg 'workspace 8:Virtualized'
+sleep 0.2
+i3-msg 'layout tabbed'
+sleep 0.2
+
+# workspace 9:Sound
+i3-msg 'workspace 9:Sound'
+sleep 0.2
+i3-msg 'layout tabbed'
+sleep 0.2
+kodi &
+sleep 2
+i3-msg 'workspace 9:Sound'
+deadbeef &
+mumble &
+sleep 2
+
+# workspace 10:Public Chat
+i3-msg 'workspace 10:Public Chat'
+sleep 0.2
+i3-msg 'layout tabbed'
+sleep 0.2
+snap run aether &
+hexchat &
+#discord &
+#telegram-desktop &
+sleep 10
+
+# workspace 11:Private Chat
+i3-msg 'workspace 11:Private Chat'
+sleep 0.2
+i3-msg 'layout splitv'
+sleep 0.2
+/home/h0p3/scripts/bin/session-desktop.AppImage &
+signal-desktop &
+qtox &
+# pidgin &
+sleep 1
+i3-msg '[class="(?i)qTox$" instance="(?i)qtox$" title="(?i)qTox$"] focus'
+/home/h0p3/syncs/h0p3/Computers/Scripts/i3-tox-login.sh & # Ghetto AF: xdotool key --clearmodifiers f o o p a s s w o r d Return
+sleep 8
+i3-msg '[class="(?i)Signal$" instance="(?i)signal$" title="(?i)Signal$"] focus'
+sleep 0.2
+i3-msg 'move left'
+sleep 1
+i3-msg 'resize grow width 90'
+sleep 1
+
+# workspace 3:Web
+i3-msg 'workspace 3:Web'
+sleep 0.2
+i3-msg 'layout tabbed'
+sleep 0.2
+firefox-developer-edition &
+
+# Remove Urgency Marks - Install wmctrl!
+sleep 2; for win in $(wmctrl -l | awk -F' ' '{print $1}'); do wmctrl -i -r $win -b remove,demands_attention; done
+
+# Networks
+/home/h0p3/scripts/i2p-webserver.sh &
+
+# VMs
+VBoxManage startvm Whonix-Gateway-XFCE --type headless &
+VBoxManage startvm h0p3-wiki-Whonix-Workstation-XFCE --type headless &
+
+exit 0
+```

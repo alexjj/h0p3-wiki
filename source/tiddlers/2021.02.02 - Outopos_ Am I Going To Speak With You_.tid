@@ -1,0 +1,18 @@
+created: 20210207211216469
+modified: 20210207211216469
+tags: Outopos
+title: 2021.02.02 - Outopos: Am I Going To Speak With You?
+
+//Not even my wife really gives AF here. Lip service usually, and understandably. I'm speaking arrogant gibberish.//
+
+[[Inspiration|https://carter.sande.duodecima.technology/decentralized-wishlist/]], yet again. I am glad to see more people fucking getting it. I have written many times about this topic. I don't want to work on anything other than the absolute best solution (but, I have to, I realize). I've seen thousands of pieces of software that were doing their best, being practical (and usually, this is what I'm looking to do). We have {[[Dream]]}, way harder. It takes dozens of people to dream the right object up here, and people with far more expertise than I have. I only know enough to know at least the floor of how hard this is.
+
+I'm glad to see IPFS is still hot shit, `/wink`. It's not even close. Perhaps one day. I keep circling back.
+
+Complete Virtual Private Network that sits outside and inside the internet infrastructure, [[Atropos]] library, yggdrasil done with 10k of those geniuses., composable, built for FPGAs and routers. The entire network is fundamentally wrong. The problem cannot be solved without trying to solve this one. Without this, you will always be at the mercy of fiat.
+
+You have to build something designed to leverage F2F salience. Even with nearly ideal p2p decentralization of the infrastructure, you will still have the centralization of filtration, moderation, blocking, the "~~virtuous~~ agent's" picking out of what is salient in a context, and so forth. If you have designed the protocol to be [[The Golden Rule]] here, it fails.
+
+I should be able to pick out which network see which parts. Offline private first, released in stages. (I'm fine with soft-delete powers among friends, but this is stupid...I'd also want tools built that kill that behavior...however, the standard tool will define most users abilities). We have to have some salience-signaling in common, and some fully custom. I have to leverage your compute and information from your angle, automagically, and in a way, there can be something almost homomorphic about how you do so for me. The goal is still to maximize the value of our signaling and intent through automation but while curbing how it serves those in power. 
+
+I don't know how to conceive of where ML will be viable here. I can see it will be, even in socialist infrastructures, but I'm hard-pressed to give good answers. Spam, trust metrics, defeating sybil attacks (with handpicked charity, as is necessary in many cases), sure. Picking routes, maybe. Load balancing and distributed archive preservation, possibly. Search, omg, yes; we can build feeds that give some kind of signal that has value. Salience gathering, that is the key, even if it were merely small footholds.

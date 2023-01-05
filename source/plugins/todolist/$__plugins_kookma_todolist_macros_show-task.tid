@@ -1,0 +1,17 @@
+created: 20190715170652239
+modified: 20190717195414173
+tags: $:/tags/Macro
+title: $:/plugins/kookma/todolist/macros/show-task
+type: text/vnd.tiddlywiki
+
+\define todolist-show-task()
+<$list filter="[<stateTiddler>getindex[editview]] +[search[edit]]" 
+  emptyMessage="""<$transclude tiddler=<<taskTiddler>> index=<<item>>/>""" >
+<$edit-text 
+ tiddler=<<taskTiddler>>
+ index=<<item>>
+ tag=input
+ class="kk-tiny-td-input-textbox"
+ />
+</$list>
+\end

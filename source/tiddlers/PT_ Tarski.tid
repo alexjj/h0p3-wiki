@@ -1,0 +1,14 @@
+created: 20200615234328860
+modified: 20200616001147392
+tags: Philosophers
+title: PT: Tarski
+
+; 1901-1983: Tarski
+
+* Our everyday language contains semantic terms such as "true" referring to its own sentences; it is "semantically closed" and this causes antinomies.
+* The solution to the Antinomy of the Liar is to have two languages: a "meta-language" in which we can talk about the sentences of an "object-language".
+* Equivalence (T): The sentence "snow is white" [object-language] is true if, and only if, snow is white [meta-language].
+* We can use the term "true" in such a way that all equivalences of the form (T) ("X (name of p) is true if, and only if, p.") can be asserted.
+* The problem of the definition of truth can be solved only for formal languages; natural, spoken languages are too vague.
+* We should reconcile ourselves with the fact that there may not be a single "right" conception of truth.
+* We cannot get rid of the word "true" in a sentence like "The first sentence written by Plato is true"; the conception of truth is not sterile or useless.

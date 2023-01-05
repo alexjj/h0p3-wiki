@@ -1,0 +1,40 @@
+created: 20181215153022475
+creator: sphygmus
+title: $:/plugins/sphygmus/sbuttonsV2/buttonMonthlyAudit(4h0p3)
+type: text/vnd.tiddlywiki
+
+\define bodyTextFilter(delta)
+!! Log: 
+<$vars front="* [[" back="]]"><$list filter="$delta$"><<front>><$view field="title" /><<back>>
+</$list></$vars>
+!! Audit:
+
+* 
+\end
+
+\define newTidButton()
+
+<!-- Because the bodyTextFilter gets wikified into plaintext, the linebreaks are super important! That's also how we can set up the formatting of the text within the snippet, including headings and the start of a new bulleted list. -->
+
+<$wikify name=newTidText text="""<$macrocall $name="bodyTextFilter" delta=<<myFilter>> />""" >
+<$wikify name=newTidTitle text="""<$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##4h0p3Title}} />""">
+
+<$action-sendmessage $message="tm-new-tiddler" title=<<newTidTitle>> tags={{$:/plugins/sphygmus/sbuttonsV2/dick##4h0p3Tags}} text=<<newTidText>> />
+
+</$wikify></$wikify>
+\end
+
+<$set name="myFilter" value={{$:/plugins/sphygmus/sbuttonsV2/dick##4h0p3Filter}} >
+
+<p class="center" style="font-size:1.5em;"><$button actions=<<newTidButton>> >Monthly Audit Button</$button></p>
+
+</$set>
+
+---
+
+* //Filter to be used://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="4h0p3Filter" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Title of created tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="4h0p3Title" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Tag(s) of created tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="4h0p3Tags" class="tc-edit-field-value" class="reviewButton" tag=input />

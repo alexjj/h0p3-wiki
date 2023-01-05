@@ -1,0 +1,11 @@
+created: 20181118074703993
+creator: h0p3
+fc-filter: [tag[Retired]]
+modified: 20200902224307877
+modifier: h0p3
+tags: [[Wiki Mechanic]]
+title: Retired
+
+//I'm still working on the {[[Vault]]} concept. This seems to be a part of it, though I can see I'm still making mistakes.//
+
+<$macrocall $name="list-links" filter="REPLACEME"/>

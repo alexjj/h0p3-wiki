@@ -1,0 +1,12 @@
+{
+    "title": "$:/plugins/sphygmus/reviewButton",
+    "author": "sphygmus",
+    "core-version": ">=5.0.8",
+    "dependents": "",
+    "description": "Wiki Review Tiddler Button",
+    "list": "readme settings details",
+    "plugin-type": "plugin",
+    "revision": "0",
+    "source": "https://wiki.sphygm.us",
+    "version": "1.0.0"
+}

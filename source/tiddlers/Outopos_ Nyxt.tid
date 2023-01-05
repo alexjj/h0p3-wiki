@@ -1,0 +1,34 @@
+created: 20220214141756997
+modified: 20220221042306165
+tags: [[Computer Musings]] Exploration Outopos
+title: Outopos: Nyxt
+
+//Wayland may fail, or it simply isn't succeeding fast enough (it's amazing work). Despite all the progress I've seen in the CLI space (downright a revival, maybe even a renaissance), the browser continues to win the Terminal race. I cannot own FF well enough, and not just because I'm retarded. The pursuit of the universal interface is perhaps futile. I wish I knew a better way.//
+
+; 2022.02.13 - Nyxt: Yet Again
+
+Unfortunately, only half the webpages I tried to load would render, at best...way fuckier than I recall. Oddly, can't get it to render any pages after reinstall (odd errors too). I was able to produce a lot of different kinds of errors that I didn't anticipate. Thankfully, [[JuNest]] got me much further. So, clearly it is something with my system. I'm up-to-date, so...
+
+Forgot that I have an old nyxt installed through guix. `/smh`. Fyxt.
+
+My opinion has not changed much, unfortunately. It's hawt AF, but not for me (not yet anyway).
+
+I'm not here to bitch. I think the US government should pour $100 million dollars into getting this type of software perfected (and, I have no idea what that would look like). FF is simply not open enough, and it can't be. It's absolutely amazing what the tool represents and has become. 
+
+There are a number of rendering problems, and it lags. I can let go of TW with a tool like this, but only if I was radically convinced by it. 
+
+Making a system from scratch for it makes plenty of sense to me. I think there's reason to think this is where [[DarkMX]] and even (surprisingly) Beaker-Browser could go. This is a developer's platform in disguise.
+
+I fear this tool will only ever keep me on the "just one hack away" treadmill. It desperately lacks some obvious batteries-loaded (and I know they are hacking away at this problem, Bravo!), including the ability to load extensions (however ironic and misguided that may seem at first).
+
+It would be a very long time before it could replace FF for me (f u c k). With the ability to run with multiple web engines (or perhaps none, or completely custom), I don't see how this isn't a tool for making tools, fundamentally. This is the type of tool that would cause me to be willing to drop TW, except that TW works for everyone: at which point, why not just emacs if I'm going to be alone? Because I'm going to be spending time making GUIs? lmao. Right.
+
+I'd like to see it hacked to run a WASMed version of itself inside itself. Obscene. 
+
+This is a full-stack temptation.
+
+Still may be incredibly worthy with TW (still think full custom makes way more sense, which is why I shouldn't!). Might even be worth starting from scratch with TW for a better fit with this tool. [[JuNest]], again, seems pretty great here. Go fully custom with full control of an environment that anyone can comfortably and productively use. 
+
+It feels like a tool so complex that I should wait for it to mature. Second mouse gets the cheese may not apply.
+
+This tool is meant for people who actually know how to use their computers, unlike me. The climb for mastery of it doesn't seem to be the best use of my time. I've been wrong about these sorts of problems before (and will again, I assume). `/sigh`. I may be kicking myself down the road for this one (and, I apologize, sir!).

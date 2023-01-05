@@ -1,0 +1,21 @@
+caption: Commander filter search
+created: 20190212055219117
+creator: Mohammad
+modified: 20190315113802092
+modifier: Mohammad
+tags: 
+title: $:/plugins/kookma/commander/ui/search
+
+<div class="tc-search tc-advanced-search">
+Search via filter &nbsp;<$edit-text tiddler="$:/temp/commander/search-box" type="search" tag="input" default="" placeholder="filter search" focus={{$:/plugins/kookma/commander/config/AutoFocus}}/>
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/Commander/Search/FilterButton]]">
+<$transclude/>
+</$list>
+<br>
+<small style="margin-left:17ch;"><i><$count filter="[subfilter{$:/temp/commander/search-box}]"/> matches &nbsp; 
+<span style="color:red;">
+<$macrocall $name=is-filterSeearch-newer-than-selectedTitles
+TidB="$:/temp/commander/search-box"
+TidA="$:/temp/commander"/></span>
+</i></small>
+</div>

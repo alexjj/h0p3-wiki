@@ -1,0 +1,21 @@
+created: 20200521041752172
+modified: 20200521051938864
+tags: [[Computer Musings]]
+title: 2020.05.21 - Computer Musings: xsession-errors
+
+```bash
+sudo pacman -S flatpak --noconfirm
+flatpak --user remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak --user install flathub com.valvesoftware.Steam
+flatpak run com.valvesoftware.Steam
+```
+
+---
+
+[[Disco Elysium]] requires at least `PROTON_USE_WINED3D11=1 PROTON_NO_ESYNC=1 %command%` flags on Proton 4.11-13 (forced manual selected downgrade) for Arch 5.4.36-1-lts NVIDIA GeForce GTX 1650
+
+You have to give some time to get past the initial frozen screen. Seems to work though.
+
+---
+
+Also, I noticed (as one does with Steam) I didn't have much space left. Lawd. Quick NCDU revealed `~/.xsession-errors` = 275''G''B, lulz. 

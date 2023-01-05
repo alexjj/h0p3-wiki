@@ -1,0 +1,30 @@
+created: 20220816155432163
+modified: 20220821193853664
+tags: [[Carpe Tempus Segmentum]] [[Computer Musings]]
+title: 2022.08.16 - Carpe Tempus Segmentum: Nixification
+
+//Party Down//. Sleep by 12:30? 
+
+Woke at 9:30? Sleep was good. Meditation. [[TTTOTW]]. //Skintime// with my sympaticon. [[TTTOTW]].
+
+Made quesadillas with my sympaticon. Planning with my daughter and mi amor. [[TTTOTW]].
+
+NixOS's wrapping around other tools can make it easy, abstracting away so much. I fear it isn't stable, and I know that it doesn't allow one to control every feature of these tools out-of-the-box. There's something to be said for the vanilla installation of Arch, Slackware, etc., as I still retain control over the rest of the files. Can always [[JuNest]], compile my own, containerize, etc (and to some degree, I will), but parting with the Nix way here does feel like it defeats the purpose. More importantly, I don't have control over secrets; this is a security nightmare that wasn't handled correctly from the beginning. Nix, as a language, ofc, is capable of building any system, but NixOS is quite limited here. Fuck. All this said, one of the strengths of the options in Nix is that it's easy to shop across a wide variety of tools without digging too deeply.
+
+Daughter worked on epoxy for the door. Son worked on the vehicle then some paperwork. My sympaticon broke out into cold sweats and dry heaving; I think she's overheating. They came down to grind for a bit. No major progress, and didn't want to use any collab tools. `/nod`. 
+
+[[TTTOTW]] until mi amor grabbed me.
+
+//Raw Skintime// with mi amor. Moving away from Voyager, but not to FLOSS. Aint nobody gonna listen to her on this one. not yet. Maybe some decade. Smooth staging and process for long-term storage archiving. She does an amazing job with her students. Also, interviews for the art AUS librarian position was odd. //Inform the Men!// Shower of the gods!
+
+[[TTTOTW]].
+
+[[Family Gathering]] was delicious. We had pasta bake, water too. Watched //House of Cards//, and this time my daughter said it was cool. I agree it is a lot to take in for the younger humans, but it's a worthy one. Flickering annoyed folks. I continued to grind on [[Monsternix]]. 
+
+[[TTTOTW]].
+
+Helped my sympaticon with Signal tooling. Chat with [[5c0ut]] and [[j3d1h]]. Chucky Cheese casino, ethics, trying to find a way to sell the chariety plan to the capitalists at the university. There is waste (and my brother is excellent at eliminating it*), and that should be donated. He's got this. Showed me the party he had to throw on last minute for folks. He worked a very long day today, and Ray is perhaps a problem, unfortunately. My daughter is a skilled interpreter and mediator. Put mi amor to bed.
+
+Bright lights in my vision, some open and closed eye hppd to boot. Head eventually began to hurt. //Skintime// with my sympaticon. I'm currently typing this with my sleep mask on. I tried to sleep, but I could not. Racing. So, I suppose: [[TTTOTW]], more blindly than usual.
+
+Back to vision. I am downright disgusted in the best way possible by how stupidly easy and uniformly one can configure software by declaring options in [[NixOS]], as long as it isn't too uncommon*. Arch makes it easy to install software, and it makes it possible to figure out how to configure it through the documentation, but Nix does both better where it has packaging (which are relatively high in quantity and quality as far as distros go). Even if [[NixOS]] doesn't work out for me this time, I'm completely convinced that it points in the correct direction even more than ever.

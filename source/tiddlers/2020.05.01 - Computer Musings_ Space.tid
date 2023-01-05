@@ -1,0 +1,50 @@
+created: 20200501180303539
+modified: 20200501204856287
+tags: [[Computer Musings]]
+title: 2020.05.01 - Computer Musings: Space
+
+* I ran out of space of my hard drive. 
+** It eventually happens on every incarnation of my [[monster]]. 
+*** 3TB freed up. 
+** Also, we've been having lagspikes over sshfs that don't normally occur, specifically to this drive. Seems a likely culprit. That's my current guess.
+* Picked through the remnants of [[m10]]'s backups. Trashed the rest.
+* Maybe I should head back to [[home-h0p3-snapshot.sh]]? 
+** The rsync ghetto mirrors take forever, but not this (just costs compute). 
+
+---
+
+* P2P software on the windows VM is fucking chewing through CPU constantly. 
+** I'm using these tools in a way they aren't designed for. 
+** May have to trim it down considerably, or just not. 
+
+---
+
+* Finally, [[j3d1h]] verified that it's her hardware. YUSS!!! Finally.
+** Also, that sucks, but we can solve that now.
+** Aiming for identical hardware since we can cannibalize and re-use the chargers + new battery. 
+*** Can't complain too much. $200 for a 16GB RAM, 256GB SSD, Discrete graphics, and Ivy i7 is hard to beat. 
+**** Yeah, it's ugly and heavy, but I don't give a shit. It has it where it counts. 
+
+---
+
+* Leaving swap back on.
+* Autostarts adjusted
+** Speaking of which, assignation is simply not working correctly
+* System upgrade
+* Cooling replaced
+** 3 fans out.
+** ASRock mobo fan autotuned again. Very quiet. Too quiet.
+
+```bash
+yay -S stress-ng --noconfirm
+sudo pacman -S hardinfo --noconfirm 
+
+watch -n 2 sensors #does the trick just fine
+sudo watch -n 1  cat /sys/devices/system/cpu/cpu*/cpufreq/cpuinfo_cur_freq
+stress-ng --cpu 12 #not mean at all, nothing like IBT
+```
+
+* Temps come right up to the edge on max load
+** No downclocking either. Cool.
+* Much quieter. AMD stock is always louder than fuck. 
+** We will rejoice.

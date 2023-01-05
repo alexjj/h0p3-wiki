@@ -1,0 +1,75 @@
+created: 20200519221528334
+modified: 20200519221651980
+tags: Ovy Chatlog
+title: 2020.04.09 - Ovy: Cool Kids
+
+"""
+[11:54 AM] Valdus: Wow that was a bender last night, thankd for joining me. Notion is great but the loading lag is a drawback.
+[11:54 AM] h0p3: A lot of the cool kids are using this now: https://roamresearch.com/
+[11:56 AM] Valdus: lol I am NOT a cool kid!
+[11:56 AM] Valdus: pricing?
+[11:57 AM] h0p3: No idea.
+[12:01 PM] h0p3: I'm still a fan of owning one's data and infrastructure.
+[12:01 PM] h0p3: Even just a bunch of textfiles seems better to me, though it isn't pretty.
+[12:03 PM] Valdus: Im an app toy whore my friend. And I have no real patience for virtual tech. BUT let me ask you this, how can I turn my 2 TG into a personal data hive?
+[12:04 PM] Valdus: I have 2TG of space in the apple flavored cloud, how can I use it for what Notion does instead?
+[12:05 PM] h0p3: I have no idea. I'm sorry.
+[12:07 PM] h0p3: I've used Apple products here and there for a couple decades, but I've become less and less happy with them since the iPod came out. I take my goal to be creating my own cloud. I don't like relying upon them for a bunch of reasons.
+[12:07 PM] h0p3: I'm an app toy whore too, lol :slight_smile:
+[12:07 PM] Valdus: I will sell my ass for a kicking ass note app
+[12:07 PM] h0p3: Lol
+[12:08 PM] h0p3: Well, there's one that a lot of people keep coming back to, and it's old as dirt: emacs.
+[12:08 PM] h0p3: It's got a learning curve, but plenty of people I know still swear by it.
+[12:08 PM] h0p3: It's like one app to rule them all. Fit an entire universe or OS in it, kinda.
+[12:09 PM] Valdus: someone mentioned that in my solo rpg subreddit and had no freaking idea what the hell it was
+[12:10 PM] h0p3: Well, it would be something that you'd have to spend a lot of time practicing with to learn. But, you own it, it's a stable ecosystem, and it's extremely powerful.
+[12:10 PM] h0p3: You'd have to get comfortable searching online.
+[12:10 PM] h0p3: In terms of fixing your cloud problem, it's as simple as SSHing into a machine or just plain syncing.
+[12:10 PM] Valdus: oh I love searching online, my wife is monstrously jealous of my ability
+[12:11 PM] h0p3: I find it annoying to have to search too much, sadly.
+[12:11 PM] Valdus: The only thing I learned with a Latin American Masters degree is how to find information. All my professors were big on historiology, which to me was highly annoying, its a science of memorizing bibliographies really
+[12:12 PM] Valdus: shit if need be Ill be your bloodhound brah. I can throw it all in Notion and send it to you
+[12:13 PM] h0p3: I appreciate the offer. :slight_smile:
+[12:18 PM] Valdus: hmmm emacs apparetly seems to be about code, not inot codish things, thus evernote (which I now despise) and Notion
+[12:18 PM] h0p3: emacs is excellent for coding
+[12:18 PM] h0p3: emacs is excellent for notetaking
+[12:19 PM] h0p3: emacs is excellent for a bunch of things
+[12:19 PM] h0p3: Part of what makes emacs so powerful is that you tailor it to be what you want it to be.
+[12:19 PM] Valdus: but is it universal, like iphone and pad and chromebook and online?
+[12:20 PM] h0p3: It depends on what you mean by universal. To my eyes, SSH and syncing make it sufficiently universal. I anticipate that emacs will eventually find itself cleanly inside of browsers (the rabid fanbase will use WASM to get it there, imho).
+[12:21 PM] h0p3: Some of the note-taking app requirements you have are best solved by owning your infrastructure more, tying your devices together, etc.
+[12:22 PM] Valdus: I know, just tech-lazy like many of my peers.
+[12:23 PM] Valdus: I tried linking my apple cloud with [[Jop]]lin, and lets just say I was met with resistence
+[12:24 PM] h0p3: You should take a look at Resilio Sync and Zerotier. Both tools will help you connect your devices together.
+[12:25 PM] Valdus: Ill be frank, my brain is orbiting baking a mean loaf of bread
+[12:25 PM] h0p3: lol
+[12:25 PM] Valdus: for Ester
+[12:25 PM] h0p3: hope that sourdough is delicious
+[12:26 PM] h0p3: been thinking about doing that myself
+[12:26 PM] Valdus: if your interested in baking I can send you a starter offspring.
+[12:27 PM] h0p3: I appreciate that. I'm waiting for now. I've got 10,000 things to do. I need to learn how to say "no" to myself, lol.
+[12:29 PM] Valdus: let me know I got dry starter flakes in the cupboard.
+[12:29 PM] h0p3: Your son like computers?
+[12:30 PM] h0p3: mine didn't at that age =/
+[12:30 PM] Valdus: yes, very much, very much into ipad
+[12:30 PM] h0p3: hell yeah
+[12:30 PM] Valdus: and laptop, sometimes I open it and there are things there I did not do!
+[12:31 PM] Valdus: ie here is a cut and paste from my journal program: Take it from a kid that had pneumonia about two or three times, a kid in quarantine is just about the most unnatural thing you can think of in this world. But here we are dammit. gitjvjjvijtuj3g5t94g5576u68uguj55gu66669g6l6l6gl9g
+
+l69
+[12:32 PM] Valdus: that gibberish at the end? HIM
+[12:32 PM] h0p3: lol
+[12:32 PM] h0p3: That is delightful.
+[12:32 PM] h0p3: Typing games are fun and super useful.
+[12:33 PM] Valdus: your parameters of delightful are different than mine. Delightful is when he uses the vacuum to clean
+[12:33 PM] h0p3: hahaah
+[12:33 PM] Valdus: oh, and he does
+[12:33 PM] h0p3: https://www.gocomics.com/calvinandhobbes/2015/05/09
+[12:39 PM] Valdus: He vacuums while screaming CLEAN CLEAN, CLEAN!!!!,
+[12:40 PM] h0p3: Aw ;P cute.
+[12:40 PM] Valdus: be back in a bit
+[7:49 PM] Valdus: thats a big bit
+[7:49 PM] Valdus: yall quarantining, or did i ask that already?
+
+[1:41 PM] h0p3: Yeah, we are quarantining. We do that naturally as part of our usual process. We spend most of our time indoors with each other.
+"""

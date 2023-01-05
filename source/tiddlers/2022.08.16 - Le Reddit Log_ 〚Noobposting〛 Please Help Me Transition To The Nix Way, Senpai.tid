@@ -1,0 +1,55 @@
+created: 20220816183509291
+modified: 20220817191305053
+tags: [[Le Reddit Log]] NixOS
+title: 2022.08.16 - Le Reddit Log: 〚Noobposting〛 Please Help Me Transition To The Nix Way, Senpai
+
+https://www.reddit.com/r/NixOS/comments/wq1mld/noobposting_please_help_me_transition_to_the_nix/
+
+<<<
+>> This is good direction for me. `/nod`. Thank you. I appreciate your listening to me and providing a constructive answer. If you have any other particular resources on this topic that you want to [[link]], I'll work on those as well. 
+
+>> In case this is the last time we ever speak, I hope you're still making [[art]] in blender. I respect that you speak thoughtfully about morality in public. I admire your pragmatism in how you pick your tools. You've strong instrumental reasoning, and you are a skilled communicator. I'm [[lucky]] to encounter your kindly kind of people on the wire. `/salute`.
+
+> Can't say much about the first part as that is not a priority of me. But generally, you'll probably make things harder for you the further you stray from the known good path. But in any case, it definitely sounds interesting, so good luck to you for this.
+
+> I took a look into the Resilio NixOS module. Indeed, most NixOS modules offer something like an `extraConfig` field where you can just write additional configuration that is then added to the config file, but in this case it seems to be absent. Not sure why this is the case, but a pull request that solves it might be welcome.
+
+> As for putting secrets in the Nix store, the security depends on the circumstances. Unless you plan to share your Nix store or have multiple users on your machine, the risk is likely manageable. On the other hand, I also try to prevent this and there is usually a few ways to go at this.
+
+> 1. If the package supports composing the config out of multiple files, or the usage of password files for secrets, or passing in secrets using environment variables, then you can usually store only your secrets on your disk somewhere and then mention these files in the generated config. This is usually the best way but requires support by the package and in the NixOS module. Not sure if Resilio supports that, but it definitely isn't yet supported in the module. This also plays well with services like agenix or sops-nix that allow for safe secret distribution.
+> 2. Probably the most practicable way. Store the whole config file somewhere outside of the Nix store (you can start with a generated one and copy it), then modify the systemd-config to no longer use the generated config but yours. So you'd put something like this somewhere in your NixOS configuration:
+
+> `systemd.services.resilio.serviceConfig.ExecStart = ''${pkgs.resilioSync}/bin/rslsync --nodaemon --config <path-to-your-config-file>'';`
+
+> This is basically copied 1:1 from `nixpkgs/nixos/modules/services/networking/resilio.nix`, just replacing the part where normally the config that is generated in the Nix store is passed in. The downside is, you now need to maintain the config yourself. But it seemed like you want that anyway, so it is probably the way to go for you.
+
+''''
+
+>>>> I agree there really is only so much automation that should be done here. I'll likely have to edit the script in many cases. I aim to do more than simply partition and install with the script though.
+
+>>> It's also probably just straight up a bad idea, given that block devices can appear in different places on different systems depending on how they're attached.
+
+>>> I'd always do partitioning by hand unless operating on an organizational scale with dozens of known-to-be-identical systems.
+
+>> OP wants to use a bash script to partition and install. That’s not possible to do with nix alone, short of embedding the script in nix.
+
+> Your nix configuration handles everything aside from formatting the partitions. Everything it handles. Absolutely zero need for bash scripts as those aren’t reproducible.
+
+> To make changes to the system you make changes to your configuration and rebuild (very easy). No need to try to do anything special there.
+
+> You don’t need to use GitHub at all with Nix but Nix is closely intertwined with git, so any git service will do. I guess you could use something other than git but with flakes I don’t know enough to see how that’d be possible
+
+Like a fool, I've followed Nix from afar for years but have only just begun to give it a real attempt. I'm thinking outloud here, so please listen to my unrelatably long and autistic story, and tell me what you think as honestly as you wish, [nomad](https://philosopher.life/#Find%20The%20Others).
+
+Like any rational™ person, I want to use Nix as at least the base for my computing (and not just because I want to join the fabulous cult `/wink`). I want to be able to connect to or walk up to a machine and reliably turn it into my own with little effort (and preferably unattended). From what I can see (and perhaps there are much better options, so please tell me), my ideal approach is to have at least one [bash script](https://philosopher.life/#monsternix-install.sh) to partition, format, install my [configuration](https://philosopher.life/#configuration.nix), and bootstrap the rest of my system post-install. 
+
+I'm opposed to using github or centralized infrastructures more than I must, and I am [hoping](https://philosopher.life/#Hope) to synchronize my dotfiles and keys (among other things) using [Resilio Sync](https://philosopher.life/#Walkthrough%3A%20Resilio%20Sync) (which I do not claim is perfect) over Tor (for now) at installation time. Further, I'd like to use something like [peerix](https://zzun.app/repo/cid-chan-peerix-python-caching-data) or [disnix](https://github.com/svanderburg/disnix) to have a p2p method of downloading Nix packages over Tor. I'm seeking automated and [anonymized](https://philosopher.life/#Anonymous) installation over distributed systems, and that may not be feasible at the moment. Does anyone else have a system that does something like this? I need [help](https://philosopher.life/#Help%3A%20On%20This%20Wiki).
+
+If it is feasible, what modifications should I make to have NixOS's package manager communicate entirely over Tor?
+
+NixOS' [Resilio Sync Package](https://search.nixos.org/options?channel=22.05&from=0&size=50&sort=relevance&type=packages&query=resilio) abstracts away quite a bit in setting up the tool, and I'm [grateful](https://philosopher.life/#Gratitude) to those who have donated their time and effort (thank you!). Unfortunately, to my understanding, it provides only a limited set of options for generating the underlying  [sync.conf file](https://help.resilio.com/hc/en-us/articles/206178884-Running-Sync-in-configuration-mode) used by the binary itself. For example, the package doesn't appear to have an option for a proxy (which standard Resilio Sync config files employ). Is there a good way to add that option? If not, is there a good way to point NixOS to use a different sync.conf file I've written (which, I realize, may be avoiding using Nix in its natural way)? 
+
+More problematically, to my understanding, the sync.conf file is maintained in the Nix store, and this is not a safe place to keep [secrets](https://nixos.wiki/wiki/Comparison_of_secret_managing_schemes). Should I instead only use Nix's Resilio Sync package for the installation, then delete it from the system, and install Resilio Sync from scratch outside the Nix package management system to have more control of the process? This would seem to miss the point of Nix in some respects. How would you work around this problem? 
+
+Finally, I'm looking to bootstrap my installation from either a secret key I've embedded in the initial script or from a password I enter at the beginning of the installation. The idea is to use [argon2](https://github.com/archlinux/svntogit-packages/blob/packages/argon2/trunk/PKGBUILD) to generate the key(s) I'll use to bootstrap into the distributed swarms that hold the rest of the data I'm hoping to import into my system. Is there a proper way(s) to do this in NixOS at the moment?
+<<<

@@ -1,0 +1,1519 @@
+created: 20190711105528181
+modified: 20221221145343253
+tags: [[FTO: Beetlejuicing]] [[Speaking In Tongues]] Jibberjabber Log [[FTO: Pin]] [[Le Reddit Log]] Reddit
+title: Le Reddit Log: Jibberjabber
+
+https://www.reddit.com/r/sorceryofthespectacle/comments/zoxald/my_cosmology/
+
+<<<
+https://en.wikipedia.org/wiki/Poe%27s_law
+<<<
+
+<br>
+
+https://www.reddit.com/r/conspiracy/comments/za6ajh/rich_people_want_you_to_believe_that_slavery_was/iyn7cw4/
+
+<<<
+> https://youtu.be/vj0OPQh083g
+
+Can you recommend some documentaries, both including this topic and any others you find salient?
+<<<
+
+<br>
+
+https://www.reddit.com/r/cryptoleftists/comments/zbqep7/leftist_discord_focused_around_opsec_and/
+
+<<<
+> I am not breaking the law, and I am not convinced by adverts, discord is fine enough. I like its GUI.
+
+Might I suggest avoiding [[Discord]] in the first place, [[nomad]]?
+<<<
+
+<br>
+
+https://www.reddit.com/r/pcmasterrace/comments/yjlu1t/averagepcmr/iuop9x7/
+
+<<<
+My time is worthless, thus Linux is free for [me](https://philosopher.life).
+
+* Imho, you really want an extra computer for this process. You'll want to be able to research on one machine while building the other Linux machine. If you cannot get another large computer (I'm not talking about a phone, no matter how skilled you are on a phone), then you should learn Linux in a virtual machine. Virtual Box is a reasonable starting place.
+* Take notes, including saving links, snippets of code, and your thoughts. I suggest Tiddlywiki or plaintext files.
+* This should be your first distro: https://manjaro.org/download/. Spend time trying out Plasma, XFCE, and i3. Spend a week with each. Seriously, force yourself to live inside those spaces.
+* Go install Arch Linux for the first time, and take the time to understand at least the basics of what you are putting together. Give yourself at least a week just to install it, maybe a month. Take your time. Consider this a Linux From Scratch the EZ way.
+* Spend the next few years understanding more about how your computer works. Try things out, including other distros. Read constantly. Keep taking notes.
+
+Currently, I'm trying to invest in migrating from Arch Linux to NixOS. I still feel like a noob, even after 20 years. I think I am a noob. So, take my advice with a grain of salt.
+<<<
+
+<br>
+
+https://www.reddit.com/r/TikTokCringe/comments/ye9xfy/why_did_my_cat_put_me_in_a_nursing_home/
+
+<<<
+Do you have a link to Youtube, Tiktok, or a non-Reddit site for this person? It was a funny video.
+<<<
+
+<br>
+
+https://www.reddit.com/r/4chan/comments/yga55s/anon_is_bulletproof/iugsue9
+
+<<<
+Thank you, [[anon]]. Would you have any more advice for [this](https://philosopher.life/#Unorthodox%20Savings)?
+<<<
+
+<br>
+
+https://www.reddit.com/r/YouShouldKnow/comments/yem70s/ysk_that_leaking_your_ip_is_not_a_big_deal/
+
+<<<
+> If your claim is that VPN providers often aren't sufficiently honest, you are correct. Your arguments, however, are flawed.
+
+> 1. Not necessarily true, as it depends on the vulnerability and your attacker. You still wouldn't want a motivated attacker targeting you in particular to be constantly scanning your edge router daily, looking for a vulnerability to eventually present itself.
+> 2. Your claim that someone can "ping every ipv4 in an hour" doesn't buy you what you seem to be implying. You'd be surprised what kinds of entities will message your ISP for engaging in this behavior, and it will blacklist IPs. Pinging doesn't identify you in particular, and moreover, it's not an actual scan. In my experience, finding every machine that has port 22 open takes far more than an hour. Deep scanning takes much longer. Trying to brute force takes even more resources, and Zmap is not well-suited to just any kind of attack.
+> 3. Some people actually do go straight from their modem to their machine, but most don't these days. More importantly, one device behind that router(s) can endanger them all. Multiple devices do not add security, nor does it necessarily improve your anonymity in all cases. Insecure devices on your network only increase your attack surface, including if they pierce your NAT to run a vulnerable service. 
+> 4. Many ISPs assign one IP address, usually rotated on MAC change. 
+
+> You aren't taking surveillance seriously enough. I do not claim that paying for a TUN/TAP forward proxy VPN is the best answer in most cases (far from it), but I think you've some more thinking to do on this topic (as do we all!). If you want to talk about the matter in-depth, [HMU](https://philosopher.life/#Contact%20h0p3) homie.
+
+Why YSK: A lot of VPN Providers scare potential customers that "when your IP gets leaked, you can get hacked, so hide yours". This is not true for a number of reasons.
+
+#If your local network is vulnerable, it will already have been compromised by the time you read this.
+
+#It takes about an hour for a malicious party to scan every public IPv4 Address, which is what "your IP" is. Note that IPv4 Addresses "only" range from 0.0.0.0 to 255.255.255.255, not counting several blocks of reserved IPs that will be skipped.
+
+#Your public IP is not your computer, or your phone, it is at worst your home router, and at best a device managed by your apartment complex. In any case, behind "your IP" are multiple devices, which all have built in security measures to protect against most "hacks".
+
+#Because we only have a limited number of IPv4 addresses, your ISP will swap your public IPv4 Address daily, in some cases weekly.
+<<<
+
+<br>
+
+https://www.reddit.com/r/Economics/comments/yer6gf/egypt_reaches_3_billion_imf_deal/iu2mqwq/
+
+<<<
+> [Immigration](https://philosopher.life/#2019.06.15%20-%20Prompted%20Introspection%3A%20One%20Month%20Wish).
+
+How does one rapidly bring down the population of a country like that?
+<<<
+
+<br>
+
+https://www.reddit.com/r/news/comments/yf0l2z/metas_value_has_plunged_by_700_billion_wall/iu1x1yz/
+
+<<<
+> We replace it by [owning the means of production](https://philosopher.life/#Socialism).
+
+Genuine question - what does it take to bring down a company like Meta?
+<<<
+
+<br>
+
+https://www.reddit.com/r/me_irl/comments/yepuxq/me_irl/itzktig/
+
+<<<
+> Alright, nomad: https://philosopher.life/#Reddit%3A%20Top%20Minds%20Exploration
+
+show me what you got
+<<<
+
+<br>
+
+https://www.reddit.com/r/magicTCG/comments/y57gaq/seeking_tool_to_generate_card_full_text_file/
+
+<<<
+>>> Yeah, i'll share the code when i clean it up a bit.
+
+>> Well, hell, thank you. This is above and beyond hospitality, nomad. I appreciate it. Would you be alright sharing the code as well? I think other cubers might be interested in it.
+
+> Ill try to scrape something via python today if i get the time!
+
+> Edit.
+
+> Managed to write a small python script that extracts data from MTGJson and writes it to .txt
+
+> Here are the .txt files https://we.tl/t-0GuDMWjq43
+
+Seeking Tool to Generate Card Full Text File
+
+I've [800 cards in my cube](https://philosopher.life/#The%20Salient%20Cube) and some players that would benefit from additional information they could use offline (on their computers or otherwise). I've got a list of the cards, but I'm trying to generate a text file that includes all 800 cards' full text. Having rulings related to the each of these cards as well would be even better. Does anyone know of a tool that can take a list of cards and spit out a list of their full text?
+<<<
+
+<br>
+
+https://www.reddit.com/r/trippinthroughtime/comments/y42cwb/rough_life/
+
+<<<
+[I know](https://philosopher.life) that feel. I do my best, and I don't think most care. `/shrug`.
+<<<
+
+<br>
+
+https://www.reddit.com/r/philosophy/comments/y0bukv/the_search_for_universal_meaning_in_an_absurd/irro1vn/
+
+<<<
+> I suggest we have objective moral obligations to the poor, and this meaning is not merely constructed, but a truth we discover external to our minds.
+
+Ultimately Camus’s views are a privileged viewpoint. The universe having no meaning and deriving meaning from one’s own goals are a nice thought if you live in a free country with the wealth to experience those goals. Most people are too poor or not free and end up spending the majority of their productive years fulfilling someone else’s passions never having the chance to discover their own.
+<<<
+
+<br>
+
+https://www.reddit.com/r/leagueoflegends/comments/y176iu/amount_of_tier_2_turrets_taken_by_lcs_in_group/irwo0ts/
+
+<<<
+Your interlocutor is not a happy person (their account is sad). I'm sorry they failed to treat you like a person.
+<<<
+
+<br>
+
+https://www.reddit.com/r/DigitalGardens/comments/xbgqzc/medium_article_with_49_digital_garden_personal/
+
+<<<
+>> Thanks for the pointer. I took a quick look and come away just saying "Oh my"--I'm feeling challenged to craft a couple of sentences that adequately describe the site.
+
+> https://philosopher.life. 16k pages in one html file. In terms of text, probably the largest Digital Garden I've encountered.
+
+I published this yesterday: https://medium.com/@raysims/a-digital-garden-inventory-d6450fe74b4 (not behind the paywall, free to all)
+
+Undoubtedly I missed some good examples (please suggest), and hopefully, I didn't butcher any intent from the ones I did list. The collection has given me a lot to think about. For example, I might explicitly dissect some of the design patterns, to feed an alternative grouping by design pattern, instead of by topic.
+
+The article loosely groups by:
+
+Business, Liberal Arts & Sciences (10)
+Note-taking, Personal Knowledge Management, Cognition, etc. (15)
+Software Development & Technology (19)
+Philosophy, Self-Reflection & Writing (5)
+<<<
+
+<br>
+
+https://www.reddit.com/r/sorceryofthespectacle/comments/x8riju/the_rate_of_cruelty_in_the_simulation_is_being/ink1b0f/
+
+<<<
+>> When I have more time and clarity I'll examine the wiki and reach out to you. Hold me accountable if I don't.
+
+> To my understanding, pursuing the [hope](https://philosopher.life/#Hope) of  [Justice](https://philosopher.life/#Justice), thorough [Public Self-Modeling](https://philosopher.life/#Public%20Self-Modelers), and [wrestling](https://philosopher.life/#Wiki%20Litmus%20Test) for answers on infrastructure we own together.
+
+> Currently, I'm thinking about what consists in an effective DHT for this problem. This is a shot in the dark for anyone listening. Please speak with me about this technical problem.
+
+So my friend, the question for people like you and me from this moment onwards has to be, 'Chto delyat'?" What is to be done? I ask this of everyone who reads this post and feels an urge to respond.
+<<<
+
+<br>
+
+https://www.reddit.com/r/sorceryofthespectacle/comments/x4dw8k/if_you_could_punch_one_philosopher_in_the_face/i
+
+<<<
+I wouldn't, but I think Sir Nietzsche is one of many who would tempt me.
+<<<
+
+<br>
+
+https://www.reddit.com/r/Zettelkasten/comments/wz80rv/zk_is_unique_for_everyone/im3jd1j/
+
+<<<
+> I'm a huge fan of [[chameleon]]'s Tiddlywiki (I am her most loyal reader), which is currently undergoing [[reconstruction]]. I like to think of any particular page as being a window, some being more pruned than others. One can stay within pruned, curated, or refined areas of a wiki without exploring the more wild patches. As to the wild parts, I think proper use of search is critical, though most people aren't going to put in the work, in my experience. Also, there are chronologies and streams in her garden, but it doesn't have to be navigated that way.
+
+They've been around a while, but I don't think there's much "theory" about them. They're just personal notebooks where notes are linked by hyperlinks. Digital Zettelkasten is a special kind of PW, which does have some theory behind it.
+
+I suppose I relate to trying to start a zettelkasten, but then just finding I was writing notes for things that weren't really "zettel" ideas (lots of notes on cooking, quotations, notes on my classes (I'm a teacher), etc). And thn realising that's okay and I don't have to follow luhmann's method. If I just want notes with hyperlinks and search, that's fine.
+
+The other thing you might want to look into is "digital garden", which is like a public personal wiki. They're something of an alternative to a personal blog, where your thoughts are presented through linked notes rather than in traditional blog chronological order (there's therefore less pressure to update them on a regular basis or to make every post a self-contained article). The impliciation of "garden" I think is that they can be as "wild" or "pruned" as you like, in terms of how polished and filtered the notes are. You could check out /r/digitalgardens though it's not very active. They're quite fun to browse. A fairly "pruned" one might be https://joelhooks.com/, while more "wild" might be https://wiki.waifu.haus/#Root or its inspiration, https://philosopher.life (I think both of them run on the software tiddlywiki). There are loads more though if you search the phrase.
+<<<
+
+<br>
+
+https://www.reddit.com/r/AcademicPhilosophy/comments/wc7sku/have_you_every_lost_a_friend_of_a_purely/
+
+<<<
+(1) Yes, I have. (2) Not necessarily. It depends. https://philosopher.life/#Wiki%20Litmus%20Test.
+<<<
+
+<br>
+
+https://www.reddit.com/r/AcademicPhilosophy/comments/vp60tz/women_philosophers_for_an_intro_class/
+
+<<<
+Consider Iris Murdoch.
+<<<
+
+<br>
+
+https://www.reddit.com/r/CriticalTheory/comments/vn6cfo/what_have_you_recently_read_that_has_impacted/
+
+<<<
+> This is a great book. I discovered it when I was 12 or so and have reread it many times!
+
+>> I'm taking a gander at your account. I can see we may be allies in many respects. `/salute`.
+
+> Interesting site. I can relate on some points.
+
+[A Canticle for Leibowitz](https://libgen.rs/search.php?req=A+Canticle+for+Leibowitz&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def). Should [HMU](https://philosopher.life/#Contact%20h0p3) to talk about it if you have the chance to read it.
+<<<
+
+<br>
+
+https://www.reddit.com/r/sorceryofthespectacle/comments/vialpj/this_subreddit_is_filled_with_so_many_grotesque/
+
+<<<
+>>> Hello. Do you have any other sites, accounts, or public media expressions I should read?
+
+>> Too bad you don’t have a post history to compare to mine. If anyone reads my post history they will see how truly benign 97% of my statements are
+
+> [removed]
+
+What’s wrong with self respect? One day your going to realize it’s all you really have. Whatever happened to people trying to IMPROVE what they are capable of improving? I spent my 20s and most of my 30s complaining/“doing critical theory”and all I know is I’m so much happier now that I am not finding shit wrong with the world at every opportunity. you’ll get there. It’s inevitable that you will tire of being miserable your ego just hasn’t exhausted itself yet. Good luck to you!
+<<<
+
+<br>
+
+https://www.reddit.com/r/lostgeneration/comments/v3x1an/what_are_your_thoughts_on_pauls_remark_slaves/
+
+<<<
+On a charitable interpretation, Paul's eschatology was wildly wrong. Much of what he said has to be re-interpreted in light of what he would say and do if he didn't apparently believe the end of the world was coming soon. There are other Straussian interpretations to consider, of course
+<<<
+
+<br>
+
+https://www.reddit.com/r/DigitalGardens/comments/upif4g/tumblrcom_to_host_digital_gardens_does_anyone/
+
+<<<
+>> 👋🏼h0p3
+
+> It seems like almost anything can be used as a [self-model](https://philosopher.life/#Public%20Self-Modelers) to some degree. I recommend owning your data and using a tool you can [change](https://philosopher.life/#Change) inside and out.
+
+i know some people use quartz/jekyll/are.na or obsidian, but i just recently came across the idea of using tumblr
+<<<
+
+<br>
+
+https://www.reddit.com/r/lostgeneration/comments/uh6pva/the_corporation_2003_capitalism_a_love_story_2009/i77c5wu/?context=3
+
+<<<
+Hi there. My name [h0p3](https://philosopher.life/#h0p3). Gonna be watching one of those [films](https://philosopher.life/#Film%3A%20Exploration) with my [offspring](https://philosopher.life/#Be%20A%20Good%20Dad) soon enough (we've already watched two of them this past month). You've an interesting [account](https://philosopher.life/#Public%20Self-Modelers). If you're ever in need of a person to speak with, [HMU](https://philosopher.life/#Contact%20h0p3). `/salute`.
+<<<
+
+<br>
+
+https://www.reddit.com/r/sorceryofthespectacle/comments/ugbakv/who_are_the_most_readable_most_radical_writers_in/
+
+<<<
+You went to some fascinating schools, my friend. 
+
+It was usually a person + a piece of reading that changed me or led me down a path. [Fiction](https://philosopher.life/#Books%3A%20Curated%20Library) has had the highest legibility to impact for me. Unfortunately, and this is in no small part due to my lack of intelligence, the highest impact materials have required encountering many teachers and interpretations. The Bible has been exceptionally instructive in my life, but I am the son of two clergy who focused on the topic considerably during my formative years. Lastly, reading the writing of people I know has been influential to me; though I can't say other people would always benefit from those exact works, I suggest the practice is something they would find radicalizing and a living word in many cases.
+<<<
+
+<br>
+
+https://www.reddit.com/r/lostgeneration/comments/ufdlvr/instead_of_sob_stories_whose_got_success_stories/
+
+<<<
+Sounds like you need to head back to LinkedIn, [kid](https://philosopher.life/#Be%20A%20Good%20Dad). Go find your human success stories there with your 5 jobs. If you ever actually are interested in speaking in good faith, HMU.
+<<<
+
+<br>
+
+https://www.reddit.com/r/sorceryofthespectacle/comments/ufwft4/was_recommended_to_this_sub_by_a_friend_how_do/i6weo11/
+
+<<<
+I'm a fan: https://philosopher.life/#Gnomadic%20Chomskyanisms:%5B%5BGnomadic%20Chomskyanisms%5D%5D%20%5B%5BSaint%20Plato%5D%5D
+<<<
+
+<br>
+
+https://www.reddit.com/r/lostgeneration/comments/uetbhe/as_a_gen_z_its_frustrating_seeing_millennials/i6sq989/?context=3
+
+<<<
+> I make a very clear distinction between what is moral and what is legal. Should you need a millennial ally, HMU: https://philosopher.life/#Contact%20h0p3.
+
+I’m 23, have a family and seeing how the previous generations of America have put forth little to no effort for the youth of America is more than enough for me to be done with everything. Capitalism is destroying our life through inflation, cost of living, house prices, and stagnant wages during companies most profitable year in decades. As a younger person seeing older people just day in and day out conform and be compliant in a clearly broken system pisses me off so much. Like every day we wake up and I’m ready for revolution but it doesn’t feel like 30+ year olds are willing to commit to this life and death situation. Some of you seem just as compliant as the boomers
+<<<
+
+<br>
+
+https://www.reddit.com/r/sorceryofthespectacle/comments/u5zr3r/lets_make_a_list_of_people_who_should_be_banned/i5qf272/
+
+<<<
+I am an expert in one of those accounts, and I can say that it is feasible for the person I have studied to masquerade as multiple personalities. I'm not convinced they do, however.
+<<<
+
+<br>
+
+https://www.reddit.com/r/sorceryofthespectacle/comments/t7p6sd/just_letting_off_some_steam_lol_blogpost_critical/
+
+<<<
+Thank you for your words, nomad.
+<<<
+
+<br>
+
+https://www.reddit.com/r/CriticalTheory/comments/stls08/notetaking_and_reading/hx66taf/
+
+<<<
+I suggest https://tiddlywiki.com. Works on all my devices because it is a self-modifying HTML file, and it's nearly two decades old (solid track record). [Zettelkasten](https://zk.zettel.page/examples) method is a reasonable start, but I don't have any universal answers here. Spend time drawing connections, recompressing, and engaging in spaced repetition.
+<<<
+
+<br>
+
+https://www.reddit.com/r/PhilosophyMemes/comments/qqc8th/game_theory/hk0o72d/?context=3
+
+<<<
+>> If you aim to consider game-theoretic accounts of The Moral Law, it is better to be more forgiving than T4T. T42T enables the healing or acceptance of mistakes, errors, and changes in behavior. Otherwise, you'll hit more spirals of defection. T42T is turn the other cheek, in a sense. Gradual is about remembering past infractions, scaling up punishment with repeated crimes. Gradual is a method for preventing a large swath of parasitic strategies. Put Gradual and T42T together, and you can be more forgiving and more punishing in a fitting way that happens to be more cooperative and enforces cooperation with a wide variety of agents (prima facie, it is better for everyone that parasites are punished).
+
+> ELI5?
+
+I recommend [Gradual](https://philosopher.life/#Gradual)ized T42T. It's much closer to The Golden Rule.
+<<<
+
+<br>
+
+https://www.reddit.com/r/hmm/comments/qhvkuy/hmm/higa0ri/
+
+<<<
+>>>>>>> That's fair to say, and I highly doubt you've encountered many [madmen](https://philosopher.life/#2019.06.25%20-%20DeathOfRobinhood%3A%20The%20Chickenscratch%20Confession%20Booktour) like me lurking around. Sometimes I'm highly selective in who I reach out to, but I think it can be too self-serving to be so selective. I think it's important to try to reach out to random strangers in the desert to build community with too. I'm here to [Find The Others](https://philosopher.life/#Find%20The%20Others). There's something to be said for being willing to speak with anyone as though they are long-lost family.
+
+>>>>>>> I'm like a [very quiet](https://philosopher.life/#New) open [book online](https://philosopher.life/#Readme). Much like reading through your account (and I'll read every word of it and think about other accounts of yours as well, if you wish to [wrestle](https://philosopher.life/#Wiki%20Litmus%20Test), but you need not do the same for me), you can have access to my [Public Self-Model](https://philosopher.life/#Public%20Self-Modelers). I think it's critical for [intimacy](https://philosopher.life/#Fostering%20Intimacy). It's difficult to have those ten thousand hour conversations with everyone in our lives, and I [hope](https://philosopher.life/#Hope) to accelerate the process. I suggest using a standard laptop or desktop. 
+
+>>>>>>> I realize you may want to sit on it for a bit, mull around what kind of retard you're dealing with. I [aim](https://philosopher.life/#IA2DYJ) to be useful to you. Even my [Root User](https://philosopher.life/#Root%20Users), Madame [chameleon](https://philosopher.life/#chameleon) (she's [awe](https://philosopher.life/#Awe)some, you can find her [here](https://wiki.waifu.haus)), took a year before she decided to more fully [contact me](https://philosopher.life/#Contact%20h0p3). That might be something that occurs with us as well, I don't know. I'm excited to speak with all kinds.
+
+>>>>>> I mean, I'm always open to finding new worthy sparring parners, but this is also super random lol
+
+>>>>> About the structure of your argument, perhaps the philosophical underpinnings you're waving your hand at, and engaging in justified discourse. I understand that it can be difficult to recognize good faith participation in conversations online. Some people could use a wrestling partner, in my experience. I speak with people at length. Maybe that would be something you could use.
+
+>>>> About what matter?
+
+>>> If you ever want to speak carefully about the matter, I'll do so with you.
+
+>> No Mr. Neckbeard, I was obviously referring to gendered clothing, not KKK sheets or swastikas or any such strawman garbage.
+
+> So if I bully a KKK member for dressing like a ghost outside of Halloween, I'm transphobic?
+
+Being trans, crossdressing, and cosplaying are all different things, none of which really matter in this context. If you believe a person deserves to be made uncomfortable in any way because of how they're dressed, that essentially boils down to the definition of transphobia.
+<<<
+
+<br>
+
+https://www.reddit.com/r/reactiongifs/comments/q78k52/mrw_my_gynecologist_says_everything_is_looking/hghsssb/
+
+<<<
+> This is a reason I've tried not to work on computers for money. I'm sorry to hear about your loss.
+
+Male Nurse, LPN while in the Army and I had no say where I worked at. So, after working in L&D and postpartum for years...
+
+I've seen and often had to touched so many breasts, vaginas and even anuses on a daily basis that I have lost much of my youthful excitement from seeing a woman's body. Especially, breasts... I initially used to be so afraid to do anything with that and would run to my fellow female nurses when my patients would ask for help with breastfeeding. After a couple of weeks I had a nurse tell me I had to get over it, learn to be comfortable with touching them and treating them for what they are for right now.
+
+So, I dived into learning how to teach breastfeeding. I was so good that the Lactation Nurses told me I the best nurse in the hospital, begged me to take additional classes (which I did do) and to become a Lactation Nurse (which I didn't do). I appreciate the experience but, beasts are all business now. Even my current fiancee occasionally complains on my lack of enthusiasm to her boobs.
+
+She does love my breast massages though but, I'm just doing what I would do to help promote the release of milk to anyone else...🤷🏾‍♂️
+<<<
+
+<br>
+
+https://www.reddit.com/r/Showerthoughts/comments/q75y20/the_way_that_alvin_and_the_chipmunks_is_worded/
+
+<<<
+> That may be the conversational implicature, but that is not the fitting translation into symbolic logic. The grammar does not imply that in all contexts.
+
+The way that ‘Alvin and the chipmunks’ is worded, grammatically implies that Alvin isn’t a chipmunk.
+<<<
+
+<br>
+
+https://www.reddit.com/r/DigitalGardens/comments/pnwqw9/ideoponics_a_slightly_utopian_future_vision_for/
+
+<<<
+> I'm glad you enjoyed it, thanks for the feedback!
+
+''''
+
+>>> Thou art a ruttish, half-faced giglet.
+
+>> !ShakespeareInsult
+>> You are very modest, and rightly so.
+
+> Good morrow. Mine own name is h0p3. T wast an enjoyable readeth, and i'm fain to see thy writing in the ope
+
+Hi. My name is h0p3. It was an enjoyable read, and I'm glad to see your writing in the open.
+<<<
+
+<br>
+
+https://www.reddit.com/r/Showerthoughts/comments/pj1zqp/no_matter_how_quickly_you_type_youll_always_be/
+
+<<<
+Would you like to talk about this more with someone who has Geschwind Syndrome and types quite a bit? https://philosopher.life/#New. I've been typing for 30 years, and I don't think it's my typing speed that holds me back (fast enough for dictation). Words seem to abstract or represent things, and that process of compression is often the harder part. Choosing the right words is usually more difficult than mechanically getting them onto the page.
+<<<
+
+<br>
+
+https://www.reddit.com/r/DeclineIntoCensorship/comments/ph6op7/censorshipresistant_reddit/
+
+<<<
+>>> It's P2P, a flood network for performance. I caution you that the parent company still has technical control over the infrastructure. They aren't forthcoming enough about that part. If you are to change something easy, that is where you should change it.
+
+>>> It works though, and it's worked for quite a while. Other thoughts I've had: https://philosopher.life/#P2P%3A%20Aether
+
+>>> To my eyes, one of the greatest strengths of the tool is that it aims to decentralize governance (not just who owns the means of computational production, but also the social varieties, including [[trust]]). Continued work toward ensuring that the users moderate who will be their moderators (the censors and curators) is crucial. There are very few examples of this kind of tooling that works in the world. If you are to change something hard, this is where you should pour your focus. For reasons I can appreciate, they have only taken small steps (and, they have done good work!).
+
+>>> Obviously, this isn't decades old software. It's malleable. There are many improvements to make. I suggest that you aren't 100% sure what functionality you want. I'm happy to wrestle about that with you. Unfortunately, some of the features that we might really want can't be constructed by just a few developers; some tools require major funding.
+
+>> Thank you! We are still looking into things and are not settled on what we would do. One concern is that is is very new and we don't need all the functionality from that. With this in mind, what are the pros and cons?
+
+> Don't rebuild from scratch. https://getaether.net. Use it, study it, figure out how you want to change it, contribute back or fork it. I've spoken with both of its [[developers|benhylau]]. My key, btw: b7ca236cbf32d27b6bf898d03965a6b4923dec1c575406f5eafc61f9dbeff1dd
+
+As you hay have noticed, the censorship is growing. It's only a matter of time before this subreddit will be banned.
+
+I am writing this representing a group of people building a decentralized Reddit. One one would be able to censor anything because it is distributed between different servers and therefore no party has authority to censor another party.
+
+If you would like to help us by spreading the word or some other means, send me a DM or a comment here.
+
+UPDATE
+
+We are looking for frontend developers. Ideally you need to have experience with Typescript, React, Next.js, HTML and CSS. You don't need to know everything as you can learn everything as you go. Send me a DM if you want to help.
+<<<
+
+<br>
+
+https://www.reddit.com/r/PhilosophyMemes/comments/pf6k0r/the_true_philosophical_journey/hb2bgs7/
+
+<<<
+> Hello there, [nomad](https://philosopher.life/#Find%20The%20Others). My name is [h0p3](https://philosopher.life/#h0p3). What brings you here [today](https://philosopher.life/#New)? My friend [Tjandamurra](https://philosopher.life/#Tjandamurra) (himself a hermit lost in Australia, even muh [schizohacker](https://philosopher.life/#ASmith) buddies can't seem to find him) tells me, "Blessed are the cracked for they let the light shine in."
+
+When you finally crack and become a wizened old monk in a shack somewhere, playing tricks on all the prospective students who think you have something to teach them.
+<<<
+
+<br>
+
+https://www.reddit.com/r/PhilosophyMemes/comments/pdm055/make_this_comment_section_look_like_kants_search/hawn0ue/?context=3
+
+<<<
+What does it mean to pursue that which matters most?
+<<<
+
+<br>
+
+https://www.reddit.com/r/4chan/comments/pebv99/anon_gets_his_moms_recommending/hawla6i/
+
+<<<
+>>>> Have you tasted my [micropenis](https://philosopher.life/#Names%20of%20the%20Micro%2Fb%2Fenis)?
+
+>>> Have you smelt my ass?
+
+>>
+
+>>>> It's hard to explain. Check the source code. Wander it. The author has Geschwind Syndrome (https://philosopher.life/#New). Imagine trying to empty an entire mind into a single document.
+
+>>> What is this site?
+
+>>
+
+>>> My third eye and anus have been opened!
+
+>> https://philosopher.life/#Smelting%20Muh%20Silly%20Farts%3A%20%F0%93%82%BA
+
+>Everyone talks the talk, but do you loudly rip ass in public or are you merely a tourist in freedom?
+
+The secret to life: Do whatever you want, and don't give a fuck.
+<<<
+
+<br>
+
+https://www.reddit.com/r/lostgeneration/comments/pdb6zg/i_bet_you_anything_in_the_coming_weeks_that_the/hapy8xx/
+
+<<<
+> I would speak with you about [love](https://philosopher.life/#Love) and hate, if you wish, nomad. I admire much of your argument, that you stand up for kindness. I'll wrestle with you, if you think it valuable.
+
+Jesus, my point proven. Such vehement hate for other people, this shit is insane.
+<<<
+
+<br>
+
+https://www.reddit.com/r/slatestarcodex/comments/pczncq/whats_your_intellectual_diet_and_where_are_the/hansqrl/
+
+<<<
+> XD. Yeah, that's fair to say. I keep an odd schedule too.
+
+real schizoposting hours
+<<<
+
+<br>
+
+https://www.reddit.com/r/TikTokCringe/comments/ovp34c/in_light_of_the_current_chrischan_events_imagine/h7cktxe/
+
+<<<
+> Perhaps notorious for it, but it's simply untrue. Quite seriously, I am the most well-documented person on the internet. My levels of autism know no bounds.
+
+Chris Chan is notorious for being the most well documented person on the internet
+<<<
+
+<br>
+
+https://www.reddit.com/r/econmonitor/comments/oskrfv/is_the_market_at_a_top_the_feds_financial/h6qa4nm/
+
+<<<
+>>> Thank you. I appreciate your time.
+
+>> Don’t be so eager to avoid risk that you take no risk at all.
+
+> If you were to believe that passive investment tools (ETFs, index funds, etc.) were problematic, forming a bubble themselves (perhaps QE being a factor), and trended away from diversification (this may be insane to you, I don't know), would that change your opinion about what might be the main driver of stock prices?
+
+Indexing has driven risk out of stock markets via diversification. Computer analysis has tightened up the EMH. Risk parity has tied stocks to bonds in a rational investment framework. Put these factors together and the main driver of stock prices becomes interest rates.
+
+Essentially, indexes don’t require the same risk premium as individual stocks, but individual stocks are still priced with that premium. Maybe that isn’t a complete answer to you question, but I believe that it’s part of it.
+<<<
+
+<br>
+
+https://www.reddit.com/r/awfuleverything/comments/os4qxi/a_woman_who_spoke_out_on_the_use_of_rape_against/h6menfy/
+
+<<<
+> It's a highly successful (though quite complex) corporation that alienates people from their labor around the world. The people do not own the means of production. It's not socialism (and certainly not communism). They are competing on the global market.
+
+This is laughable. The state decides the direction of the economy and the means of production are state controlled. This is the opposite of capitalism.
+<<<
+
+<br>
+
+https://www.reddit.com/r/PhilosophyMemes/comments/od52ao/the_true_the_good_and_the_beautiful_all_these_are/h40lu3g/
+
+<<<
+> The Good is the ultimate objective value. Beauty and Right are its constitutive dialectical components.
+
+> Our chosen ends can be wrong, ugly, and bad.
+
+I'm curious, is there a counter argument for beauty being an ultimate value. Because right now, I agree. We humans always try to get closer to perfection in our own fields and crafts. But is it really for the sake of beauty and perfection itself or is it more about showing yourself and others your worth via the craft you have given your everything?
+<<<
+
+<br>
+
+https://www.reddit.com/r/4chan/comments/ocv4cl/anon_gets_forgotten/h3xfefl/
+
+<<<
+> Srs comment, ofc: there are different kinds of attacks on airgapped machines.
+
+based templeOS enjoyer, 100% secure as well because of no network features
+<<<
+
+<br>
+
+https://www.reddit.com/r/todayilearned/comments/ocp2kt/til_88_of_people_in_america_are_millionaires/h3vw3uh/
+
+<<<
+> The latter part has more truth to it. If you want to think about the first together, I will.
+
+Are you sure? Rich people sometimes get there by being extremely frugal and by not letting people know how wealthy they are.
+<<<
+
+<br>
+
+https://www.reddit.com/r/PhilosophyMemes/comments/obo6xf/virgin_source_please_vs_chad_i_do_not_care/h3qkk34/
+
+<<<
+> Just write. Get it out. Cite afterward (even if you have to hunt for one) where it matters to maintain your audience's trust and happiness. Epistemic authority signaling processes are not rational, though they are radically shaped by markets.
+
+I, for one, do not like in-text citations, especially nowadays. The expectation is to find a source for every single idea stated, but the problem is that I am not a perfectly rational being. I might read something a couple places, have it mixed around in my subconscious, then spat out a month later as a seemingly original idea. The fear of unintentional plagiarism has me second guessing everything I write, restricting the organic process.
+<<<
+
+<br>
+
+https://www.reddit.com/r/DigitalGardens/comments/npcih4/what_platform_would_work_for_this_idea/
+
+<<<
+> Hello there, Sister Heather. My name is [h0p3](https://philosopher.life). My family does something quite similar. I suggest [Tiddlywiki](https://tiddlywiki.com) and [Resilio Sync](https://www.resilio.com/individuals/); it will work on any combination of mainstream operating systems (including across multiple devices for each person). Human convention can substitute for a wide variety of things you'd be tempted to automate. If you desire, I will be your personal (though highly opinionated) tech support, sister. I'll even [meet you in video chat](https://philosopher.life/#Contact%20h0p3) if you'd prefer.
+
+I'm trying to find a way to create a closed network of digital gardens for members of our religious order. I think I have an analogy for how I want this to work (see below) I’m still not sure how to manage it from a technology perspective. Here’s my analogy: there is a large plot of land inside the monastery grounds (private, only the monks have access). As each member in formation progresses to the Novitiate (where a self-directed study is a requirement) they are given an allotment for their garden (to build their own digital garden). They are free to roam around the community gardens, checking out what others are growing and even tasting their produce to see what they want to grow (reading what we have already studied, books read, papers written, etc..). The more experienced digital gardeners share tools (tech support), seeds (ideas to explore), and advice on how to develop their gardens (guidance on developing a course of study) and we all come together regularly to share the bounty of our harvest (Zoom meetings where members make presentations on what they’ve been studying)
+
+We’d need a way to comment on each other’s gardens and maybe link to them from our own. Most of us are non-techy people so it would have to be simple... like Notion or at least let everyone build on whatever platform they feel comfortable with (Google Docs, a blog, Notion, etc...) and they are all linked in a central location.
+<<<
+
+<br>
+
+https://www.reddit.com/r/lostgeneration/comments/n3fb5s/advice_my_boomer_parents_gave_me_which_i_realize/
+
+<<<
+>> XD. Wow. Lmao. Thank you. I like that I'm still perfectly insane to someone who can "[watch a person](https://www.reddit.com/r/AskReddit/comments/2f60ey/whats_your_sixth_sense/ck6b4c3/) for just a few seconds and tell you nearly everything about them...see who they are and what kind of person they are with only a glance."
+
+>>I'm a human. I like to travel, take selfies, and watch Netflix. A 4eak, really.
+
+>>How about you, what are you? I can only see bits and pieces of you through your account history.
+
+>I have been on this site for hours now... I can't even remember why.
+
+>The rational mind recoils in horror, but the blind animalistic side of my brain that genuinely enjoys breaking things is intrigued.
+
+>What are you?
+
+I'm an expensive person to speak with. [This](https://philosopher.life) is me. I would discuss these with you, if you wish.
+<<<
+
+<br>
+
+https://www.reddit.com/r/PoliticalPhilosophy/comments/myzfhj/can_a_person_with_collectivist_ideals_want_to_be/
+
+<<<
+>If the maximin principle and all other moral side-constraints (have you accounted for global warming, preserving ecosystems, maximizing the moral purpose of Dasein, minimizing pain in other animals, etc?) are satisfied, could the least privileged reasonably attain these materials? If so, then perhaps it's justifiable. I don't think we can let go of all materialistic desire (if we want to be super picky about what that means), but it is likely the case that even after some miracle utopia post-scarcity society were developed after The Real Marxist revolution, we would still need some discipline in shaping our desires for objects so that we do not treat others as mere means. Maximum eudaimonia probably cannot be justified eudaimonia.
+
+We're not talking about wanting to be stable, but rather wanting materialistic possessions like fancy clothes, mansion, etc.? Do you have to let go of your materialistic desire to really be a collectivist? or can you be both?
+<<<
+
+<br>
+
+https://www.reddit.com/r/TheoryOfReddit/comments/myrata/what_is_the_psychological_reward_for_calling/
+
+<<<
+>Your question isn't just about Reddit, as you point out. Status signaling (even to oneself) in pseudonymized and virtualized contexts lacks some measures of accountability as well as the vulnerability and presence of in-person embodied cognition that tends to give rise to empathy. People wear the Ring of Gyges to some degree here (with varying levels of accuracy in their modeling of that power), and this is the result. You are looking at our species with the mask partially off, a solid mixture of ignorance and malice.
+
+>This is me: https://philosopher.life/. I spend a lot of time speaking to people on the internet. We can think about the problem together if you wish. I'm doing my best to give you context.
+
+Here's a relatable anecdote: I was in a comments section discussing the story structure of Marvel Movies. In a comment I offhandedly mentioned that Hollywood essentially invented the idea of the happy ending (which is a contestable belief but also not wildly absurd). A guy replies to my comment, disregards most of what I wrote to focus on that sentence, and using multiple expletives and some undercooked logic tells me I'm wrong and asks me what I was thinking. Now, if he was interested in a genuine debate, I'd have been happy to have one, he might even have won. However it's quickly clear his understanding of the subject matter is fundamental at best, and he pays my responses little mind. He responds to me as if my replies are logic puzzles to be solved, like he's trying to revoke my opinion through ontological thinking and sheer force of will - it becomes clear the only purpose of the comment was to angrily insult me and I abandon the conversation. This type of exchange is a very common experience on Reddit. My question, is why?
+
+What exactly is the human motivation for this type of interaction? Is it an opportunity to boost the ego? Does the offending party expect others will agree? Is the passion the result of a perceived injustice? Is it just the release of unrelated frustration in the first mildly acceptable location? It's a phenomenon as old as the internet itself but what exactly is it?
+
+It's not really trolling - at least not in the "class clown" sense that I understand trolling - we're several comments deep on a relatively obscure subreddit, there's no audience, and I'm not personally offended or reactive to his insults. I don't understand the payoff in these types of situations. It feels like he was very sincerely offended by my opinion, yet the subject matter carries little-to-no emotional weight and his knowledge of the subject is very minimal so that doesn't really make sense either.
+
+Is it a result of "hot take culture", which is quick to reward contrarian thinking even if uninformed? I don't believe so because this type of interaction almost never happens in real life. I can't recall a single example of a friend, or even stranger, passionately and angrily disagreeing to an academic idea they themselves have no background in.
+
+The exchange has the structure and passion of a political argument, yet the subject is so banal and irrelevant that the passion behind the argument is confusing. It's hard to imagine the emotion response is actually the result of the comment's content.
+
+Does anyone have insight? I understand this is a bit futile, but it's bizarrely common behavior that I rarely see discussed.
+
+<<<
+
+<br>
+
+https://www.reddit.com/r/DigitalGardens/comments/mubo61/thinking_out_in_the_open_is_all_well_and_good_but/
+
+<<<
+>In a way, my work is perhaps an exemplar of what you don't want (https://philosopher.life). Here is my advice: have two separate systems with no major automation between them.
+
+>Yes, it's convenient to push from Public to Private, but please don't go the other way if you can help it. Even if you only did Public->Private, I think your private information should be something that you'd be willing to accidentally have slip into the public sphere (mistakes and bugs happen, and because you are even asking your excellent questions, you should assume you've only generated a soft and fallible privacy). If you are going to take the additional risk of trying to unify your system, everything must be Private by default, and you should have to purposely tag an object as Public (much like having to confirm that you really do want to run that line of sudoed code in your terminal).
+
+>Any private information that you would want to make public should be done by hand entirely. That's what I do, and I talk (by default) about the things most would never say outloud. All this said, my paranoia runs even deeper; I accept that I may be hacked, and so there is some information that I won't keep on my machines at all. Pay the extra price for your privacy; earn your peace of mind.
+
+For example, I have ADD. I'm pretty open about it. But if someone weren't and wanted to write about their research into their condition in private, how would they manage that in their digital garden?
+
+I imagine that they would mark those notes private in some way, or not publish them. But then they might have some anxiety about accidentally revealing something, and this might have an intellectual chilling effect on their own note practice and research.
+
+In the static site tool I'm building I can mark notes private in the Markdown frontmatter, but my notes are not private by default.
+
+Anyone out there dealing with something like this? How are you overcoming that fear? Any systems in place to handle it?
+<<<
+
+<br>
+
+https://www.reddit.com/r/philosophy/comments/mo5vfq/what_being_asexual_or_aromantic_tells_us_about/gu1ukcq/
+
+<<<
+>> Hi there. I am willing to offer a counterposition that is thorough and with skin in the game like you wouldn't believe. Feel free to [[reach out to me|Contact]], /u/Low_Soul_Coal
+
+> I'd say it's possible. I've dated plenty, but not in a while. (I could have, but I've lost interest in the social environment around me).
+
+> Now it's been nearly a decade since I've truly dated, and I really don't want to anymore. The loss of "freedoms" that come with it don't outweigh the romantic benefits.
+
+> I don't lead an exciting life. It's actually quite boring. So to take my small little slice of existence and then filter it through another person - it's just a crazy concept now.
+
+> Life is weird and frustrating and sometimes exciting. Why we feel we have to bolt ourselves to another person to "truly experience it" is beyond me.
+
+> I see couples now, and I don't see happiness. I just see stress and bickering and obligation. All I hear are sighs and eye rollings while people are on the phone.
+
+> I'll add that I'm in the South, so pressure to date and marry ASAP is abundant. So my experiences are limited to small town values. And due to have greatly pushed my away from valuing romance.
+
+Wonder if asexual only happens to people who can not find a mate that turns them on. Like would they be asexual dating the most sexy flirtatious person they could imagine?
+<<<
+
+<br>
+
+https://www.reddit.com/r/DigitalGardens/comments/mh9688/digital_garden_with_comments/
+
+<<<
+>>>I am the laziest skiddie alive, my friend. I use Tiddlywiki. It's far from perfect, but it gets the job done for me. In case it would be useful to you, [here's my Rube-Goldberg Machine](https://philosopher.life/#RGM). 
+
+>>>I suggest I use my digital garden more than almost anyone on the planet uses theirs, but that doesn't mean I'm good at it. I can only solve some of the problems, sadly. 
+
+>>>Also, [bonus for you](https://philosopher.life/#Hidden%3A%20Sidebar) (tomorrow, I'll be bringing my sidebar back).
+
+>>>It's a pleasure to meet you.
+
+>> Amazing job, thanks. What do u use to code your digital garden?
+
+>I don't have comments section built into [mine](https://philosopher.life). People [contact](https://philosopher.life/#Contact%20h0p3) me directly, or they leave messages for me on their own sites, or a discussion will happen on a forum, or I'll have an alert that someone mentions me and I'll [Beetlejuice](https://philosopher.life/#FTO%3A%20Beetlejuicing). Even [this conversation](https://philosopher.life/#Le%20Reddit%20Log%3A%20Jibberjabber) will make its way into my Digital Garden. 
+
+>If I'm going to have to moderate or modify comments by hand anyways, it's really not a big a deal to just do it all by hand. But, there's something to be said for having a comments section. 
+
+>Were I to implement comments, I'd be using [Aether](https://getaether.org/) because it's like a P2P Reddit, but most prefer a web-only answer.
+
+hi everybody,
+
+since last summer i started dipping into zettelkasten world, which really fascinates me. Then i found the concept of digital garden, even more interesting and broader than zettelkasten.
+
+I recently started a blog, but i'd like to turn it into a digital garden, opened to everybody. At the same time i'd like to keep the possibility to comment what i write on my digital garden, in order to know people's opinion: i think it's really precious.
+
+In your opinion, which platform or system should i use in order to build an online digital garden with comment section?
+<<<
+
+<br>
+
+https://www.reddit.com/r/DankLeft/comments/m09f24/my_ideology_shift_over_the_past_6_months_has_been/gq8k8a5/
+
+<<<
+> I am happy to fight you there. Would you like to speak with me? I use the word 36 times in my wiki: https://philosopher.life/#:[search[degenerate]] and I'm not alt-right.
+
+Language and definitions are descriptive, not prescriptive. The only people who say degenerate these days are alt right people. This is not the hill you want to die on.
+<<<
+
+<br>
+
+https://www.reddit.com/r/PoliticalPhilosophy/comments/lx3g9i/if_jesus_was_a_political_philosopher_would_he_be/
+
+<<<
+>>That's kind of you, thank you. It's a confusing place, sadly. I wish I knew how to make it clear and clean. I'm happy to discuss your question at length, if you wish.
+
+
+>Im very confused by your page, but I like its style
+
+
+This is a topic I think about often: https://philosopher.life/
+
+It depends on which versions of Rawls and Jesus you have in mind. I'm not a Christian, but I happen to think that Rawls was very lucky to have learned from Saint Jesus (as we all are).
+
+A Heterodox Rawlsian, yes (most Rawlsians I've met lack the fitting political leftism of Saint Jesus, and certainly Rawls was a failure as a human being by comparison). The Golden Rule is at the heart of the Categorical Imperative (about not making an exception of ourselves), and The Original Position is an algorithmic attempt to construct a game-theoretically sound account of the CI distributed across all perspectives available to us (though Rawls does not say it this way). Saint Jesus had one higher principle, and yet even this can be understood in Straussian interpretations of Rawls. What is The Good? Jesus is clearly influenced by Platonism. Non-merely-legal-positivistic Justice requires the collective attempt to decentralize the power of interpreting, discovering, or defining The Good. There are interpretations of Jesus and Rawls that are more than just compatible, but also point to the same essences of normativity and practical wisdom.
+<<<
+
+<br>
+
+https://www.reddit.com/r/DigitalGardens/comments/ll0l89/what_are_the_benefits_of_having_digital_garden/
+
+<<<
+> My best answers are self-documented in my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱.
+
+> Why should you do anything? These tools are instruments, toward what end(s)? What does it mean to tell yourself and [[others]] the stories of who we are together, and how can we do that well? I suggest working every day in it, and ask yourself what matters, what's real, and why. Work on that.
+
+> I wish you luck. `/salute`.
+
+I am just wondering how do you use your digital garden. I have just started building my own and I have about 150 notes on it. What benefits have you seen so far and what do you see in the future (e.g. after 5 years), when you'll have 5k or 50k of notes?
+
+I felt amazed when I saw people having 20k of notes in their garden.
+<<<
+
+<br>
+
+https://www.reddit.com/r/DigitalGardens/comments/lkddts/what_platform_do_you_use_for_your_digital_garden/
+
+<<<
+>> Read-only: k5fppzxc3bwoz2mjc7q37jojbrxo6vtprac3dzrk4wapv7irr4iq
+
+>> Convertible to more if and when I need, but not my prediction at the moment.
+
+>> In my experience, it's reasonably suited to hypercore, e-mail attachments, resilio sync, IPFS, and even a blockchain, as I only require the ability to transfer a single file.
+
+> How do you use i2p for this ?
+
+I use many, including i2p and tor. Github is for https://philosopher.life/, but I'm fine running my own server too. All of these are for public access, none of them are necessary for my own use of it.
+<<<
+
+<br>
+
+https://www.reddit.com/r/funny/comments/lifery/that_son_of_a_bitch_ill_kill_him/gn2yjpl/
+
+<<<
+>>Hello there, nomad. I've read your account. I can see you are personally familiar with [moral luck](https://philosopher.life/#Moral%20Luck). Looks like you've seen some shit in your time. `/nod`. I think you are arguing for a [stoic](https://philosopher.life/#Stoicism-fu) position, particularly as one is obligated to determine what is up to us and what is not. I admire your humility and your consideration of the plight of the poor. I would be interested in your gut instincts about what we owe [others](https://philosopher.life/#Find%20The%20Others) and why.
+
+>We are all born in this world with disadvantages and advantages, it's your responsibility to navigate the world.
+
+>Some people take a hardcore approach and may think, I am only responsible for one person and tough luck others.
+
+>Some may feel hard core responsible for their words and actions where they are afraid of hurting others and thus minimise the risk.
+
+>But at the end of the day, it's your responsibility to learn to balance how you gain happiness and what guilt you can live with and how to accept that others are doing the exact same and may even lack certain emotions or experiences and maybe you want to take others down with you, are make a stable world where you can bring others happiness up too.
+
+Would you like to discuss the concept of responsibility in depth?
+<<<
+
+<br>
+
+https://www.reddit.com/r/CriticalTheory/comments/lhw0dz/is_postmodernism_over/
+
+<<<
+[Deconstruction Obligates Reconstruction](https://philosopher.life/#Deconstruction%20Obligates%20Reconstruction). It is our plight. Postmodernism requires a responder to have both humility and hopeful courage.
+<<<
+
+<br>
+
+https://www.reddit.com/r/CriticalTheory/comments/lh9xnd/what_exactly_is_ontology/
+
+<<<
+What is isness?
+<<<
+
+<br>
+
+https://www.reddit.com/r/cryptoleftists/comments/ldy57t/the_decentralized_web_of_hate_white_supremacists/gm9c8mv/
+
+<<<
+> Hello there, nomad. If you ever need a friend, please speak with me.
+
+Probably an unpopular opinion, but I view this as a success. The true test of a decentralized system is if Nazis and CP can exist on it. If there's some authority that can arbitrarily remove participants, then it's not truly decentralized and there will always be an ongoing moderation power struggle.
+
+So now p2p systems have to shift their thinking: instead of a community banning a person, people will have to ban each other in a p2p sense: I wish to no longer see messages/posts from this particular person. And I view this as desirable. I can't count how many times I've had interesting discussions with people who ended up getting banned from a community for wrongthink or wrongspeak (or I got banned and was unable to continue discussions). P2p breaks this out into person-to-person relationships, which is how it should be.
+
+So, yeah, if you do it right you'll have nazis. And if you do it right, there's no way not to have nazis. But give people good moderation tools and the nazis can be silenced. Also, the more I think about it, the more I realize we really need a comprehensive identity system that ties your physical personhood to an electronic identity, which would make personal moderation much more effective, and could allow trust-based delegated moderation: the ability to honor the blocklists of people I trust.
+
+I'm starting to work on this identity system: https://github.com/stamp-protocol
+<<<
+
+<br>
+
+https://www.reddit.com/r/DigitalGardens/comments/l7lnm6/using_vimwiki_but_miss_a_few_things_switch_but/
+
+<<<
+>I hope you can forgive me for being such an extremely opinionated user. I've tried a lot of methods to do my work, and this is the one that worked for me. I'm retarded, so bear with me, please.
+
+>> I can see some of the appeal/features of TiddlyWiki, I have a few questions.
+
+>It has significant flaws. They all do. I work with what I got, and it's the best option I've found.
+
+>> - I tend to rework my wiki into 'condensed' information, 'weeding out' superfluous texts and making it more accessible to my future self. How is your experience with that in Tiddlywiki?
+
+>I think you need to have a good reason to delete data. I don't suggest weeding your underlying corpus, I suggest thinking about how to wield metadata to narrow it down for you. You must create windows and doorways into your work. "Weeding out" should obtain in your structuring and querying. If you are sufficiently general, you will not know in advance what you will value in or of your previous work. What I've previously thought was superfluous ended up being crucial again and again (though, I also am not the only person who uses my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱). Perhaps we are interested in different kinds of stories. I suppose it depends on what you think this tool is supposed to accomplish. At the very least, do yourself a favor with versioning if you are really going to purge content (and, you should be using versioning no matter what for a variety of reasons). Drive space is cheap. Handwork is not.
+
+>Indeed, compress, condense, filter, and abstract. Keep the whole though because you will make mistakes.
+
+>The experience is fine in TW. It's not like building from scratch, but that's part of the point. It's extremely good at re-using data, transforming it, especially given how high level it is.
+
+>>  If I understand correctly, you would open multiple TiddlyWiki files for different subjects. Is there some automatic interlinking/directory plugin available? 
+
+>There are people who do this. I keep it all in one, and I use TW5-Bob to open multiple tabs from across multiple devices into the same object (solves most of the race problems).
+
+>> The design feels overly packed to me (that's just my personal taste)... I am well aware that I am asking for the impossible from within the limitations of the browser, but I hope I got my point across. 
+
+>Oh, I appreciate simplicity. I'm not convinced that's impossible: it's just a lot of work (it looks like riced toolporn to me). TW is reasonably-suited to designing (and re-designing) your interfaces (including creating very different modes). TW is hackable, but it's up to you to make it what you want. You may find your tastes change with considerable practice.
+
+>> moving from vimwiki to tiddlywiki. Any experiences?
+
+>I have almost no experience with vimwiki (though I still use vim to get shit done). With TW5-Bob, you can mix your tools together quite thoroughly. Access it from not just the browser, but anything that can read a file.
+
+>I think one of our jobs in a tool like this is to discover what the tool is actually for. I've brought many people to this tool. Few stay. It's a lot of work. Most are engaged in fleeting productivity-toolporn pursuits. Imho, it is crucial to let go of the neat-controlfreak and spill your guts. That's where the magic happens. You can always migrate to another tool (and, you can make choices that give you a pleasant escape hatch). Just use it; you'll find plenty of motivation to fix what really needs to be fixed.
+
+>> - working from different machines/racing options when a tiddlywiki is opened on different workstations/mobile phones
+
+>Note that you can build it to look and function differently on mobile. You can design the interfaces however you please.
+
+>I suggest a filesync tool like Resilio Sync or Hypercore with multiple instances of TW5-Bob or run a single instance where you VPN in. Most use a VPS, but you don't have to.
+
+>> Thanks a lot for any feedback!
+
+>It's not a problem. Feel free to reach out to me directly.
+
+Thanks. I browsed your site, it's very interesting!
+
+I can see some of the appeal/features of TiddlyWiki, I have a few questions.
+
+- I tend to rework my wiki into 'condensed' information, 'weeding out' superfluous texts and making it more accessible to my future self. How is your experience with that in Tiddlywiki?
+
+- If I understand correctly, you would open multiple TiddlyWiki files for different subjects. Is there some automatic interlinking/directory plugin available?
+
+- The design feels overly packed to me (that's just my personal taste). I like the sleek, spacious layout of something like bear. I'd love to have something that looks like a beautiful TeX rendering ;) - Are there options/examples to get to let's say something like this: https://i.imgur.com/7vOYw4A.png
+
+taken from this page: https://tex.stackexchange.com/questions/1319/showcase-of-beautiful-typography-done-in-tex-friends. I am well aware that I am asking for the impossible from within the limitations of the browser, but I hope I got my point across. As mentioned above, the bear templates are also very pretty.
+
+- moving from vimwiki to tiddlywiki. Any experiences?
+
+- working from different machines/racing options when a tiddlywiki is opened on different workstations/mobile phones
+
+Thanks a lot for any feedback!
+<<<
+
+<br>
+
+https://www.reddit.com/r/DigitalGardens/comments/kksocd/why_did_you_start_your_digital_garden_and_how/
+
+<<<
+>>> I've tried lots of methods and tools for adding to my wiki. My [[RGM]] is accurate enough from the infrastructure side, as well as [[Wiki: Chromium Setup]]. There's some commandline work too, including signing.
+
+>>> To my eyes, it houses lots of different projects, each with their own requirements. My [[APFVD]] template does a good job. I didn't use tags for the first year, so it began more as a strict hypertext. I'm glad of it too. Deeply linking has been key. My naming convention has been useful. There's plenty of painpoints in it, but the content is usually the most painful part. TW5-Bob cannot be replaced, but it has bugs. Updating TW becomes difficult when you customize too far.
+
+>>Wow this is really cool! Do you have a specific system for adding things to your garden or maintaining it over time? Did you have any painpoints when you created it?
+
+> It started here: https://philosopher.life/#2016.10.17%20-%20Letter%20to%20Mom%20and%20Dad - I didn't even know what it would become. To my knowledge, it is the largest personal digital garden on the web.
+
+>It's self-documented. The best answers are in the ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 itself. I am happy to answer pointed questions.
+
+>I highly recommend Tiddlywiki, and I'm happy to help you set that up.
+
+Hi All, Happy new year! :) I'm pretty new into the digital gardening space and I find the concept incredibly fascinating but also hard to wrap my head around because there are so many ways to go about starting my own.
+
+I'd love to hear why and how you personally started your digital gardens, what your journey was like in figuring out a system that works for you, what platforms you use, and how it has made a difference in your life. Excited to hear some stories! :)
+<<<
+
+<br>
+
+https://www.reddit.com/r/sorceryofthespectacle/comments/k0qyci/there_is_a_turing_test_for_ais_does_testing_for/
+
+<<<
+I have a tool that most people do not. It gives me a chance to inspect whether or not my interlocutor is putting their skin in the game. I give people a lot of footholds to demonstrate they can pass the ideological turing test with me (or at least demonstrate they are thinking about who I am).
+
+https://philosopher.life/#Wiki%20Litmus%20Test:%5B%5BWiki%20Litmus%20Test%5D%5D%20%5B%5BFind%20The%20Others%5D%5D
+<<<
+
+<br>
+
+https://www.reddit.com/r/AcademicPhilosophy/comments/k0z57p/biggest_question_ever_what_do_you_think_the/
+
+<<<
+[[The Good]].
+<<<
+
+<br>
+
+https://www.reddit.com/r/slatestarcodex/comments/jz63br/opposite_of_earlier_post_who_do_you_still/
+
+<<<
+I'm here for that. I'm [[grateful]] to hear your voices.
+<<<
+
+<br>
+
+https://www.reddit.com/r/CriticalTheory/comments/jy8oye/delezues_idea_of_turning_oneself_into_an_art/
+
+<<<
+I take this seriously in my work: https://philosopher.life
+<<<
+
+<br>
+
+https://www.reddit.com/r/Marxism/comments/jwlvq7/what_are_you_thoughts_on_morning_routines/
+
+<<<
+Here is mine: https://philosopher.life/#Morning%20Routine.tmpl
+
+My scheduling structures look like this: https://philosopher.life/#.tmpl:.tmpl%20.tdl%20.plan
+
+A keyword search provides other examples of how I feel and think about it in context: https://philosopher.life/#:[search:[routine]] - This is very slow to compute (it loads the entire results of the query into the story river), it's all clientside (maximizing privacy and portability), but you can search in great depth and in a more timely fashion if you wish (https://philosopher.life/#Hao%202%20Search%20Dis%20Wiki). 
+
+I am privileged to avoid plenty of the exploitation of capitalists, and as an autistic schizo, I also lack executive functioning that neurotypicals possess. I suggest that routinization in our limbic system is key to allowing us to filter out parts of the world to focus on other things,  and optimizing our processes can be valuable depending on what ends we take up. I suggest one ought attempt to wrestle with morning routines even under utopian communist conditions.
+
+The poor have so much uncertainty in their lives that planning and routinization is not always available or rational in their shoes. This is simply another advantage that capitalists maintain in empathizing with their egos long-term.
+<<<
+
+<br>
+
+https://www.reddit.com/r/cryptoleftists/comments/iyj71u/what_do_you_think_about_monero/g6e0icc/
+
+<<<
+Monero has seemed surprisingly useful among so many that have not been. I can't speak to its future, but I can envision versions of a socialist blockchain that would maintain Monero's properties. Unbottlenecking the velocity of money, the automated taxation of the wealthy, and the ability to maintain privacy, particularly for those who have the least power in the world, seem fitting to me (and not necessarily incompatible either).
+<<<
+
+<br>
+
+https://www.reddit.com/r/TheMotte/comments/iijrxr/post_an_example_of_a_time_when_you_changed_your/
+
+<<<
+>> I can see elements of that in your post history. I will agree that this sub does a better job of engaging in dialectics and inquiry than most.
+
+> I honestly find myself put off by many of the views I encounter here (especially the motte is a lot more right leaning than me)..
+
+> But I do think the set of “technologies” of discussion that are in the culture here make it the perfect place for rational level headed discussion of opposing viewpoints and that both me and others here are often pretty open minded to have our opinions be changed.
+
+>> By all means, do not read or write unless justified. In the spirit of cooperation, I've glossed through your history, and I've decided to keep you bookmarked. Maybe we'll be able to mutually sort it out.
+
+>> `/salute`
+
+> Wait, what? You're that guy?
+
+> I had your page bookmarked for a while (a good while before I'd heard of SSC or this place), but I'm no longer sure why. I think I liked your prose, but your moral perspectives and personal life details put me off of reading more.
+
+>>> Thanks, I'm not prepared to make that kind of investment to talk to you - twas but a passing curiosity
+
+>> That is a great question, and my answer is also quite loaded. I will begin by pointing out that I can be an egregiously expensive and obnoxious person to speak with; I often require skin-in-the-game, long-term, long-form conversations with my interlocutors. I find most people aren't really interested in seeking justice with others. So, I tell you what: if you are really interested in thinking about it with me, feel free to contact (https://philosopher.life/#Contact%20h0p3) me after spending some time on my wiki.
+
+> Curious, what exactly makes SSC fans, and especially Mottizens, your enemies?
+
+With open evidence, I've changed my mind about the value of /r/TheMotte in relation to SneerClub. I have long read this place simply to read my enemies. I suggest I often have more in common with the average sneerclubber, but I remain subbed here (and no longer there). I am grateful for the opportunity to even passively participate in a group of people who obviously do care about reason. Yall have changed my mind.
+
+`ヘ( ^o^)ノ＼(^_^ )`
+<<<
+
+<br>
+
+https://www.reddit.com/r/TrueReddit/comments/i7touw/millennials_slammed_by_second_financial_crisis/g15ky52/
+
+<<<
+//They cleaned their account, but it's not a Tango Down. I'm still going to keep an eye on them. =)//
+
+>>>>Lmao, what in the world... this post takes the cake for weirdest shit I've seen in a while.
+
+>>>>This must be what happens when you take far too many drugs.
+
+>>> [[paze|https://www.reddit.com/user/_paze]], we all make mistakes. I think you've made at least one here. I feel like you are in a defensive position, and I want to give you some space to reflect. I tell you what: let's wait a week, and if you still want to argue about it with me, we will. I aim to be a useful interlocutor to you, and I put my skin in the game when I speak about such emotionally charged topics with people (you can find me here: https://philosopher.life). I wish you a good evening, and I hope you'll think about it.
+
+>> Not really. I feel bad for this person.
+
+>> But this is a 30 year old adult, who hadn't been able to find any fulltime work, for ten years. Unless they have some wild fringe situation, it's time they realize that their problems aren't solely due to the environment around them.
+
+>> They can't even give their friends credit where credit is due. Instead, they just got lucky or were handed jobs.
+
+>> If this person were talking about this summer, or even a year or so, I'd have a different tune for sure. But, after a decade, it is time to start realizing the problem may not actually be everyone else.
+
+> I think you do mean to sound insensitive.
+
+I don't mean to sound insensitive, but the job market has largely been great for the last ~10 years. I understand the rough start post graduation, based on your timeline (I graduated 2011), but I'm borderline flabbergasted you couldn't find any solid work since.
+
+What degree did you graduate college with, and what kind of work are you looking for?
+
+Having these problems for a decade, I can't help but feel like the problems you're facing are more likely on you, than the majority of your friends casually getting lucky or being part of a "club". At some point you've got to realize the cards aren't just stacked against you.
+<<<
+
+<br>
+
+https://www.reddit.com/r/Marxism/comments/hecj25/does_marxism_imply_direct_democracy/
+
+<<<
+>>Hello, nomad. It's my honor to meet you.
+
+>>I agree that most people don't really care about the truth or anyone except themselves. Psychological egoism is descriptively true of most people. I also find very few people are interested in actually thinking carefully; it's expensive. I'm happy to speak about this open source problem with you.
+
+>>A self-teaching liquid democracy implementing The Original Position on a p2p decentralized information infrastructure owned and operated by every individual is the only method by which Humanity can collectively and successfully wield the Ring of Gyges while fairly generating the Criterion of Authority necessary for the justified Rule of Law.
+
+>>My prediction is still catastrophe. In addition to lacking a moral justification for why the proletariat deserves to not be exploited and being a materialist (lulz), Saint Marx was wrong to be certain about revolution because he could not have understood how much computers would and could change the world. I do not anticipate people will apply The Golden Rule, but I know they can if they chose to. Mass spontaneous cooperation is our only hope.
+
+>>If you ever want to speak at length, hit me up. https://philosopher.life/. I'm as open source as it gets. I'm happy to continue the conversation train with you there. Read carefully and think hard.
+
+>to me its also a sad preview of the near future of humanity. It explains why the left (communism) never had any chance of ruling. unless people realize the trap of the popular vote (either at the national Gov level or the local factory level, it doesn't matter) and the solution (which is not the trap of representative democracy), communism remains a childish utopia. And the bombardment of propaganda to manipulate the stupid population (which is the majority of the population) will keep on going..
+
+This thread is sad.
+<<<
+
+https://www.reddit.com/r/TheMotte/comments/he92no/what_dark_arts_are_you_interested_in/
+
+<<<
+Oh, well, as a dissident, that's why I'm subbed to TheMotte, of course. I read my enemies. =)
+<<<
+
+https://www.reddit.com/r/PoliticalPhilosophy/comments/h8no32/would_marx_agree_with_rawls/
+
+<<<
+I'm an ex-academic researcher. I work on this problem, so feel free to reach out to me. A Straussian interpretation of both will demonstrate not only their compatibility but their need for each other. Though Saint Rawls fails to live up to his own theory (at best, he's a nationalist reactionary who really didn't give a shit about the global poor), he provides a sketch of the mechanism by which to compute an iteratively improved semblance of the Categorical Imperative. It is the grounds for a liquid democracy by which citizens would own the means and ends of power production. Saint Marx fails to offer a foundational moral justification, and here Rawls provides us a reason and method for computing justice for the proletariat. Neither Marx nor Rawls could have understood the practical computing applications and implications (and flaws) of their theories. The Original Position as the legal positivist's criterion of a government can be technically built on Marxist grounds. It is the only way to fairly decentralize power in political dialectics.
+<<<
+
+https://www.reddit.com/r/slatestarcodex/comments/h86gq9/difference_between_openess_and_intelligence/
+
+<<<
+Open to what? Picking out what is salient means filtering out what is not. Virtuous perception is an openness to a set of particulars of a context.
+<<<
+
+https://www.reddit.com/r/opensource/comments/gsxeys/second_brain_wiki_notetaking_apps_boom_overview/
+
+<<<
+>>>> The wiki is the work of a madman, no doubt. =)
+
+>>>So I started going through your wiki, and damn, you got some crazy shit going on in there (and I'm not even finished with the readme). I'll keep reading in small doses (ADHD), it seems interesting. Disco Elysium eh? That's next on my list after I finish Snatcher.
+
+>>Let me know if you need any help. I speak with people over my wiki quite a bit. The nice part about committing to TW is that it's reasonable to escape from the tool if you want to export out of it (though it becomes more difficult the more you rely upon its automation). It allows you to rebuild it with what you've got (which is part of what makes the tool so mind-bending, imho).
+
+>>I have been lucky enough to have people build these visualizations for me. Maybe my brain don't work so good (I am a madman), but I don't think they are really all that useful. They look very pretty. Of course, I want visualizations of my work just like I want to see the stars in the sky. I don't see the practical appeal of them though (but, I can imagine higher performance computing and VR enabling some fascinating exploration). In my experience, the visualization that matters most is mundane: it should happen in the hard-coded linking, traversing the documents themselves, and specialized search tools (Bimlas' Kin tooling is absolutely leet).
+
+>Yeah, I think for visualization it'd need to be done on an "as-needed" basis, maybe analyze smaller sets of data/connections when needed. In TW this should be easy, just export what's needed and run it through TiddlyMap, no?
+
+>I do get the feeling that investing time and energy in TW would pay off, but I'm a bit scared of committing, to tell you the truth.
+
+>Thanks for linking your TW, I browsed around a bit and will have a deeper look, it's definitely an inspiring piece of work.
+
+[I maintain a public Tiddlywiki](https://philosopher.life), and it handles [Markdown](https://philosopher.life/#Atropos%20Protocol%20Spec%20-%202.0%3A%20Layer%200) well enough for me. I am happy with TW markup for now though (and I've been using it for years). It's a flexible tool. 
+
+Visualization becomes a hard problem when you have a large enough wiki. Scaling up to the thousands probably requires a lower level language tuned for it.
+<<<
+
+https://www.reddit.com/r/commonplacebook/comments/gs11b7/anyone_tried_roam_as_a_digital_commonplace_book/fs41zr0/
+
+<<<
+Oh, yes, Tiddlywiki is a one-of-a-kind tool for a commonplace book. 
+
+I work very hard to make my wiki publicly accessible. It's an important problem I speak about at length in the [Readme](https://philosopher.life/#:Readme). 
+
+The default use of Tiddlywiki is privately on your own machine. It's completely self-hosted (and it's also like a [Quine](https://en.wikipedia.org/wiki/Quine_(computing)). You own it, and it even has wiki-wide and tiddler-specific encryption baked in for you to use. It's special in that the basic object is just a single self-compiling HTML file. You control it.
+<<<
+
+https://www.reddit.com/r/PoliticalPhilosophy/comments/gqztfk/the_next_socrates_could_be_shtposting_on_facebook/
+
+<<<
+Hi. I don't know if you are interested in what madman has to say. We'll find out. Here's how you do it: 
+
+You build a [radically decentralized platform](https://philosopher.life/#The%20Philosopher%20King) that allows [Humans](https://philosopher.life/#Find%20The%20Others) to pick out who will moderate for them given p2p trust (and proxies built on these) in order to pick out what is [salient](https://philosopher.life/#The%20Good). Build infrastructures in which each person owns their data, including how they shape it ([reminds me of correspondence I have with a manager at FB](https://philosopher.life/#2018.11.29%20-%20JYU%3A%20James%2C%20Y%20U%20No%20Work%20%40%20FB%20Anymore%3F)). When we can actually see each other in largely self-generated contexts, when we speak with our own voices, and when [the workers own the means of production](https://philosopher.life/#Socialism) wherein [capitalism](https://philosopher.life/#Neoliberalism) can't continually squeeze us and exploit how information is constructed, processed, and viewed, we're most likely to have wisdom in general picked out and disseminated.
+<<<
+
+https://www.reddit.com/r/learnpython/comments/glp7l3/has_anyone_here_ever_built_a_database_for/fr1e6c2/
+
+<<<
+Yes. It comes with excellent tooling for structuring and restructuring your data. There are plenty of plugins for finding what is salient and connections. It's also easy to search it with any CLI tooling you have available (though I never need to do this). Filter expressions, Bimlas's Kin Tooling, Context Searches (shows results in context, rendering a surrounding excerpt), and even the just standard search are very strong (especially if you have strong naming conventions).
+
+https://philosopher.life/#Hao%202%20Search%20Dis%20Wiki
+
+One of the great strengths of the wiki, imho, is that, with practice, it is reasonable to find what you are looking for even if you only have breadcrumbs and adjacent thoughts to find it
+<<<
+
+https://www.reddit.com/r/productivity/comments/gliys5/notetaking_local_win10_app_for/fqyxs9d/
+
+<<<
+TW is hackable.
+
+There are rudimentary spreadsheet addons. You could also use TW5-Bob to make an overlay onto an underlying CLI spreadsheet tool. TW can handle images well.
+
+Single-html can still work nicely with files external to it, including images (you could embed, but I don't recommend in most cases). I develop mine with TW5-Bob (based on the nodejs portion of the official TW ecosystem), and it keeps each tiddler in a separate file (it can also separate the tiddler metadata from the contents nicely too). I access that server from other devices on my own network when necessary.
+
+So far, I am satisfied with the manner in which TW scales and fits my infrastructure. I believe it would perform very well even with several hundreds of pages. My wiki is ~60 novels in length, and I still find it very usable.
+<<<
+
+https://www.reddit.com/r/TiddlyWiki5/comments/gh3aw5/how_do_you_organize_quotes_in_your_tiddlywikis/
+
+<<<
+It depends on what [I am collecting](https://philosopher.life) them for. Mine [ball together sometimes](https://philosopher.life/#Antipleonasmic%20Catholicon), but I rarely keep a single quote by itself in a tiddler (I don't atomize that far). [Antipleonasm Analysis](https://philosopher.life/#Antipleonasm%20Analysis) digests chunks of quotes on a topic or from a person, and I'm glad to read those chunks on a per tiddler basis. I use them for what I call directories a lot. I use them to preface content. I also quote a lot, for example, they are crucial for generating [correspondence](https://philosopher.life/#FTO%3A%20Letters) with folks.
+<<<
+
+https://www.reddit.com/r/TiddlyWiki5/comments/ga9qjo/advanced_beginner_the_big_picture_on_tiddlywiki/
+
+<<<
+My own wiki is a confusing, incomprehensible spaghetti of information. I probably have no room to talk here. For all I know, I am part of the problem, lol.
+
+I agree there is some kind of irony in how TW doesn't document itself in TW well-enough. Some version of self-hosting is one of those key paradigms to consider in this space. I am still convinced, however, that TW is a fitting place for organizing and displaying that interactable and searchable information (and even aiding in the evolution of that object). Part of the problem may be that TW (and its community) are still evolving; it's hard to nail down something which isn't set in stone.
+
+I can find examples of TW doing one small task cleanly. It's hard to find good examples of public wikis (of any kind, not just TW) that do it all cleanly though (I would be grateful for any counterexamples). There's also this difference between the arguably arcane and messy programmatic internals of TW (to be expected from FOSS volunteers, even in a community as wonderful as TWs), building the surrounding infrastructures (a larger set of technical problems), and the semantic representation + best practices of using what you are building (which isn't a simple problem in epistemology). I don't know anyone who can do it all extremely well, and that may be required to building a solid course (which may require multiple kinds of literacy).
+
+Brain amplifiers and transformers (and all the other almost paradoxical metaphors I want to use here) are exceptionally hard problems. Emacs might be the only better answer in some contexts (and only if you are wizard with computers, which I am not). I'm growing convinced that I won't find an elegant one-size-fits-all solution.
+
+To my eyes, TW doesn't have enough skilled powerusers cooperating to build something closer to what you asking for. The userbase has not hit that threshold. I don't know if it will. For now, I'm a flawed person stuck using flawed tools with flawed documentation. I'm glad I get to own my wiki; it's often an expensive process.
+<<<
+
+https://www.reddit.com/r/slatestarcodex/comments/g7mroo/should_i_buy_the_covid19_antibody_test/
+
+<<<
+If you are asking what you ought to do (I take that word "should" very seriously), if $200 is not really a meaningful sum for you, then I suggest giving it to the poor and building infrastructure that helps those at the bottom. That would be a more objectively meaningfully good (and right) use of that money.
+<<<
+
+https://www.reddit.com/r/TiddlyWiki5/comments/fz158k/can_you_recommend_an_ultracompact_extension_or/fn2u0a4/
+
+<<<
+>>`> implying i'm implying :P`
+
+>>You're having a discussion that I hold in high regard, and I [hope](https://philosopher.life/#hope) to see more. Many of the most respected members of the TW community aren't as concerned as you are about this. It's not an easy [computing](https://philosopher.life/#Computing) or [social](https://philosopher.life/#The%20Philosopher%20King) problem to solve. 
+
+>>[Ideally](https://philosopher.life/#Outopos), most of the problems are solved outside of the TW community. Pragmatically: dogfooded, decentralized TWs (in which the [workers own the means of production](https://philosopher.life/#Socialism)) is the direction that interests me the most (or attaching TWs onto platforms we respect). Unfortunately, the barrier to entry is high and problems like discoverability, safe multi-user environments, and search still aren't easily solved. I don't have any specific alternative I adore either. There's no living platform that meets my preferred requirements. [I've been thinking](https://philosopher.life/#P2P%3A%20Aether) about [Aether](https://getaether.net), but the default [ephemerality](https://philosopher.life/#Le%20Reddit%20Log%3A%20Jibberjabber) isn't conducive to building historically verifiable relationships or well-organized long-term knowledge bases (and I have other quiet worries). I'm also interested in tooling that runs well on shitty devices and profoundly [censored, shaped, and inspected] networks, targeting what most of the world has access to. 
+
+>>As has been noted many times in the community, TW lacks an effective course of learning too. It's fragmented in a way that gives no intuitive learning curve (though it is far simpler than anything else like it). I can't build such a thing because I can barely use TW myself. My family and I use the tool a ton, but we don't work under the hood so much as drive the vehicle.
+
+>>Like you, I'm still on the hunt, trying to think about the problem as best I can. I appreciate your fervor. It's a pleasure to meet you, [nomad](https://philosopher.life/#Find%20The%20Others).
+
+>At that point, I wasn't thinking of a specific alternative, since many networks are better than Google Groups, which even requires a phone number, just like Facebook.
+
+>Preferably specifically ones explicitly supportive of open source projects. Of course the safest option would be an independent solution (private servers), but I won't let the best kill the good.
+
+>What I found irritating was the irony of it: something as open and transparent as TiddlyWiki trapped behind a Facebook-style phonewall (by the pattern of "paywall"). I mean, even GitHub, though it's now owned Microsoft, is a way better option. (And anybody could have thought of it!)
+
+>Was your implication that you're a TiddlyWiki developer or that you are planning to build a new community?
+
+Just a rando here, but I strongly appreciate your concern. I'm interested in having the morally justified tooling for building communities that practice The Golden Rule. What would you prefer?
+<<<
+
+https://www.reddit.com/r/Wellthatsucks/comments/fvyi5h/us_weekly_initial_jobless_claims/fmnkemn/?context=3
+
+<<<
+
+>>>> I'm somehow okay with my worry that your answer dodges the question (which is not to say you intended to so).
+
+>>> Ah, yeah, re-reading your post I get what you mean.
+
+>>>> To my eyes, the graph is misleading. I don't see why we should agree that a sufficient percentage of people will have their jobs back, and I take it that a lot of poor people are getting wrecked. I'm not convinced that most people will be employed in such a way that they can pay to reasonably live (let alone lead meaningful, flourishing human lives), a price which I predict will continue to rise.
+
+>>> Yeah, I definitely agree with this. I was more making a mathematical correction to how people were interpreting this than an emotional one, this issue really is unprecedented, especially to poor and struggling people in America and all over the world. There really is no bright side to it, some people are going to get absolutely fucked unless we see some rich countries/ states/ cities/ etc. making a quick recovery and starting to disburse international/ interstate/ local/ etc. aid to those who need it. I do not see this happening.
+
+>>> In a very morbid way, this whole situation is quite fascinating. This is the type of thing you might see in a movie or read of in the history books, and it’s happening before our very eyes. How we react to this will change to course of human history forever - do we make like the Black Death and go for a new enlightenment, or do we double down on our current ways...
+
+>>Thank you for your earnest and thoughtful answer. I'm somehow okay with my worry that your answer dodges the question (which is not to say you intended to do so). The spirit of your answer is something I admire. [[I|h0p3]] hold [[hope]] in high regard.
+
+>>To my eyes, the graph is misleading. I don't see why we should agree that a sufficient percentage of people will have their jobs back, and I take it that a lot of poor people are getting wrecked. I'm not convinced that most people will be employed in such a way that they can pay to reasonably live (let alone lead meaningful, flourishing human lives), a price which I predict will continue to rise. I believe the situation is far more dire than unemployment claims can demonstrate. I too hope our crisis will change minds. That is not my prediction, and given how the democratic primaries have been handled (another piece of evidence on a giant heap), my hope is not in current voting processes available to us (though, I consider voting to be the only method to have a morally justified functioning government, and that is what I'm fighting for).
+
+>>I appreciate how level-headed you are for someone your age. I adore computers (though I am not as skilled as you are with them). If you ever want a madman for a friend (I'm like wild-card Charlie from IASIP :P), a crazy penpal even, hit me up. Some of my correspondence lasts for hundreds of pages. It would be my honor to get to know you.
+
+>Honestly, I think that most Americans have become so disillusioned with politics that very few of these things can meaningfully sway them either way.
+
+>The problem with American politics is that for almost two hundred years these people have had a choice between a rock and a hard place, you can only take that for so long before you start realizing that one man will knock out out cold and steal your money while the other will pickpicket it quietly and blame it on someone else. As a result, most Americans - even very politically minded ones - have become apathetic to politics in general, instead choosing to focus on their individual issues. The only remaining people who are left to vote are the die-hards, the bleeding hearts, the ones with too much time and the ones whose hope haven’t been snuffed out yet.
+
+>In America today, we need a major issue to give people hope again that their vote actually matters. My hope is that this virus will do the trick, but honestly I have no idea.
+
+Do you think the unemployment numbers in the US are accurate and good-faith measurements? Do those numbers inform the possible-voting public in a fitting way?
+<<<
+
+https://www.reddit.com/r/TiddlyWiki5/comments/ft36r1/tiddlyroam_an_open_source_tiddlywiki_alternative/
+
+<<<
+>>>>>> Thank you. =). It's been a lot of work.
+
+>>>>>> My wiki (in whole or in part) is yours to have and use.
+
+>>>>>> Thank you for putting TiddlyRoam together. It's really cool.
+
+>>>>> Either way, it was a lot of fun to explore your wiki by clicking through the map. It's an impressive body of work! On a design note, I love the colours on the left-hand side as the page opens too.
+
+>>>>> Do you mind if I use it as an example of how TiddlyRoam can support large wikis?
+
+>>>>Thank you for testing! I'm sad that live mapping performance becomes unwieldy. I'll have to think about how I'd want to make predetermined maps. It's cool as hell to see visualizations of it too.
+
+>>> Just tested it and it worked fine! Here's a picture of how the whole screen looked. With this view, the live view updated almost instantaneously. However, if you choose to look at the graph view showing all tiddlers within two nodes distance, it did take a little longer to load the map.
+
+>>> Note that, apart from live view which updates as you move between tiddlers, you can also arrange predetermined graphs. For example, in your case u/4eak, you might want to create a map that introduces new visitors to the wiki. These predetermined maps will load very quickly, regardless of their size.
+
+>>> As to whether it is the right tool for your specific case, that is probably up to you. The bidirectional links worked neatly, the localised live view map works well, and setting up predetermined maps might be nice for certain topics.
+
+>>That is the largest example I have available.
+
+> Sure, I can try it out with your example if you would like :) Is the example https://philosopher.life/, the wiki you mention in this thread?
+
+<br>
+
+>>I am not a skilled writer, computer scientist, or modeler. I can only give you my gut instincts which must be taken with a chunk of salt.
+
+>>I will agree that naming is a deep problem (larger than I know how to put into words). Giving unique names isn't a problem (we could, for example, apply a nonce prefix); it's giving meaningful and functional names given the rest of the wiki (and what it could be) that ends up being hard. Re-using one's data in TW is crucial, especially when re-modeling it or building new processes.
+
+>>I would be indebted to you for even scraps of thoughts on naming in TW.
+
+>>My current wiki: https://philosopher.life/.
+
+> How do you work with 10k tiddlers, don't they all need to have a unique name?
+
+Thank you.
+
+I have a large wiki, and I'm concerned this tooling will not scale up well enough. Would you be willing to take a look at how this scales to 10k tiddlers? If you need an example to test on, I can provide one.
+
+<<<
+
+https://www.reddit.com/r/TiddlyWiki5/comments/ft36r1/tiddlyroam_an_open_source_tiddlywiki_alternative/
+
+<<<
+>>I am not a skilled writer, computer scientist, or modeler. I can only give you my gut instincts which must be taken with a chunk of salt.
+
+>>I will agree that naming is a deep problem (larger than I know how to put into words). Giving unique names isn't a problem (we could, for example, apply a nonce prefix); it's giving meaningful and functional names given the rest of the wiki (and what it could be) that ends up being hard. Re-using one's data in TW is crucial, especially when re-modeling it or building new processes.
+
+>>I would be indebted to you for even scraps of thoughts on naming in TW.
+
+>>My current wiki: https://philosopher.life/.
+
+> How do you work with 10k tiddlers, don't they all need to have a unique name?
+
+Thank you.
+
+I have a large wiki, and I'm concerned this tooling will not scale up well enough. Would you be willing to take a look at how this scales to 10k tiddlers? If you need an example to test on, I can provide one.
+<<<
+
+https://www.reddit.com/r/AcademicPhilosophy/comments/frphn5/feeling_worthless_for_bad_memory/flxjbon/
+
+<<<
+I feel your pain. Poor working memory (and difficulty committing things to long-term memory) runs in my family. Spaced repetition and excellent tooling has helped. My family uses Tiddlywiki, and it's very good at helping you organize, search, re-use your data, and have an exobrain to offload into and think big-picture about.
+
+I use Tiddlywiki (here's mine: https://philosopher.life), and I'd be happy to help you set one up.
+<<<
+
+
+https://www.reddit.com/r/lostgeneration/comments/fmbb0y/anyone_disconnected_socially/fl5j1bk/
+
+<<<
+If you ever want a penpal (or more), [[hit me up|https://philosopher.life]]. I do my best to have deep relationships with many people.
+<<<
+
+
+https://www.reddit.com/r/slatestarcodex/comments/fagdsf/what_unrelated_blogs_or_communities_do_you_read/fizq1zt/
+
+<<<
+I participate everyday in a group of people who use Tiddlywiki heavily. At least in part, it functions as a social network. We speak from our wikis. It doesn't fit well into the rationalist community (though there are connections). It's not for drive-by readers though (my own wiki is over 30MB of plaintext); it's expensive to engage in the process of reading and writing with each other.
+
+* https://sphygm.us/
+* https://philosopher.life/
+* https://wiki.waifu.haus/
+<<<
+
+
+https://www.reddit.com/r/WayOfTheBern/comments/f61e91/hi_everyone_im_jordan_chariton_and_im_the/
+
+<<<
+>>>> Can you speak to the technical infrastructures and policies which we are morally obligated to construct and maintain for journalists and everyone in society? I'm particularly interested in your point(s) of view on censorship, free speech, and the centralization of power.
+
+>>>> Also, in case you want to know who you are speaking with, [[this is me|https://philosopher.life/]].
+
+>>> I am against censorship--but am not an absolutist about it. For example, I don't believe people like Alex Jones have the first amendment right to PROFIT off of inciting violence and creating conspiracy theories about murdered school children. I don't have an issue with him being kicked off YouTube and other platforms (he has the right to spew his hate and violence on his own platform). But to me that's where it ends. I don't support YouTube and Facebook and Twitter suppression and demonetization that we have been seeing--nor the widespread f**kery of Google with their ranking schemes. To me, tech companies need to be regulated because they are public utilities....and they need to be regulated by public entities that DO NOT have any financial dealings/donations from them.
+
+>> Do you think Alex Jones has any moral rights to a domain name, a stable IP address, an unNATed internet connection (with no blocked ports), or to have his information packets forwarded (with no difference in priority) by middle internet routers regardless of his profound evil? Do your enemies have a morally justified political right to own a platform which is widely and publically accessible even by people who are not computer savvy, and insofar as an individual cannot own the infrastructure, what (if anything) does society owe him to support his platform?
+
+>> What kinds of regulations do you have in mind? If these are public utilities, should they be privately owned at all? What do you think about the distinction between a publisher and a platform?
+
+> He's not going to answer this as the AMA is over, but you hit the nail on the head.
+
+> Free speech, means all speech. You may not like what the other person says, but they have the right to say it. Authoritarians believe in the opposite.
+
+> The "hate speech" label is increasingly being used in a calculated manner to suppress and censor various types of speech and discussion even for simple disagreements or political views considered "wrong think."
+
+> You see this occurring more and more every day.
+
+> Alex Jones was a trial balloon to test public acceptance/resistance to de-platforming and mass censorship of a public figure. Since this event, you now see Youtube, Facebook, Twitter, and other platforms increasing censorship of all users. i.e. First they came for Alex Jones, but I did not stand up, now they come for me...
+
+> Youtube and other tech platforms like Facebook and Twitter are not neutral platforms. Their liability protections should be revoked.
+
+If you are ever interested in public penpalling with me, please hit me up: https://philosopher.life/#Contact%20h0p3:Root%20%5B%5BLegal%20Notice%5D%5D%20%5B%5BContact%20h0p3%5D%5D.
+
+You gave the right answer. Not many people do that. If you are ever in great need, do not hesitate to reach out to me, please. The world needs more of you.
+<<<
+
+https://www.reddit.com/r/BlackPillScience/comments/f4wsbq/women_evaluate_their_partners_as_physically/
+
+<<<
+Nature's built-in shit-tests (maybe quizzes)? Likely provides a quick bayesian update/check.
+<<<
+
+https://www.reddit.com/r/TheoryOfReddit/comments/epb1r0/where_did_the_old_internet_go_to/
+
+<<<
+It is the centralization of political power in the material dialectic. Owning even the technological means of production is a necessary way out. Unfortunately, it's expensive, there are inefficiencies in decentralization which most people are unwilling to pay for, and the internet on a global scale is something which appears to be controlled by particular nation-states and multi-national corporations which have no desire to empower individuals.
+
+>> I appreciate the trolling (your post history is fascinating). If you are interested in a real conversation with an elite armchair /r/topmindsoftheleft debate-me-dickhead, I'm happy to openly speak with you. Some of my correspondence goes on for hundreds of pages with individuals. =)
+
+>> Come and speak with me: https://philosopher.life/. I'll be happy to discuss these issues at length. I have decades of experience with some of the tools you are talking about (my children use these as well); I think very highly of many of them. What you've presented is hardly a counterargument.
+<<<
+
+https://www.reddit.com/r/LateStageImperialism/comments/e2u2w4/are_there_any_marxists_who_take_ketamine/f91zxz2/
+
+<<<
+I have relied upon an analog called Deschloroketamine (https://psychonautwiki.org/wiki/Deschloroketamine), but it has been quite a while. It has saved my life more than once. My depression is treatment-resistant, and this is my sledgehammer. It's not a fun experience, I'm very sensitive to its effects, and I wouldn't recommend using it regularly unless it was life or death.
+<<<
+
+https://www.reddit.com/r/lostgeneration/comments/dbzrmi/depressing_phonecall_with_a_boomer_relative/f25bj23/
+
+<<<
+Sometimes you are going to have to kill the sociopath trying to kill you and others. Even The Golden Rule requires turning against your enemy at some point. The root cause of capitalism is egoism, including apathy and an unwillingness to recognize that violence is sometimes the only answer. My real enemy is the capitalist and everyone who enables them. That old lady is far more responsible than you've implied.
+<<<
+
+https://www.reddit.com/r/assholedesign/comments/d86kx4/i_cant_even_think_of_where_to_put_this_because/f1awh6e/
+
+<<<
+I hear ya. Many people find me cynical (I see evil in almost everyone I encounter). I see some of that in your posting history too, so I think we have that in common.
+
+I can agree many are non-trivially responsible to some degree or kind for their circumstances. Generalizing is quite difficult, as you point out. I appreciate that you actually want to care and are willing to think about our moral responsibilities. You are correct: there are leechers, freeriders, sociopaths, and people who deserve their homelessness to some significant extent, but I think looking over the entirety of many of their lives will often show they aren't entirely responsible. Even the victimizers are usually victims at the same time, and I think you've overstated the opportunities available to them. Morally justified upward mobility barely exists for most people; status crystallization or falling is the norm.
+
+You and I have different experiences in this sphere. I have worked with folks of all ages, including homeless children and impoverished persons outside of the US for years. I've seen their faces and heard their stories in many cities and countrysides. The vast majority of homeless people on this planet, including first world nations, are more blameless than your argument implies. I can appreciate being jaded here, but it's worth looking at again and again. If you are interested, I'm willing to engage in a much more significant public conversation with you.
+<<<
+
+https://www.reddit.com/r/philosophy/comments/cjg40f/study_of_academic_philosophers_on_political/
+
+<<<
+Gah, this would never have happened in ancient Greece. Knowledge is not a bias in the right way, at the right time, for the right reasons. Don't be so close-minded. All possible logically valid inferences and memeplexes are equally salient, and ad hominem attacks are conceptually wrong in both argumentation and selecting authorities. Tribalism is always immoral, and thus discriminating philosophers are the worst kind of scum.
+
+Into infinite regress, fittingly responding to the paradox of tolerance with The Golden Rule and wrestling [[The Other]] with integrity is one of the hard self-defining problems in philosophy.
+<<<
+
+https://www.reddit.com/r/SneerClub/comments/cdqrux/wheres_the_sneerclub_effort_posts/etwdipn/
+
+<<<
+Of course, it is my honor to [[help]].
+
+I'm sorry you are feeling lost. That's not your fault. It's not designed to be disorienting; it's as organized as I know how to make it. I do not know how to solve that vertigo. To be clear, I am lost too. It is the best tool I have found.
+
+It's really big, currently ~60 (100k-word) novels. It's also heavily fragmented (currently into over 10,000 pieces). Imagine having 10k submitted posts in your sub: https://www.reddit.com/r/Lonewolfeslayer/ on every topic in your life. How would you organize and relate them? It is not an easy problem.
+
+The sidebar is the best way to navigate; that's how I navigate my own wiki. It's going to require wandering, and I can't tell you what the right path is because I don't know.
+<<<
+
+https://www.reddit.com/r/lostgeneration/comments/cclz0s/the_slackification_of_the_american_home_there_are/
+
+<<<
+My family and I write in [our wikis](https://philosopher.life/) daily, and it helps with homeschooling quite a bit. Our [family time](https://philosopher.life/#Family%20Time) includes walking as a family and one-on-one time, but our wikis are self-shaped social media, organizational, and personal knowledge base tools for telling the stories of our lives together. 
+
+The barrier to entry into modern capitalism is so fucking high, I'm forced to require my offspring to mechanize, automate, and become adept with leet tools if they are going to have the competitive advantage necessary to survive. It is very hard to be moral in a world in which one's competitors are not trying to be moral. We also build infrastructures and conventions in preparation for us to be able to live meaningful remote lives together because we simply can't see far enough into the future. These survival habits have to begin very early.
+<<<
+
+https://www.reddit.com/r/TheoryOfReddit/comments/cclvg2/powermods_and_their_place/
+
+<<<
+The centralization of power (in this case) is only going to be effectively defeated through P2P filtration. I should be able to choose my mods, transparently see how they censor and shape the content of a sub, and leverage trust I have in other users to prioritize content in my feeds. This model has been tried elsewhere, but Reddit has the network effect.
+<<<
+
+https://www.reddit.com/r/MeetNewPeopleHere/comments/cbnm83/33yo_american_madman_pseudonymous_wiki_penpal/
+
+<<<
+Well, thank you! 
+
+Also, I'm sorry it's hard to read. I think plenty of native English speakers think it's purposely obscure (which is not my goal). I'm lucky enough to even speak one language, lol. I'm envious that you can speak multiple.
+
+I used to have some Estonian teenage neighbors of mine growing up. I'm fascinated by Estonian ID cards.
+
+Your art is both dark and cute. It reminds me of //Doug// (a cartoon I adored long ago) a bit.
+<<<
+
+https://www.reddit.com/r/CriticalTheory/comments/cbj3wa/how_do_you_consolidate_your_learning_reading/
+
+<<<
+It's good to see this question here. I usually find this kind of learning+productivity porn question in /r/TheMotte and /r/slatestarcodex, and I'm happy to see it in a Leftist sub.
+
+I use Tiddlywiki. I cannot recommend it highly enough. My entire family uses it in place of social media. It's also how my children take their notes and reason about projects for homeschooling. It's extremely hackable, it's a second-brain, and it enables many kinds of autonomy. I didn't discover this tool until after 11 years of post-secondary education, and I'm pretty pissed off about it (it's not quite that old). Better late than never.
+
+I've been using my wiki for almost 3 years now. It's ~30MB of almost pure text in a single file (that's how I prefer to serve it), or ~60 novels in length.
+
+I am free tech support to anyone in this sub who wants to set it up. It would be my privilege to help you own your identity, your data, and how you shape yourself with FOSS power tools. May you own the memes of production.
+<<<
+
+<<<
+Aye. It's super useful, fun, and whatever you make of it. I aint never seen nothin quite like it before. The TW Google Group Forum is extremely friendly too. Let me know if I can be of any use to you.
+<<<
+
+<<<
+Not a problem. Even though I use it a bunch, it often still feels new to me. There's so much to learn.
+<<<
+
+<<<
+Yes! It abstracts away a lot of the programming while still giving you access to work under the hood if you want (you may one day decide that is something that you want to do).
+
+You do not need to know how to engineer standard software to build your own wiki. You will need to learn the markup language and play with settings, but if you can do markup on Reddit, you can do it on the wiki. I suggest using Firefox with the saving extension or the Bob executable (both are excellent options). There are many learning curves to using a wiki, and only some of them are technical. I think you will do great, and if you get stuck: you can always ask me or anyone on the forums.
+<<<
+
+<<<
+The Firefox method is the simplest, and in my experience, it is also the most performant (though I hold a minority view on this one). I used it for years, even with multiple devices (I use Resilio Sync to synchronize files across my devices). My wife still uses it too, but the rest of my family has moved onto Bob. Do not forget to install the savetrail plugin (it has saved my ass so many times), and I also highly recommend you take a nightly snapshot of your wiki (you may want to rollback or reason about the evolution of your wiki).
+<<<
+
+
+https://www.reddit.com/r/StayAWhile/comments/cbnhki/33yo_american_madman_pseudonymous_wiki_penpal/
+
+<<<
+வணக்கம். உங்களை சந்தித்ததில் மகிழ்ச்சி. `/handshake`
+
+My journal is a piece of work, Ramana! I usually get along with psychology majors well enough; they don't mind my craziness as much. I am still on the hunt to understand Jungian thought too, dude.
+<<<
+
+https://www.reddit.com/r/FamiliesYouChoose/comments/cbnbpv/33yo_american_madman_pseudonymous_wiki_penpal/
+
+<<<
+Perfeckt. I look homeless with my beard.
+<<<
+
+<<<
+Sorry about that. Looks worse on Chrome and Windows in VM for me. Will think about a button to switch it up.
+<<<
+
+<<<
+/hug =) always happy to have the chance to talk.
+<<<
+
+<<<
+Spoken like someone who has known real psychic pain. I'm grateful for your empathy. Thank you. I will do my best to reciprocate. It is rare that I find good people in the world, and it is my honor to meet you.
+
+Façade is a fascinating label. The wiki is as human as I can make it.
+
+You look like a resilient mother-warrior from where I stand. Who do you say that I am, madame? I will listen carefully.
+<<<
+
+<<<
+I appreciate your stickin' up for me in a sense. I was a bit surprised that your parent comment was the most upvoted. There must be plenty of people who prefer to communicate that message to me. I get they don't want to choose me for a family member, but the kind comments got downvoted?! I don't understand.
+<<<
+
+
+https://www.reddit.com/r/TheoryOfReddit/comments/asm6vd/reddit_is_a_terrible_website_what_are_the/
+
+<<<
+I will disagree with you on free speech, but I agree there is a profound lack of empathy. Decentralize the discussion by owning your identity and data. I speak with people over my wiki. I have real discussions with real people. Join me!
+
+
+<<<

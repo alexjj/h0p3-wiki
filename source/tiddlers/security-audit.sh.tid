@@ -1,0 +1,15 @@
+created: 20220819043800070
+modified: 20220903074439670
+tags: bash Monsternix
+title: security-audit.sh
+
+```bash
+#!/usr/bin/env bash
+# Crontabable Monthly, Open terminal in /b/ Workspace and do the following as root
+
+vulnix --system
+lynis audit system
+freshclam && clamscan --recursive --infected
+rkhunter -C
+chkrootkit
+```

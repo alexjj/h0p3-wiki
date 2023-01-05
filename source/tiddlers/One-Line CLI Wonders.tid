@@ -1,0 +1,224 @@
+created: 20170710234731581
+creator: h0p3
+modified: 20220518005859160
+modifier: h0p3
+revision: 0
+tags: One-Liners [[Infrequent Logs & Projects]] Computing Collection Log
+title: One-Line CLI Wonders
+
+; following logs with fuzzy search:
+
+```bash
+tail -f /var/log/foo.log | fzf +s
+```
+
+<br>
+
+; TiddlyWiki formatted time string:
+
+```bash
+date -u "+%Y%m%d%H%M%S%3N"
+```
+
+<br>
+
+; a sufficient password generator
+
+```bash
+< /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-32}
+```
+
+<br>
+
+; yt-dlp, best audio and visual
+
+```bash
+yt-dlp -f "bv+ba/b" https://foo.bar/
+```
+
+<br>
+
+; recursively unrar rar files in a directory
+
+```bash
+find ./ -name '*.rar' -exec unrar e {} \;
+```
+
+<br>
+
+; untar multiple .tar.zst files
+
+```bash
+ls | grep ".tar.zst" | while read filename; do tar --use-compress-program=unzstd -xvf "$filename"; done
+```
+
+<br>
+
+; Download you the SEP (can stack): 
+
+```bash
+wget --mirror --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains stanford.edu --no-parent -N https://plato.stanford.edu &`
+```
+
+<br>
+
+; Interleave lines on two text files (A1, B2, A2, B2,...): 
+
+```bash
+paste -d '\n' file1 file2`
+```
+
+<br>
+
+; Nmap, list currently used IPs on your LAN: 
+
+```bash
+nmap -sP 192.168.1.1/24
+```
+
+<br>
+
+; Arp, list machines on your LANs: 
+
+```bash
+arp -a` #fuck yeah
+```
+
+<br>
+
+; Nmap, list all ports open on an IP: 
+
+```bash
+nmap -p- ks.philosopher.life
+```
+
+<br>
+
+; Openvpn, from config's directory: 
+
+```bash
+sudo openvpn --config "US - Atlanta @tigervpn.com.ovpn"
+```
+
+<br>
+
+; DD, Write bootable ISO: 
+
+```bash
+sudo dd bs=4M if=input.iso of=/dev/sd? conv=fdatasync
+```
+
+<br>
+
+; Find temperatures for the system: 
+
+```bash
+sensors
+```
+
+<br>
+
+; Print total Chrome memory usage (sum of all processes): 
+
+```bash
+smem -t -k -c pss -P /opt/google/chrome | tail -n 1
+```
+
+<br>
+
+; Make a directory R+W by any user: 
+
+```bash
+sudo chmod -R 757 /var/www
+```
+
+<br>
+
+; Generate random 32-Byte string: 
+
+```bash
+cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1
+```
+
+<br>
+
+; Write protect (even from root) a file: 
+
+```bash
+sudo chattr +i /etc/resolv.conf` #(-i to undo it)
+```
+
+<br>
+
+; Access remote server's localhost service: 
+
+```bash
+ssh -L 8888:127.0.0.1:8888 -N user@remoteserver.com -v
+```
+
+<br>
+
+; Removed docker containers not in use: 
+
+```bash
+sudo docker ps -aq --no-trunc -f status=exited | sudo xargs docker rm
+```
+
+<br>
+
+; SSHFS, persistent: 
+
+```bash
+sshfs -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3,password_stdin servIP:/rem/path /loc/path <<< "pwd"
+```
+
+<br>
+
+; Find all files contain foobar in path: 
+
+```bash
+grep -rnw '/path/to/somewhere/' -e 'foobar'
+```
+
+<br>
+
+; Mount an iso: 
+
+```bash
+sudo mount -o loop /home/user/disk.iso /mnt/mount_point
+```
+
+<br>
+
+; SFTP, Download file: 
+
+```bash
+sftp username@hostname:remoteFileName localFileName
+```
+
+<br>
+
+; SFTP, Upload file: 
+
+```bash
+sftp {user}@{host}:{remote_dir} <<< $'put {local_file_path}'
+```
+
+<br>
+
+; Recursively find phrase in files contained in local directory: 
+
+```bash
+grep -Fr 'phrase'
+```
+
+<br>
+
+
+!! Unusually Abominable:
+
+; The all-in-one recursive md5check script+file for current directory:
+
+```bash
+(echo -e '#!/bin/bash\n' ; echo -e 'sed -n "/^<< \/\/\/\/\//,/^\/\/\/\/\//p" checksum.sh | sed "/^<< \/\/\/\/\/$/d" | sed "/^\/\/\/\/\/$/d" | md5sum --check\n' ; echo "<< /////" ; find -type f ! -iname "checksum.sh" -exec md5sum "{}" + ; echo "/////") > checksum.sh && chmod +x checksum.sh
+```

@@ -1,0 +1,45 @@
+created: 20220815181609916
+modified: 20220821231533329
+tags: Monsternix bash NixOS
+title: monsternix-disk-prep.sh
+
+```bash
+#!/usr/bin/env bash
+# or #!/run/current-system/sw/bin/bash
+
+# `lsblk` to see devices, modify accordingly 
+# As root...
+
+
+printf "label: gpt\n,550M,U\n,,L\n" | sfdisk /dev/nvme0n1
+
+mkfs.fat -F 32 /dev/nvme0n1p1
+
+mkfs.btrfs /dev/nvme0n1p2 -f
+mkdir -p /mnt
+mount /dev/nvme0n1p2 /mnt
+btrfs subvolume create /mnt/root
+btrfs subvolume create /mnt/home
+btrfs subvolume create /mnt/nix
+umount /mnt 
+
+mount -o compress=zstd,noatime,subvol=root /dev/nvme0n1p2 /mnt
+mkdir /mnt/{home,nix}
+mount -o compress=zstd,noatime,subvol=home /dev/nvme0n1p2 /mnt/home
+mount -o compress=zstd,noatime,subvol=nix /dev/nvme0n1p2 /mnt/nix
+
+mkdir /mnt/boot
+mount /dev/nvme0n1p1 /mnt/boot
+
+nixos-generate-config --root /mnt
+# nano /mnt/etc/nixos/configuration.nix
+nixos-install
+reboot
+#nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+#nix-channel --update; nix-env -iA nixpkgs.nix nixpkgs.cacert
+#nixos-rebuild switch
+
+# Test drives. Highest speed is nixos/home, slow speeds are untouched, smart test pass, if extra, all storage, with the largest being primary, public-share made on it. VM recognition with optimization?
+
+# An optional wizard for experts, and a GUI for the rest of us made available.
+```

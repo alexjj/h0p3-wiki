@@ -1,0 +1,41 @@
+created: 20221123063504709
+modified: 20221125081747142
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]] [[MTG Log]]
+title: 2022.11.23 - Carpe Tempus Segmentum: The Cummoner
+
+Woke at 1:15. Meditation. [[TTTOTW]]. Bagel + Coffee (thank you), clarinet while preparing my sympaticon's deck with her. Didn't play though. Dialectics. ⁸Δ⁸. //Skintime// + //Golden Son// @1:00:30:04. [[TTTOTW]].
+
+Back onto [[Monsternix]]. As I've encountered enough softbricks on hardware, I'm gonna try VM for construction. I've run into plenty of trouble there, unfortunately. Most recommended just using the ovi, as the developers didn't intend for the minimal iso to be used (which I think is a redflag, and not just because it halts adoption). That's unacceptable for me. I finally got formatting that works (and their instructions were necessary). Can't use latest kernel either, and I'm not even given a choice not to have virtualbox addons installed (and they are broken on the latest, which is not made obvious). Got there, though. I remain unconvinced by home-manager, but I intend to build around file synchronization (maybe if I hopped machines often). Doesn't seem absurdly hackish to go something like this either:
+
+<<<
+"""
+`.ssh/config` to automatically deploy and update parts of local cli environment to remote
+
+   Match Host 192.168.123.*,another-example.org,*.example.com User myusername,myotherusername
+      ForwardAgent yes
+      PermitLocalCommand yes
+      LocalCommand rsync -L --exclude .git --exclude .config/iterm2/AppSupport/ --exclude .vim/bundle/youcompleteme/ -vRrlptze "ssh -o PermitLocalCommand=no" %d/./.screenrc %d/./.gitignore %d/./.bash_profile %d/./.ssh/git_ed25519.pub %d/./.ssh/authorized_keys %d/./.vimrc %d/./.zshrc %d/./.config/iterm2/ %d/./.vim/ %d/./bin/ %d/./.bash/ %r@%n:/home/%r
+"""
+<<<
+
+[[TTTOTW]]. Dialectics with my sympaticon. We made breakfast; I had shells'n'cheese. [[TTTOTW]]. Sleep by 10?
+
+Woke at 2:30. High. Dreams absurd. Easy to wake up, I think.
+
+Read mi amor's drafting. Seems to be sticking point for her. Does all the work up to it so well, but just getting it onto the page (even with a very full outline) isn't going well. `/nod`. I know the feel. //Inform the Men!// Meditation.
+
+//Skintime// with my sympaticon. [[TTTOTW]].
+
+Shopping @ W-Entity with mi amor and my son. I grabbed towels (since, somehow we are out-ish again), a rack for the wall, foodstuffs for Thanksgiving (apparently, we aren't mailing it in this year, cool). Spoke with Boomer James the Newpaper Printer. He got that northern jive. He likes to read. Carded. Gassed up too.
+
+Assignments. Mi amor is going to do the energy inspection (I can't sign). [[TTTOTW]]. Fireman Time! [[TTTOTW]].
+
+Thinkin' of [[Jaxx]]: `proxychains /home/h0p3/bin/demonsaw/demonsaw &` works fine.
+
+[[Family Gathering]] was delicious. We had chicken and roasted veggies. Water, also chocolate. //Mr. Robot//. I'm done with this show, but there are enough folks interested that we continue. [[TTTOTW]]. Ryft looks pretty good.
+
+Shopping @ W-Entity with my sympaticon. Eggs, milk, hair supplies, noodles, and a wok (we tend to destroy them). 
+
+[[MTG]] with my son who wont he match. Demolishing him, and at the last turn, he bluffs beautifully, and combos me out. `/smh`. Got me when I tapped on both times. He did a great job. Played a match with my daughter. Quick. Chilled with mi amor (somehow is already on the third book in the series...I know why that paper isn't gettin' done :P). Brix. Hugs'n'bugs. [[TTTOTW]].
+
+Gotta say, [[Resilio Sync]] impresses yet again on it's ulimit usage. It's tiny, despite several TBs and dozens of syncs. 

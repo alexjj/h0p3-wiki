@@ -1,0 +1,44 @@
+created: 20220127002841245
+modified: 20220127003115187
+tags: ALM Letter From
+title: 2022.01.26 - ALM: Wikki Wikki Wa
+
+Sir, 
+
+It is nice to speak back and forth with you, even in a round-about way.  When it comes to the kids and the time staying with family a few months back they say that they miss being around their Nano and Pepaw.  Long story short there is that they spoil the dickens out of them and let them play on a phone/tablet all the time.  Gets on my ever lovin' nerves.  No curation or filter just wide open.  I have seen what the internet has on tap and they are not yet conditioned to deal with that.  The wife and I are quite glad they they are spending less time with them for this reason. 
+
+Funny you should ask about predictions for the year with all of the propaganda and saber rattling that is going on.  I am very happy that we don't do TV in the way that most American's do.  I'd say things are more or less coming to a head as the Covid charade is wearing thin and (((they))) have to replace it with something else.  Last trip to the store resulted in canned foods and bulk rice.  Not a crazy ton, but a bit of a buffer.  I don't see being able to truly 100% prep our way out of a SHTF situation.  I don't see things just falling off of a cliff one day.  I see it more like the Decline and Fall of Rome.  Slowly, gradually with fits and starts here and there.  More disruptions in food, fuel, and electricity supply are in the cards for us.  We don't have enough land to be self-sufficient but no one is going to make it as a loner if shit gets real.  Gotta get a tribe.  We have connections with a few folks but far from a tribe yet.  
+
+Not for sure when we will get to see the American/Vietnamese couple again.  We see them on Sundays at Church and the like but you are right they don't have all that much free time on their hands right now with the kiddos.  We would like to come to know them better for sure.  Similar backgrounds and whatnot.  
+
+The other couples mentioned in my last we see with much more frequency - especially since we have moved much closer to them.  The young ones do not stay in touch in any other way than face to face encounters.  The kids of those other couples are home schooled and one set no longer attends our church but the other does and her boy and my kiddos are in the same Sunday school class. 
+
+The computer issue I was trying to resolve revolves around the following when trying to update Manjaro:
+
+```
+error: GPGME error: No data
+error: GPGME error: No data
+error: GPGME error: No data
+error: GPGME error: No data
+:: Synchronizing package databases...
+core                  167.7 KiB   986 KiB/s 00:00 [######################] 100%
+extra                1899.9 KiB  17.3 MiB/s 00:00 [######################] 100%
+community               6.9 MiB  34.6 MiB/s 00:00 [######################] 100%
+multilib              174.3 KiB  7.40 MiB/s 00:00 [######################] 100%
+error: GPGME error: No data
+error: GPGME error: No data
+error: GPGME error: No data
+error: GPGME error: No data
+error: failed to synchronize all databases (invalid or corrupted database (PGP signature))
+```
+
+I've tried some things online but have not had any luck resolving it yet.  The installation is really new as I have to move over to SSD from NVME if you recall.  
+
+Also, when you refer to "ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱" are you referring to your wiki as a whole or something else in particular?  I have not been able to figure that one out yet.  
+
+Also, I have found that I have been using my desktop less and less other than for work and when I time sink in vidya.  As you have said previously I do lean more on the mobile phone.  I have a Pixel 4a running GrapheneOS.  I have used tablets before and they just don't seem right.  I keep my eyes peeled on the small electronics space as I want something that can be a replacement for the desktop that I can carry around with me that is also not a laptop.  The Switch form factor is an unknown.  I can say that I would not want something that has joy sticks on it that is for sure.  But now I am just going off on a rant.  Perhaps if Tiddlywiki has been updated to work better on mobile I might get into it.  
+
+"""
+Have a nice evening, 
+ALM
+"""

@@ -1,0 +1,62 @@
+created: 20201109222448389
+modified: 20201110061153076
+tags: [[MTG Log]] [[Carpe Tempus Segmentum]]
+title: 2020.11.09 - Carpe Tempus Segmentum: Quelled
+
+The weather is cooling again. The chills even in my home make me feel a bit more wired.
+
+* Woke at midnight...
+** Spooky
+* Read+Write
+* Fireman Time!
+* //Fool Us// + Snacks
+* Tried sleeping at 6, but didn't until maybe 8
+* Shit-tier sleep, woke at 12:30
+* [[Morning Routine]]
+* Wife is extremely anxious.
+** Second appraisal came in 10k below the first (which was also 5k below the original price). Good news in many senses, except it's not clear the banker is going to recognize the house's valuation (particularly in what is a seller's market). We can't cover the closing costs out of pocket, and this was supposed to be wrapped in the loan. Disappointment and watching a dream slip through her fingers, sucks. 
+** Realtor calls. My wife interpreted them differently. Still plenty of reason for hope in the negotiation though. 
+** //Skintime//
+*** Held her and breathed. Rollercoaster day.
+* Buzzed my head. I've lost some of my crazy homeless vibe, sadly.
+* Prepped dinner
+* Shit went down with my son, breakdown.
+** Whole house basically went into sadness then. 
+* Cleaning and hunting for his phone
+* Walk With Offspring
+** Made my points abundantly clear. Unironically, I am, of course, a piece of garbage, according to my daughter. I hope she will evaluate the timeline again.
+** Saw Howard & Ellen
+*** Pleasant chitchat. Spoke of vaccine.
+**** I am reminded of [[AA]]'s comment earlier. 
+*** Mentioned corruption of the device and not wanting any viruses (qua CV19). 
+**** I can appreciate not trusting a USB drive from a rando. Fair enough. I wouldn't trust me either.
+**** I've since looked at the USB drive. She did not screw it up (and this was not her sending me a message), and she did format it FAT32 for them. Our devices and OSes use it just fine. Hrm. 
+**** They went on to claim Zoom, in contrast, was secure. (I'll agree moreso than the USB drive, obviously). Am I missing something?
+***** Are they asking us to videochat? I doubt it. I should ask.
+*** Spoke of the house. He compared it to marriage. Likely in virtue of the famous house they live in, though I did not mention that. 
+** We had fun talking. Eventually, we hit [[MTG]] (no idea why). 
+* Cleaning, phone was found.
+* Read
+* [[Family Gathering]]
+** Ribs, wedges, apples, salad, beer and coffee
+** [[MTG]]
+*** [[k0sh3k]] decided to play (surprisingly). Her Pacificism vs Goblins. Very minor mistakes allowed me to Kikijiki her locks and engine to finish her. Anvils don't generate CA, sadly.
+*** Offspring played each other, boisterously. MUC +1 vs daughter's Affinity, twice. I am doing my best to say little or nothing. There are so many interactions and choices to make, primarily on her side. Really need to go at least +2 to even it up (and maybe +3). 
+* Read+Write+Walk+Talk
+** Surprising [[FTO: Beetlejuicing]]. WillTwerk4Karma's throwaways make it feel [[I Am h0p3]]ish. Gonna leave them alone, give 'em space. 
+*** Also, no offense taken! I appreciate your curiosity. `/salute`
+* Clean
+* Read+Write+Walk+Talk
+
+It sucks when the entire house is sad and anxious. Awful feeling. Despite a meltdown, we recovered. It was a good day overall, though I cannot say if and what they've done for school. My wife seemed way more chill by the end of the day too.
+
+<br>
+
+!! [[Computer Musings]]:
+
+```bash
+sudo pacman -S cuda --noconfirm #holy mother of god is this thing huge, way larger than I remember
+# /opt/cuda instead of /usr/local/cuda/ in Arch
+```
+
+Used only for fun and mere vanity's sake, of course. ~20 million/sec. That's a significant bump from what I can do in golang on CPU. Given how much GPU acceleration is used for the rest of the machine, it must be AFK only.

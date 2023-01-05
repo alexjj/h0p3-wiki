@@ -1,0 +1,528 @@
+created: 20211202033539766
+modified: 20211204025425895
+tags: groupchat ASmith Jaxx Chatlog
+title: 2021.12.01 - ASmith: Ideals
+
+"""
+[21.12.01 - 15:42:21] [[Jaxx]]: Hi, [[ASmith]] . A question. Do you still have my ricochet ID? if so.. whats my ricochet ID? just want to check if its still same after backing up ricochet refresh
+[21.12.01 - 15:50:05] TAS_Helpbot ASmith@libera #ricochet-jaxx
+[21.12.01 - 15:50:06] TAS_Helpbot TAS_Helpbot@libera ASmith: Error: "ricochet-jaxx" is not a valid command.
+[21.12.01 - 15:50:30] TAS_Helpbot ASmith@libera not stored apparently on Tas Helpbot jaxx, let me see if the app itself can supply that for you
+[21.12.01 - 15:52:55] TAS_Helpbot ASmith@libera looks like jaxx, the ricochet I have for you is ricochet:jnzcq43egnh2kct3jsqnrlz55wa3r6sszmfj234pkm65uhujqdjcqdqd
+[21.12.01 - 15:53:04] TAS_Helpbot ASmith@libera does that match what you have there?
+[21.12.01 - 15:53:11] TAS_Helpbot ASmith@libera on your newest re-install?
+[21.12.01 - 15:53:17] [[Jaxx]]: i tried to do a backup of riochet refresh when i did a clean install of windows11,but sadly i couldnt and had to remake a new id
+[21.12.01 - 15:53:31] [[Jaxx]]: not the same one
+[21.12.01 - 15:53:58] [[Jaxx]]: as u read,i couldnt get back the ones i backed up,sadly :(
+[21.12.01 - 15:54:00] TAS_Helpbot ASmith@libera ok, well give me your new one, I'll remove your old one
+[21.12.01 - 15:54:18] [[Jaxx]]: ricochet:74oumeqphl7yweqt5otlcwjd6rl77foy6r5bcdszhmfe5kwi7omoayqd
+[21.12.01 - 15:55:06] [[Jaxx]]: Whats ur ricochet id again?
+[21.12.01 - 15:55:57] TAS_Helpbot ASmith@libera #ricochet-ASmith
+[21.12.01 - 15:55:58] TAS_Helpbot TAS_Helpbot@libera ricochet-ASmith is ASmiths Ricochet Refresh P2P Tor ID key to exchange ricochet:6xnggokp7l6sx3mellsfbc4ebkz3qomyxnftp7el32szvow7b5jryfid
+[21.12.01 - 16:01:12] [[Jaxx]]: Y didnt it save the the ones i added in the json config?
+[21.12.01 - 16:02:11] TAS_Helpbot ASmith@libera no idea, seems like ricochet devs need to add a folder to place your ID into incase you need to reinstall it again and keep your prior ID
+[21.12.01 - 16:02:50] [[Jaxx]]: the only one i saw in the json config was urs,but still it didnt restore to get it back
+[21.12.01 - 16:02:55] TAS_Helpbot ASmith@libera and just as importantly, the ricochet devs need to add in the about or somewhere, 'YOUR' ricochet ID visibly shown to yourself
+[21.12.01 - 16:03:48] TAS_Helpbot ASmith@libera well, I am not running windows as you know here jaxx, its likely hidden in your file system
+[21.12.01 - 16:09:53] [[Jaxx]]: g2g.. need to do a backup
+[21.12.01 - 16:10:05] TAS_Helpbot ASmith@libera ok, cya Jaxx
+[21.12.01 - 16:43:03] * TAS_Helpbot gives channel operator status to [[ASmith]]
+[21.12.01 - 18:23:03] * TAS_Helpbot gives channel operator status to [[ASmith]]
+[21.12.01 - 19:55:40] [[h0p3]]: @jaxx @[[ASmith]] I'm asking for a friend, an idiot you know. =). What is your ideal key management concept? I'm thinking about your last words here, and I'm trying to convince a person that key management is still a user's responsibility, but it's also the dev's responsibility to make it simple and clear. 
+[21.12.01 - 19:56:15] [[h0p3]]: Recently had this happen: https://philosopher.life/#2021.09.25%20-%20Computer%20Musings%3A%20Session%20Fucked
+[21.12.01 - 19:56:48] [[AH reading the link
+[21.12.01 - 19:58:41] [[ASmith]]: alittle difficult to get the text there
+[21.12.01 - 19:59:13] [[ASmith]]: looks like its largely about zoom ?
+[21.12.01 - 19:59:37] [[ASmith]]: perhaps a copy and paste into a text pastebin there [[h0p3]] ?
+[21.12.01 - 19:59:47] [[h0p3]]: I'm going to continue to make the case in https://philosopher.life/#2021.11.17%20-%20HN%20Log%3A%20Arathorn%20%26%20P2P%20Matrix that the ability to recreate our key from memory is a critical concept at the bottom. The password is the only out. [[DarkMX]]'s (working on my thoughts about this, and I am listening to what you are saying too in thinking about it) hashing enables this. It's outstanding, imho (though I don't know if he uses a hashing tool meant for password hashing like Argon because we can't see the source either).
+[21.12.01 - 20:01:12] [[ASmith]]: right and I would agree using Argon aka not the popular Sha3 I think to push another obstacle against massive DB's using Sha1 and now Sha3 hashing
+[21.12.01 - 20:01:33] [[h0p3]]: Sorry that it's hard to read. It's not about Zoom. I was just talking about the initial part of my day. Recap of it is this: "it's [session is] deleting my user profile upon failing to run! That is catastrophic failure to my eyes."
+[21.12.01 - 20:02:57] [[ASmith]]: indeed yes that's catastrophic
+[21.12.01 - 20:03:42] [[h0p3]]: Can't extract the key from the database, and I still can't get it work. In a sense, my identity is trapped in there. Yeah, I could try to find the answer, but to my eyes, nobody else is going to use a tool like this. It's still a key management problem.
+[21.12.01 - 20:04:47] [[h0p3]]: Yes, absolutely, using a password hasher that can't be brute-forced, even with dictionaries or rainbow tables, is crucial. So, that's one thing I'm gonna bring up for the DarkMX devs.
+[21.12.01 - 20:05:23] [[ASmith]]: ok and the session fucked is about which app or project?
+[21.12.01 - 20:05:34] [[ASmith]]: or just a generalized issue?
+[21.12.01 - 20:05:44] [[h0p3]]: It's only about the IMing tool Session. But, it was just an example for the generalized issue here.
+[21.12.01 - 20:05:59] [[h0p3]]: Anyway, so I'm still interested in what you think, just spit-ball'n, dreaming here, your ideal key managment solution would be. It doesn't seem like a lot of tools get it right.
+[21.12.01 - 20:07:59] * TAS_Helpbot gives channel operator status to [[ASmith]]
+[21.12.01 - 20:08:50] [[ASmith]]: .
+[21.12.01 - 20:08:50] [[h0p3]]: Being able to start from scratch on a fresh machine, changing computers, full reinstalls or upgrades (Jaxx is feeling that right now, I assume), or even just reinstalling have to be simple enough. The ability to bootstrap yourself into your network desperately needs to be simple and convenient at some location. I want that solved for P2P IMing tools in particular, especially as that is often one of the most crucial tools on any of our machines (often some of the first software I install too).
+[21.12.01 - 20:09:19] [[h0p3]]: What do you think best serves you? What do you think best serves the average person?
+[21.12.01 - 20:09:30] [[ASmith]]: yes, sadly that is still what is needed in the end
+[21.12.01 - 20:09:51] [[ASmith]]: well I prefer stability above nearly everything except reasonable speed
+[21.12.01 - 20:10:03] [[h0p3]]: Yes, sir.
+[21.12.01 - 20:10:35] [[ASmith]]: we had a regular visitor here that installed the newest linux kernel that was compiled and often pushed others running linux to do the same
+[21.12.01 - 20:11:23] [[ASmith]]: and his platforms would run perhaps 1-2 weeks, then seriously crash and he'd reload everything or sometimes from scratch and do that over and over again
+[21.12.01 - 20:11:42] [[h0p3]]: I have been there myself, sir.
+[21.12.01 - 20:12:29] [[ASmith]]: its rather tempting for me to program anti-DDOS into the kernel itself but that could cause all manner of waves elsewhere
+[21.12.01 - 20:13:53] [[ASmith]]: I get the impression DarkMX over tor might be a transitory network protocol, perhaps the dev is open to IPFS 
+[21.12.01 - 20:15:08] [[h0p3]]: If you don't mind me asking, and you can just tell me it's a gut feeling, why do you think it might be transitory?
+[21.12.01 - 20:15:21] [[h0p3]]: He doesn't have enough users to safely make his own onion routed or mixed network. 
+[21.12.01 - 20:15:52] [[ASmith]]: tribler alleges they (tribler) made their own onion routed network
+[21.12.01 - 20:16:09] [[ASmith]]: just reading between the lines after glancing at the DarkMX documents
+[21.12.01 - 20:16:36] [[h0p3]]: Aye. Such an excellent concept they had. 
+[21.12.01 - 20:16:38] [[ASmith]]: the early tor network was buried in 6 chained anonymous servers
+[21.12.01 - 20:16:59] [[ASmith]]: many VPN's now offer that basic ability
+[21.12.01 - 20:18:36] [[h0p3]]: I'm not a huge fan of VPNs, despite reasonably heavy use. I don't own the server (so I can't trust how it's surveilled), but I also don't want to own the infrastructure that anonymizes me. 
+[21.12.01 - 20:19:48] [[ASmith]]: I can see computer super stores and some strong colleges, universitys running a tor server, exit, guard or relays
+[21.12.01 - 20:20:18] [[ASmith]]: but for individuals, even with deep pockets that clearly places one on the radar of notice
+[21.12.01 - 20:22:18] [[h0p3]]: It is easier for VPS providers that will take crypto (that can be washed through Monero), but we still need local nodes (can't legally afford that). I understand that [[Anonymity]] comes in degrees here. 
+[21.12.01 - 20:23:35] [[ASmith]]: yes well such is no guarantee for plotters of a gov overthrow or such
+[21.12.01 - 20:24:03] [[h0p3]]: Yes, sir.
+[21.12.01 - 20:24:53] [[ASmith]]: ricochet revived might be strong enough however if one of the tor servers your circuit is going through is located in Tel Aviv, all bets are off...
+[21.12.01 - 20:25:15] [[ASmith]]: I recall a similar sucking of data in the Ukraine also
+[21.12.01 - 20:25:41] [[h0p3]]: With 3 hops, you can accept one of the nodes being evil. 
+[21.12.01 - 20:25:55] [[h0p3]]: But, I can appreciate the claim that many nodes on the Tor network are not to be trusted.
+[21.12.01 - 20:26:31] [[h0p3]]: And, I am not convinced that Tor is the ideal answer for this problem either in the end.
+[21.12.01 - 20:26:33] [[ASmith]]: yes, I did notice a far from ordinary view that time and time a server in the tiny apartheid state of Israel was coming up on the tor circuits
+[21.12.01 - 20:27:36] [[ASmith]]: China's quantum communication satellite certainly touched off a firestorm in the west, China must have succeeded in blocking out NSA, CIA, MI6 and the German intell snoopers
+[21.12.01 - 20:30:59] [[h0p3]]: Ultimately, there are no standard nation-state governments I trust at the moment (and for the foreseeable future, I assume). 
+[21.12.01 - 20:31:02] [[ASmith]]: hmm, I can give that [https://philosopher.life/#2021.11.17%20-%20HN%20Log%3A%20Arathorn%20%26%20P2P%20Matrix] a try I guess, the other took forever to load
+[21.12.01 - 20:31:20] [[h0p3]]: It takes forever to load because the page is 50MB in size. The entire site is one html file.
+[21.12.01 - 20:31:40] [[ASmith]]: nope
+[21.12.01 - 20:32:01] [[h0p3]]: Hrm. I don't know why it is taking a long time. 
+[21.12.01 - 20:33:15] [[h0p3]]: It can be searched from a text editor as well. I've met people who prefer not to use javascript at all, understandably.
+[21.12.01 - 20:34:44] [[ASmith]]: I can't crash my browser here with dozens of windows open
+[21.12.01 - 20:34:56] [[h0p3]]: I see. Yes, sir. 
+[21.12.01 - 20:35:05] [[h0p3]]: Let me pastebin
+[21.12.01 - 20:36:41] [[h0p3]]: [[2021.11.17 - HN Log: Arathorn & P2P Matrix]]: https://pastebin.com/5TriLypA
+[21.12.01 - 20:38:05] [[ASmith]]: ok, thanks
+[21.12.01 - 20:39:41] [[h0p3]]: I use Tiddlywiki. Kinda ugly, I realize, but it gets the job done. It's designed for offline reading. The story-river should all you to keep it in a single tab (no need to open each link in a new tab in this case).
+[21.12.01 - 20:40:01] [[ASmith]]: yes element could be classified as a federated tool, plugin or decentralized app
+[21.12.01 - 20:40:57] [[h0p3]]: (btw, this is an interesting tool: https://spork.sh/)
+[21.12.01 - 20:41:16] [[ASmith]]: I wonder what the bookies in the West have on what's going to blowup first, War on Iran, War on China, War on Russia or War on N.Korea?
+[21.12.01 - 20:41:40] [[h0p3]]: I have no idea, sir. 
+[21.12.01 - 20:42:10] [[h0p3]]: I think making money off the unjustified suffering of others is evil.
+[21.12.01 - 20:43:04] [[ASmith]]: most of the West's captialism is based precisely on that, Pain, Suffering, Mass Destruction, Chaos and of course War, Famine and Pandemics
+[21.12.01 - 20:43:11] [[h0p3]]: Yes, sir. 
+[21.12.01 - 20:43:21] [[h0p3]]: I am at war with this.
+[21.12.01 - 20:43:45] [[h0p3]]: [[Justice]] (<--a link in my wiki)
+[21.12.01 - 20:44:00] [[ASmith]]: 50% of my working life has been in the medical fields, I've seen countless fmr Victoria Secret's models pimping Zionists big pharma drugs to the staff, MD's, etc.
+[21.12.01 - 20:44:11] [[h0p3]]: I realize you talk to plenty of insane people. I'm a madman out here in the desert.
+[21.12.01 - 20:44:50] [[ASmith]]: such corruption flows down to the deepest pools in West's version of Captialism
+[21.12.01 - 20:45:05] [[h0p3]]: You too fight against our enslavement.
+[21.12.01 - 20:45:43] [[ASmith]]: yes, Zionists Usury loan shark rates are practically 50%+ of a primary bank loan
+[21.12.01 - 20:46:41] [[h0p3]]: I would agree that even the primary banks around the world are engaged in immoral usury. It is a form of enslavement, tokenized and packaged in a way that legally absolves them.
+[21.12.01 - 20:46:45] [[ASmith]]: in the near future USA and by extension American taxpayers are on the hook to the Zionist Usury agents on National Debt Interest Payments to the tune of $1 Trillion/yr just on Interest alone, not a penny on the primary debt itself
+[21.12.01 - 20:47:23] [[ASmith]]: sure, those JP Morgans et al own as many lawmakers as they desire to buy to pass laws or eliminate them on their behalf
+[21.12.01 - 20:48:16] [[ASmith]]: however imagine the current public figures poured out to the US Military, Pentagon/yr instead paid out merely as 'interest' to some rather unsavory people
+[21.12.01 - 20:48:16] [[h0p3]]: I agree that the enslavement of future generations is immoral. Their interests must be represented in our voting procedures. In a sense, we owe our lives to others, many who have not even been born yet.
+[21.12.01 - 20:49:22] [[ASmith]]: rather high expectations, insane debt payments while leaving less than ZERO for schools, medical care, infrastructure replacements, and turning the earth from a global toxic dump to a paradise?
+[21.12.01 - 20:49:47] [[h0p3]]: I think 97% of adults above the age of 25 in the US do not deserve to live. I aim to protect their right to free speech, to have their voices heard, to vote.
+[21.12.01 - 20:50:05] [[ASmith]]: 3/4 of the earth is covered at this time with deep oceanic waters, soon that'll be a toxic septic sewer
+[21.12.01 - 20:50:06] [[h0p3]]: The unsavory extend from the east to the west, in all corners of the world to my blind eyes.
+[21.12.01 - 20:50:48] [[ASmith]]: well, I hope WW3 serves to eliminate such truely evil, usavory people, beings, spirits
+[21.12.01 - 20:50:51] [[h0p3]]: How dare even the reactionaries stand idly by as this occurs. I know too many who ultimately support the status quo through convenient apathy.
+[21.12.01 - 20:51:01] [[h0p3]]: I do not want WW3, sir. 
+[21.12.01 - 20:51:18] [[h0p3]]: I want even the 97% to live, even if they don't deserve it.
+[21.12.01 - 20:51:22] [[h0p3]]: I realize I cannot have everything I want.
+[21.12.01 - 20:51:30] [[ASmith]]: yes well, the puppets pulling the strings on nations leaders appear to want that [[h0p3]] 
+[21.12.01 - 20:51:56] [[ASmith]]: in their view nearly 90% are worthless to them
+[21.12.01 - 20:52:23] [[ASmith]]: I guess in my view that 1% are behind nearly all organized evil on earth
+[21.12.01 - 20:52:33] [[h0p3]]: There is a difference between being objectively worthless and being useless to a particular person. 
+[21.12.01 - 20:53:01] [[h0p3]]: I will agree that the first order of that evil is a tiny, tiny percentage, but the responsibility for that evil spreads.
+[21.12.01 - 20:53:18] [[ASmith]]: leeches, parasites drain the life's blood from a host then jump ship to another and on and on
+[21.12.01 - 20:53:44] [[h0p3]]: There are no more ships for transnational elites to jump, not even Mars.
+[21.12.01 - 20:54:06] [[h0p3]]: They don't even love themselves, in the end.
+[21.12.01 - 20:54:15] [[h0p3]]: True psychopaths.
+[21.12.01 - 20:54:39] [[h0p3]]: I am tired of explaining how things will go wrong to those I predict aren't going to be motivated by the truth. How about you, sir?
+[21.12.01 - 20:54:46] [[ASmith]]: China won't allow the Zionists to tunnel into their financial world, Iran has religious edicts that guard against Zionists Usury agents, I think Russia is beginning to understand the Zionists are pitting them against Ukraine
+[21.12.01 - 20:55:13] [[h0p3]]: What's important about Ukraine?
+[21.12.01 - 20:55:16] [[ASmith]]: well, perhaps I have more reservations than I had
+[21.12.01 - 20:55:33] [[ASmith]]: its cannon fodder to use against Russia [[h0p3]] 
+[21.12.01 - 20:56:02] [[h0p3]]: In what respect, sir?
+[21.12.01 - 20:56:03] [[ASmith]]: crimea is a strategic base and landmass on the Black Sea for the Russian warships and nuclear weapons storages
+[21.12.01 - 20:56:13] [[h0p3]]: Weakens their position not to have it.
+[21.12.01 - 20:56:50] [[ASmith]]: Zionists are so few they work by falseflags and turning their enemys against one another, Sunni Muslims (Sauds) vs Shia Muslims (Persians, Iranians) for example
+[21.12.01 - 20:56:58] [[ASmith]]: Christians vs Muslims
+[21.12.01 - 20:57:09] [[ASmith]]: Australia vs China
+[21.12.01 - 20:57:15] [[ASmith]]: Philippines vs China
+[21.12.01 - 20:57:21] [[ASmith]]: USA vs China, Russia
+[21.12.01 - 20:57:51] [[ASmith]]: all the Zionists routine modes of operation, turning those against one another, not caring if all get destroyed in the process
+[21.12.01 - 20:58:29] [[h0p3]]: Hrm. I will agree that some actors do use falseflags and find pitting others against each other to be price-efficient methods for generating a chaotic game they can either escape or win.
+[21.12.01 - 20:58:57] [[h0p3]]: Standard operating procedure for a class of sociopaths that excel in capitalism, no doubt.
+[21.12.01 - 20:59:28] [[ASmith]]: China's shiny spectacular Beijing, China Winter Olympics kicks off in about 60 days, I'm expecting the Zionists have plotted some wicked attacks, bombings, perhaps even War while global viewers watch the Olympics
+[21.12.01 - 20:59:49] [[h0p3]]: That would be quite a spectacle.
+[21.12.01 - 21:00:13] [[ASmith]]: capitalism isn't in itself bad, barter trade could be seen as capitalism as items of worth are exchanged
+[21.12.01 - 21:00:26] [[h0p3]]: [[Redpilled Socialism]]
+[21.12.01 - 21:00:48] [[h0p3]]: Commerce is not capitalism.
+[21.12.01 - 21:01:06] [[ASmith]]: however in a Zionist controlled captalist system, Barter Trade is banned, black flagged and pigs with guns are trained to arrest, break barter trading communities up
+[21.12.01 - 21:01:58] [[h0p3]]: That's a "black market" though, not sanctioned by those in power. 
+[21.12.01 - 21:02:09] [[ASmith]]: I've attened Barter Faire's and yeah the pigs decended on them looking for mass arrests, I didn't see IRS agents, just Sheriffs of Notingham
+[21.12.01 - 21:02:30] [[h0p3]]: Unfortunately, there are immoral black markets that arise. And, in a sense, I think capitalism just is that.
+[21.12.01 - 21:02:59] [[ASmith]]: well barter trades and barter communities include doctors, medical visits, carpenters, metal workers, auto repair, mechanics, plumbers
+[21.12.01 - 21:03:26] [[ASmith]]: I don't think barter trades and communities are black markets
+[21.12.01 - 21:03:28] [[h0p3]]: There's reasons we should want something as liquid as money to facilitate and lower the friction in trading.
+[21.12.01 - 21:03:47] [[h0p3]]: I think they are to be lauded. 
+[21.12.01 - 21:03:54] [[ASmith]]: well china grew tired of dragging around all that silver and gold
+[21.12.01 - 21:04:20] [[h0p3]]: The sense of local community is dead. We are atomized and no longer woven.
+[21.12.01 - 21:04:38] [[ASmith]]: however Obama and not Biden's Quantum funding (pouring out hundreds of Billions in unsecured USD Dollars into the market over the spans of 6 months or more
+[21.12.01 - 21:04:46] [[ASmith]]: led to skyrocketing inflation
+[21.12.01 - 21:04:51] [[h0p3]]: Yes, sir. 
+[21.12.01 - 21:04:57] [[h0p3]]: [[2021.08.12 - /b/]]
+[21.12.01 - 21:05:08] [[h0p3]]: (some gibberish up in there)
+[21.12.01 - 21:05:23] [[ASmith]]: meanwhile BRIC's nations have gone way out of their way to build up enormous reserves of gold bullion to back their currencys
+[21.12.01 - 21:05:58] [[h0p3]]: I'm not convinced that will ever occur without pretty radical catastrophes.
+[21.12.01 - 21:06:05] [[ASmith]]: now Russia, China, India has mega tons of Gold Bullion actually behind its currency
+[21.12.01 - 21:06:25] [[ASmith]]: BRIC's is finally moving away from using the Zionists USD
+[21.12.01 - 21:06:51] [[h0p3]]: Aye. That appears to be slowly emerging.
+[21.12.01 - 21:06:53] [[ASmith]]: mega billion dollar trades, imports, exports now settled in Rubles, Yuans
+[21.12.01 - 21:07:30] [[ASmith]]: that's definately cutting into the Zionists bottom line, now the Zionists floating Petrol Dollar USD ($20 Trillion) is under seige
+[21.12.01 - 21:08:27] [[ASmith]]: if the saudis switch from the USD to the Yuan (China's the largest importer of Saudi Crude) those floating $20 Trillion in USD would all be pushed to be honored, or redeamed for Yuans
+[21.12.01 - 21:09:17] [[h0p3]]: Keep printing them USD up, and it won't be worth much. Who would lend money to a nation in its own currency if they couldn't trust them not to inflate it cyclically?
+[21.12.01 - 21:10:58] [[ASmith]]: yes but its a shrinking viable cycle, prices skyrocket, so cost of living skyrockets, wages stagnate then blowback on a national scale
+[21.12.01 - 21:11:00] [[h0p3]]: Even if it were the case that the debt were largely held by Americans and American corporations (a dubious claim, perhaps), why would they even trust their own currency? Only because the US is willing and able to go to war over it.
+[21.12.01 - 21:11:20] [[h0p3]]: Eventually, the contradiction comes for the pyramid.
+[21.12.01 - 21:11:59] [[ASmith]]: look at europe, many europeans have seen the effects of at least 1 World War in their backyards, some 2 World Wars and yet Zionists are trying to convince them to a 3rd now
+[21.12.01 - 21:12:20] [[ASmith]]: and how are they doing that? by occupying the EU Parliament
+[21.12.01 - 21:13:03] [[ASmith]]: very tricky, the EU Parliament tells all the European Nations what to do per say.... such as 'march to the glowing mushroom clouds in the distance'
+[21.12.01 - 21:13:05] [[h0p3]]: What's your ideal currency look like?
+[21.12.01 - 21:13:52] [[ASmith]]: well in this early date a basket of ecadorian, yuan, ruble, bitcoin, litecoin, eutherium
+[21.12.01 - 21:14:46] [[ASmith]]: not sure about India yet, Zionists likely are trying to put India vs Pakistan and India vs China both, that's a bad position for India
+[21.12.01 - 21:15:42] [[ASmith]]: Zionists targeting list is very grave also, you recall Israel bombing a nuclear reactor in Syria and Iraq and now threatening same on several Iranian civilian commercial, operating reactors?
+[21.12.01 - 21:16:16] [[ASmith]]: now China, Russia must add civilian nuclear reactors to its targeting list because the West already has
+[21.12.01 - 21:16:29] [[h0p3]]: What do you think about the memed ads on German televisions for helping starving American children?
+[21.12.01 - 21:17:56] [[ASmith]]: well that mostly comes from the horrific bombing of the Yemeni civilians and the brutality ends up slaughtering the Yemeni children
+[21.12.01 - 21:19:20] [[ASmith]]: Israeli, Saudi contracted pilots bombed the Yemeni food warehouses, water treatment plants, open markets, to starve the Yemeni people, spread chorea and diseases
+[21.12.01 - 21:19:27] [[h0p3]]: There's been a significant upswing in interest in nuclear reactors, imho.
+[21.12.01 - 21:20:06] [[ASmith]]: well USA has about 50 reactors out of 100 that are way-way beyond their manufactured reactor's lifespans
+[21.12.01 - 21:20:56] [[ASmith]]: and even worse in regards to the targeting, each of those 100 have enormous piles of spent fuel rods in ponds and cases around those power reactors some 40 yrs worth
+[21.12.01 - 21:21:08] [[h0p3]]: Investment is public infrastructure has dwindled so much that I'm not convinced more are likely unless they are privately owned.
+[21.12.01 - 21:21:34] [[ASmith]]: a nuclear strike would loft all those mega tons of spent fuel plus the nuclear fuel in the reactor poisoning a sizeable region surrounding that site
+[21.12.01 - 21:22:04] [[h0p3]]: Back to MAD.
+[21.12.01 - 21:22:27] [[ASmith]]: there is no new reactors being constructed, even then, none would be online to replace around 50 that soon will be unable to operate and at 1-2 GW each, that takes alot to replace those
+[21.12.01 - 21:23:13] [[ASmith]]: The US Pentagon's interceptors appear to be a Psyop for the American, Western citizens to feel secure despite a first strike on Russia, China, N.Korea
+[21.12.01 - 21:23:35] [[ASmith]]: false hope of course but a psyop to calm the people
+[21.12.01 - 21:23:45] [[h0p3]]: Love me them opiates.
+[21.12.01 - 21:24:09] [[h0p3]]: I aim to be a man of [[hope]] in virtue of the truth, none-the-less.
+[21.12.01 - 21:24:18] [[ASmith]]: Russia is upping their Zircon hypersonic ballistic missile to mach 9, likely with evasive flight patterns, that would be extremely difficult to shoot down
+[21.12.01 - 21:25:05] [[h0p3]]: Oh, I have no doubt that if a country like Russia tried to destroy larges swaths of the US, there's no one who could stop them.
+[21.12.01 - 21:25:14] [[ASmith]]: the early series of 'The Last Boat' series was remarkable in painting some avenues of chaos following and during a deadly pandemic
+[21.12.01 - 21:26:03] [[ASmith]]: well the Zionists enlarging the targeting, really opens the doors to potentially eliminate billions of people
+[21.12.01 - 21:27:07] [[ASmith]]: and area denial weapons are likely on the war tables, Russia's deadly-deadly 3 spore Anthrax, some rumored mega tons of Crimea, a Smallpox-Ebola-cousin hydra functioning combination
+[21.12.01 - 21:28:13] [[h0p3]]: Deconstruction is easy; it's part of why I seek [[reconstruction]].
+[21.12.01 - 21:31:26] [[ASmith]]: Yes, Apartheid Israel loved ball and chain Trumps, likely for the same reason
+[21.12.01 - 21:32:32] [[h0p3]]: It's pretty impressive how any Trump spectacle continues at all. 
+[21.12.01 - 21:32:44] [[ASmith]]: Some elderly Beadioun people have had their homes destroyed 80 times by the wicked Israeli's, using armored bulldozers and now charging those elderly people $thousands for the demolition of their homes
+[21.12.01 - 21:34:14] [[h0p3]]: We continue to disagree with where the most powerful, evil people on the planet reside. I don't think they belong to any one country, though I agree they wield the nation-state of Israel to a non-trivial degree, and the actions Israel has taken are crimes against humanity.
+[21.12.01 - 21:34:35] [[h0p3]]: Israel has wrestled for thousands of years, sir. I do not know when that will end. 
+[21.12.01 - 21:35:34] [[ASmith]]: Hitler in the 1930's formed an agreement with the new Zionist movement in Berlin for his archtects to draw up the State of Israeli borders and towns
+[21.12.01 - 21:36:18] [[h0p3]]: That borderline drawing is older than the language we are speaking.
+[21.12.01 - 21:36:20] [[ASmith]]: Hitler had some kind of Jews in his lineage and likely knew Judaic Converts were banned from having a Jew State by the Judaic Diety, Torah and long vanished Hebrew Tribe leaders
+[21.12.01 - 21:36:55] [[ASmith]]: Hitler had a Zionist-Nazi coin formed to help fund the effort, likely to get back at the Jews Diety
+[21.12.01 - 21:37:26] [[h0p3]]: Do you believe in The Divine, sir?
+[21.12.01 - 21:37:27] [[ASmith]]: Practicing Judaic Converts have been Banned from having a Jew State as well as a Jew Army for a very long time
+[21.12.01 - 21:37:35] [[ASmith]]: sure, why not?
+[21.12.01 - 21:37:55] [[ASmith]]: You don't feel Hitler was divine do you?
+[21.12.01 - 21:38:00] [[h0p3]]: Me too. I think the reasons not to believe in such a thing lack merit. 
+[21.12.01 - 21:38:09] [[h0p3]]: Uh. Hitler was evil. 
+[21.12.01 - 21:38:58] [[ASmith]]: Zionist_Hitler_Haavara_Agreement, 1933
+[21.12.01 - 21:38:59] [[h0p3]]: I will agree that he, like the rest of us, are beneficiaries of what is divine in the world. That he could perceive anything at all requires that divinity obtains. He is no more divine than you or me though.
+[21.12.01 - 21:39:37] [[ASmith]]: https://en.wikipedia.org/wiki/Haavara_Agreement
+[21.12.01 - 21:39:43] [[h0p3]]: On it, sir. Gracias.
+[21.12.01 - 21:40:18] [[ASmith]]: https://4.bp.blogspot.com/-ViSNIu94Pho/VyKMPaMPSoI/AAAAAAAABMQ/gl2X36z-QTEURBwy5N_9GWsjEUfCPPYUACLcB/s1600/satangoebbelscoin.jpg
+[21.12.01 - 21:40:48] [[ASmith]]: So the 3rd Reich worked to finance the creation of the Zionists State
+[21.12.01 - 21:41:06] * TAS_Helpbot gives voice to liquidsnake
+[21.12.01 - 21:41:08] [[ASmith]]: IMO that was to establish the 4th Reich
+[21.12.01 - 21:41:11] [[ASmith]]: wb liquidsnake 
+[21.12.01 - 21:41:19] [[ASmith]]: what's shaking there?
+[21.12.01 - 21:41:46] [[ASmith]]: http://adeyinkamakinde.blogspot.com/2016/04/hitler-and-zionism-antony-beevor-and.html
+[21.12.01 - 21:42:10] liquidsnake not much
+[21.12.01 - 21:42:15] [[ASmith]]: Reinhard Heydrich, the high-ranking Nazi official who notoriously presided over the Wansee Conference noted at this time in history that "As a National Socialist, I am a Zionist."
+[21.12.01 - 21:42:18] liquidsnake been feeling like crap all day
+[21.12.01 - 21:42:51] [[ASmith]]: that is the exact same claim the mass killer of the norwegian leaders children stated in his manifesto, he was a national socialist and a Zionist
+[21.12.01 - 21:43:12] liquidsnake who are you talking to?
+[21.12.01 - 21:43:12] [[ASmith]]: oh, fall out from your family and the holiday liquidsnake ?
+[21.12.01 - 21:43:20] liquidsnake no
+[21.12.01 - 21:43:20] [[ASmith]]: [[h0p3]]: 
+[21.12.01 - 21:43:25] liquidsnake just allergies i guess
+[21.12.01 - 21:43:31] liquidsnake oh ok
+[21.12.01 - 21:43:38] [[ASmith]]: that nasty covid sneaking up your nose?
+[21.12.01 - 21:43:42] liquidsnake nope
+[21.12.01 - 21:43:45] liquidsnake never had it
+[21.12.01 - 21:43:56] liquidsnake hope i don't get it
+[21.12.01 - 21:44:05] [[ASmith]]: I hope you don't get it either my friend
+[21.12.01 - 21:44:15] liquidsnake omicron seems to be sneaking into the usa i read
+[21.12.01 - 21:44:25] liquidsnake already in the uk
+[21.12.01 - 21:44:32] [[ASmith]]: yep, the latest variant of a endemic RNA virus
+[21.12.01 - 21:44:45] liquidsnake this is never going to end
+[21.12.01 - 21:45:00] liquidsnake seems like a new variant creeps up every few months
+[21.12.01 - 21:45:13] liquidsnake makes me wonder if its being intentionally introduced
+[21.12.01 - 21:45:19] liquidsnake into the populace\
+[21.12.01 - 21:45:34] liquidsnake mass depopulation
+[21.12.01 - 21:45:34] [[ASmith]]: I wonder when we'll learn the white supremists and ultra-right 'nationalists' (zionists) are drenching flags and banners with covid19 viruses to spread to citizens of color?
+[21.12.01 - 21:45:54] [[ASmith]]: yeah, mass depopulation of the elderly and citizens of color
+[21.12.01 - 21:46:23] [[h0p3]]: Many of the white supremacists I encounter didn't even start believing covid was a serious problem until pretty recently.
+[21.12.01 - 21:47:20] liquidsnake well caucasion people get the virus too
+[21.12.01 - 21:47:26] [[h0p3]]: Many are still anti-vaxx in some form or another (though, I do not deny there are several wealthy agents who became much wealthier because they make money off vaccines).
+[21.12.01 - 21:47:31] liquidsnake and young people too
+[21.12.01 - 21:47:35] [[h0p3]]: It's true.
+[21.12.01 - 21:47:57] [[ASmith]]: colored minorities including native americans are heavily hit
+[21.12.01 - 21:48:27] [[ASmith]]: generally all skin heads in my region dislike hispanics, blacks and asians a great deal
+[21.12.01 - 21:48:31] [[h0p3]]: Indeed. Get hit from all sides too. 
+[21.12.01 - 21:48:36] liquidsnake its kind of like computer viruses. every time a new virus comes out, the anti-virus companies have a fix for it
+[21.12.01 - 21:48:56] liquidsnake almost like its planned
+[21.12.01 - 21:49:00] [[h0p3]]: Or, at least they make a lot of money monopolizing the process of making the vaccine
+[21.12.01 - 21:49:05] liquidsnake yeah
+[21.12.01 - 21:49:25] liquidsnake i wonder if the vaccine alters your dna tho?
+[21.12.01 - 21:49:38] liquidsnake and does the virus as well?
+[21.12.01 - 21:50:01] [[ASmith]]: think you'll become one of the lizard people liquidsnake ?
+[21.12.01 - 21:50:13] liquidsnake there was the beta variant and then the mu variant and i never heard anything else about those
+[21.12.01 - 21:50:36] liquidsnake lol
+[21.12.01 - 21:50:54] liquidsnake well maybe they want us to join their reptilian ranks
+[21.12.01 - 21:50:57] [[ASmith]]: its amazing how the Zionists seem to be acting like those lizards in 'The Arrival', denying climate change and global heating, buying up thousands of uncapped methane wells to just spew out deadly methane into the atmosphere
+[21.12.01 - 21:50:58] liquidsnake lol
+[21.12.01 - 21:51:20] [[ASmith]]: to what end, the ZOG's seem hell bent on destroying mass populations and the earth both
+[21.12.01 - 21:51:30] liquidsnake dang aliens always interfering
+[21.12.01 - 21:51:45] [[ASmith]]: dunno, just seems a concidence
+[21.12.01 - 21:51:45] liquidsnake lol
+[21.12.01 - 21:52:01] liquidsnake well look at the georgia guidestones
+[21.12.01 - 21:52:02] [[ASmith]]: the arrival, they live, zionist puppet masters operating in the shadows
+[21.12.01 - 21:52:11] liquidsnake it says right there what they're plan is
+[21.12.01 - 21:52:41] [[h0p3]]: Arrival made me cry. It was quite a film. 
+[21.12.01 - 22:34:59] [[ASmith]]: I'm looking forward to the Beijing Olympic Games, although I suspect the wicked Zionists have some plot to carry out falseflag attacks, wars, bombings in a effort to draw attention back to Apartheid Israel and their criminal regime
+[21.12.01 - 22:35:15] liquidsnake yeah perhaps
+[21.12.01 - 22:36:02] [[ASmith]]: I remember their previous Olympics, wow those Chinese ladys that greeted the olympians were knockouts
+[21.12.01 - 22:37:53] [[ASmith]]: did you add a tree this year or just bah humbug liquidsnake , [[h0p3]] ?
+[21.12.01 - 22:38:44] [[h0p3]]: My wife bought a small metal tree this year to go along with the Nativity set because only half the people in the house are Christians, and everyone likes trees (and shiny ones at that).
+[21.12.01 - 22:39:02] [[ASmith]]: that's great [[h0p3]] 
+[21.12.01 - 22:39:05] liquidsnake i don't decorate
+[21.12.01 - 22:39:10] liquidsnake whats the pont
+[21.12.01 - 22:39:12] liquidsnake lol
+[21.12.01 - 22:39:14] [[h0p3]]: Preach, yo.
+[21.12.01 - 22:39:16] liquidsnake no one ever comes by
+[21.12.01 - 22:39:33] [[ASmith]]: the kid and his then GF packed up my portable tree, didn't look like they cared if I used it again so sans tree this year here
+[21.12.01 - 22:39:57] [[ASmith]]: never know, perhaps bell ringers or salvation army there liquidsnake ?
+[21.12.01 - 22:40:04] liquidsnake i'm just a lonely nerd
+[21.12.01 - 22:40:07] liquidsnake lol
+[21.12.01 - 22:40:21] liquidsnake jk
+[21.12.01 - 22:40:27] liquidsnake not really lonely
+[21.12.01 - 22:40:27] [[ASmith]]: put a red light in your outside light, see if your traffic pickes up ;)
+[21.12.01 - 22:40:37] liquidsnake my neighbors visit sometimes
+[21.12.01 - 22:40:59] [[ASmith]]: clear out your mushrooms, beers or buds, liquidsnake ?
+[21.12.01 - 22:41:24] liquidsnake oh we have an emergency red light outside that lights up when we pull the emergency switch inside and a loud buzzer goes off
+[21.12.01 - 22:41:42] liquidsnake the management tests it evry now and again
+[21.12.01 - 22:41:54] liquidsnake per their 90 day inspections
+[21.12.01 - 22:42:18] [[ASmith]]: I see, one of my friends lived in a small town named Phoenix, and they often all hours of the day and sometimes night, blew a huge air-raid siren
+[21.12.01 - 22:42:30] [[ASmith]]: I guess it was for the preppers to get used to the wail and prepare
+[21.12.01 - 22:43:39] liquidsnake yeah
+[21.12.01 - 22:43:42] [[ASmith]]: did you buy a gift for yourself yet liquidsnake , [[h0p3]] ?
+[21.12.01 - 22:43:52] liquidsnake yeah bought a whore
+[21.12.01 - 22:43:56] liquidsnake lol
+[21.12.01 - 22:43:58] [[ASmith]]: yikes
+[21.12.01 - 22:44:02] liquidsnake a nice russian whore
+[21.12.01 - 22:44:14] liquidsnake jk
+[21.12.01 - 22:44:16] liquidsnake lol
+[21.12.01 - 22:44:18] [[ASmith]]: she's flying out from Moscow?
+[21.12.01 - 22:44:24] [[ASmith]]: met her on line?
+[21.12.01 - 22:44:49] liquidsnake i got myself some warm house shoes cuz my feet get cold easy on this hard floor
+[21.12.01 - 22:44:52] [[ASmith]]: some employee was spending nearly all his salary on such, she was probably a guy, lol
+[21.12.01 - 22:45:10] liquidsnake and got another mouse for gaming
+[21.12.01 - 22:45:26] * [[ASmith]] visualizes liquidsnake long toe nails clicking along on a hard wood floor
+[21.12.01 - 22:45:27] liquidsnake got me 3 pairs of new glasses
+[21.12.01 - 22:45:39] liquidsnake since i have to wear bifocals now
+[21.12.01 - 22:45:42] [[h0p3]]: I don't really get gifts for myself, though we do spend $20 on each other. I think I have most of my shopping done. 
+[21.12.01 - 22:46:15] [[h0p3]]: You do the Zenni route, liquidsnake?
+[21.12.01 - 22:46:22] liquidsnake i'm going to buy some curtains and curtain rods and get a usb hub and some herbal supplements
+[21.12.01 - 22:46:41] liquidsnake among other things
+[21.12.01 - 22:46:43] [[h0p3]]: I saw that USB hub part. You might consider getting one with an addition power supply. I've run into trouble on some.
+[21.12.01 - 22:46:47] liquidsnake i can't think of right now
+[21.12.01 - 22:47:07] liquidsnake i'm trying to find a decent gaming laptop for my son
+[21.12.01 - 22:47:15] liquidsnake ahh ok [[h0p3]] good to know thanks
+[21.12.01 - 22:47:22] liquidsnake and what is Zenni?
+[21.12.01 - 22:47:36] [[h0p3]]: https://www.zennioptical.com/
+[21.12.01 - 22:47:48] liquidsnake oh no i use goggles4u
+[21.12.01 - 22:47:57] [[h0p3]]: I've gotten some pretty good deals for the family here. I've not bought a pair in a very long time, but I need to again. 
+[21.12.01 - 22:47:57] liquidsnake they're based in california
+[21.12.01 - 22:48:26] [[h0p3]]: I'll have to check them out my next time here.
+[21.12.01 - 22:48:29] liquidsnake goggles4u always sends me discounts in my email and they had some black friday deals going on
+[21.12.01 - 22:48:48] liquidsnake 71% off and 72% off and bogo
+[21.12.01 - 22:49:05] liquidsnake i got 3 pairs of glasses for under a $100
+[21.12.01 - 22:49:13] liquidsnake with all the coatings
+[21.12.01 - 22:49:27] [[h0p3]]: Dope.
+[21.12.01 - 22:49:30] liquidsnake i just had a new eye exam done
+[21.12.01 - 22:49:40] [[h0p3]]: I needs to get me one of them.
+[21.12.01 - 22:49:40] liquidsnake so i had to get new glasses
+[21.12.01 - 22:49:58] liquidsnake yep
+[21.12.01 - 22:50:21] liquidsnake so are you saying the usb hubs that are usb powered aren't so great [[h0p3]] ?
+[21.12.01 - 22:50:35] liquidsnake better to have an external power supply
+[21.12.01 - 22:50:38] liquidsnake ?
+[21.12.01 - 22:50:57] [[ASmith]]: usb-c is pretty stable I think, fast also
+[21.12.01 - 22:50:57] liquidsnake let me see what i got saved
+[21.12.01 - 22:51:02] liquidsnake ph ok
+[21.12.01 - 22:51:07] liquidsnake oh ok
+[21.12.01 - 22:51:32] [[h0p3]]: I've not tried a USB-C hub. It's possible these problems have been fixed since I last acquired one. 
+[21.12.01 - 22:51:46] [[ASmith]]: yeah Zennis got a new deal on sports glasses that are RX, around $30
+[21.12.01 - 22:52:58] liquidsnake yeah this is a usb c
+[21.12.01 - 22:53:14] liquidsnake i got to get a 2tb or 4tb ssd too
+[21.12.01 - 22:53:21] [[h0p3]]: Going NVME?
+[21.12.01 - 22:53:32] liquidsnake running out of space for my movie collection
+[21.12.01 - 22:53:37] [[ASmith]]: why SSD ?
+[21.12.01 - 22:54:04] liquidsnake cuz its better than the spinning rust i have lol
+[21.12.01 - 22:54:15] [[ASmith]]: I see
+[21.12.01 - 22:54:25] liquidsnake nvme is same price as ssd
+[21.12.01 - 22:54:28] liquidsnake ?
+[21.12.01 - 22:54:35] [[ASmith]]: for file systems that don't beat up a SSD, yep very fast
+[21.12.01 - 22:55:06] [[h0p3]]: NVME is an SSD, but it tends to be connected closer to the PCI-E slot of your motherboard. The Sata3 SSDs are bottlenecked.
+[21.12.01 - 22:55:07] liquidsnake yeah i need to transfer my movie collection to a better drive
+[21.12.01 - 22:55:11] [[ASmith]]: enterprise HD's are generally for archiving in the corporate world
+[21.12.01 - 22:55:19] liquidsnake oh isee
+[21.12.01 - 22:55:45] liquidsnake well i'm talking about a portable ssd
+[21.12.01 - 22:55:48] [[h0p3]]: It aint cheap though. I still store my movies on an HDD.
+[21.12.01 - 22:56:28] liquidsnake i have some movies on an old 320gb hdd and the rest on a 1tb hdd
+[21.12.01 - 22:56:49] [[h0p3]]: They make NVME enclosures, and USB-C has good throughput (significantly better bus speed than Sata3).
+[21.12.01 - 22:56:56] liquidsnake i do have an empty 1tb hdd on this laptop tho
+[21.12.01 - 22:57:07] liquidsnake oh ok good to know
+[21.12.01 - 22:57:08] [[h0p3]]: But, since it's external, you might just be better off with a regular 2.5".
+[21.12.01 - 22:57:18] liquidsnake i'm behind the times i guess lol
+[21.12.01 - 22:57:21] [[ASmith]]: I started with a coupld 1 TB Red Label WD NAS HD's then added two 6 TB Yellow Label earthquake proof archiving HD's
+[21.12.01 - 22:57:54] [[ASmith]]: made for WW3 bunkers, built to safely deal with all kinds of G's from rubble, earthquakes and slamming down on the ground
+[21.12.01 - 22:57:59] liquidsnake i also have a desktop with an empty drive but its an old ide drive
+[21.12.01 - 22:58:11] liquidsnake yeah i know [[ASmith]] 
+[21.12.01 - 22:58:12] liquidsnake lol
+[21.12.01 - 22:58:22] [[ASmith]]: salvation army that one liquidsnake 
+[21.12.01 - 22:58:28] liquidsnake lol
+[21.12.01 - 22:58:53] liquidsnake who will be your successor when you pass on [[ASmith]] ?
+[21.12.01 - 22:59:07] [[ASmith]]: salvation army!
+[21.12.01 - 22:59:09] liquidsnake you going to teach the kid there how to operate everything?
+[21.12.01 - 22:59:13] [[ASmith]]: no way
+[21.12.01 - 22:59:16] liquidsnake lol\
+[21.12.01 - 22:59:44] [[ASmith]]: he'd trade of my 10+ TB HD's for acouple bags of dope
+[21.12.01 - 22:59:55] liquidsnake how about a university so your servers remain online
+[21.12.01 - 23:00:08] liquidsnake yeah he prolly would lol
+[21.12.01 - 23:00:36] liquidsnake i've already told my oldest son he can have my electronics
+[21.12.01 - 23:00:55] [[h0p3]]: He like computers, liquidsnake?
+[21.12.01 - 23:01:16] liquidsnake he's in the marines and is a transmision operator and my youngest son is big into gaming and computers
+[21.12.01 - 23:01:35] liquidsnake well they can split it actually
+[21.12.01 - 23:01:45] liquidsnake i'm sure i'll have more by the time i pass on
+[21.12.01 - 23:02:15] liquidsnake currently have 4 computers. i used to have more but i ran out of space lol
+[21.12.01 - 23:02:30] liquidsnake i used to be bad about hoarding computer parts
+[21.12.01 - 23:02:33] [[h0p3]]: I hope you find one to rule them all some day.
+[21.12.01 - 23:02:43] liquidsnake i'd be like, well i might need this one day
+[21.12.01 - 23:02:45] [[h0p3]]: We just went through a lot of my stuff and put a box of it in the attic.
+[21.12.01 - 23:02:50] [[h0p3]]: I know that feel.
+[21.12.01 - 23:02:56] * TAS_Helpbot gives channel operator status to [[ASmith]]
+[21.12.01 - 23:02:57] [[h0p3]]: Still keep my SVGA cords.
+[21.12.01 - 23:02:57] * TAS_Helpbot sets channel limit to 31
+[21.12.01 - 23:03:05] liquidsnake yeah me too lol
+[21.12.01 - 23:03:14] liquidsnake wb [[ASmith]] 
+[21.12.01 - 23:03:39] [[ASmith]]: ty, kid called a delivery pizza then ran into the bathtub
+[21.12.01 - 23:03:53] liquidsnake lol
+[21.12.01 - 23:04:03] [[h0p3]]: :P
+[21.12.01 - 23:04:06] liquidsnake pizza sounds good
+[21.12.01 - 23:04:12] liquidsnake i had stri fry tonight
+[21.12.01 - 23:04:14] [[h0p3]]: yeah [[itdo]]
+[21.12.01 - 23:04:15] liquidsnake stir
+[21.12.01 - 23:04:19] [[h0p3]]: That's what we had.
+[21.12.01 - 23:04:23] [[ASmith]]: yeah, not 'surprise' pizza though
+[21.12.01 - 23:04:23] [[h0p3]]: Noodle stirfry
+[21.12.01 - 23:04:27] liquidsnake lol crazy
+[21.12.01 - 23:04:57] [[h0p3]]: Sounds like an amazing prankster.
+[21.12.01 - 23:05:19] [[ASmith]]: no comment :(
+[21.12.01 - 23:05:25] [[h0p3]]: Yes, sir. `/salute`.
+[21.12.01 - 23:05:29] [[h0p3]]: You're doing whatcha can.
+[21.12.01 - 23:06:06] liquidsnake send him to military school
+[21.12.01 - 23:06:09] liquidsnake lol
+[21.12.01 - 23:06:53] [[h0p3]]: It's not an easy position to be in.
+[21.12.01 - 23:07:00] [[h0p3]]: Keeping him alive.
+[21.12.01 - 23:07:04] [[ASmith]]: I told my parents to do that years ago
+[21.12.01 - 23:07:29] [[ASmith]]: one kid did however, joined the marines, the smallest of the lot
+[21.12.01 - 23:07:51] liquidsnake good for him
+[21.12.01 - 23:08:00] [[h0p3]]: Not easy being a dad.
+[21.12.01 - 23:08:27] [[ASmith]]: these are my late brothers kids which makes it very hard
+[21.12.01 - 23:08:43] liquidsnake well i can honestly say i never really had any trouble with my sons
+[21.12.01 - 23:08:50] [[h0p3]]: Man of great integrity, sir.
+[21.12.01 - 23:09:05] liquidsnake ]they're good boys
+[21.12.01 - 23:09:09] liquidsnake i'm proud of them
+[21.12.01 - 23:09:13] * TAS_Helpbot sets channel limit to 29
+[21.12.01 - 23:09:19] [[ASmith]]: that's great liquidsnake 
+[21.12.01 - 23:09:44] [[ASmith]]: able to log into tascloud.me lately there liquidsnake ?
+[21.12.01 - 23:09:50] liquidsnake hmm
+[21.12.01 - 23:10:01] liquidsnake not sure if i logged in today or not
+[21.12.01 - 23:10:06] liquidsnake yesterday i did
+[21.12.01 - 23:10:13] [[ASmith]]: ah, no problems then?
+[21.12.01 - 23:10:21] liquidsnake i don't think i did today cuz i was feeling ill
+[21.12.01 - 23:10:29] liquidsnake let me see
+[21.12.01 - 23:10:58] [[ASmith]]: that's fine, just asking
+[21.12.01 - 23:11:27] liquidsnake yep no dice
+[21.12.01 - 23:11:32] [[ASmith]]: ?
+[21.12.01 - 23:11:35] liquidsnake host error
+[21.12.01 - 23:12:12] liquidsnake browser working, cloudflare working, but not host
+[21.12.01 - 23:12:20] liquidsnake thats what it says
+[21.12.01 - 23:12:39] liquidsnake brb
+[21.12.01 - 23:13:00] [[ASmith]]: ISPN has been rotating the IPv4 daily or more
+[21.12.01 - 23:13:08] [[ASmith]]: its fixed now liquidsnake , ty
+[21.12.01 - 23:13:55] [[ASmith]]: cut the attempt back to https://tascloud.me  and go for that, liquidsnake 
+[21.12.01 - 23:13:55] [[h0p3]]: That is infuriating. 
+[21.12.01 - 23:14:05] [[ASmith]]: yeah, DDOS attacks are down now
+[21.12.01 - 23:14:23] [[ASmith]]: kids probably involved in the rotating IPv4
+[21.12.01 - 23:14:50] [[ASmith]]: I've locked down the router but there's multiple leeches on the wifi that I have to walk through to see what is what
+[21.12.01 - 23:15:19] [[ASmith]]: kid probably told some block friends what the wifi password was
+[21.12.01 - 23:16:11] [[ASmith]]: yep attacks down to 7,234 blocked now, that's more than 50% down
+[21.12.01 - 23:16:13] liquidsnake ahh ok
+[21.12.01 - 23:16:19] [[ASmith]]: ok now?
+[21.12.01 - 23:16:21] liquidsnake let me try again
+[21.12.01 - 23:16:48] [[h0p3]]: It's up
+[21.12.01 - 23:16:50] liquidsnake yep working no
+[21.12.01 - 23:16:52] liquidsnake now
+[21.12.01 - 23:16:55] [[ASmith]]: its alive!
+[21.12.01 - 23:16:59] liquidsnake lol
+[21.12.01 - 23:17:21] liquidsnake well i'm going to find a snack to eat and watch Venom 2. Its the lst on my list to watch
+[21.12.01 - 23:17:31] liquidsnake any other recommendations?
+[21.12.01 - 23:17:43] liquidsnake last*
+[21.12.01 - 23:18:10] [[ASmith]]: darkMX?
+[21.12.01 - 23:18:21] [[ASmith]]: https://darkmx.app/
+[21.12.01 - 23:18:41] [[ASmith]]: easy stand alone linux install liquidsnake 
+[21.12.01 - 23:18:47] [[ASmith]]: tor hidden service routed
+[21.12.01 - 23:19:18] [[h0p3]]: It's a well-conceived project.
+[21.12.01 - 23:19:24] liquidsnake yeah you told me about ti. i have the bookmark saved
+[21.12.01 - 23:19:26] liquidsnake it
+[21.12.01 - 23:19:42] liquidsnake i was referring to movie recommendations lol
+[21.12.01 - 23:20:17] liquidsnake i'll get around to setting it up eventually lol
+[21.12.01 - 23:20:26] liquidsnake the darkmx
+[21.12.01 - 23:20:28] [[ASmith]]: ah the archive has compiled, April 2022
+[21.12.01 - 23:20:31] [[h0p3]]: My recommendations for movies: https://philosopher.life/#Film%3A%20Library
+[21.12.01 - 23:20:38] [[ASmith]]: 84000_Plus_Movies_April.2022.zip
+[21.12.01 - 23:22:08] liquidsnake [[h0p3]], i have most of those movies lol
+[21.12.01 - 23:22:28] liquidsnake i might check out whats new on some streaming servicess
+[21.12.01 - 23:22:44] liquidsnake wheel of time on amazon prime video is supposed o be good
+[21.12.01 - 23:22:47] liquidsnake to
+[21.12.01 - 23:23:14] liquidsnake also, [[h0p3]]  why is it that on that site you gave me, the page header is all scrambled?
+[21.12.01 - 23:23:25] [[h0p3]]: A e s t h e t i c
+[21.12.01 - 23:23:28] [[h0p3]]: as the kids say, these days
+[21.12.01 - 23:23:30] liquidsnake i've never seen anything like that
+[21.12.01 - 23:24:04] liquidsnake only wih virus infested machines and/or sites
+[21.12.01 - 23:24:17] liquidsnake ahh i see ok
+[21.12.01 - 23:24:31] [[h0p3]]: It is my pile of degeneracy. 
+[21.12.01 - 23:24:36] liquidsnake lol
+[21.12.01 - 23:25:16] liquidsnake ok well good chatting with ya'll! have a good one! take care!
+[21.12.01 - 23:25:23] [[h0p3]]: `/wave`
+[21.12.01 - 23:30:02] [[ASmith]]: https://github.com/RetroShare/RetroShare/pull/2495
+[21.12.01 - 23:30:15] [[ASmith]]: ok liquidsnake, cya, gd'nite there
+[21.12.01 - 23:30:29] [[ASmith]]: WIP V0.6 friend server
+[21.12.01 - 23:31:08] [[h0p3]]: If that tool existed when Retroshare first came out, it may have taken over. 
+[21.12.01 - 23:31:35] [[ASmith]]: possibly, in the early days RS was widely seen as for geeks only
+[21.12.01 - 23:31:43] [[h0p3]]: Still is, hehe. =)
+[21.12.01 - 23:31:47] [[ASmith]]: there's been some inroads but its been slow, yes
+[21.12.01 - 23:32:07] [[ASmith]]: I don't like the mystery click around the frames to see if there's hidden widgets
+[21.12.01 - 23:34:09] [[h0p3]]: I'm wondering if that was a rapid prototyping side-effect.
+[21.12.01 - 23:34:29] [[ASmith]]: don't think so, on my other apps perhaps, they are much newer than RS
+[21.12.01 - 23:34:29] [[h0p3]]: Could be on purpose, I don't know.
+[21.12.01 - 23:35:15] [[h0p3]]: I really want first class CLI interfacing with DarkMX.
+[21.12.01 - 23:35:35] [[ASmith]]: seems juvinal to force people to hunt and peck or know someone that knows someone that knows where xyz is to be had
+[21.12.01 - 23:35:53] [[ASmith]]: that would be nice yes
+[21.12.01 - 23:36:02] [[h0p3]]: It's hard to get user interfaces for these tools correct.
+[21.12.01 - 23:36:15] [[ASmith]]: not a swiss army knife like RS, just do afew main tools well
+[21.12.01 - 23:36:44] [[ASmith]]: RS really needs a QT5+ expert but no funding, no donations can etc.
+[21.12.01 - 23:37:44] [[ASmith]]: I urged Cyril to split RS into a main foundation of Chat and add friends, then have all other tools as modular add-ons for users to optionally add or not
+[21.12.01 - 23:38:10] [[ASmith]]: that would likely skyrocket chat user and acceptability 
+[21.12.01 - 23:38:56] [[ASmith]]: the problem with 12 tools on RS is the programming sometimes abstractlly ripples across to interfer far outside the scope or widget you are enhancing
+[21.12.01 - 23:39:05] [[h0p3]]: Do you think DarkMX will suffer from trying to do too many things at once? Or, even just to do "ultimate filesharing" network?
+[21.12.01 - 23:40:06] [[h0p3]]: This is an interesting tool, btw: https://github.com/pranomostro/ratox
+[21.12.01 - 23:40:21] [[ASmith]]: no, the dev has 3-4 previous p2p networks he designed and built, operated, with I think 2 still up, 3 if you count DarkMX 
+[21.12.01 - 23:40:39] [[h0p3]]: I was a WinMX user long, long ago.
+[21.12.01 - 23:40:51] [[h0p3]]: I've tried the rest of the software over the years.
+[21.12.01 - 23:41:15] [[h0p3]]: It's the only reason I'm still using [[DarkMX]]. His reputation is the only thing that makes me trust it at all.
+[21.12.01 - 23:41:39] [[h0p3]]: Otherwise, it would be yet another https://utopia-ecosystem.com
+[21.12.01 - 23:41:45] [[ASmith]]: same
+"""

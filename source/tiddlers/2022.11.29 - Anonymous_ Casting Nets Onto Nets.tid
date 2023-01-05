@@ -1,0 +1,157 @@
+created: 20221129100122699
+modified: 20221203145351876
+tags: Anonymous fourmyle57 4chan Live groupchat
+title: 2022.11.29 - Anonymous: Casting Nets Onto Nets
+
+//cropped, omnibarless [[micropenis]].png//
+
+!! /g/: Fulfillment
+
+<<<
+I have a cushy dev job at a fang a product you all use. I am not rich enough to retire yet but will be in about 10-15 just by staying where I am at. The job is about as good as gets in big tech. I feel unfulfilled however.
+
+I currently spend my free time learning maths that I didn’t in college because I was lazy back then. Trying to find more ways to contribute creatively back. I did startups in my 20s and don’t have much interest in that anymore. I am not super money driven and I will get rich enough in my current situation and my wife is hot.
+
+I oscillate between wanting to make a game and thinking games are a complete waste of time, however the programming seems interesting. I am decent enough at algos to pass FANG interviews but have some urge to really git gud and go through CLRS finally but it feels masturbatory at this point. VR is semi cool but I really only use computers at this point for coding etc and don’t want to add more screen time to the world.
+
+I could start hacking and get into cyber security I suppose but I don’t have enough balls to do anything useful with it due to being married and liking my wife.
+
+I am already in shape and look like a Calvin Klein model and play ice hockey for cardio and lift.
+
+I suppose the path is to work on OSS but finding something I care about is hard. Maybe some BSD? Looking for recommendations here.
+
+I buy into the crypto replacing the fed dream and there is some cool tech in the space but realistically at this point exchanges ruined crypto. I suppose I could look into contributing to one of the good ones like Monero.
+
+Really just looking to find something to build/hack on again that isn’t just me trying to improve how good I am at the 1337 code game. Open to ideas from the idea guys too but desu I hate technology at this point.
+
+My best idea right now is to really dive into privacy computing and then write a book on it. No one cares though.
+<<<
+
+A high-performance DHT tool that focused on privacy, anonymity, and enabling mobile devices to participate on the network remains a crucial unsolved problem. Happy to work on it with you, [[anon]].
+
+> This is interesting, however no idea how we could connect anon, don't see a dm feature. Open to suggestions.
+
+https://philosopher.life/#Contact%20h0p3
+
+Protonmail and Tox have stood the test of time for me. Since I work out in the open: I'm also happy to simply read off your site, and you can read off mine (I've done this with many as well).
+
+<br>
+
+!! /r9k/: gibberish
+
+"""
+_.~"~._.~"~._.~"~._.~"~._.~"~._.~"~._.~"~._.~"~._
+Existential Anxiety Club Motto: Why Are We Here?
+"~._.~"~._.~"~._.~"~._.~"~._.~"~._.~"~._.~"~._.~"
+"""
+
+
+=^_^=
+
+An unwritten rule of life:
+
+> "the holy spirit (you want to be filled, right?)s"
+> Sounds like OP needs to install Grindr and get TOPPED
+
+No one has sent me unsolicited dick or feet pics yet. Did I do something wrong? Am I just not cool enough?
+
+> Cute club and cute motto
+> cute cute cuuute
+
+That's kind of you. <3
+
+I think I relate to your picture (though I do not know its origins): plugged in, living on the wire.
+
+> Why do you think we are here? I recognise your website, it's been awhile since you've posted anon. How are you keeping yourself busy?
+
+That's an important question, [[anon]]. There are perhaps several valuable interpretations of it. 
+
+* I don't know who all is here, nor their motives for being here. I have my guesses about why people tend to visit this site. 
+* What are we here in the universe? What do I think our purpose is? To understand what is [[Good]], and [[love]] each [[other]] as best we can with what we have. These are expensive tasks, no doubt.
+
+I'm surprised anyone recognized my site. And, you are correct, I very rarely post here. It's an honor, [[anon]]. Conversation is a sacrament. 
+
+I remain quite busy attempting to find [[justice]] and more. https://philosopher.life/#Timelines. I cannot say I am successful, [[anon]]. `/smh`. Beyond my hyperreading, I've been working on [[Monsternix]]. I've been speaking with a variety of developers of tools I admire, attempting to assist them with what little I understand. [[Recent]]ly (tonight), I encountered [[fourmyle57]], who appears to be interested in thinking about what a proper DHT needs to be. I'm slowly working my way toward that for a while. I've also been serving files to those in need, speaking to those who wish to speak with me, and [[carpen all them diems|Carpe Tempus Segmentum]] offline with the family (which has been more emotionally expensive than I've been able to effectively communicate in writing). 
+
+I am a blind wanderer in the desert, [[anon]]. How is your life going? I wish I knew more about you.
+
+> "I recognise your website"
+> link
+
+https://philosopher.life is the primary access point, [[anon]]. It's bundled into one html file, so you can read it offline, if you prefer.
+
+<br>
+
+!! /g/: NixOS
+
+Trying to transition over to NixOS and build my new system from scratch. It's been a long time since I've done so. I'm hoping to make this my last build and just tweak it for decades.
+
+I'm definitely going to be using at least podman containers, but there are some applications that I'd prefer to have more isolation for. Thinkin' about firecracker, kata, or gvisor. I've little experience in this realm. If you've thought about or gone down this road, what have you found?
+
+> what's the point of nixOS?
+
+>> its like arch but more complicated, less doccumentation and no packages
+>> but it has a cute mascot
+
+That's an important question, [[anon]]. I'm only scratching the surface here. I'm also no expert, so please take my opinion with a grain of salt.
+
+The point is to leverage declaring the configuration of the entire OS up front, in a single file if you want. It allows you to change, rollback, and reproduce your system (even if it is complex) with ease.
+
+It avoids dependency hell because of the way it uses hashes for naming packages. The root system can be largely immutable.
+
+It is often shockingly easy to configure software through the nix package system, abstracting away the work you'd do on a vanilla installation. In the long-run, its model (Guix is similar) is going to be the cheapest way to consistently construct custom complex computing systems. That said, it's still quite an investment of time to learn, imho.
+
+NixOS is obviously not perfect, but it's progress for my usecase. To my eyes, it still has decades of innovation to go, but it's usable now. I'll still have Arch (my favorite for a long time) available through bubblewrap/JuNest and podman/Distrobox.
+
+There's no substitute for trying it out.
+
+> good to know, thanks
+
+`/salute`. It's my privilege. HMU sometime if you ever want to shoot the shit about loonix or anything.
+
+> I've been using NixOS since late 2018 and I think I'm finally reaching a satisfactory state for my configs. I still have my vps on a separate repo when I could easily have it as an output in my flake. Keeping it separate allows me some nice abstractions however.
+
+Is it crazy not to use flakes? I don't care for their being experimental still.
+
+> "Trying to transition"
+> ywnbaw
+
+''''
+
+> Flakes are included by default on nix since 2.6. Never had any stability issues and its less finnicky than pinning nixpkgs.
+
+
+
+<br>
+
+!! /pol/: poor bonoboan commie faggot lapdog for the Jews
+
+As an abolitionist or eliminativist, I often feel gender identity tends to serve as a nebulous socially constructed trap for faux virtue signaling among competing identitarian tribes in a fashion market of arbitrarily regulated words used as a relatively low-violence measurement of who has power and the appearance of respect among professional victims. Of course, there are moral limits to both compelled speech and blindly validating people's stories and personalities (as though these are protected classes we can't question or criticize). We don't escape categorizing and naming ourselves, but it's crucial to see that self-identification is meaningful primarily because it's an input for improving our models of objective facts, even concerning our own subjectivities. It remains far from obvious to me why we should think we have an inalienable moral right to be publicly recognized by what we declare ourselves to be merely because we declared it, including gender identity. Nor do I see a reason to think one would have absolutely privileged access to one's gender identity either, as though it is necessarily better identified from a first-person perspective. From what I can see: gender identity is a fully particularized personality or disposition (wherein every person is their own gender), and if it's not that, it's a fiction, even if the consequences of this labeling spectacle are quite real. We can be inclusive, tolerant, sensitive to dysphoria, open to the imaginative, and prima facie work to refer to people by their preferred labels without accepting that gender identity is objectively real (or even coherent) beyond ideological headcanon. 
+
+Without resorting to gender identity realism (which isn't a denial of differences between and dok of sexes) or assenting to conditioning within social markets tout court: analyzing sexual dysphoria, assigned or aspirational gender roles, and internalized or endorsed gender norms sufficiently achieves the essential conceptual and explanatory heavy lifting we require as egalitarians. Don't blindly affirm gender identities; subvert them. Why seek to make a better kind of femininity, masculinity, or otherinity? Why attempt to discover yet more gender roles? Instead, work to do away with these roles (which isn't to say each of us doesn't have a role to play in the world), and de-internalize, mitigate, and compensate for the disadvantages generated by unjustified gender norms (which isn't to say there aren't universal norms we ought live by), particularly those arising from exploitative markets and irrational social pressures. Pursue a post-gender-identity world that recognizes the damage this fiction has caused, and focus on the highest priority class warfare problems at the heart of material injustice. What matters about who we are is that we're persons; we're moral agents, and we owe each other a great deal.
+
+> You poor commie faggot. You really don't understand the Jew do you? ONE: Jews created communism as a grift to enroll the misfits of society into a revolution against their leaders and betters. All in the name of "inclusion and equality". But what did you goyim communists get? You got Jewish overlords ruling you and shooting any useful idiot goyim they thought might launch a counter revolution against their power. Communism was just a trick so Jews could will themselves to power. Stalin purged the Jews. So what was left? Quasi Judeo-Communism. Same despotism but with 50% less Jew. Still not real communism. So what did the Jews do? They became American Neo-Cons getting useful idiot christian goyim to die fighting goyim communism that lived on after Jews were deposed from the throne. They are NEVER going to let you goyim have your dear sweet class warfare, now that they control all the banks, wall street and most of the productive wealth not to mention the media and academia. The WHOLE fucking point of the counter culture revolution of the 60s was to SUBVERT class warfare since the Jews were taking over capitalism and taking all the wealth away from white people and replace class warfare with culture war which Jews could arm with critical theory rhetoric and aim at white people to tear them apart further. You wanna get past the social constructs? You wanna get to real equality? They you have to name the Jew and target the 1% for a WE THE PEOPLE revolution. We the 99%. But you won't. Because you are lapdogs for the Jew. You honestly think that white Christians are still the bourgeoisie when most of them live paycheck to paycheck while the Jews hold all the positions of power. You're fucking mongs and always will be.
+
+I listen to those I deem crazy, even the evil ones, because time and time again they have revealed my blindness. So, please, go on, speak the truth, even if your voice shakes. I'm listening. Ceterum censeo Carthaginem esse delendam.
+
+> one word
+> Dial 8 YWNBAW
+> Fpbp
+
+''''
+
+> We owe each other nothing. To say otherwise presumes a superior moral ethic of which faux commie anarchists can never deliver upon said promises. Why? Because communists fail to understand the human condition and human behavior to cheat their neighbor and they system. We are NOT moral agents. We are immoral agents. This is why cooperative self-service actually works to distribute resources in the most fair way possible. By people's actual worth. Of course this gets completely twisted by finance but in real wealth terms sans Jew controlled fiat money, the classical period of economics was fairly accurate at discharging wealth to those who made it even under the tyranny of kings and nobles. Adam Smith recognized the power of free markets to democratize wealth distribution. People simple work better in a hierarchy of self-service under a moral code of christian temperance, i.e. the Protestant work ethic. Which is the best system of human cooperation ever conceived. I created the world's democracies. It is the western cannon. Communism is a pipe dream of fools that believe Jewish lies. There can be no "transcendence" so long as profit is the key motivator and Jews will make sure it always is, which is why they sow discord through diversity and arming multiculturalism with identitarian hate for all things white and white people. Jews have destroyed community trust which is the very foundation of communism. People must be willing to sacrifice for the tribe. Niggers don't even sacrifice for each other and you expect them to sacrifice for white people? The most anti social mob in the world is going to comply with communism? You must be fucking high. Niggers are the most self serving animals in the world and the Jew knows this which is why he floods white nations with them. They block communism and nationalism both systems needing high trust communities. But Jewish Zionism in which the mob is energized against white Christians serves the Jewish profit motive.
+
+''''
+
+> do you have to 'categorize' yourself while doing mundane stuff around the house? sleeping?
+
+''''
+
+> "and if it's not that, it's a fiction"
+> well done
+> now tell the other lefties and get a job
+
+''''
+
+> No. I want more sexual dimorphism, so I seek to reinforce masculinity and femininity. You want a female-dominated bonobo society, I want a male-dominated chimpanzee society.

@@ -1,0 +1,70 @@
+created: 20181216171928646
+creator: sphygmus
+modified: 20181216172034350
+tags: $:/tags/PageControls
+title: $:/plugins/sphygmus/sbuttonsV2/pageButtonAIO
+type: text/vnd.tiddlywiki
+
+\define WRtitle() <$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##WRtitle}} />
+\define CDtitle() <$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##CDtitle}} />
+\define PItitle() <$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##PItitle}} />
+\define WRtags() <$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##WRtags}} />
+\define CDtags() <$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##CDtags}} />
+\define PItags() <$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##PItags}} />
+
+\define WR_append()
+<$vars front="* [[" back="]]"><$wikify name=WR_title text=<<WRtitle>> ><$list filter={{$:/plugins/sphygmus/sbuttonsV2/dick##WRlogs}}><$view field="text" />
+<<front>><<WR_title>><<back>></$list></$wikify></$vars>
+\end
+
+\define CD_append()
+<$vars front="* [[" back="]]"><$wikify name=CD_title text=<<CDtitle>> ><$list filter={{$:/plugins/sphygmus/sbuttonsV2/dick##CDlogs}}><$view field="text" />
+<<front>><<CD_title>><<back>></$list></$wikify></$vars>
+\end
+
+\define PI_append()
+<$vars front="* [[" back="]]"><$wikify name=PI_title text=<<PItitle>> ><$list filter={{$:/plugins/sphygmus/sbuttonsV2/dick##PIlogs}}><$view field="text" />
+<<front>><<PI_title>><<back>></$list></$wikify></$vars>
+\end
+
+\define WR_list(delta)
+<$vars front="* [[" back="]]"><$list filter="$delta$"><<front>><$view field="title" /><<back>>
+** 
+</$list></$vars>
+\end
+
+\define testButton()
+<$wikify name=WRLogLocation text={{$:/plugins/sphygmus/sbuttonsV2/dick##WRlogs}} >
+<$wikify name=WRLogAppend text=<<WR_append>> >
+<$wikify name=WR_title text=<<WRtitle>> >
+<$wikify name=WR_text text="""<$macrocall $name="WR_list" delta=<<myFilter>> />""" >
+<$wikify name=WR_tags text=<<WRtags>> >
+
+<$wikify name=CDLogLocation text={{$:/plugins/sphygmus/sbuttonsV2/dick##CDlogs}} >
+<$wikify name=CDLogAppend text=<<CD_append>> >
+<$wikify name=CD_title text=<<CDtitle>> >
+<$wikify name=CD_tags text=<<CDtags>> >
+
+<$wikify name=PILogLocation text={{$:/plugins/sphygmus/sbuttonsV2/dick##PIlogs}} >
+<$wikify name=PILogAppend text=<<PI_append>> >
+<$wikify name=PI_title text=<<PItitle>> >
+<$wikify name=PI_tags text=<<PItags>> >
+
+<$action-setfield $tiddler=<<PILogLocation>> text=<<PILogAppend>> />
+<$action-sendmessage $message="tm-new-tiddler" title=<<PI_title>> tags={{$:/plugins/sphygmus/sbuttonsV2/dick##PItags}} />
+
+<$action-setfield $tiddler=<<CDLogLocation>> text=<<CDLogAppend>> />
+<$action-sendmessage $message="tm-new-tiddler" title=<<CD_title>> tags={{$:/plugins/sphygmus/sbuttonsV2/dick##CDtags}} />
+
+<$action-setfield $tiddler=<<WRLogLocation>> text=<<WRLogAppend>> />
+
+<$reveal type="nomatch" state=<<WR_title>> text="">
+<$action-sendmessage $message="tm-new-tiddler" title=<<WR_title>> tags={{$:/plugins/sphygmus/sbuttonsV2/dick##WRtags}} />
+</$reveal>
+<$reveal type="match" state=<<WR_title>> text="">
+<$action-sendmessage $message="tm-new-tiddler" title=<<WR_title>> tags={{$:/plugins/sphygmus/sbuttonsV2/dick##WRtags}} text=<<WR_text>> />
+</$reveal>
+
+</$wikify></$wikify></$wikify></$wikify></$wikify></$wikify></$wikify></$wikify></$wikify></$wikify></$wikify></$wikify>
+\end
+<$set name="myFilter" value={{$:/plugins/sphygmus/sbuttonsV2/dick##WRfilter}} ><p style="margin-block-start:.25em; margin-block-end:.25em;"><$button tooltip="new wiki review, etc." aria-label="new wiki review, etc." class=<<tv-config-toolbar-class>> actions=<<testButton>> >🞖</$button></p></$set>

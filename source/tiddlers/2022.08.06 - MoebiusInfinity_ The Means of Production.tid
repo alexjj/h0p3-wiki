@@ -1,0 +1,228 @@
+created: 20220808043837100
+modified: 20220808144829169
+tags: Aether MoebiusInfinity Chatlog
+title: 2022.08.06 - MoebiusInfinity: The Means of Production
+
+`aether://board/bfa2ec06014ddd3a1a57e4ef5df2f102d28497ad0b3368d4887dd391768ee355/thread/142f7e3e9ab692f233154bde4d414a69b7150cccd4ade369b997e4528ad050f3`
+
+<<<
+BeakerBrowser is it still alive?
+
+Does anyone know what happened to BeakerBrowser? The latest release is from Dec 2020.
+
+It the one distributed project that I really liked most as it just worked in a browser as a browser without the need of an app OUTSIDE OF a browser.
+
+I really would prefer to have Aether, Cabal etc IN A BROWSER, instead of installing everything separately in 100+ MB blobs that each have their own way of eating resources.
+
+But maybe it's because i'm someone who doesn't have iAppleDroid machinery?
+<<<
+
+He leaps from project to project over the years. Sir pfrazee appears to be spending time on cats, tv tropes, his bro, doodles, and he probably has moved onto https://github.com/bluesky-social/adx. Portability, self-authenticating data structures, DIDs, key management seem to be his priorities. One can only hope he doesn't eventually fall into the blockchain tarpit. Hypercored, hashbase (RIP), and beaker are probably dying or dead. I think he's pushed the limits of javascript and electron. He's got too many problems to solve all at once, imho.
+
+<<<
+Hm ok.. then I better hope that a non chrome based browser will create a non node (java) based alternative?
+
+the idea of the browser as a 'server' is still my ideal.. actually a server that has a browser would be the ideal..
+
+Serve something then have a browser that can display what it serves and no clientside monkey business
+
+Hypercored really looked promising ... shame... Beaker was the only thing i could find that brought back some of the aspects of 'Voyager' that i liked. (QNX browser) and adding p2p was what they should have done back in the days..
+<<<
+
+I thought about that concern a bit here: [[https://philosopher.life/#Outopos%3A Nyxt]]. The browser is the new terminal and the universal consumer-grade VM, but I think it is wiser to use it as the front-end rather than be trapped by the standards of Google, who shapes all major web browsing standards. Native Nyxt sitting on top of command-line access, VMs, and Containers provides the most flexibility from what I can see. It's hard to abstract away the complexities of constructing one's own interface without eliminating the user's control over their own machine or data. Beaker is a beacon, showing us a clean all-in-one mutable-torrent-based web that could be modified from the ground up by mere mortals, and I'm extremely [[grateful]] for its existence. I still have it up 24/7, but I can't say it has ever been used except in my family's testing.
+
+<<<
+Interesting post @h0p3 ! The font is just a bit hard to read. Eventhough it looks cool. :-)
+
+Indeed google is a problem.
+
+The thing with Voyager was that it complied http standards and it could both serve and browse. That way the user always had the tool to publish and to access published work of others. And because everyone always had the publishing tool at hand it was inviting to be used. Yet as it didn't have p2p technology it could not serve for the masses. AND THAT is the big game changer.
+
+Now on the other hand maybe i'm actually looking for a server that has a GUI? As in a tool to create content. But then i'm back at the browser part i guess... The thing with servers is that they are to inaccessible for us. In 2022 i think we need to be able to publish right from our browser without the need of a external hosted server, but with the option to have a box at home (RPi) that can host a copy... So that on a laptop you can always make content wherever you are. And serve it right away, and then later mirror the final result to the home hosted box ... BeakerBrowser had all of that. Eventhough the java crap was not at all what I consider to be good.
+
+In fact I would prefer to have TOR with all of the 'Beaker stuff' without all the 'java crap'.
+
+I really wonder why there isn't an onion-markdown-tool-a-ma-thing that can host markdown pages from within TOR browser. I mean there was Onionshare, but that disappeared from the repo.. Why on earth do they keep dropping the very bits that actually make sense?
+
+Someone should write the hypercore protocol in a C language, add it to TOR-Browser and make waves?
+
+I can somewhat Imagine that @pfaraze's brain is off to do other exiting stuff. But hell... please let someome make a simple to use tool that can serve self-hosted stuff in p2p space. This make SO MUCH SENSE to have.
+
+We don't need it to be a full blown spaceship, but just a bit of a truck that can reliable serve.
+
+I don't have the brain to write code. But I can manage to build a html page. And many people do. If i could have a way to make a blog, in Markdown, and host that from my laptop, without the need of a domain name. MAN that would be awesome..
+
+Aether is not that far way from that either but this is a community kinda thing.. I really would like to have a personal thing.
+
+accesible by anyonewith a standard browser protocol://@MoebiusInfinity/whatever_I_build/index.md Aether.something just being a kind of DNS so that protocol://@h0p3/whatever_you_build/index.md
+
+So that we are not being limited by a 'platform' that merely allows to write. But that we can build a personal page. Publish our own creative work..
+
+As in making an 'account' creates a 'domain' and all the rest is self-hosted.
+
+Would I be able to inspire someone with this post?
+<<<
+
+The circular button in the upper-righthand corner allows you to cycle through fonts, and you can also edit from https://philosopher.life/#%24%3A%2FControlPanel or using your browser tools.
+
+Opera dipped its toes into actually serving and publishing straight from the browser (and using their services as middlemen where required) as well, and they remained on the cutting edge until Chrome eventually took over (some might still argue they've got something going for them). The largest problem to serving from machines you own (and fully distributed p2p in general) boils down to NATing, both on your own devices and your ISP's in some cases. Piercing is hard and unreliable. Relays have to be run by someone, and you'll often find rentseeking even in federation. Even Aether, here, can't run from within Whonix or a custom workstation either for similar reasons. Beakerbrowser doesn't work over tooling like Whonix either, and it's not even consistently reachable when you set portforwarding on your router. Beaker only points toward what we desire, and admirably at that.
+
+Mutable torrents over darknet overlays have existed for a while, but it requires users to piece it together and actually use it. I suggest [[Resilio Sync]] or IPFS at the moment. I've some experience attempting to convince others to join me in this type of tooling, and there have been no serious takers. Even Beaker Browser, which makes it pretty darn straightforward (including how it encouraged us to re-use code), failed. I'm at the point where I'm not convinced even a turnkey solution will see any real use (despite my insistence on working toward it), especially as key management is considered heinous by the average person.
+
+Javascript is hard to escape, especially with all of the inertia behind it. One can only hope that good web UIs will be constructed in other languages that compile to WASM. We are a long way off from that, if it will occur at all.
+
+You are looking for spaceship quality software here, and no one person can write it. It probably requires government funding to get right.
+
+I suggest just making what you want to transmit and distributing it over multiple networks. It's what I do. There are limits to what you can accomplish with a plain markup/down language alone inside a standard browser. Gemini might be something worth exploring in your case. I also recommend Tiddlywiki.
+
+<<<
+That Tiddly is kinda interesting as well. Just sucks that it needs a 'server' as such to be able to share it to 'the rest of the world'
+
+Opera, there are many things I don't like about Opera but i will have a look at it again. (installing..)
+
+I really liked how BeakerBrowser works (before it broke again), and yes there will be rentseeking, and so there will be a market for that. I never used Whonix, but i do see your point. I soooo want to have something that just works. And is basic. Beaker was just that before all kinds of awesomeness came along that seems to have derailed that what actually worked. If Beaker had stuck with dat and kept that alive and stable as basic as it was it really would have opened up the self hosting idea. It worked, people were using it. and then... it became over complicated for 'normal users' so they left as they were not able to unbreak it.. (it fucking worked just fine! it really did.) @pfaraze should just bring it back alive basic self hosting a dat the option to mirror it on an existing 'normal' html over http. MAN, that was the perfect start. Then they went over the edge with adding interactivity... Understandable, but the pioneering mind did crash the spaceship into pluto... :-) I so wish I had the brain to write code like that. I would fork the old moonlander and do everything to iron out the bugs. It really really worked! And now they aim for Mars instead of colonizing the moon and have an awesome base to work from. (i think hashbase was the name... ?) There already were so many people actually using it. Why they dropped all of that really doesn't make sense... PLEASE SOMEONE REWIND THE CLOCK eventually use the new protocol but keep things basic and working don't add bleeding edge crap with the blood already spilling. Still it was great to see those ideas and the guys went so damn fast, but they were somehow blindsighted by the possibillities that they didn't see the community that was already using that what DID WORK.
+
+I mean it worked REALLY WELL, and was easy to use. When IPFS was, and at least to me still is, a hopeless thing to use. DAT was simple and effective where IPFS is some kind of corporate enterprise monster for the masses. DAT was 'US the individuals' and IPFS is 'THEM the masses' I think both need to exists side by side and would be a very healthy choice.
+
+Resilio Sync i will dive into that (select and rightclick search with google AAAAHH wtf?? ..google really?) hmm this Resilio is probably not what i'm looking for. I'm a bit allergic for anything with a corporate feel to it. I see what it is but it seems industrial, aimed at consumers, not aimed at humans. Interesting tho, as it shows that some corporate tools should be more reachable for non corporate users.
+
+I don't have a server space nor a domain name. I would get a domain name if there would be a few basic tools that are stable and maintained. The old DAT based Beaker was that what inspired me to aim for selfhosted. But as things moved forward it fell apart right before my eyes.
+
+I'm very annoyed by 'social media' one size fit all. This is how we decide that you use it approach.
+
+Specially when knowing that there used to be creative web designers. Now everything is code based, in a way that is very limited to people that are not into all the code stuff. I see lots of people who did very creative things online just move away from all the digital stuff. And it feels like i'm about to become one of them. Very odd situation the web never really works out for me. Mainly because my brain can't live in the abstract coding world. There is always a gap, and I always manage to fall into it. :-D
+<<<
+
+You're going to need a server no matter what: even in fully distributed mesh networks, everyone acts as a server. Tiddlywiki is just a single html file. You can share it over IPFS, Beaker, a regular http server, your thumb drive, etc. Part of what makes it special is that you don't need to continue communicating with a server to do something like search the contents of it, as that is already embedded in the file (which is fully loaded into memory) - that actually provides [[privacy]] to the user, since normally that information would be cached by the remote server. My Tiddlywiki is [[served|Connect]] over old school p2p filesharing networks as well, and you can just download the entire site in a single file (or any daily version of it). There's going to be a server in the transmission of data, even if isn't a standard server-master and client-slave model.
+
+I did not claim Opera is running that service now. It is defunct, even though it was a good service too. The point is that the thing you are after has been tried many times. Not enough people care about it, and that's why we're gonna have to wait or do it with the tools we've got.
+
+I'm glad Beaker didn't stick with Dat. The protocol design was flawed. I don't think people were using it all that much either. It had some hype (at peak, maybe a few dozen people swarmed on the most popular sites), and it lost it. People are unlikely to pour their labor into sites that so few people are going to read. i2p and Tor darknets have been around for two decades, and while there are "[[netstalkers|2020.06.27 - epicfailguy228: Proof]]" and others who will randomly stumble across such sites, most sites on alternative networks don't see any major authentic traffic. The Network Effect picks out the key incentive for most people who aren't going to use tools on principle. This is also part of why [[Aether]] has failed to takeoff thus far (I realize, it's circular sounding: it failed to takeoff because it failed to takeoff, but you might only have a few windows of hype through which to turn a spark into a fire).
+
+IPFS has Cloudflare and venture capital money trickling behind it. Dat was superior in usability and performance when they were newer tools. I'd bet on IPFS having a better shot simply because it doesn't require genius Christ-figures like pfrazee to almost run the entire show, but, if it does take-off, I assume most of the tooling will attempt to make money. There's [[hope]] though, and it's a good sign that active development has never dropped on it.
+
+[[Resilio Sync]], to my knowledge, is the oldest high-functioning mutable torrent tool. It was originally BitTorrent Sync (also OG), so they had a headstart on [[this problem|https://www.bittorrent.org/beps/bep_0046.html]]. They were wildly ahead of everyone, and they still are (you go ahead and see the CPU/Memory overhead for syncing 4TB of data on any other tool, almost none of which offer the same read/write/blind-encrypted seeding model). Unfortunately, there are several parts of this tool that you shouldn't trust, and some valuable parts (like selective sync) aren't free. You're not going to find anything that performs as well across as many platforms though. SyncThing (and a few others) have tried to replicate what it does, and eventually this proprietary tool should die. I suggest testing the tool just to understand what its FLOSS replacement should [[aim]] for.
+
+There are several long-standing, easy to use domain name registrars. You don't own a domain name, but you can own a key. That's a huge part of what I like about the p2p tools. We can own the means of production. I seek to limit my dependence upon domain names and data centers, as I do not own the means of production. I came back to having a VPS [[recent]]ly enough, but it's only there as a backup. I use gitpages as the primary means to transmit my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 on the clearnet, but, like the VPS, I don't own it either. I would be overjoyed to serve entirely from my [[monster]] at [[home|The Alien Asylum]].
+
+I have similar concerns about how we force our [[public self-models]] into commodified boxes. My conversations with [[JYU]] and Sir [[kickscondor]] may be worth considering there. I tell you what, MoebiusInfinity, you figure out how you want to transmit your creative work (beyond the tool we are using right now), and I'll be your first loyal reader. As long as I can build a notification system through my browser or from my filesystem, I'll see it every time you update it.
+
+<<<
+RSS is a neat notification tool. If Aether can do RSS?
+
+I think we can bounce a lot of ideas here. I'm also very controversial at times specially when i'm looking for deeper answers. So I can be a real pain sometimes. I just received a call. I will get back to this post ASAP
+
+I think I may have found a different Resilio sync then the one that you have in mind.
+
+...
+
+I wish I could figure out how to use the IPFS as an individual without the use of accounts, keys, and complicated apps. I haven't tries for several months so I don't know if there are new ways on the horizon. But after having meddled with Blockchain tech like steemit and never managed to turn that into a single penny and having experienced all the HORRIBLE BULLSHIT KEY HASSLE I really don't have any interest in any of that again... And not to speak about the tonedeafness of the devs when you suggest one simple thing that at least makes it visually clear what key needs to go where (please give it a color) And lets not even start about freedom of speech and downvote fuckery.
+
+Psychologically it was very educational how low people are willing to go to get financial 'friendship' from a coin millionair. But those banksters should not be running social media...
+
+There you also can see the problem with ethical behaviour. People throw any ethics over board for personal gain or even for simple conveniance (BTW Aether doesn't play nice with spellchecking)
+
+Beaker : moving forward to hyper was good, but it was THAT moment when it fell apart. The devs appeared to be more interested in bells whistles and awesomeness then in basic stable useabillity and keeping the community alive. I came in late, when i found it there were heaps of interesting pages. with lots of art, and quirky designs. That vibe, that scene was just very interesting to browse trough, thats the VERY THING that is missing on any 'bureaucratic media' like Facebook and the like. Beaker pages were exiting, while 'social media was as boring as the look an oven baking a loaf of bread' (or hell). Now with all the wokeness social media is slightly more 'fun' when you just look at all the bat shit crazy idea's that people are planting in eachothers heads. Freud will be screaming in hell as all of his, and his nephews idea's work even better then they expected.
+
+Group-think is just insane with the asssistance of todays facebook, instagram, google, youtube, apple, tech working hand in hand. People can't see what they don't want to see, or are programmed to be blind for. Even RMS seems to have picked up a few mind altering programs.
+
+Well, to be fair, I also fell for a few weird programs.. And eventhough I discovered them early on, it was difficult to flush the crap out. It will be very difficult for people who are on board with bullshit since day one to get out. Just imagine the crap that Dominion Voting is doing with people.. 50-50 voting race and then the last 20% of the race then the vote swings.. And that just happens to be the same IN ALL states and Countries that happen to use Dominion Voting... How odd. And all the voters all use Facebook and change their minds for 'some reason'
+
+Team UFO, then team Flat earth, then Gay, then BLM, then trans people then truckers, then soccer fans, change their mind, every group is manipulated seperately.
+
+O boy, do I get off topic? LOL Just imagine how annoying it is to have me writing stuff like that on a platform that manipulates people every single second... But they claim to be against censorship. So they can't simply silence you that would derail their claims... Still they managed to lock me out. This could be the moment when they go all religious... who knows..
+
+I need to have a closer look at bittorrent and this resilio you mentioned.
+Also Funkwhale thats another thing i cant figure out.
+
+That said, often ask myself why Icecast doesn't have a p2p thing going... They should be all over multicasting... but they ain't. the hyper protocol looks very capable for medium bitrate audio streams, say 320k. Even 256k would be cool enough. If someone knows how to do this please let me know. :-D Probably when a stable audio stream is figured out then something like sync should be easy as well
+
+I'm looking at switching back to my old ISP who recently reincarnated as a new ISP after a hostile takeover from monopoly men. They include a domain name and an IPV6 address for self hosting experiments.. It's above my budget. but I could eventually ditch my phone number. But that will be a bit of a challenge in a world that needs a phone connection to order icecreams with a fucking QR code....
+
+DYSTOPIA NOW!
+
+Yeah indeed you can own a key, thats what I liked about the Onion system. Even though it is damn difficult to set up. Many times I tried to get that working on OPENWRT. Just run a tiny text based website from a router. That's what I started with long before I found beaker.
+At some point i had it kinda up and running, and then the webserver that I used Hiawatha was no longer in the Repo...
+
+Really so many things all ended in deep hyper space. all Juuuuuust at the point when it started to work and then BANG. blackout..
+
+RSS would be the best way to keep track of updates. That Aaron dude was a damn genius. This boy was the future long before the future came to be.
+<<<
+
+I'll agree that IPFS tooling sucks. IPFS-Desktop is one of the more straightforward, usable, and consistent options, imho. I can appreciate how blockchainbros would sour one to the use of keys. I think it's wrong-headed not to think one should be responsible for managing keys. We won't get distributed p2p identities or applications without it. It's worth our time to learn why that's really the only option. I'll agree that few applications make it as easy as they could for newcomers. But, I'll also say few people actually give a shit in the first place, most will sacrifice almost anything for convenience. I agree that it's difficult to find people who aren't ultimately selfish egoists. My current estimate is about 4% of humans above the age of 25 merit their lives. Thankfully, most of the world is young, and they've not crystallized into garbage yet.
+
+As to seeking excitement in media, it depends on what you mean. I think [[aesthetic|Beauty]] is a very poor indicator of what makes a piece of media [[good]]. I wish more people were willing to drudge through what is boring, pedantic, or challenging (especially to their own views) with proper epistemic humility and charity. I'll agree, however, that there were (still are*) lots of cool things on the Beaker network.
+
+A technically-empowered liquid democracy requires that we have the ability to radically shape our own curated feeds and leverage the trust we have in others on various topics (including their trust in others by proxy, and so on). Even Aether fails to live up to the ideal here, though it is a step closer than most. But, of course, it is still the user's responsibility to actually take the time to read their enemies, to expose themselves to [[the other]] and the unknown, etc. So, I agree it is a bad thing that capitalists have such a heavy hand in tailoring filters and echo-chambers to meet merely the hedonistic desires of users insofar as it's profitable. It's a radical commodification of human signaling, and it centralizes [[power]].
+
+If you are concerned with censorship (and, I have been for decades too), I suggest continuing to work toward owning your platform. Offline-first self-hosted tooling, reasonable degrees of [[anonymity]], putting few eggs in any baskets you don't really own (to the degree you don't own them, and be willing to lose those accounts), and churning through the sea of tools to find the few that stick (seems like you already do that). Lots of heartache and disappointment, but you keep your voice, your stories, and you can survive on any platforms (just point people to what you do own).
+
+As to what consists in religion (which is my bailiwick), perhaps that is a conversation we should have at a later time. It's gonna take a while to get to know me (and I make it as easy as I know [[hao]], [[nomad]]).
+
+Try the [[freemium individual option|https://www.resilio.com/individuals/]].
+
+I've never seen Funkwhale before. Cool federated app. It's more centralized than most of the tools we've been talking about. I've not looked far into it, but I bet my criticism of it will match many of the problems I have with Mastodon, Matrix, and so forth. Still, much better than full centralization, especially if it's nearly effortless to relocate all your data, contacts, infrastructure between various fediservers.
+
+It's somewhat easier to [[share]] non-multicast streams in p2p environments. Tools like Popcorn Time do fine for asynchronous media, but it's much harder to achieve proper QoS and reliable streams for everyone at the same time, especially because users are chained together, where each step is an added latency interval to those downstream of them. There have been attempts with tools like Tribler and many commercial attempts (probably more WebRTC-based approaches these days). Jami and Tox can do conferencing, but that isn't completely the same (especially since they aren't meant to scale up to any number of people). VLC streaming over p2p VPNs is probably the best option overall I can find, and that is not something almost anyone is going to take the time to do.
+
+I despise most ISPs too. `/nod`. I don't think I'd want my domain name through my ISP. There are ways to work around dynamic IPs (I've found updates can be pretty darn fast). Sucks that we are increasingly forced to have a smartphone we do not own under the hood to authenticate with the world. I'm not sure what to do about it. Tried the [[Pinephone]], and I couldn't make it my daily driver.
+
+Running a site from OpenWRT is pretty dope. =D. Given how underpowered most consumer-grade routers are (unless you are just running OpenWRT on your own standard machines, which makes for quite a powerful router), you might be much happier just running it on something like an RPi or whatever machine you keep up 24/7.
+
+Aint never seen Hiawatha before. Noice. You got any more software (or a heavily curated [[Music: Library]]) I could browse through? Seems like you've been around the block.
+
+For RSS, I use https://fraidyc.at/. RSS is continually reinvented (and, even this application does something similar, internally). I tend to get far more mileage out of [[Update Scanner|https://addons.mozilla.org/en-US/firefox/addon/update-scanner/]], [[inotifywait|https://linux.die.net/man/1/inotifywait]], and maintaining a habit of manually visiting sites in practice. RSS is likely part of the basis of more complex feed construction, and we dearly need that to be something we own instead of our masters.
+
+<<<
+Now I see what Resilio sync does.. hehe very useful indeed, I now see how the Beegees could sing Ah Ah Ah Ah Staying Alive very powerful! It's like having a website as a cell, and then be able to replicate, load balance and have redundancy all in one? Very 'Resilio' indeed.
+
+I can see who would have this in use in wild cyber space for some time already.
+
+Genius...
+
+<br>
+
+OH this time IPFS-Desktop doesn't crash ... Looks like i need to grab a few getting started video's.. And then go wild..
+
+O wait i better try the debs... and put it on a fresh box... hmm this needs a bit of planning... Mainly to address burnout issues ..
+
+Key management is a bit of a pain. At least in steemit world it was a mess but there also was a big amount of troll-fuckery and me the crypto noob ... LOL And then 6 or more keys and a WIF that didn't work. Hyper hell... But also heaps of external real life BS just was way over my head.
+
+Lets see if i can put my head in the cyber fridge this time.
+
+OWE YES. Everything is EGO, SEX and MONEY-ROLL these days, no soul.. just trash metal.
+
+What makes media good is seeing box and then stay out OF that box as much as possible. Once you enter the box then there is manipulation, bureaucracy all the over structured pre-defined jail stuff. I did a few years of radio started as a volunteer at a local, subsidized radio station. That was good for learning the radio format. All the microphone stuff and recording/editing on the reel to real. Keeping an eye on the levels. And having all the monitoring under control. Something that the OBS devs really don't have a clue about... And the lack of that really shows in the horrible levels of most OBS streamers. Later I did 3 years of music radio on an online UK pirate station. That was a very different task.. With a chatroom that reacted like a dancefloor.
+
+There I discovered that even a clunky website and a fair bit of chaos can also be a format that works.. as long as someone manages the 24/7 schedule. 84 DJ's is quiet a lot to keep track of on a 24/7 live stream. Media needs chaos, crap, and straight out punk. it's ok to have licked and polished for the mainstream. But there is a lot of need for rough unpolished yet decent quality chaos. Creative people who explore around the edges. Unfortunately most people don't know how to stitch it all together. They have heaps of expensive podcast hardware, but no clue about the levels. When a mic is compressed as flat as a pancake then it sound cool on the DJ headphone but not on the actual stream.
+
+I don't know what Aether's ideal is but what it does it does really good it works, is stable andit is very usable... <------- those stripes will become a bit of an issue if we take this thread to its limits :-D But apart from that. i'd like to see a bit more activity and see how it deals with double the load
+
+capitalism is ok as long as things are balanced. the way the world works on this very day is F U K T U P. unsustainable, abusive, horrific, retarded, silly. Perfect for creating group-think ism's heading for destruction. But only fools get on this bandwagon it's now time to stop the cow-poop, wash the utter-nonsense and take the sheep off the cliff. Some will never open their eyes, and that's something that worries me. But others have their eyes open and are still invested in left-ism or right-ism. No ism will help any of us. The only way out is an -ity as in human-ity the econs have messed up with all their crap algorithms and time is up, yet they will never quit. they will try to take it all down with them. o well.. lets see them try...
+
+People let themselves be muted to belong in a group. And that's the way out, give them a group where they can respectfully disagree with strong argument then they slowly discover the truth among their own. Keep testing them with controversial views and music that shows them facts from the past. They all have brains, they can reason. It just needs some exercise :-)
+
+Religion Beliefs Spirituality thats a battlefield a war and an escape. Rupert Sheldrake is on the right track with some stuff but that would need a community and several condensed threads. Yet it is essential to dabble in that ancient space and drop some controversial ideas to blow the conversation as wide open as possible. I'm up for it... But i may break a few dishes on the wobbly shelves. :-D
+
+I will have a look at Resilio, thx.
+
+Funkwhale seems to be a good cross over option as there is not really a 'real' alternative tech-wise, but also establishment-wise classic thinking can't cope with a real solution, their bubble will burst and they will panic. Spotify will cry louder than all the record labels they disrupted together. But funkwhale will be missing the human factor. On the other hand it will also get rid of the DJ that talks over everything. But Funkwhale can eventualty make a fresh demand for the FLAC and MP3 shops. Spotify killed afew of them. Let's see.
+
+Because of my radio / DJ background I would like to live-stream DJ sets, just at random times stream a few hours live. No recording, live feedback in a chatroom... Just play the good old vinyl. That's why multicast or p2p streaming is kinda important to me as there is only a limited outgoing bandwidth I can serve a small group of listeners but I prefer a situation where I just have a single 320k stream and no extra strain on the connection, and no limit as a bonus.. So Icecast still has a future if they can figure this out.
+
+IF it can be done to point a domain name to a .Onion or a IPSF hash. (it's not clear to me yet how IPFS is working exactly) With the router based text only 'micro' server that was supposed to load images from external sources. as a forgetful blog, just have 14 posts or so and the oldest one is deleted. There are a lot of useful things a router can do. For instance a measuring device with Arduino sensors. For instance a remote weather station kinda thing. These routers have a few GPIO pins that can be used.. and USB that can talk to an Arduino. When hosted over an .onion then you can have a IoT thing that doesn't leak data to strangers or use TOR to sent / receive.
+
+It can be very useful to have a router that can host a tiny website that only 3 people visit per hour. its cheaper then renting webspace and adds a lot of functionality with Arduino. It even can host files from a USB. and to heaps of other things with stuff from the OpenWRT repo For sensors OpenWRT + Arduino is far more reliable then a RPi that has a shitload of unknown bugs that even change after an Update. It's a very different use case.
+
+My music library is all PVC-based 2.5 meter high 3 .5 meter wide 30 cm deep. Digitally it would fit on a USB stick... but I only have the analog version hehe. Scary how fast that changed. Yet it also shows that todays digital collection will even look different 10 years from now. If music will still exist. Many instruments fabricarion is now done in China so the real art of building iconic instruments is about to disappear as well.
+
+A hand made trumpet could soon become the next stradivarius. But you'll not own it and be happy just the same they say... I wonder... How happy a billionair will be when we take all his money?
+
+Hiawatha was a nifty little server indeed.
+
+Where do I suggest to add RSS to Aether communities? This is why I prefer web based instead of apps. I SO would like to have seen Aaron's take on this.
+
+O my we are almost co-writing a dystopian thriller in this thread, LOL
+
+Aether is doing a good job!
+<<<

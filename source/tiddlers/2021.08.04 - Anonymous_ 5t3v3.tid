@@ -1,0 +1,477 @@
+created: 20210804102425595
+modified: 20210804232915224
+tags: Anonymous Chatlog 5t3v3
+title: 2021.08.04 - Anonymous: 5t3v3
+
+* Tags: Philosophy, Computers, Anonymity, Justice, Psychology, Humanity, Programming
+* A/S/L Failures: 1
+* Standard Bot Failures: 0 
+** "kicked" Bot 30-Second Turing Test Pass/Fail: 1/0
+* Can't Get Past "Hello": 1
+* Hostages: 2
+
+<br>
+
+!! Humans Are Fundamentally Good: 1
+
+http://logs.omegle.com/bd3178586e79b3a4
+
+"""
+You both like Philosophy.
+You: Hello1
+You: !*
+Stranger: What
+You: What brings you here today?
+You: I meant to have an exclamation point there.
+You: 1 and ! are on the same key, and I failed to hold my shift key long enough.
+Stranger: awn
+Stranger: yawn*
+You: Yes. That is a boring topic. What would be interesting for you to talk about?
+Stranger: Are you a child?
+You: In some respects.
+You: How about you?
+Stranger: What about age
+You: Right, that sounds like an interesting topic.
+You: I am 35.
+You: How old are you?
+You: Wait, 36*. I keep forgetting.
+You: Time flies.
+Stranger: You're a retard, bye
+You: Goodbye
+You: `/salute`
+Stranger has disconnected.
+
+Yikes. That is some pure dark-triadicism. Don't be entertaining, but do bumble back in defection for style points when you drop the reductio. Don't feed the vampires: silence them. The truth shall set you free sometimes. And, of course, they are correct: I am retarded. Most people don't realize it (let alone mention it) as quickly as this sort.
+"""
+
+<br>
+
+!! 5t3v3:
+
+http://logs.omegle.com/37ca815c125be600
+
+"""
+You both like computers.
+You: Hello!
+Stranger: Hi
+You: What brings you here today?
+Stranger: Idk
+You: I feel that.
+You: We both like computers. eh? What do you enjoy about your box?
+Stranger: Everything I guess, i don't know
+Stranger: how about you
+You: Oh, my [[monster]] (https://philosopher.life/#Monster-%CE%A6) is practically at the center of my life. It's how I interact with the world most of the time.
+You: I don't enjoy everything about it, but I couldn't live without it.
+Stranger: ooh it looks nice, I'll have to check it out
+You: Gracias.
+You: What are the things you've done on your machine that make you proud or that you look back on and you're exceptionally glad you've worked on it?
+Stranger: Learning programming was nice, as well as building the PC
+You: Hell yeah.
+You: What's the specs on your machine? What did you program?
+Stranger: nothing special, just older midrange specs
+Stranger: and I haven't really programmed as much as I had hoped, just learned some Java/python
+You: Oh, I'm a fan of being extra efficient with money. Budget builds, used parts, cannabilizing older builds, making use of what other people disdain...makes for a real hacker sometimes.
+You: I hear that. I think we all wish we programmed more.
+You: I wish I programmed as much as my friend, senpai [[chameleon]]. She's real good.
+You: I kinda just get a script up once in a while to do a thing. Call it a day. lol.
+Stranger: Same, Nothing beats the feel of reviving an old machine with Linux
+You: Preach, yo!
+You: Tell me about your experiences with GNU/Loonix.
+Stranger: I'm fairly new, and don't have much experience on the technical side
+You: Oh, we are all noobs at heart. There's always someone climbing much further up the mountain than us.
+Stranger: yeah
+Stranger: I'm pretty 00b tho
+Stranger: n00b*
+You: `/high-5`. Well, you've already dove into a wonderful world. Keep going.
+You: What kinds of programs interest you?
+Stranger: you have much experience with Linux?
+You: I tried Linux in the 90's, but I didn't really stick to it until this past decade. But, I'm barely an intermediate user, at best.
+You: It's safer to call myself a beginner.
+You: And, since this is the opportune moment to meme about it: I do, in fact, use Arch Linux (tyvm :P).
+You: (`/tomatoes`)
+Stranger: Arch user, eh?
+Stranger: Debian is where it's at
+You: Debian is killer.
+You: It's far more stable. I'm never scared to update on a Debian system.
+Stranger: I do have to admit I recently went to the dark side
+You: how's that?
+Stranger: the ?1 was too enticing
+Stranger: m1*
+You: Lawd.
+You: `/shun` =D
+Stranger: sooo much faster than my old thinkpad
+You: Indeed. Gorgeous hardware (minus authentication).
+You: I'm kinda shocked at how far ARM has come.
+Stranger: Yeah, I am shocked how good Rosetta is
+You: Indeed. That's a huge feature.
+Stranger: translation of x86 is literally faster than Intel's bare metal
+Stranger: and almost 0 compatibility issues to boot
+You: They've had some fascinating benchmarks.
+You: Think you'll be sticking to the dark side?
+You: You can always VM your Linux needs.
+Stranger: I mean I still run Ubuntu on desktop
+Stranger: but yeah, I think I'm sticking to it on the laptop side
+You: I can appreciate that.
+Stranger: my only regret is Docker /VM's are kind of bad in general on it
+You: I have the luxury of living on my desktop, so I get away with not caring about my phone ([[Pinephone]] is interesting, btw) or laptop so much.
+You: That's a big deal to me.
+Stranger: but, speaking of pinephone...
+Stranger: what are your thoughts on it?
+You: "[[Foobar]]" would be a link to a page named "Foobar" in my wiki. [[Pinephone]] can searched up in https://philosopher.life/#Pinephone. I don't mind trying to explain here though.
+Stranger: is it your daily driver?
+You: I think the pinephone is more important than most people realize. I'll agree it is underpowered and requires radical development. It's impressive what has been accomplished by those who are working on it.
+You: No. [[m14]], LineageOS. Old phone, can't bring myself to get another. I've failed to make the pinephone a worthy daily driver.
+You: And, without proper virtualization (and, no, chroot hacks do not cut it), I'm not going to be able to use the pinephone as my primary mobile.
+You: I'd like to see Proxmox or a Qubes for the phone. Anbox is the wrong answer.
+Stranger: Same with me, I think the pinephone is great on a philosophical level, but I can't bring myself to daily drive it
+You: My wallet, my keys, my phone...all are authentication mechanisms. One must have iOS or Android to authenticate with a world eaten by software owned by an oligopoly seeking to centralize [[power]].
+Stranger: I'm also running a custom ROM as well as microg in the meantime while projects like pineephone gain stability
+You: Noice.
+You: It may be eventually become usable, especially if we used far more lightweight DEs on it.
+You: KDE is a resource whore. Has no business on a phone.
+Stranger: yeah hopefully one day soon a lightweight alternative will begin development
+Stranger: In related news I think the Linux mainstream kernel is making it's way to stock Android
+You: Currently has enormous fragmentation. A lot of hobbyists in the space. I admire the desire to make it as slick as the giants. But, that kind of optimization would require nation-state level funding.
+You: What do you think the implications of that will be?
+Stranger: Yeah, I think the closest we ever got was Firefox OS and that left a lot to be desired without proper funding
+Stranger: kind of related, did you see the new product announcement from Google today?
+You: I didn't
+Stranger: They're releasing their own SoC for their phones
+Stranger: supposedly they plan to support priority vender blobs for 5 years
+You: Do you think that open hardware will ever become viable?
+Stranger: To be frank, no
+You: That is a fair prediction.
+Stranger: It would be awesome if it did, but I think it will always be too niche to get proper funding
+You: How do you [[hope]] to prepare for such a world?
+You: Hard to escape the vortex.
+Stranger: To be honest, I have no idea
+You: Yup. Confirm my [[bias]]. lol.
+You: I'm hoping Risc V becomes a real thing.
+Stranger: Like I try to use as much FOSS, but hardware is a
+Stranger: ...whole new ballpark
+Stranger: sorry the sentence cut off
+Stranger: Yeah, the potential of RISC is exciting
+You: We're [[root]]ed so many times in our hardware. I've practically given up. It's exhausting trying to own the means of production, comrade.
+Stranger: indeed
+You: What do you like to read?
+Stranger: like in general?
+You: Sure. Can't embarrass yourself with me. I read everything, garbage, stuff for losers. I'm a hiki basement-dweller. There is no one below me.
+You: And, I'm a linkslut, so if you got any of them dopamine hits, pass them my way.* =)
+Stranger: I mostly read science fiction now a days. I used to read more articles, but I feel the quality has gone done due to SEO tactics
+You: What's your favorite science fiction tend to be?
+You: I have a hard time finding good feeds.
+Stranger: I don't know, I think I'm in more need of recommendations lol
+You: Well, I would highly recommend [[Dune]]. It's one of them books a feller can read again and again over the decades.
+You: If you are a fan of comic books or graphic novels (I like 'em :P), //Lazarus// is dope AF, my friend.
+Stranger: oh yeah, I've been meaning to read Dune
+Stranger: I remember parts of the 80's movie being horrible lol
+You: (they have a graphic novelized version of it that's not terrible, my son [[1uxb0x]] just finished it...still think the original is the better option*)
+You: Yeah. That movie. Terrible. Justurble.
+Stranger: Would you recommend the comic before the novel?
+You: No. Go for the novel.
+Stranger: Alright, I'll add that to my list
+Stranger: Not enough time in the day
+You: There's some good shit in here too: https://en.wikipedia.org/wiki/List_of_joint_winners_of_the_Hugo_and_Nebula_awards
+You: Preach. Never enough.
+You: Do you need some graphic novels?
+You: err.. I meant audio books*
+You: (forgive me, it's late...can't even think straight)
+Stranger: yes please
+You: Are you willing to maintain ratio on a tracker?
+You: It's super fucking easy on myanonamouse.
+Stranger: I would but my ISP kinda sucks
+You: Point system is broken on purpose to make it so everyone survives.
+You: Aint never had a problem (I've had a lot of ISPs) with this tracker. I've even stopped using VPNs and Seedboxes for [[piracy]] (despite many years of paranoia).
+Stranger: lucky, Comcast always sends me their scare tactics whenever my VPN leaks
+You: Pain in the ass that is.
+Stranger: Plus their datacaps are a pain too
+You: A crime against [[Humanity]].
+You: Well, I'm happy to download the books for you and send them over. Though it may be proprietary, there are no practical substitutes for it, I use [[Resilio Sync]] to push files like this. It's like a mutable torrent that syncs a directory on our machines.
+You: Would you prefer that?
+Stranger: Centurylink has gigabit fiber literally less than ablock away, but they won't wire to my house
+You: Ugh.
+You: Who can you blow to fix that?
+Stranger: Big daddy FCC
+Stranger: but I don't have enough bucks for that
+Stranger: If your willing I'd appreciate you sending them over (if it's no inconvenience of course)
+You: It is my honor. My name is h0p3. What may I call you, stranger?
+Stranger: for now, you can call me Steve I suppose?
+Stranger: idk, I need to settle on a unique username that is available multi platform
+You: I hear that. Classic problem. =)
+You: https://philosopher.life/#Contact%20h0p3, I use Tox and Session. Here's the Resilio Sync key (you may have to trust Omegle here too, but we can always pick a new one over P2P messaging): [[REDACTED]]
+Stranger: Awesome, thanks! I've used pleb communication for a while, so it might take me a while, so I might take a while to figure out what the k00l kids use these days
+You: Take your time. I'm a full-blown retard.
+You: I've added Asimov's //Foundation// series, [[Dune]], Vandermeer, Stephenson, Huxley.
+You: If there is anything that you need pirated, don't hesitate to ask. Sometimes I can find it for you.
+Stranger: Yarr harr, same to you, though I'm not in much private groups, in addition to my isp limitations
+You: :P
+You: Gracias.
+You: I wouldn't say I'm into many private groups either. I work very, very hard to be in public in most cases.
+You: I'm not a fan of the [[Leet]] tribalism that doesn't [[aim]] to serve the global poor, sacrificially. Idealogically, I [[hope]] to be as k00l as the librarians I know.
+You: So, outside of computers, what makes you who you are?
+Stranger: Frankly not much, I don't have much hobbies
+You: Well, computing can soak up all the hobbies, easy. Worlds upon worlds inside these machines.
+Stranger: I am a night owl though, considering the fact that's it's 4am
+You: Yeah. :P
+You: How do you survive?
+Stranger: on coffee and 5 hour energy
+You: lmao
+You: Dark Chocolate, [[Root Users]], [[Masturbation]], and watermelon for me.
+Stranger: noice
+You: No, I meant, how do you make enough money to be allowed to exist on the soil where you reside?
+Stranger: Oh, well for my official title: I suppose a rotation of minimum wage jobs, and leeching off my parents in the basement rent free
+You: `/high-5`
+Stranger: living the life as you can tell
+You: Basement-Dwelling 4 Lyfe
+You: Do you get along with your folks?
+Stranger: Not really, but I can't afford rent anywhere else, so *shrug*
+You: I hear that.
+You: Do they understand your predicament? Not everyone seems to appreciate what younger generations are experiencing around the world.
+Stranger: Sort of, but not really.
+Stranger: I don't think they realize the cost of living is not the same as it once was
+You: No doubt.
+You: Has covid significantly affected your life?
+Stranger: No, it's mostly rural-ish here, so the only real thing that has changed is the amount of anti-vaxxers
+You: How has the number changed in your region?
+Stranger: Mostly hospitals getting overwhelmed by the amount of non vaccinated
+You: Yeah.
+You: Even the Republicans changed their toon after seeing Delta predictions.
+You: https://cyberdisobedience.substack.com/p/covid-hannity-mcconnell-desantis-delta
+Stranger: Yeah, republicans here are still trying to hold on to conspiracies though
+You: (btw, I keep an enormous [[Link Log]]...if you are hunting for articles or maymays)
+You: My mother-in-law, [[R]], makes surprising mistakes in this realm.
+You: She is otherwise a quite rational woman.
+Stranger: I know what you mean
+You: I'm an extraordinarily expensive person to argue with, so I try to set it aside with her. We are generally quiet anyways.
+Stranger: yeah, I always gotta pick your fights
+You: Indeed.
+Stranger: Covid related arguments especially get me frustrated
+You: How so?
+Stranger: I guess just news in general, and how people with just picked a source that aligns with their predisposed viewpoint
+Stranger: So not really covid, but that is where I see the most of it happening
+You: How do you burst your filter bubbles?
+Stranger: I pick RSS feeds from both sides
+You: Yeah, makes it clearer. It's quite an example to us.
+Stranger: I admit I could do better though
+You: If you have the chance, check out https://fraidyc.at/. It's a special reader, imho.
+Stranger: for sure I will
+You: I don't use RSS often, surprisingly.
+You: There are people I follow though.
+You: However, it's to follow them as persons, and less so anything else.
+You: [[Intimacy]] is crucial. The missing feature in a sea of parasocial relationships, where we can choose to socialize without commitment or skin in the game.
+You: I require the ability to listen to people I disagree with so far down, but [[love]] all the way down no matter what.
+You: As I said, full-blown retard here.
+Stranger: I fully agree with what your saying(besides your sin of not using rss)
+You: Haha =)
+You: I keep several thousand browser tabs open. My hyperreading is something I drown in.
+Stranger: the problem I find is that most intimate relationships are mostly done on Facebook an the like, sites that contradict my own personal ethos
+You: I use Update Scanner to follow particular pages. https://sphygm.us/, https://wiki.waifu.haus/, and https://kickscondor.com/ are so important to me, I don't even know how to put it into words (and, lawd, have I tried)
+You: Holy shit. Preach, yo!
+You: The workers must own the means of production. Personal sites are the way to go, homie.
+Stranger: your dropping so many useful links lol, I wish I had known these years ago
+You: You have the autonomy to engage in [[Public Self-Modeling]] on your own terms. Not forced into some tiny box being commodified to influence your decisions and hold your attention.
+You: It is always my honor to find useful links. Can't say I'm good enough at it. I do what I can. =).
+You: [[kicks]] has made an alternative social network site worth your time too, https://multiverse.plus.
+You: I would recommend trying out https://getaether.net, to go along with your surely heavy Plebbit and HN habit. =)
+Stranger: oooh that seems real nice
+Stranger: I wish more high quality social networs existed, but that's seems to be quite difficult to pull off in practice
+Stranger: but to me pre-Reddit fourms were basically utopia, so what do I know
+You: Yes. I totally get that.
+You: I think one of my favorite forums was for Legacy [[MTG]], https://mtgthesource.com. For specific spheres of interests, it's hard to beat those kinds of dedicated forums.
+You: But, even then, it violates some rules for me.
+You: I keep all of my [[jibberjabber]] saved on my wiki.
+You: I own my data.
+You: I am the extremely online activist your momma warned ya about. Just the worst sort, lol.
+Stranger: I wish I was smart enough to organize my knowledge base in a wiki. I'm old school and keep most stuff in pen and paper
+You: You can mix them together.
+Stranger: not that I have a lot of content I could fill, but still
+You: I once talked to a feller who did some real magic in notebooks. Worked on the original Pokemon IIRC.
+Stranger: at one point I tried to digitize, but my handwriting was too poor to OCR my existing notes
+You: Here's the feller: https://philosopher.life/#Lion%20Kimbro - Cold-called him up about it.
+You: Yeah. My handwriting blows hard.
+You: It hurts.
+You: I write a fuck ton every day. There's no way I could do anything but type it.
+You: My friend [[MJos]] has crippling carpal tunnel, and he's losing his ability to even using his machine with a keyboard. Having to redesign an entire life around macro movements and voice.
+Stranger: God, my condolences to him, that would suck
+You: IKR? Jesus.
+You: If I lost the ability to use my computer or my [[penis]], I think I'd have to end it.
+You: Lol
+Stranger: Yea
+Stranger: besides like being deaf, or losing a primary sense that's basically my worst nightmare
+Stranger: losing my penis that is /s
+You: lol
+Stranger: Speaking of typing, I've had to type on a POS rubber dome keyboard this past week
+You: Why were you forced into the pits of hell?
+Stranger: like right now typing this sentence is agony compared to my beautiful Model M
+Stranger: I don't know for sure, the old beast finally gave out
+You: `/pours-one-out`
+Stranger: I ordered a new one, I pray it's comin BMNg tomorrow
+Stranger: stupid leyboard
+You: lol
+Stranger: lol
+You: I like the clickety clack of my keyboard. I stim on it as an autist.
+Stranger: tisk tisk
+Stranger: Real men type on an ear drum rupturing buckling spring
+You: :P
+You: You someone who tries to navigate and wield their machine primarily from the keyboard (Keyboard-driven environments, or what have you)?
+Stranger: yep, keyboard + track point for life
+You: Don't happen to be a /g/entooman?
+Stranger: I don't happen to know the way of the /g/entooman
+You: Good for you, lol.
+You: You aren't wasting your life.
+You: Run.
+You: Lol
+You: I've been told I am at war with 4chan (https://www.youtube.com/watch?v=FDnd7_lSM3M). So, just had to ask.
+Stranger: surprisingly I've never actually used 4chan
+You: I cannot say it is worth your time.
+Stranger: I've read some threads, but not really seen much
+You: It is a wasteland.
+You: [[Anonymous]] users tend to fail the [[Ring of Gyges]] test. They show their true colors, and they are rarely anything more than dark-triads, egoists, bored narcissists, in my experience.
+You: I'd say 3% of adults above the age of 25 are actually [[good]] people.
+Stranger: yeah I figured from what I've seen of their general nomenclature/internet dialect off screencaps
+You: I find following a multireddit of those scraping and talking about it to be a better use of my time, though so much of it is staged.
+You: There's something to be said for listening to strangers and anons, even when they are telling mere fictions.
+You: Another way to burst my filter bubbles.
+Stranger: that and TPB are two sites I am constantly surprised still maintain popularity / are still accessible on the clearnet
+You: Aye. They've had to fight to survive many times.
+You: 4chan is a place that I RSS, btw. keyword searches.
+You: 10 rules for 7 boards
+You: https://philosopher.life/#Links%3A%20Keyword%20Hunting
+You: TPB taught us many things. It's now feasible to join a swarm of open-trackers that hold more than TPB. But, these are expensive computationally and bandwidth-wise.
+You: There's something to be said for federation there.
+Stranger: yeah, but in my eyes it's more of a dinosaur whose existance is due to getting the basics right
+Stranger: that said I have been out of the torrent game for a while
+You: How do you acquire your treasure?
+Stranger: combination of DDl sites, and other more modern trackers like 1337x
+Stranger: I don't really consume much out of mainstream though
+You: Yeah, me neither.
+You: I barely watch anything [[new]] these days even.
+You: Slowly walking through our [[TV: Library]] with my [[offspring|BAGD]]. Classics, hoping to have [[shared]] stories to reference.
+You: What's some of your favorite shows in [[The Great Human Conversation]]?
+Stranger: I have this soft spot for animated kids shows
+You: Hell yeah.
+You: Animation is a high art.
+Stranger: that's probably the bulk of my TV, for movies It's varied across a multitude of genres
+Stranger: animation is wholly underappreciated, Beavis in Butthead is currently the main thing in the rotation right now
+You: Preach, yo!
+You: Mike Judge is a prophet.
+Stranger: yes
+Stranger: I actually own King of the Hill on DVD, one of the few physical media I keep around
+You: My brother, [[DeathOfRobinhood]] is an animator. He basically does Canadian PBS.
+You: KoTH is absolute [[art]]. I consider it required watching.
+You: And, coming from the south myself, it's got a special place in my heart.
+Stranger: Hell yeah it is
+Stranger: and while Judge is a genius, that is not the case for the Beavis and Butt-Head collection
+You: Why's that?
+Stranger: All the music video stripped due to copyright, a bunch of the early and more crude stuff not released due to him
+Stranger: Plus Viacom in general is a horrible company on top of that
+You: lmao
+You: That is all true.
+You: I'm particularly opposed to all forms of Intellectual Property. [[2014.11.10 - Challenges in Quasi-Lockean Intellectual Property Theory]].
+Stranger: The fan made collection is fire tho(besides the video quality)
+You: Will have to pick that up. I've tried showing it to my offspring before, but it didn't seem to click like KoTH.
+You: (Though, we are all huge fans of Jackass...and, I am surprised to see they are releasing another)
+You: (Mike Judge having made an appearance in this as well)
+Stranger: yeah, It's a little more dated compared to modern shows
+Stranger: but I think it has charm, for the new generations in the upcoming reboot
+You: I'm always surprised there's never been a real spiritual successor to it, beyond perhaps Youtube's accidental amalgamations.
+Stranger: yeah me too
+You: Thank god for them internets. I need to see dumb shit to make me laugh.
+Stranger: Yeah
+Stranger: To be honest, I actually watch a fair amount of dumb shit on YouTube, maybe even more than tradional media
+You: I think that is becoming the norm.
+You: GenZ barely has any stake in traditional media.
+You: My [[Afterschool Teaching]] kids knew all the Disney [[film]]s and otherwise spent time on Tiktok and Youtube.
+You: What's some of your favorite dumbshit on the youtubes?
+Stranger: I like watching educational/productivity hacks on the pretense that I am getting smarter, despite the fact I retrain nothing
+Stranger: oh and cat videos
+You: You are a Knight of the Interwebs itself.
+Stranger: Lol indeed I am
+Stranger: how about you? Any favorite shows / YouTube Channels?
+You: [[vidya]]s has some channels, https://philosopher.life/#:[search[youtube.com]tag[Link%20Log]] has ~600 videos in it, and otherwise [[TV: Library]] and [[Film: Library]] capture my mainstream collections.
+You: I like a variety. I'm not sure how to [[pin]] it down.
+You: I strongly, strongly prefer text.
+Stranger: I understand, it's a pretty diverse medium
+You: Video is something I watch out of desperation or because I want to lay down.
+You: Except LolVods...gotta watch losers play the most toxic [[game]] ever.
+You: Need to be closeup to see the [[magic]].
+Stranger: I used to be like that, but my school days sucked the fun out of enjoyable rewdinf
+Stranger: reading*
+You: What did you study in school?
+You: Sec*
+You: back
+Stranger: I never really did enough university to study in one topic,
+Stranger: but my high school's critical reading class ruined enjoyment for years to come
+You: lmao
+You: You went to fancy school.
+You: What did the cover in the critical reading class?
+Stranger: Rhetorical devices, deeper meaning stuff like that
+Stranger: and how your preconceived notions of reading was all wrong
+You: That stuff is way over my head.
+You: I do try*, but I'm smoothbrained there.
+Stranger: Well you didn't miss much, I didn't use anything I learned in the class. Even if it was usefully I just relearned it in normal
+Stranger: Cut off the sentence, sorry
+You: At some point, mastering the art of [[deconstruction]] doesn't [[help]] solve any problem that matters.
+Stranger: Yeah, I agree
+Stranger: Also, I am counting down to my keyboard delivery
+You: Then life will return to normal.
+Stranger: It is amazing how much slower / inaccurate I am with this junk of junk
+Stranger: but anyways, I am slowly recovering my ability to read with the power of a kindle + libgen lol
+You: Preach.
+You: Libgen is the best.
+Stranger: plus I'm supporting the library or something so that's great
+You: How do you support it?
+You: I used to seed for them.
+Stranger: I don't know how libraries work exactly, because I slept through government
+Stranger: but using overdrive should be counted in their offical stats for utilization, and should allow them to bargain/maintain funding
+Stranger: So, I tend to use them before libgen, even if their selection sucks
+You: I hear that.
+You: Sometimes I get the physical copy, that way I can hold the paper while I'm on the shitter.
+Stranger: I tend to keep a book or two for those types of things, but ebooks is so convenient now
+Stranger: and I used to be adamant about physical books ever being replaced
+Stranger: crazy how the times change
+You: (I've done my dead level best to get rid of codex...but [[my wife]] will never let them go fully...she's always entering those advanced reader copy things...at least I won't have to move them again)
+Stranger: do you have a kindle(the e-ink)?
+You: Family does, but I don't. Once in a great while, I'm forced to read on my phone, but otherwise, I read off my desktop or hardcopy.
+You: I need a really good reason to not use my desktop.
+You: I've got too many things I have to juggle, and it's the only place that can contain the chaos.
+Stranger: I know what you mean
+Stranger: I am similar, and don't have many 1 use type of devices, but the lack of eye strain after reading hours on end is amazing
+You: e-ink is amazing
+Stranger: yes
+You: If I thought it moral to spend resources on it, I'd get a reMarkable.
+Stranger: God, I'd love a remarkable
+You: The tits.
+Stranger: I think they have a pretty decent open source community as well
+Stranger: I desperately wish e-ink monitors were a thing
+You: I would like to try one of those.
+Stranger: I know they exist, but I could never afford one at current prices
+You: That would round out the ol' battlestation.
+Stranger: yeah
+You: The drawing tablet part is not something I've found a way to add to [[monster-16]].
+You: I've got a 2-in-1 I use during [[Family Time]], and it can be a shitty tablet.
+You: But, same eye-strain, and frankly, I'm stuck using Apple or Windows to have real touch performance (decent drivers and auxiliary software just don't exist for Linux).
+Stranger: Honestly anything beyond Apple's pencil has horrible latency
+You: I'm betting VR is more likely to succeed as the next addition to my desktop than e-ink.
+You: I don't know enough. High end cintiq's might be decent.
+Stranger: VR and e-ink as fine compliments to my CRT + lcd dual monitor setup
+Stranger: Apple's latency afaik is the best in the industry at 9ms
+You: I would not be surprised. They have been pretty dominant in the tablet market.
+You: I've met a lot of people who don't even have a keyboard anymore.
+Stranger: Yeah, I know a lot of people whose only computing device is a phone
+You: I've had a lot of students write their papers entirely on a phone.
+You: Shocking.
+Stranger: That's crazy
+You: My [[Root User]], [[K]], types almost as quickly on his phone as he does on his computers. 50wpm is enough to get by. But, still, lawd.
+Stranger: My mom can only type ~20wpm on a real keyboard, yet 30+ on her phone
+You: lol
+You: That's wild.
+You: What's she do to survive in this world?
+Stranger: Yeah, in addition the only pointing device she knows how to use a touchscreen
+Stranger: it's weird because she's used a mouse the past, but idk how she could forgot
+You: I'm sure she could pick it up if she wanted.
+Stranger: Yeah I'm sure she could, but she would probably never explicitly need to
+Technical error: Lost contact with server, and couldn't reach it after 3 tries. Sorry. :( Omegle understands if you hate it now, but Omegle still loves you.
+
+Motherfucker. I cannot believe it, Omegle. `/throws-hands-in-air`. I was //having// a conversation, goddamnit. =(. Well. Okay. I'm glad we met.
+"""

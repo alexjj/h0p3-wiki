@@ -1,0 +1,29 @@
+created: 20220120143315177
+modified: 20220120143335917
+tags: ASmith Chatlog
+title: 2022.01.19 - ASmith: Autologin
+
+"""
+[00:51:31] h0p3: Yo, is there a way to start up retroshare (gui) with a username/password? I'm actually thinking about killing and restarting some of my tools at this point now. 
+[00:53:25] ASmith: I start up RS Gui via a terminal
+[00:53:55] ASmith: $ ./retroshare_0.6.6.20220116.2548ef29-gui-focal_sqlite_amd64
+[00:55:05] h0p3: Mine requires a username and password after the GUI starts up.
+[00:55:27] ASmith: yes, there's a no-password or auto login switch
+[00:55:37] ASmith: is that what you are asking?
+[00:56:29] h0p3: Still looking for it.
+[00:56:35] ASmith: you'd need a build with that switch enabled
+[00:57:20] h0p3: Ah, I see.
+[00:57:36] ASmith: https://retroshare.readthedocs.io/en/latest/user-guide/settings/
+[00:57:39] h0p3: Yeah, not enabled on my version, I think. 0.6.6
+[00:58:05] ASmith: http://retroshare.sourceforge.net/wiki/index.php/Documentation:Options#For_Advanced_Users
+[00:58:47] h0p3: 0.6.6-2*
+[00:59:29] h0p3: The box for auto login is greyed out.
+[01:00:14] ASmith: That option using that method is enabled as you make your node
+[01:00:30] h0p3: So, I have to remake a node for it?
+[01:01:53] ASmith: ok back to another option which was make a new source build with that option active
+[01:02:38] h0p3: Gracias
+[01:03:12] ASmith: grep your clone of retroshare for auto login and/or autologin
+[01:03:28] ASmith: that might pull up the config enable syntax you need
+[01:07:52] ASmith: build_scripts/Windows-msys2/WindowsMSys2_InstallGuide.md:	qmake -r -Wall -spec win32-g++ "CONFIG+=debug" "CONFIG+=rs_autologin"
+[01:08:12] ASmith: its CONFIG+=rs_autologin
+"""

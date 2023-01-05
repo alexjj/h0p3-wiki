@@ -1,0 +1,43 @@
+created: 20220121112938648
+modified: 20220122064125290
+tags: [[Carpe Tempus Segmentum]]
+title: 2022.01.21 - Carpe Tempus Segmentum: in-cat-pacitated
+
+Woke at 4:30. Hell yeah. I slept with pants on,<<ref "y">> and I did stay warmer. Meditation. Fireman Time!
+
+She's up and not in-cat-pacitated. Hugs'n'bugs. Baked sun dried tomato pesto+cheese on italian bread for what I will call pizza (I should have toasted it more). We made coffee. Off to work for both of us. [[TTTOTW]].
+
+A person by the name of DRipper<<ref "?">> is walking through the snapshots. `/salute`.
+
+Trying yet ipfs-desktop out again. I admire a serious mutable torrents attempt. Wish I could ask it to burn more CPU to hash. I like the way it attempts to mix CLI and GUI. May be a worthy tool inside Whonix (OpenBazaar seems to be the only folks who have IPFS up and running on Tor out of the box). Zeronet doesn't, and, I don't understand why this tooling doesn't just include it's own Tor executable/config (nor how they've gone this far without auto-publishing).
+
+```bash
+#!/bin/bash
+while true; do
+
+inotifywait -e modify,create,delete,move -r /path/to/your/dir && \
+python3 zeronet.py siteSign address --publish
+done
+```
+
+Hugs'n'bugs. She made tea for us. +0/-0/+0 Gobbos vs Affinity, 1-2. Some work to go in the control role. Close enough. 
+
+[[TTTOTW]]. Offspring are not on top of their shit today. However, my daughter did decide to script for us. That was cool. They came down to grind in [[The Den]]. Eventually, I could not keep my eyes open any further. Dad nap.
+
+Woke at 4:30? Meditation. //Raw Skintime// with mi amor. Busy day, and more planning. SL fucked up badly, but hard work put it back on track (I hate parts of their infrastructure so much). Fireman Time!
+
+//Skintime// with mi amor + //The Great// into S02. I'm having a hard time believing they'll be able to make it work, but so far, so good.
+
+We all chilled, [[5c0ut]] too, in the kitchen as dinner was finished. It was pleasant. I paced.
+
+[[Family Gathering]] was dope. [[ASK]] made an insane meal. We had chicken like I've never had (appparently, I could live without fried chicken, it was that good), roasted veggies better than anything we've ever made. Stunning. Gravy too. North or South Pole episode of //House//.
+
+No art group. 
+
+//Skintime// with [[ASK]] + //Todd & the Book of Pure Evil//, then //The Wall Street Code//.
+
+
+---
+<<footnotes "y" "You can still see my [[unitoe|Micropenis]].">>
+
+<<footnotes "?" "https://battleangel.fandom.com/wiki/D-Ripper">>

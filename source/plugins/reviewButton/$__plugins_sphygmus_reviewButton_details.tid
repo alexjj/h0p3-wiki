@@ -1,0 +1,10 @@
+created: 20180916172800502
+modified: 20180916174029019
+title: $:/plugins/sphygmus/reviewButton/details
+type: text/vnd.tiddlywiki
+
+This tiddler uses a customized `<$set>` widget (found as `<$setReview>` in the button code) to make the plain text list of the previous day's created tiddlers available to the new-tiddler-message widget. This customized `<$set>` widget uses an edited version of the stringifyList javascript code to change how the input array is concatenated. Specifically, instead of adding `[[ ]]` and space separating the array items, it adds `\n * [[ ]]` to each array item (and then space separates them). This allows the tiddler titles to both be links and new bulleted lines when inserted into a new tiddler.
+
+The `<$setReview>` widget takes a filter as a parameter. The default filter is `[!is[system]days:created[-1]!days:created[0]sort[created]get[title]]`. This removes system tiddlers from the list, selects everything from yesterday and today inclusive, removes those from today, sorts the titles by the time created (oldest at the top), and finally specifically selects the titles. More info on how the days operator can be found [[here|https://tiddlywiki.com/#days%20Operator]].
+
+This button also uses several widgets and the button's "set" and "setTo" parameters to insert the created tiddler's title as a link into the [[Wiki Review: Focus]] tiddler. Thanks to several discussions on the Google Group that helped me figure out how to set this up!

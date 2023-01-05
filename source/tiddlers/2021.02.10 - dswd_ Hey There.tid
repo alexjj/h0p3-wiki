@@ -1,0 +1,37 @@
+created: 20210210195933116
+modified: 20210211042855837
+tags: dswd Chatlog
+title: 2021.02.10 - dswd: Hey There
+
+It's been ~~two~~ three years, and I've yet to find a serious alternative to this piece of software. I have no idea why this tool is not much bigger than it is, btw. It's amazing (and thank you for providing such a gift to the world). You write code with moral merit. I might not be able to write the snap, but I'd donate for it.
+
+<<<
+Hi, thanks a lot for the kind words.
+I looked into building snaps a little and managed to build a simple snap from the deb package.
+However:
+
+* I can't install the manpage as snap does not seem to support manpages
+* I have not found a good way to add vpncloud as a service since snap does not seem to support services with dynamic instances
+* Also I haven't found out how to create a config directory in /etc with a default config using snap
+
+Right now the snap just provides the binary. Any help would be appreciated.
+
+I just thought about something else. Since VpnCloud really just comes as a binary with 3 support files (manpage, system service, example config), maybe I can provide a standalone executable which has `install` and `uninstall` commands that create/delete those 3 files. Alternatively, the binary could get the ability to manage instances (create config, delete config) which also creates the required service file. This would work on any Linux system I can think of. What do you think about that? Would that be useful to you?
+<<<
+
+First, I want to introduce myself to you. Hi there! My name is h0p3. It's an honor and a pleasure to meet you. I've been an admirer from afar. Maybe that will change; I don't know. If you ever need a friend, a madman, or a retard in your life, HMU: https://philosopher.life/ (feel free to ignore my public self-modeling; it's currently being quietly written [can check the diffs]). I record my conversations (including this one, and I'm happy to think about that with you, if you want), and if you prefer an alias, let me know (you've already earned one with me).
+
+I've been thinking about your words. I like many of the changes you've made to this software over the years (to my poor understanding, of course). I'm sure I sound like an entitled user, and I apologize. I am grateful for this gift.
+
+Perhaps all I can offer in return at the moment is my paranoid, ignorant opinion here (might not be worth much, sorry). I think you have a tool that competes with Zerotier (this is the tit I'm trying to get off) and perhaps even https://github.com/yggdrasil-network/yggdrasil-go. Having something that "just werx" on any Linux machine is quite an accomplishment, especially if there is a simple installation (if you had more people helping you, it seems like it could be used on most unlocked platforms [perhaps even inside the browser via WASM one day]). I like to think that this tool could be the basis of the decentralization that so many applications are really seeking in the end. Here's some dumb questions and uses I have in mind:
+
+* Can I hand my brother a key and few lines to run almost blindly with zero compilation?
+* Can I connect to hundreds of networks, some of them quite large?
+* Can I nest VPNs?
+* Can I route this over i2p/loki/tor with ease? (ws-proxy and hooks are dope, btw)
+* Can I run it on a potato (in some mode, perhaps), especially an android phone (I'm close to just giving up and going for a pinephone)? (would it need to leverage other machines to limit battery usage?) 
+* Given the continued centralization of and censorship within internet infrastructures, is it easy to run a volunteer beacon-router-tracker-proxy on behalf of any vpnclouds that may need the extra foothold? (I admit that federation may still be a required, though avoiding it is preferred).
+
+You need a dozen people to solve these problems maybe. Please ignore my questions (they are insane, I know). You have already given more than you have to.
+
+I don't know what fitting assumptions you ought to make here. I'm not a dev; I'm just a skiddie who uses his computer to get shit done. If you can avoid package managers, then why not avoid them? I like the last binary option you mentioned the most.

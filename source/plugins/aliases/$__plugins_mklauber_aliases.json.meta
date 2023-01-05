@@ -1,0 +1,7 @@
+author: Matt Lauber
+core-version: 5.0.1
+description: Aliases - Alias manager
+plugin-type: plugin
+title: $:/plugins/mklauber/aliases
+type: application/json
+version: 0.1.2

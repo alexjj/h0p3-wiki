@@ -1,0 +1,152 @@
+created: 20200519014314063
+modified: 20200614070801327
+tags: BL Letter To
+title: 2020.05.18 - BL: Catching Up
+
+```
+
+`7MM"""Yb.                                  `7MM"""Yp, `7MMF'         
+  MM    `Yb.                                  MM    Yb   MM           
+  MM     `Mb  .gP"Ya   ,6"Yb.  `7Mb,od8       MM    dP   MM           
+  MM      MM ,M'   Yb 8)   MM    MM' "'       MM"""bg.   MM           
+  MM     ,MP 8M""""""  ,pm9MM    MM           MM    `Y   MM      ,    
+  MM    ,dP' YM.    , 8M   MM    MM           MM    ,9   MM     ,M   ,, 
+.JMMmmmdP'    `Mbmmd' `Moo9^Yo..JMML.       .JMMmmmd9  .JMMmmmmMMM   dg 
+                                                                     ,j 
+                                                                    ,' 
+```
+
+Yo, long time, no see, [[man|Find The Others]]. It's kinda surreal speaking with you. I've been stupidly busy,<<ref "t">> and I want to attempt to give you some [[fitted context|Help]] to think about what you are looking at more generally in this wiki. I am required to build doorways for people into this [[monster]].
+
+<<<
+Hey h0p3,
+
+It's great to hear from you.
+<<<
+
+Good, I'm glad! Not everyone enjoys hearing from me.<<ref "s">> I'm glad to [[hear|Contact]] from [[you|BL]], too. I've been working on maintaining remote relationships over the past few years and this wiki is my primary tool.<<ref "h">> Like a madman, I scribble in the open.
+
+<<<
+Thanks for the congratulations.
+<<<
+
+You've been on quite a journey and I only understand the bare outlines of it. Back 15 years ago, I think I would have been surprised to find out we would be in our particular shoes today. I'm glad to see you kicking ass. I'm excited to see what the future holds for you.
+
+<<<
+I apologize for not getting back to you sooner.
+<<<
+
+Ah, please don't worry about it. First, I take forever in my [[correspondence]]. Second, I believe you've had way more important things to do with your time than send me a letter. The rate of change in the world is too much for me to fathom, though I consider it my obligation to try to understand it. I can imagine you have a ton on your plate so I'm honored that you were able to squeeze me in. 
+
+<<<
+I'm doing OK, but things have been a bit odd.
+<<<
+
+No shit, dude. Lol. I'm glad you are doing okay in the whirlwind. While I don't have enough of a record or a memory of it, I have been following HK with what resources I have.
+
+<$button class="tc-btn-invisible" popup=<<qualify "$:/temp/BLCatching">>>
+Contextlink: [search:title[Link Log]search:text[kong]search:text[hong]]
+</$button>
+<$reveal type="nomatch" state=<<qualify "$:/temp/BLCatching">> text="">
+<br><br>
+<$list filter="[search:title[Link Log]search:text[kong]search:text[hong]]+[sort[title]]" emptyMessage="">
+<$link to={{!!title}}><$view field="title"/></$link>
+<$context length=80 term="hong"/>
+<$context length=80 term="kong"/>
+<br>
+</$list>
+</$reveal>
+
+It's odd to live as an ex-pat in a nation experiencing significant protesting. I experienced some of it Thailand, but it was nothing like HK's. Hong Kong protests had me thinking of you. Now it's happening here. You still a Marxist?
+
+<<<
+I am teaching English full-time in HK for my visa, and that takes up a lot of time for research and things.
+<<<
+
+I bet it does. =/. Sorry, man. I can strongly relate to that. Do you enjoy the work? Do they treat you right? I assume there aren't a ton of philosophy faculty positions available to you there. I am relieved to not have to participate in that precarious climb. I [[hope]] you'll be able to get where you want to go. Btw, where do you want to end up? I am, of course, [[bias]]ed; I think almost everyone ought to study Saint Kant.<<ref "i">> One would think that almost every school should be clamoring for a Kant scholar (I do). I'm sure we would all be lucky to learn from you.
+
+<<<
+I'm not sure when we last talked, but I got married about a year and a half ago, so that is going on too.
+<<<
+
+Dude, congratulations! That's an even bigger deal than your PhD! Fuck yeah. That's awesome. It has been many years since we last spoke. If memory serves, somewhere around January 2016? A lot has transpired since then and you've been on a hot streak, sir. I'm glad to hear it. 
+
+Tell me about her. What's she like? How'd you meet? Does she also study philosophy? I have no idea why [[k0sh3k]] puts up with me. So, how did you manage to convince your wife to put up with you?<<ref "wl">> Lol.  
+
+<<<
+And I have been dealing with a recurrent pleural effusion, which seems to be going away now (but no one is sure). I have been in the hospital twice this year for that, and they still have no idea what caused it. But I'm finally back to feeling better for the most part, and I would say I'm doing well these days.
+<<<
+
+Yikes. That is serious. I'm glad you are feeling better for the most part. May it never show its ugly face again. If I understand correctly, I assume CV19 has been extra concerning then. 
+
+<<<
+How are things with you?
+<<<
+
+I'm hanging in there. I've had to make significant changes in life. I've had some high highs and low lows, but overall life has improved. We've moved twice since we last spoke. I had been working with my hands as a [[pipefitter|Pipefitting]] and as a guide in the [[afterschool program|Afterschool Teaching]] at our local middle school. In addition to this wiki, I focus on my wife's career and trying to [[Be A Good Dad]]. 
+
+<<<
+It's good to hear that you're still in the research game. It would be a shame if you stopped doing philosophy, as you hinted that you might in an earlier email.
+<<<
+
+If I recall correctly, about a month after sending my last e-mail to you, I gave up on being an academic.<<ref "w">> A whole lot hit me at once. It's been a [[power]]ful experience. I shit you not, as much as it pains me to say it, I too have become a mystic.<<ref "tc">> I wish I had the intelligence necessary to adapt to change, lol, but I'm slow. Been trying to make [[kintsugi]] of my life. The rest is gravy. We pushed to find my wife a job as an academic librarian in her hometown area at Milligan College. They offered to have me adjunct, but I'm not going to be paid less than minimum to teach rich kids. We've since moved to New Haven, CT. 
+
+I'm glad I didn't stop. I appreciate your thinking about it with me and your supportive words in my time of crisis. 
+
+I've left the crazy factor turned up inside me; it's where I have to go.<<ref "r">> Like any decent public ~~intellectual~~ [[crank|WWDD]], I'm going for broke: I spit 𝕱𝕴𝕽𝕰 in here. I aim to be a philosopher, in the broadest sense of the term, with whoever shows up to speak with me, [[WINTCIS]]. I feel like I'll need at least a decade or two, assuming I am [[lucky|Moral Luck]] enough to live that long,<<ref "m">> in order to have something worth reading in this pile. It's my shitty magnum opus, lol. I feel as absurd as Noah and [[naked]]ly like Isaiah. It's probably going to be a lonely road.
+
+This wiki is at least a piece of art, but I think it's more than that. If at all, I ask you to take some time to explore this gigantic rabbithole and reserve judgment for a while about it. Take as long as you need. To my knowledge, you've never seen anything like it (it's uniquely deviant in [[The Great Human Conversation]]). You would not believe how much work I have poured into it, which doesn't make it worthy.<<ref "bh">> I don't think I'm wasting your time though.
+
+<<<
+You're referring to the paper that I presented at the 2015 (or whenever) Kant Congress, and that was published in the proceedings (Nature and Freedom or something)? I haven't really looked at that paper since it sent in the version for the proceedings, so for a few years or so. But yes, I am convinced that the only way to make sense of the texts is to read Kant as never speaking about the highest good as a duty. My interpretation is, I think, an implicit argument for the continuity between Kant's different treatments of the HG, and I think it solves problems about the ought implies can stuff pertaining to the HG. I just read the CPrR treatment of the HG through the lens of the CPR Canon treatment, and I think this avoids most of the problems interpreters have. When Kant relates the HG to duty, he can only be talking about our part in it, which is to become worthy of happiness. And that just is following the moral law, which just is what our duty is in the first place. So I take his point as being that the moral law relates to the HG because a moral person is worthy of happiness. This just is his treatment of the HG in the CPR Canon, and I can't see any inconsistencies in his later treatments. I have read the people who claim to see a problem, but I think they make a problem that isn't there. It's possible that I'm just not a good enough interpreter to see the problem, because I cannot see it. So, I honestly can't even see why my claim is controversial (even though I made it in that form in order to make it seem more controversial).
+<<<
+
+Your claim makes sense to me. I'd add that, from what I can see, [[The Good]] sublates [[The Right]] and [[The Beautiful]]. I cannot say I understand it well enough. 
+
+<<<
+Apologies for the delayed response.
+<<<
+
+Seriously, take as long as you need to reply. I am [[grateful]] to see you when I do in the desert.
+
+<<<
+I hope you and your family are doing well. I look forward to hearing from you and about what you have been up to (and how you're doing in such crazy times).
+
+Cheers,
+
+BL
+<<<
+
+If you are up for it, feel free to think about and speak with my family. 
+
+* [[1uxb0x]]: http://1uxb0x.philosopher.life/
+* [[j3d1h]]: http://j3d1h.philosopher.life/
+* [[k0sh3k]]: http://k0sh3k.philosopher.life/
+
+This letter reminds me of my friend [[GB]]. You [[intimate]]ly know me better than most in how I almost always believe I'm right. I want to apologize for being an asshole. I [[hope]] you can forgive me for being one unjustifiably in many cases. I aim to be a [[good]] man and I believe you do, too. Considering the amount of evil I see in the world, I'm grateful to have met you; you are proof to me that some people use their freedom wisely in a good way. It is rare that I get to say that to anyone. I have [[Root Users]] who I trust to help me change who I am; I'd like for you to think about being friends with me like that. It ain't no Starship Enterprise without an honorable Kantian, and I trust your mind. 
+
+[[Love]],
+
+[[h0p3]]
+
+
+---
+<<footnotes "t" "The proof is inside the wiki. I touch ~1000 pages (or 'tiddlers') every two months.">>
+
+<<footnotes "s" "I know you aren't surprised by that, lol.">>
+
+<<footnotes "h" "It can get pretty tangled up in here. I dub these [[hyperconversation]]s.">>
+
+<<footnotes "i" "If only we could all learn through osmosis by sleeping with GMM under our pillows at night.">>
+
+<<footnotes "wl" "We are lucky men, of course.">>
+
+<<footnotes "w" "Though I have not given up on wrestling. I about did many times, but I'm still here.">>
+
+<<footnotes "tc" "I believe in a true contradiction. Lmao. I would (or did) bet a lot that I wouldn't come to believe such a thing a decade ago.">>
+
+<<footnotes "r" "Correspondence with my mother(-in-law), [[R]] demonstrates it.">>
+
+<<footnotes "m" "A lot of madmen don't make it to old age.">>
+
+<<footnotes "bh" "I'd be happy to help you build whatever technical infrastructures you might need.">>

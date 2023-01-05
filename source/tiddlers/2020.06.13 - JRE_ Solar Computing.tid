@@ -1,0 +1,88 @@
+created: 20200711010700717
+modified: 20200711010830936
+tags: JRE Chatlog
+title: 2020.06.13 - JRE: Solar Computing
+
+"""
+No idea
+Jun 10 12:15pm
+
+Image attached to message
+Jun 12 4:52pm
+Cute AF =)
+Jun 12 9:59pm
+You should grow a mullet to match. This may be your only opportunity.
+Jun 12 10:00pm
+Matching mullets
+Jun 12 10:00pm
+
+I have a request. If you have time, would you find+recommend a solar panel + battery set up for a single laptop?
+Jun 13 9:32pm
+How mobile?
+Jun 13 9:35pm
+Worthy of nomadic camping
+Jun 13 9:35pm
+So could be vehicle mounted?  Or can be carried long distance?
+Jun 13 9:38pm
+Big problem will be battery weight, but in vehicle, no biggy
+Jun 13 9:38pm
+
+I'd prefer it something I could arbitrarily mount/dismount, not vehicle dependent. This may not be possible. I have no idea.
+Jun 13 9:39pm
+Well, most panels are going to take effort to mount to a car, although it's getting more vehicle specific with stealth campers
+Jun 13 9:40pm
+So the problem isn't that you would have a panel/battery that is uncountable outside of a vehicle, it's about how much battery life and uptime you could sustain with batteries small enough to carry
+Jun 13 9:42pm
+Unmountable*
+Jun 13 9:42pm
+I suppose I could try to slim down the battery usage in a radical way
+Jun 13 9:43pm
+The RPi would be enough computer power
+Jun 13 9:43pm
+So either you charge a battery, think car battery (s), and gotta lug that around, and from that you can charge and run lots of things, or you can carry extra laptop batteries and find a way to charge multiples so you always have some ready
+Jun 13 9:45pm
+I prefer the former.
+Jun 13 9:46pm
+Can you tell me the wattage on the laptop?
+Jun 13 9:46pm
+No idea.
+Jun 13 9:46pm
+I'm willing to change that up significantly
+Jun 13 9:46pm
+Hypothetical laptop?
+Jun 13 9:46pm
+Gotcha, I have no clue what real averages are, but I'll check out stuff
+Jun 13 9:47pm
+Computer going to be on constantly, or shut down sometimes?
+Jun 13 9:51pm
+Prefer on permanently, but will work with whatever is the butterzone
+Jun 13 9:51pm
+Day 2 of fever for kid.  Sad pupper
+Jun 13 10:29pm
+=/
+Jun 13 10:29pm
+Walking with him now
+Jun 13 10:29pm
+He's up late.
+Jun 13 10:29pm
+Can't sleep?
+Jun 13 10:29pm
+Keeps waking up
+Jun 13 10:30pm
+Computer needs 12v DC, uses power supply as rectifier to change 120v ac into 12v dc.
+Jun 13 10:31pm
+Most solar panels are going to go to a voltage controller that will spit put 12v DC, so it is actually better if we can safely hook computer up directly to splar
+Jun 13 10:32pm
+Solar
+Jun 13 10:32pm
+Spit out
+Jun 13 10:33pm
+One hand type
+Jun 13 10:33pm
+Cause solar panel loses some power when it uses inverter to change 12v DC into 120ac, and power supply loses some power when it changes 120v ac back into 12v dc
+Jun 13 10:34pm
+So camper set ups, with inverters, could be avoided, as long as you are only using setup for pc, not mini fridge or other ac load
+Jun 13 10:35pm
+Just for laptops would be fine.
+Jun 13 10:49pm
+"""

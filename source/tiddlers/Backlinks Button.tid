@@ -1,0 +1,17 @@
+created: 20200522204026351
+modified: 20200522213044649
+tags: j3d1h [[Wiki Mechanic]]
+title: Backlinks Button
+
+<$reveal type="match" stateTitle="Backlinks" stateField="tags" text="[[Wiki Mechanic]] $:/tags/ViewTemplate">
+<$button tooltip="Disable wiki-wide backlinks" class=<<tv-config-toolbar-class>>>
+<$action-setfield $tiddler="Backlinks" tags="[[Wiki Mechanic]]"/>
+{{$:/core/images/close-button}}
+</$button>
+</$reveal>
+<$reveal type="match" stateTitle="Backlinks" stateField="tags" text="[[Wiki Mechanic]]">
+<$button tooltip="Enable wiki-wide backlinks" class=<<tv-config-toolbar-class>>>
+<$action-setfield $tiddler="Backlinks" tags="[[Wiki Mechanic]] $:/tags/ViewTemplate"/>
+{{$:/core/images/new-button}}
+</$button>
+</$reveal>

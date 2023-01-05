@@ -1,0 +1,27 @@
+created: 20220316162826070
+modified: 20220316163104771
+tags: [[FTO: Seemingly One-Off Online Encounters]] FTO [[FTO Mode: Alien]] Chatlog
+title: Peng
+
+!! Information:
+
+* Soulseek: Peng
+
+!! Communications:
+
+; 2022.03.16 - Peng: Halp
+
+<<<
+"""
+[11:09:30][Peng] Hello. I'm pretty new to Soulseek and p2p file sharing in general, and I think I'm making some sort of mistake- when trying to download some of your files, they all instantly go to 'aborted'. Is this likely to be something on my end, and how would I fix that?
+[11:50:48][h0p3] Hey there! It's a pleasure to meet you.
+[11:51:06][h0p3] I've been searching for what the problem may be. I don't have an answer, sadly. 
+[11:51:48][h0p3] Abort rates seem pretty high. It could be on either of our ends. 
+[11:53:01][Peng] Just restarted my client again for the sake of it (did already try it without success, but what the hell), and now it's downloading
+[11:53:10][h0p3] You can keep retrying, or hit me up on DarkMX/Retroshare/MuWire/DC++. I'm happy to transfer the files you want via Resilio Sync (much faster and more reliable). If that's preferred, send me a Read+Write key, and let me know the files you need. 
+[11:53:18][h0p3] Dope!
+[11:53:21][h0p3] Glad to hear it.
+[11:53:27][h0p3] You let me know if you need anything, and I'll do what I can.
+[11:53:38][Peng] Cheers, I appreciate it :)
+"""
+<<<

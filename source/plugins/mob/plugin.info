@@ -1,0 +1,14 @@
+{
+    "title": "$:/plugins/jd/mob",
+    "author": "JD",
+    "core-version": ">=5.1.14",
+    "created": "NaNNaNNaNNaNNaNNaNNaN",
+    "creator": "JD",
+    "description": "JD Mobile Layout",
+    "list": "readme config",
+    "modified": "NaNNaNNaNNaNNaNNaNNaN",
+    "modifier": "JD",
+    "plugin-type": "plugin",
+    "tags": "",
+    "version": "1.0.4"
+}

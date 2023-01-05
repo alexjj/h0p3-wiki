@@ -1,0 +1,8 @@
+aliases: [[tmpl]] [[tmpls]] [[.tmpls]] [[.tmpl]]
+caption: .tmpls
+created: NaNNaNNaNNaNNaNNaNNaN
+modified: 20210105040202505
+tags: dotfiles Dreams TTP
+title: dotfiles: .tmpls
+
+<<tabs "daily.tmpl weekly.tmpl monthly.tmpl yearly.tmpl [[.tmpl: More]]" "daily.tmpl">>

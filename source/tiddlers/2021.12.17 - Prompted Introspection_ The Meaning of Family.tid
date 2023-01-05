@@ -1,0 +1,33 @@
+created: 20211217160856723
+modified: 20211218021700118
+tags: [[Prompted Introspection]]
+title: 2021.12.17 - Prompted Introspection: The Meaning of Family
+
+!! What does family mean to you?
+
+I've got some [[prompts|Prompted Introspection]] that speak to it somewhat directly:
+
+* [[2018.03.11 - Prompted Introspection Log: Familial Importance]]
+* [[2020.02.18 - Prompted Introspection: Families]]
+
+Alright, ~~Wittgenstein~~ ~~[[AIspondence]]~~ Samwise, what it means to me<<ref "a">> in terms of use is better covered here:
+
+<$button class="tc-btn-invisible" popup=<<qualify "$:/temp/promptedfamilymeantoyou">>>
+Contextlink: [search:text[famil]]
+</$button>
+<$reveal type="nomatch" state=<<qualify "$:/temp/promptedfamilymeantoyou">> text="">
+<$list filter="[search:text[famil]] +[sort[title]]" emptyMessage="">
+<$link to={{!!title}}><$view field="title"/></$link>
+<$context length=80 term="famil"/>
+<br>
+</$list>
+</$reveal><<ref "never">>
+
+I suppose it comes in [[dok]], as usual, Samwise (surprise!). I'm not able to come up with an explanation that is different from [[Friendship]] beyond perhaps some level of commitment (though, obviously, even friendship includes commitment to some [[dok]]). And, I have to say, commitment is hard to come by in any direction. As with [[love]], it is ultimately a choice.<<ref "w">>
+
+---
+<<footnotes "a" "And, my god, you know how annoying I find that phrase. As though it boiled down merely to my subjective interpretation entirely (I'm not claiming you are making this mistake).">>
+
+<<footnotes "never" "Apparently, these are never-click LMGTFYs. I know it when I see it, loser. =D.">>
+
+<<footnotes "w" "Which, I can't believe I have to say this, does not preclude obligation. Whether or not we choose to bind ourselves to [[The Moral Law]] has no bearing on the fact that it still governs us. We can be obligated to be a friend or family member even if we choose not to. It's not an arbitrary choice among mere imperfect duties in most, if not all, cases.">>

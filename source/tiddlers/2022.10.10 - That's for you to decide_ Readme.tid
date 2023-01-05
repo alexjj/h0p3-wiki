@@ -1,0 +1,24 @@
+created: 20221010041501501
+modified: 20221010200309897
+tags: [[That's for you to decide]] Chatlog
+title: 2022.10.10 - That's for you to decide: Readme
+
+//A higher degree of practiced paranoia is critical for building a secure social tool for the proletariat, particularly because much of what consists in real [[privacy]] or [[anonymity]] is the result of a set of behaviors rather than simply tools. Living that paranoia will help us reason about the tools we're building for everyone. Given your concerns, please consider severing your identity for future development of this tool; that's how you can effectively prevent yourself from causing yourself future trouble. You should also have much stronger doubts about those who are not willing to transparently construct tools for the public in a publicly accessible space (a space that ought be radically decentralized, of course). I think it would be valuable for you to [[wrestle]] with what may be a significant gap between your (I suggest quite limited) moral right to privacy (a place to check our privilege, no doubt) and your (I suggest quite profound) moral right to an enforceable political right to privacy in which you own the means of production.//
+
+"""
+[15:33:05] [[That's for you to decide]]: Hey, hope you're doing good. I've setup a bridge to the new NGC group where toktok dev talk will be happening, reason being there are no clients that support NGC currently besides toxic. We are trying to move away from irc now. Let me know if you want me to invite you to the conference where the bridge is.
+[15:34:34] [[h0p3]]: Definitely. I'd like to join.
+[15:34:57] [[h0p3]]: Thank you. =D
+[15:35:02] [[That's for you to decide]]: ;)
+[15:50:15] [[That's for you to decide]]: Err, don't take this the wrong way but you should at least notify people when you publicize private conversations. I'm not really that fine with it as I could be causing myself future trouble.
+[16:00:19] [[h0p3]]: `/nod`. I did notify you. It was the first link I sent you. I understand that may end up excluding me from conversations or changing how people speak with or around me. 
+[16:01:45] [[h0p3]]: I think it takes time to appreciate why I do what I do in my work as well.
+[16:02:09] [[That's for you to decide]]: Well, I'm not sure exactly where it is mentioned in there but I was not aware of it until just now.
+[16:15:11] [[That's for you to decide]]: I'm also gonna have to ask you anonymize me in your logs as I was not aware of this. I hope you understand.(And I hope nobody has collected metadata of it..)
+[16:15:35] [[h0p3]]: What would you like your name to be?
+[16:15:45] [[That's for you to decide]]: That's for you to decide.
+[16:15:58] [[h0p3]]: You got it. 
+[16:16:03] [[That's for you to decide]]: Thanks
+[16:25:01] [[That's for you to decide]]: Also, I'm letting you know that it's not only me who is not right with this in the conference I invited you in. There are people on the other side of the bridge who are extremely against it. And sorry if this seems wrong to you.
+[16:25:32] [[h0p3]]: I understand. That is why I offered my resignation to each of you.
+"""

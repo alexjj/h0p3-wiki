@@ -1,0 +1,38 @@
+created: 20220909233421732
+modified: 20220909234034646
+tags: shmup Chatlog
+title: 2022.09.09 - shmup: Turfwar
+
+"""
+[18:32:08] [[shmup]]: will you send me a screenshot of my slsk bio :3 i'm trying to make it look nicer/cuter and curious how it renders in other clients, as i'm on nicotine+ etc
+[18:40:47] [[h0p3]]: [2022.09.09 - shmup: slsk bio.png]
+[18:41:28] [[shmup]]: Booo, noted
+[18:41:31] [[shmup]]: I'm gonna rip out the unicode
+[18:42:04] [[h0p3]]: how's your day going?
+[18:43:42] [[shmup]]: I'm just glad the weekend is here. Not making the work progress I need to. Just went skating for a little bit w/ a friend. Microdosed some shrooms earlier which I never do, and would have preferred staying sober tbh. That's all to say, up and down day!
+[18:43:55] [[shmup]]: what about you?
+[18:44:28] [[h0p3]]: I've never microdosed them. My stomach hurts when I use them usually. 
+[18:44:50] [[h0p3]]: Used to grow them. May one day again. 
+[18:45:16] [[h0p3]]: You someone who is into designing their own skateboard/skates? Some people are very particular about their hardware. 
+[18:45:45] [[h0p3]]: My day is going well. Thinking about DHTs. Spending time with family. Grinding, as I always do.
+[18:46:29] [[shmup]]: i've been sober in general for 2+ months now, during a bad spout of covid i nicked the ciggs and heavy weed habit. both important, but quitting the latter has been incredible. so today taking a bit of shrooms and _feeling a thing_, i'm kinda lately into _not feeling a thing_, or: feeling just like myself, heh
+[18:47:29] [[shmup]]: no i'm not particular about that btw. i'm skating something from landyachts right now, i even had them put it together for me. i'm not h4rdc0re, just enjoy cruising around w/ a friend
+[18:48:00] [[shmup]]: i do have lil tiny preferences though, like the width of the board, the looseness of the trucks, but who doesn't! 
+[18:48:22] [[h0p3]]: That makes sense to me.
+[18:49:04] [[h0p3]]: I'm too fat, too old, and my knees aint right either. Skating sounds delightful.
+[18:49:54] [[h0p3]]: I'm surprised that you could break the nicotine habit. It usually takes many tries. Most smoke for 25 years on average.
+[18:50:24] [[shmup]]: idk the condition of your knees or the condition of your bmi, but i'll tell you a real delightful thing: skating on a frozen lake. i got into that the last couple of years. it's so nice, and ice skating cares not of your weight. does care about your knees tho prob heh
+[18:50:29] [[h0p3]]: Some of the autistic and ADHD folks I've met have tended to be more successful than average, quitting on little. 
+[18:50:55] [[h0p3]]: Ice skating is dope too. I live in CT. Maybe I'll try it out with my offspring this winter.
+[18:51:21] [[shmup]]: i didnt break nicotine, sadly.. i did for a few weeks, but i allowed myself to put a dip in. i'm dippin as we speak. i'm not thinking about it too much, just enjoying it. got my lungs back, costing 1 lip
+[18:51:45] [[h0p3]]: `/nod`. 
+[18:52:52] [[shmup]]: i smoked from 18 till recently, i'll ding 38 tomorrow. it's the weed that shocked me to take a big break from. i dont think ive nicked it since moving to michigan ~12 years ago. some people smoke it daily _just fine_. i'm liking my experiment off of it tho
+[18:53:16] [[h0p3]]: Congratz, homie. 37 here. 
+[18:53:35] [[shmup]]: haha, well also 37 here. tiny bit longer
+[18:53:44] [[shmup]]: stop saying you're too old :P 
+[18:53:52] [[h0p3]]: =D
+[18:59:09] [[shmup]]: someone recently joined the cosmo discord and got to making a "game" w/ the redbean server. possibly interesting to you: http://ipv4.games/  https://github.com/shamblesides/turfwar
+[19:01:40] [[h0p3]]: Thank you. That does look like fun.
+[19:22:42] [[h0p3]]: I'm wondering if Cosmopolitan will be eventually used to wrap non-C code. I could see a Nix store Cosmopolitanified being quite the package manager on every platform. 
+[19:29:24] [[h0p3]]: (technically, any set of dependencies can be handled by Nix, even for other languages like Haskell, or to replace Cargo for Rust, javascript, etc.) 
+"""

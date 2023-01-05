@@ -1,0 +1,198 @@
+created: 20211227094916071
+modified: 20220927032717667
+tags: Jibberjabber Chatlog Anonymous [[Nomadic Tribe]] @ FTO [[FTO Mode: Alien]] Zoinks zlatinb
+title: MuWire
+
+; 2022.09.26 - billy@gqvuptc3b3472fsjupbgyp6m34psujel
+
+<<<
+>>>> Thank you my man
+>>> Got it. Let me know if I can get anything else for you, friend.
+>> Season 1&2 if you got them, first episode was good
+> Heyo! What episodes are you missing? I'll go get them for ya.
+Do you have more of primal?
+<<<
+
+<br>
+
+; 2021.12.29 - @h0p3: Zoinks@y5vlric33mzo36tz34kzrqdtieevl4dv
+
+Ahh, figured it out how to view contact lists, nvm :)
+
+Thanks for sharing your files. I looked at the source code of your website, it's a very clever and unique way of distributing a website I have to say!
+
+<br>
+
+; 2021.12.28 - @h0p3: Zoinks@y5vlric33mzo36tz34kzrqdtieevl4dv
+
+Hey,
+
+I saw your message in my chat, I think it's easier if I respond by mail :)
+
+I have so many distrusted from an experiment I was running. Also, how did you download my contact list? I have it set to be public but I don't see any option for me to download other people's list.
+
+<br>
+
+; 2021.12.28 - zlatinb@3k2gijdfdcuczkfypfddj4qsnnf744mj#muwire
+
+<<<
+"""
+Dec 28, 2021, 4:17 PM <ComesIn3s@hu2g5m3suz5o3djjyin5nkq72evfrqyy> thought id jump back in a chat room since i got that message from h0p3 yesterday
+Dec 28, 2021, 8:43 PM <h0p3@dywdxuzjkmqd7lzvysjt2vd75jzvbgi3> =D
+Dec 28, 2021, 10:24 PM <ComesIn3s@hu2g5m3suz5o3djjyin5nkq72evfrqyy> it was a cool message, i appreciate you taking the time to send it off to everyone
+"""
+<<<
+
+<br>
+
+; 2021.12.28 - @zlatinb
+
+It's the best option I've found so far. The browser is about as universal, long-lasting, and straightforward a VM as we can find. I'm not forced to use any particular network either (it's quite sneakernettable even). It's my [[RGM]]'s common denominator and the source of truth, and I don't have to be beholden to most tooling or networks. [[ITS]], I appreciate how much control of my voice and even [[privacy]]-in-practice (oddly enough) it can provide.
+
+Yeah, the file changes, though I've made it only nightly (very few pieces of p2p software can handle the minutely change). I can appreciate why MuWire doesn't like that (it does register some changes to the shared directory). This is an unfun place for lots of filesharing software, from what I can see. It's hard to get it right. If I change files often, or I have too many, or if there's an ungraceful shutdown or rescan, etc. it's easy to freeze, consume all my RAM, burn all the cores, and even destroy configs in some cases. If it is feasible, I [[hope]] you'll continue to hone this place; it can make or break mass adoption, imho. The file-sharing component is probably the most used component of this tool from what I can tell, and I think continued work on that component makes good sense. Forums, mail, and chat decentralization are much harder and are worth putting on the backburner (you've got all the basics here anyway).
+
+I'm afraid I wasn't clear enough in my praise. You've built something quite turnkey. I'm trying to say that all the functions of MuWire have been services that i2p users could separately set up themselves (not using MuWire at all), but it is fairly painful to do so. You make it easy on us. Thank you.
+
+Aside, I am curious why you don't use i2pd. [[Outopos: Meh]] might also be an interesting place to check out (my [[Recent Obsessions]] too, perhaps). I'll do what I can to continue serving files and talking to [[folks|FTO]] on [[MuWire]]. `/salute`. 
+
+<br>
+
+; 2021.12.28 - @h0p3: zlatinb@3k2gijdfdcuczkfypfddj4qsnnf744mj
+
+Thanks, I got it to load.  It's very interesting concept, doing everything with html.  
+
+I couldn't get the uncompressed file from your first message to download though.   Has that file changed or been un-shared since you sent the message?  MuWire doesn't like it when files change after they've been shared; if you need to change a file in any way you should un-share it first, then change, then share again.
+
+> (setting up the components of muwire individually with i2p isn't turnkey, and many wouldn't even attempt it).
+
+There are "turnkey" all-in-one bundles of MuWire available at https://muwire.com (clearnet).  You can choose from a Windows installer, Mac OS DMG or Linux AppImage.  They come with everything you need - Java, I2P and MuWire.  They're not available on http://muwire.i2p because I figured that those who already have I2P up and running can easily install the MuWire component.
+
+Again, thank you for the kind words.  Hope you enjoy MuWire :)
+
+<br>
+
+; 2021.12.28 - @elzebu@cebrfvwfqnpxjj4yw4yv2v2j36h6bff5
+
+I've joined your server! =) 
+
+I am quiet in some respects. I'm in [[Reply Mode]] with most of the world, except what I owe to people in my {[[Axioms]]}. I'm a fucking retard, so I write a ton in my autistic [[Public Self-Model]]. I gave links to my i2p webserver and the files here on MuWire, but you can also find it just fine on the web: https://philosopher.life. 
+
+I'm glad you like my [[TV: Library]]. I'm all ears for recommendations for [[TV: Exploration]] too. If you need any files, I'm happy to hunt for them for ya.
+
+<br>
+
+; 2021.12.28 - @zlatinb@3k2gijdfdcuczkfypfddj4qsnnf744mj
+
+Yes, sir! I keep the compressed snapshots in /public-share/personal-sites/hypertext-h0p3/archived-snapshots/
+
+`tar -I zstd -xvf 2021.12.27-h0p3.wiki-index.html.tar.zst`
+
+If this doesn't work, let me know. I want to try to do it the MuWire way first (I host it on a number of networks, including the web, if you'd prefer: https://philosopher.life). Please take your time. It is much larger than it looks, nearly pure text.
+
+As an autistic retard, I talk too much: so please free to ignore what I say (you'll have to!).
+
+I have no upload slot limit; I just don't have enough throughput (I'm sure you more than understand how much I hate my ISP). I'm sorry that my connection isn't so great. My upload stays maxxed out almost 24/7. Beaker Browser's hyperdrives, Resilio Sync (I would agree to your disapproval here*), and Zeronet probably have some of the better mutable torrents for average users like myself (Resilio Sync using the fewest compute resources, imho). These can distribute the responsibility, help handle the problem of artificially limited upload connections (including NATs), and overcome some kinds of censorship. 
+
+You might be interested in cabal.chat and getaether.net. They attempt to decentralize the ownership of the data. There are no fully functioning, fully distributed chat applications to my knowledge. And, those who are working on the problem aren't necessarily so concerned with making third-party tools like tor and i2p first-class citizens. You're doing something quite special in MuWire to my eyes (setting up the components of muwire individually with i2p isn't turnkey, and many wouldn't even attempt it).
+
+It is my honor to speak with you, sir. Your work is moral and courageous. Thank you for your time and your gifts to humanity.
+
+<br>
+
+; 2021.12.27 - @h0p3: zlatinb@3k2gijdfdcuczkfypfddj4qsnnf744mj
+
+Hey can you compress the file and send it again (to me at least).  Also, have you set an upload slot limit?  I think I'm hitting it
+
+<br>
+
+; 2021.12.27 - @h0p3: elzebu@cebrfvwfqnpxjj4yw4yv2v2j36h6bff5
+
+hey thanks for reaching out to all of us! Zoinks and i hang out in #muwire though were both pretty quiet most of the time. it would be cool to have more people in there and liven it up a bit
+
+also, nice taste in entertainment! most of the tv shows you have there are some of my favorites lol
+
+<br>
+
+; 2021.12.27 - @Zoinks@y5vlric33mzo36tz34kzrqdtieevl4dv: their local #muwire chatserver
+
+"""
+Dec 27, 2021, 6:26 AM <h0p3@dywdxuzjkmqd7lzvysjt2vd75jzvbgi3> Hello. I'm checking out your chatserver. It's interesting to see how few people seem to run one.
+Dec 27, 2021, 6:27 AM <h0p3@dywdxuzjkmqd7lzvysjt2vd75jzvbgi3> It's pretty interesting to see so many Distrusts marked on your account. What do you think of that?
+"""
+
+<br>
+
+; 2021.12.27 - @zlatinb@3k2gijdfdcuczkfypfddj4qsnnf744mj: their local #muwire chatserver
+
+"""
+Dec 27, 2021, 6:17 AM <h0p3@dywdxuzjkmqd7lzvysjt2vd75jzvbgi3> Hello =)
+Dec 27, 2021, 6:18 AM <h0p3@dywdxuzjkmqd7lzvysjt2vd75jzvbgi3> I just wanted to say I think very highly of this tool. If you're the dev, I'd like to say thank you.
+Dec 27, 2021, 7:14 AM <zlatinb@3k2gijdfdcuczkfypfddj4qsnnf744mj> Hello
+Dec 27, 2021, 7:14 AM <zlatinb@3k2gijdfdcuczkfypfddj4qsnnf744mj> yes I'm the dev
+Dec 27, 2021, 7:41 AM <h0p3@dywdxuzjkmqd7lzvysjt2vd75jzvbgi3> Well, thank you. I think you've made a straightforward tool for the masses here.
+Dec 27, 2021, 7:43 AM <h0p3@dywdxuzjkmqd7lzvysjt2vd75jzvbgi3> Saw the website went down for a couple days. I was worried for a bit.
+Dec 27, 2021, 7:47 AM <h0p3@dywdxuzjkmqd7lzvysjt2vd75jzvbgi3> I like how you've made it so people could make their own separate island networks. 
+Dec 27, 2021, 7:49 AM <h0p3@dywdxuzjkmqd7lzvysjt2vd75jzvbgi3> I could imagine the webserver for this application could do something quite similar to what DarkMX is doing. 
+Dec 27, 2021, 7:52 AM <h0p3@dywdxuzjkmqd7lzvysjt2vd75jzvbgi3> I could imagine there's tons of places you wish you had the time and resources to go with this tool. It's amazing what you've accomplished. You serve humanity with it.
+Dec 27, 2021, 7:55 AM <zlatinb@3k2gijdfdcuczkfypfddj4qsnnf744mj> Well thank you, that's kind of you say :)
+Dec 27, 2021, 7:55 AM <zlatinb@3k2gijdfdcuczkfypfddj4qsnnf744mj> There is no web server for this application though, it runs entirely on the desktop
+Dec 27, 2021, 7:56 AM <zlatinb@3k2gijdfdcuczkfypfddj4qsnnf744mj> As far as places yes there's a lot of directions this could evolve in, and you can see the current backlog of tasks in the source repository (it's quite long)
+Dec 27, 2021, 7:57 AM <h0p3@dywdxuzjkmqd7lzvysjt2vd75jzvbgi3> I prefer it as a desktop application myself. 
+"""
+
+<br>
+
+; 2021.12.27 - @StrangeCat
+
+I found AQAHemxhdGluYiN~3G-hPoBfJ04mhcC52lC6TYSwWxH-WNWno9Y35JS-WrXlnPsodZtwy96ttEaiKTg-hkRqMsaYKpWar1FwayR6qlo0pZCo5pQOLfR7GIM3~wde0JIBEp8BUpgzF1-QXLhuRG1t7tBbenW2tSgp5jQH61RI-c9flyUlOvf6nrhQMZ3aoviZ4aZW23Fx-ajYQBDk7PIxuyn8qYNwWy3kWOhGan05c54NnumS3XCzQWFDDPlADmco1WROeY9qrwwtmLM8lzDCEtJQXJlk~K5yLbyB63hmAeTK7J4iS6f9nnWv7TbB5r-Z3kC6D9TLYrQbu3h4AAxrqso45P8yHQtKUA4QJicS-6NJoBOnlCCU887wx2k9YSxxwNydlIxb1mZsX65Ke4uY0HDFokZHTzUcxvfLB6G~5JkSPDCyZz~2fREgW2-VXu7gokEdEugkuZRrsiQzyfAOOkv53ti5MzTbMOXinBskSb1vZyN2-XcZNaDJvEqUNj~qpfhe-ov2F7FuwQUABAAHAAAfqq-MneIqWBQY92-sy9Z0s~iQsq6lUFa~sYMdY-5o-94fF8a140dm-emF3rO8vuidUIPNaS-37Rl05mAKUCcB, from [[zlatinb|https://muwire.com/chat.html]]. Just connected. Let's see. From the sounds of it (correct me if I'm wrong), you had someone join your local server (file searches reveal when a user has their own chat server active, it appears, but it seems like almost everyone doesn't autostart one). Nm, I think I see what you mean: there's no way to track or autojoin chat servers (yikes).
+
+<br>
+
+; 2021.12.27 - @h0p3: StrangeCat@5dbwzymz7r35jvi72zwdrx6fwj4uhenx
+
+Yeah I did edit the message. :D
+
+MuWire has one already set up. I joined it for a couple of days, then decided to opt out. Paranoia or whatever lol. Some of the questions started to get a bit too privy for my liking (plus I was quite busy doing other things.)  But that's just me. Not meaning to be stuck up.
+Once the server is started at your end, from memory you will see who is also joined at that point in time.
+
+<br>
+
+; 2021.12.27 - @StrangeCat
+
+Heyas! 
+
+Thank you for replying.
+
+In the untruncated message (I'm assuming you got more than what is quoted below), I'm sharing the key to the chat server I'm running locally (it's possible I've screwed it up*). I'm hoping to discover some chat servers from using MuWire itself. Do you know of any I could join beyond my own?
+
+<br>
+
+; 2021.12.27 - @h0p3: StrangeCat@5dbwzymz7r35jvi72zwdrx6fwj4uhenx
+
+Hi there
+
+There is already a Chat option. In Options you can set it to start Chat server as soon as MW starts. Or even just start it manually from button at bottom of page in the Chat tab.
+
+<br>
+
+; 2021.12.27 - @MuWire: Out of the Blue
+
+Hey Folks,
+
+I'm still learning how this tool works, testing it out. It's pretty amazing, imho. I've run into a bunch of you, and I thought I'd reach out to you. I know it's not so easy to be social on tools like these, but we gotta start somewhere. So, I was wondering if anyone knew some chat servers to join. I've got one up here (but I'd like to join a bunch): 
+
+AQAEaDBwM2dwDl6qOLulXiPeioEchhktBSkoupP4bCbyjYC1MHdMTy6HmsYE0zD9tDpvhUppmxAx8XvqAMUJb8CXjU7OdlYmrqupXpr4-4inZnm~1jrFBLeT0IRzrsnRDSaMK7JYK8as72b~MSfREQGq6~lhqinkWptoznVOQbwExKXuoEYTdvt5twt0q4x0A9lIOf5ky~b58OaPYIL6HxXdH8NFdvWSLG33AKxioUgIyPqCc1fYdykpyAu6Tv1gKnkHU4H4QoDyquF5-c6dH4vIf6iXrxivVrAjbBKcmahf1kRSF061x7izUF1hH7OmdLHblrHDZaZPDuz7Kcf5AdvkRCenV0N3vwicmiiPU35F1qGOjyPrYRNeF3iX8O1m~p1M8xORMpCzeL~QFh0J9k3G6qCQtTk1qv1bou9-Oj2AmeR12UE4FIXlROLAJdfq5mqYSkWNLanKRBpmMEXYujWRQON3~BKz7JS7JDItnvnMox~Z-hsLzd8T91iYQ9mdf8jprf9bCwUABAAHAADd2mZtYpsVDidI3ao6~hT3ZfoLkOj~-lNDWNekBt4ESNvAYMsZWA8zTy4eI79eosVCSnS6nraDFsDFUJHCXv4C
+
+I'm [[sharing]] a bit about myself with you here too. This is me: http://k5fppzxc3bwoz2mjc7q37jojbrxo6vtprac3dzrk4wapv7irr4iq.b32.i2p/ 
+
+(http://h0p3.i2p might work for ya too)
+
+Being a sizeable html file well-suited for offline use, it's incredibly slow to load (please be patient). However, once you have it loaded, it'll work cleanly clientside and should be acceptably performant. 
+
+I also host nightly snapshots (and all the night snapshots) from my [[shared]] files Library: /public-share/personal-sites/hypertext-h0p3/ - and I'm attaching just a snapshot of the html file to this message (trying to keep it small for ya). I'd very much like to read your sites too. I enjoy reading, so please send me your writing.
+
+If you're up for it, come talk with me about whatever. We'll shoot the shit. I'd like to get to know you, [[anon]].
+
+Sincerely,
+
+[[h0p3]]

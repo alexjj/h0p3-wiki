@@ -1,0 +1,41 @@
+created: 20220920055418652
+modified: 20221009221045181
+tags: Toxcore Chatlog [[That's for you to decide]]
+title: 2022.09.19 - That's for you to decide: Getting Somewhere!
+
+"""
+[10:37:52] [[That's for you to decide]]: Hey, so last time, that got nowhere
+[10:39:44] [[That's for you to decide]]: We are now trying to get admin access to toxcore and see if we can start pushing the project forward since the current admins are taking long breaks out of nowhere
+[10:41:44] [[That's for you to decide]]: Also, I don't think jf understood what you were asking. I understood that you want to discuss improvements to the curernt use of thr DHT in toxcore. Am I correct?
+[10:59:07] [[h0p3]]: Hey there! =)
+[11:00:16] [[h0p3]]: Yeah, my request didn't seem to get anywhere. I don't want to annoy Tox devs any more than is necessary. I appreciate their hard work.
+[11:00:54] [[h0p3]]: Tox development is a thankless job too often, I think. I'm very [[grateful]].
+[11:05:16] [[h0p3]]: I was not speaking about making improvements to the Tox DHT necessarily. I am not convinced that is a worthy use of the very generous Tox devs' time. There is only so much that can be done. 
+[11:05:47] [[h0p3]]: I require more time than I think most can afford to give as well, and I appreciate that. I have no interest in being a burden to those who already burdened with work I consider so profoundly moral. 
+[11:06:17] [[h0p3]]: This is closer to what I was speaking about: https://philosopher.life/#2022.09.09%20-%20dscnct%3A%20Tox%20%26%20Bleep
+[11:11:30] [[That's for you to decide]]: I read the first part and I'm learning something new hehe
+[11:11:59] [[That's for you to decide]]: also, I sent you the messages above just to let you know that we are getting very close to finally merging NGC
+[11:12:42] [[That's for you to decide]]: I, together with green, we are working on a poc for multi-device support
+[11:14:54] [[That's for you to decide]]: Also, I tried with another user to utilize onion hidden service for tox, the problem seems to be with DHT though.
+[11:30:00] [[h0p3]]: What speccs are you following for the multi-device support?
+[11:31:28] [[That's for you to decide]]: We were thinking that transmiting and storing keys for each of your devices to eahc other is probably a bad idea. We are doing something different which is utilizing the NGC for friend-to-friend chats instead of devices.
+[11:32:02] [[h0p3]]: For both users to connect entirely over Tor will probably require a DHT with [ToxID][Onion-Address] key-values. 
+[11:36:25] [[h0p3]]: Revoking devices isn't an easy a problem, imho. 
+[11:36:45] [[h0p3]]: Someone had mentioned master/slave keys, I believe. I think that may be required.
+[11:37:50] [[h0p3]]: I don't know how NGC works yet either.
+[11:43:31] [[That's for you to decide]]: I believe that I am having a very hard time explaining what we are doing. I'll give you my draft(which is very poor atm) and you can ask me questions about it or we can make a tox conference with green and you could spot problems with the idea.  https://pb.slipfox.xyz/?cb513091ed599bba#GS1iDB19PsVY8745NpV38iWTcDH6vsypxJNS3qCoDv4Y
+[11:45:57] [[That's for you to decide]]: also, green's draft https://gist.github.com/Green-Sky/3ac69cfb811355d374ac5b263da3fcea
+[16:07:27] [[h0p3]]: I will participate in whatever communications channels you deem fit. I respect what you two are seeking. I'm not sure if I've ever used a Tox conference channel, but I like the idea of dogfooding.
+[16:09:23] [[h0p3]]: On the Multi-device PoC, I appreciate that the user has a choice which devices will be revealed to their friend. There are some devices that the user may wish to keep connected to their identity without revealing that to a friend. Though, I suggest the default should be all devices to limit mental overhead. 
+[16:11:09] [[h0p3]]: Will a friend send a message to each of my devices (they see one account, but transparently abstracted away from them would be the tox library maintaining connections and sending to each)? There may be tradeoffs to consider here.
+[16:12:00] [[h0p3]]: Also, I appreciate your speaking about this problem with me. I realize I am not nearly as skilled with computers as you two are. Your patience and openness means a lot to me. 
+[16:13:16] [[h0p3]]: So, I have to ask again, how do you intend to revoke devices? How do I ensure my stolen device doesn't, for example, revoke my other devices before I can revoke it?
+[16:17:22] [[h0p3]]: Asking perhaps dumb questions here. It's part of how I learn from you though. 
+[16:17:36] [[h0p3]]: The list of associated devices, is that a list an [key]-[encrypted value] store on the DHT (this would be extending Tox's DHT, imho)? If so, is it a mutable data store? Or, perhaps instead, will my devices negotiate that list together and only transmit the list to my friend?
+[16:22:33] [[h0p3]]: So, correct me if I'm wrong, but, from what I understand, currently if I have multiple devices sharing a ToxID, a stranger trying to befriend me might be handed a random device-IP from one of my neighbors on the DHT. What, if any, problems does this pose for our current solution? 
+[16:24:31] [[h0p3]]: It seems like once we have true logical accounts, and we can set some of nodes to be the edge routers to our network (those would be the public facing nodes), we could also ease some of the burden on relaying for [[NAT Traversal]] automatically (and relaying through devices we trust). Are there any choices in the code that need to be made to make this next presumable leap easier?
+[16:29:41] [[h0p3]]: If we added something like this, https://www.bittorrent.org/beps/bep_0046.html, we might be able to fundamentally alter what Tox networks can achieve. That might be too much work.
+[16:35:51] [[h0p3]]: Groupchat history synchronization reminds me of https://cabal.chat - which maintains something like an append-only mutable torrent. Are there moves we can make to eventually have a CRDT, like an etherpad?
+[16:39:18] [[h0p3]]: I'm worried about how groupchat history can scale up. It's one thing to have 5-10 people, and it's another to have 10,000 join a channel, especially for groupchats with years of history. Maybe we can't solve all these problems. Are there sane defaults we can choose?
+[16:42:44] [[h0p3]]: Consensus probably doesn't matter, right? Or, it's okay that we can eventually get something like consensus when anyone with updates to the groupchat (even if everyone else currently online never received them) can upload the signed information, right?
+"""

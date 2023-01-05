@@ -1,0 +1,34 @@
+created: 20221026104138267
+modified: 20221028004200261
+tags: [[Carpe Tempus Segmentum]] 5c0ut [[Computer Musings]]
+title: 2022.10.26 - Carpe Tempus Segmentum: 5c0ut ITDO Dangeržone Ruckus Marx Leviosa Firstname'); DROP TABLE user;--, XLIILXIX (the 42069th), no relation
+
+Woke at 5. Attempted to sleep again, but couldn't. [[TTTOTW]]. Chilled with mi amor. Waking up, slowly, but not in a bad mood. Some kind of Japanese school girl today. Embracing the grind. Been rainy for days, and her head is feeling it. Saw her off. Bits with [[5c0ut]] before he headed out. Chilled with my sympaticon. Ice cream + LoL Worlds + [[TTTOTW]].
+
+//The Walk// with my sympaticon. Short route. Saw a cool rolling crib that was being thrown away. 
+
+[[TTTOTW]]. Caffeine.
+
+Feller, Brian, I believe, came to install fiber wire from the outside box to the inside. I asked for double the length so I'd have some wiggle room. Into bikes, 11yo daughter, been doing this for a couple decades, thinkin' about our kneepads for work. Talked ISPs he worked with; this one is owned by a hedge fund willing to gamble on the Capex to enter the market in this region, unlike most players. He says a lot of people, workers included, are jumping ship to his current employer (he's been with them for two months). I can see why (I didn't ask how they acquired mi amor's e-mail, but I'm not convinced he would know). Had no opinions on how prices might change with this company over time. Offered audiobooks, since he doesn't have much time to read except perhaps through audiobooks. +900mbit up and down. Left me a bag of hardware he was using for running wire, as I was asking him about how he thought it best to run 3 more cables. Carded. Came back for electric tape, as that is something they are stingy with (they pay for everything, but that part is being micromanaged...). I scratched the floor trying to move things out of the way. 
+
+Set i2pd to go wide-open. I can't do a Tor node because I get blacklisted every time now, even as a relay. 
+
+Cleaning. Sorting papers. Need to cancel Xfinity! Need to set up appointment for energy.
+
+New mouse came in. Gonna take some gettin' used to it. The ceiling now has a USB hub with 3 wireless tools connected. I still need to look into what might be programmable about it.
+
+Daughter talked Plato with me, reading the //Theaetetus//. Son talked about stagflation with me.
+
+//The Walk// with mi amor. Clarinet. [[5c0ut]] went out walking, saw him from a long distance. Talked with the car insurance claims adjuster who recommended (a) using dash cams (though she doesn't use one) and (b) doing what her pappy did for her: take my daughter out on the the highway. Maybe we'll do NY or something.
+
+[[5c0ut]] had more trouble with Phillip who is not being fair. Biting back. Thought about my bro's namechange. Also, he has planned to take his niece and nephew to Boston this weekend to do a museum and/or aquarium. 
+
+[[Family Gathering]] was good. We had baked pasta and water. //Mr. Robot//. A scene with unmodulated voice recording and how dangerous I think that is given what I take to be upcoming widespread voice-fingerprinting. A different forum idea.
+
+Chat with my daughter. I'd like to start assisting before and after they do the kitchen.
+
+Fruit juice cocktail shots with my sympaticon, //Skintime//, and dialectics. [[TTTOTW]].
+
+Purchased a 2TB 3DNand Sata III SSD as the torrent cache drive (I had assumed I would never buy another Sata SSD again, but I was wrong; it makes sense here). Thinking about filesystem, which probably shouldn't matter too much. I can't improve throughput, as I'm bottlenecked by the gigabit connection, and then Sata after that. I know I don't want btrfs, and I don't give a shit about compression or deduplication here anyway - the CPU cost is unacceptable. Think I'll stick to ext4, as the various types of benchmarks and papers I've looked at suggest it will do fine enough. No clear winners (another gander at btfs, which has become worse than irrelevant given the blockchain direction they've gone, sadly). I can't seed public torrents without a VPN. Now seems like a reasonable time to give firecracker a try. 
+
+Leftover stirfry, water, watching LoL Worlds (been sittin' there for a while). [[TTTOTW]].

@@ -1,0 +1,13 @@
+caption: Inspect
+created: 20190313080119081
+creator: Mohammad
+modified: 20190314121603117
+modifier: Mohammad
+tags: $:/tags/Commander/InspectOps
+title: $:/plugins/kookma/commander/ui/inspectops/Inspection
+
+<$macrocall 
+ $name=compInspect
+ filter="[[$:/temp/commander/selected-titles]indexes[]sort[]]"
+ stateTiddler="temp/commander"
+/>

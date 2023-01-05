@@ -1,0 +1,53 @@
+created: 20181215153022475
+creator: sphygmus
+title: $:/plugins/sphygmus/sbuttonsV2/buttonWikiReview
+type: text/vnd.tiddlywiki
+
+\define WR_list(delta)
+<!--
+	This should be familiar from our <<append>> macro! Same concept: $vars to insert special characters, $list to restrict the tiddlers we're working with, and $view to show their titles; linebreaks remain //important//.
+	* Several things are different:
+	AHAH I'm a hecking doofus. I was calling the front and back variables within the list filter (like so: +[addprefix<front>]) when that was TOTALLY unnecessary and caused major problems for me later on. Time to go fix this in all the other buttons.
+		This also means that I can expose the filter for the wiki review list in my settings without any issue, which is the thing that pre/suffixes were causing me so much pain with later on.
+	Okay, after that change this is essentially the same as the append macro, just with an important line break and two ** - this creates an empty sub-bullet line in our list.
+--><$vars front="* [[" back="]]"><$list filter="$delta$"><<front>><$view field="title" /><<back>>
+** 
+</$list></$vars>
+\end
+
+\define WR_button()
+<!--
+	This button sets up the creation of our new wiki review list tiddler! Again, similar to what you saw in the append button. We $wikify the above list macro, in order to create the plaintext for insertion. We $wikify the date formatted title so it will be recognized as a parameter for $sendmessage; note here that """ allows us to escape doublequotes so we can use $macrocall. It's also important that we're calling <<now>> with the macrocall widget and not the <<now>> shortcut - using the widget form allows us to give the format parameter a dictionary reference, which the <<now>> shortcut does not accept.
+		
+		After setting up our plaintext, we create our new tiddler with the sendmessage tiddler, inserting our plaintext as the title and text where appropriate, and including our dictionary reference for tags.
+
+	Something is different though! This time, we're using a reveal to check for the existence of the tiddler. If the tiddler exists and contains text, clicking the button will open it in the story river, but not touch anything else. If it's an empty/non-existent tiddler, then the text will get inserted.
+-->
+
+<$wikify name=WR_text text="""<$macrocall $name="WR_list" delta=<<myFilter>> />""" >
+<$wikify name=WR_title text="""<$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##2buttTitle}} />""">
+
+<$reveal type="nomatch" state=<<WR_title>> text="">
+<$action-sendmessage $message="tm-new-tiddler" title=<<WR_title>> />
+</$reveal>
+<$reveal type="match" state=<<WR_title>> text="">
+<$action-sendmessage $message="tm-new-tiddler" title=<<WR_title>> tags={{$:/plugins/sphygmus/sbuttonsV2/dick##2buttTags}} text=<<WR_text>> />
+</$reveal>
+
+</$wikify></$wikify>
+\end
+
+<$set name="myFilter" value={{$:/plugins/sphygmus/sbuttonsV2/dick##WRfilter}} >
+
+<p class="center" style="font-size:1.5em;"><$button actions=<<WR_button>> >Wiki Review Button</$button></p>
+
+</$set>
+
+---
+
+* //Wiki review filter to be used://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="WRfilter" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Title of the new tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="2buttTitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Tags to apply to new tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="2buttTags" class="tc-edit-field-value" class="reviewButton" tag=input />

@@ -1,0 +1,114 @@
+created: 20211202044553516
+modified: 20220218010118746
+tags: Highdeas [[Recent Obsession]] Dreams Outopos BAGD
+title: Outopos: Meh
+
+//like retards only loser. Consider it rapid prototyping.//
+
+!! Skid:
+
+It's gotta be potato-grade<<ref "pg">> high-performance off the bat. These are much better tools than we can make with what we have (including the fact that we outright rely upon volunteer infrastructure). Bonus points if it can run inside Whonix.<<ref "a">> Plenty to fallback upon here too, and I suppose more will come along to replace parts (and, obviously, my bet is still [[Atropos]] network requirements).
+
+* x86/64
+** [[i2pd|https://github.com/PurpleI2P/i2pd]]<<ref "t">>
+** [[raTox|https://github.com/pranomostro/ratox]]
+** [[vpncloud|https://github.com/dswd/vpncloud]]
+** [[rqlite|https://github.com/rqlite/rqlite]]<<ref "o">>
+** [[tor|https://www.torproject.org/]]
+** [[shadowsocks|https://github.com/shadowsocks]]<<ref "chain">>
+
+* Hrm
+** [[Outopos: JuNest]]
+** [[Outopos: Nyxt]]
+
+<br>
+
+!! Shoestring, Gum, & Prayers:
+
+[[Xonsh]] and [[Rust]] can glue a lot together. .
+
+* An installation script or package.
+** [[AppImage|https://askubuntu.com/questions/866511/what-are-the-differences-between-snaps-appimage-flatpak-and-others]] seems best atm.
+** If we can go ARM, then recycled Android phones are a maybe. Radxa Zero and Raspberry Pi Zero 2 W are cheap and sexy.<<ref "st">> 
+
+* Minimal Arch Docker
+** iptables may simply be the best option in many cases
+** Windows & Mac Service Installers
+** or https://github.com/fsquillace/junest
+
+
+
+<br>
+
+!! Fruits of the Spirit:
+
+With variations in privilege, scaling, [[dok]], etc., and from the command-line:<<ref "u">>
+
+* Can the user privately anonymize themselves on cheap hardware or virtual compute they possess locally and remotely (tyvmofc)?
+* Can the user asynchronously (including with neither client being simultaneously online) send mail? 
+* Can the user real-time IM or collaboratively modify the same document with someone over safe networks?
+* Can the user mutably [[share]] versioned directories with others over safe networks?
+* Can the user safely and nearly automatically spin up and join arbitrary numbers of mutually exclusive networks?
+** Can the user be a bridge?
+** Can the user nest networks?
+* Can the user memorize one thing that allows them to control, recreate, rebuild, synchronize, or bootstrap their way back into the machine?
+* Can the user viably build their own GUIs for this tooling?
+* Can the user easily and safely volunteer their infrastructure?
+
+
+
+<br>
+
+!! STFU, Idiot:
+
+* Let's assume remote boxes, network layers, and we ourselves will fail. 
+** Separate clearnet call-home raTox standby failover, just don't login as C&C until you must (and behind 7 proxies), loser (also, master key generated from password for airgapped generation of slave key on our machines)
+*** In the end, the C&C swarm should be protected, but perhaps where performance matters, some machines can break that rule.
+** Individual machine custom portknocked(?meh?) Moshy uPnPed SSH. Maintaining a list of IPs is bad joojoo. Ol' reliable though.
+
+* Enumeration, Sybil, Cells, Tripwires
+** Can we detect and prevent inauthentic use?
+** Hexagonical Cells?
+
+* Untrusted Federation Volunteer Image
+** Proxy, traversal, mixnet, only holds onions, encrypted files
+** USB/QR/Spam/Trojan Mirror stunts
+** Dumb worm ceding all cat and mouse
+** Rubber Ducky et. al. deployment bumper
+
+* Client, Server, Volunteer Guardian Feds
+
+* Testing
+** https://github.com/juanfont/headscale
+
+
+<br>
+
+!! Free/b/allin:
+
+* What does a fully decentralized tracker look like? Even the users will have to choose the stories and their weights. 
+** The point of choosing friends is simply whether or not you think their judgment is sound. 
+
+** Hashing random strings from the file or shard guarantees they have it. Those who have a piece can test others. 
+*** Not enough? Guardians can download shards from multiples and test them against each other. 
+
+** You want to begin seeding a new file, you pay double the cost in space for as long as you want to seed? Doesn't seem necessary.
+*** Forcing seeding back is still the hard part. 
+
+
+
+
+---
+<<footnotes "pg" "Let's begin by trying to fit within 512MB of RAM">>
+
+<<footnotes "a" "And doubly so if you're testing suite occurs within an autoupdated [[immunes|http://imunes.net/]] instance that you can pass to others for them to engage in science.">>
+
+<<footnotes "t" "[[Tunneling|https://github.com/anderspitman/awesome-tunneling]] may still be a problem here. Ironically, i2p over Tor might actually help here, even if the connection would be pretty god damn horrific. I think that's unacceptable except in rare circumstances. Connecting from home to the greyer network should perhaps be much slower, and likewise, there may be high-risk servers that shouldn't be touched except over Tor (themselves exit nodes, perhaps). Brute-force, multi-attack, automated wireless connection is hard to just make work on any machine, but the blackdrops would like it.">>
+
+<<footnotes "o" "[[2021.02.01 - Link Log: Cleanup]] has other levels for us to consider. https://linbit.com/drbd/ and other approaches may merit consideration as well.">>
+
+<<footnotes "chain" "v2fly: https://guide.v2fly.org/en_US/advanced/outboundproxy.html#basic-proxy-forwarding">>
+
+<<footnotes "st" "Serials though. Fine in some cases.">>
+
+<<footnotes "u" "We want CLI to be a first-class citizen, and surely it is reasonable to just start with that only, right? Why not expect the user to use the command-line if they want the power of one? Why not just use tools that already exist to get the job done? Why not rely upon human convention where possible? Chatting in a terminal is totally reasonable.">>

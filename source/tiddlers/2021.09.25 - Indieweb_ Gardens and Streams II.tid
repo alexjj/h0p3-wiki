@@ -1,0 +1,35 @@
+created: 20210925191956116
+modified: 20210926023635363
+tags: Indieweb MJos
+title: 2021.09.25 - Indieweb: Gardens and Streams II
+
+* https://etherpad.indieweb.org/GardensAndStreams
+* https://events.indieweb.org/2021/09/gardens-and-streams-ii-pPUbyYME33V4
+* https://indieweb.org/2021/Pop-ups/Gardens_and_Streams_II
+
+```
++1 {{h0p3}}                             [hi h0p3 o/ ] -- └[∵┌]└[ ∵ ]┘[┐∵]┘
+
+- {{h0p3}}: My hypertext exists for many reasons, including to unify my absurd life, to speak with people (including myself), to contribute to the great human conversation, to function as an effective dialectical extension of my identity, and to make progress on crucial problems.
+
+# 17:22 doubleloop Getting a Bad Gateway on etherpad? https://etherpad.indieweb.org/GardensAndStreams
+# 17:23 h0p3 My apologies. It did not like a bit of unicode I pasted in.
+
+Christin Wixson: Reference Librarian who uses TW
+
+# 17:54 doubleloop Heading off now for family duties - thanks Chris for organising and Alisdair for facilitating the great 1st session - looking forward to the notes from the other sessions :)
+# 17:56 [chrisaldrich] thanks for joining us doubleloop!
+# 17:56 h0p3 `/salute`
+# 18:00 [chrisaldrich] Hi h0p3!
+# 18:01 h0p3 =). Thank you for hosting, Chris. It's good to see you.
+
+{{h0p3}}: I see myself as exploring, discovering, or creating new processes that I execute by hand. It's a human that picks out what is salient, and I'm not sold on automation buying me all that much outside of search and distribution. I require a variety of notetaking approaches, and I think it's not easy to generalize about how to do it well. Naming is a hard problem. I suggest the broader the telos of the hypertext, the more difficult it is to pin down the fitting way to engage in its practices. My prediction is that my notetaking will continue to evolve. I feel like I just have to go with the flow at this point.
+
+Reading the diffs.
+
+* {{h0p3}}
+** I strongly agree to the necessity of leveraging epistemic trust in friend to friend networks. It may be the only way to defeat some kinds of attacks.
+** I want a sidebar in my browser that is constantly showing me webcrawls and local searches related to particular objects I've highlighted or opened in my browser. I'm reliant upon extensions to show me reddit, hackernews, and twitter conversations about a particular webpage, but I wish the crawl was more extensive and not simply isolated to the URL itself. 
+
+I think it makes sense to shard the data storage and use distributed search. If a user thinks something is salient, they can put their skin in the game and seed back. IPFS/Hypercore/Zeronet and even Aether (P2P reddit) do this well enough. The idea is that moderation and curation is something users would have the autonomy to choose (who do I trust?), and spammers are less likely to be able to survive on such a network (as really, my network is going to look quite different from yours or theirs, etc.)
+```

@@ -1,0 +1,188 @@
+created: 20220810171825712
+modified: 20220811224422334
+tags: P2P Computing BAGD
+title: NAT Traversal
+
+* Recent:
+** We should only keep alive when we know it's necessary.
+** Those who are receiving the services of relays must pay for the privilege if they cannot relay. Bandwidth can be traded for compute or storage, at the least. 
+
+
+
+* Both
+** Out-of-the-box
+*** UPnP
+***  NAT-PMP (RFC6886)
+*** [[NAT-PCP|https://en.wikipedia.org/wiki/Port_Control_Protocol]] (RFC6887)
+**** works with ivp6 stateful firewalls
+*** [[Teredo|https://en.wikipedia.org/wiki/Teredo_tunneling]]
+** Detecting NATs that decrement ports is another. Ports that are incremented/decremented by more than 1 is yet another. 
+** https://samy.pl/pwnat/
+*** Outgoing ICMP is blocked in many cases
+*** Symmetric NAT devices assign a different port for each destination address, and this ICMP method doesn't help predict the port that will be assigned. 
+**** As long as only one side of the connection is behind a corporate NAT you could simply try all 65535 ports until you find the one that works. The side behind the NAT would receive the packet and then be able to respond...but, that's basically portscanning
+
+
+* The Third Party 
+** How do we minimize the disproportionate amount of authority and influence over the network, amounting to a single point of censorship or failure?
+*** How do make it so it never becomes Verisign, Cloudflare, Google, etc?
+** Full relay proxy (when all else fails)
+**  You can use WebRTC in chrome / firefox, which implements all the nasty details of peer-to-peer communication for you (and uses TLS-esque security). All you need is a STUN / TURN server and something to do the initial handshake and you're off to the races.
+** The server driving the process improves the accuracy of port prediction and allows for more precise scheduling of the hole punching sequence. It also enables serializing tunnel negotiations with peers behind the same incremental NAT and it greatly simplifies the TCP hole punching implementation. Combined with fine-grained NAT classification
+** Free, rock-solid, privacy-respecting bootstrappers?
+** Firing up Tor temporarily or for the entire connection
+*** Use Tor to initiate the NAT traversal only, and then go direct, perhaps using it as a way to advertise ports bound upstream from local NAT? 
+* List of public STUN servers
+** Not sure if this can be proxied, but would be interesting to bypass blocks, if possible
+
+
+
+* UDP Hole Punching
+** 30-second timeout interval for UDP in Linux, not 120, for connection refreshing.
+*** The 120 second interval is the minimum from RFC4787 Sec. 4.3 REQ-5. (There is an exception that permits shorter intervals but only for specific ports, in particular port 53 for DNS.)
+**** There are real NATs in production that use 5 second mapping timeouts on port 53
+***  Linux's nf_conntrack_proto_udp.c: Linux starts the UDP timeout at 30 seconds, but extends it to 180 seconds when it sees traffic both ways, assuming it's "some kind of stream." It's really 30 seconds.
+
+
+* TCP Hole Punching
+** Don't if you can do UDP: put or make you a TCP over UDP (reinventing congestion control, retransmission)
+*** QUIC, [[UDT|https://udt.sourceforge.io/]]
+** TCP simultaneous open
+*** flaky
+
+* ICMP
+** 
+
+
+
+
+
+
+
+* Tools
+** https://github.com/slackhq/nebula
+
+
+* Security
+** ICE, unprivileged attacker tricks endpoints into relaying the traffic to their own gateway.
+** Don't forget that we can have stateful firewalls without NAT
+** https://samy.pl/slipstream/
+*** It's an attack leveraging NAT workarounds (like SIP ALG) to potentially access any device behind a NAT by letting a single device load some content sent with the right package sizes and fragmentation properties (say, by publishing a malicious ad). 
+** ZeroTier and Tor is a trade-off between meta-data privacy and latency/speed. (Both encrypt the actual payload.) Efficient connectivity and anonymity are antagonistic goals. You can't provide both since optimization for one of these two goals implies violation of the other. Tor provides meta-data privacy, but it's impossible to do this without sacrificing a lot of performance. If you allow low latency on a privacy network, latency can be used to triangulate the endpoint. Rule of thumb: latency can never be lower than about 1/2 the time it takes a photon to travel the Earth's diameter. In practice it's higher since you must also account for median router latency. Same goes for high throughput though in that case you need much more detailed intel on the physical network. Rule of thumb here: if throughput is higher than global mean it can be used to rule out and thus narrow down paths in the graph. ZeroTier provides fast efficient low-latency direct connectivity but to do this requires that it introduce people directly, thus revealing peoples' locations (IP-wise) to each other. This is a hard requirement since the most efficient path is by definition the most direct and therefore de-anonymized (again IP-wise) path. You can't go directly A<>B without A knowing where B is and vice versa.
+
+
+
+* Gotchas
+** difficult situation arises if two peers are actually on the same local network behind the same NAT router.-
+*** Local UDP broadcasting, but doesn't reach everywhere
+**** Two hosts in the same subnet is best achieved using LAN locator beacons that allow direct connectivity without involving the server at all.
+***  It might be tempting for peers to encode their private IP address and send it to the intermediate server and/or to the other peer, but  exposes internal configuration details about the network to potentially random external peers. Unfortunately,  the IPv4 private address space is so small that no form of hashing will adequately protect against exhaustive search. Neither the IP address nor the MAC address contain enough entropy to make that secure. Even assuming they were completely random, 32 and 48 bit keys can be bruteforced in no time. Additionally the MAC address contains mostly static or easily guessable values and the public IP address is, well, public. Thus even key strengthening along the lines of PBKDF2/bcrypt/scrypt is hopeless.
+**** Why not use a standard pubkey crypto session for this?
+** frequent keepalives are a huge detriment to mobile battery life.
+** wrinkles due to VPNs, firewall filtering, non-symmetric packet forwarding. And there's the case of two clients inside the same subnet - to go P2P using the described algorithm requires something called Router Hairpinning which has spotty support.
+
+
+* Meta
+** Be happy with 95+% success
+** What approaches can and ought be used in parallel? 
+
+
+
+
+
+
+
+
+
+
+* p2p
+** At least with IPv6 we won't have the mess of translation, requiring p2p apps to perform public address determination (and possibly port guessing)
+*** the only thing firewalls still provide protection against is pure remote vulnerabilities in common system services
+**** Or if ISPs just put firewalls everywhere, and other "best practices"...so ipv6 probably won't be the solution
+** All the traversal methods require coordination with a 3rd party (ie: centralized) server so - yes - this is a show stopper for P2P.
+***  Any peer with a real public address or even a manual port mapping or a router that supports NAT-PMP or PCP can play the role of the "server" in this context. 
+
+
+
+* Overlays
+** http://trustiosity.com/snow/
+** yggdrasil
+** telehash.org
+** https://www.onioncat.org/
+
+
+
+
+
+
+
+
+
+
+!! Links:
+
+* https://news.ycombinator.com/threads?id=api
+* https://bford.info/pub/net/p2pnat/
+* https://datatracker.ietf.org/doc/html/draft-ietf-hip-nat-traversal
+* https://www.rfc-editor.org/rfc/pdfrfc/rfc5389.txt.pdf
+* https://twitter.com/jonoberheide/status/1505160010371895299
+* https://docs.maidsafe.net/Whitepapers/pdf/DHTbasedNATTraversal.pdf
+* ~~http://cc.rtmfp.net/~~
+** Flash for NAT Traversal Testing by Adobe
+* https://d-nb.info/1091563306/34
+* https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.455.3700&rep=rep1&type=pdf
+*** Port prediction
+* https://blog.heyal.co.uk/inlets-pro/
+* https://github.com/anderspitman/awesome-tunneling
+* https://www.facebook.com/HolbertonSchool/videos/1788862161432282/
+* https://www.jordanwhited.com/posts/wireguard-endpoint-discovery-nat-traversal/
+* https://blog.ipfs.io/2022-01-20-libp2p-hole-punching/
+* https://lists.gnu.org/archive/html/gnunet-developers/2015-08/pdfWmTHEBX5S1.pdf
+
+
+
+
+
+
+
+
+
+
+!! /b/
+
+
+
+
+
+
+
+
+
+Full-cone NAT allows inbound connections from any external host, i.e. it's an unrestricted funnel (or cone). 
+
+
+
+
+ altered the evolution of that network from a more open peer to peer architecture to a closed silo mediated architecture
+
+
+
+Since public IP addresses are becomming scarcer, and since at least one side needs a global address, all of the workarounds for NAT will tend to centralize the 3rd party coordination/proxy role.
+
+Even IPv6, which should provide direct addressability in the long term (assuming ISPs provide it on the wire), may wind up increasing the centralization in the short term (creating a single point of failure and censorship) if the only way to connect to the IPv6 Internet is to tunnel into a major tunnel broker; rather than hundreds of ISPs, there may only be a handful - easy targets for mandatory kill-switches, censorship, and surveillance - and what started with more addresses than stars in the universe, will have degenerated into a global hub-and-spoke network. 
+
+
+-
+
+It's not a requirement, it's just that it tends toward it naturally due to the asymmetric addressability. As long as there are two or more global addresses available to the public on which to run STUN, UPnP, etc, there will be "competition" but it is immeasurably weak compared to what would be possible with direct (non-NAT) addressability. In an environment without those obstacles, systems are naturally designed in a P2P way - simply from the need for scalability.
+
+Case in point A: Skype leveraged an initial P2P design at a time where direct addressability was the norm (and there were many freeware alternatives that allowed direct dialing)... Now that Skype has become dominant, it has switched to a centralized infrastructure 1) because it's owners can (it makes administration, censorship, and surveillance easiest), and 2) because a P2P model no longer makes sense with most users relying on their centralized bootstrap servers.
+
+Case in point B: Dropbox and similar services have replaced self-hosted FTP, I would argue, simply because noone wants to maintain static port mappings and Dropbox is easier.
+
+Even without other incentives, the presence of NAT is a centralizing force that - taken to the extreme (such as with carrier NAT) outright precludes P2P - and that is undesirable. In an Internet with NAT (or any other violation of the end-to-end principal) all systems suffer the same fate: centralization (the antithesis of P2P). 
+
+
+
+
+The real problem is that trusting random peers to relay messages allows them to DoS you by filling up the network with Sybils and then not forwarding your messages. So I'm in the process of coming up with solutions to that, probably something along the lines of allowing particular nodes to be designated as trustworthy and preferring those. 

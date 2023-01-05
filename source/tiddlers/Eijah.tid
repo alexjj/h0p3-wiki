@@ -1,0 +1,77 @@
+created: 20221129073015550
+modified: 20221129073152904
+tags: groupchat [[FTO: Seemingly One-Off Online Encounters]] FTO [[FTO Mode: Alien]] Chatlog
+title: Eijah
+
+!! Information:
+
+* https://twitter.com/demon_saw
+* eijah@demonsaw.com
+* https://www.ryft.app/
+
+!! Communications:
+
+; 2022.11.26 - Eijah: Ryft
+
+<<<
+"""
+h0p3
+Happy Thanksgiving, folks. I hope you have a solid meal with people you enjoy being with.
+
+Eijah
+Happy Thanksgiving!!!
+
+Eijah
+There's a lot of information on titan.wiki
+Demonsaw is being replaced by a new app in a few months. 10x better =D
+
+h0p3
+Will Ryft aim to be distributed? Can it be fully routed over Tor, including filesharing?
+
+k0r
+Hello demonz
+
+h0p3
+`/salute`
+
+k0r
+how are you guys ?
+
+h0p3
+I'm grinding: https://philosopher.life/#New
+
+Eijah
+...
+@H0p3 Yes
+
+h0p3
+Presumably, every user will have their own onion key, something like [[DarkMX]] or [[MuWire]] (RIP*).
+What's the DHT lookin' like? I'm trying to understand how best these should be built (not an easy problem).
+Will both TCP and UDP be available? Ideally, how will you limit the reliance upon federation? Self-hosting is crucial, I agree. [[NAT Traversal]] is a key problem, imho, with maybe 95% success rate at the state-of-the-art.
+
+Eijah
+I taught a class on NAT traversal at DEF CON this year
+https://www.ryft.app/defcon30/
+You can dload the files if you want ;)
+
+h0p3
+Yes, I saw this.
+Part of why I'm curious about how Ryft would prefer to do it.
+
+Eijah
+Ryft is multi-platform, which adds some extra challenges. e.g. NAT traversal must be done differently on telco networks.
+def makes it more fun ;)
+
+h0p3
+Mobile is particularly difficult. For resources sake, do you intend to make it easy to call-home and let a user's other boxes do the heavy lifting?
+
+Eijah
+Ryft doesn't use DHT because that is a mobile-killer...
+
+h0p3
+Well, I appreciate your talking with me about it, Eijah. I wish you [[luck]] on this project. May it at the very least replace [[Discord]] for a wide variety of users.
+
+Eijah
+ty!
+"""
+<<<

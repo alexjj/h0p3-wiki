@@ -1,0 +1,7 @@
+aliases: [[Frequent Logs]]
+created: 20190103041648104
+modified: 20200902223936836
+tags: Hub
+title: Frequent Log
+
+<$macrocall $name="list-links" filter="[tag[Frequent Log]]"/>

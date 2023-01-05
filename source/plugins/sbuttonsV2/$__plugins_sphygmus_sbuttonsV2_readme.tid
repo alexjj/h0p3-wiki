@@ -1,0 +1,12 @@
+created: 20181215153022475
+creator: sphygmus
+title: $:/plugins/sphygmus/sbuttonsV2/readme
+type: text/vnd.tiddlywiki
+
+This plugin contains buttons that implement the automatic creation of tiddlers with hardcoded links, in several forms. It is also meant as a reference for creating your own customized hardcoded link buttons. 
+
+This is an entirely revamped version of [[my earlier plugin|$:/plugins/sphygmus/sbuttonsV1]] -- all buttons have been rewritten from scratch. The largest change is the switch from a customized stringify javascript function to the preset `<$wikify>` widget. I also switched from using config tiddlers to using a data dictionary.
+
+---
+
+!!! Note: some of the not-visible naming conventions inside the code are NSFW; they are word association remnants of the code drafting process where a lot of my variables are just curse words or things like "meh" and "testing". A little levity makes the bugs easier to fix, eh?

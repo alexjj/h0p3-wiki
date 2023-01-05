@@ -1,0 +1,14 @@
+created: 20190314111817036
+creator: Mohammad
+modified: 20190315062520107
+modifier: Mohammad
+tags: $:/tags/Commander/Search/FilterButton
+title: $:/plugins/kookma/commander/ui/search/filter-button/search
+
+<$reveal state="$:/temp/commander/search-box" type="nomatch" text="">
+<$button class="tc-btn-invisible" tooltip="apply filter search">
+<$action-setfield $tiddler="$:/temp/commander" $field="text" $value={{$:/temp/commander/search-box}} />
+<$action-setfield $tiddler="$:/temp/commander/selected-titles" $field="text" $value="{}"/>
+{{$:/core/images/advanced-search-button}}
+</$button>
+</$reveal>

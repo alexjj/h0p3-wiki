@@ -1,0 +1,78 @@
+created: 20200909083758401
+modified: 20200909084407470
+tags: Sphygmus Chatlog
+title: 2020.07.16 - Sphygmus: Slightly Alternative Universe
+
+"""
+[4:23 PM] robotic_scarab:
+I got Reese's! Glutton.
+reese's are my weakness :craughing:
+[4:24 PM] robotic_scarab: chocolate & peanut butter go so well together
+[4:28 PM] h0p3: They are so good. They are dangerous in my hands. I will eat all of them in one sitting, lol.
+[4:29 PM] h0p3: When Halloween rolls around, I always ask for one from each of my offspring.
+[4:29 PM] h0p3: They've got full blown value assignments to different piles of candies and then barter down the others pile in exchange.
+[4:30 PM] h0p3: I suppose j3d1h won't be going out on Halloween maybe anymore?
+[4:30 PM] h0p3: I don't know when someone gets too old to trick or treat.
+[4:31 PM] robotic_scarab: I approve of their system! I would totally do that too
+[4:31 PM] robotic_scarab: no idea when people stop going trick or treating, lol
+[4:32 PM] robotic_scarab: that's one holiday I've never actually participated in, really :P
+[4:32 PM] h0p3: I am surprised by that.
+[4:33 PM] robotic_scarab: I think the closest would be going to halloween parties with my boyfriend's friends, but it was never a childhood thing and I didn't really pick it up in college either
+[4:33 PM] h0p3: So, I've got this picture of a young girl who made things all the time, who might dream up characters for fun all day, who surely liked candy like everyone else. There's also a geographic exploration component to it.
+[4:35 PM] robotic_scarab: that is a vivid picture, and I see the puzzle pieces! I can imagine it in a slightly alternate universe :)
+
+[7:04 PM] h0p3: May or may not be related: https://www.superlinguo.com/post/149950073272/blind-people-gesture-and-why-thats-kind-of-a-big
+[7:06 PM] robotic_scarab: whoa, that's really cool!
+[11:23 PM] robotic_scarab: Oh, I've been meaning to ask
+[11:24 PM] robotic_scarab: What function do sticky titles perform for you?
+[11:24 PM] robotic_scarab: Is it about seeing the title, or just having access to the tools?
+[11:24 PM] h0p3: Both.
+[11:25 PM] h0p3: I often have to hop between different contexts, and it helps me figure out where I am.
+[11:25 PM] robotic_scarab: This is the biggest issue I have with your wiki on mobile, otherwise it's fine to browse & read
+
+[11:25 PM] h0p3: Awful
+[11:25 PM] robotic_scarab: ah I see, if it's both that's harder to solve
+[11:26 PM] robotic_scarab: I was thinking of something that would stick only the tools and not the title
+[11:26 PM] robotic_scarab: Maybe it would be possible to set that up for only a subset of screen-sizes
+[11:26 PM] robotic_scarab: So big titles don't stick on mobile, the tools do, and they both stick on desktop
+[11:27 PM] robotic_scarab: (Or, depending on how much you yourself access the wiki on a mobile device -- if the answer is that you never edit on your phone, just turning off title sticking on small screen sizes would be easiest)
+[11:29 PM] h0p3: Not sure how to do that, but I will look into it. That would be a quality of life improvement.
+[11:29 PM] robotic_scarab: It should be easy CSS, less than 20 lines probably :)
+[11:29 PM] robotic_scarab: I'll take a look too
+[11:30 PM] robotic_scarab: do you ever edit from your phone?
+[11:30 PM] h0p3: Sometimes, but it's uncommon.
+[11:30 PM] h0p3: I could live without it.
+[11:31 PM] robotic_scarab: the other question then is, what is the pixel width of your phone? if that info isn't difficult to find
+[11:34 PM] h0p3: 360x640
+[11:35 PM] robotic_scarab: ahh, then unless I split up the tools and titles (harder) any CSS that I do to unstick the titles for my phone size will also affect your phone size :P
+[11:39 PM] h0p3: It's not a problem for me. I avoid my phone like the plague.
+[11:39 PM] h0p3: j3d1h uses jd's mobile layout plugin. Might be overkill, and don't know if it plays nice with the flexbox.
+
+[12:01 AM] h0p3: So far, JD's seems okay. Doesn't have the sticky toolbar.
+[12:03 AM] robotic_scarab: hm, I think I know of JD's mobile theme
+[12:03 AM] robotic_scarab: If it's the one I'm thinking of, I really dislike it XP
+[12:04 AM] h0p3: Let me know if I need to take it off. We'll find a way.
+[12:04 AM] robotic_scarab: Did you apply it to your wiki? Not showing up for me yet.
+[12:05 AM] h0p3: Hrm.
+[12:06 AM] robotic_scarab: My issue with it is that it makes reading really difficult - I leave the recent tab open, click on what I want to read, it auto-scrolls to that tiddler, I read it, then tap my status bar to scroll to the top & click a new link
+[12:06 AM] robotic_scarab: It's a pretty smooth flow really
+[12:07 AM] robotic_scarab: but JD's theme makes *the sidebar / recent into a drawer? which is bleh imo
+[12:07 AM] robotic_scarab: But I am very opinionated, I think other people seem to like it
+[12:10 AM] h0p3: :smile: I like that you are opinionated about it. The tiny real estate and awkward input probably require strong sensibilities to make it function right.
+[12:10 AM] h0p3: It should be loading up.
+[12:11 AM] h0p3: Might not be any different for ya.
+[12:12 AM] robotic_scarab: honestly the tiny screen real estate doesn't bother me, since it's just a story river and I usually read in order - tapping to scroll to top is so useful
+[12:13 AM] robotic_scarab: The most awkward thing about input is trying to hit links with my fingers :sweat_smile:
+[12:13 AM] h0p3: Me too. That is one of the things that pisses me off about the wiki on my phone.
+[12:13 AM] h0p3: I end up zooming in to hit it half the time.
+[12:14 AM] robotic_scarab: ahah I don't have to do that, but small fingers probably help there
+[12:14 AM] robotic_scarab: I'm the crazy person with a 4" diagonal phone screen in a world of 5 & 6" phones and above
+[12:15 AM] h0p3: I prefer them small, but I hold the phone up to my ear often enough.
+[12:17 AM] h0p3: I'd kill for a GPD Pocket 2 which virtualized android+SIM.
+[12:19 AM] robotic_scarab: It would be a transition for me to switch to android
+[12:20 AM] robotic_scarab: Going to see how long I can make this phone last
+[12:20 AM] h0p3: What would hurt the most?
+[12:21 AM] robotic_scarab: Probably the UI? As much as it's rootable, the theming scene seems way less mature and way more painful that iOS theming (even though I haven't actually jailbroken in ages)
+[12:21 AM] robotic_scarab: iOS is at least a somewhat coherent experience
+[12:22 AM] h0p3: Yeah, I can see how that would be very expensive to fix.
+"""

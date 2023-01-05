@@ -1,0 +1,23 @@
+created: 20200714214159027
+modified: 20200714214316459
+tags: BCS Chatlog
+title: 2020.05.15 - BCS: Agentcentricity
+
+"""
+[9:06 AM] The Blockchain Socialist: Hey just wanted to check in, how is everything?
+[4:22 PM] h0p3: Hey!
+[4:22 PM] h0p3: Not feeling good about the state of the world, but doing what I can.
+[4:23 PM] h0p3: How are you?
+[4:54 PM] h0p3: Also, I don't know enough of the landscape, so my question is perhaps foolish looking.  Could you point me to any resources on blockchain (or adjacent) concepts that apply to the problem of choosing one's moderators and curators, including those whose upvotes matter to me (including chains of proxies)? Perhaps they don't dovetail nicely at all in some respects (but, I'm interested in organic trust models that reward those who engage in golden-ruled behavior).
+
+[7:22 AM] The Blockchain Socialist: Ya I get that. I sometimes wonder if the fall of the roman empire was this stupid
+[7:23 AM] The Blockchain Socialist: The way that most blockchain projects have thought about solving I think a similar issue you're speaking about is through some system of reputation and those with higher reputation receive more weight (and therefore trust) in the system
+[7:24 AM] The Blockchain Socialist: Is that what you were thinking?
+[8:00 AM] h0p3: Not sure I can trust a reputation system that isn't based upon my own verification as the core starting place. It would probably be some form of sharding. There wouldn't be a reputation ledger that we all shared perfectly (or, that would be a secondary tool).
+[8:00 AM] h0p3: I'm okay with incompleteness and inconsistency here.
+[8:01 AM] h0p3: I have Hubski, Retroshare, and friend-to-friend modeling on the brain here.
+
+[5:18 AM] The Blockchain Socialist: Well I think the point of the system is to provide like a standard rating system for everyone. Applying an individual based on would be much more difficult especially on blockchain. Sharding could be possible but then you'd make almost as many shards as there are users. Holochain's system may be more adept to such a system
+[5:19 AM] The Blockchain Socialist: Since it's agent-centric instead of data-centric and technically not a blockchain
+[12:18 PM] h0p3: My assumption is that parts of the tooling are probably going to have to be blockchain. Solving Zooko's Triangle may always require something like namecoin. But, yeah, Holochain agent-centricism seems crucial here; that is where the workers own the means of production more thoroughly.
+"""

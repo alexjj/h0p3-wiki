@@ -1,0 +1,26 @@
+created: 20220411194428766
+modified: 20220825210145028
+tags: Links [[Ian Clarke]]
+title: Locutus
+
+!! Hype: 
+
+* If successful, a "Freenet 2.0."
+* A distributed decentralized application layer for the Internet, using a distributed key-value database, cryptographically enforced, with observer semantics for realtime p2p communication, built on libp2p, Rust, and WASM. 
+* The design uses a small world network to allow nodes to self-organize where each has a location on a 1-d ring, similar to a distributed hashtable (the original Freenet uses the same approach). There is no global consensus as in the case of a cryptographic ledger.
+
+<br>
+
+!! Links:
+
+* https://github.com/freenet/locutus
+* https://news.ycombinator.com/item?id=30979002
+* https://twitter.com/FreenetOrg
+* https://matrix.to/#/#freenet-locutus:matrix.org
+* https://www.youtube.com/watch?v=d31jmv5Tx5k
+
+<br>
+
+!! Questions:
+
+* Are you going to enable different drop-in replacement reputation or consensus options?

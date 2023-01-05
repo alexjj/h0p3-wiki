@@ -1,0 +1,30 @@
+created: 20220829040914143
+modified: 20220829043304274
+tags: [[FTO: Seemingly One-Off Online Encounters]] FTO [[FTO Mode: Alien]]
+title: otoolep
+
+!! Information: 
+
+* https://www.philipotoole.com/tag/rqlite/
+* https://github.com/rqlite/rqlite
+* https://app.slack.com/t/rqlite/
+
+!! Communications:
+
+; 2022.08.20 - otoolep: rqlite Disconfirmation
+
+<<<
+"""
+[[h0p3]]: Just a rando stumbling across this tool. Can't say I know much. From what I can tell, rqlite isn't meant to scale up, in part, perhaps, because the Raft protocol would prefer maybe 9 nodes tops. Assuming that is true, would it be feasible to scale it up further by having clusters of 9 nodes a piece?
+
+[[otoolep]]: There is no intrinsic limit in Raft, 9 is a suggestion I make in the docs. (edited) 
+[[otoolep]]: Nothing stopping you running multiple, distinct clusters.
+[[otoolep]]: https://www.cockroachlabs.com/blog/scaling-raft/
+[[otoolep]]: But rqlite doesn't so anything special here. rqlite only has the concept of a single cluster. Other clusters will remain completely separate.
+[[otoolep]]: And not help with scaling
+[[otoolep]]: Another discussion of SQLite and distributed systems on HN.
+[[otoolep]]: https://news.ycombinator.com/item?id=32539360
+
+[[h0p3]]: Thank you.
+"""
+<<<

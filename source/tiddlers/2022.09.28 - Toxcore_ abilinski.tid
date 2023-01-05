@@ -1,0 +1,82 @@
+created: 20220929073541261
+modified: 20221009221234181
+tags: Toxcore gREEN [[That's for you to decide]]
+title: 2022.09.28 - Toxcore: abilinski
+
+"""
+[15:36:16] emdee_ngc: OK - on a serious note - is Anthony gone and qtox dead?
+[15:37:57] gREEN: no one knows about anthony
+[15:38:14] gREEN: and sudden does not want to be main maintainer
+[15:39:29] emdee_ngc: OUCH! What was the story on the "one year of funding"?
+[15:40:23] gREEN: i was not there when that happend
+[15:40:32] gREEN: i only know whats in the blog article
+[15:40:54] gREEN: but i think his github history speaks tales
+[15:41:30] emdee_ngc: And his web site is not coming up for me.
+[15:43:26] emdee_ngc: So there is no idea if the "one year of funding" was real?
+[15:44:49] gREEN: well, he worked for, like, 2 months?
+[16:05:50] emdee_ngc: "he worked for" or "he said he worked for"?
+[16:06:44] gREEN: "for 2 months" <- that one
+[16:06:56] gREEN: you can look on github
+[16:18:08] emdee_ngc: Yeah - but I'm worried that the website doesn't respond either. It was a nothing web site - just a page with a web address and ToxId. But now it doesnt not respond.
+[16:22:25] [[h0p3]]: Should we hunt him down and ask?
+[16:22:49] gREEN: he should be canadian
+[16:25:54] emdee_ngc: I'm hunting and not seeing much: can you see this link - it does not come up for me in Tor - https://www.zoominfo.com/p/Anthony-Bilinski/6285037601
+[16:26:15] emdee_ngc: and https://www.zoominfo.com/p/Anthony-Bilinski/3246706849
+[16:26:59] emdee_ngc: They are all I could easily find. Do they come up for you.
+[16:28:54] gREEN: prob this one https://www.zoominfo.com/p/Anthony-Bilinski/6285037601
+[16:29:36] gREEN: it says :
+> Anthony Bilinski
+> C Software Engineer & Open Source Project Application Developer & Firmware Maintainer & Developer at Avigilon
+[16:29:55] emdee_ngc: Can you /sendfile if for me?
+[16:30:01] gREEN: > Email a***@curtisswright.com
+[16:31:28] gREEN: emdee_ngc:  accept the file
+[16:35:02] emdee_ngc: How do I see the file request id - /request said Request ID required/
+[16:35:37] gREEN: groups/conferences dont, i send it via pm
+[16:36:32] gREEN:  Firmware Developer
+Avigilon
+
+May 2016 - Sep 20215 years 5 months 
+[16:38:15] emdee_ngc: Got the png - can you send me also the webpage complete, perhaps as a zip.
+[16:38:28] gREEN: hmmmmmm
+[16:39:06] emdee_ngc: curtisswright.com is a well known USG defence contractor.
+[16:39:27] gREEN: yea, but linked in tells us a bit more
+[16:39:36] gREEN: https://www.zoominfo.com/p/Anthony-Bilinski/6285037601
+[16:40:18] gREEN: ah damn
+[16:41:01] gREEN: fucking capchas
+[16:42:55] emdee_ngc: Yup - already tried that - can you save the page you sent me the screenshot of?
+[16:43:47] gREEN: i tried, but it saves the capcha
+[16:44:03] [[h0p3]]: I have it saved. 
+[16:44:18] [[h0p3]]: Assuming we're talking about the zoominfo page though*
+[16:44:37] emdee_ngc: Yes the page with curtiswright.com
+[16:46:05] [[h0p3]]: My toxID: FDD7005639C618263AB2EEDAB974F7576C7C0DED6217EED9E9DC0344C622E72AEEF7055F8B4D
+[16:46:21] [[h0p3]]: Can't attach in this chatroom.
+[16:46:47] gREEN: added you
+[16:49:11] gREEN: this the linkedin http://archive.today/2022.09.28-204624/https://www.linkedin.com/in/anthony-bilinski-b4178611a/?originalSubdomain=ca
+[16:49:11] [[h0p3]]: Added, but don't see in my qTox sidebar. =D. 
+[16:49:37] gREEN: wait, did you change your name?
+[16:49:40] gREEN: wait
+[16:49:53] gREEN: o.o tox bug?
+[16:50:26] [[h0p3]]: Shit, have to AFK. Sorry. brb.
+
+[17:10:29] emdee_ngc: His BS nodes stopped working a couple of months ago.
+[17:10:45] gREEN: yea
+[17:10:47] That's for you to decide: Deduction: he ded
+[17:11:10] gREEN: i wonder what his github death directive is
+[17:11:35] emdee_ngc: Wrong Deduction: he was always working for curtiswright for the last 5 years.
+[17:11:40] That's for you to decide: hehe
+[17:12:19] emdee_ngc: The intent may have been to make qtox central and walk away from it leaving the Tox community damaged.
+[17:12:23] That's for you to decide: most likely, don't think he ever stopped
+[17:12:39] emdee_ngc: I've seen this trick before elsewhere.
+[17:13:37] That's for you to decide: > [00:12:04] emdee_ngc: I've seen this trick before elsewhere.
+would be helpfull to know where, we could compare both cases and see if we can do something different
+[17:15:46] emdee_ngc: If we can get the a*** address at curtis wright we should add it to https://github.com/qtox/qtox/issues/6665
+
+[17:21:00] gREEN: https://ca.linkedin.com/in/anthony-bilinski-b4178611a
+[17:21:17] gREEN: https://archive.ph/X6Tsy
+[17:21:21] gREEN: (archive)
+[17:22:30] gREEN: looks like an internship
+[17:24:12] emdee_ngc: He may have "quit" Avigidon for curtiswright - Avigidon got bought out by Motorolla which would bring it into contact with curtiswright.
+
+[19:39:12] gREEN: oh, we finally conected
+[20:10:05] [[h0p3]]: =D
+"""

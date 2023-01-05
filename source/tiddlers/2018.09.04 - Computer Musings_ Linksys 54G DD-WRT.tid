@@ -1,0 +1,32 @@
+created: 20180904163217295
+creator: h0p3
+modified: 20210904081119898
+modifier: h0p3
+tags: [[Computer Musings]]
+title: 2018.09.04 - Computer Musings: Linksys 54G DD-WRT
+
+I always check the electronics of thrift stores. I've picked up two Linksys routers for DD-WRT over the years.<<ref "2021.09.04-1">> I'm glad we had them available. My daughter tested them both out. We're using high-gain antennae on top of our Ubiquiti AP. No 5Ghz sadly (which I was coming to enjoy). 
+
+My daughter is in charge of it, but she clearly needed some hints, instructions, guidance. She's feeling lost.<<ref "2021.09.04-2">>
+
+---
+
+Kali, long time, no see. Want to show my daughter a couple things.<<ref "2021.09.04-3">>
+
+---
+
+github updates to account settings
+
+---
+
+HTPC crontab for rsync of wiki from resilio sync to dropbox had to be added. Whoops.<<ref "2021.09.04-4">>
+
+
+---
+<<footnotes "2021.09.04-1" "Useful in a pinch, but overall they didn't serve much. I think that was a waste of effort, except insofar as it was a teaching tool for your offspring. Your daughter benefited, but your son didn't seem to get it.">>
+
+<<footnotes "2021.09.04-2" "Who doesn't hate this feeling? I don't know how to transition people away from spoonfeeding without spoonfeeding well enough. This is one of those debates a dad will continue to agonize over. You have to force them to experience being lost in the desert. It's traumatic.">>
+
+<<footnotes "2021.09.04-3" "She never did seem to care much for that side of things. I'm kinda glad. I think there are more useful things to do with her time. I was just searching for any way to get her to be passionate (and hacking is cool, right?).">>
+
+<<footnotes "2021.09.04-4" "I'm glad I gave up on attempting to serve from Dropbox. It did get used a few times, but I think it was worse than pointless. Vanity, I think. It is was a cool OG account stacked to the brim.">>

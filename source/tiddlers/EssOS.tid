@@ -1,0 +1,303 @@
+created: 20210410035553557
+modified: 20210616072657840
+tags: Rabbitholed Highdeas Dreams BAGD Computing Links .tdl More kyr0ss BDS97 Pinephone
+title: EssOS
+
+//I've waited a really long time for this. A decade. Omnia mea mecum porto. RIP Terry A. Davis, `F`. Yet Another Pinephone Package. Can we tinkerpwn our phones together? Can we [[like]] our phones as much as our desktops? Are we respecting each [[other]]'s [[Humanity]] with our machines? What is not a language? Perhaps some machines are conversational sacraments themselves. What a dream! //
+
+<br>
+
+!! a.k.a.:
+
+* [[monster]]-pine
+* CathedralOS
+** Someone called this ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 [[a cathedral|https://twitter.com/JimmyRis/status/1204056283785113600]] online. I like that. In honor of Terry, because there is something to accomplish for divinity's sake in software, as with all tools toward [[The Good]] [[Itself]]. Righteous software is real and possible. I'm unwise and incompetent. I'm in trouble. Wish I knew a Moses and a Noah.
+* "Sawce" pronunciation
+
+
+
+<br>
+
+!! [[TDL]]:
+
+* Get a phone
+* Some fitting SD cards, readers
+* KVM
+** Set up hub in the cave then. 
+* A stand, right over the Vizio plateZ
+* Test the major distros out. 
+** You could just be all set, forget the rest of the work. EZ.
+** What do you like and dislike? 
+** Can you avoid making your own everything? 
+** Should you combine them?
+** Can you reproduce and distribute your system in record time?
+* LineageOS (or CopperheadOS perhaps). `/sigh`. I know it seems crazy, but it's not. A comparison point and a way to run Android that makes sense. Ultimately, you want to VM it.
+** Pretty sure almost everyone is wrong here. They aren't going to like hearing that. Counterintuitive. Feels so icky, ikr? Embrace, Extend, Extinguish. We can do it, losers.
+* Plan
+* x64-host VM workflow
+* THE FUCK OFF DISCLAIMER
+** Could get really silly with it. I'm not qualified to build something that others should risk their lives on. It has to be scareware then, pumping up the "at your risk"ness. I can't even be said to responsibly maintain my own desktop computer after 3 decades. I have no bidness doing this.
+*** Over-the-top? How far? [[Fight Club]] rule enforcement. Shoot all messengers. Every last one. I will haunt pull requesters, commentators, anyone linking, say terrible things about them. Go away, faggot. UGH. Lmao. Terry, maybe you were just playin' us all along, you [[Straussian]] sumbitch. Fuck that. Just make it clear that no one should ever use it. It's fictional software. XD.
+**** Ewwww baby, with //Terms// that are as anti-cancellation and annoying as possible. Pure stunt every time. Already there. Duhhhhnnnnnnnnn.
+* Mutualize the burden of maintenance of core components
+
+<br>
+
+!! [[/b/]]:
+
+* Strategy
+** Have fun with your offspring. Explore. Enjoy what's it like to play with a toy that may give us insight into a future tool. Enjoy dreaming together. ''Make Work Play''. I love you.
+*** They should practice making video presentations about what they make. Could go a long way.
+** Skid or die. except scripts, u code, u ruse. Understand what has already been accomplished. Save yourself the headache.
+*** Put together the sketch of what you'd want given the hardware living on every major distro?
+** Docked Tablet First, 2-in-1 Second, Phone Third.
+*** It's a neat fucking computer learning to crawl before it can walk as a phone.
+*** Avoid worrying about driver, kernel, camera, modem, and the basic apps for phone usage. Not convinced it's worth making our own yet. 
+*** Pick out the batteries first. Make it simple to have a computer that has what we want on it. Turn it into a phone AFTER you have a computer you like. 
+**** I'm simply not knowledgeable enough to write the LTE/SMS/Tethering/etc. software stack, and I have better things to do than learn or read. I have a serious [[masturbation]] habit to maintain.
+*** If we get the VM working (or fuck, maybe it can be dockerized in this, though I have worries), then we can push the phone related "Workspace" onto professionals. PostmarketOS, Phosh, etc. seem pretty fucking dope.
+** Port a software ecosystem over, or at least build a rotatable bridge.
+** Like the wiki, part of the job is to offer a proof that even a retard might conceivably be capable of customizing their device as they wouuld their desktop. The "just werx" phone-based OS would miss the point, I think (though it's absolutely necessary to have one that isn't Android - the faster than hellscape can be replaced, the better). I have my own "just werx" requirements, and they might be more generally useful (I don't know). 
+** Try all the tools, even the absurd ones. Maybe some of them won't be absurd. Maybe.
+
+* [[Φιλοσοφική ανάλυση]]
+** To treat someone's machine as a dialectical extension of their [[4DID]] requires its own contextualized respect.
+* Batteries Loaded. Must be for the proletariat. Otherwise, it should be as vanilla, unopinionated as possible.
+** Have to be picky about which tools are actually lightweight, suit a touchscreen of that size, and preferably has a solid upstream.
+** We have a chance to [[pick winners|Boogerpicking]], rare ones, shiny pokeymans. 
+** Be willing to use proprietary code. Set aside the problem of drivers, the base GNU/Linux userspace cannot be slowed down by purism right there. Same for desktop.
+* No reason not to leverage the curation and build processes of Arch, Debian, NixOS, T1-VM-TBD, and Alpine.
+* There's a serious problem if the best Desktop distros aren't the best mobile. 
+** Convergence^^tm^^ obligations and efficiencies. 
+* We should be expected to use the terminal. 
+* You get to plan on a lot of cores. You can thread way harder.
+
+* Immediately Obvious Pricing Differences
+** Storage seems to be killer. Extortion in the mainstream market. 
+*** The whole point of iOS/Android is to avoid local data ownership as much as possible. GNU/Linux can invert that, and storage can //mean// way more to us. Performance here matters more than it does for mainstream phones.
+** There's strong reasons to believe that the performance of your GNU/Linux build will be maintained on that device. Updates aren't likely going to eventually fall prey to planned or unplanned obsolescence. GNU/Linux was born to potate like a pro.
+
+* Worries
+** It's got plenty of firepower to run potato-grade loonix. But, power is the fundamental killer. If that can't be driven down, ugh. Keyboard-battery might be the only way out.
+** Controlling the notification stack is not going to be EZ, right? `/shudder`
+** GPU acceleration seems a long way off, and a touchscreen device seems dead without it.
+*** And, GNU/Linux GUIs are so poor that it's not clear that hardware improvements will fix this. Driver and compositor optimization is required.
+*** I'm still not convinced we'll see open firmware on competitive devices, but I'll work for a potato.
+** My color stupidity and lack of virtuous aesthetic perception means I am only guaranteed to fail to even begin to imagine what consists in a fitting use of the screen. Color offers compression and clarity that I need to learn how to wield (but probably can't). [[Sphygmus]]'s "glanceability"? 
+
+
+<br>
+
+!! The Batteries:
+
+* Curate Good Fucking Software, Eat 25GB up on root. Seriously. Don't be minimalist here. I'd be fine with even 100GB used eventually (I know how absurd that sounds at first glance, but space should not be a problem long-term, and there's lots of benefits to releasing the pressure here). 
+
+* New Users
+** Perhaps begin just as a package that floats on a major system already. 
+** An x64 variant to try on a desktop
+** If there's enough stability, a conversion script?
+** Straight-forward soup-to-nuts SD and eMMC processes.
+
+* The Windows That Matters
+** Terminal Emulator
+*** Mosh, et al.
+** Browser
+*** Do we go as far as nyxt? It's that fucking crucial to this monster.
+*** Tor Browser
+
+* Phonely Things
+** Notifications. Hao to P2P/Federate it? None of the options look good.
+
+* Syncing & Networking
+** [[Resilio Sync]]
+** [[VPNCloud]]
+** Shadowsocks
+** i2pd
+
+* Chat
+
+* VM/Anbox
+** You either run a native copy (i.e. LineageOS) or you never have to leave. y not both?
+
+* Celebrations
+** Fraidycat 2.0
+** Beaker
+
+* Stoopid Dumb Idiot Loser NO Retard y tho?
+** Live more in `/home`, just keep my own binaries and tooling entirely there. Stop fucking caring about the base system more than usual.
+
+<br>
+
+!! Custom Interfacing I Like:
+
+* i3/XFCE-esque
+** I'm sorry, but I don't trust Gnome or KDE (though I'm indebted to them).
+* Rofi
+* TW5-Bob
+* Autokey
+
+
+<br>
+
+!! DEless
+
+* Just out of curiosity, how slim can we go? If you can get a virtual keyboard up...it's technically doable, right?
+
+<br>
+
+!! Beta Hardware Speccs:
+
+* Phone
+** Allwinner A64 Quad Core SoC with Mali 400 MP2 GPU
+** 3GB of LPDDR3 RAM
+** 5.95″ LCD 1440×720, 18:9 aspect ratio (hardened glass)
+** Bootable, up to 2TB via microSD, supports SDHC and SDXC
+** 32GB eMMC
+** HD Digital Video Out
+** USB Type C (Power, Data and Video Out)
+** Quectel EG-25G with worldwide bands
+** WiFi: 802.11 b/g/n, single-band, hotspot capable
+** Bluetooth: 4.0, A2DP
+** GNSS: GPS, GPS-A, GLONASS
+** Vibration motor
+** RGB status LED
+** Selfie and Main camera (2/5Mpx respectively)
+** Main Camera: Single OV6540, 5MP, 1/4″, LED Flash
+** Selfie Camera: Single GC2035, 2MP, f/2.8, 1/5″
+** Sensors: accelerator, gyro, proximity, compass, ambient light
+** 3 External Switches: up down and power
+** HW switches: LTE/GNSS, WiFi, Microphone, Speaker, Cameras
+** Samsung J7 form-factor 3000mAh battery
+** Case is matte black finished plastic
+** Headphone Jack
+
+* Docking Station
+* KVM
+
+
+<br>
+
+!! Links:
+
+* Seems Awesome Tools
+** https://github.com/chriskiehl/Gooey
+
+* Downloads
+** https://xnux.eu/p-boot-demo/
+
+* Communities
+** https://discord.com/invite/DgB7kzr
+** https://www.pine64.org/web-irc/
+** https://forum.pine64.org/
+** https://matrix.to/#/!LZirCxnkkeBudrQzPj:matrix.org?via=matrix.org&via=librem.one&via=privacytools.io
+** https://www.reddit.com/r/pinephone/
+** https://t.me/pinephone1
+
+* Feeds
+** https://www.pine64.org/blog/
+** https://forum.pine64.org/forumdisplay.php?fid=127
+** https://forum.pine64.org/forumdisplay.php?fid=121
+** https://forum.pine64.org/forumdisplay.php?fid=122
+** https://forum.pine64.org/forumdisplay.php?fid=123
+** https://www.youtube.com/watch?v=MKI-Ml3Tlnk&list=PLB7p5Y-jo94F9GGzY_FyPNY0dORkI5O_i
+** https://t.me/PINE64_News
+** https://twitter.com/thepine64
+
+* Hackers
+** https://xnux.eu/log/
+
+* Standard
+** https://en.wikipedia.org/wiki/PinePhone
+** https://wiki.pine64.org/wiki/PinePhone
+** https://www.pine64.org/pinephone/
+** https://pineguild.com/
+
+* Hardware
+** https://linux-sunxi.org/A64
+** https://developer.arm.com/documentation/ddi0500/j/
+*** https://developer.arm.com/ip-products/processors/cortex-a/cortex-a53
+** https://www.allwinnertech.com/index.php?c=product&a=index&id=9
+** https://files.pine64.org/doc/PinePhone/PinePhone%20v1.2b%20Released%20Schematic.pdf
+** https://www.cpubenchmark.net/cpu_list.php
+*** ARM Cortex-A53 4 Core 1152 MHz `348` vs. ARM Cortex-A53 4 Core 1800 MHz `545`
+
+* VM
+** https://ashw.io/blog/arm64-hypervisor-tutorial/1
+** https://discuss.96boards.org/t/minos-a-lightweight-open-source-type-1-hypervisor-for-mobile-and-embedded-systems/6039
+
+* PostMarketOS
+** https://postmarketos.org/
+** https://postmarketos.org/blog/2020/07/15/pinephone-ce-preorder/
+
+* NixOS
+** https://mobile.nixos.org/
+** https://github.com/ryantrinkle/nixos-sbc/
+
+* Arch
+** https://archlinuxarm.org/platforms/armv8/allwinner/pine64
+** https://archlinuxarm.org/packages
+** https://wiki.archlinux.org/index.php/List_of_applications
+
+* LineageOS
+** https://github.com/sys-fail/lineage-pinephone
+
+* Interesting
+** https://drewdevault.com/2019/12/18/PinePhone-review.html
+
+* Maymays
+** [[Theme Song|https://www.youtube.com/watch?v=wmJyl4n5-GA]]
+
+* [[vidya]]s
+** ARM
+*** https://www.youtube.com/watch?v=7LqPJGnBPMM
+**** Don't puke. But know the evil you face.
+*** https://www.youtube.com/watch?v=VcMyr2_SObc
+*** https://www.youtube.com/watch?v=2TzHiGqesQY
+*** https://www.youtube.com/watch?v=7LqPJGnBPMM
+** Beta Reviews Beta
+*** https://www.youtube.com/watch?v=geiHgB5cJcA
+*** https://www.youtube.com/watch?v=1l6f5Sngk58
+*** https://www.youtube.com/watch?v=YT4FWoV5U2E
+*** https://www.youtube.com/watch?v=KqzAjEWfrAc
+*** https://www.youtube.com/watch?v=7GjXQFnMHGY
+*** https://www.youtube.com/watch?v=DTkqIuFMdFI
+*** https://www.youtube.com/watch?v=fCKMxzz9cjs
+*** https://www.youtube.com/watch?v=z29aJCTn-mY
+*** https://www.youtube.com/watch?v=Y-9Wmki7DsU
+
+<br>
+
+
+!! To The Fucking Nines, Loser.
+
+* The Unthinkable, A Voldemortifact
+** ipv6 meshed IoT. Full stop. Swear to god. I know. Beat me with a stick until I'm ded.
+
+* T1 Hypervisor, Fully Encrypted
+** Android
+** house_h0p3 prototype
+** Standard Issue(s) Multi-Boot
+** [[Whonix|https://www.whonix.org/wiki/Open-source_Hardware]]
+** A Pentesting OS
+
+* A Pinephone-Φ Wishlist
+** NVME storage? I'm worried there's no hack around the power usage problem. 
+*** 25MB/s on SD, and 80MB/s on emmc? 
+** Merged Docking/KVM/Mesh-Router/NAS/Hardware VPN Adapter/Power Center, wired and wireless. 
+*** One device to rule-them-all. A dialectical pair. The federated root of your mobilized homecloud.
+** External SDcard port. 
+*** Auto VM loading. Pop it in, T1-Hypervisor spins it up.
+** Custom physical freedom switchboard
+*** Would be nice if I could force Tor/i2p mode. Perhaps that should happen at a firmware level. =/. 
+**** Modem runs Linux! Pretty fucking sick.
+** God-Tier Reproducibility 
+*** Imagine walking outside with a blankish phone, getting to my destination, and bootstrapping a 25GB download at 1 Gigabit. Real bordercrossing techniques that could become normal in erryday use. Who gives a fuck about encryption then? Rubberhose deez nutz.
+
+* x64/ARM Convergence
+** It's possible and powerful to have the complete backwards compatibility of both ecosystems on a single device. Seemlessly using either on EssOS would be preferred. 
+
+<br>
+
+!! Autogen:
+
+<<list-links "[tag[EssOS]]">>

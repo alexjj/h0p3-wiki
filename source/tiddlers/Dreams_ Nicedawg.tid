@@ -1,0 +1,17 @@
+created: 20221116061621714
+modified: 20221117083612093
+tags: Dreams Computing Outopos
+title: Dreams: Nicedawg
+
+//the umpteenth//
+
+I'm a fan of conduits. One thing Signal did right (mostly*) was making it an SMS client hybrid (well, once upon a time, they did that somewhat right). Integration into unified interfaces solves many problems and eases the network effort burden in some cases. Take the top 10 social networks (be open-minded), maybe a handful of niche picks too, and build a client that conveniently unifies partipation on these. 
+
+If people aren't willing to use a platform unless others are listening (since most people refuse to construct unless other people are going to give them attention or recognize supposed virtue signals), then give it to them while incentivizing using the p2p network itself over the centralized/federated options. It's hard to make UI/UX better than the original sometimes, but that may be necessary.  
+
+* Customizable FF containers under the hood, fork LibreWolf (and [[mull|https://gitlab.com/divested-mobile/mull-fenix]]), perhaps an installer for an extension with extra privileges (ugh), or, `/sigh`, Electronification. 
+* Post to multiples, combine conversations where you can, unify on one network: the p2p network.
+** There may be ways to enable others to crosspost, though hosting may just be better. 
+* I don't have a problem with people broadcasting, but we have to migrate onto a network where we control our own curation stacks. 
+* It needs to make it clear what services it won't be posting to, as some requirements might not be met. 
+* Vouched [[anonymous]] identity inclusion. All curation is vouching for some aspect.

@@ -1,0 +1,24 @@
+my_task:
+  client: qbittorrent
+  host: http://127.0.0.1:1234
+  strategies:
+    IPT:
+      trackers:
+        - routing.bgp.technology
+        - ssl.empirehost.me
+        - localhost.stackoverflow.tech
+      excluded_trackers:
+        - t.myanonamouse.net
+      last_activity: 7889238
+    Myanonamouse:
+      trackers:
+        - t.myanonamouse.net
+      remove: size > 0.1 and last_activity > 15778463
+    Low_Free_Space:
+      excluded_trackers:
+        - t.myanonamouse.net
+      free_space:
+        min: 100
+        path: /mnt/torrent-cache
+        action: remove-old-seeds
+  delete_data: true

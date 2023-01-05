@@ -1,0 +1,129 @@
+created: 20220412045850062
+modified: 20220502043422957
+tags: Walkthrough D2
+title: D2: Bone Summoner Hybrid
+
+//a.k.a. The Walking Simulator//
+
+!! Skills: 
+
+* Summoning
+** ''20 Raise Skeleton''
+** 20 Skeleton Mastery
+** 1 Clay Golem
+** 1 Golem Mastery
+** ''1 Raise Skeletal Mage''
+** 1 Blood Golem
+** 1 Summon Resist
+** ''1 Iron Golem''
+** ''1 Revive''
+
+* Poison & Bone
+** 1 Teeth
+** ''1 Bone Armor''
+** ''1 Corpse Explosion''
+** 15 Bone Wall (this is the final dump)
+** 1 Bone Spear
+** 20 Bone Prison
+** ''20 Bone Spirit''
+
+* Curses
+** 1 Amplify Damage
+** 1 Weaken
+** 1 Terror
+** ''1 Decrepify''
+
+The PvE (PvM) Summoner has a lot of flexpoints to spend,<<ref "t">> and it's unclear how generally to do it best except in very narrow circumstances. The diminishing returns are severe, unlike most other specialties in [[D2]], imho. I'm convinced the correct option is a Summoner that bones deep (`/wink`). God-tier Pure PnB non-nova (gl on that +8 White) make enormous sacrifices for big numbers, and not going for the +3P&B jewelry and matching charms means you'll be happy to hit 3k Bone Spirits. With advanced gear, we can get to 2k Bone Spirits without actually sacrificing the core Summoner! That's not nothing, especially with Bone Armor being actually useful in this build. This ends up leaning heavier into P&B than Summoning, but I still think the Summoner is the clear base in practice. The last 59 points (the majority) are functionally auxiliary. 
+
+
+The theory of the build:
+
+* +Skill gear means you can afford to go for one-point wonders (as has always been the case for curses especially), including, perhaps surprisingly, Corpse Explosion.
+** The assumption is that you'll have at least +13 to all necro skills. 
+** Increasing the radius of CE eventually becomes win-more, while non-CE damage sources become the fundamental bottleneck. 
+*** That is what Bone Spirit helps resolve. It is the catalyst to the chain reaction and a source of sustained damage against Super Uniques (especially Physical Immunes) and Bosses up until Pandemonium and Ubers, wherein Revive does the real work.
+* Bone Spirit and Bone Armor share synergies. You hit two birds with one stone.
+** It's quite difficult to pick up an extra 500hp against physical damage out of nowhere like this.
+*** You might even decide not to dump further into dex for max block and instead just go straight for raw HP, as elemental damage is the ultimate weakness (it's also pretty uncommon for the necro to find themselves directly tanking).
+* Terror, Amplify Damage, and Decrepify cover 99% of the cases you run into. You can sacrifice Bone Wall synergy points to round out curses if you really want though.
+* Your Insight IG is defensively weak, but strong enough to last in regular p8 games with teleport babysitting. 
+** Insight is key for this build, as it's absurdly mana hungry at all stages. You'll still be chugging potions too.
+
+<br>
+
+!! Stats:
+
+* Strength: Enough for gear, as always
+* Dexterity: Enough for max block, probably
+* Vitality: Everything else
+* Energy: [[(*crickets*)]]
+
+<br>
+
+!! Gear:
+
+* Faster Cast Rate Breakpoints: 48% 75% 125%
+* Faster Hit Recovery Breakpoints: 56% 86% 152%
+* Faster Block Rate Breakpoints: 52% 86% 174%
+
+''''
+
+* Reasonable Replicable Deterministicish Goals Without God-tier Rares and Craftables
+** Weapons 1: Heart of the Oak + 35% FCR Spirit Monarch Shield
+** Weapons 2: Call to Arms + Spirit Monarch Shield
+** Body Armor: Enigma, Dusk Shroud or Archon Plate 
+** Helm: Harlequin Crest 
+** Gloves: Trang-Oul's Claws
+** Boots: Marrowwalk
+** Belt: Arachnid Mesh
+** Ring 1: The Stone of Jordan or Ravenfrost
+** Ring 2: 10% FCR Ring with MF/Life/Dex/Resists/etc.
+** Amulet: Mara's Kaleidoscope
+
+* Charms, etc.
+** Necromancer Hellfire Torch 
+** Annihilus 
+** Gheed's Fortune
+** Up to 9x Summoning Skiller Grand Charms, preferably with Life or enough Faster Hit Recovery to hit 86% or 152% Faster Hit Recovery
+** Up to 10x Small Charms with MF/Life/Dex/Resists/FHR
+
+<br>
+
+!! Pets:
+
+; A2 NM Offensive Mercenary:
+
+The mercenary exists to Might the minions, achieve the initial killing blows for summoning or CE, to CB down baddies as fast as possible, and also to simply tank so the necro doesn't have to. To my eyes, we should err upon going too far toward offense, which may be his best defense anyway. A second gear-set for Ubers and the difficult to test effectiveness of high-end runewords are the only questions posed.
+
+* Ethereal Upped Hone Sundan (Shael, Shael, Amn) or Pride or Infinity
+* Ethereal Treachery
+* Ethereal Andariel's Visage socketed with a Ral
+
+Paladin Ghost Spear [[IAS|https://d2.lc/IAS]] Breakpoints: 0%, 7%, 14%, 32%, 48%, 68%, 99%, 152%
+
+We achieve 105% with the Hone Sundan. Fade's 60% all resist and 14% physical DR in addition to the IAS and Venom probably makes it the best choice available here. 15% LL is enough to keep him relatively fit. Rare jewels could possibly be an exception, but I'm not sure what the rolls have to look like.
+
+; Insight Iron Golem:
+
+* He's a buffbot that can handle basic trash. If you can't replace it easily, then babysit with teleport, TP, or save/exit.
+* You can Decrepify, CE, Revive, Bone Spirit, and Teleport spam to your heart's content. It significantly raises the ceiling value of one's APM. It gives you options and allows you to amplify the function you need in the moment.
+* Low-end polearms are preferred because Iron Maiden is simply too dangerous.
+** This is also a reason not to use the most expensive gear in the game. It's not the end of the world to lose an Insight after the mid-game.
+*** However, if you are rich beyond anyone's wildest dreams or find yourself grouping with someone who will have an Insight for you, you might prefer something else entirely, Pride and Beast probably being among the best options.
+* A pre-game weaponswap for +3 Summoner, +3 Golem Mastery wand and shield is ideal. IG is recreated upon entering a new game. 
+
+; Magis
+
+Poison to stop regeneration and cold to slow are the preferred options. This rarely matters, but it does against Ubers. 
+
+; Skeletons
+
+Conviction aura may be one of the few ways to improve their damage. They miss plenty. 
+
+; Revives
+
+These are generally fodder providing an increased source of control on the screen and more damage, as long as there is enough room or you can consistently teleport stack. Monsters with crushing blows become essential for downing the highest HP targets in the game. 
+
+
+---
+<<footnotes "t" "To the point that, if I understand correctly, a lvl 42 necromancer with fitting gear could take down Baal in hell (except for the fact that there's a level floor and just even getting there naturally will level a necro too far), maybe even [[naked]] with a great pilot. In Classic D2, a perfectly equipped necro could take Hell Diablo down by himself. He's designed to defeat the quest-based game as a skillcheck (not player, but player character); it's that simple.">>

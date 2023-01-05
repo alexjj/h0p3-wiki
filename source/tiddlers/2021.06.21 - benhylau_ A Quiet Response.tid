@@ -1,0 +1,127 @@
+created: 20210622115047537
+modified: 20220306045637580
+tags: benhylau Letter To 𝕱𝕴𝕽𝕰🔥 Leet
+title: 2021.06.21 - benhylau: A Quiet Response
+
+//I'm pretty convinced you already know everything I have to say here. Please ignore it at-will, especially if you find me too tedious, provocative, or dogmatic to speak with. I tell you what we really need to wrestle about: [[Justice]] in [[your upcoming discussion|https://metagov.org/seminar/]]. There I may be useful to you. I rarely speak in voice remotely with anyone, but I'd speak with you if you'd want.//
+
+```
+                                             ,,                              ,,                 ,,                        
+`7MM"""Yb.                                  *MM                            `7MM               `7MM                        
+  MM    `Yb.                                 MM                              MM                 MM                        
+  MM     `Mb  .gP"Ya   ,6"Yb.  `7Mb,od8      MM,dMMb.   .gP"Ya `7MMpMMMb.    MMpMMMb.`7M'   `MF'MM   ,6"Yb.`7MM  `7MM     
+  MM      MM ,M'   Yb 8)   MM    MM' "'      MM    `Mb ,M'   Yb  MM    MM    MM    MM  VA   ,V  MM  8)   MM  MM    MM     
+  MM     ,MP 8M""""""  ,pm9MM    MM          MM     M8 8M""""""  MM    MM    MM    MM   VA ,V   MM   ,pm9MM  MM    MM     
+  MM    ,dP' YM.    , 8M   MM    MM          MM.   ,M9 YM.    ,  MM    MM    MM    MM    VVV    MM  8M   MM  MM    MM   ,, 
+.JMMmmmdP'    `Mbmmd' `Moo9^Yo..JMML.        P^YbmdP'   `Mbmmd'.JMML  JMML..JMML  JMML.  ,V   .JMML.`Moo9^Yo.`Mbod"YML. dg 
+                                                                                        ,V                              ,j 
+                                                                                     OOb"                              ,'  
+```
+
+You get my opinion in context and with my skin in the game. Let me know if I can [[help]] you, [[nomad]].
+
+I think you're brilliant and you do extremely moral work. You're a fucking rockstar! Seriously. It's an honor to meet you. I'm looking at the path you've taken taken over the years, and I respect you. I wish every programmer knew and practiced even a quarter of what you do; if [[my own offspring|Be A Good Dad]] become serious programmers and Guardian organizers of civilization, I [[hope]] they follow in your footsteps<<ref "y">> (they are going to read our correspondence in [[Family Time]], btw: so feel free to say "hi" to them<<ref "a">>). You have worked on a lot of projects I hold in high regard. I admire your pragmatism, how you build communities, and how you get your hands dirty. I'm [[luck]]y to speak with folks about [[these problems|2021.03.08 - Enricoce: The Real Work]]. I know you are an expert here.<<ref "ae">>
+
+I'm not here to defend the article, and I didn't make that clear enough. Sorry. And, now that we're here, perhaps I should give you my opinions on the article first for some context (I bet we agree more than we disagree):
+
+* Matrix has been hyped (disproportionately more than many of its competing FLOSS alternatives). But, I'm happy to see decentralization being taken seriously. It's never gotten enough attention, and the proletariat pays dearly for it.
+** Matrix is often (though not always) an improvement upon IRC and XMPP. I don't think it merits as much hype as the P2P<<ref "r">> options though. That may change. `/fingers-crossed`
+* Matrix is unlikely to be dangerous software (which is impressive given the technical and social difficulty of bringing it into existence), but that doesn't mean it's as safe (or has been as safe) as it should be either. 
+** For most of its existence, E2EE was not default, right? That would be a huge redflag to me (if so, we might have every right to question the design and even the intention here too), but tons of security progress has been made and I do trust their intentions (the ship has been righted, arguably).
+* Interoperability introduces some novel security problems, and we should be worried about it.
+** Setting security aside: bridging is extremely convenient in practice, and Matrix ~~might be~~ surely is the best at it. 
+* Hrm, it can get close, but I'm not so convinced it's fully distributed. 
+** Imho, parts of this problem are in virtue of the structure of the internet (fighting an uphill battle to say the least). NATing is particularly egregious to handle in some cases. You understand this problem far better than I do.
+* The author rightfully questions the origins, but they also set them aside. We can say that is mere rhetoric, but that's not so obvious to me.
+** If Matrix is to be the foundation of chat on the internet (I don't think it's the best answer atm, but it's a solid choice, ofc), then it's completely reasonable to aggressively doubt. We should be paranoid at this level; this is a fundamental high-level computing tool, practically a primitive in a sense. 
+* Beyond the protocol, the implementations have to be evaluated. The article doesn't acknowledge the strengths of diversity in the ecosystem enough.
+* Metadata privacy concerns are difficult to handle and unintuitive; federation will generally pose larger threats than pure P2P. 
+** While I know many Matrix folks are aware of this problem, I'm still going to be hedged-conservative with my doubt here. This problem is really, really fucking hard. 
+* Overall, I trust the Matrix ecosystem significantly more than the author, but I'm not convinced it's taken decentralization, [[privacy]], and [[anonymity|Anonymous]] seriously enough from the beginning. 
+** I'm [[hope]]ful that it will continue to make progress there, unlike the author. I disagree with the author as well: by and large, the Matrix community deserves applause and our thanks. 
+
+>> Element/Matrix is not the answer at the moment
+
+> I am more wondering the basis for this. 
+
+You did not address the rest of what I said (which wasn't much, I realize),<<ref "i">> so I'm not convinced you are really wondering about "the basis for this" (maybe I've got it so wrong it wasn't worth examining). Note, I'm open to Matrix becoming the answer, unlike the author of the article. You can change my mind; many people do.
+
+> For example, if there is a source of in-depth technical analysis of the claims in the article, or an opportunity for feedback from Matrix why certain things are done in a particular way.
+
+These are admirable preferences. I appreciate how your instinct is to seek more evidence. You are well-equipped to investigate the claims yourself. I [[hope]] you do look at the basis more, even if it only confirms your thinking. Here's one link that might be interesting: https://serpentsec.1337.cx/matrix. It's hard to find trustworthy auditing and normative analysis in this sphere (the difficult parts tend to be soft). 
+
+I don't see why the opportunity for feedback has much to do with the basis in question. I don't see why the author is obligated to seek a response. It may not be charitable or rigorous enough though. It may be fair to say there's no one entity in charge of the Matrix ecosystem at this point (vastly preferred), and there are many platforms from which Matrix users can speak their minds. A cursory glance through how the article (and some related links) have been digested in online communities shows there's been [[opportunity|https://www.reddit.com/r/privacy/comments/da219t/im_project_lead_for_matrixorg_the_open_protocol/f1p3tag/]]. 
+
+My argument, however, is not strongly tied to the article (though there's overlap). 
+
+> It's very easy to criticize any FOSS project. Of their origins, clients, ties to some partner or funding sources, specific technical behaviour, etc. 
+
+There's plenty to unpack in that. It's easy to criticize criticizing too. Of their origins, clients, ties to [[power]], specific technical behavior, etc. Of course, [[Deconstruction Obligates Reconstruction]], and it's also too often the case that freeriders feel entitled to the time of developers when they are not actually. I'm saying nothing new.  
+
+I realize I'm just an unknown rando (probably a crank too, `/bow`, at your service, m'theydy), and I appreciate your ~~policing~~ protection of those FLOSSers who are being exceptionally charitable. It's obvious that many FLOSS projects and contributors are wildly underappreciated. Let me say it again: I think your work is amazing (if you want me to continue to explain why, I will). You are spending your life wisely on saving the world. If you want to keep going down this road, we can talk about the social, psychological, and political nature of critique, [[culture war|Memetic Warfare]], and [[pleft]]ist fragmentation and infighting if you wish (doesn't seem necessary). I'm handing you muh thinkin' because I trust you to reason wisely and do what you think is best with it (could be as simple as throwing it away). It's my honor to spend time with you.
+
+With that in mind, you'd agree also that: there's a limited supply of FLOSS developers, and (unless this is just for fun) they shouldn't waste their precious time on the wrong tools, right? Further, criticism is necessary for knowing where to go, and I know you know that. We probably agree here. You're more graceful in how you handle it.
+
+> Signal similarly gets a lot of criticism, bc they didn't open source their servers, and didn't respond quickly to someone who filed a security report. 
+
+Hrm. See, now I'm worried about unjustified [[bias]] here. There are more non-trivial criticisms of Signal et al. that I'm sure you are aware of; presumably, you didn't have time to list it here. Note, I still use Signal every day, and I recommend it constantly (sometimes even require it) in many cases. However, I'm not convinced the problems it has are going to be solved, and I'm going to criticize it while pushing for change or better alternatives with those who can appreciate and make use of the argument (just as I did and am doing with you). I'm hoping those who work on Signal change their minds, but I've seen enough of their interactions to think it unlikely. Despite my criticism, I still praise Signal for pragmatically securing some parts of our lives, and finding a way where none others have through realpolitik accessibility. It's good work and a lot better than working for FAANG.<<ref "p">> 
+
+Insofar as Signal detracts from the mindshare of better alternatives (or perhaps even misleads the public about the ideal<<ref "m">>), there may be a problem. Signal^^tm^^ merits significant criticism. By comparison, Matrix smells significantly better to me. We have to be able to talk about why. 
+
+> I generally feel these criticisms don't help open source / security-focused software, and push people away from what is otherwise a good project.
+
+I understand you feel this way about the article, and I get the feeling you're quietly worried the article is merely an uncharitable clickbait hottake hitpiece (I'm worried about that, at least). I'm worried your thesis concerning [origins, clients, ties to some partner or funding sources, specific technical behaviour], however, is far more general, unobvious, and not so easy to defend. I take your feelings seriously (and I suggest you have non-trivial tacit virtue-theoretic knowledge embedded in your limbic system regarding these problems), but you'll need a codified argument with me, sir. 
+
+I generally feel that taking criticism seriously, including the kinds you mentioned, is one of the things that FLOSSers tend to do well historically. They tend to be critical thinkers (and, as much as it kills me to say it: even the Libertarians and Absolute Anarchists^^tm^^, `/smh`). 
+
+So, I'm surprised to see this claim next to Signal as your example. You agree Signal is heavily criticized, and yet it has plenty of meme energy that has made it popular. Perhaps criticism has prevented Signal (or other projects) from snowballing faster though (needs an argument). I think Signal's success is in virtue of a reasonably complete UX paired with its abuse of Contacts for virality with just enough social signaling from trusted critics to suggest that it's a much safer option than popular commodified alternatives. From my perspective, the criticisms that do stick are part of what allow me to trust and prefer it for the contexts where I recommend it. Most of what has held Signal back was in virtue of the fact that most people just don't really care about privacy, or not until a spectacle or celebrity endorses it (and they still don't care about privacy at that, but maybe they will learn to!), and it's not clear criticizing the technical aspects has pushed people away from it (e.g. my bet is that Daddy Elon maymayed about it in virtue of how difficult it was for his trusted advisors to criticize it).
+
+Criticisms ought to be particularized to a context, including fairly tailoring it to one's interlocutor(s). We have to talk about our software in different ways with different people. 
+
+Look, when I'm talking to most [[middle school students|Afterschool Teaching]] and boomers, Signal is one of many tools I recommend to them. I've gotta hand them low-hanging fruit. I'm marketing to them, telling them what's good about it while criticizing Whatsapp and so forth (and, yes, talking shit is often crucial to being not only persuasive, but epistemically justified too). That's the [[salient]] information they need to know in that moment. It's the best path I can hand them in our context. It's good enough in these circumstances, but that doesn't mean it's generally good enough. I've known a few teenagers who are quite adept, and with them, it's already assumed (or very easily concluded) that Signal is better than the usual alternatives, and advancing the discussion means honestly criticizing Signal.
+
+Sometimes the type of article in question does good work too, including allowing allies to bond together, commiserating over and criticizing the argument. I think we need the crazies and the counterpoints, and I'm glad we give them the time of day (and you did so quite kindly).
+
+As to my comment, I know enough about your knowledge base to be able to criticize the Matrix-ecosystem based on the assumption that we both take it to be wildly better than many options. Yeah, we're in public, but I've a rough estimate of who is actually going to see our words ([[ITS]]), and I have guestimates about the knowledge of the users of this privacy sub [[on aether|Aether: Jibberjabber]] too. 
+
+> re: Matrix, while I think their UX is terrible, I tend to defend them for making federated chat mainstream, and prioritizing e2e-encryption, and writing about the challenges of doing that in a federated world. It's not easy, they invested heavily into it, and in implementing and re-implementing the UX made the usability miserable for many people, but it was important.
+
+I agree they have improved the visibility and use of federated communications. I'm glad they take E2EE seriously. It depends on what we mean by UX (there's some ambiguity and nuance to its boundaries), but those aren't my primary concerns with Matrix. And, yes, lots of Official Matrix writing is top-notch required reading, I agree. 
+
+My primary concern is that some [[kid in India|Variety Creepy]] or Chinese dissident<<ref "pr">> or ~~terrorist~~ socialist with only a phone doesn't have feasible, performant, difficult to censor, default private, anonymized P2P communications (I'm reasonably aware of how tall an ask that is) in which they own the means from production except the physical network itself (and, we both obviously want everyone to own the network too). Matrix isn't that, and it's not designed to do that (yet). Matrix could [[eventually become that|https://matrix.org/blog/2020/01/02/on-privacy-versus-freedom]] though, as I pointed out. Currently, bugs and all, Tox and Session (and even Retroshare and Briar in some cases too) do it better. I don't trust federation in the same way that federationists don't trust absolute centralization, but I'm happy to see Matrix continuing the quest to empower clientside, the user. It can't happen soon enough.
+
+Obviously, there are cases where I would recommend Matrix, but it's not to individuals. That may change, and I hope it does soon. I also think Matrix is also more marketable than the options I've picked out, and that does count in its favor.
+
+> Of course, I'd like Aether to be the go to homeserver solution (one day!), and I think @b can do a much much better UX job than Matrix 😎 but as someone who ran Synapse for many years and knowing several Matrix folks, I do support Matrix and don't want to dismiss the amazing job they have accomplished.
+
+Me too, homie. Yall are doing a tremendous job. Unlike Matrix, [[Aether|P2P: Aether]] may not have any serious competitors (though Aether has plenty to learn from Matrix). Aether does a lot right (decentralizing moderation and curation is fundamental to liquid democracy, I agree), and it still has a very long way to go (I still beg folks to join now). Even where I don't think Matrix is the correct answer, I may end up using it every day for the rest of my life. Both Aether and Matrix are wildly above my bare minimum requirements: they are amazing, state-of-the-art pieces of democratizing software.<<ref "c">> It is an immoral crime against Humanity that our taxes aren't being funneled into FLOSS work like yours. I'm on your side. Even while standing on the shoulders of giants, you are working magic with fucking nothing.
+
+Anyway, thanks for coming to my TED talk. I'm glad you take the time to listen to retards like me. My [[arrogant]] encouragement: please continue working on the problem of decentralizing governance, particularly moderation and curation of [[The Great Human Conversation]] on P2P applications (which is where I think you have the advantage right now).<<ref "mo">> I'm hoping Aether catches [[Plebbit|Reddit]] with their pants down in the coming years, Digg 3.0. 
+
+Sincerely, Your Professional Basement-Dweller,
+
+[[h0p3]]
+
+p.s. [[cwtch|https://cwtch.im/]] looks pretty cool.
+
+
+---
+<<footnotes "y" "And, you'd be hard-pressed to know how high that praise is coming from me.">>
+
+<<footnotes "a" "And, I guarantee they would enjoy hearing you call me retarded. Please do.">>
+
+<<footnotes "ae" "By comparison, I've only been a lazily curious amateur enthusiast in this sphere for a couple decades.">>
+
+<<footnotes "r" "I recognize there are still centralization/federation features used to bootstrap in several respects.">>
+
+<<footnotes "i" "I failed to pick out what needed to be solved too!">>
+
+<<footnotes "p" "I accept that some are paying their penance for previous sins here. Rock on.">>
+
+<<footnotes "m" "Moxie fucking knows better, and I bet you know he knows it too...but go ahead and be nice, that's part of your job. I get it.">>
+
+<<footnotes "pr" "As a matter of the [[VOI]], I must pretend that it is [[my daughter|j3d1h]] or [[my son|k0sh3k]] I'm trying to help. We are responsible for everyone. Our privilege comes with a responsibilty; to who much is given, much is required.">>
+
+<<footnotes "c" "I consider it immoral that youth aren't being trained with it in school right now. ">>
+
+<<footnotes "mo" "There's serious poweruser features that are missing (and I understand, @b is a god-tier programmer throwing everything and the kitchen sink at it too), and I'm not convinced you've decentralized moderation nearly far enough (even though you are lightyears ahead of almost everyone else). I want my epistemic trust calculus clientside (and I should be able to control and even ML the lenses I use to dig for [[salience]] in my context), and I want my information to be something that can be leveraged by those who trust me without having to reveal who I'm trusting. ">>

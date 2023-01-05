@@ -1,0 +1,44 @@
+created: 20220128143057765
+modified: 20220128161507537
+tags: free2 Chatlog
+title: 2022.01.28 - free2: Hyperconversation
+
+<<<
+I just saw your chat message (I don't check them often, and notifications don't work for me...so I'm often late). Mail seems to work better here on MuWire, imho. 
+
+I saw you grabbed an old snapshot of my work. You can find a current copy here too: https://philosopher.life/
+
+How do you like [[MuWire]]? Have you tried [[DarkMX]] out?
+<<<
+
+<<<
+"""
+Jan 28, 2022, 5:56 AM free2@5ti6ybmfcrghnsmz6247uuenbrxy7mjr joined the chat room
+Jan 28, 2022, 5:58 AM [[free2]]: Hi h0p3, I read your message. I like MuWire all in all, just that sometimes it is not practical, it takes lots of resources, so I use it to download things when I am downloading, but for everyday chat I'd prefer irc or xmpp. I didn't try DarkMX, what is it? I didn't even know there are notifications on here
+Jan 28, 2022, 5:58 AM [[free2]]: How do notifications work? There is some window that shows new messages as far as I remember
+Jan 28, 2022, 9:33 AM [[h0p3]]: Sadly, I agree that [[MuWire]] is not practical enough in some respects (though it gets so much right). Imho, it should be built on i2pd ([[Outopos: Meh]] might be worth considering). 
+Jan 28, 2022, 9:35 AM [[h0p3]]: I too am pleased with its file-[[sharing]] capacity (though I'd like to see multiplexing over tunnels to maximize throughput, as each tunnel averages to be a 40kb/s-ish straw, which is to be predicted given the structure of the internet and how it is designed to suppress the user's ability to serve [[others]]).
+Jan 28, 2022, 9:36 AM [[h0p3]]: You let me know if you need any files in particular, and I'll do what I can. There might be a 30% [[chance]] I can find it for ya'. It would be my honor to serve.
+Jan 28, 2022, 9:37 AM [[h0p3]]: I [[contact]]ed the feller in charge of Element of The Matrix protocol ([[2021.11.17 - HN Log: Arathorn & P2P Matrix]], and I'm still writing up what I think he needs to hear). To my eyes, it's got quite a bit of the groundwork to replace IRC and XMPP eventually, but it's not there yet. 
+Jan 28, 2022, 9:38 AM [[h0p3]]: MuWire's chat system reminds me of IRC quite a bit, as though we each run our own servers locally. There's something to be said for that federation, where we minimally own the means of production. 
+Jan 28, 2022, 9:39 AM [[h0p3]]: I keep my IRC client up to hear [[ASmith]] whisper and for the rare occasion I need to join a channel for a particular issue. It is amazing to me that we still don't have a complete replacement for it. There are many aspects of IRC that are hard to replace.
+Jan 28, 2022, 9:40 AM [[h0p3]]: XMPP is a classic I hold in high regard. 
+Jan 28, 2022, 9:40 AM [[h0p3]]: Tox is still my favorite, though it too is flawed.
+Jan 28, 2022, 9:41 AM [[h0p3]]: Decades of [[computing]], and we still haven't solved chat infrastructure, lol. `/sigh`.
+Jan 28, 2022, 9:42 AM [[h0p3]]: [[DarkMX]] is a tool much like [[MuWire]], built by the feller who wrote WinMX, but currently uses Tor (though he's taking advice to consider i2p as another transport option). It does some things better than this tool, and some things worse. I'd recommend it over this one, atm. 
+Jan 28, 2022, 9:43 AM [[h0p3]]: I have no idea how notifications work on this tool. I wish there were command line options for me to customize how it integrates into my system ([[monster-16]]). 
+Jan 28, 2022, 10:58 AM [[free2]]: Wait, I was doing something and I have to read yet
+Jan 28, 2022, 10:59 AM [[free2]]: I sent you a message it still needs to get to you
+Jan 28, 2022, 11:02 AM [[free2]]: monster-16?
+Jan 28, 2022, 11:02 AM [[free2]]: ASmith?
+Jan 28, 2022, 11:02 AM [[free2]]: WinMX is windows only?
+Jan 28, 2022, 11:02 AM [[free2]]: lol but they said Matrix is bad
+Jan 28, 2022, 11:03 AM [[free2]]: is there some good client?
+Jan 28, 2022, 11:04 AM [[free2]]: I'll have to go now, to finish something
+Jan 28, 2022, 11:04 AM [[free2]]: sadly :/
+Jan 28, 2022, 11:04 AM [[free2]]: Thank you for talking with me!
+Jan 28, 2022, 11:05 AM free2@5ti6ybmfcrghnsmz6247uuenbrxy7mjr disconnected
+"""
+<<<
+
+Take your time, [[nomad]]. `/salute`.

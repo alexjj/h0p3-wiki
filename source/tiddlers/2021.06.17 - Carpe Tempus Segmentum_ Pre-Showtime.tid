@@ -1,0 +1,50 @@
+created: 20210617045921932
+modified: 20210618094948555
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]]
+title: 2021.06.17 - Carpe Tempus Segmentum: Pre-Showtime
+
+[[TTTOTW]]. Back-to-back Lightning Stikes. Yiss.
+
+Still contemplating whether or not [[Land of the CCRU]] is really worth my time. It doesn't look like it. =/. Getting the gist of the works of [[Identifying With: Authors]] and a basic feel, sure. I need to have an idea what what the slur means. But, I don't see why I should go further.
+
+```
+syu shit the bed twice, but no kicks to the nuts, thank you, mistress, `/pray`. Aint never seen this one before:
+
+h0p3@monster-16 ~/                                                                                       4:21:42 ⏲ 
+$❯ yay               
+yay: error while loading shared libraries: libalpm.so.12: cannot open shared object file: No such file or directory
+```
+
+Listen to me, offspring, whenever I consider Arch or Void for production, you go on and tell me to STFU (earlier than you normally would), please. Gentoo, Nix, and Alpine, I'm still gonna argue for. 
+
+```bash
+sudo pacman -R yay
+cd /tmp
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+cd ..
+rm -rf yay
+```
+
+Also, I think I know why I had a problem. It's simply been too long since I've announced it: ''__I use Arch Linux__''. My free time is worthless, but their documentation is priceless.
+
+[[TTTOTW]]. Fireman Time!
+
+She's still feeling it, like she's two months of spoons in debt, still running at 80% throttle open without a break. Vacation comes. Presentation nerves and too much time in Zoom. People are scheduling around her now. 
+
+Bagel+GNU/tella, Watermelon, Indian Food + Water. Dope ass mix. MSI Grandfinals. Sleep by 8.
+
+Woke at 4?
+
+//The Walk// with my offspring. Not so great on the schoolwork front, but there was enough to have a conversation. Thinking about the fact that they'll be heading to steeple.church this coming week. I gave my standard advice (best part of integrity is that it becomes price efficient to talk in some contexts). My son points out that I'm a good teacher with students who want to learn, but I do not motivate people to learn. It's a dangerous place to be with me. XD. 
+
+Daughter says we might be heading to the W-Entity, but turned out we didn't need to.
+
+Vapelyfe.
+
+//The Walk// with mi amor. I'm horny. Ridiculously. I had to stop for XOXOs a dozen times. She's quite nervous. Solace in being the only presenter on her topic, feeling self-conscious, knows her accent and her umms don't signal privilege. I do my job. 
+
+[[Family Gathering]] started out slow (just me and the offspring), but eventually we were all there. Top round steak (might be my son's first time), sprouts, watermelon, baked potato and gravy, and water. Meow likes the gravy too, she cleaned my plate (then afterward wanted nothing to do with me, loser :P). 
+
+Chilled next to her on the couch, pining for //Skintime// and also sleepy. Sleep by 9.

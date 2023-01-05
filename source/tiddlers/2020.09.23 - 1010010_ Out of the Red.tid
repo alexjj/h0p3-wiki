@@ -1,0 +1,92 @@
+created: 20200923073049975
+modified: 20200923165819802
+tags: 1010010 Chatlog
+title: 2020.09.23 - 1010010: Out of the Red
+
+"""
+[pending] : 2020-08-24
+[02:54:20] h0p3: h0p3 offers friendship, "Hello, I'm h0p3. ASmith sent me your way. I would be honored to be a friend. This is me: https://philosopher.life/"
+[pending] : 2020-09-23
+[01:11:21] 1010010: hello
+[01:11:36] h0p3: Hello!
+[01:11:46] h0p3: It's my honor to meet you.
+[01:11:49] 1010010: likewise
+[01:11:54] 1010010: how are you doing?
+[01:12:20] h0p3: I'm okay. I have nothing to complain about. I'm lost in thought. Reading+Writing.
+[01:12:23] h0p3: How about you?
+[01:12:37] 1010010: I'm well, thanks
+[01:14:03] h0p3: That link I sent you, it's to my wiki. I'm kinda a crazy person in the eyes of most. It should give you a chance to think about who I am and what kind of relationship you might want with me. 
+[01:14:23] 1010010: send the link again please
+[01:14:30] h0p3: https://philosopher.life/
+[01:15:03] h0p3: It's a single HTML file. So feel free to download it for offline use to maximize privacy. 
+[01:15:11] 1010010: ok, thanks.
+[01:15:55] h0p3: One thing I often ask new people I meet on the internet (since we get to choose our names): what do you think about your name? What does it mean to you?
+[01:16:15] 1010010: i'm just a number, one of many
+[01:16:20] h0p3: haha
+[01:16:24] 1010010: :)
+[01:16:44] h0p3: I know that feel.
+[01:16:54] 1010010: i like this feeling :)
+[01:17:35] h0p3: Indeed. That's the one I [[hope]] we can all justifiably achieve together.
+[01:18:22] 1010010: are you also on retroshare?
+[01:19:43] h0p3: I have been a few times. It's a piece of technology that I have admired since I first heard of it. I'm no longer active on it though.
+[01:19:47] h0p3: How about you?
+[01:20:05] 1010010: it's one of my favorite projects right now
+[01:20:24] 1010010: i'm big on people being able to share information freely
+[01:20:30] 1010010: and privately
+[01:21:05] h0p3: `/salute`. It is rare that I'm so fortunate to meet anyone who takes those seriously. 
+[01:21:18] 1010010: yes, sadly that's true
+[01:21:32] 1010010: but if they're using tox then it should be expected
+[01:21:55] 1010010: but i grew up using kazaa and torrents
+[01:22:11] 1010010: i realize that i take such things for granted
+[01:25:04] h0p3: I must warn you that you will have almost no [[privacy]] or anonymity with me beyond your own choices, unless I believe I'm morally obligated to [[REDACT]]. Beyond the tools we use, privacy with me is earned (e.g. [[Root Users]]). I write very, very publically and personally.
+[01:25:22] 1010010: understood
+[01:25:50] h0p3: Tox is still my favorite chat application. I wish everyone used it. It's still missing some crucial features, sadly.
+[01:26:06] h0p3: I grew up with torrents and p2p networks too! I hold them in such high regard.
+[01:27:39] h0p3: I'm trying a new application out called Aether (https://getaether.net).
+[01:28:36] h0p3: [[Aether|P2P: Aether]] is not brand new, but it's the first time I've really tried to integrate it into my [[computing]]. It's like a P2P Reddit, and it's fairly well-designed.
+[01:33:19] h0p3: One of the reasons I like Retroshare (https://philosopher.life/#:[search[retroshare]]) so much is that it employs the Friend-2-Friend model so thoroughly. I'm interested in algorithmic conceptions of [[The Golden Rule]] and the organic, grassroots growth of trust based on personal experience (yet assisted through some layers of automation).
+[01:34:12] h0p3: Also, I often chat with people asynchronously. Sometimes I take a while to respond (and you should take as much time as you wish to respond...even months or longer if you need!). 
+[01:36:24] 1010010: never heard of this
+[01:36:27] 1010010: sounds interesting
+[01:36:36] 1010010: (aether)
+[01:37:15] 1010010: are you familiar with secure scuttlebutt?
+[01:37:29] h0p3: I have followed from afar.
+[01:37:45] h0p3: What do you think about it?
+[01:39:04] 1010010: it's a decent project run by people who are in favor of self censorship
+[01:39:12] 1010010: or group censorship
+[01:39:16] 1010010: which i have an issue with
+[01:39:55] 1010010: even if I agree with their views for the most part I think it's unhealthy to centre an entire platform around one such view
+[01:40:07] 1010010: aether sounds better
+[01:40:56] h0p3: Aether is a step closer to what I hope for. I seek the ability to choose my moderators and curators, those who filter. 
+[01:42:23] h0p3: I don't want it to be a majority that votes the undesirable (to them) off the island. I want to have the agency to construct and burst my own filter-bubbles based upon how much I trust a given person regarding some specific set of topics or objects.
+[01:42:38] 1010010: right
+[01:42:54] 1010010: and as it is ssb is one large filter bubble
+[01:43:02] 1010010: which i take issue with
+[01:44:30] h0p3: I am not qualified to speak here. To my understanding, SSB, as a protocol, could be used to construct P2P/F2F networks that didn't censor, but the uses found out in the world don't tend to value freespeech nearly enough. 
+[01:44:53] 1010010: yes, in theory it could be used as such
+[01:44:55] 1010010: you are right
+[01:45:03] h0p3: This is one of the reasons I cannot accept Federation (though I will admit some problems can only be solved through federation instead of atomizing to p2p).
+[01:46:55] h0p3: I aim to construct networks in which even my enemies have a voice. If I'm not willing protect their voices, then I don't really believe in freespeech. This gets me in a lot of trouble with people (including with those who for some irrational reason [[love]] me enough to put up with me, lol).
+[01:52:25] h0p3: One of my other concerns with SSB (and Retroshare) boils down to performance. I hate to be picky about it, but Javascript bottleneck-dooms the ecosystem. P2P computing is expensive (it's one of the advantages that centralization maintains), and I'm convinced trying to generate layers of virtual private networks of significant size and functionality requires a language closer to C.
+[01:52:55] 1010010: i agree with your take on javascript
+[01:53:53] 1010010: i'm not a programmer but what your saying about C being ideal for such projects seems to ring true
+[01:54:02] 1010010: have you heard of demonsaw?
+[01:54:49] 1010010: well, it's written in c++
+[01:54:57] 1010010: but it's very well written code
+[01:55:19] 1010010: runs very smoothly
+[01:56:17] h0p3: No, I've never seen this. Thank you!
+[01:56:30] 1010010: it's not p2p
+[01:56:33] 1010010: just a warning
+[01:58:37] 1010010: nor is it fully opensource
+[02:05:55] h0p3: It looks like it may be dead. Eijah seems like an interesting person. I admire that it aims to help users achieve some degree of anonymity. 
+[02:06:30] 1010010: yes, I'm really not sure what's going on with development but Eijah is active on the platform
+[02:11:45] h0p3: Intellectual Property is something I argue vehemently against. I appreciate tools that enable piracy. Demonsaw looks like it aims to support such moral behavior.
+[02:12:16] 1010010: yes, it does so without fully publishing its own source code
+[02:12:24] 1010010: which is something I have an issue with
+[02:12:30] 1010010: even though it works so well
+[02:12:54] 1010010: and we were promised that the source code would be made public at least a year ago
+[02:12:56] 1010010: if not two
+[02:14:43] h0p3: Of course, I very strongly prefer FOSS (I consider it an obligation to pursue it). But, so many times in my life, I am forced to use whatever software gets the job done. I hope the source will be made public. I cannot speak to the safety of this software. It would be something I would virtualize.
+[02:15:46] h0p3: I'm a huge fan of Whonix.
+[02:25:52] 1010010: I've never used it.
+"""

@@ -1,0 +1,10 @@
+aliases: [[Old Plans]]
+caption: Retired
+created: 20200510210543750
+modified: 20200614221831660
+tags: .plan More Retired
+title: Retired: .plans
+
+<div class="tc-more-sidebar">
+<$macrocall $name="tabs" tabsList="[tag[.plan]]+[tag[Vault]]+[sort[caption]]" default={{$:/config/DefaultMoreSidebarTab}} state="$:/state/tab/moresidebar" class="tc-vertical" />
+</div>

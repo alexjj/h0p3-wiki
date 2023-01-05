@@ -1,0 +1,26 @@
+created: 20220829040722447
+modified: 20220829042539118
+tags: [[Ian Clarke]] Chatlog
+title: 2022.08.28 - Ian Clarke: Social Capital & The Currency of Trust
+
+8:51:33 PM - [[Ian Clarke]]: Toying with the idea of using a "prisoner's dilemma" approach to allocation of new currency, as an alternative to proof-of-work.
+
+The idea would be something like two people would decide to try to "mine" some new currency. The protocol would require each of them to commit some currency to the endeavor from their wallet, an "investment". 
+
+Using their respective wallet's private keys they each sign the other's public key, and exchange the resultant signature ("commitment"). If the xor of the signatures match some criteria (like starting with `00000`), then they are both rewarded with newly minted currency, otherwise their investment is returned to them.
+
+Here is the catch, if one party shares a commitment with the other party but the other party doesn't reciprocate ("defects" in game theory terms), then the non-reciprocating party can steal the first party's investment - which means that the parties must trust each other to engage in this transaction.
+
+It could be viewed as somewhat analogous to the game theory of human romantic relationships. Embarking on a relationship requires trust of the other person because a betrayal would come with significant cost, but has the potential of an outcome that benefits both parties (like starting a family).
+
+While proof-of-work relies on the scarcity of computation, this approach relies on the scarcity of trust between individuals, and rewards people who can elicit trust in others.
+
+It's still fairly vague, obviously - but the notion of using trust itself as the scarce resource to titrate injection of new currency into the system is novel so far as I'm aware.
+
+Thoughts?
+
+9:11:35 PM - [[h0p3]]: In case it may be useful, I suggest Gradualized Tit-for-two-tats (T42T) is the most game-theoretically sound approach to fostering Golden Rule cooperation through errors/mistakes while working to defeat parasites. https://philosopher.life/#Gradual. I agree that any p2p network which scales while defeating adversaries needs to be based on social trust at the bottom. Leveraging the trust we have in others (and their trust in others by proxy) is our way out. This is especially valuable where consensus isn't critical (which does seem to be important in your case).
+
+10:48:30 PM - [[h0p3]]: Narrowing the search some (down from 1200 pages [which include the word "trust"] embedded in the html file): https://philosopher.life/#Outopos%3A%20Decentrust:%5B%5BOutopos%3A%20Decentrust%5D%5D%20%5B%5BIdeal%20Reddit%20Improvements%5D%5D%20%5B%5BFully%20Decentralized%20Commercial%20Piracy%20Network%5D%5D%20%5B%5B2018.01.08%20-%20Outopos%3A%20Trust%5D%5D%20%5B%5B2019.11.29%20-%20Outopos%3A%20B-Word%20Hard%20Problems%5D%5D I think there's lots to be said for "mining" trust in others by earning it, both in automated and manual processes. It's a proof that is actually useful and isn't wasteful.
+
+2:37:54 AM - [[Ian Clarke]]: T42T is interesting

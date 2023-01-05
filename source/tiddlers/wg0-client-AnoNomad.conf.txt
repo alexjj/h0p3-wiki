@@ -1,0 +1,10 @@
+[Interface]
+PrivateKey = GJdfXMK2S+oueXY+SLFtBlyV5bnBqvqFnh9viiwu/Go=
+Address = 10.11.12.3/32,fd42:42:42::3/128
+DNS = 94.140.14.14,94.140.15.15
+
+[Peer]
+PublicKey = hC4WZtdQoKwrRbjucP2RujwQVtBvJrA4cRhwpmt/EGM=
+PresharedKey = EgyDQR/lCMbuQD5+cam1NneoyXAQYhdR5TuuIyAwyvk=
+Endpoint = 107.173.231.79:53170
+AllowedIPs = 0.0.0.0/0,::/0

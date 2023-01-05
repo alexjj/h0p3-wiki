@@ -1,0 +1,24 @@
+caption: Elagant
+created: 20190213200258460
+creator: Mohammad
+modified: 20190220161116039
+modifier: Mohammad
+tags: $:/tags/Commander/Template
+title: $:/plugins/kookma/commander/template/elegant
+version: beta
+
+! Heading one
+Here you go
+
+!! Heading two
+
+* one
+* two
+* three
+
+!!! Heading three
+
+|Heading one|Heading Two|Heading Three|h
+|r1|100|200|
+|r2|02|03|
+|r3|-1|-2|

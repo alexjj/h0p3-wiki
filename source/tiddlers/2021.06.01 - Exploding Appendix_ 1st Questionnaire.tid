@@ -1,0 +1,89 @@
+created: 20210601050137305
+modified: 20210604190126314
+tags: [[Exploding Appendix]] Note To
+title: 2021.06.01 - Exploding Appendix: 1st Questionnaire
+
+//[[Shiggles|Shiggles Prep]]: [[Questions to Ask Interviewers]], [[Pragmatic Critical Questions]], [[Herb Quine]], & [[Getting to Know Someone in X Questions]].//
+
+<br>
+
+<<<
+1. Who are you and what do you do?
+<<<
+
+[[I am|I Am h0p3]] [[h0p3]]. See <<tag "$:/tags/SideBar">>& <<tag "Root">>(`https://philosopher.life/#:[tag[$:/tags/SideBar]][tag[Root]]`)
+
+<<<
+2. What are your biggest influences in art, literature, music and cinema?
+<<<
+
+Previous timeslices of my [[4DID]], [[Moments of Silence]], [[Monster-Φ]], [[Film: Library]], [[TV: Library]], [[Music: Library]], [[Games]], [[Books: Curated Library]], [[Link Log]], [[FTO]], [[Saint Plato]], Saint Kant, Saint Kierkegaard, Saint Hegel, [[Saint Diogenesocrates]], Saint Jesus, my [[Root Users]], my [[Offline Users]], [[my donors|2019.04.13 - SLT: TOU2]], my many un[[lucky]] [teachers, peers, & students], and too many [[philosophers|Timelines: Philosophers]] for me to pick out or know how to reason wisely about.
+
+<<<
+3. What, for you, is the purpose of art and culture?
+<<<
+
+[[fff]]ingly [[The Good]] & [[The Golden Rule]], thus [[The Beautiful]] too. My {[[Axioms]]}, [[WINTCIS]].
+
+<<<
+4. What makes something subversive?
+<<<
+
+Positivistically, perhaps any dialectical [[power]] is attempting to be subversive, but some only potentially rather than actually, and even fewer justifiably.
+
+
+: <$button class="tc-btn-invisible" popup=<<qualify "$:/temp/subver">>>
+Contextlink: [search:text[subver]]
+</$button>
+<$reveal type="nomatch" state=<<qualify "$:/temp/subver">> text="">
+
+<$list filter="[search:text[subver]] +[sort[title]]" emptyMessage="">
+<$link to={{!!title}}><$view field="title"/></$link>
+<$context length=80 term="subver"/>
+<br>
+</$list>
+
+</$reveal>
+
+
+<<<
+5. How would you approach the task of winning friends and influencing people?
+<<<
+
+[[hyperconversations]] qua `/this` [[ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱]] [[Art]], [[Find The Others]], [[Fostering Intimacy]], & [[Contact]], [[WINTCIS]]. 
+
+<<<
+6. What does individual freedom mean to you?
+<<<
+
+[[irwartfrr]] [[gfwiwcgws]], [[Power]], [[2013.03.18 - On Autonomy: Contemporary Notions and Kant's Theory]], [[2014.02.17 - Bare Metal Recognition and Appraisal Respect]], [[CATI]], [[Self-Dialectic]], [[The Homunculus]], [[Public Self-Modeling]], and [[The Dialetheia]].
+
+<<<
+7. Is there, for you, a relationship between the personal and the political?
+<<<
+
+[[Justice]], [[Wiki Litmus Test]], [[Why You Might Hate Me]], [[h0p3: Toxicity]], [[Straussian]] [[Realpolitik Speculation]], [[Humor]], & [[FTO]], [[WINTCIS]].
+
+<<<
+8. What is the root of society’s problems?
+<<<
+
+[[Ignorance|Virtue is Knowledge]], [[Psychopathy|E.T. The Extra-Terrestrial]], [[Hubris|Smelting Muh Silly Farts: 𓂺]], Lacking [[Redpilled Socialism]], [[Anti|2020.06.01 - Antipleonasm Analysis: MLK's Durable Social Phenomena]]-[[realism|2021.05.13 - /b/]] [[Cults]], [[Solipsistic Deflationary Metaphysics|2021.05.28 - /b/]] & Immoral Applications of [[Science|2021.05.10 - /b/]],  [[Pure Deconstruction|Deconstruction Obligates Reconstruction]], The [[Rand|The HolY ShrinE Of AyN rANd]]-[[Locke|2014.11.10 - Challenges in Quasi-Lockean Intellectual Property Theory]] [[Memeplex|Memetic Warfare]], & apparently...'[[spooks|2021.05.19 - /b/]]', ( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°).
+
+<<<
+9. Will technology liberate humankind?
+<<<
+
+From+[[FTSO]] [[W5H]]? [[It can|2019.06.25 - DeathOfRobinhood: The Chickenscratch Confession Booktour]], and justifiably so. It probably won't. That doesn't mean we shouldn't have [[hope]] and try defeat the golem before us with the tools at our disposal.
+
+<<<
+10. Do you have a vision for utopia?
+<<<
+
+[[Justice]], [[Outopos]], & [[AIoutopIA]]. 
+
+<<<
+11. Finally, where can people find more of your work?
+<<<
+
+<<tag "Readme">>(`https://philosopher.life/#:[tag[Readme]]`)

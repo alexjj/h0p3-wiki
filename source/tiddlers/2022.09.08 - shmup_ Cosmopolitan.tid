@@ -1,0 +1,87 @@
+created: 20220909225324749
+modified: 20220909225738173
+tags: shmup Chatlog
+title: 2022.09.08 - shmup: Cosmopolitan
+
+"""
+[0:34:12] [burgerqueen]: your website is a trip. is this a homerolled stack?
+[0:35:14] [[h0p3]]: Thank you. I use off-the-shelf tools for most things and stitch them together. The base of my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 is Tiddlywiki (https://tiddlywiki.com). Huge fan of it. 
+[0:35:44] [burgerqueen]: tiddlywiki has some cool stuff going for it, ya
+[0:36:12] [burgerqueen]: recently someone made it available in an 'actually portable executable', a binary that runs on like 6 operating systems heh. (the same binary)
+[0:36:38] [[h0p3]]: Justine is quite a hacker.
+[0:36:51] [burgerqueen]: hehe
+[0:37:06] [burgerqueen]: she's good company, her discord is v solid group of thinkers. i threw this together https://github.com/burgerqueen/awesome-cosmopolitan
+[0:39:35] [[h0p3]]: This is dope. Pretty darn hard to build cross-platform native tooling. 
+[0:39:39] [burgerqueen]: i expect good things in cosmo's future
+[0:40:20] [burgerqueen]: i am taking off for the night, didn't expect such an immediate reply from you. see ya around and poss chat again 
+[0:40:25] [[h0p3]]: I [[hope]] so too. I am wondering if Apple or Microsoft might attempt to thwart such a measure if it were to become more common. 
+[0:40:30] [[h0p3]]: Peace, ttyl.
+[10:48:11] [burgerqueen]: you seem like you've been around here longer. any problems with one changing their username? would that nuke anyone who has added them to buddies?
+[10:48:23] [burgerqueen]: naming myself "burgerqueen" just attracts random DMs from thirsty people, heh
+[10:48:42] [burgerqueen]: i do not wish to nuke buddies, is why i ask, though
+
+[10:59:07] [[shmup]]: heck it, changed nicks
+[13:42:38] [[h0p3]]: =D
+[13:45:23] [[h0p3]]: Looked the word "shmup" up out of curiosity. I did not know it could be used to refer to shoot'em up games. You a fan of any shoot'em up games? 
+[13:47:45] [[shmup]]: i have been off and on. definitely a fun genre to learn about, see what exists in the space esp from years past. i stuck w/ the handle cuz years back i cracked the AIM sn and made it my everywhere-handle heh
+[13:48:08] [[shmup]]: i'm not a shmup enthusiast necessarily but do love the twitchiness of them
+[13:51:24] [[shmup]]: i tried nuking this handle a bit during a social media culling, so i gave up the twitter. now i want it back lol
+[13:52:42] [[h0p3]]: How'd you end up getting the AIM sn? 
+[13:53:22] [[shmup]]: back then you just fired off requests iterating over a password.txt list, it wasn't v fancy. my best score was my first name 
+[13:53:34] [[shmup]]: so you hoped the owner had a v dumb password
+[13:54:05] [[h0p3]]: `/nod`. Bruteforce was often effective back in the day. 
+[13:54:53] [[h0p3]]: I very much appreciate having the everywhere handle. I stick to [[h0p3]] where I can (not always possible to get the name). 4eak was my last one. 
+[13:55:45] [[h0p3]]: Not much of a shoot'em up player myself, though I can admire it. The Tribes franchise was the only one that I grew deeply attached to. 
+[13:56:09] [[h0p3]]: What brought you to cull your social media presence? 
+[13:56:45] [[h0p3]]: And, are there a places I can follow you, get a sense of your [[public self-model]]? 
+[13:57:21] [[shmup]]: probably mostly mental health and anxieties about everything, if i'm thinking clearly about it. mixed in with a general discomfort with facebook and what it felt like using it
+[13:57:49] [[shmup]]: i think it was around 2016-2018 i did that
+[13:58:21] [[shmup]]: and not really, i'm just a fellow that chats w/ a gang on irc and evidently some chatter on soulseek. various discords for projects/specific things. i don't blog into the sphere in any capacity really
+[13:59:20] [[shmup]]: do you have a public self-model? i think i'd have one if i didn't have the community on irc, probably. my github is about as much of me as there is online
+[13:59:28] [[h0p3]]: That makes sense.
+[13:59:57] [[h0p3]]: So, how do you survive in the world? 
+[14:00:04] [[shmup]]: i'd like to give myself some personality on my domain smell.flowers sometime, i think :)
+[14:00:24] [[h0p3]]: I do have a [[PSM]]. My ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱.
+[14:00:44] [[shmup]]: later today i'm gonna go skate around w/ a friend and go for a swim before our lakes are too cold to swim. i like to do various activities, sit on porches, take my computer to coffee zones and talk to the people behind the bar and other patrons
+[14:00:50] [[h0p3]]: It's hard to pick names for ourselves. I like that one.
+[14:00:50] [[shmup]]: i think that is a quick ramble but pr much summarizes me as of late lol
+[14:01:26] [[shmup]]: yeah, that's a funky site. i will say that your site is absolutely not friendly to browsers. but it's unique so it gets credit hehe
+[14:02:05] [[shmup]]: i love all these new top level domains. i'm really happy w/ the one i have, i've adopted it for email. now i just have to _never ever ever_ let the domain lapse!
+[14:04:06] [[h0p3]]: I think it has just turned too cold for us to swim. I can appreciate doing it while one can. Been a while since I swam in a lake. Think I got leeches on me the last time. 
+[14:04:18] [[h0p3]]: What kind of skating do you do?
+[14:05:49] [[h0p3]]: I agree that the site isn't friendly to many machines. Given my requirements, I do my best to have it all wrapped in one file, but it gets pretty big (~55MB text, maybe 16k pages).
+[14:06:18] [[shmup]]: good u didn't take it as a jab, wasn't meant as one. just a fact haha. i popped open a network tab last night to see how _big_ it infact was
+[14:07:40] [[h0p3]]: Can't say I'm a fan of not owning my name/address, so I keep the [[connect]] and [[contact]] information up in case I do lose it.
+[14:08:14] [[shmup]]: i'm in northern michigan, it's too cold here for me really. but friend seems to still enjoy it, so i take the invites. and re: skating, just cruising around these days. this town is nice for it. nothing hardcore, just scootin around on 4 wheels. i like riding my bike too
+[14:08:32] [[shmup]]: i wish i could use newlines in this chat interface. break up ideas before hitting return, heh
+[14:09:37] [[shmup]]: do [[connect]] and [[contact]] render in your client, or purely just an aesthetic? i like _using text aesthetics_, but i wondered
+[14:09:50] [[h0p3]]: I've kept my Tox client up for a very long time. Huge fan of it. Would you like to switch? Doesn't rely upon the centralization of Soulseek either.
+[14:09:54] [[h0p3]]: Would you like to switch?
+[14:09:55] [[shmup]]: i'm on nicotine+ and have no clue how for i.e. soulseek would render
+[14:10:00] [[h0p3]]: nm* asked that already, lol
+[14:10:15] [[shmup]]: you did? i don't recall, tell me about a Tox client. i'm actually v new to these parts
+[14:10:30] [[shmup]]: i only installed nicotine in the past ~year or so, and only again started using it more
+[14:10:42] [[h0p3]]: I'm just [[link]]ing to places in my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱. Some people find it useful. 
+[14:11:00] [[shmup]]: just as an example of what I see, and how they're not even links:
+[14:11:18] [[shmup]]: re: me asking if it's an aesthetic lol
+[14:11:20] [[h0p3]]: They don't appear as links. They are just a social convention I practice while speaking with people.
+[14:11:31] [[shmup]]: yes, that is what i was wondering/assuming. all good, cool
+[14:12:12] [[shmup]]: educate me a bit on Tox, idk if it's a protocol. i'm v ignorant w/ this space. a baby
+[14:12:18] [[h0p3]]: Tox is a p2p, E2EE, tunnelable replacement for Skype (back when it was first made). 
+[14:12:44] [[shmup]]: oh, so you were asking if i'd like to switch from the client i'm currently using?
+[14:12:50] [[h0p3]]: You own your keys, there's no central server (though DHT bootstrapping), etc.
+[14:13:01] [[shmup]]: re: "would you like to switch"
+[14:13:04] [[h0p3]]: Right. You can do multi-line in Tox.
+[14:13:37] [[shmup]]: link me a thing to see/read, if you could. i'm on linux, fwiw, though this may not have a preference
+[14:14:03] [[h0p3]]: https://tox.chat/
+[14:14:39] [[h0p3]]: There's a lot of clients built on the library. I still use qTox (though I'm a fan of toxic, ratox, and tuntox too). 
+[14:16:23] [[shmup]]: ahh, i do think i've read of this now that i see it. definitely of interest. i'll look more later. i'm working but being terrible w/r/t focus heh
+[14:17:10] [[h0p3]]: Cool. Definitely something I like [to] sperg and shoot the shit about. I can appreciate having trouble {[[Focus]]}ing. 
+[14:17:28] [[h0p3]]: Too many things to do in the world.
+
+[21:36:14] [[shmup]]: tox: 06941CCAAFF39B97913E6B8B98FFCB0429EFFCB6FFF6FD3D8087762AF0AE8D1CE430BB1F84D6
+[21:37:32] [[h0p3]]: Invite sent from fdd7005639c618263ab2eedab974f7576c7c0ded6217eed9e9dc0344c622e72aeef7055f8b4d
+
+[21:38:00] [[shmup]]: it is settled
+[21:38:06] [[h0p3]]: =D
+"""

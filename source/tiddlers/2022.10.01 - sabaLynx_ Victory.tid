@@ -1,0 +1,59 @@
+created: 20221003040354257
+modified: 20221003041738047
+tags: sabaLynx Chatlog
+title: 2022.10.01 - sabaLynx: Victory
+
+"""
+[16:36:33] saharsedigh: hello
+[16:36:33] saharsedigh: Victory at last
+[16:39:21] h0p3: Good. =)
+[18:02:50] h0p3: So what have you been building lately?
+"""
+
+<br>
+
+"""
+sabas3digh (sabaclear) [8:38 PM]: Hello h0p3 [
+sabas3digh (sabaclear) [8:38 PM]: how's everything?
+h0p3 [8:40 PM]: It goes well. 
+h0p3 [8:40 PM]: Been cleaning the house.
+h0p3 [8:40 PM]: Watching a Star War
+h0p3 [8:40 PM]: Editing my [[letter]] to [[NemoRevera]].
+h0p3 [8:40 PM]: How about you?
+sabas3digh (sabaclear) [8:41 PM]: Finally Connecting to your retroshare node
+sabas3digh (sabaclear) [8:42 PM]: took half a day
+sabas3digh (sabaclear) [8:42 PM]: setup my qtox on my phone.
+sabas3digh (sabaclear) [8:42 PM]: updating some software ...
+sabas3digh (sabaclear) [8:42 PM]: setup my IPFS and ZeroNet
+sabas3digh (sabaclear) [8:43 PM]: IPFS won't find any file and ZeroNet won't give me Cert.
+sabas3digh (sabaclear) [8:45 PM]: ￼Screenshot 2022-10-01 at 17.44.15.png (105.5 KB)
+h0p3 [8:48 PM]: I'm not a fan of centralization certs. 
+h0p3 [8:48 PM]: centralized*
+sabas3digh (sabaclear) [8:49 PM]: and I love star war movies￼
+h0p3 [8:49 PM]: My first time watching the last three.
+sabas3digh (sabaclear) [8:49 PM]: well at this point I can't be chooser.
+sabas3digh (sabaclear) [8:50 PM]: but it concerns me as well. maybe more than you think
+sabas3digh (sabaclear) [8:51 PM]: there was a time I had to make seprate vm for any job I want to do test on any software that came across but I got really tired over time. It was a pain.
+h0p3 [8:52 PM]: Aye.
+h0p3 [8:52 PM]: Clones and snapshots ease the burden, but still a pain. 
+sabas3digh (sabaclear) [8:53 PM]: I space was the issue. Got too big too fast
+h0p3 [8:54 PM]: I could see you liking NixOS for this too, especially with btrfs + deduplication. 
+h0p3 [8:54 PM]: You must test a lot of software.
+sabas3digh (sabaclear) [8:55 PM]: remove the I
+sabas3digh (sabaclear) [8:55 PM]: Some for work Some for my own 
+sabas3digh (sabaclear) [8:56 PM]: know NixOS for long time. IMHO it is software or better yet OS done right
+sabas3digh (sabaclear) [8:57 PM]: btrfs; I don't know man..... . Lost too much (small files) to that rabbithole
+sabas3digh (sabaclear) [8:58 PM]: Nice. 200kB/s (Downloding from h0p3 share)
+h0p3 [8:58 PM]: I can appreciate hesitancy about them. No doubt. btrfs is still beta.
+h0p3 [8:58 PM]: imho
+sabas3digh (sabaclear) [8:58 PM]: ￼
+h0p3 [9:00 PM]: Wish these tools enabled connection bonding, and have multiple tor connections up bound into one. 
+sabas3digh (sabaclear) [9:03 PM]: to do what exactly? I don't get the idea? explain please...
+h0p3 [9:05 PM]: Connection bonding takes two or more hardware connections to the internet and "combines" them into a single connection (from the perpsective of your machine) at the router.
+h0p3 [9:06 PM]: I don't know if they really do it much these days, but back when I was a young lad, we used modems with phone lines. Slurping through a straw at 7kb/s (or less, when I was a boy). Some ISPs would allow you to have two phone line connections to them, and you'd both do bonding on either side. 
+h0p3 [9:07 PM]: This can still be accomplished with a fancy VPN (especially useful in high density cities where you can get easy access to a lot of connections, even if the ISP will only run a single line to your residence). 
+h0p3 [9:09 PM]: In this case, I'd like to be able to have 10 different Tor connections up at the same time, and bond them together with other users also engaged in the same process. 
+h0p3 [9:11 PM]: It reminds me of poor peering arrangements across continents, where we each might have 200mbit connections, but the backbone ISPs will only allow a single connection from mortals like us to transfer 150kbit. Classically, the way around this was to use multiple connections. This is part of why you see multiple part rar files in the scene, as they can have 50 FTP threads each pushing a part. 
+h0p3 [9:11 PM]: A good tool like lftp can do the file segementation for you (and there are a couple other clients that can do this, though not as well, imho). 
+h0p3 [9:12 PM]: It's similar to connection bonding, but a different layer.
+"""

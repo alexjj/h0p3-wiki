@@ -1,0 +1,209 @@
+aliases: bookmark Bookmark hao Hao search Search
+created: 20190711141324876
+modified: 20221119082108928
+tags: SS;WR Readme
+title: Hao 2 Search Dis Wiki
+
+//Even silent lurkers may pay a high price in this wiki,<<ref "nr">> in part, because it is so large and fragmented. The wiki has some valuable search tools and organizational footholds to help the user find information and reason about its layers. Please feel free to ask for [[help]].//
+
+<<<
+We shape our tools and thereafter our tools shape us.
+
+-- John Culkin, //A schoolman’s guide to Marshall McLuhan//
+<<<
+
+<br>
+
+!! __Simply Surfing__:
+
+@@.bimlas-locator-explanation
+There is something to be said for wandering, surfing, and spiraling on the hierarchical links and gunky tags of this wiki by hand.<<ref "r">> It's meant to be a substantial hypertext that requires the curious user to unfold and explore its ergodicity as an active participant.<<ref "t">> For simply surfing, the sidebar is a low-hanging fruit starting place. The sidebar tabs are doorways I use constantly, and I try to keep them fairly up-to-date. It's also a fitting place for someone who wishes to read this wiki as a blog, a rhizome of [[Timelines]], or as a direct communications device. 
+
+Also, the {{$:/core/images/info-button}}nformation button has a //References// tab that shows backlinks<<ref "f">> to other tiddlers linking to your current tiddler. You can also use the {{Backlinks Button}} in the top-right corner to turn on site-wide backlinks. Serious surfers should explore the buttons and settings they come across (and examine the ramifications thereof). I [[aim]] for the author and audience to share the same driver's seat. 
+
+All this said, however, if you aim to price-efficiently wander and interpret this huge [[ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱]], you will need automated search tooling and some search-fu (I use the tools already embedded in the html file to get the job done). Given the amount of content, it might help to look up lots of particular things as your custom doorways into this hyperobject. Long-term readers may find it valuable to traverse links as they find them and explicitly search for answers to their own questions often.<<ref "im">> Casual readers who visit once a week will be reasonably well-served by [[Family Time Timeline.tmpl]] (the [[🔥|Family Time Timeline.tmpl]] in [[Timelines]]). Imho, it is better not to fall behind, as catching up is quite expensive even for those who know me best. The [[Yearly Cross-section]] ([[🗓️╳§|Yearly Cross-section]] in [[Timelines]]) or reading from the bottom of [[⧖]]<<ref "fa">> would allow for a straight-forward, spaced-repetitionable grind through the entire opus-corpus.
+@@
+
+<br>
+
+!! __Search__:
+
+While there is plenty to be said for simply surfing and following [[New]] or [[Recent]], you have failed to use this [[ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱]] as I've intended if you aren't explicitly searching (to my knowledge, no one uses it as I intend besides me). Note, your use of this site, including search, is private from me because everything is client-side and executed completely in your browser. I do not engage in webtracking,<<ref "tr">> including referrals or other kinds of information that can be passed onto a webserver I can access. I've done what I can as an author to secure you, and to enable both [[anonymous]] and [[private]] access.
+
+<<<
+`ctrl+f` is your friend. It even augments all the other search options. 
+<<<
+
+<<<
+The [[Standard Search|$:/core/ui/AdvancedSearch/Standard]] is found in the sidebar search box and $:/AdvancedSearch (which houses most search methods on this wiki). Perhaps confusingly, the Standard Search includes two other kinds to enable users to stay in the sidebar as much as possible.<<ref "p">> Unfortunately, given the size of this wiki, results are truncated for performance.  
+
+The Standard Search requires 3 characters minimum for performance reasons, and the [[output|2019.06.25 - Tagging Theory: Static]] is divided into:
+
+# //Exact match// is case-sensitive and presents only when you type an exact match.
+# //Alias matches// which present when your terms show up in the [[Alias]] field of a tiddler.
+# //Title matches// which include your terms in the title.
+# //All matches// which include your terms in the body of the tiddler.
+<<<
+
+<<<
+The [[Context Search]] is an excellent way to rapidly see how a term is used throughout the wiki in windowed contexts. Instead of having to open a bunch of tiddlers, you may be able to find what you are looking for by sweeping through here first.
+<<<
+
+<<<
+The [[Filter Search|$:/core/ui/AdvancedSearch/Filter]] is for making advanced, non-truncated queries, and I [[hope]] to make it easy on you.<<ref "e">> There's a "+" button so you can open every tiddler that matches your filter expression.<<ref "c">> You can read about filters [[here|https://tiddlywiki.com/static/Filters.html]], and please feel free to ask for help. Here are some mix'n'matchable examples you might find useful:
+
+; Contains Foobar1 in title and Foobar2 in body
+: `[search:title[Foobar1]search:text[Foobar2]]`
+
+; Tagged Foobar1 and not tagged Foobar2
+: `[tag[Foobar1]!tag[Foobar2]]`
+
+; Every tiddler with "Foo" and "bar" in body not tagged <<tag "Link Log">>or <<tag "Music">>
+: `[search:text[Foo bar]] -[tag[Link Log]] -[tag[Music]]`
+
+; Contains Foobar in a tiddler modified in the past 10 days
+: `[search[Foobar]days:modified[-10]sort[modified]]`
+
+; Regex search by title
+: `[regexp:title[(.*) -- (.*) (.*):(.*)]]`
+
+; Sorted Non-TW-Timestamped
+: `[!is[system]field:created[]!sort[title]]`
+
+; Case-insensitive String Literal Search
+: `[search:text:literal[this tiddler is the only one that contains this literal string, case insensitive or otherwise]]`
+
+; My personal favorite that I use 99% of the time
+: `[search:title[foobar1]search:text[foobar2]]`
+
+<<<
+
+<<<
+The [[Trisearch]], which also be found in the sidebar under [[Maps: More]] for convenience (a surprising number of filter searches are handled by this no-code option), is a tool that will enable you to quickly generate high quality queries by any combination of Title, Tag, or Text. You can open all, and it works from the sidebar too. 
+<<<
+
+<<<
+The [[Literal Search]] is enabled as a tab in the dropdown of the primary search. It comes up often enough to make me think the convenience is worthy.
+<<<
+
+<<<
+The [[Locator Search|Locator]] is visually interactive and [[unique|2019.07.09 - TWGGF: Bimlas]]. You will have to play with it to understand it. Roughly, it enables rapid exploration of adhoc tables of contents based on tag kinship.<<ref "w">>
+
+<div class="tc-tiddler-frame bimlas-locator-explanation">
+{{$:/core/images/refresh-button}} {{$:/core/images/new-button}}<br/>
+{{$:/core/images/right-arrow}} Ancestor tags<br/>
+{{$:/core/images/right-arrow}} (Previously opened parents, breadcrumbs)<br/>
+<hr/>
+{{$:/core/images/tag-button}} <<tag-pill "Direct tags">><br/>
+{{$:/core/images/tag-button}} <<tag-pill "(Tags of listed titles...)">><br/>
+{{$:/core/images/tag-button}} <<tag-pill "(...expect ancestor tags...)">><br/>
+{{$:/core/images/tag-button}} <<tag-pill "(...and listed titles)">><br/>
+{{$:/core/images/blank}} Title without button<br/>
+{{$:/core/images/blank}} (Normal list item)<br/>
+{{$:/core/images/right-arrow}} Title with button (ancestor tag)<br/>
+{{$:/core/images/right-arrow}} (Parent of other titles)<br/>
+</div>
+
+@@.bimlas-locator-explanation
+* {{$:/core/images/right-arrow}}: Move in to the context (show children of title)
+* {{$:/core/images/tag-button}}: Toggle filtering the list to this tag
+* {{$:/core/images/refresh-button}}: Reset the context, go to the top level
+* {{$:/core/images/new-button}}: Create new tiddler in the current context: apply the parent of the current view (the last ancestor tag) and the direct tags below it (like a special "new here" button)
+* {{$:/core/images/chevron-right}}: Found in the [[View Toolbar|$:/core/ui/ControlPanel/Toolbars/ViewToolbar]] of some tiddlers. It seeds the [[Maps]]->Locator tab.
+** Some broken links are to prospective tiddlers for Tags. You can quickly enumerate anything tagged from an empty tiddler whose name is a tag on this wiki.
+@@
+<<<
+
+<<<
+[[System Search|$:/core/ui/AdvancedSearch/System]] and [[Shadow tiddler Search|$:/core/ui/AdvancedSearch/Shadows]] are useful for those who want to look under the hood of this wiki. Odds are good that if you want to look here, I didn't need to tell you about these tools. 
+<<<
+
+<<<
+Lastly, there are some older tools, like $:/Manager, $:/TagManager, and other broken, obsolete, or incomplete search-like tools in this wiki. I don't know how [[Maps]] is going to evolve, but I hope it will become more useful over time. 
+<<<
+
+
+<br>
+
+!! __Bookmarking__:
+
+I am concerned with the moral implications of notifications. In virtue of The Robustness Principle, [[privacy]]-factors, and tacit trust-building, I have a hedged-conservative tendency to not acquire the attention of others directly. Bookmarks are among the lowest hanging-fruit methods for following parts of this ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱.
+
+This wiki is much larger than you may realize, and it's easy to get lost or disoriented. While your navigation is captured in your browser history (I still use the backbutton in my wiki); it's not always the most convenient way to find where you've been. Bookmarking will aid you in systematically rabbitholing, tracking different branches, or checking up on particular drafts of the wiki over time. The URI of the wiki includes the current state of the storyriver (which can be arbitrarily large and rearranged as you see fit); these can be used for links and bookmarks. You can also bookmark particular queries (e.g. `https://philosopher.life/#:[search[Bookmarking]]`<<ref "o">>). You might, for example, follow your own name as mentioned in the past 30 days (e.g. `https://philosopher.life/#:[search[JRE]days:modified[-30]sort[modified]]`). Browser [[extensions|Firefox Extension Collection]] & [[modifications|Wiki: Chromium Setup]] may also significantly aid in the navigation and ergonomics of crawling this rabbithole. 
+
+
+<br>
+
+!! __Practical Empathy__:
+
+Novelty and alienness require something extra of our subjectivity and predictive processing. I am convinced this object is so uniquely deviant that it requires radical immersion to effectively experience it. If you are going to long-term dive deep into this black hole, you should make your own [[wiki|https://tiddlywiki.com/]] too (in a sense, that is what I'm doing in my reconstruction). It is unlikely that you will strongly understand what I'm doing without having empathized with at least the creation process. Bookmarking, mirroring structures, and designing your own processes will enable you to realize [[W5H]] this wiki is constructed. Effective search of this territory requires maintaining your own map, preferably with some hefty isomorphism.
+
+You may also find you have particular footholds you need, and having practiced making your own wiki, you'd be in a good position to describe to me what I need to do to help you.
+
+
+<br>
+
+!! __Custom Methods & Syndication__:
+
+This wiki is self-contained in a single html file.<<ref "ai">> You can download it and use your text editor, parser, or command line tools of choice to search. 
+
+Of note, you can also decompile the single file into individual tiddlers. The linking, naming, and tagging conventions are flawed but strong enough they may aid you in custom tooling (including merely surfing from your file explorer).
+
+Here's an example of decompiling on Ubuntu:
+
+```bash
+#!/bin/bash
+
+sudo apt install nodejs npm -y
+sudo npm install -g tiddlywiki
+cd ~ && mkdir wiki
+wget https://philosopher.life/
+tiddlywiki /home/$(whoami)/wiki --init server
+tiddlywiki /home/$(whoami)/wiki --load /home/$(whoami)/index.html
+```
+
+You might also find [[TW5-Bob|https://github.com/OokTech/TW5-Bob]] to be an easy point and click method for decompilation. You can also [[Connect]] to P2P copies of the real-time single file or its decomposed .tids.
+
+Though I am no longer convinced it is useful in my case, you can find an RSS-like weekly-scoped feed (mimicking [[Recent]]) in-progress here: https://philosopher.life/feed.json.
+
+Further, you can import your own tiddlers (even overwriting the wiki as you've downloaded it) to generate your own private custom windows, modes, tunnels, maps, and toolsets. This is meant to be a programmatically flexible tool for both its readers and writers. Given [[Contact]], sending me a message with the TW code you want publically available is also quite reasonable.
+
+<br>
+
+!! __Historical Analysis__:
+
+I keep [[daily snapshots|Ways to Connect to This Wiki]] of the wiki available for transparency, logistical, philosophical, and artistic reasons. Internal versioning on the wiki is still not ready. I also do not have ready-made tooling for programmatically searching through these snapshots.<<ref "ml">> You'll have to devise them for yourself at the moment, or you can search by hand.<<ref "i">> 
+
+
+<br>
+
+---
+<<footnotes "nr" "No refunds. //Caveat emptor//. You can never get those hours of your life back, sorry. Turn back now, and save yourselves! Lol.">>
+
+<<footnotes "r" "Mile-high, [[Root]] is the virtualized root [[directory]], but most do not find it useful beyond coming to grips with my [[APFVD]] structure.">>
+
+<<footnotes "t" "You probably already know I'm insane, but for clarification, this wiki is extremely large. No, I am not claiming my hand-written prolix quantity > [[antipleonasmic]] quality. However, because search and structure are fundamental to this object, quantity becomes far more [[salient]] in some contexts.">>
+
+<<footnotes "f" "It can also be useful for initial forensic considerations.">>
+
+<<footnotes "im" "You may find building a relationship with me or asking me questions will be significantly aided by your effort. I have heard many people say 'I feel like my answer is already in the wiki, but I don't want to find it.' We'll need to a strike a fair balance, [[nomad]].">>
+
+<<footnotes "tr" "Though, rest assured, there are many entities that do. You can [[private]]ly and [[anonymous]]ly acquire this ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱, if you wish.">>
+
+<<footnotes "fa" "(Sans olvoldy, ofc.) You can find that timeline automatically generated (or make your own), but it's kinda expensive clientside. Instead, this takes 8 seconds on my phone in 2022. That's fast enough to my eyes.">>
+
+<<footnotes "p" "I'll remind you that I probably search this wiki more than anyone else. You're stuck with what I find convenient. Note that you can tweak the settings under the hood of these search tools in your browser. Please feel free to ask me to modify them permanently or create a particular page just for you.">>
+
+<<footnotes "e" "Especially since I don't think you should have to feel like a standard programmer to use this wiki.">>
+
+<<footnotes "w" "In time, with more [[remodeling]] under my belt, I anticipate this tool will become stronger and stronger. I am a bit worried about its performance though.">>
+
+<<footnotes "c" "Filters are useful throughout TW. For example, [[Commander]] makes good use of them.">>
+
+<<footnotes "o" "Note that you can do all of this offline as well.">>
+
+<<footnotes "ai" "There's no tracking in this wiki, but you don't have to trust me. It's easy to read a snapshot of this wiki on an air-gapped solar-powered machine in the middle of nowhere.">>
+
+<<footnotes "ml" "I suspect that if and when I am ready to engage in ML with this wiki at large, these snapshots alongside a corpus generated for each day from the internet will be useful.">>
+
+<<footnotes "i" "I generally know the date ranges or an exact date I want to view.">>

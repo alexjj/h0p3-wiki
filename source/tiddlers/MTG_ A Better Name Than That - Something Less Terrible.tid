@@ -1,0 +1,265 @@
+created: 20210415005205981
+modified: 20210415015424093
+tags: MTG j3d1h
+title: MTG: A Better Name Than That - Something Less Terrible
+
+<<<
+; Mind Twist; XB, Sorcery
+
+Target player discards X cards at random.
+<<<
+
+<<<
+; Vampiric Tutor; B, Instant
+
+Search your library for a card, then shuffle your library and put that card on top of it. You lose 2 life.
+
+//True power is achieved through blood and sweat. But mostly blood.//
+<<<
+
+<<<
+; Yawgmoth's Bargain; 4BB, Enchantment
+
+Skip your draw step.<br>
+Pay 1 life: Draw a card.
+
+//He craves only one commodity.//
+<<<
+
+<<<
+; Channel; GG, Sorcery
+
+Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C}.
+
+//To some mages, the meaning of life is less important than how much is left.//
+<<<
+
+<<<
+; Survival of the Fittest; 1G, Enchantment
+
+{G}, Discard a creature card: Search your library for a creature card, reveal that card, and put it into your hand. Then shuffle your library.
+<<<
+
+<<<
+; Creeperhulk; 3GG, Creature - Plant Elemental, 5/5
+
+Trample
+
+{1}{G}: Until end of turn, target creature you control has base power and toughness 5/5 and gains trample.
+
+//“I saw the devastation when the juggernauts crashed the walls of An Karras. Then I got to thinking.”//<br>
+//—Janji, sylvan druid//
+<<<
+
+<<<
+; Gisela, the Broken Blade; 2WW, Legendary Creature - Angel Horror, 4/3
+
+Flying, first strike, lifelink
+
+At the beginning of your end step, if you both own and control Gisela, the Broken Blade and a creature named Bruna, the Fading Light, exile them, then meld them into Brisela, Voice of Nightmares.
+
+//She now hears only Emrakul’s murmurs.//
+<<<
+
+<<<
+; Ancestral Recall; U, Instant
+
+Target player draws three cards.
+<<<
+
+<<<
+; Timetwister; 2U, Sorcery
+
+Each player shuffles their hand and graveyard into their library, then draws seven cards. //(Then put Timetwister into its owner’s graveyard.)//
+<<<
+
+<<<
+; Library of Alexandria; Land
+
+{T}: Add {C}.
+
+{T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.
+<<<
+
+<<<
+; Sol Ring; 1, Artifact
+
+{T}: Add {C}{C}.
+
+//Lost to time is the artificer’s art of trapping light from a distant star in a ring of purest gold.//
+<<<
+
+<<<
+; Amulet of Vigor; 1, Artifact
+
+Whenever a permanent enters the battlefield tapped and under your control, untap it.
+
+//“After years of study, I’ve learned an important lesson: the relics we watch may be watching us back.”//<br>
+//—Anowon, the Ruin Sage//
+<<<
+
+<<<
+; Chandra, Torch of Defiance; 2RR, Legendary Planeswalker - Chandra, 4 Loyalty
+
++1: Exile the top card of your library. You may cast that card. If you don’t, Chandra, Torch of Defiance deals 2 damage to each opponent.
+
++1: Add {R}{R}.
+
+−3: Chandra, Torch of Defiance deals 4 damage to target creature.
+
+−7: You get an emblem with “Whenever you cast a spell, this emblem deals 5 damage to any target.”
+<<<
+
+<<<
+; Mox Ruby; 0, Artifact
+
+{T}: Add {R}.
+<<<
+
+<<<
+; Goblin Sharpshooter; 2R, Creature - Goblin, 1/1
+
+Goblin Sharpshooter doesn’t untap during your untap step.<br>
+Whenever a creature dies, untap Goblin Sharpshooter.
+
+{T}: Goblin Sharpshooter deals 1 damage to any target.
+<<<
+
+<<<
+; Vandalblast; R, Sorcery
+
+Destroy target artifact you don’t control.
+
+Overload {4}{R} //(You may cast this spell for its overload cost. If you do, change its text by replacing all instances of “target” with “each.”)//
+
+//Beauty is in the eye of the exploder.//
+<<<
+
+<<<
+; Young Pyromancer; 1R, Creature - Human Shaman, 2/1
+
+Whenever you cast an instant or sorcery spell, create a 1/1 red Elemental creature token.
+
+//Immolation is the sincerest form of flattery.//
+<<<
+
+<<<
+; Wheel of Fortune; 2R, Sorcery
+
+Each player discards their hand, then draws seven cards.
+<<<
+
+<<<
+; Etali, Primal Storm; 4RR, Legendary Creature - Elder Dinosaur, 6/6
+
+Whenever Etali, Primal Storm attacks, exile the top card of each player’s library, then you may cast any number of spells from among those cards without paying their mana costs.
+
+//The storm rages and the earth breaks.//
+<<<
+
+<<<
+; Ali from Cairo; 2RR, Creature - Human, 0/1
+
+Damage that would reduce your life total to less than 1 reduces it to 1 instead.
+<<<
+
+<<<
+; Inferno Titan; 4RR, Creature - Giant, 6/6
+
+{R}: Inferno Titan gets +1/+0 until end of turn.
+
+Whenever Inferno Titan enters the battlefield or attacks, it deals 3 damage divided as you choose among one, two, or three targets.
+<<<
+
+<<<
+; Vivid Crag; Land
+
+Vivid Crag enters the battlefield tapped with two charge counters on it.
+
+{T}: Add {R}.<br>
+{T}, Remove a charge counter from Vivid Crag: Add one mana of any color.
+<<<
+
+<<<
+; Reverberate; RR, Instant
+
+Copy target instant or sorcery spell. You may choose new targets for the copy.
+
+//“Not bad, but I can think of a better use for that.”//
+<<<
+
+<<<
+; Fork; RR, Instant
+
+Copy target instant or sorcery spell, except that the copy is red. You may choose new targets for the copy.
+<<<
+
+<<<
+; Reiterate; 1RR, Instant
+
+Buyback {3} //(You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)//
+
+Copy target instant or sorcery spell. You may choose new targets for the copy.
+
+//“Echoes of the Mirari’s power yet linger.”//<br>
+//—Zyd, Kamahlite druid//
+<<<
+
+<<<
+; Sprout Swarm; 1G, Instant
+
+Convoke //(Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature’s color.)//
+
+Buyback {3} //(You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)//
+
+Create a 1/1 green Saproling creature token.
+<<<
+
+<<<
+; Archmage's Charm; UUU, Instant
+
+Choose one -
+
+*Counter target spell.
+*Target player draws two cards.
+*Gain control of target nonland permanent with converted mana cost 1 or less.
+<<<
+
+<<<
+; Secure the Wastes; XW, Instant
+
+Create X 1/1 white Warrior creature tokens.
+
+//“The Shifting Wastes provide our clan eternal protection. It is our duty to return the favor.”//<br>
+//—Kadri, Dromoka warrior//
+<<<
+
+<<<
+; Recruit the Worthy; W, Instant
+
+Buyback {3} //(You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)//
+
+Create a 1/1 white Soldier creature token.
+
+//For peace of mind, they mustered for war.//
+<<<
+
+<<<
+; Myr Matrix; 5, Artifact
+
+Indestructible //(Effects that say “destroy” don’t destroy this artifact.)//
+
+Myr creatures get +1/+1.
+
+{5}: Create a 1/1 colorless Myr artifact creature token.
+<<<
+
+<<<
+; Hangarback Walker; XX, Artifact Creature - Construct, 0/0
+
+Hangarback Walker enters the battlefield with X +1/+1 counters on it.
+
+When Hangarback Walker dies, create a 1/1 colorless Thopter artifact creature token with flying for each +1/+1 counter on Hangarback Walker.
+
+{1}, {T}: Put a +1/+1 counter on Hangarback Walker.
+<<<

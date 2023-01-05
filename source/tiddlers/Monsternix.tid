@@ -1,0 +1,49 @@
+created: 20220815143146112
+modified: 20221130113514926
+tags: [[Recent Obsession]] Walkthrough Monster-Φ Computing NixOS
+title: Monsternix
+
+!! About:
+
+//Monsternix, Ph30Nix, Divinix, h0p3nix, 0nix, [[NixOS]]...[[IDK]]. architecture astronautery delusions//
+
+I do declare: I want Nix as a base. It's a step forward toward Ansible + Linux From Scratch with much better dependency control. Reproduction makes sense. It seems too useful for all the projects, and I don't see the documentation, language, or ecosystem getting much easier to use anytime soon.
+
+<br>
+
+!! Autogen:
+
+<<list-links "[tag[Monsternix]]">>
+
+<br>
+
+!! Dreams:
+
+* https://github.com/phil294/AHK_X11
+
+
+* /home/h0p3/monster-16
+
+
+* https://github.com/markfasheh/duperemove (not convinced by bees, etc.)
+* borg or restic (see [[2021.11.22 - Link Log: El Hee Hee Appeared In Da Mirror After I Chanted "Shamone" 3 Times]]
+* figlet
+* uncouth librewolf with dockerwhonix + i2p, tor, loki smart proxied
+* Chromium and Firefox Minimal But Riced Linux Containered Templates
+* Hidden i3 Modes for mega projects; spinning up arbitrary blank desktops with as much workspacing as the usual
+* i3 state save
+* Alacritty, Kitty
+* yggdrasil, vpncloud, 
+* initialHashedPasswords, then replacement upon p2p bootstrapping
+
+* Bootstrapping 
+*# Resilio Sync
+*# ghetto tuntox swarm: where key = fasthash(pwhash(pass) + $(date@GMT+0) + k) where k is a counter
+*#* check for existing nodes with k, if it exists, then make k+1, and so on
+*#* Do we need to maintain two connections for the time shift? 
+*#** We could have some run permanently (manually entered, static), but those keys cannot be put into the script since they are secrets (and those can only be had if we are already bootstrapped).
+*#* Should probalby include verification and blacklisting
+*# wormhole-william ?
+
+* Containers
+** Snap container, Deb Container, etc. container. I'd like to duplicate aspects of [[JuNest]]. Could, of course, use one of the distributions designed for it running them all. Hrm.

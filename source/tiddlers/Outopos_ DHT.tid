@@ -1,0 +1,334 @@
+created: 20221129205247446
+modified: 20221222010135631
+tags: Outopos Draft fourmyle57
+title: Outopos: DHT
+
+Even after solving the crippling problem of [[NAT Traversal]], which we can only do at maybe 95% success rate, the next fundamental problem is proper trade-off selection for a high-performance DHT that doesn't leak more information than it must. This is easily the hardest choice a p2p network has to make. How can we avoid centralizing, crumbling to sybil and adversarial routing, and revealing more than we must? This is the entrance and backbone to the underlying overlay (:P) network where we build stuff on top. Get it right, and you can abstract away hard problems for developers while achieving network effect necessary for scaling. Let's rou~~wd~~ty up in hurr. 
+
+Ideally, users would have multiple applications that each worked off one instance of the Outopos DHT. This is such an expensive task that applications need to share the same process. How do you do that conveniently, flexibly, and safely? How do we start correctly so that one day it could even merit inclusion in Linux Kernel (like Wiregard)? Some of these problems are simply too large for me to handle. 
+
+If it can't be easily routed with i2p and Tor (even though it is meant as a replacement), we've failed as well. And, it's possible that WebRTC must be included on this list of requirements. Prefer plaintext storage, demand pipeability, and ideally has a nixos container it runs automagically anyways. We have to stack layers and perhaps DHTs to solve our problems. Now is the time for preoptimization, of course. 
+
+
+
+
+
+
+
+<br>
+
+!! Layer-0: A Masking Multi-DHT Foundation Routing Layer
+
+Why put all our eggs in one basket? We can share a packet protocol and state among different DHT strategies. Priorities can be adjusted and tested. Let's find what works. 
+
+* Layer-0.0: Plausible Deniability Edge layer
+** Make constructing one's own Outopos network that has nothing to do with Mainline Outopos as convenient as possible. This fits both FLOSS in principle and provides some (though who knows how much?) plausible deniability.
+*** Every encrypted packet and hand-transmitted key are indistinguishable from random, and every decrypted packet or key are indistinguishable from random.
+*** Ideally, the binary defaults to running an isolated mainline Outopos DHT node in parallel to a splinter node's, just as we might default to seeding at least to 1 in any FLOSS torrent client or default organ donation.
+*** The more networks whose traffic and keys are indistinguishable from random, the easier we blend in together against ISPs and middlerouters.
+** Every packet's content's last encryption layer is encrypted with Chacha(<network_name>, packet's contents)
+*** Mainline Outopos will use "Outopos" as its outer "Edge layer" <network_name> encryption keys, both for packets and hand-transmitted keys. 
+*** Decrypting a packet still returns information indistinguishable from random. 
+*** Splinter Outopos networks can communicate only with those networks for which they are willing to decrypt the outer layer and test for, presumably just their own, but not necessarily.
+*** Technically, one could bridge these networks. To prevent that, if you really want your network to be private, then you must not share the <network_name> key; that's your responsibility.
+** Every human readable, hand-transmitted key has been encrypted: Chacha(<network_name>, Elligator2(Ed22519-pubkey)), or perhaps Chacha(<network_name>, Elligator2(Ed22519-pubkey)+nospam+checksum(Elligator2(Ed22519-pubkey)+nospam)) 
+*** However silly it may be, much like h(ZERO)p(THREEE)(AT)protonmail(DOT)com actually does practical work in preventing spam and the harvesting of personal data that'd we prefer to remain as private as possible, even in public, this wrapping of keys may be useful as well. 
+*** Note that one could maintain the same Ed25519 key across different Outopos networks. 
+
+* LAN layers
+** Special consideration must be given to LANs (including VPNs), at least for the sake of performance. There may be other security boundaries we can relax.
+** Broadcast by default, but optional.
+** In some carefully selected cases, we may prefer our applications to use the LAN by default, but optional. UDP is preferred.
+** This information should never be transmitted outside the LAN, obviously.
+** [nodeID][ipv4-address, ipv4-TCP, ipv4-UDP, flags] 
+
+* F2F layers
+** Friend-to-friend networks translate the trust in our social graphs to quantified rules for sharing our resources, and they stave off attacks that nothing else will. 
+** We wish to build loosely structured VPNs with friends that are functionally similar to LANs. Technically, Outopos could live entirely on this layer as long as there are a sufficient number of static IP:ports (or just IPs, if scanning is allowed, which I wouldn't have a problem with). 
+** Simple enough to cap or at least rate limit key-value pair storage for various friends. 
+*** I'd prefer a way to automatically signal to friends when I don't want my key-value being transmitted to others.*
+** Should this be Chord?
+** Trust-levels, sharing requirements
+** Encrypted datastore of value pairs, derived from the original key. Sybil though? Had to be a f2f thing, right?
+
+* Stranger's Bootstrap layers
+** Unlike LANs where we can practically broadcast spam and ping without getting in trouble usually, we simply must have public IPs available.
+** Decentralization means we aren't beholden to any particular list of names or IP addresses. Diversity and coming batteries loaded helps. 
+** Volunteer Nodes should live on multiple well-known DHTs, provide i2p and tor access to entrances to lists.
+*** 90% uptime over 3 months on any layer except LANds should be on that list(s) for a very rapid bootstrap.
+
+* Neighborhood layers
+** The Neighborhood DHT(s) aims to reduce the difference between logical and physical topologies in the pursuit of a low-latency mesh (with presumably strong peering arrangements for throughput), wherein our buckets are most likely to be filled with those who tend to be geographically close to us. 
+*** Random walks over the DHT can also provide us additional nodes who have low latency (or other properties we might care about).
+** The barest minimum information possible should be revealed. We'll have to build circuits from the nodes of this layer.
+*** It's hard to see what can be safely shared here. It would make for a very high performance floodrouted network though.
+**** It should be fine for //holding// encrypted information of others though (Freenet-style). They'd have to earn the right.
+*** No, some content-addressable things should be shared, but we need to add realistic latency timers on it. Ghetto mixnet. Make it hard to distinguish.
+
+** Fully encrypted, elligatored, indistinguishable from random, no party can inject data (not even random data or replayed packets).
+*** A very, very slim, unnoticeable Proof of Work may be worthy here. 
+*** I'm not convinced this layer has to be PQC-secure. If so, we can maintain the same Ed25519/X25519 private key if it would be extremely useful (but only if).
+** Should be on by default, but users must have the option to turn it off. 
+*** One can keep a specific list themselves, bridges and whitelist only proxies, and manual tunnel construction.
+** This layer can be used by applications that don't care about [[anonymity]] at all, especially if they are latency sensitive. However, they should be forced by the binary to share resources, including relaying, for others. Until (which is a big if) the tool saw widespread use, everyone must put their skin in the game, otherwise we will suffer something like the tragedy of the commons.
+
+** IP-binned k-Buckets KaDHT
+*** Since IPs are public information, I suggest we've not lost anything in building nodeIDs with that information alone, but we must be careful not to associate it with other identifying information.
+**** We cannot give away information that a device has been traveling. That might be useful in some cases, especially for when we've built trust with a key. We simply can't have one key show up on different IPs. It's not safe. Every WAN you have gets a unique set of keys, and so every new WAN IP, you'll need to generate a new set of keys. 
+*** nodeID := WAN-ipvX-address + elligator-neighborhood-ed25519pubkey + elligator-neighborhood-x25519pubkey (WAIT< DOES THIS EXIST?) + blake2b(WAN-ipvX-address + elligator-neighborhood-pubkey) + random padding? blah
+**** This allows for mutable value stores
+**** Really do want a Proof of Work right here, preferably absurdly cheap to verify and relatively expensive to generate.
+
+** Partially Persistent k-Buckets KaDHT
+*** High availability nodes are most likely: to be online, improve the success rates of queries, and maintain lists of living contacts. 
+*** We should keep them in our k-Buckets from session to session. 
+*** Each node's findings can be shared with others, and there doesn't have to be consensus (though it will naturally arise).
+*** Should we instead refrain from speaking to high availability nodes unless we must? Can we force low availability nodes to participate more?
+*** Those who pass integrity tests also provide us a way to defeat some sybil-related problems, particularly given how uneven the distribution might be.
+
+** Self-Assessed Longevity
+*** Obviously, it has to be tested, but it might help those who are likely to cause churn to identify themselves as such.
+*** How do we make short-term nodes pay for the privilege?
+
+
+** Improving Kademlia's K-bucket Update Algorithm
+*** Record latency, and if a bucket is filled, kick the highest latency, non-high availability node out for the new one.
+
+
+** Multiple DHTs, preferably at least 2, one for ipv4 and ipv6 each, but perhaps many more, especially if routed over uncommon or unique networks??
+**** [nodeID][ipv4-address, ipv4-TCP, ipv4-UDP, flags]
+**** [nodeID][ipv6-address, ipv6-TCP, ipv6-UDP, flags]
+
+** ML/Bayesian Routed layers
+*** Not even sure where to begin. How do we make it easy now to transition later?
+
+
+
+
+
+
+
+
+* Ed25519-Pubkey-binned k-Buckets
+** Mutable data
+* X25519-Pubkey-binned k-Buckets
+** Want to start an encrypted session from the get-go
+* PoW k-Buckets?
+** Expensive to make
+
+You find one, and you get the information of the others. Information is the same on them all. Search by pub 
+
+Why not have two DHTs running? If I have your pubkey, then I need your IP. If I have your IP, then I need your pubkey. We can search by either of them. We'll still even distributions in k-Buckets from the key, and tightly coupled for the IPs.
+
+256-bit 
+
+[ipv4-nodeID][Ed25519-nodeID]
+ipv4-nodeID := [octets, tcp, udp, elligatored-ed25519-truncated-for-padding], e.g. 1.2.3.4:65535:65536 -> 0010020030046553565536padding 
+ipv6-nodeID := [global prefix, subnet, interfaceID, tcp, udp, elligatored-ed25519-truncated-for-padding], e.g. 0001:0002:0003:AAAA:0004:0005:0006:0007:65535:65536 
+
+Ed25519-nodeID := 12456ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+
+
+Note that multiple nodes may share an IP address, and we'll still get a unique nodeID from the ports in almost all cases. However, it is possible to share ports in some cases, and so the Ed25519 padding helps there.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* The Relay Layer
+** Suitable for [[NAT Traversal]]
+** Not sure how to blacklist routing over families. We'd prefer to offer this opportunity though, right?
+
+** Everyone must onion route for everyone, but a federated volunteer mixnet (https://blog.nymtech.net/hopr-network-design-and-flaws-a-system-analysis-43c1d244a779?gi=1a78ccd7b3ef) for additional anonymity makes sense, and riffle-quality slownets for the extremely paranoid on top of that (https://dedis.cs.yale.edu/dissent/papers/riffle.pdf). We can and should nest them.
+
+
+
+
+* Content Addressable Layer
+** https://www.globaltechcouncil.org/machine-learning/use-of-distributed-hash-tables-dhts-merkle-dags-in-ipfs-content-addressing/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Stable Keys that maintain at least some of their values consistently might be something we can floodshare on the network and store across the board. I have zero problem blowing 10gbs of drive space to increase performance here, and I think even 1GB of RAM is not ridiculous. It's the backbone.
+
+
+* How far should we already build the functions of Resilio Sync, Tox + Multidevice + Offline message, and Aether into the DHT itself?
+** Mutable items on a DHT solve so much: https://www.bittorrent.org/beps/bep_0044.html
+
+* Run two networks? One with anonymized IDs, the other for low-latency/geotracked/ip-based? Because Outopos must be minimally (though some problems may require additional anonymity tools like DCnets, etc.) onion-routed (everyone must participate, the clean and unclean alike)...
+** https://sci-hub.se/https://ieeexplore.ieee.org/document/6778622 - throw the IP address on the beginning of the nodeID, perhaps two, one for ipv6?
+*** ultranode centralization meh, but with proper sharing technique, ultranodes can be rewarded...still a centralization flaw and probably a security nightmare (but we are way passed that with geo here)
+** I think this is an argument for finding a way to run an arbitrary number with arbitrary configurations...but, I don't care for that either...I'd prefer to solve a specific set of problems well.
+*** I think that is an argument for letting go for low-latency entirely...but people would fucking use it, and it might just be better than nothing, and it is very much the mesh we rely upon in the physical infrastructure replacement of the internet (ideally*)
+
+* Ultranode Federation
+** Floodfill routers, a DHT for them as well, they can quickly spread information...
+
+
+
+
+
+* We must automate priority, and provide easy opportunity to signal to our DHT node which keys we trust. Defeat sybils here.
+** If we update along trusted nodes, we might help weed out out some of the effects of the sybil and handling the problem of churn.
+
+
+
+
+
+
+We have to prove that we have a right to a key on the DHT, and we have to do so with multiple IPs. In fact, given that the DHT is basically the core structure, we might consider expanding the values associated with a list. The routing tables have to be more inclusive for logical accounts to make any sense.
+
+; Public:
+
+```
+[nodeID-x][nodeID-y, IPv4, IPv6, UDP, TCP, deathtimer, public-metadata, flags]
+
+[nodeID-1][nodeID-1, IPv4-1, null, UDP, TCP, never, {25519}, null]
+[nodeID-1][nodeID-1, IPv4-2, null, UDP, TCP, never, {25519}, null]
+[nodeID-1][nodeID-1, IPv4-3, null, UDP, TCP, never, {25519}, null]
+
+[nodeID-2][nodeID-3, null, null, null, null, 241211073315, {25519, CRYSTAL}, null]
+[nodeID-2][nodeID-4, null, null, null, null, null, {25519, CRYSTAL}, DCnet]
+[nodeID-2][nodeID-5, IPv4-5, null, UDP, TCP, null, {25519, CRYSTAL}, zstd-compressed]
+...
+```
+
+; Private-KEY-1:
+
+...
+
+; Private-KEY-2:
+
+...
+
+<br>
+
+What is the maximum amount of information we can publically share? Does that come in layers or degrees? The more trust one earns, the more I share.
+
+Also, no to this being the base layer. We must have an elligator2 layer 0, as in [[Atropos]]. Unfortunately, given how we [[aim]] to do what so many consider the incredibly stupid, namely user/password-based construction of keys (horror of horrors, I know - tell me how to manage keys any better for the average person), we can't grind to find a special key. Ultimately, we have to hide the base pubkey (which can still eventually be detected). 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Crawling & Discoverability
+** https://github.com/boramalper/magnetico/
+
+* Anonymity
+** Construct anonymous paths to send lookup query messages while hiding the initiator.
+** Splits the individual queries used in a lookup over multiple paths, and introduce dummy queries to make it difficult for an adversary to learn the lookup targe
+** Security checks to discover and remove or punish malicious nodes.
+
+* Sybil-Prevention, without which we just fail
+*# Automated [[T42T]] [[sharing]], a proof of work first screen
+*#* reciprocal neighbor policy: If malicious nodes try to exclude honest nodes during peer discovery, then honest nodes can use a [[T4T]] approach and reciprocally exclude the malicious nodes from their routing tables so that attempts to bias the random walk towards malicious nodes reduce the probability of malicious nodes being selected as intermediate nodes in the random walk.
+*# Automated: Continuous auditing and [[anonymous]]ly testing, a second screen
+*#* Can we self-heal? Spirals are bad.
+*# Manual: Social Whitelisting. Fundamental trust.
+
+* /b/
+** Onion-routing by default
+** Nodes will forward traffic on behalf of other nodes
+** [IP, UDP, TCP, nodeID]
+** Do not naively assume homogeneity among peers. Scale trust.
+** Bayesian DHT testing
+
+* Performance
+** overlay network in which each peer needs only remember O(log n) other peers and can locate any identifier in at most O(log n) hops.
+** Prefer consistent hashing to limit churn, where the insertion of a new node into the P2P overlay affects only the information stored at the machines whose nodeIDs are closest to the new node joining the overlay. For consistent hashing, it must also be true that the removal of an existing node should affect only the nodes that are still in the overlay and whose nodeIDs are closest to the departing node
+
+* The eclipse attack (a type of sybil, imho) on particular sets of nodes cannot be prevented completely because adversarial nodes can ultimately choose their nodeId's freely (or bruteforce for such a thing). 
+** We can make it expensive to bruteforce for a nodeId to some degree.
+** We can make it difficult to influence the routing tables of other nodes by favoring long-living or high-performance nodes. This also prevents Churn attacks.
+
+* The sybil attack cannot be prevented only impeded by making nodes pay with system resources, a useful proof of work in a sense.
+** Make nodes hold information on your behalf, or have them proxy for you, or do some compute for you, perhaps even ask for their public routing table. Audit them!
+
+* Adversarial routing and poisoning can be mitigated by having disjoint paths while searching the DHT.
+** Further, verifying that each lookup gets closer to the destination key.
+
+* Hacks
+** Lossy, sharded consensus with weighted votes on whitelisting nodes
+** Primary and secondary DHTs
+*** Bootstrapping nodes can participate on much larger, well-known DHTs...
+
+<br>
+
+!! Links:
+
+* https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.68.4986&rep=rep1&type=pdf
+* https://www.irjet.net/archives/V5/i12/IRJET-V5I1208.pdf
+* https://github.com/matrix-org/pinecone
+* https://www.gpestana.com/papers/everyone-is-naked-rev.pdf
+* https://arxiv.org/pdf/1203.2668.pdf
+** octopus seems the best I've found, feels good to see my bias confirmed on auditing
+* https://engineering.purdue.edu/kak/compsec/NewLectures/Lecture25.pdf
+** like the kademlia explanation
+* https://www.usenix.org/legacy/event/nsdi05/tech/full_papers/li/li.pdf
+* https://wootfish.github.io/theseus.dht/
+* https://www.freehaven.net/anonbib/cache/entropist.pdf
+* https://eprints.lancs.ac.uk/id/eprint/12825/1/MacQuireA-Authentication.pdf-8e558c97003b195321297b1fc66215fd%5B1%5D.pdf
+* https://toktok.ltd/spec.html
+* https://elligator.cr.yp.to/
+* https://sci-hub.se/https://ieeexplore.ieee.org/abstract/document/5372785
+* https://ieeexplore.ieee.org/document/4412998
+* https://arxiv.org/pdf/1802.08415.pdf
+* https://arxiv.org/pdf/1608.05538.pdf
+* https://sci-hub.se/https://dl.acm.org/doi/10.1145/1653662.1653733
+* https://arxiv.org/pdf/1111.5123.pdf
+* https://github.com/gpestana/p2psec/tree/master/research
+* https://sci-hub.se/https://dl.acm.org/doi/10.1145/1653662.1653683
+* https://nikita.ca/papers/pisces-ndss13.pdf
+** PREACH, YO!!!! 
+** As someone who has so few people to speak with over the decades, let alone the resources to convince people of his intuitions (which aren't formally trained, nor is it where I excel the most), it's nice to see someone confirming.
+* https://github.com/dennis-tra/nebula-crawler
+** Seems worthy to have one. it's active.
+* https://github.com/geektoni/whanau-sybil-proof-DHT/blob/master/report/report.pdf
+* https://codethechange.stanford.edu/guides/guide_kademlia.html
+* http://ce-resd.facom.ufms.br/sbrc/2012/ST4_2.pdf
+* https://www.bittorrent.org/beps/bep_0044.html
+* https://pdos.csail.mit.edu/~jinyang/pub/nsdi04.pdf
+* https://sci-hub.se/https://aip.scitation.org/doi/abs/10.1063/1.5118139
+* https://sci-hub.se/10.1109/etcs.2010.305
+* https://discovery.ucl.ac.uk/id/eprint/13327/1/13327.pdf
+* https://sci-hub.se/10.1109/cciot.2014.7062520
+* https://sci-hub.se/10.1109/compcomm.2016.7925129
+* https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1037.pdf
+* https://py-ipv8.readthedocs.io/en/latest/

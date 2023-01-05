@@ -1,0 +1,13 @@
+created: 20221112023331987
+modified: 20221112024429151
+tags: [[Ian Clarke]] Chatlog
+title: 2022.11.11 - Ian Clarke: I Wish You Luck
+
+//Previous link: [[https://github.com/kwebio/kweb-core/issues/383/]]//
+
+"""
+[5:12:00 AM] - [[Ian Clarke]]: Proposal for a network simulator, allowing us to track key performance metrics as part of our CI process: https://github.com/freenet/locutus/issues/377
+[5:14:50 AM] - [[Ian Clarke]]: This will dramatically increase the likelihood that Locutus will work really well when first deployed. Debugging a deployed P2P network is a nightmare.
+[7:58:56 PM] - [[h0p3]]: I could imagine a tool like http://imunes.net/ might be useful. It's nice to have a testing environment that is portable, easily reproduced, etc.
+[Ian Clarke reacted with :eyes:]
+"""

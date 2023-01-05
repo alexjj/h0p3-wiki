@@ -1,0 +1,79 @@
+created: 20221203144200520
+modified: 20221204222618886
+tags: fourmyle57 Note To Highdeas
+title: 2022.12.03 - fourmyle57: Never to be used as mere means by all non-mere machines
+
+//I'm thinking slowly in this note I'm drafting in the open. I continue to reveal my retardations to you. Disclosure is [a hard] problem. I'm autistic AF. You'll have to help me figure out what we're talking about and how we should do so. I appreciate your patience with me.//
+
+We're storytellin' and interpretaytin' machines. It is not easy to engage in morally justified engineering these days. Maybe we should consider collaborating, in part, by writing outloud about the qualitative aspects of what we're doing here. Sometimes, there's no substitute for experience. If you consider such dogfooding unjustified, a waste of our time, or unacceptably performative, then we can work to avoid it.
+
+As part of thinking about DHTs, I'm also here to think about what consists in a morally justified darknet with you. Perhaps we should consider what consists in [[trust]] and justified [[paranoia|2022.12.02 - Aether: Hiding Whonix]]. I can imagine you have a great deal to say about the topic, but it also might not be something you want to speak about publicly. For this project, I think it makes sense for us to pursue radical transparency from the beginning, though I seek to maintain your [[anonymity]].<<ref "iw">>
+
+> Thanks for the link. These notes are very interesting, not too schizo ha. 
+
+Not just schizo, but ultimately untrained. I think I can only serve as a source of intuition. It quickly becomes black boxes all the way up and down to me. If I served as your retarded rubberduck little brother, I will have been useful.
+
+> Going to take me some time to work through this and get up to speed. I need to play with dark web stuff a bit and read. I am also currently working through "Coding the Matrix" to finally learn linear algebra. I hate not really knowing how cryptography works fully and trying to change that.
+
+I don't know how cryptography works well enough, and I really don't understand more than the basic concepts of linear algebra.<<ref "i">> I do not know how much linear algebra or the mathematics of cryptography will improve one's ability to construct more secure or performant software in this space. As I found with [[Loup Vaillant]], even the ability to implement primitives well (better than the cryptographers themselves, I suggest) doesn't seem to entail what may be a satisfying understanding of the topic. Knowing when and where to use primitives (or well-audited protocol[s] or frameworks) wisely seems a hard enough task in the first place (there are good classes for this). However, I could easily imagine that understanding the mathematics may provide many tacit connections and inferences. I am not nearly as skilled in computers or mathematics as you (and I never will be, I believe). There may be other good reasons I'm missing as well, including critical tasks outside of cryptography (seems exceptionally useful in many high-performance domains). I am blind, and I often must almost blindly trust the networks of experts whose signals eventually affect me.
+
+Please take all the time you need. I'm brainstorming here, and I have been for a long time. I work on a lot of different problems. This project continues to crop up as as being [[salient]] to [[justice]]. I am not in a rush, and I'm generally buried in the world. My work offline is emotionally intense and time-consuming as well. We have time.
+
+> I am fairly strong in distributed systems and networking from my day job.. Hoping to contribute the most there.
+
+Good. I am not. I enjoy my computer, but I am often [[lucky]] to get it to work at all. I'm glad you are well-suited to the task. 
+
+> From my first pass at the notes, could wireguard be a good base to build on for the edge layer? I'm imagining we could build VLANs entirely with wireguard and it could be made seamless to the user.
+
+I may be misunderstanding you. Please correct me. I think Wireguard would be a valuable tool, yes. And, the seamlessness is crucial, yes. For where it should be used, I think there are good reasons to prefer Wireguard over other options as well. At the very least, I think offering a few key out-of-the-box Wireguard VPN configurations for some of the networks we'd build would be necessary (what the god-tier programmer of zerotier wished he could build). I suggest Wireguard is something we'd be using to build some types of networks on top of the DHT, and I'll say the same of other types of tools, like shadowsocks. Random tools for thought:
+
+* https://github.com/manuels/wireguard-p2p
+* https://github.com/dswd/vpncloud
+* https://github.com/yggdrasil-network/yggdrasil-go
+* https://www.v2fly.org/
+* https://git.2f30.org/ratox/file/README.html
+* https://spork.sh/
+
+Collectively maintaining the ability to even begin to discover and connect to other users in almost arbitrary topologies is the problem I think we're facing.<<ref "a">> I think it's really hard to build a safe, tough, high-performance DHT that has avoided decentralization as far as is feasible. I still think it should be from scratch, but perhaps Wireguard would be the preferred base for the edge layer. There are SSH options that seem decent too. 
+
+I also like relying upon tools that are so thoroughly understood and trusted by others. So, keep going on the Wireguard idea, please. Tell me what you see. 
+
+> I used to do some mobile dev early in my career. The problem will be the phone can't use the radio 24/7. Mobile to Outopos will need to use some sort of message passing. Not sure push messages will be private enough. That will be the hard part.
+
+I have not worked on mobile dev (though I have spent time trying to get my phone to work in a way I can tolerate). There are likely many important problems on standard mobile devices. In the long run, excluding the [[Pinephone]] et al. minority, I'm not yet ~~un~~convinced we will ultimately directly reach mobile-only users who aren't willing to sideload software on their mobile devices either, but perhaps there would be devs who use this DHT under the hood who would do the work to keep their apps on the standard markets (both [[Toxcore]] and the i2p devs relied upon some people willing to give up their offline identity).<<ref "mu">> Given how apps are sandboxed, it may be difficult to get multiple apps to use the same DHT instance. That's not ideal.
+
+During their normal operation, mobile devices should probably be a thinclient to remote services, and preferably connecting to a user's network of devices or designated trusted services (which, we should all be running for each other). We have to hold data for each other, and doing this well is quite a feat. [[NAT Traversal]] barriers may best be defeated by this as well. It's a tempting place to centralize, and we have to fight it. It's too easy to slip into making a federated tool that only geeks like us would be willing to use as well (this is a place where Matrix failed initially, and the price to fix it is steep).
+
+We'll have to find ways to slim down power and bandwidth usage, as well as provide significant controls to users (likely devs). [[Resilio Sync]] on mobile has plenty of settings I think are valuable here. I'm not convinced it's good enough for most people (I keep an extra power bank with me when I'm out in the world). Other p2p tools have improved over time, but still aren't there. Nobody has solved this problem well; just getting p2p software to function decently on a phone is a profound challenge. 
+
+I keep my [[phone|monster-20]] in a box on my desk. It's plugged in ~20 hours a day, connected to wifi. Most of the time, I would have no problem with a resource hog on the machine. And, of course, mobile devices need to be allowed to act as full nodes (there are cases in which [this] is quite reasonable); for most of the users around the world I [[hope]] to target, they only have a phone! My intuition is that for standard use (most people don't use their phones like I do), having the mobile client default to making requests when they are ready and willing seems to give the necessary control to the resource starved machine. Some percentage of users may also have low threat models that  would allow them to connect to their other devices without [[anonymity]]. Different push and pull options may be required here.
+
+This may be an odd way to say it, but I think a next generation DHT has worked out sane defaults of the orchestration of these devices, including figuring out when which devices will be full or even partially participating nodes on DHT(s), etc.
+
+> Fascinating stuff. Excited to dive into this. Think this is the kind of project I have been looking for.
+
+Dope. I'm excited too.
+
+> Can I post on the site with comments etc? Not sure what's appropriate.
+
+My [[RGM]] hasn't [[changed]] too much. Only my [[Root Users]] may have access to write privileges on the ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱; it takes time for me to trust someone like that,<<ref "t">> and I will work toward that with you. I generally graft everything by hand (something to be said for the practice). You have one html file in your browser. You can modify it however you wish, but your use of it stays entirely within your browser and on your storage. 
+
+If you want to copy the text, comment it, and send it to me, I'll add it. [[Resilio Sync]] within Whonix works, and we can [[share]] file assets that way. Maintaining some text files together makes sense too. I'd also be happy to read off your site. What do you think?
+
+> Protonmail is probably fine while I ramp up, but do you have preferred real time comms?
+
+[[Tox|Contact h0p3]]: FDD7005639C618263AB2EEDAB974F7576C7C0DED6217EED9E9DC0344C622E72AEEF7055F8B4D
+
+I appreciate that it can be routed over Tor. Works well in Whonix too, my friend. 
+
+
+---
+<<footnotes "iw" "Beyond what is written in this ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱, I want no offline or online credit (assuming I deserved any at all) for anything we construct or think about together.">>
+
+<<footnotes "i" "I only have so much time, and I've not found it useful enough.">>
+
+<<footnotes "a" "Aside, I've encountered many who don't even think it's possible to build this. Unless we hit Terry Davis territory, I'm not convinced this is a 1-2 man job either. Our part might be just to begin specifying whatever this thing is.">>
+
+<<footnotes "mu" "My hat's off, `/hat off`, to zlatinb of [[MuWire]]. RIP.">>
+
+<<footnotes "t" "I submit that I've been too quick about the process more than once.">>

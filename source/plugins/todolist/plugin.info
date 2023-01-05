@@ -1,0 +1,13 @@
+{
+    "title": "$:/plugins/kookma/todolist",
+    "author": "Mohammad Rahmani",
+    "core-version": ">= 5.1.18",
+    "created": "NaNNaNNaNNaNNaNNaNNaN",
+    "description": "Todolist RC4",
+    "list": "readme license history mechanism internals",
+    "modified": "NaNNaNNaNNaNNaNNaNNaN",
+    "plugin-type": "plugin",
+    "source": "https://github.com/kookma/TW-Todolist",
+    "tags": "",
+    "version": "1.0.0"
+}

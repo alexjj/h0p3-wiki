@@ -1,0 +1,24 @@
+caption: Warning
+created: 20190314050138754
+creator: Mohammad
+modified: 20190323203452964
+modifier: Mohammad
+tags: $:/tags/Commander/Help
+title: $:/plugins/kookma/commander/help/warning
+
+<<alert primary """''Note i:''
+Tiddler Commander is a very powerful tool, it can change any field in any tiddler. Make sure what you are doing!
+""">>
+
+<<alert warning """''Note ii''
+Tiddler Commander uses two steps tiddler selection. It uses a search box to filter possible tiddlers and then uses a selective list of fitered tiddlers for batch operation!
+""">>
+
+<<alert info """''Note iii''
+//Commander do not perform operation on shadow tiddlers//, unless they are overriden. Because shadow tiddlers aren’t stored as ''real'' tiddlers. They are intentionally excluded from most operations by default so that they don’t clutter filters made by users unless explicitly required. 
+""">>
+
+<<alert danger """''Warning''
+This tool is still being developed. It is for demonstration purposes only. Before this tool, `Tiddler Commander`, on your own valuable, irreplaceable data, backup them.
+""">>
+

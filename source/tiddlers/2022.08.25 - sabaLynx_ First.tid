@@ -1,0 +1,42 @@
+created: 20220825211221883
+modified: 20220825211326468
+tags: sabaLynx Chatlog
+title: 2022.08.25 - sabaLynx: First
+
+"""
+[08:10:54] [[sabaLynx]]: hello h0p3
+[08:10:59] [[sabaLynx]]: how's everything with you today?
+[13:33:10] [[h0p3]]: Yo! =)
+[13:33:55] [[h0p3]]: How goes teh javascripting?
+[13:34:06] [[h0p3]]: And, what have you been up to?
+[13:54:13] [[sabaLynx]]: hello h0p3. right back at you...
+[13:55:00] [[h0p3]]: I'm doing alright. Plenty of time with family. Working on my own flavor based on [[NixOS]], and thinking hard about DHTs.
+[14:06:23] [[sabaLynx]]: and as javascript goes is pretty lawless language. the exceptions are more than the regulations
+[14:06:48] [[h0p3]]: =D
+[14:07:00] [[sabaLynx]]: but It is sweet. the thing a person can do with it is amazing...
+[14:07:11] [[sabaLynx]]: still learning though....
+[14:07:14] [[h0p3]]: `/nod`
+[14:07:24] [[sabaLynx]]: OHHHHH NixOS.....
+[14:07:32] [[h0p3]]: Shit is cash, bro.
+[14:07:50] [[sabaLynx]]: the package manager or the enitre OS
+[14:07:59] [[sabaLynx]]: :D
+[14:08:06] [[h0p3]]: Doing the OS route. Trying.
+[14:08:24] [[h0p3]]: If you stay in your lane and do it the "NixOS" way, it's easy. Try to deviate, and it can get ugly.
+[14:08:45] [[sabaLynx]]: I would really love to have the end result as a bootable os...
+[14:08:53] [[sabaLynx]]: I would be your first use ...
+[14:09:10] [[sabaLynx]]: agree with your assesment 
+[14:09:34] [[sabaLynx]]: first user
+[14:09:45] [[h0p3]]: Dope. =)
+[14:10:06] [[h0p3]]: It may be a while. I've got a lot to work out to get the bootstrapping to even function.
+[14:11:08] [[h0p3]]: So what you been up to today?
+[14:12:19] [[sabaLynx]]: you won't believe....
+[14:12:41] [[h0p3]]: I will do my best. =)
+[14:12:44] [[sabaLynx]]: install retroshare windows under wine and use linux and i2p port to set it up...
+[14:12:57] [[sabaLynx]]: and it worked
+[14:13:19] [[h0p3]]: XD
+[14:13:38] [[h0p3]]: Is there something particular about the Windows build that is valuable to you?
+[14:13:50] [[h0p3]]: Or, is this an exploration of how far you can take it?
+[14:14:19] [[sabaLynx]]: the retroshare running under wine and uses native linux  tor and i2p processes
+[14:15:06] [[sabaLynx]]: h0p3 just testing....( or as you put it how far I can take it)
+[14:15:23] [[sabaLynx]]: the retroshare linux is very good and useable.
+"""

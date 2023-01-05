@@ -1,0 +1,77 @@
+created: 20211225025451977
+modified: 20220117113849936
+tags: [[Recent Obsession]] Links Library AIoutopIA Dreams 1uxb0x
+title: Links: Library
+
+//I've my own reservations and preferences about librarians, no doubt. The ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 contains a significant hand-picked corpus (serving one's searching, [[sharing]], and MLed [[PSM]]ing, voting, and curation) with metadata already attached (with semantic content mapped onto the links in some non-obvious respects too). Seems like we should shoot for single-file (including html), uncompressed, in-file searchable archives, auto-updated & versioned (still unsure how to handle so many problems), metadata rich filenames (an uncommon sauce, imho), and arguably many more features. ML on non-textual media may provide significant results. Automatically expanding the search for contexts surrounding an archived object might be worthy as well (though its own monster).//
+
+
+<br>
+
+!! Tools
+
+* https://github.com/iipc/awesome-web-archiving
+** https://github.com/Y2Z/monolith
+*** wget media files
+
+```python
+with open("index.html", 'r') as f:
+        urls = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*(),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', f.read())
+print(urls)
+```
+
+```bash
+lynx -dump -listonly -nonumbers "https://philosopher.life" > links.txt
+```
+
+<br>
+
+!! /b/
+
+* Need a naming scheme that I really like.
+* There's a ton of tooling designed for this, and I'm still not sure what the output should really be.
+** single html or media files that are easy to search from the commandline and file browser
+** perhaps a metadata and tooling group outside it
+*** a mirror directory, archive-metadata, same names
+*** OCR on images
+*** speech to text where viable
+* May need to proxy this. 
+* Would be nice not to have cover old ground. Once it is done, leave it alone. Build checking after.
+* Not convinced yet the deduping will be valuable.
+* Need to automatically strip of ads...gonna have to get that tooling up and running
+
+
+<br>
+
+!! Standard Fully-Offline Archival Version of the ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱
+
+* Have the files, probably an archive directory.
+* Replace each `weblink` with `[[weblink|localfile]]`
+* May need to consider how to trim it down
+
+
+<br>
+
+!! A Compressed Archival Version
+
+* Sneakernet friendliness is a must. 
+* Where it shrinks, convert each html file into a self-uncompressing version (or perhaps it's time to just keep breaking it down further).
+** Leaving an ability to reverse this process to make it CLI friendly would be nice. Complete self-extraction. 
+* Perhaps I should set a limit, as I do with [[Music: Library]]. What can I do with 100GB? 
+** How far should I strip it? Is it even feasible to easily strip it down extremely far? 
+*** It loses a lot.
+** I'm kinda scared about images getting out of hand (and most [[vidya]] has no place). I can reliably shrink them, and I don't mind deepfrying for this.
+*** What about 50GB to non-html, text, pdf? 
+* Is it feasible to retrieve everything from a single well-compressed archive file? Interacting with content locked inside from the commandline may be reasonable in many cases. 
+** I'd want a in-browser based answer. 
+
+
+
+<br>
+
+!! Appification
+
+* Hop, skip, and a jump from just having this Beaker-Browser'ed or going even more custom (sync expensive is a serious problem, and I'd rather be agnostic).  
+* Have the browser packaged with it. Can also have the extensions/addons we think every person would benefit from.
+** raTox with webui in the browser (or perhaps the ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 itself). 
+* Eventually, arch, junest, docker, VM. 

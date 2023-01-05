@@ -1,0 +1,278 @@
+created: 20200811024322234
+modified: 20200811024658119
+tags: BDS97 Chatlog
+title: 2020.08.10 - BDS97: Devices
+
+"""
+[13:30:25] h0p3: Hello, sir!
+[13:30:33] h0p3: You hanging in there?
+[14:46:30] b3nsn0w: hi
+[14:46:31] b3nsn0w: yep
+[14:46:40] b3nsn0w: sorry, spent way too much time on windows lately, forgot to check in
+[14:52:00] h0p3: What's the world looking like from your end?
+[14:52:35] b3nsn0w: actually somewhat closer to normal than a few months ago
+[14:52:55] b3nsn0w: completely manageable and everything
+[14:52:57] h0p3: yay
+[14:54:13] h0p3: My day to day still feels similar. 
+[14:54:27] h0p3: Been lucky enough to walk more.
+[14:54:30] h0p3: What have you been up to?
+[14:55:23] b3nsn0w: kinda developed a photography addiction out of the blue
+[14:56:09] b3nsn0w: the timing sucks, still not getting out of the house much, so there's not a lot I can actually shoot
+[14:56:15] b3nsn0w: but it's been awesome
+[14:56:21] b3nsn0w: have you ever had a polaroid?
+[14:56:40] h0p3: Long, long ago
+[14:57:20] h0p3: Back when I took pictures, it was expensive enough to develop that it wasn't worth my money. 
+[14:57:38] h0p3: My wife does macro though. She takes nature photos and pictures of the family.
+[14:57:44] h0p3: It's an art.
+[14:58:18] h0p3: Are you trying out editing software alongside it?
+[14:58:42] b3nsn0w: yep, ended up settling with affinity photo
+[14:58:59] b3nsn0w: tried darktable, but I wouldn't really call it functional
+[14:59:34] b3nsn0w: it eats up all the CPU (and I'm running a 1700X, so it shouldn't) and you can move the sliders for about 1-2 seconds
+[14:59:52] b3nsn0w: then it just freezes without notice, and only applies your change after you let go
+[15:00:10] b3nsn0w: completely unusable for experimentation
+[15:00:21] h0p3: ugh
+[15:00:26] b3nsn0w: pirated lightroom, just to try it out, and the results were night and day
+[15:00:49] b3nsn0w: but I'm categorically not going with adobe stuff as long as I can avoid it, just wanted to see a baseline
+[15:01:33] b3nsn0w: affinity actually seemed slightly better to me in raw editing, it just has one drawback, it can't save your settings to modify it later
+[15:01:44] b3nsn0w: but otherwise it's quite nice, actually
+[15:02:42] b3nsn0w: anyway, I set our family DSLR up (a Nikon D5300) to shoot both raw and jpeg, rest of the family just goes with the jpeg but every time I wanna edit something I go for the raw by default
+[15:03:05] b3nsn0w: but tbh I like analog more
+[15:03:57] b3nsn0w: photography is indeed an art form, and a surprisingly fun one at that, and what I've found is if you go instant it's like fun squared
+[15:05:06] h0p3: It's something I admire from afar.
+[15:05:09] h0p3: Lol
+[15:05:55] h0p3: I keep a few tools for recording in tight spots, and I'll very rarely send a picture to a friend. 
+[15:06:16] h0p3: Been thinkin' about the Pinephone lately.
+[15:07:05] b3nsn0w: yeah, it does look nice
+[15:07:33] b3nsn0w: honestly, if there was a dumb phone that supported all the mobile authenticator crapware we have to use nowadays and could act as a hotspot, I'd switch like right now
+[15:07:50] b3nsn0w: I refuse to call them two-factor, you can do everything from your phone, that's still just one
+[15:07:56] h0p3: haha
+[15:07:59] b3nsn0w: it's just that if you wanna do stuff off your phone, you still need the phone
+[15:08:24] h0p3: I'm convinced that if I had a pinephone, I'd still have to have an android too.
+[15:09:52] b3nsn0w: yeah, could be
+[15:10:23] b3nsn0w: it's hella cyberpunk that we are obligated to let one of two global megacorporations have such an influence over our lives
+[15:14:03] h0p3: What do you think about Apple perhaps migrating to ARM and possibly Nvidia's purchase of it?
+[15:15:01] h0p3: I'm having a hard time believing that migration can be complete, or userland will become cordoned off, or virtualization is going to make a leap somewhere?
+[15:15:11] b3nsn0w: control freaks doing control freak things on Apple's side
+[15:15:26] b3nsn0w: I don't see any real-world benefit, or even performance equivalence
+[15:15:34] h0p3: Single-threaded ARM is not there.
+[15:15:45] b3nsn0w: it's just that a modern ARM CPU is enough for light desktop work, so it's technically possible
+[15:16:11] b3nsn0w: and Apple places more value on having iPhone-level control over their laptops than on their actual performance
+[15:16:48] b3nsn0w: actually, this could even end up backfiring in the long term
+[15:17:27] b3nsn0w: they're obviously betting on being able to catch up to and overtake Intel and AMD, in which case they would have total control over the most powerful CPUs in the world
+[15:17:58] b3nsn0w: but that's not how it tends to play out with companies that lost their great visionary
+[15:18:33] h0p3: all hail, haha
+[15:19:10] b3nsn0w: (go ahead, I was gonna switch topics)
+[15:19:18] h0p3: ah, switch away
+[15:19:28] h0p3: happy to thread multiples too
+[15:19:34] b3nsn0w: nvidia is a lot more interesting IMO
+[15:19:50] b3nsn0w: like, afaik they still have some salt about not being able to play in the CPU game with Intel and AMD
+[15:20:07] b3nsn0w: and if high-performance ARM was to happen, this could be their chance
+[15:20:08] h0p3: They are even bigger dicks than Intel (and that's saying something).
+[15:20:24] h0p3: Do those two companies know something special we don't here?
+[15:21:25] b3nsn0w: no clue, but I don't think they have to for both of these moves to make sense
+[15:21:29] h0p3: Intel has fucked up so bad, but they probably still have a decade left before they are actually behind. Fact is that I still would prefer one of their chips in a ultranetbook* to any other option so far.
+[15:21:55] b3nsn0w: over ARM?
+[15:22:02] h0p3: Yeah.
+[15:22:20] b3nsn0w: yeah, agreed on that, one of my best calls about hardware was to get an x86 chromebook
+[15:22:40] b3nsn0w: had that thing for five years, it had a great run
+[15:22:52] b3nsn0w: actually still works, even if it's a bit slow nowadays
+[15:23:24] b3nsn0w: but, speaking of intel, they seem kinda stuck on skylake's level
+[15:23:26] h0p3: I agree to the claim that it makes sense for Nvidia. Nvidia needs a CPU pipeline they own to build SoCs for ML.
+[15:24:05] h0p3: They can't make a new fab. TSMC continues to rise.
+[15:24:19] b3nsn0w: yep, I'm pretty sure TSMC won the silicon game
+[15:24:46] b3nsn0w: Intel's last chance is their 7nm process, if they can compete TSMC 5nm with that they're still in the game
+[15:25:02] b3nsn0w: otherwise, no one who fell out of the game has ever come back there
+[15:25:36] b3nsn0w: although, Nvidia seems to be trying to keep Samsung alive
+[15:25:45] b3nsn0w: at least there are rumors they wanna make GPUs with them
+[15:26:08] b3nsn0w: makes sense for them IMO, always better to have multiple suppliers, and they are beating AMD right now on an inferior node
+[15:26:23] b3nsn0w: they don't need to chase the bleeding edge
+[15:28:39] h0p3: Nvidia seems like the winner here.
+[15:29:39] h0p3: Propietary advantages, and they may own the usable "open" chip. Strong enough that people pay for access to their own datacenters.
+[15:30:04] b3nsn0w: I don't think they could mess with ARM licenses tbh
+[15:30:19] b3nsn0w: you can actually buy a lifetime license and everyone who counts already did
+[15:30:41] b3nsn0w: that's why ARM isn't really making a ton of money, compared to how widespread their architecture is
+[15:31:16] b3nsn0w: but they could at least enter the market now, if ARM on desktop became a real thing
+[15:31:48] b3nsn0w: and while I do dislike their practices too, I actually like them more than Intel, for one reason alone
+[15:31:51] b3nsn0w: nvidia actually innovates
+[15:32:49] b3nsn0w: they are staying in the lead because they actually have the better cards, even if they price it a bit too high
+[15:33:32] h0p3: Their software stack is miles better too. It's easier to make the Nvidia card do what you want it to do. 
+[15:34:58] h0p3: I don't know enough about the licensing for ARM, but I have a hard time believing Nvidia is going to pick it up if they don't have a way to jack the price up and sink more controlling teeth under the hood for future chips.
+[15:36:02] b3nsn0w: they could probably start doing new CPU core designs and sell those, or something like that
+[15:36:19] b3nsn0w: dunno how that works, but I have a hard time imagining that a perpetual license would give you everything ARM ever develops
+[15:36:40] b3nsn0w: it's probably more like you can use the architecture forever in your own designs
+[15:37:10] b3nsn0w: it could just be due to patents or knowledge, to kickstart an nvidia CPU line or something
+[15:37:19] h0p3: That too. 
+[15:37:25] h0p3: For patent wars alone.
+[15:37:39] b3nsn0w: but you do have a point, they are paying way too much for it to be worth it if they don't have big plans with it
+[15:38:39] b3nsn0w: I'm starting to think both of these companies were betting on only having to compete Intel in the CPU space
+[15:39:00] b3nsn0w: if that was actually the case, Apple could be good enough this year, and actually ahead in two years
+[15:39:31] b3nsn0w: and nvidia wouldn't have a hard job with a long term ARM strategy either
+[15:39:49] b3nsn0w: like, intel seems to be stuck on skylake's level for five years now
+[15:40:24] b3nsn0w: even sunny cove isn't helping, it's better in IPC but it's also more power hungry and they just can't make it at a high enough volume either
+[15:42:35] b3nsn0w: I'm actually replacing the chromebook btw, the new laptop should arrive in like two days
+[15:42:42] h0p3: Neat. What did you get?
+[15:43:03] b3nsn0w: lenovo flex 5 14 if I remember the order of those numbers corrrectly
+[15:43:21] b3nsn0w: only one I could find with a Ryzen and pen support, at least in this price range
+[15:43:35] h0p3: Downright sexy
+[15:43:51] b3nsn0w: it comes with a 4500U, so I'm kinda expecting it to be ridiculously powerful
+[15:43:56] b3nsn0w: at least for its size
+[15:43:59] h0p3: Aye.
+[15:44:27] b3nsn0w: 8 GB RAM, 256 GB SSD, 1080p screen, just the essentials
+[15:44:54] b3nsn0w: the ports and the layout is actually almost the same as my chromebook, but all ports are 3.1, no more usb 2
+[15:46:25] h0p3: Might be nice for drawing too.
+[15:46:33] h0p3: I recently had to acquire some 2-in-1s for the family (forcing my offspring to build them out and lock them down, then hand me the keys) for school (since they always find a way to fuck off...and I don't want to mess with their machines). HP Elite X2 1011 G1 for $250 off ebay. 
+[15:47:10] h0p3: I'm also on the hunt for local handwriting-to-text conversion, but nothing seems good enough.
+[15:48:04] b3nsn0w: microsoft has a thing in windows ink where you can just use a pen to write into input fields
+[15:48:16] b3nsn0w: I use it sometimes on the surface, not the best ever but managable imo
+[15:48:42] b3nsn0w: if you use windows, of course... never tried it on linux, my huion pen doesn't work there and haven't put ubunut on my surface
+[15:50:38] b3nsn0w: looking at these hp things by the way, they don't seem too bad
+[15:50:56] b3nsn0w: the one I found is actually not that far from the surface go
+[15:53:04] h0p3: The CPUs suck on them, but they are usable. I'm hoping they'll find the touchpad more useful than I do. Have it dualboot, but trying for Windows host and i3-Manjaro VM. I want them to have the benefit of using Windows...somethings are wildly easier that way.
+[15:53:22] h0p3: touchscreen*
+[15:54:06] b3nsn0w: which CPUs did you get?
+[15:54:44] b3nsn0w: didn't find anything about it on HP's site, and the one I found was on a local site
+[15:55:11] b3nsn0w: it had some Y-series chip that was a hyperthreaded dual-core at a 2 GHz boost
+[15:55:20] b3nsn0w: that's actually pretty good, better than my chromebook's CPU
+[15:55:55] h0p3: M-5Y71, 8GB, 256GB. 
+[15:56:11] b3nsn0w: but I'm assuming they have multiple variants, HP just forgot to list them
+[15:56:39] b3nsn0w: holy crap, and that's for $250
+[15:56:46] h0p3: I hunt, hehe
+[15:56:57] b3nsn0w: that's awesome
+[15:57:31] b3nsn0w: sometimes I kinda envy the harware market you have access to, everything costs way too much here
+[15:57:57] h0p3: It's stupid awesome here for that. Living outside the US, it felt like a kick in the nuts buying anything.
+[15:58:15] b3nsn0w: it does, every time
+[15:58:49] b3nsn0w: I don't actually even blame the US for that, half of it is just the companies focusing on it, and the other half is local governments
+[15:59:02] b3nsn0w: like, the other day I decided I wanted an $8 keychain from amazon
+[15:59:09] b3nsn0w: they wanted $44 for shipping it here
+[15:59:13] h0p3: Wow.
+[15:59:15] h0p3: Fuck that
+[15:59:23] b3nsn0w: and it costs like $9 to ship to germany
+[15:59:40] h0p3: How much has Amazon integrated into your life?
+[15:59:53] b3nsn0w: basically not at all
+[16:00:16] b3nsn0w: no prime stuff here, no echo, no TV, kindles are rare, and even for online shopping it's just one of the options, not even the default
+[16:00:50] b3nsn0w: it's a place I check if I want something obscure that I can't find locally, but other than that it's not really a thing to think about
+[16:01:21] b3nsn0w: actually, I remember I got a few ebooks and comics on kindle, but that's because I'm a freak who likes reading in English way more than in Hungarian
+[16:01:30] b3nsn0w: even ebooks aren't usually done on amazon here
+[16:02:02] b3nsn0w: also, checked a while ago, apparently if you buy a kindle you have to pay to get it to stop advertising on the lock screen?
+[16:02:09] b3nsn0w: what the fuck kind of practice is that?
+[16:02:39] b3nsn0w: anyway, sorry, go ahead
+[16:03:39] h0p3: Ah, don't mind me, I'm slow, lol! One of my favorite parts about talking with you. I'm lucky to hear what you have to say.
+[16:04:47] h0p3: It's not quite WeChat level for us. We don't use it for anything except shopping for physical goods, but it's pretty damn integral for us. I would not have predicted this a decade ago, and I'm still unsure where it's going.
+[16:06:31] h0p3: Also, I've had inflation on the brain for several months.
+[16:07:22] h0p3: Thinking about what goods (besides gold and guns, which aren't for me) I'd use that might be necessary.
+[16:07:42] h0p3: You know me, paranoid crazy person prepping for teh armageddonz.
+[16:08:06] b3nsn0w: prepping for a broken supply chain?
+[16:10:28] h0p3: That's well under way, and plenty of commercial collapse is already occurring. Looks like a powerful set of legal battles coming in the US. I anticipate further consolidation. The Fed is straight up printing their way out of this one (hard to imagine it as the reserve currency if that stays the same), handing low-interest loans that are just being piled back into the stockmarket because there is no where else for it to go.
+[16:11:38] b3nsn0w: damn, that sounds rough, but it does kinda make sense
+[16:12:33] h0p3: Looking to see what happens with the schools "opening up" and the clusterfuck that is the election cycle (memetic warfare is increasing).  I'm looking at 2021, and I'm not able to predict that it gets better.
+[16:13:45] h0p3: I say this sitting pretty in my chair. I like where I live, what I get to eat, going on the trail to walk, and we are profoundly privileged. My family will likely weather the storm, but the bottom 10%...fuck.
+[16:14:43] b3nsn0w: it's only gonna get better in two ways, either the vaccine ends the apocalypse rollercoaster or it ends by itself because the virus infects so many people it runs into itself and cannot keep growing
+[16:14:55] b3nsn0w: and on your leadership, I'm honestly not expecting them to give a fuck anytime soon
+[16:15:00] h0p3: =(
+[16:16:03] b3nsn0w: it's horrible, seems like you managed to catch the most selfish bunch imaginable just in time for the armageddon
+[16:17:34] b3nsn0w: kinda hoping for an "after times" when the people are shook by the tragedy and start to actually build a better world, like after WW2, but who knows, way too much power is in the hands of people who only want more power
+[16:18:48] h0p3: You always know how to make me feel better, haha. =)
+[16:19:10] h0p3: Yeah, I hope something good will come from it. It might. I agree.
+[16:19:33] b3nsn0w: lol, sorry, I'm just thinking out loud, and don't really know much about feels in this case
+[16:19:53] h0p3: Will you be able to weather any big storms? What does a big storm look like for you and loved ones?
+[16:20:20] b3nsn0w: I'm pretty sure we're safe about it
+[16:20:33] b3nsn0w: didn't even consider what a big storm would look like, but I think we're already through the worst of it
+[16:21:08] h0p3: Good. Hopefully, it will be bidness as usual for ya. 
+[16:21:31] b3nsn0w: Hungarians are idiots too on average, but at least most people do wear masks, and our government builds propaganda out of beating the virus, not denying it
+[16:21:50] b3nsn0w: so yeah, aside from it being hella boring, I barely felt the change
+[16:22:01] h0p3: You would be horrified to meet some of my family members. 
+[16:22:12] h0p3: I don't mean to downplay the radical lifeloss of CV19, but it feels like a single Jenga piece to me.
+[16:22:27] h0p3: Also, actual life hasn't changed much in our immediate household. 
+[16:22:44] h0p3: Already so cloistered, just another Tuesday.
+[16:23:17] b3nsn0w: lol
+[16:23:19] b3nsn0w: this is the way
+[16:23:40] b3nsn0w: have you ever read or watched harry potter 5?
+[16:24:35] h0p3: Yes. I grew up as the same "age" roughly as the characters. I'm a fan!
+[16:24:53] h0p3: (same age when the books came out)
+[16:24:58] b3nsn0w: that's awesome
+[16:25:15] b3nsn0w: my parents initially tried to make me wait for my birthday to let me read the next book
+[16:25:23] b3nsn0w: tried
+[16:25:26] h0p3: haha
+[16:25:41] b3nsn0w: anyway, you know the Black family has that tapestry, with the burnt out family members
+[16:25:57] b3nsn0w: we kinda managed to do it, even if we never actually had anything about purebloods
+[16:26:13] b3nsn0w: like, when my dad left, we just flat out cut all contact with his mother
+[16:26:37] b3nsn0w: same with my cousins' dad
+[16:26:52] b3nsn0w: they were the two main sources of idiots in this family
+[16:27:05] b3nsn0w: so luckily we don't have much drama nowadays
+[16:27:26] h0p3: I appreciate that problem quite a bit. 
+[16:30:08] h0p3: Not even sure where to begin on that one, lol.
+[16:32:23] h0p3: I limit what I say directly to anyone, and I make it clear that discussions with me are always going to be expensively honest and transparent. Interesting part of the wiki is that it counts as evidence as to the degree or kind they wish to be intimate with me, to know me, to connect, to think and feel about what the other is thinking and feeling. 
+[16:33:46] h0p3: In some cases, it either limits contact (sometimes reducing it to just smalltalk) in virtue of what they are willing to speak about with me.
+[16:34:38] h0p3: eliminates it altogether, or allows us to build on a foundation.
+[16:35:49] h0p3: I don't buy Hanlon's Razor. I don't think they are idiots or mere drama-queens, I think they are people who choose to be evil (but I still want to give them a path for not being evil with me).
+[16:36:48] h0p3: Been interesting to see that for my wife and offspring too. It allows us to thoroughly inspect our families.
+[16:37:49] b3nsn0w: damn, it's so interesting to talk to you when you bust out the big guns on philosophy
+[16:38:21] b3nsn0w: feels kinda like playing chess with a high-level player, like everything is just suddenly insanely complex and intricate
+[16:38:32] b3nsn0w: I like it a lot, just still trying to piece it together
+[16:39:10] b3nsn0w: but yeah, that approach does sound interesting
+[16:39:51] b3nsn0w: sound to me it's a pretty good way to filter for the people worth talking to
+[16:39:58] h0p3: Yes!
+[16:40:35] h0p3: That is a crucial consequence of one my axioms. 
+[16:41:07] h0p3: Consciousness is a filter, picking out what is salient in a context for some goal, and we must fade out what is not relevant enough for what is. 
+[16:41:21] b3nsn0w: on Hanlon's Razor, I tend to watch for intent and effect to figure out what's behind it
+[16:41:46] b3nsn0w: like, when I have doubt between stupidity and malice, I just defocus from the words they are saying and see what it is achieving, and what it's likely trying to achieve
+[16:41:54] b3nsn0w: it's much harder to lie with that than with words
+[16:41:59] h0p3: You are likely a much better judge of people than I am, and way, way nicer. I think your family members and friends are lucky to be with you.
+[16:42:22] h0p3: I appreciate trying to hunt for intent like that.
+[16:42:44] h0p3: That's gotta be part of interpreting whatever symbols they hand you.
+[16:43:00] b3nsn0w: thanks, internet flamewars do this to you after a while
+[16:43:04] h0p3: lol
+[16:43:07] b3nsn0w: it's actually pretty good practice
+[16:43:12] h0p3: Agreed.
+[16:43:34] b3nsn0w: if you happen to like something controversial, for example anything Elon Musk does, or Intel vs AMD, you will get all kinds of people
+[16:43:53] b3nsn0w: there are some that are legitimately curious, there are a few who just ate the FUD, and then there are the real trolls with the agendas
+[16:44:14] b3nsn0w: and I hate to be an ass to the people who aren't trying to chase an agenda
+[16:46:00] h0p3: These days, I'm trying to find ways simply to safely elicit elaboration from people who appear to have something more to say (and something valuable at that) but simply need someone to ask them to say it (they wouldn't feeling comfortable otherwise).
+[16:46:28] h0p3: I've had luck on HN with that tactic.
+[16:47:20] h0p3: Been consuming more Tiktok maymay drugs lately. 
+[16:47:57] h0p3: Don't have the app, but I appreciate being able to watch from the outside.
+[16:48:24] b3nsn0w: yeah, the amount of reposts that come from there are kinda alarming
+[16:48:55] b3nsn0w: I don't know a thing about tiktok other than being able to recognize it, but it's just weird
+[16:49:12] b3nsn0w: like, most social media sites tend to have a point to their existence
+[16:49:41] b3nsn0w: "let's make a site where sharing photos is fun", or "let's make a site where people can just text the world"
+[16:49:54] b3nsn0w: it's not always a good idea, but it's an idea, and it just kinda grows from there
+[16:50:01] b3nsn0w: in the case of tiktok, I'm just not seeing it
+[16:50:45] b3nsn0w: unless that idea is "let's make a site that all the teens use so we can spy on them", but let's give them the benefit of doubt just to explore if that makes any sense
+[16:51:27] h0p3: When I was working in the Afterschool Program, Tiktok was even bigger than Instagram. They weren't the sorts of kids who tended to like to read (though I was lucky to have exceptions). They lived in online video.
+[16:52:08] h0p3: It was almost an instinct for them.
+[16:52:25] b3nsn0w: strange
+[16:52:29] b3nsn0w: what's the point in it?
+[16:52:32] b3nsn0w: I mean, there has to be one
+[16:54:42] h0p3: Updoots. Feeling good about hey the signaled to the other primates. Just having a good time making a music video dance routine with their buddies. Recording their narratives with the tools available to them; they learned to tell the stories of who they were or dreamed they were through this medium. 
+[16:54:57] h0p3: how they*
+[16:55:21] h0p3: What's the point in any transfer of information between minds? It's there in Tiktok. 
+[16:56:49] h0p3: High-bandwidth, requires little planning or technical knowledge, built-in meme trends to mimic. It's all silly fun as a drug, but it actually is the only living external memory of their lives (and they don't really own in a whole bunch of ways). 
+[16:58:58] h0p3: Imagine a tool like Tiktok nudging the course of human history, elections, economies...lawd.
+[16:59:21] b3nsn0w: the drug part is a good point, I'm definitely an upvote addict already
+[16:59:35] b3nsn0w: I just don't get how tiktok became the drug everyone uses lately
+[16:59:43] h0p3: We are old.
+[17:00:12] b3nsn0w: sure, and I'm trying to step away from that, don't want to be the "look, gramps doesn't know how to handle a phone"
+[17:00:33] b3nsn0w: even though I hate phones (although not for the lack of understanding them, more for the intent their makers had)
+[17:00:38] h0p3: aye
+[17:00:42] h0p3: I appreciate that.
+[17:01:18] b3nsn0w: and btw, tiktok is absolutely changing history already
+[17:01:22] h0p3: I agree
+[17:01:30] b3nsn0w: had a talk with a friend a month or so ago
+[17:01:52] b3nsn0w: we talked about the george floyd protests and it was like we were shown two completely different viewpoints
+[17:02:03] h0p3: Indeed!
+[17:02:07] b3nsn0w: he was saying how terrible the protesters were to those good cops
+[17:02:33] h0p3: hyuck hyuck
+[17:02:38] b3nsn0w: I asked for his sources on that, he said his god-daughter watches tiktok so he kinda started too
+[17:02:50] b3nsn0w: luckily, that ended well, he really likes john oliver and he made a video about that
+[17:03:20] b3nsn0w: but it's crazy how much an information source like that can shape the views of a pretty damn intelligent and well-meaning guy
+[17:04:16] h0p3: I am fascinated and totally lost in recent attempts to acquire Tiktok. 
+[17:04:39] h0p3: Feels even bigger than the ARM question to me. 
+[17:05:11] b3nsn0w: yeah, that's huge
+[17:05:43] b3nsn0w: and honestly, I agree with the US leadership there, it is China's attempt to control culture in the US and absolutely a threat to national security
+[17:05:48] b3nsn0w: it's not like China allows Facebook
+[17:06:25] b3nsn0w: actually for the same exact reason, even if facebook hasn't been doing that much back when they banned it
+[17:10:42] h0p3: I'm always in this predicament (regardless of how I try to curate and burst artificial filter-bubbles) where I have to make guesses about where anti-China information comes from and why. There are many attempts at control. Huge pushes on Twitter and Reddit. Confucius Institutes. I can't even begin to guess how Google is shaped. I agree that Tiktok is a technical and memetic trojan horse.
+[17:12:42] h0p3: Shit. I have to go. Shopping for the month (family pulling me out). I will, of course, think about and respond to anything you say. Stay safe, sir! Never forget that you have a place with us should you find your way onto this continent.
+[17:13:11] b3nsn0w: alright, have a safe trip
+[17:13:47] b3nsn0w: and sorry in advance if I forget to log in again for a long time, although I suspect it's gonna happen sooner this time
+"""

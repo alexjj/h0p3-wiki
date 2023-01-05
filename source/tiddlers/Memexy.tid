@@ -1,0 +1,54 @@
+created: 20200616041100464
+modified: 20200616041358172
+tags: [[FTO: Seemingly One-Off Online Encounters]] FTO [[FTO Mode: Alien]] Chatlog
+title: Memexy
+
+!! Information:
+
+* dk
+* memexy@fastmail.com
+* https://news.ycombinator.com/user?id=memexy
+
+!! Communications:
+
+Feel free to ignore me, stranger. I'm just curious: have we ever met? If not, sorry to bother you! 
+
+<<<
+But you seem to be interested in knowledge/wiki technology as augmentation for cognition. What other tools do you use to organize what you're learning other than TiddlyWiki?
+<<<
+
+I suppose it depends on what you mean by organization (I would argue my entire computer does this, and I'm willing to extend my notion of knowledge-seeking instrumentality far enough that it probably wouldn't fit your intention here). Tiddlywiki is the primary and perhaps sole tool. I want a unified exobrain.
+
+<<<
+How do you deal with multimedia information? Videos for example often contain a lot of useful information but without a transcript it's very hard to index and search content in videos.
+<<<
+
+Yes, I agree that this problem seems to extend far (I apologize for sounding obtuse or worse, and it's my honor to continue to answer your questions as best I can). I have a place on my machine (my monster) that is the centralization of my work, but it still relies upon hundreds of millions of files, virtual machines and containers, hundreds of processes, thousands of browser tabs, etc. It slowly evolves, like your system too. Unironically, I'm a philosopher. My existence is about picking out salient knowledge. I need my computing infrastructure to do what I do. Information trickles (and, when I'm lucky, pours) into the wiki as the product machine.
+
+If a video has information I think may need to be explicitly remembered or reused, I extract it out or point to it. Video can be embedded in the wiki (the wiki is arguably a virtual OS), but I find links and citations do enough work for me so far. I've got over ~20k external links in my wiki (~60k internal). Like other kinds of media, I keep a video library too. Eventually, speech-to-text over my linked archive will allow me to grep through videos too.
+
+I'll agree that sometimes non-text is the best way to represent information. I still consider text to be king though. I also design a wiki that is not merely meant for me and must meet a set of technical specifications that require me to stick to text as much as I can.
+
+I cannot say I am excellent at organizing (I think this extends into my dialectical identity in general). Maybe that is the word we should focus on for a bit. What do you mean by organizing information, given what resources, and for the sake of what?
+
+<<<
+I'm interested in building Vannevar Bush's memex. If we can equip and empower everyone to build and managed their own associative knowledge trails then we can enable and accelerate civilizational progress. That's why I'm interested in organizing and indexing information because information is a key driver of progress.
+<<<
+
+I see that in your name clearly. I think we are largely in agreement. I promote Tiddlywiki because it has the right properties for it.
+
+I will ask: progress toward what? That too, of course, can only be justifiably answered with particular knowledge. Like any tool, flat knowledge can be used for great evil too. I suggest that digging ourselves out of some serious holes we find ourselves in today requires this network of memexes. I'm convinced democracy cannot be maintained without everyone's participation in seeking knowledge and building Humanity's knowledgebase together. I have no idea how to do that well enough.
+
+Way into perhaps the overly optimistic sci-fi futurist world, I hope that one day, MLed models of my wiki will allow me to traverse the web for what I'd find salient and enable automated responses and voting.
+
+<<<
+My plan is to allow code execution in the knowledge base so that as the knowledge base grows code execution can help me uncover connections and ideas I would not have thought of otherwise.
+<<<
+
+Yes, definitely. What kinds of processes do you have in mind?
+
+I find myself working on improving search approaches pretty often. Automated categorization and association are hard to make useful, but I'm interested in that too.
+
+<<<
+Currently looking at Tensorflow.js. It can run in the browser and JavaScript is a very accessible language so both beginner and expert programmers can benefit.
+<<<

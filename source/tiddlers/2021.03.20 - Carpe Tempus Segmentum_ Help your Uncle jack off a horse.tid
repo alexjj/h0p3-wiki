@@ -1,0 +1,57 @@
+created: 20210320083541916
+modified: 20210321104243250
+tags: [[Carpe Tempus Segmentum]] [[Computer Musings]] Dreams [[MTG Log]]
+title: 2021.03.20 - Carpe Tempus Segmentum: Help your Uncle jack off a horse
+
+Laundry. [[TTTOTW]]. Tortilla chips, rice, water. Dancing, my kings. Ruminating. Investing myself in my conversations, mostly in memory. The hard drive is too slow, but I have to read for swap. Fireman Time! Cleaning and organizing my room. LolVod candy.
+
+Slept very poorly. Half-brained. Not grumpy, not anxious, not even sad. A better than neutral curious feeling. I'll take it! Fireman Time!
+
+[[TTTOTW]]. Hugs'n'bugs. Assignments. 
+
+Inform the Men! Meditation. Shower of the gods! We were going to go out, but I fell asleep. I needed it. Thank you.
+
+Match with my daughter. G1, mull, and she kept answering my bombs until she couldn't. G2, double mull from me, she ended the game with BSkull, Austere, Angel of Despair, Chord of Challing, Oblivion Stone, and something else in hand, a turn too late on her mana development. Yikes.  Joined my bro downstairs for vapelyfe.
+
+[[TTTOTW]]. Fireman Time!<<ref "i">>
+
+[[Family Gathering]] was delightful. Offspring made ribs, heavily seasoned wedges, and a veggies platter. I had coffee, plus vapelyfe. Putting food in our belly is a necessary seeming game to gather us together. Food and conversation: The {[[Dream]]}. Older they get, the more it's them talking. I got punched and kicked a lot tonight. =). A game with my son. We need more iterations. He'll develop the sense he needs. Eventually, we may need to do constructed on machines at the table (touch screens should make it more interesting too); there is only so much construction we can learn inside limited. Late, late into our dive, we will think about what it means to construct our own formats (cards as well, if we must<<ref "w">>). 
+
+Assignments, `/sigh`. Chillin with broski downstairs. Thinking about "as I do" demonstrations of the [[ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱]]. Looking through my daughter's older work. XOXOs.
+
+[[TTTOTW]]
+
+
+```bash
+# h0p3@monster-16 ~/
+
+yay -S guix-installer --noconfirm
+wget 'https://sv.gnu.org/people/viewgpg.php?user_id=15145' -qO - | sudo -i gpg --import -
+sudo guix-install.sh #yes
+#info guix
+#guix pack -RR --no-grafts --compression=xz --symlink=/usr/local/bin/nyxt=bin/nyxt nyxt 
+# Guix et al, absolute pleasure watching this, btw. Thank you. 
+## Wish there was a clean way to leverage trust in other packagers for this. 
+### Really, upstream has to be automated and moderated into fully distributed packaging systems. That network can make the base. It's always a fucking a trust problem in the end. Ugh. I don't have an answer I like. 
+# Gorgeously moral, from what I can understand. We are very lucky to use your software. Thank you.
+# Multi-threaded, asynch (with the right locks) would be useful. 
+## Ultimately, hosting the binaries on a highly distributed system makes sense to me too. One of them is for developers, the other for us lazy and lucky retards. I realize you still need an expertise ramp. 
+### some overlap with http://akkartik.name/akkartik-convivial-20200607.pdf
+## Autoseeding
+guix pull
+guix package -u
+GUIX_PROFILE="/home/h0p3/.guix-profile"
+. "$GUIX_PROFILE/etc/profile"
+guix install nyxt
+nyxt
+# Unfortunately, it died within a few minutes. Seems interesting though. A hybrid between the CLI and Browser may eventually be the only decent answer. 
+## Can't help but wonder if well-jailed containerization with a standard terminal isn't just better with heavy work on maximizing navigation through it isn't best (still would want to go crazy custom in designing the console/emulator). 
+### If it's too slow, then capture/siphon off input for the binary and inject/merge output into the emulator.
+```
+
+
+
+---
+<<footnotes "i" "At what point is it erectile dysfunction? I assume it should be harder `/fingerguns` to gather and maintain an erection on such a schedule. Does what the doctor don't know don't hurt him or me on this one?">>
+
+<<footnotes "w" "Admittedly, it would be interesting to generate our own unique cardpool from scratch. My daughter could do the art (I refuse flavor text and backstory though, [[JHBFC]]), if she wanted. I'd be interested in working much more symmetrically on color balance WITHOUT color roles (only incidental, temporary, modifications to the cardpool expected, etc.). At which point, why even produce colored mana? Why not Z-type mana, and so on? Tripod coloration instability seems best, dialectical too. Maybe a shared colorless resource and 3 unique colors (or just 2). 3 damage types (and defenses), a la LoL, true/magic/physical. We could attempt to gut the engine, part it out. Like the amazing Private EQ Hackers of yore. What if it was a strictly snowball-limited construction style like Dominion? 2-players only though, fuck your politics. Ascension each time you flip the GY; lots of mechanics to think about. The fact is that I want something as rich and complex as [[MTG]] here. Like draft a pack, make a starter deck, kindling, and then you can just draw from one of a handful of piles randomly, singleton. No, no, no: this should be engineered with ML in mind and perhaps even heavily ML tested, from the beginning. That framework, the one that was missing in every game I've ever played, real balance.">>

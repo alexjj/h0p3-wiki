@@ -1,0 +1,10 @@
+created: 20200520051135643
+modified: 20220911210936634
+tags: [[Wiki Mechanic]]
+title: Backlinks
+
+<$list filter="[all[current]backlinks[]sort[title]]" emptyMessage="">
+<$link to={{!!title}}><$view field="title"/></$link>
+<$context length=80 term=<<storyTiddler>> />
+<br>
+</$list>

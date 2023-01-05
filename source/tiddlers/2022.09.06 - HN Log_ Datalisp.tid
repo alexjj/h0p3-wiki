@@ -1,0 +1,47 @@
+created: 20220907040719338
+modified: 20220907040854146
+tags: Chatlog [[HN Log]] ilmu
+title: 2022.09.06 - HN Log: Datalisp
+
+https://news.ycombinator.com/item?id=32727470
+
+<<<
+>>> Alright so you can go check out datalisp.is and tala saman then.. it's my attempt
+
+>> `/nod`. I hear ya. RSS and mutable torrents seem like a fine starting place (if only to learn from), and I think we could argue ActivityPub's community has attempted to work on this problem. I worry that if we can't achieve the underlying distributed network (and effective DHTs [or the overlays on them] have a very long way to go, imho), we will lack the proper testing grounds to even know what the fitting standard(s) should be at some level. I hope I'm wrong about that.
+
+>> I could see federated networks perfecting some aspects of self-sovereign, decentralizable identities or portable logical accounts, as well as fitting standards for sharing the data we find most salient among that federation. It's a start. I can't say something like Mastadon has succeeded here, but these amazing projects simply haven't received the funding they deserve. I could also imagine a centralized, for-profit institution creating something similar, but it would be a trade secret. I hope we find the answer before they do.
+
+>> I'm not going to work on that problem until I have an underlying p2p network meant to actually replace at least the web (and, I am, of course, a huge fan of Sir pfrazee's astounding work in this sphere). I consider that an extremely tall task as it is, and, so far (and I say this with profound [[gratitude]] for those who have worked to solve the problem), nothing comes even close.
+
+>> It's a pleasure to meet you, btw.
+
+> In order to start doing this we need a standard to build on. The simplest thing should be the easiest thing to agree on and that has been the case so far in how math has moved forward (afaict) but sometimes local optimas get in the way of progress.
+
+>>> I wouldn't say the innovation has stopped, but I will agree that the average person who uses the internet is far less likely to care about p2p tooling. It's also pretty hard to find people willing to construct exceptionally complex networks that cannot be monetized by their very nature.
+
+>>> A proper all-in-one library or binary for NAT Traversal (state of the art will only hit 95%) and next generation high-performance secure DHTs (secure in terms of privacy, anonymity, and resistance to attack) with multi-segmented transmission of data (bonding is critical for slow tunnels, bad peering, and maximizing the value of swarms), mutable content-addressable storage, baked-in obfuscated tunneling, and revokable + intelligent multi-device logical accounts (it's necessary to have our own devices and our friends proxy for us to solve some kinds of problems) is the missing foundation. Ideally, you'd be able to have lots of p2p applications sit on top of one network orchestration tool, otherwise you'll blow the average person's resources just trying to stay alive on multiple networks.
+
+>>> In applying the "decentralize until it hurts, then centralize until it works" mantra, I find we've still not attempted to decentralize as much as we should. Plenty of the experts I respect disagree with me there, so take my opinion with an extra grain of salt.
+
+>> Iterating on the tech in P2P networks (outside of web3) still feels like it’s attainable.
+
+>> Feels like a lot of the innovation stopped when Pirate Bay was repeatedly targeted, but there’s still lots possible in that space (outside of torrenting).
+
+> You can use links, webrings, and word of mouth. You can crawl (for non-web this may require quite specialized tooling), scrape, and compile a database for search (which can be done locally using whatever tools you prefer or even a full-blown webserver like gigablast or YaCy); and, to some degree, these practices themselves can be further decentralized and shared. Scaling is hard, especially if users expect immediate results or there are adversarial nodes to contend with.
+
+> Ideally, we could programmatically share feeds of curated and tagged information with each other that can be nested, mixed, or further shaped. Leveraging our trust in others (and their trust in others by proxy), which can be similar to some problems in distributed governance, is a p2p holy grail, imho.
+
+While the web itself is built on a series of decentralized protocols (TCP/IP, HTTP, DNS), discoverability is still centralized on platforms like Google Search, Twitter, YouTube, etc...
+Even web3 stuff relies on centralized indexes/marketplaces like OpenSea.
+
+The idea of mirroring an index (Pirate Bay), or having a distributed database (DNS), is fascinating to me.
+
+These are the examples I can think of:
+
+DNS UseNet FidoNet PirateBay Mastadon
+
+Any others?
+
+What could "decentralized discoverability" look like for content?
+<<<

@@ -1,0 +1,36 @@
+created: 20190301145916990
+creator: Mohammad
+modified: 20190317081030129
+modifier: Mohammad
+tags: $:/tags/Macro
+title: $:/plugins/kookma/commander/macro/compConfirmDelete
+
+\define compConfirmDelete(
+btnLabel:"Delete these tiddlers", 
+confirmMessage:"Are you sure you wish to delete", 
+stateTiddler:""
+countFilter:"", 
+actionMacro:"")
+<$set name=resultCount value={{{ [subfilter<__countFilter__>count[]] }}} >
+<$reveal type="gt" text="0" default=<<resultCount>> >
+<$button popup=<<qualify """$stateTiddler$""">> class="cm-btn">$btnLabel$</$button>
+</$reveal>
+
+<$reveal state=<<qualify """$stateTiddler$""">> type="popup" position="belowleft" animate="yes">
+<div class="tc-block-dropdown-wrapper">
+<div class="tc-block-dropdown tc-edit-type-dropdown">
+<div class="tc-dropdown-item-plain">
+$confirmMessage$ <<resultCount>> tiddler(s)?
+
+</div>
+<div class="tc-dropdown-item-plain">
+<$button class="cm-btn">
+<$macrocall $name=<<__actionMacro__>> />
+$btnLabel$
+</$button>
+</div>
+</div>
+</div>
+</$reveal>
+</$set>
+\end

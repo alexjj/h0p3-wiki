@@ -1,0 +1,46 @@
+created: 20200713215444735
+modified: 20200713215800935
+tags: Sphygmus Chatlog
+title: 2020.06.28 - Sphygmus: Wireframe Dreaming
+
+"""
+[3:05 PM] h0p3: That one is delicious.
+[3:05 PM] h0p3: I like the full text search.
+[3:06 PM] h0p3: I am so grateful to see mirrors of it. There aren't a lot of books libraries of this magnitude that don't eventually get taken down by the publishers and IP-holders.
+[3:07 PM] robotic_scarab: yes!! although it's jumped URLs several times :sweat_smile:
+[3:07 PM] h0p3: The only way they can stay alive. We only rent our domains. =(.
+[4:49 PM] robotic_scarab: I've been working on an updated / cleaner flexbox implementation
+[4:49 PM] robotic_scarab: when it's finished would you be open to swapping out flex4h0p3 for the updated stuff? :)
+[4:50 PM] h0p3: I am especially interested to see how it will become even more mobile friendly.
+[4:50 PM] h0p3: Fuck yeah.
+[4:51 PM] h0p3: Mine will never be mobile friendly, sadly. But, your wiki is still extremely fast and you know exactly how you want it to work on mobile too. It's gonna be dope. I assume it's a ton of work to design it.
+[4:51 PM] robotic_scarab: it's not actually changing that much :sweat_smile:
+[4:51 PM] robotic_scarab: I'm pretty happy with the current mobile incarnation
+[4:52 PM] robotic_scarab: it works as well as can be expected on mobile, I think
+[4:52 PM] robotic_scarab: mostly the re-write is about cleaning up the CSS so that it only touches the things it needs to, no overstepping changes
+[4:52 PM] robotic_scarab: the problem rn is that my personal flex CSS has been personalized so much to my own tastes that it's not modular for others to use
+[4:53 PM] robotic_scarab: plus I'd like it to be more like the vanilla theme, where the user can choose which side the sidebar is on, for example
+[5:01 PM] h0p3:
+
+[5:01 PM] robotic_scarab: yes! making it easier to configure a 2nd story river is also a goal here! I need to remember that
+[5:02 PM] h0p3: i3 for TW is not realistic for a long time, imho. But, there are surely templates that could be reasonably cycled through.
+[5:03 PM] h0p3: Long-term goal dreaming, I'm just having fun thinking about TW here.
+[5:03 PM] robotic_scarab: yup, your diagram is almost exactly a wireframe of what could be done with flex
+[5:03 PM] robotic_scarab: the sidebar is the tricky part
+[5:03 PM] robotic_scarab: you can't actually make flex children (the boxes) fixed in place, so it takes it out of the flow
+[5:03 PM] robotic_scarab: making it harder to nicely auto-resize the width
+[5:04 PM] robotic_scarab: but it's still doable, & flex would make the two river options easy
+[5:04 PM] robotic_scarab: sooo from here I want:
+1) full-width story river
+2) narrow (?) story river
+3) narrow 2nd story river, wider main story river
+4) half & half story rivers
+[5:07 PM] h0p3: Just shooting in the dark here. It is a guess. Rx (the one on the bottom left) is special in that the titles, tags, and non-body components wouldn't show up, ideally even very limited boundaries between the tiddlers. It would not be a normal river because it would be meant to be compact. A storyriver-sidebar.
+[5:07 PM] robotic_scarab: ahh so just like, the body text period
+[5:07 PM] h0p3: Yup. Like slides stacked on top of each other.
+[5:08 PM] robotic_scarab: nice nice loving these ideas
+[5:09 PM] robotic_scarab: now to implement it all :Laugh:
+[5:09 PM] h0p3: [[eli|Eli]].li - we show up.
+[5:14 PM] robotic_scarab: been a while since I've checked his site -- nifty to see link logs!
+[5:15 PM] robotic_scarab: and ahh! we do! wow :O
+"""

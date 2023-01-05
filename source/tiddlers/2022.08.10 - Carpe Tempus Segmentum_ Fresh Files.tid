@@ -1,0 +1,35 @@
+created: 20220810131021941
+modified: 20220811161702925
+tags: [[Computer Musings]] [[Close Encounters of the Fifth Kind]] [[Carpe Tempus Segmentum]]
+title: 2022.08.10 - Carpe Tempus Segmentum: Fresh Files
+
+Woke at 9. Bit of Gumpination. Solid sleep. 
+
+A wild mchow_stamp_collector appears...
+
+[[TTTOTW]]. //Skintime// with my sympaticon. [[Morning Routine]]. [[TTTOTW]]. Sammiches with my sympaticon and //Mike Tyson Mysteries//.
+
+My sympaticon installed remote thermometers in the places we are worried about, and she has remote lighting set up, which solves some problems on those stairs especially.
+
+Two things: primary screen flickers with sound playing at random times, and I noticed Tor failed to start.
+
+```bash
+journalctl -xeu tor.service
+Aug 11 01:05:51 monster-16 tor[492618]: /usr/bin/tor: symbol lookup error: /usr/bin/tor: undefined symbol: evutil_secure_rng_add_bytes` 
+```
+
+Decided to use the spare nvme backup drive to just start fresh. Been a very long time since I re-installed, and I could use a fresh one. Unfortunately killed my grub on the primary drive (unmounted), and figured out I really would still have to login again to make it easy on myself. [[j3d1h]] was helping me set up the new one, but I decided to wait. Fixed grub on the original.
+
+Offspring came down to grind. Some piracy. Shifted gears when I realized I had a bigger problem with [[monster-16]]. My daughter will be 10x the computer user I will be for a quarter of the effort. Yes, I am benignly jelly.
+
+//The Walk// with mi amor. Played my clarinet. Doubled back to the sto for some dranks. Met Juan, husband, and ~~Maria~~ Paula. Pushing them lottery tickets. `/sigh`. Her doc was perplexed why she didn't speak up sooner. Hey, we're not used to real medical care. Noice. New option, slower, be quicker to kick it. Chart is still useful. While protecting her students from the damage, mi amor waits to see if M is going to continue to throw bitch-curveballs. Classes start soon. She gets to be picky, methodical. She gets to shape more because she is staff. Her day was productive, and the second social media controller steps up. Saw Elaine on the way, and she was in tears, friendships breaking down, and she's on her way to pickup a roomie at a random gas station. Met a skateboarder: Blake. Come to find out, he lived in [[The Alien Asylum]]'s building before. Kinda cool to meet him.
+
+[[Family Gathering]] was delicious. We had chicken thighs and roasted veggies with gravy. Good goddess. Wearing my earplugs beacuse it is too loud. [[TTTOTW]].
+
+`journalctl` didn't reveal anything more about the problems I was looking to solve. But, it is clear that one of my syncs has been failing. Many .md files, perhaps very important ones, haven't made it through. Well, __shit__. That's important. I'm glad I looked. Workin' on it. Trying multiple devices, versions, and connections. Able to enumerate files on one device, but they will not transfer. I know the encrypted backup sync is working. Don't know why this one isn't.
+
+`dmesg` hasn't revealed it yet. Need to modify [[The-Eye-of-Sauron.sh]] to include the most obvious logs, as the log toolkits I've found are pointless. 
+
+Setting up a new password manager.
+
+[[Killcoin]] called. Talked for a couple hours. LSATs, daughter is gonna be driving soon enough, philosophy, religion, politics, economics, and the usual.

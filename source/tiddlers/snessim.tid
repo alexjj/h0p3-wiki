@@ -1,0 +1,184 @@
+created: 20220909041831342
+modified: 20220910052709303
+tags: [[FTO: Seemingly One-Off Online Encounters]] FTO [[FTO Mode: Alien]] Chatlog
+title: snessim
+
+!! Information:
+
+* Soulseek: snessim
+* https://github.com/snessim
+* https://www.reddit.com/user/snessim
+* https://smallformfactor.net/forum/members/snessim.8668/
+
+!! Communications:
+
+; 2022.09.08 - snessim: Gonna Make It
+
+<<<
+"""
+[14:00:14] [[snessim]]: <3
+[14:15:42] [[h0p3]]: <3
+[14:16:22] [[h0p3]]: I can't see what I served to you, but I hope it is useful and brings you justified happiness.
+[14:19:19] [[h0p3]]: You let me know if I can find anything else for ya. I'll do what I can.
+[14:44:11] [[snessim]]: it was just some Marvel shows! I'm homeless and have no way to buy nevermind afford Disney+, so it afforded me some escapism <3
+[14:46:32] [[h0p3]]: You have a place I can read more about your life? 
+[14:47:59] [[h0p3]]: And, would you like a Resilio Sync (https://www.resilio.com/individuals/) key? I'm happy to acquire whatever information, tools, shows, etc. you may desire. Easy, fast, and consistent way to transfer files once it is set up.
+[14:48:30] [[snessim]]: I don't, unfortunately. My life has been far from eventful and I lack the function and mental energy to write about it
+[14:49:01] [[snessim]]: I don't have use for that, but thank you <3
+[14:49:24] [[h0p3]]: `/nod`.
+[14:50:11] [[snessim]]: at the moment I'm just fighting to get housing, at which point I can set up my home server and everything else I need!
+[14:51:26] [[h0p3]]: I live in CT. In case, you are in the area. 
+[14:51:39] [[h0p3]]: Housing is stupid expensive. 
+[14:52:33] [[snessim]]: Seattle, WA here. I have a housing voucher, so the difficulty is now in other barriers such as credit checks and beurocracy
+[14:52:53] [[h0p3]]: Ah. Yes.
+[14:54:19] [[h0p3]]: If you need a VPS in the cloud or a VM on my own [[monster]], let me know. 
+[14:54:41] [[h0p3]]: I think settin' up a home server is often a great joy. 
+[14:55:01] [[snessim]]: Not much I can do from my non-rooted phone, but I appreciate the offer again ^-^
+[14:55:11] [[h0p3]]: I really like computers a lot (autistic AF*).
+[14:56:02] [[snessim]]: I'm planning to build a little custom <2.3L home server with a mini-STX board and dual 3.5" drives in R1
+[14:56:04] [[h0p3]]: Termux aint bad, though I think the virtual machine options are pretty slow. 
+[14:56:29] [[h0p3]]: Noice. Will be a dope seedbox.
+[14:57:32] [[h0p3]]: I hope your house or the one after it will have access to Fiber. Livin' in the city, might be decent odds. 
+[14:57:45] [[snessim]]: that'll definitely depend on the sort of internet I can get
+[14:57:52] [[snessim]]: re: seedbox
+[14:57:52] [[h0p3]]: I hear that.
+[14:58:37] [[snessim]]: at the very least it'll serve as a mini NAS and host for games/sites
+[15:03:23] [[h0p3]]: I got my wife a mini-STX machine, and she doesn't use it. Has a wireless problem (though works fine for me wired or with another wireless adapter). It's a fine machine, imho. If you have the time and inclination in the future, let me know where to send it. 
+[15:03:28] [[h0p3]]: What games you enjoy playing?
+[15:13:15] [[snessim]]: I'm planning to build off of a B660 socketed mini-STX mobo from AsRock, or possible an AM5 socketed board if they release one!
+[15:14:17] [[snessim]]: competitive shooters and RPGs mostly, but Minecraft is a favorite old pastime which I enjoy running a server locally for (and by extension all of the tinkering involved)
+[15:14:20] [[snessim]]: HBU?
+[15:15:05] [[h0p3]]: Can't say I'm a fan of the external PSU. But, Mini-ITX cases will be at least 4 times bigger. 
+[15:15:44] [[h0p3]]: AM5 sounds like the way to go. Hope they decide to make tiny mobos for them. 
+[15:16:18] [[h0p3]]: I played Tribes, WoW, [[Diablo 2]], and Everquest. I'm easily addicted to some games. 
+[15:16:40] [[h0p3]]: Minecraft with the fam. I'm more of a creative mode person than a survival one in that game.
+[15:17:59] [[h0p3]]: Oh, and League of Legends, despite the toxicity of the playerbase. 
+[15:19:34] [[snessim]]: I mean in this case, the difference between m-STX and m-ITX for my custom case would be about 600ml, since for an internal PSU I could just go with a Meanwell RPS unit. realistically speaking I could probably do the same with a m-STX mobo, just with an ~18V PSU instead of 12V
+[15:20:15] [[snessim]]: and just remove the barrel connector in favor of wiring the PSU directly into the mobo
+[15:21:50] [[snessim]]: I would be surprised if AsRock doesn't make m-STX AM5 mobos, given they already made m-STX LGA1700 mobos!
+[15:22:25] [[snessim]]: given the AM5 socket takes up less space than LGA1700
+[15:24:42] [[snessim]]: ~16mm² as opposed to ~17mm²
+[15:24:52] [[snessim]]: cm², sorry
+[15:25:28] [[h0p3]]: Something [[awe]]some about tiny computers. 
+[15:25:56] [[h0p3]]: I used to have move my desktop with me, it was nice to have it be compact. 
+[15:26:31] [[snessim]]: yeah, I'm going 14" gaming laptop + tiny server for that reason
+[15:26:39] [[h0p3]]: Temps aren't always pleasant on something so small.
+[15:26:52] [[h0p3]]: Makes sense.
+[15:29:55] [[snessim]]: eh, it definitely depends! The laptop in question doesn't throttle or get too loud in normal room temp environments, and for the desktop I can throw a C7G, black ridge or AXP-90 on there and call it a day
+[15:30:39] [[h0p3]]: Yeah, that'll work.
+[15:30:58] [[snessim]]: given I already have to have ~60mm internal height for the stacked drives, so I should definitely have space for one of the better 47mm standard height cooler
+[15:31:11] [[snessim]]: coolers*
+[15:32:22] [[snessim]]: which may also give space for an internal PSU such as the Meanwell RPS-200-18 or something even smaller
+[15:33:59] [[snessim]]: what did you build your compact desktop in? Mine was in an Ncase since I planned to watercool (but never got the opportunity)
+[15:35:29] [[h0p3]]: [[monster-10]] was built in a LIAN LI PC-Q07B. The mini-STX desktop for my wife ([[k0sh3k]]) was bought used from e-bay. $300. i7, 32GB RAM, 1TB nvme, tiny fucking case. 
+[15:37:50] [[h0p3]]: Them Ncases are hawt. 
+[15:41:09] [[snessim]]: hmm, do you think I could get away with a 76.8W PSU with 2× 5400RPM 3.5" multi platter drives, 1× NVMe 2.0 drive (PCIe 4.0 ×4, on the more efficient side), a 45-65W PSU, DisplayPort out to 1440p/240Hz/10b panel, Ethernet or Wi-Fi, and one USB in from a KVM switch?
+[15:41:24] [[snessim]]: probably stretching it a bit tbh
+[15:42:20] [[snessim]]: yeah, I have two Ncases in a storage locker which I need to sell at this point lol
+[15:43:05] [[snessim]]: Q07b is a chonky case!
+[15:44:46] [[h0p3]]: Back when I bought it, it was quite small. 
+[15:45:12] [[h0p3]]: I'm an old man though, so it's probably easy to impress to me. 
+[15:45:26] [[snessim]]: time has definitely moved fast in the SFF case market!
+[15:45:56] [[h0p3]]: I would be surprised by that wattage. 
+[15:47:31] [[h0p3]]: Probably need 40W just for the drives. 
+[15:48:49] [[h0p3]]: What kinda OS you gonna run on it?
+[15:50:39] [[snessim]]: an RPS 120-24 might do the trick, at 120W. IIRC those boards are rated for 12-24V, 18V nominal
+[15:51:09] [[snessim]]: heavily modified Debian most likely
+[15:51:27] [[h0p3]]: Be a rock solid unit.
+[15:52:09] [[snessim]]: a 15V unit might be smarter actually, same specs otherwise
+[15:53:19] [[snessim]]: why medical PSUs are 12/15/24/27/48V will forever mystify me. 15V and 27V are such odd steps there
+[15:55:54] [[h0p3]]: Never built with medical PSUs. I can see the wisdom in pursuing something that would be meant for use in such a setting. 
+[15:56:25] [[snessim]]: probably just going to install Debian with a cut-down DE that doesn't include anything I don't need - if I need to read or edit a document for example I can just SSH it to my laptop and use the KVM switch
+[15:58:17] [[snessim]]: Medical PSUs are occasionally used in the extremely niche portions of the SFFPC community - most notably some JHack cases being designed to fit the Meanwell RPS-200-12-C
+[16:00:42] [[h0p3]]: KVM seems like the way to go. Don't know why I don't see more people using it. Nice to have that desktop sometimes.
+[16:00:48] [[snessim]]: they definitely need some strong airflow when they get so incredibly compact, though.
+[16:01:23] [[h0p3]]: I'm currently trying to transition to [[NixOS]]. I'm doing poorly at it so far.
+[16:02:15] [[snessim]]: I'll actually be getting a gaming monitor with an inbuilt KVM switch, and building a very streamlined but functional setup around jt
+[16:02:18] [[snessim]]: it*
+[16:02:24] [[h0p3]]: Ah
+[16:02:28] [[h0p3]]: Neat.
+[16:02:42] [[h0p3]]: I'd be real tempted to just build out a gaming desktop at that point.
+[16:04:07] [[snessim]]: I mean, that monitor would be the one I want anyways due to value/specs, so the KVM switch has no reason to be external or built into a PC
+[16:05:15] [[snessim]]: plus I need it to be portable! Downside of course is no iterative upgrades to my main gaming/work machine.
+[16:06:39] [[snessim]]: I need the PC to be usable on the go, that is - hence laptop. Asus Zephyrus G14 GA402 (without paying extra for it's garish gimmick)
+[16:06:50] [[snessim]]: its* autocorrect 
+[16:10:53] [[snessim]]: I'm actually unfamiliar with NixOS - is that Debian or Arch?
+[16:13:49] [[h0p3]]: Sorry, had to AFK for a minutes. 
+[16:14:15] [[h0p3]]: (I speak asynchronously, btw. I don't ghost. Though, I do speak from my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 considerably.)
+[16:14:44] [[snessim]]: (same on speaking asynchronously)
+[16:14:55] [[h0p3]]: Once you have a place, maybe you'll change your mind about the need for portability, especially if you'll have that gaming laptop. 
+[16:15:43] [[h0p3]]: Having a larger case that one day might transform into a gaming desktop just by adding a PSU (or two*, if you are going for passthrough) seems alright.
+[16:16:22] [[h0p3]]: Very sexy laptop.
+[16:17:04] [[snessim]]: well, the problem is that I anticipate moving frequently (at least once a year) and want to be able to bring my computer with me on the go. I currently have 3 laptops and want to cut down to one PC and one server.
+[16:18:01] [[snessim]]: Yeah, it's an excellently engineered laptop, though ASUS's marketing frequently reduces it down to its optional flashy light gimmick.
+[16:18:31] [[h0p3]]: NixOS is apparently a pretty old distro (I didn't know). It has its own package manager based on the Nix language (turing complete, lazy evaluation) to allow users to declare how they want their OS set up in a configuration file(s), and it builds it for you. It's good for reproducible builds. It does package management differently than the other excellent distros.
+[16:19:00] [[h0p3]]: The hash of package is part of its directory name, so it handles dependency hell better. 
+[16:19:41] [[h0p3]]: Why do you anticipate moving so often? Is the [[nomad]]ic lifestyle important? Job? Family?
+[16:21:24] [[h0p3]]: Nice part about the way you're building the server is that it will [[aim]] to minimize electricity costs. That will matter in the long run.
+[16:21:51] [[h0p3]]: Laptop can be pretty efficient in that way too.
+[16:21:55] [[snessim]]: Oh wow, it's a completely original Linux OS, not forked from anything at all
+[16:23:44] [[h0p3]]: What I like about NixOS is that it is shockingly easy to set up many kinds of services. Package maintainers often build a simplified API (with reasonable default) that kinda abstracts away the configuration of lots of software. (I don't claim it's perfect, not by a long shot). 
+[16:24:51] [[snessim]]: I anticipate moving often because of the combined nature of My disability preventing me from working (so no income = looked down on as a problem by landlords) and the nature of renting via housing vouchers. Also my primary partner can rub some people the wrong way with loud music and various boisterous activities. Trying my best to tame her lol
+[16:25:55] [[h0p3]]: I can see why portability is so key. `/nod`. 
+[16:27:23] [[h0p3]]: I got that autismophrenia. I have difficulties being "properly" social with many neurotypicals. 
+[16:28:17] [[h0p3]]: Landlords seems to be using the increase in the information they can find about tenants to improve their parasitic exploitation of the proletariat. 
+[16:28:57] [[snessim]]: though, with AMD's next GPUs supposedly being ~50% more power efficient, I might be better served to sort out all of my setup excluding the laptop in anticipation of its next model - the current model isn't really going to hit my desired fidelity+frame rate in upcoming games even though it can handle what I play now.
+[16:29:30] [[h0p3]]: We are [[lucky]] to people in our lives that understand and care {[[about]]} us. Our house, [[The Alien Asylum]], is filled with people that often don't seem to fit into society very well.
+[16:30:08] [[snessim]]: Yeah, her and I are both heavily neurodivergent, in a variety of ways. We're both socially capable, but don't fit in with neurotypicals for any long term arrangement.
+[16:30:09] [[h0p3]]: I am the worst kind of gamer. I turn the graphics settings down in many cases, particularly if it allows me to play more effectively. 
+[16:31:02] [[snessim]]: I do the same for competitive games. Gotta have my stable framerate at the refresh rate cap!
+[16:31:05] [[h0p3]]: (I'm also an old man who prefers a 1080p TV for a screen...just as long as I can read the big font text streams in front of me)
+[16:32:11] [[h0p3]]: How competitive you get with your games? You do any tournaments and stuff?
+[16:32:15] [[snessim]]: we're both still spry girls who prefer 24-27" displays :p
+[16:32:54] [[snessim]]: nah, I play competitive games entirely casually. The actual competitive scenes get too toxic for enjoyment.
+[16:33:05] [[h0p3]]: I hear that.
+[16:33:44] [[snessim]]: including ranked modes - for example, in OW I generally stick to arcade modes where players tend to be friendlier.
+[16:33:52] [[h0p3]]: One thing I like about many competitive games is that they are often pretty well-conceived and balanced, even for casual players. I [[hope]] to only play casually. It's too easy for me to pour everything into the wrong projects otherwise.
+[16:34:07] [[h0p3]]: Makes sense. 
+[16:34:56] [[h0p3]]: Prefer the stories we tell each other to be kind. Not easy to achieve in hypercompetitive environments, especially if psychological warfare somehow becomes a twisted part of the metagame itself (e.g. Eve Online). 
+[16:35:12] [[snessim]]: I'm a mechanically advanced player but with my middling gamesense and impaired ability to multitask I could never be a top player in any PvP game.
+[16:35:41] [[h0p3]]: You prefer PvP to PvE?
+[16:36:10] [[snessim]]: I honestly enjoy both
+[16:36:29] [[h0p3]]: Both are their own types of escape, for me. 
+[16:36:56] [[snessim]]: [BBIAB]
+[20:31:10] [[snessim]]: yeah, I agree. sometimes I just enjoy getting lost in a single player world, sometimes I enjoy learning how to play PvE co-op at a high level, and sometimes I enjoy playing against other humans!
+[20:31:53] [[h0p3]]: You ever enjoy botting or writing automation for games?
+[20:33:22] [[snessim]]: unfortunately executive dysfunction has prevented me from learning the skills so far, but scripting is well within the week house of what I'd enjoy and get good at
+[20:34:12] [[h0p3]]: Yeah. Cool. I've always wanted to play //Factorio//, but never got around to it. Seems pretty dope.
+[20:38:12] [[snessim]]: I've always found strategy games intriguing but not quite captivating enough to hold my interest
+[20:38:41] [[h0p3]]: Are you the sort who enjoys more narrative in their games?
+[20:39:23] [[snessim]]: that definitely depends! I tend to enjoy 3D games experienced from a first or third person perspective most.
+[20:40:10] [[snessim]]: though I could definitely see myself enjoying some 2.5D top-down roguelikes and RPGs such as Hades
+[20:40:20] [[h0p3]]: Me too. I think [[MTG]] (Magic: The Gathering) is perhaps one of the few exceptions to that rule for me. 
+[20:41:05] [[snessim]]: fair! I find that more fun in-person, though.
+[20:41:27] [[snessim]]: I did quite enjoy Gwent in TW3
+[20:41:58] [[snessim]]: but the fully fleshed out game never quite did it for me 
+[20:42:21] [[h0p3]]: What do you like to read? (doesn't have to be books*)
+[20:48:00] [[snessim]]: I used to adore Tolkien's works, but I haven't read any of that for quite some time. Still hold it in very high esteem, but haven't thought about it much of late. I really want to read more materials on the intricacies of electrical engineering for the sake of my future plans as a maker!
+[20:50:00] [[h0p3]]: That is a deep field, to my poor understanding. 
+[20:50:47] [[h0p3]]: I have no idea what books you'd want. If you get me a list, I can hunt them down for ya.
+[20:51:02] [[h0p3]]: I can imagine that would be quite useful for making things.
+[21:04:37] [[snessim]]: I'll probably avoid putting the effort into that before I have housing, at which point I should be able to find relevant PDFs pretty easily ^-^
+[21:04:49] [[h0p3]]: `/nod`.
+[21:05:37] [[snessim]]: I also have plenty more to learn where fundamentals are concerned long before I get into more advanced electrical engineering 
+[23:45:26] [[snessim]]: do you have any fascinations or special interests beyond coding?
+[23:46:06] [[h0p3]]: I am only a dabbler in computers. I adore them. I am not a skilled coder, despite being fascinated. 
+[23:47:06] [[h0p3]]: I have lots of interests, but most of them relate to philosophy. I used to teach, but I've moved away from working in education institutions.
+[23:48:08] [[h0p3]]: My work is primarily in moral and political philosophy. I come from the analytic side of things, but I've some of the basics of other traditions under my belt. Always learnin'. 
+[23:48:09] [[snessim]]: same on the computer software front. I dabble with more proficiency than most, but am by no means an expert nor very skilled
+[23:48:37] [[h0p3]]: How about you?
+[23:53:32] [[snessim]]: I hold some strong countercultural moral beliefs personally, mostly in regards to social conformity's tendency to override individualism to a detrimental level, and the ostracization of those who do not conform. I personally take pride in being myself especially where doing so is directly in defiance of social norms. So long as it doesn't harm others, of course.
+[23:54:34] [[h0p3]]: As an autist, I face that quite a bit. I can appreciate that. 
+[23:59:25] [[snessim]]: Same here with the ASD, as well as very severe inattentive-type ADHD. Whilst I'm fine interacting with NTs, to be myself in that situation would be social sabotage and I hate that I have to mask.
+[0:01:17] [[h0p3]]: `/nod`. Preach, yo. Codeswitching, asymmetric emotional labor (including being required to empathize with [[others]] without reciprocation, or worse*), and feeling hated when I've been polite and kind sucks.
+[0:02:18] [[h0p3]]: It is part of why I study moral philosophy. It's been important to help me draw lines. 
+[0:03:19] [[h0p3]]: I have a very poor relationship with my genetic donors. How is your relationship with relatives, including those who gave birth to you? 
+[0:03:33] [[h0p3]]: I assume your partner understands you much better than most. 
+[0:06:13] [[snessim]]: I have a few, but all of them have ADHD, ASD and, like myself, are trans. We understand each other well, bearing in mind I'm the only singlet (non-system/plural) of my polycule
+[0:07:34] [[snessim]]: I form very few close relationships of any type at this point with anyone who isn't trans and neurodivergent
+[0:07:49] [[h0p3]]: `/nod`
+[0:07:55] [[h0p3]]: Seems to get harder with age too, imho.
+[0:08:36] [[h0p3]]: As our stories grow more complex, and it takes longer to tell them. Only so many 10,000 hour relationships one can have.
+[0:10:56] [[snessim]]: Yeah, my inner circle is small and very close. I have many periphery friends, but few I would truly call close. Relationships take time and energy, both of which are finite - and I have a limited social battery.
+"""
+<<<

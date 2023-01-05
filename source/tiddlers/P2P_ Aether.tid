@@ -1,0 +1,82 @@
+created: 20200405152307555
+modified: 20210307124554604
+tags: Computing P2P Exploration /b/ Aether
+title: P2P: Aether
+
+//I quarter trust.//
+
+!! Seeding The Network
+
+You have will have to handle my schizoposting if you want my honesty. I ask you to be exceptionally kind because I'm doing my best too.
+
+I have few things I can do to help. I'm not skilled or wealthy. 
+
+* Please integrate Dat (written in Golang or faster).
+
+Surely, it is easy to prove that the authors of this tool respect Bittorrent (a decentralizer's paradigm example of success in this space). I take [[Reddit]] seriously as having a crucial democratizing role in [[The Great Human Conversation]]. 
+
+* Admins, in federation, must keep the historical record, the changelogs and the versioning.
+
+
+---
+
+I'm sure it is wishful thinking at the moment. I'm going to blather. Ignore it please.
+
+* Seems like rebuilding i2p (or from scratch) makes sense. There's no reason not to provide a serious blanketed degree of anonymity for decentralized users. There's low-hanging fruit privacy to buy here.
+* Build for the Pinephone and Risk#5.
+* I grow more convinced that the command-line is a tool that every computer user should learn to use (even minimally), just like changing the oil on your car (though despise macro-mechanical transport comparisons)
+
+* Superappification as competitive advantage
+** What's a decentralized web supposed to look like? What does it mean for us to run it on our own devices? 
+** What does bottom-up grassroots really mean?
+* Clustering several different kinds of decentralization approaches may be the only option
+* Toward high-performance Resilio Synced Retroshare built with more automated trust.
+** Everyone is a tracker and seeder. Accountability mechanisms have to be decentralized. Even deeply fragmented, incoherently sharded even, they have to pick out the [[salience]] together.
+* If you touch an object (or whatever you touch about it), you automatically host it for X resources.
+** Incentivizing seeding, assuming defaults and testing. 
+*** Should be tested to see if you are hosting; even weak attempts at consensus seem useful in clearing out some [[dok]] of noise...
+** Pay the price of being a user in terms of raw infrastructure.
+** You should be willing to pay increasing amounts for touching an object. 
+
+
+* Bundling
+** Briar+Tox+Discord+Matrix+Protonmail
+*** Multi-device, bluetooth and wifi meshable, Face-2-Face-emphasized yet fully^^tm^^ decentralized networks with self-hosted options, probably 80% of Discord's functionality, and the ability to "extend" bridges (safety is a problem) to "embrace" other messaging protocols. 
+** Tribler+qBittorrent+r/ruTorrent+RatsOnTheBoat+Dat+ResilioSync
+
+---
+
+* Non-Ephemerality Necessities
+** Usenet problematics
+* F2F & Nested VPNs
+** Sharding
+** Hubski exploration and modding
+* Multisubs
+** Taggable and nestable grouping
+** Custom Client-side sub-generation
+* Weighted Judgment
+** Quadratic Ranged Voting
+** Users Owning the Means of Filtering Production
+*** User control of salience factors
+*** Multiple moderation protocol availability.
+**** [[Gradual]]ized [[T42T]] trust and resource sharing
+***** You must seed the defeat of the majority somewhere...
+** I want to see how people are voting, and I want to have a record of weight I've attached to users. Make my votes count long-term.
+** TNN preparation
+* Prove Its
+** Who controls the entry points to the network? 
+** Ol' Yeller Duplicability.
+** Aether Pro has no control over the state of the network. Only Users (and in virtue of them, their selected mods).
+* Static file hosting and mutable torrents
+** First-class text, second-class files?
+* First-class CLI
+** Don't make powerusers do this by hand.
+* First-class proxiability
+** Matrix-style user centralizaton features
+** Should be encouraged...Low-hanging fruit
+* Chat, Emoji-signaling, Qtox/Discord feature replication
+** Zawinsky's
+* Zooko's: Node Naming 
+* Addon Extensibility
+* Content Bootstrapping
+** Reddit->Aether

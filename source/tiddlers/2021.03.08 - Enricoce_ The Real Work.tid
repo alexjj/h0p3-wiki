@@ -1,0 +1,75 @@
+created: 20210308053926335
+modified: 20210316191458270
+tags: Enricoce Letter To 𝕱𝕴𝕽𝕰🔥
+title: 2021.03.08 - Enricoce: The Real Work
+
+```
+                                                                               ,,                                         
+`7MM"""Yb.                                  `7MM"""YMM                         db                                         
+  MM    `Yb.                                  MM    `7                                                                    
+  MM     `Mb  .gP"Ya   ,6"Yb.  `7Mb,od8       MM   d    `7MMpMMMb.  `7Mb,od8 `7MM  ,p6"bo   ,pW"Wq.   ,p6"bo   .gP"Ya     
+  MM      MM ,M'   Yb 8)   MM    MM' "'       MMmmMM      MM    MM    MM' "'   MM 6M'  OO  6W'   `Wb 6M'  OO  ,M'   Yb    
+  MM     ,MP 8M""""""  ,pm9MM    MM           MM   Y  ,   MM    MM    MM       MM 8M       8M     M8 8M       8M""""""    
+  MM    ,dP' YM.    , 8M   MM    MM           MM     ,M   MM    MM    MM       MM YM.    , YA.   ,A9 YM.    , YM.    ,  ,, 
+.JMMmmmdP'    `Mbmmd' `Moo9^Yo..JMML.       .JMMmmmmMMM .JMML  JMML..JMML.   .JMML.YMbmd'   `Ybmd9'   YMbmd'   `Mbmmd'  dg 
+                                                                                                                        ,j 
+                                                                                                                       ,'  
+
+```
+
+It's a pleasure to meet you, [[nomad]]. Please let me know if I can [[help]] you. The [[Readme]] may be a useful generic doorway to consider.
+
+I adore your work, btw. You've picked some winners. =). I [[hope]] your [[friends|Friendship]] and [[family|Family]] listen to you on that one. 
+
+<<<
+I see the project and I am surprised, it is suitable for experts.
+<<<
+
+I'm no expert, not even with this tool. I agree that experts can use it well if they wish. It suits my needs, but I'm not terribly imaginative in many respects. TW gets the job done for me and my readers, and I think it'd do a fine job for many people if they had the will to try. There's something to be said for loading the entire site into your browser; treating middlemen with as much distrust as they deserve matters. I'm stuck on a narrow but mobile platform here, and it is possible to migrate out of it (though unpleasant).  
+
+It will be difficult to appreciate the reason why, but I chose to build this place so that it could not be silenced (as best as I could). Even with a small footprint, it has turned me into a loudmouth. I throw my gauntlets down in here. You get my long, drawn out, schizo answer. Please feel free to ask for clarification.
+
+<<<
+If you were in a free-group of a social network and it was at risk of closure due to cyber attacks (already happenend) or seizure of the servers (denial of freedom of speech in America), what back-up platform would you propose? A group in Telegram ? A group in Wire ? These things needs to be planned in advance, I am not a fan of Parler but the lesson is fresh.
+<<<
+
+Yeah, fuck Parler. But, I agree. It's a fine example. Your question is a deep rabbithole. A back-up plan? What about plan A? For whom? Where in the stack should we look? What does the platform have to accomplish? To my eyes, plain human convention plays at least as large a role as the tools used too, and there's a huge difference in complexity between grouping with those I trust and grouping with those I don't. 
+
+How much do you even trust your hardware and OS? Some attacks run that deep. I can't draw these lines for you, and no one seems to have a good answer. Beyond air-gapping, you'll take some steep performance penalty hits, living on a potato, to try to stop this problem (and physical violence almost always works against us even in these cases). Ideally, we're all running some Proxmox/QubesOS on verified Risk-V-like open hardware wherein each nestable workspace is tailored to the context of the distributed computer we're trying to participate in, where the abstractions make it simple for the retarded among us (`/raises-hand`) and yet give access to what's under the hood back upstream.
+
+Those with money can use microwave transmitters,<<ref "s">> probably among the most secure point-to-point communications hardware. Those using standard radiowaves have an interesting tool, though that is hunted down and disruptable in many places. Wifi and bluetooth meshing can be done on lots of consumer grade hardware, but there's probably no way to do some things at scale without fiber.<<ref "t">> Who owns the backbone, the deep packet inspection filters, the routers that can throttle and inject, and the killswitches? Plenty of nations, middlemen, and transnational corporations can stop us, or at least almost all of us for at least long enough and to a degree enough that it gets the job done against us. 
+
+Yggdrasil, VPNCloud, and i2p are my picks in the P2P VPN market for now (though there are some competitors rising, thankfully). None of these tools work well on all the devices that need them, and the solution is an ugly personal device federation (but there's no escaping this problem). Zooko's Triangle is a serious problem to solve too, and I think the best answer (lame though it may be) is keeping track of hashes and keys by hand (I know that sounds so egregious, but that simplicity buys us a lot). The wiki can be served over many types of servers on these.
+
+Zeronet, Hypercore, IPFS, and attempts at mutable torrents are better than the other options I've found for answering some kinds of censorship (blockchain isn't the fitting model for extensive cooperation, though we have plenty to learn from this sphere, particularly Eth, Monero, DAGs). The wiki fits acceptably here. 
+
+Tox, Briar, and Session (though I still have to use Signal plenty given the social pragmatics of dragging people onto new tools) are the best options for realtime communications,<<ref "i">> but I can't say they are sufficient. Too many kinds of conversations cannot occur in these mediums (they weren't built for being or holding platforms, not really). The wiki is a poor fit here, but I still transfer files even in 2021 over IM (even today, my wife sent us her wiki in our family groupchat). 
+
+Do you own your keys? Can you duplicate the infrastructure, fork it off into your own quickly? Can you obfuscate the traffic without resorting to further federation? Are at least Tor and i2p first-class extensions for the tool (or, does it run seamlessly in Whonix?)? Can you scale up files, transactions, and users? Is it easy, fun, sexy, cool? Nothing does it all. 
+
+From what I can tell, it's best to have multiple outs or multiple backup plans. Start with that. That's what I'm doing. Even if I lost everything, there will be copies of my wiki to be found, and I can recover my keys (and the authority over my voice). If I lost control of my domain, there are already routes to reach me in place. I think there's something to be said for [[hyperconversations]] that require people to visit each other's infrastructures, and tooling like https://fraidyc.at/ enables diversity and flexibility (reader-centric community building, following people instead of platforms). Human-conventionally driven approaches to community building are going to have some strengths to them that the fanciest tools cannot replicate.<<ref "o">>
+
+There remains an even more difficult though almost softer technical problem, one of cultivating cooperative [[salience]] signaling into tools that run on our machines. [[Memetic Warfare]] is still a kind of de-platforming in many cases. We can't automate every problem away, though we desperately require automation in this sphere to do work for us (manual labor is simply not enough, however, there's no substitute for a human picking out what matters at some level). Curation and moderation, trust in the apparent justification of others, this requires both high performance tooling that doesn't exist and a network effect of people actually taking the time to build trust given these tools (ugh). No one has an answer I like yet ([[Aether|P2P: Aether]] is dope though, eh?). I've been on the hunt (though I'm probably not smart or knowledgeable enough). What does it mean to build, evolve, and migrate communities well? Ah, I am so wildly unqualified.
+
+I predict we're fucked.<<ref "v">> The above problems, to my eyes, require a nation-state level actor's funds and coordination (though I am deeply indebted to the hackers who have built what they could with what they had) and a radical digital and moral literacy wave in the human species (and, I fear even this would still require turnkey reductions of damn near everything; and perhaps even this TW might just be too much for lots of people who might need tutoring otherwise) to solve correctly.<<ref "n">> We can make complex systems out of these tools that can do the job (decently, I guess), but who is going to build, use, and maintain them with the masses? They are fragile, slow, and buggy fairly often, the software too. Take my wife for example. She's brilliant and a good person. I love her to death. Bless her heart though, she's not going to jump through the hoops you and I are willing to jump through. If I can't convince her, I'm still looking at tools that are prototypes and even toys (for geeks like us). I don't know how to make it appealing enough to be viral.
+
+Alright, so if I have to give you a single tiny answer, a TLDR: I'm unconfidently suggesting Session (I don't know how far it scales up, and it still appears attackable). It's still in development, it has the necessary minimal features, it works on lots of devices, and anyone can use it. That's the back-up/admin tool I'd use to point to the next location of your group. Building relationships with the people over these tools: that's the real work. Here, I find TW valuable, even if insufficient.
+
+Sincerely,
+
+[[h0p3]]
+
+
+
+---
+<<footnotes "s" "Surely, in the future, it will be quantum entanglement. :P.">>
+
+<<footnotes "t" "Though I will agree that the 'last mile' could easily be wireless.">>
+
+<<footnotes "i" "P2P Element/Matrix is not even close, sadly.">>
+
+<<footnotes "o" "In part, and for now, only we can significantly enough infer each others intentions, speak in shades of meaning and moth languages, signal with high bandwidth compressed into mere details.">>
+
+<<footnotes "v" "Very [[hope]]ful, I know.">>
+
+<<footnotes "n" "The need for a revolution in order to have a revolution.">>

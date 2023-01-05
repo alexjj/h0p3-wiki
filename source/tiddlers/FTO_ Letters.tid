@@ -1,0 +1,16 @@
+aliases: [[Letters]] [[letters]] [[Letter]] [[letter]]
+caption: Letters
+created: 20191016230220079
+modified: 20200520052709145
+tags: Timelines FTO
+title: FTO: Letters
+
+<div class="tc-menu-list-item">
+<$list filter="[!is[system]!prefix[Hidden:]!tag[Hidden]!tag[no-recent]tag[Letter]!nsort[created]]">
+<div class="tc-menu-list-subitem">
+<$link to={{!!title}}>
+<$view field="title"/>
+</$link>
+</div>
+</$list>
+</div>

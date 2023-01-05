@@ -1,0 +1,41 @@
+created: 20181215153022475
+creator: sphygmus
+title: $:/plugins/sphygmus/sbuttonsV2/buttonHardcodedList
+type: text/vnd.tiddlywiki
+
+\define bodyTextFilter(delta)
+<!--
+	This is where I was a doofus!! For a hardcoded list, it's important that you be able to change the filter to your liking - that's kind of the whole point! But I struggled with keeping prefix & suffixes in the filter while still making the main string changable. Using a variable fixed it, though now I've changed it thanks to realizing I didn't even //need// to use the prefix/suffix filters.
+--><$vars front="* [[" back="]]"><$list filter="$delta$"><<front>><$view field="title" /><<back>>
+</$list></$vars>
+\end
+
+\define newTidButton()
+<!-- 
+	same day same deal. essentially the wiki review button with a different list inserted.
+
+	NOTE: You have to set the variable for your filter outside of all the macro definitions and make sure the button is wrapped in it, and you have to pass that variable to the bodyTextFilter when you call it. Note the use of triple quotes again to allow us to call a macro within the wikify widget.
+-->
+
+<$wikify name=newTidText text="""<$macrocall $name="bodyTextFilter" delta=<<myFilter>> />""" >
+<$wikify name=newTidTitle text="""<$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##4buttTitle}} />""">
+
+<$action-sendmessage $message="tm-new-tiddler" title=<<newTidTitle>> tags={{$:/plugins/sphygmus/sbuttonsV2/dick##4buttTags}} text=<<newTidText>> />
+
+</$wikify></$wikify>
+\end
+
+<$set name="myFilter" value={{$:/plugins/sphygmus/sbuttonsV2/dick##4buttFilter}} >
+
+<p class="center" style="font-size:1.5em;"><$button actions=<<newTidButton>> >Hardcoded List Button</$button></p>
+
+</$set>
+
+---
+
+* //Filter to be used://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="4buttFilter" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Title of created tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="4buttTitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Tag(s) of created tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="4buttTags" class="tc-edit-field-value" class="reviewButton" tag=input />

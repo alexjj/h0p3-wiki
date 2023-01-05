@@ -1,0 +1,84 @@
+created: 20201114153106450
+modified: 20201116111608266
+tags: MJos kickscondor Notes Indieweb Note To
+title: 2020.11.14 - Indieweb: East Webcamp
+
+* David Dylan Thomas talk on [[Bias]]
+** Design has influence on how we speak with each [[other]], sure, but you have to be open to the claim that people generally do suck 
+*** my snarky protip: they do
+*** [[Virtue is Knowledge]]: There is such a thing as malicious ignorance. Moreover, virtue of a practice is a bias.
+** Dave brings up "internalized capitalism," that if one is not working, then one is not worth anything. 
+** "Objectification is inevitable because we are fitting ourselves into computerized models"
+
+* I have no effective elevator speech for this [[ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱]] for any audience that doesn't already have a damned good idea of what it is. I can't sum it up, I have no idea how to introduce it. You have to engage it yourself. This [[ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱]] is going to have to speak for itself. 
+** My work is alien, [[other]], even to me (and, I would argue, I am an expert in my own retardation). What the hell am I suppose to say in 30 seconds? Lmao. Yes, it's really big, it's meant to be shared, I use it a lot, and I have to search it. What's it {[[About]]}? Fuck me, dude. I can compress that into some gibberish for you. 
+** I can assist individuals navigating it, but I can't navigate it for you (demoing somehow misses the point). I can answer questions if I'm able to ask you questions. I can't see inside your mind as well as you can see inside mine, bro. 
+*** There are many thresholds of understanding that can only be achieved through practice, building your own, [[PSM]]ing, engaging the object itself long-term, and [[hyperconversation]] too.
+** This wiki exists, in no small part, because it cannot be linearly told in the oral tradition. Medium is the message principle applies here.
+
+---
+
+<<<
+[[MJos]]: h0p3 maybe something åbout your philosophy/ies and how wiki-fying embodies it/them?
+<<<
+
+I can point to places, but I can't viably say anything to the average person in the space I have. It takes a fuckton of time to unfold it. There's never been an object quite like this one before (#notlikeotherneckbeards). I feel like even we don't have enough material for me to build an effective enough bridge for you (beyond the wiki itself), and I've read your site too! I'm not sure what to do. =/
+
+---
+
+[[Spreading the IndieWeb Beyond Developers|https://etherpad.indieweb.org/spreadingindieweb]]
+
+
+* Preference: doesn't want to talk about the technical problems but instead the social. 
+** There's no escaping the fact that we are responsible for being technically literate. You don't solve this problem without people taking responsibility for their own machines. The workers have to own the means of production.
+* Longevity: webarchive, mutable torrents (hyper/beaker), links that don't rot
+** We must own our data, and it's difficult to pick tools that are trustworthy, reliable, easy to use, and flexible.
+** Some of the best answers boil down to avoiding the web. The web, rather than the internet, is not something we own. It's commodified. I'm after the indienet.
+* [[hyperconversation]]: primary hyperobject, IMing, VCing, linking to let other objects do the talking...
+** Speaking from our sites.
+** Webmentions don't seem so necessary to me. People visit my site, and I visit theirs. We read and write from our sites, and the alerts aren't so necessary.
+* network effect problem: motivation, in part, is going to be extrinsic, a result of seeking the attention and approval of and connection with [[others]]
+
+<<<
+"""
+19:37 [dmitshur] tantek, h0p3 is doing a quick demo in Orange Room which is indeed "Spreading the IndieWeb Beyond Developers"
+19:41 [tantek] wow fascinating conversation in Orange room
+19:42 [tantek] I'm totally transfixed by the rotating rainbow TRON like thing on the left
+19:42 [Ian_Forrester] Ha yes I'm transfixed on it
+19:42 [tantek] also kind of reminds me of Atari BREAKOUT
+19:42 maxwelljoslyn Caroline: as much as I would like to take credit for h0p3's genius, the person presenting right now is h0p3 ("Hope"), not me Maxwell
+"""
+<<<
+
+---
+
+[[Personal Data Warehouses - Dogsheep, Nostalgia, Nextcloud, more  - combined with "Meta information from the physical world" and "Webnative/Indie Web & Web 3.0"|https://etherpad.indieweb.org/personaldata]]
+
+* To my eyes, this is best solved by owning your data from the beginning, exporting to silos you don't own, and building simple search and organizing abstractions on top of your own data. TW is for lazy people, like me. 
+** Manual labor is underrated here, especially if you care about [[privacy]] and [[owning the means of production|Justice]].
+
+---
+
+[[Hyperproductivity: a hypothetical world where individuals are as capable as large teams today|https://etherpad.indieweb.org/hyperproductivity]]
+
+* Ideas having sex. CAldritch fucking gets the idea of dialectics.
+* Decentralizing [[power]] requires distributing [[computing]] resources and infrastructure literally into of every human on the planet. You cannot have an ideal democracy without it.
+* Questioning instrumentality, [[gfwiwcgws]], [[The Original Position]], democratic computability of [[The Good]]
+
+---
+
+[[Domain of One’s Own LMS|https://etherpad.indieweb.org/domainofonesownlms]]
+
+* Pandemic has made this more crucial.
+* One-click hosting packages, LMS platforms, etc.
+* I want to shout out to https://gen.lib.rus.ec/, p2p file syncing to have one's own cloud, wikis, Discord 
+** Effective resistance means they own their data by default, cross-platform, multi-device, and cuts the middleman out from the beginning
+*** My students aren't going to own a domain and a VPS. Websites go down. Indienet, not indieweb.
+** We need people to own their files from the beginning...
+* We don't actually own our domain names: we only rent them. You can own private keys though.
+* Folks, it's easier to ask for forgiveness than for permission.
+* P2P LMS seeded by various institutions makes the most sense to me.
+
+---
+
+[[Identity on the Web|https://etherpad.indieweb.org/identity]]

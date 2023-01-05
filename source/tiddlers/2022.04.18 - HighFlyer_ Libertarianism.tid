@@ -1,0 +1,54 @@
+created: 20220708123642898
+modified: 20220709024230308
+tags: HighFlyer Chatlog Aether
+title: 2022.04.18 - HighFlyer: Libertarianism
+
+`aether://board/6890d7b222a7bad0ed6746f77bcf70d847951f1937860c003632a4f9a7ac2a08/thread/47669cf82e1a2ce9df7cc693a6131f8c213f778ea7460c2d72bb504bc45492f5`
+
+<<<
+> You probably know more about it than I do, but I think your premise that the cornerstone of these beliefs is property rights is not true. I would have thought that the starting position is Freedom, ensuring that people are as unconstrained as possible to make voluntary decisions.
+
+The thesis of Liberalism/Libertarianism doesn't convince me (but you can try to)
+As I understand it, the main concept behind all forms of Liberalism (be they Libertariansm, Classical Liberalism, Wokism, et-cetera) is that the foremost right that one can have is that of property, with property being one's is one's absolute domain; thus to hold something as property means that the thing cannot be done onto without consent of the proprietor.
+
+This sounds all well and good at first glance, but I have never not heard a liberal treat this as an absolute and go down some pretty dark roads of reasoning in which property too often goes against or pulls rank over the notions of other rights. For instance, a milquetoast liberal will say that governments can do whatever they wish, as they "own" everyone within their jurisdiction; a more "woke" liberal will claim something similar about telecommunications companies having the "right" so censor things; (the "mean tweets" argument;) whereas libertarians claim that they have no obligation to aid their fellow man, but merely do so out of "rational self-interest" as Ayn Rand put it.
+
+Indeed, it seems to me that the foremost position of Liberalism is "your rights end where my property begins," and this is where I find it to be an especially sneaky ideology, bear with me if this offends you.
+
+In order to have rights upon one's property (and one's property is the only place where one has rights at all in liberal thought) one must indeed first be in possession of property whereupon to practice these rights. Thus, should one want to keep others from exercising any of their rights, (within a liberal morality,) one needs only prevent them from having property at all. I argue that this is a serious issue as of today; as the majority of land is not owned at all by individuals, but by equity firms, home owners' associations, and other forms of corporation which thereby exclude most people from possessing property so far as land is concerned - but by proxy this means that whatever other property one may own upon the landlord's land is subject to the landlord's rule; as otherwise the renter will be violating the landlord's rights by noncompliance, at least as far as liberal thought will inform.
+
+Now, if we're not to go about things in a liberal manner, (in other words, we're not basing the concept of rights around property,) then we are likely to at least consider one's rights to not begin with property; on the more overbearing side we might consider rights to come from letter of law, and on the more (dare I say) graceful side of things we might say that our rights remain our rights regardless of where we are.
+
+But ultimately, I think that liberalism's obsession with property comes from fears of trespass upon one's land, but without concern for other trespasses. I would say that it is a trespass against one's fellow man to make him incapable of sustaining himself, to deny him the right to speak his mind or otherwise dissent, or to possess so much that there is nothing left for others. That latter issue is a serious problem today as I've said earlier.
+
+As much as this will upset any liberals here, I would argue that your right to property ends where others' needs begin; that the rights to life and personal liberty far surpass the domain of propriety. This is why I am not a liberal.
+
+Although if you would like to try convincing me of a liberal position, go ahead and posit what you will.
+<<<
+
+Self-ownership, where the self is a forensic Lockean concept, is ultimately fleshed out in terms of property rights, especially when we look at modernized versions like Nozick. When you go to detail out what consists in freedom, you'll engage in what is called Hohfeldian analysis, which can be reduced down to a cluster of property rights and corresponding obligations. This may be a worthy article (part of my dissertation): [[https://philosopher.life/#2014.11.10 - Challenges in Quasi-Lockean Intellectual Property Theory]]. There's a lot to clarify in the discussion of the nature and value of voluntary decisions ([[https://philosopher.life/#2013.03.18 - On Autonomy%3A Contemporary Notions and Kant's Theory]]).
+
+<<<
+Wow! Thank you. I didn't know.
+
+When you have been thinking about these matters, have you looked at the Four Essential Freedoms for Free Software and how they relate to this way of thinking?
+
+Freedom to Use, Study, Share and Improve the software.
+<<<
+
+I'm no fan of Libertarianism; I just happen to be able to pass ideological turing tests while conversing with experts on the topic to their satisfaction. I deny that we own ourselves all the way down or even largely so. I consider the Libertarian project an abject failure in moral philosophy. In my experience, it generally exists to rationalize egoism and  provide a veneer of credibility for selfish, power-centralizing policies. I often refer to it as the Rand-Locke memeplex. I'm a huge fan of FLOSS though. With that in mind, here's my quick look at it:
+
+> The freedom to run the program as you wish, for any purpose (freedom 0).
+
+We can think of moral exceptions pretty easily, and even the Libertarian can pick out purposes that violate their own principles. There may even be exceptions on a fully [[airgapped|Readme]] machine. This is a political ideal we should pursue all else being equal though. There should be state interventions on our machines in some respects, but not ring(-1) attacks, etc. I admire the spirit of the law, but it is much harder to write the letter of this one precisely enough.
+
+> The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
+
+All else being equal, we should be able to study how any program on our machine works, including changing it. Note that binaries offer us a type of source code, even if it's exceptionally difficult to interpret machine code. Reverse engineering can transpile to languages with more syntactic sugar as well. We may even raise questions about the boundaries of source code, including commentary and other types of infrastructure. It's not easy to define how far this freedom ought to extend, including for the Libertarian. Obviously, I think we are morally obligated to [[share]] our source code in almost all cases (and I work hard to do so). It is far from clear that the Libertarian is able to defend the moral demand for FLOSS on their own grounds.
+
+> The freedom to redistribute copies so you can help others (freedom 2).
+> The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
+
+My previous link provides the best analysis I've found in the literature. A consistent Libertarian cannot defend intellectual property rights (though, you might be surprised how many people who claim to hold a Libertarian position are quite in favor of IP rights). There's no grounds for it. We can come up with exceptions where we ought not redistribute copies of information so that we can help just any set of people. However, setting those edge cases aside, this has a lot of merit on Libertarian grounds and otherwise.
+
+Huge fan of GNU, but I can't say there's much airtight moral and political philosophy that comes out of that school. I admire the rhetoric, theoretical direction, and practical work though!

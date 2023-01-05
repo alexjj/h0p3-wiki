@@ -1,0 +1,27 @@
+created: 20190716084234624
+modified: 20190716161710855
+tags: $:/tags/Macro
+title: $:/plugins/kookma/todolist/macros/archive-operations
+type: text/vnd.tiddlywiki
+
+\define todolist-list-archived-items(archiveTiddler:"")
+<$list filter="[<__archiveTiddler__>indexes[]!sort[]]" variable="item">
+<div class="kk-tiny-td-row">
+  <div class="kk-tiny-td-delete"><$macrocall $name="todolist-delete-item" dataTiddler=<<__archiveTiddler__>>/></div>
+  <div class="kk-tiny-td-desc"><$transclude tiddler=<<__archiveTiddler__>> index=<<item>>/></div>
+</div>
+</$list>
+\end
+
+\define todolist-delete-item(dataTiddler)
+<$button class="tc-btn-invisible tc-tiddlylink">
+{{$:/plugins/kookma/todolist/images/times.svg}}
+<$action-setfield $tiddler=<<__archiveTiddler__>> $index=<<item>> />
+</$button>
+\end
+
+\define todolist-delete-archived-tiddler(archiveTiddler)
+<$button tooltip="Empty archive"> {{$:/core/images/delete-button}} Delete archive
+ <$action-deletetiddler $tiddler=<<__archiveTiddler__>> />
+</$button>
+\end	 

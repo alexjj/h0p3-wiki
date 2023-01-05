@@ -1,0 +1,97 @@
+created: 20200508041426477
+modified: 20200519182630035
+tags: Recipe Games [[Be A Good Dad]] Neat
+title: Rubik's Cube
+
+//While, of course, I only [[perform actions|Embodied Cognition]] in order to impress people with my big brain, like any decent autist, my favorite part of cubing is shuffling them to stim. The solving is almost epiphenomenal, that annoying necessary step to being able to destroy the beautiful order. Also, this isn't even close to good speedcubing, but it's a fine start; you'll hit sub-15 with your lucky bests. Slow down to look-ahead the entire time to git gud. The goal is to fluidly and intuitively solve 2/3's of cube, eliminating any pause-gaps through look-ahead, eventually solving the last layer through purely memorized algorithms. Some games boil down to just finding the sweet spot as optimally as you can.//
+
+!! Algorithm Notation (assume RBOG clockwise coloration, with yellow top, red face):
+
+* Φ: generally the clockwise turn (as though you were facing it)
+* Φ': generally the counter-clockwise turn
+* Φ2: double the turns
+* φ: two-layer turn originating from Φ
+;
+* Cube Axis Rotations
+** x: rotate yellow top away from you, where white is now face
+** y: rotate red to left, where green is now face
+** z: rotate yellow to your right, where blue is top
+* Standard Turns
+** R: right slice clockwise, where slice's face is now white
+** F: face slice clockwise, where slice's top is now blue
+** B: back slice clockwise, where slice's top is now green
+** U: upper slice clockwise, where slice's face is now green
+** D: down slice clockwise, where slice's face is now blue
+** L: left slice clockwise, where slice's face is now yellow
+* Middle-Slice Turns
+** E: horizontal red middle-slice turned right around y-axis, where slice's face is now blue
+** M: vertical red face turned down around x-axis, where slice's face is now yellow
+** S: horizontal yellow face turned right around z-axis, where slice's topis now blue
+
+!! Low-Hanging-Fruit Memorization-Minimizing No-Good-Rotten-2-Looking CFOP Method:
+
+# Cross:
+#* Build a white cross on the bottom.
+#* Stick to standard white crosses because 1 move gains are hardly worth color pattern recognition losses. Averaging slightly less than 6 moves is the goal.
+#* During the pre-solve study period, you should aim to see the complete cross solve and perhaps an F2L pair. Prime yourself for that cross to focus on look-ahead instead.
+# F2L (First 2 Layers):
+#* Slot corner and edge pairs using the top layer and empty slots as a sandbox.
+#* Avoid rotations, max 2-3 per solve.
+#* If you don't have an intuitive understanding of every pair position, you're doing it wrong.
+#* For competitive timing, go full speed. While practicing, however, slow down to maximize improvements in look-ahead. Look-ahead is everything in F2L.
+#* Multi-slotting and partial edge control for OLL manipulation is a waste of practice+study time, and even worse, it requires you to pay attention to too much at once. Even slightly damaging look-ahead isn't worth it.
+#** This is similar to how the Petrus method is for suckers; fewest move solving at the expense of pragmatic perceptual automatability is retarded in speedcubing. Predicting or identifying the next step before it arrives is the heart of speedcubing.<<ref "b">>
+#** However, it might be worth studying the optimal joining of some sets of stuck pieces. Studying for 1-Look OLL should take precedence though.
+# OLL (Orienting Last Layer):<<ref "oll">>
+## Edge Orientation
+##* Opposite: F (R U R' U') F'
+##* Adjacent: f (R U R' U') f'
+##* None: [F (R U R' U') F'] [f (R U R' U') f']
+## Corner Orientation<<ref "co">>
+##* Sune: (R U R') U (R U2 R')
+##* Anti-Sune: (R' U' R) U' (R' U2 R)
+##* Car: F (R U R' U') (R U R' U') (R U R' U') F'
+##* Blinker: [f (R U R' U') f'] [F (R U R' U') F']
+##* Headlights: (R2 D) (R' U2) (R D') (R' U2 R')
+##* [[Chameleon|chameleon]]: (r U R' U')(r' F R F')
+##* Bowtie: F' (r U R' U') (r' F R)
+# PLL (Permuting Last Layer):<<ref "pll">>
+#* Pure Corner Permutations
+#** Aa, Clockwise Corner 3-Cycle:<<ref "1st">> x [(R' U R') D2] [(R U'R') D2] R2
+#** Ab, Counter-clockwise Corner 3-Cycle: x' [(R U' R) D2] [(R' U R) D2] R2
+#** E, Blinker Parallel Corner Perm: x' [(R U' R') D (R U R')] u2 [(R' U R) D (R' U' R)]
+#* Pure Edge Permutations<<ref "2l">>
+#** Ub, Clockwise Edge 3-Cycle: R2 U (R U R' U') (R' U') (R' U R')
+#** Ua, Counter-clockwise Edge 3-Cycle: [R U'] [R U] [R U] [R U'] R' U' R2
+#** H-Perm, Opposite Edges: M2 U M2 U2 M2 U M2
+#** Z-Perm, Adjacent Edges: M2 U M2 U M' U2 M2 U2 M' U2
+#* Adjacent Corner Permutations
+#** Ra, Back corners, front-right adjacent edges: (L U2' L' U2') (L F') (L' U' L U) (L F) L2' U
+#** Rb, Back corners, front-left adjacent edges: (R' U2 R U2) (R' F) (R U R' U') (R' F') R2 U'
+#** Ja, Back corners, back-right adjacent edges: (R' U L') (U2 R U' R' U2) (R L U')
+#** Jb, Right corners, front-right adjacent edges: (R U R' F') [(R U R' U') (R' F) (R2 U' R') U']
+#** T, Right corners, horizontal edges: (R U R' U') (R' F) (R2 U' R') U' (R U R' F')
+#** F, Front corners, horizontal edges: (R U R' U') (R' F) (R2 U' R') U' (R U R' F')
+#* Diagonal Corner Pair Permutations
+#** V, Parallel negative sloped corners and edges: (R' U R' d') (R' F') (R2 U' R' U) (R' F R F)
+#** Y, Negative sloped cross of corners and edges: F R U' R'U' (R U R'F') [(R U R' U') (R' F R F')]
+#** Na, Negative sloped corners, front to back edges: [(L U' R) U2 (L' U R')] [(L U' R) U2 (L' U R')] U y (R U' R' U) (l U) (F U' R' F') (R U' R U) (l' U R')
+#* Double 3-Cycle Permutations
+#** Ga, Clockwise back corners, counter-clockwise edges protuding to left of hypotenuse: R2 u R'U R' U' Ru' R2 (y' R' U R)
+#** Gc, Counter-clockwise front corners, clockwise edges protuding to right of hypotenuse: R2 u' R U' R U R' u R2 (y R U' R')
+#** Gd, Clockwise back corners, counter-clockwise edges protuding to right of hypotenuse: (R U R') y' R2 u' R U' R' U R' u R2
+#** Gb, Counter-clockwise front corners, clockwise edges protuding to left of hypotenuse: (R' U' R) y R2 u R' U R U' R u' R2
+
+
+---
+<<footnotes "b" "Reminds me of CPU branch prediction a little bit.">>
+
+<<footnotes "oll" "There are 57 algorithms for 1-look OLL, and hundreds for solving the last layer in a single look. Sure, you can pick some remaining OLL families, particularly higher-probability positions, etc., but there are severe diminishing returns here. For most mortals, it's better to concentrate on fingertricks, muscle-memory, and especially look-ahead.">>
+
+<<footnotes "co" "Practice them in pairs. These should be lightning fast, so muscle-memory fast that you can't remember how to do them if you aren't doing them mindlessly at speed. Yes, you can deconstruct the intuitions behind these algorithms, but it doesn't help you solve (unless you somehow really fuck up, which was already game over). ">>
+
+<<footnotes "pll" "Given the expensiveness of the last stage, and because there are only 21 in total, it's worth your time to go 1-look given the mirrors and speed gains.">>
+
+<<footnotes "1st" "First-timers that just need to solve a cube would do well to simply learn //Aa, Clockwise Corner 3-Cycle// and //Jb, Right corners, front-right adjacent edges// because they are very easy to master and cover the last layer permutations well.">>
+
+<<footnotes "2l" "For 2-look PLL, purely permute corners, then purely permute edges.">>

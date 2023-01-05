@@ -1,0 +1,59 @@
+created: 20211122164932121
+modified: 20211122195703766
+tags: [[Link Log]]
+title: 2021.11.22 - Link Log: El Hee Hee Appeared In Da Mirror After I Chanted "Shamone" 3 Times
+
+* Confirm My Bias
+** https://bigtechnology.substack.com/p/a-xiaomi-phone-mightve-shipped-with
+** https://blog.scrt.ch/2021/11/15/tpm-sniffing/
+
+* Interesting
+** https://thepointmag.com/politics/two-modes-of-ideological-mystification/
+*** https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/mystification
+
+* Tools
+** https://restic.net/
+*** Backup, but no compression
+**** `# RESTIC QUICKSTART FOR LINUX`
+**** `# Choose where you want to save your backups`
+**** `MYREPO=/mnt/mybackupdrive/somefolder`
+**** `# Initialize a new restic repo at your chosen backup location`
+**** `restic init -r $MYREPO`
+**** `# Backup your files to the newly created repo`
+**** `restic backup /my/files -r $MYREPO`
+**** `# To restore a backup, first mount the repo`
+**** `restic mount /mnt/backedup -r $MYREPO`
+**** `# Browse the latest backup at /mnt/backedup/snapshots/latest`
+**** `ls -la /mnt/backedup/snapshots/latest`
+**** `# Copy the files you want to restore out of the repo`
+**** `cp -r /mnt/backedup/snapshots/latest/directory-to-restore ~/restored`
+*** https://kopia.io/
+** https://github.com/shmuelamar/cracken
+** https://relay.firefox.com/
+*** Continued arms race in shelling and tracing. Mixed bag for me since we really can't own the means of production of that protocol. Obviously, I think it's much easier to take my domain from me than to take protonmail's down (which is hardly a claim that this is sufficiently secure or that it has the fitting ownership model).
+
+* Maymays
+** https://www.reddit.com/r/thanksihateit/comments/er77yr/thanks_mario/ff2skqk/
+** https://i.redd.it/c3kuqxga96p41.jpg
+** https://i.redd.it/uiqxjfwtyu361.jpg
+** https://i.redd.it/804e2mv5w5b41.jpg
+** https://www.reveddit.com/v/trashy/comments/b97hbm/this_homemade_fleshlight_left_on_the_ground_yes/ek3401w/
+** https://i.redd.it/lwrxi4rpyj081.jpg
+** https://i.redd.it/iq0n7il8q9i61.jpg
+** https://i.redd.it/ca2re0fkr4081.png
+** https://i.redd.it/99mvjb5yaw571.jpg
+
+* [[vidya]]s
+** https://v.redd.it/c6h1cfklye081
+** https://www.youtube.com/watch?v=IEVp9BXrdTQ
+*** https://www.tiktok.com/@srryup/video/7031612527880457478
+** https://i.imgur.com/7BOkPpH.gifv
+** https://i.imgur.com/APaRxrj.gifv
+** https://www.tiktok.com/@anhducdepchai/video/7031026427893959941
+
+* SCWR
+** https://en.wikipedia.org/wiki/Uncleftish_Beholding
+*** I'm still learning English the Thiefiest Language of them all.
+*** https://ncf.idallen.com/english.html
+** https://en.wikipedia.org/wiki/Jevons_paradox
+** https://arxiv.org/abs/2108.10984

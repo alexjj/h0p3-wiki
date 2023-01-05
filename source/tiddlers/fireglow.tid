@@ -1,0 +1,112 @@
+created: 20210219182311618
+modified: 20210221084911141
+tags: [[FTO: Seemingly One-Off Online Encounters]] FTO [[FTO Mode: Alien]] Chatlog
+title: fireglow
+
+!! Information:
+
+* 0587b73a3fcd26b768c05c875d6d34420049668781b61f55e08106a71c363fb32b
+* Alias/Statuses:
+** well, Well
+
+!! Communications:
+
+; 2021.02.21 - fireglow: Out of the Blue Session
+
+<<<
+Hello there!
+
+I saw your TW on the web and I am intrigued.How do you host it?
+
+Hey there, fireglow! It's great to meet you.
+
+This is likely how you accessed it: https://github.com/m6ram
+
+For the longest time, I've just run my own server, but since I don't own anything in the datacenters for real, I've decided to just use github. 
+
+One of my goals is to self-host as much of my infrastructure as I reasonably can. 
+
+Since my ISP prevents me from hosting, I'm reliant upon distributing on the web on infrastructure that I don't own. It's read-only for everyone else.
+
+My [[Root Users]], however, can VPN in my network or simply have read+write file sync access. That's the real hosting work, imho.
+
+You don't happen to be the /g/entooman I met recently, eh?
+
+This is also still roughly accurate: https://philosopher.life/#RGM
+
+Heyy, thanks for the reply! 
+
+Oh, interesting. So you edit the TW locally and send it to github? Is that process automated?I read about TW last year or so and found the idea of the self-contained wiki/site fascinating.
+
+ah, [[RGM]] is helpful
+
+Not a problem. I'm happy to help you set it up. In many respects, I'm an intermediate user of TW at best.*
+
+The pilot's seat is local, on my network. I use TW5-Bob to make it so I can have multiple synchronized tabs on multiple devices accessing the same wiki simultaneously.
+
+Pushing to github is automated. Every minute. 
+
+Those who wish to capture every edit of a day can do so, and each night I take a snapshot and reset for the day. It's a compromise. 
+
+TW is far from perfect. It is the best tool I've found given my requirements.
+
+Hmm, interesting
+
+The self-contained, quine-like nature of TW is something special. I hate JS, but TW-WASM isn't coming out for a long time, imho.
+
+Do you have a git repo locally for it?
+
+Yes.
+
+cool stuff
+
+I'
+
+I'm just finding out all the stuff TW can do
+
+https://tiddlywiki.com/static/Saving%2520to%2520a%2520Git%2520service.html this?
+
+This is something they added after I set my [[RGM]] up. That is not how I do it, but I've met many who do it that way.
+
+Interesting!
+
+Hmm.
+
+Am I mistaken or did you mention some TW-to-TW messaging on your blog?
+
+Like I believe on your contact page you said something like "TW is my primary choice", what do you mean by that?
+
+Yes, I speak to people from my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱, and some use their sites to speak with me, in the open. [[Find The Others]] has some examples. [[kickscondor]], [[Sphygmus]], and [[chameleon]] are my favorite interlocutors who engage in this practice with me. I'm very [[lucky]] to know them.
+
+It is also possible to synchronize files between wikis, to maintain a subset of tiddlers or a subwiki (of a kind) with each other. My daughter, [[j3d1h]], and I had worked on this with Ratox and Resilio Sync, previously. The hacker who builds TW5-Bob also has considered this domain some, to my understanding.
+
+I prefer that people speak to me in context, using a medium they control. The difference in the [[hyperconversations]] between those who are autonomous and own the means of production vs. those who do not is considerable.
+
+Some of my letter-writing lasts for hundreds of pages, and it is deeply linked/mapped onto the rest of our work.
+
+The filesync is interesting. What is ratox?
+
+Some things are best communicated real time via something like an instant messenger, but there are some kinds of communications that need to be non-linear and long-form. Beyond what I owe to [[others]], the relationships that matter most to me require an [[intimacy]] that takes years to build. This is why I prefer TW (or other indieweb like tooling).
+
+Hm yes I agree.
+
+https://philosopher.life/#Ratox
+
+I'm not sure how best to describe it. I am a novice in many respects. I would describe it as the Tox library implemented in an application meant for piping in POSIX compliant systems. 
+
+aah right, tox
+
+Interesting
+
+Please forgive me, I have a [[plumbing problem|Polymath Craftsman]] that must be fixed or [[my wife]] and brother ([[AIR]]) will be unhappy. I work hard to respond to all messages, and I am [[grateful]] to be able to speak asynchronously. Please feel free to leave messages and continue the conversation. It's my honor to meet [[you|fireglow]].
+
+sure, sorry, I was also being afk, the cats wanted attention 
+
+I hope everything is well with your plumbing =)
+
+Immediate problem fixed. 
+
+I have two cats. Ranganathan and Chairman Meow. [[Kitty Kat Korner]]
+
+Meow, indeed!
+<<<

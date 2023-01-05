@@ -1,0 +1,36 @@
+created: 20190716164325249
+modified: 20190716172455419
+tags: $:/tags/Macro
+title: $:/plugins/kookma/todolist/macros/utility
+type: text/vnd.tiddlywiki
+
+\define todolist-explore-data-tiddlers()
+<$set name="dataTids" value="[all[tiddlers+shadows]search:title[$:/plugins/kookma/todolist/data/]sort[created]]">
+
+<$macrocall $name="todolist-delete-all-tids" filter=<<dataTids>> />
+
+<b>Number of data tiddlers found: <$count filter=<<dataTids>>/></b>
+
+
+<$list filter=<<dataTids>> variable="tid" emptyMessage="//No internal data tiddlers is found!//">
+<div class="kk-tiny-td-row">
+  <div class="kk-tiny-td-delete"><$macrocall $name="todolist-delete-tid" /></div>
+  <div class="kk-tiny-td-desc"><$link to=<<tid>>><$view tiddler=<<tid>> field="title"/></$link></div>
+</div>
+</$list>
+
+</$set>
+\end
+
+\define todolist-delete-tid()
+<$button class="tc-btn-invisible tc-tiddlylink">
+{{$:/plugins/kookma/todolist/images/times.svg}}
+<$action-deletetiddler $tiddler=<<tid>> />
+</$button>
+\end
+
+\define todolist-delete-all-tids(filter)
+<$button tooltip="Empty archive"> {{$:/core/images/delete-button}} Delete all data tiddlers?
+ <$action-deletetiddler $filter=<<__filter__>> />
+</$button>
+\end	 

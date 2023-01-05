@@ -1,0 +1,71 @@
+created: 20200909084112633
+modified: 20200909084752839
+tags: .plan Sphygmus Chatlog
+title: 2020.07.23 - Sphygmus: #tru-ricers
+
+"""
+[9:49 AM] robotic_scarab: missing a link bracket towards the end of 07-14's wiki review ;)
+[9:56 AM] robotic_scarab: the line in your most recent wiki review made me dig in my memory for a "would you rather" that became a big talking point for my friend group in college
+[10:14 AM] robotic_scarab: so "would you rather"s became a dining hall thing for a while
+[10:15 AM] robotic_scarab: me and the other people on my floor (and the two guys from the year below us when they still lived in the dorms) would generally go eat dinner at the dining hall right when they opened, at 4:30
+[10:15 AM] robotic_scarab: this was clearly the most optimal time b/c all the dishes were still fresh & hadn't been run out of anything, and the only people at the house dining table had been there since lunch (so it was usually empty and we had our choice of seats)
+[10:16 AM] robotic_scarab: this also meant that when they started doing "fourth meal" at our dining hall (another "meal" starting at 9 PM and going to midnight, with different, usually more junky food options) we'd frequent that pretty regularly too
+[10:17 AM] robotic_scarab: most of the time people who didn't show up for 4:30 dinner would show up for fourth meal, so it was more about hanging out than eating
+[10:18 AM] robotic_scarab: (for a while we were pretty consistently playing card games at fourth meal; usually a slightly hacked down (where we weren't super strict about table talk or actually trying to communicate info with our bids etc) version of bridge)
+[10:19 AM] robotic_scarab: anyway asking "would you rather"s was either a part of 4:30 dinner or fourth meal, but which one doesn't super specifically matter
+[10:19 AM] robotic_scarab: usually they were asked, answered, and moved on from but this one was asked to friends who weren't there at the original time of asking, brought up later when hanging out, and reworked into different forms, so -- friendship meme?
+[10:21 AM] robotic_scarab: I believe in its original incarnation, the question went something like "Would you rather your parents be watching every single time you orgasmed, or spend one random month out of the year in prison without being able to contact the outside world and nobody knows where you are?"
+[10:21 AM] robotic_scarab: I think there were only two of us who picked the "prison" option, and one of them was me :sweat_smile:
+[10:22 AM] robotic_scarab: everyone else gave us a prettttty hard time about it because they felt that was conclusively the wrong answer, lmao
+[10:22 AM] robotic_scarab: (and our arguments for it were pretty weak, to be fair)
+[10:24 AM] robotic_scarab: that eventually morphed into "would you rather spend one random month out of the year in prison, or stuck in DisneyLand/World? With both options, you're unable to contact the outside world and no one knows where you are."
+[10:24 AM] robotic_scarab: and that's my anecdote :mellow:
+[2:51 PM] h0p3: My wife called hers "The Roundtable," and mine were like a gang (includes [[T-Money]] and [[Killcoin]]). I miss heading down to the dining hall.
+[2:52 PM] h0p3: And, the answer is clearly a year in prison.
+[2:52 PM] h0p3: Lol
+[2:52 PM] robotic_scarab: * one month out of every year in prison ;)
+[2:53 PM] h0p3: Oh* one random month* yeah, that's still the correct answer
+[2:53 PM] robotic_scarab: hehe nice to have backup on this years later :laughter:
+[2:57 PM] h0p3: There is a vacuously true interpretation of "every single time you orgasmed" here. If one doesn't orgasm at all (and, I don't think I could with anyone watching, especially them), then it's not as big a problem. If that is not allowed, if one must orgasm in front of one's parent, it sounds like a unique prison already.
+[2:59 PM] h0p3: Also, if it happpens every year, presumably folks would eventually know it was my random time of the year to live in prison for a month. They wouldn't know where I was precisely, but at least they wouldn't be too freaked out about it (I think).
+[3:01 PM] h0p3: No, there must be some magic that enforces that no one even knows. Their memories are wiped of any knowledge that this is a yearly occurrence.
+[3:03 PM] h0p3: I like the "Would you rather?" game for understanding our price-points in life. I like to ask "How much would you have to get paid to do X?" for a unified currency in weighing future questions.
+[3:07 PM] robotic_scarab: see, that was my thing too - like, okay, so you can't tell anyone about being gone for a month when you're there, but -- you can give people a heads up that when you suddenly become unreachable on the first of the month, that's where you at
+[3:07 PM] robotic_scarab: there's ways to structure a life around that, lol
+[3:07 PM] robotic_scarab: I don't think we ever nailed down if there was a yes/no around if people retain their memory over time
+[3:08 PM] robotic_scarab: "would you rather" feels like a different take / perspective on prompted introspection to me
+[3:11 PM] h0p3: Yes. It forces me to wrestle with and explain what matters to me. There's a decisiveness and a commitment in the game that I admire.
+[4:29 PM] h0p3: https://archcraft-os.github.io/
+Archcraft - Home
+[4:30 PM] h0p3: Riced to within an inch of its life.
+[4:31 PM] robotic_scarab: mmmmm tasty
+[4:31 PM] robotic_scarab: not sure it's for the #tru-ricers tho
+[4:32 PM] robotic_scarab: gotta build it all yourself :craughing:
+[4:41 PM] h0p3: I've had to change systems so many times that I feel disheartened in ricing. I want to build something that I know will last. That's one of the reasons that I like TW a bit more. What are my cross-platform tools with staying power?
+[4:42 PM] robotic_scarab: mmm yeah I feel that
+[4:43 PM] robotic_scarab: that's one of the things about ricing, I think a lot of people get really into it and have all the random custom tools and mash it all together themselves
+[4:43 PM] robotic_scarab: or, to me -- so much of r/unixporn to me feels like it's just for the #aesthetics and I can't imagine actually working in it
+[4:45 PM] robotic_scarab: the extent of my ricing is basically:
+-- pixel terminal font & a color palette applied to it
+-- pixel status bar font & customized info on the status bar
+-- big pool of wallpaper images & a lock screen based on the wallpaper
+[4:46 PM] robotic_scarab: (at least on a small laptop screen, i3's auto grid window management removes any desire i have for worrying about theming title bars etc on windows)
+[4:49 PM] h0p3: I think now my strategy is like finding the lazy sweetspot where I sprankle just enough the syntactic sugar on top for usability. I have a hard time believing it, but I wonder if ARM become so prevalant that I'll have to switch...I'm looking at what I've got wondering what will be ported.
+[4:50 PM] robotic_scarab: hm, yeah, i remember the ARM struggle working on my chromebook
+[4:50 PM] robotic_scarab:
+finding the lazy sweetspot where I sprankle just enough the syntactic sugar on top for usability.
+I think this is a good place to be!
+
+[2:18 AM] robotic_scarab: I'm curious why you see a return to server-side rendering as a bad thing?
+[2:19 AM] robotic_scarab: where "bad" is more like "why you're not a fan" or "why it's not an improvement/beneficial/what have you"
+[2:23 AM] h0p3: The workers must own the means of production. Roughly, code should run on my machine unless it's in construction of an emergent or federated object owned by the workers.
+[2:29 AM] robotic_scarab: So I think specifically the context that article was reacting to is using React and Angular to build single-page applications for everything on the web (if you have a hammer you'll see everything as a nail)
+[2:30 AM] h0p3: I agree with most of the article.
+[2:30 AM] robotic_scarab: And even then you don't own the code running on your machine -- the burden of building the UI is on you, sure, but it still relies on external APIs
+[2:31 AM] robotic_scarab: Having the content delivered all at once, in more readable human HTML seems like a closer step towards something
+[2:32 AM] h0p3: I agree there are significant performance benefits to many users too.
+[2:32 AM] robotic_scarab: the content is less obfuscated and buried in cruft (JavaScript) and it's more likely you can save and own a copy of that page and have it work outside of the context of the website
+[2:33 AM] robotic_scarab: so in some sense it's maybe easier to own the content, despite the UI code not running in your browser
+[2:35 AM] robotic_scarab: (from my perspective the UI is the least important part of the process -- but that could certainly be argued)
+[2:39 AM] h0p3: I'll agree that javascript is a plague and not everything needs to be some heavy object. We can all appreciate aiming for a static, plain source.
+"""

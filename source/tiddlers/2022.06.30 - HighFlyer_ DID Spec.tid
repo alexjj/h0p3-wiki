@@ -1,0 +1,13 @@
+created: 20220708131524869
+modified: 20220708132045454
+tags: HighFlyer Chatlog Aether
+title: 2022.06.30 - HighFlyer: DID Spec
+
+`aether://board/e6c159b9a2897d5b6c9fd561ac605fd61e60111d51f23027169357f0b48c231c/thread/34b5ad01ae291144c93010961fbda24c69f20926a458de05d821391325420a36`
+
+<<<
+Decentralized Identifiers (DID) specification has been advanced as a W3C Recommendation over the objections of Big Tech companies who attempted to block it, most notably Google, Apple, and Mozilla. Here is Tim Burners Lee's decision:
+https://nitter.snopyta.org/csuwildcat/status/1542555632171208707?s=21
+<<<
+
+Protocols are a place to apply The Robustness Principle. Too many methods, too much flexibility, too few collaborations and agreements among developers. At what point does openness disable a meaningful compatibility standard that we will be likely to practically iterate over to make progress? Creativity needs constraint. Surely, there's gonna need to be some simplicity, if not elegance, to achieve efficient yet robust systems (working, motivating examples seem to be lacking). It's hard to predict cooperation, [[shared]] storytelling, or scaling implementations any time soon. I also worry that while Web 3.0 scam artists seek the appearance of legitimacy, MAANG is just hunting for canonical structures that give them the edge in the end, and I appreciate trying to prevent these types of standards from being captured by the interests of capitalists of either sort. Perhaps we're avoiding premature optimization of a protocol here. I also wonder if the underlying problem just boils down to people not recognizing (or preventing others from recognizing) what it means for individuals to own the means of identity production in virtue of public key cryptography.

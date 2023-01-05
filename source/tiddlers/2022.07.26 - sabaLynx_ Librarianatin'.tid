@@ -1,0 +1,56 @@
+created: 20220726145340775
+modified: 20220726171736777
+tags: sabaLynx Chatlog
+title: 2022.07.26 - sabaLynx: Librarianatin'
+
+"""
+[08:24:17] [[sabaLynx]]: hello h0p3
+[08:24:32] [[sabaLynx]]: Thank you.
+[08:25:08] [[sabaLynx]]: really good (and vey important too) up to date books.
+[09:41:23] [[h0p3]]: Dope. Glad to hear it. If you have any specific book titles (or anything else) you need,  let me know. I'll try to find them for ya.
+[09:41:41] [[h0p3]]: What are you up to today?
+[10:14:07] [[sabaLynx]]: I am sorting and doing archive today...
+[10:14:16] [[sabaLynx]]: and again.... hello
+[10:16:04] [[sabaLynx]]: I will hit you upon your offer. (🤝)
+[10:16:09] [[h0p3]]: Hello =)
+[10:16:12] [[h0p3]]: And, good.
+[10:16:30] [[h0p3]]: Do you do a lot of archiving?
+[10:17:10] [[sabaLynx]]: Not much ... I was long time coming ... I have to copy them some palce safe ...
+[10:17:52] [[sabaLynx]]: but as I was putting it off; I got complicated. 
+[10:18:00] [[sabaLynx]]: */I/it
+[10:18:27] [[sabaLynx]]: */It got complicated. 
+[10:18:58] [[h0p3]]: `/nod`. Is it more of the bitrot and data redundancy kind of safety, or do you have a different kind of security problem you are trying to solve?
+[10:19:47] [[sabaLynx]]: Non of the above ....  more like storage space if you will. ..
+[10:20:21] [[h0p3]]: I never have enough, myself.
+[10:20:30] [[h0p3]]: Don't matter how big the hard drive, I will fill it.
+[10:20:52] [[sabaLynx]]: also there has to be a system in storing them... to be able to find them and subject materials in each of them(for exmple in easch book).
+[10:21:21] [[h0p3]]: A hard problem, imho.
+[10:22:34] [[sabaLynx]]: I agree with you completely. It do fill. It was a time that I was looking for cloud storage solutions but with my growing needs, It got too expensive too fast
+[10:22:37] [[h0p3]]: Decent file hierarchies, tagging systems, tools like Recoll, and metadata/notetaking wrapped around it (pointing to files on the drive itself) seem to help.
+[10:23:38] [[h0p3]]: Only cloud storage options that might work these days require a complete mirror on your own system, to my knowledge. Ugly to keep it encrypted in the cloud and mounted/decrypted on the ground. 
+[10:23:54] [[sabaLynx]]: I am trying to do just that (tagging/linking/ and master ledger)
+[10:24:52] [[h0p3]]: One day, I hope we are blessed with some tiny ML model that can help us search and structure our data in a [[private]] manner.
+[10:25:08] [[sabaLynx]]: I was bitten with that mirroring stuff before. one file got deleted or modified by mistake and it got populated all over the place.( May be I didn't know how to use it... IDN)
+[10:27:42] [[sabaLynx]]: h0p3; the first step is a universally agreed file-format for each type of media that can be queried from outside source and getting the structure of that file (its skeleton if you will)
+[10:29:11] [[h0p3]]: What if we can't have a universally agreed file-format? 
+[10:30:46] [[sabaLynx]]: the structure with the ability to add extra tree-branch information to it at will.
+[10:31:34] [[h0p3]]: I worry that only abstracts the problem one more layer, as though any file can arbitrarily fit, just not well enough.
+[10:31:52] [[h0p3]]: You get my absurd gut ramblings here.
+[10:33:19] [[sabaLynx]]: well I don't know .
+[10:34:24] [[sabaLynx]]: consider pdf file format.. it is closed source. no way you could get its content in a sane and repeat-able manner
+[10:35:29] [[h0p3]]: Not easily, at least. I suggest it has been reverse engineered several times. I don't find any converters that are absolutely perfect though.
+[10:35:44] [[sabaLynx]]: as it stands I relay on places like amazon books that have book's information on hand
+[10:35:55] [[h0p3]]: `/nod`. 
+[10:36:17] [[h0p3]]: This may also be a classic librarian cataloging problem too.
+[10:37:23] [[sabaLynx]]: what am I trying to get to you is something like Youtube time-stamp videos. you could query them, change them and point right to them from outside source
+[10:38:20] [[sabaLynx]]: classic librarian problem  would come next .. when you have the skeleton data ( on a well defined and agreeed upon format). Now how you want to present that information ....
+[10:39:14] [[h0p3]]: Sometimes I wish we stuck to plain textfiles.
+[10:39:24] [[sabaLynx]]: if you remeber the windows 7 and XP help booklet/files ... those are good types of files
+[10:39:53] [[sabaLynx]]: primitive but good....
+[10:40:15] [[h0p3]]: Meant to be open and re-used, to fit into other systems, I take it.
+[10:41:23] [[sabaLynx]]: then ... then .... after you solved the stage ( that you called it classic librarian problem) 
+[10:41:27] [[sabaLynx]]: Comes the data mining and deep learning stuff
+[10:41:55] [[sabaLynx]]: h0p3; yes they were that kinda files
+[10:42:41] [[h0p3]]: It may be the case that datamining and deep learning can still be done with a PDF. Even the process that would unravel it into a format we would prefer might something deep learning can achieve often enough.
+[10:58:32] [[sabaLynx]]: In the case of english language pdf ebooks the job js much easier taht of let say chinese pdf ebook.
+"""

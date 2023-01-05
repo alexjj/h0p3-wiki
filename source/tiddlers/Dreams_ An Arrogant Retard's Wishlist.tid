@@ -1,0 +1,216 @@
+created: 20200926013254226
+modified: 20221204053243568
+tags: [[Prickly Pin]] Dreams
+title: Dreams: An Arrogant Retard's Wishlist
+
+; 2022.12.04
+
+* Nearly seamless, autoupdating, automounting of encrypted container shards for data assets transmitted over p2p networks, the web, etc. with synchronization where possible.
+
+<br>
+
+; 2022.11.22
+
+* A mutable torrent client that provides a client-side searchable database of the contents of the shared directories. Other users may query (assuming they have permission) the contents of this database (like Recoll). This can help with discoverability without hindering the automation of swarm creation. It's not that we don't have use for manually generated metadata for each torrent, cataloging, but we have to get off the ground without it too.
+
+<br>
+
+; 2022.10.26
+
+* ML tool for paraphrasing in a way that maximizes user anonymity, likely much stronger if many people use it. Speech-to-text doesn't solve the problem. You must defeat stylometry in the longrun. 
+** This tool should be enabled of anonymizing forums. 
+
+<br>
+
+; 2022.08.09
+
+* Fittingly* Hardened GNU/Linux synthesized onto ASICs, bonus for wise FPGA appendages.
+
+<br>
+
+; 2022.07.20
+
+* NLP/ML steganography on selected topics, with passwords if possible. Encode plaintext into what looks like standard plaintext that can only be probabilistically decrypted by that blackbox.
+
+<br>
+
+; 2022.07.07
+
+* ~~homomorphically‽ encrypted keylogger (very corner case*), where the append-write key is all that is plaintext on the system~~ Asymmetric can work just fine.
+
+<br>
+
+; 2022.06.10
+
+* Base-utf8 (or higher) compressed encoding, with a tool meant for clipboard conversions. 
+** I just don't care if you can type it or not.
+* Pass highly-compressed files through encodings with the maximum quantity of functional characters on user machines (I suppose it's better to be conservative, as with [[Invisign]]).
+
+<br>
+
+; 2022.06.01
+
+* Capslock Made Worthy: auto-window-targeting based keymapping
+
+<br>
+
+; 2021.08.02
+
+* Automated failover linking. Can't find it signed at https://philosopher.life? What about https://foobar, one of the [ip's, links, or keys] from these pastebins, formally cached and archived copies, steganographically hidden copies inside images on these forums, Tor, i2p, yggdrasil, Hyper, IPFS, Zeronet, my local copies across my devices, etc.? Ultimately, that file and network work must be done underneath the browser.
+
+<br>
+
+; 2021.07.22
+
+* A sane way to get around third-party sybil-bot-based geo-location on meatspace-connection apps. Must it be done by hand entirely? 
+
+<br>
+
+; 2021.07.21
+
+* A passive investment fund that real-time tracks members of congress and their family's investments.
+
+<br>
+
+; 2021.07.16
+
+* MLed HTML glitch art tool. Let me specify what I want in words, and it pumps out examples for me to find one that works well enough. Forget code prediction: mine it. One doesn't have to know how to code to pick out aesthetic (even functional aesthetic), whereas MLed blocks of code may require an expert to audit it in the first place.
+
+<br>
+
+; 2021.07.12
+
+* If Github Copilot is any indicator, what I want is something that predicts the next complex sentence in this ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱. Happy to see 5 different options and start chasing what I want down a tree, and I'm hoping that modifying what is given will end up being a very useful skill.
+
+<br>
+
+; 2021.07.11 
+
+* The holygrail primary one-front-page to rule them all. A universal feed-reader (and maker) that actually allows me to construct different kinds of mixed feeds well (where [[salience]] signaling is still based upon my behavior and interactions, but where I can manually override to create and view different filters with low friction). There will always be a need for doing it by hand, but there's no reason not to powertool this problem. Also, I want expressive and simple notification trigger controls, scheduled readings, and a side-bar automatically searching for conversations about the object in question. I need to be able to shape my {[[Focus]]}.
+
+<br>
+
+; 2021.06.17
+
+* P2P Distributed Etherpad Wiki in [[Outopos]]. Most of the web should be just that if you want the people to own the means of production.
+
+<br>
+
+; 2021.05.23 
+
+* Proportional vote-signal reader options to account for inflation while sorting histories of feeds.
+
+<br>
+
+; 2021.05.14
+
+* Selective Userspace Application State preservation for rebooting.
+** Also accepting zero-failure saving page state in browsers. 
+
+<br>
+
+; 2021.04.24
+
+* A search engine that never ignored my operators ("jewgle" as I recent stumbled across, lawd, that terrible, lmao) and granted me a thousand results from a +10-second query. Give me slow queries. I don't need immediate results; I know there are profound implications to that. I'll wait for higher quality! I'll fucking wait a day for some of my queries. I need a deep search tool for the web (and the internet generally, why not patch into all the networks?). 
+
+<br>
+
+; 2021.04.14
+
+* I want to see forums with multiple modes, one of which is a high-effort-posting mode. Say what you will about the neo-rationalists, but their discourse should be envied in most respects. There's gotta be skin-in-the-game, you have something to lose that can't be farmed with bots. Imagine a plebbit post with 10k posters, but the top threads for you are ranked by your desire for high-effort-posts, a place where you are responsible for providing position to even downvote or upvote in the first place.
+** You can have the quantitative and qualitative. Quadratic Ranged Voting + One's Own Written Record/Response
+** Perhaps the moderation I'd be after in this sphere is simply preventing sybil attacks. It's having a human sift to invite, like live, hand-verified pub/priv account keygen privilege provisioning for voting (the only power I maintained solo on Discord), with an open space to prove that mods are responding (with no mod privileges there).
+
+<br>
+
+; 2021.04.11
+
+* Tax advertising radically for the sake of building P2P epistemic trust infrastructures, [[Outopos]].
+
+<br>
+
+; 2021.04.10
+
+* [[EssOS]]
+
+<br>
+
+; 2021.04.01
+
+* Fully distributed P2P Collaborative VMs
+** The ability to share our resources with others well.
+
+<br>
+
+; 2021.03.30
+
+* I need an `emote` system on my own machine. Not some shitty archaic notification tool. What is really going to take my attention? Those moments where I do want a vanishing flower or butterfly, only I, being there, could know what it felt like in that moment. 
+** No reason not to have AHK-like qualities. I still need to try to get AHK working and fluent on my machine. It's something I don't spend nearly enough time understanding.
+** Keyboard driven, perhaps with a tiny overlay for the retarded among us (`/raises-hand`).
+
+<br>
+
+; 2021.03.17
+
+* i3 modification for multiple-remote users, multi-keyboard/cursor, requires a kind of syncing I know not how to solve. Saw an online demo recently.
+
+<br>
+
+; 2021.03.11
+
+* [[Aether]]-TW5Bob linking. Each tiddler creates or modifies a post. It's a way to have a P2P forum, and one that even follows a loose version of what you do on Plebbit.
+
+<br>
+
+; 2021.02.19
+
+* A searchable Youtube/[[vidya]] transcript/caption database. Scrape and give me different kinds of searching options. I fucking hate videos and podcasts; I strongly prefer reading. Think about how much is locked inside those videos. Absurd amounts of information. I'd love to be able to pull up exactly the videos at the right timestamps I want. Summaries and highlights from ML would be dope too, and if I could hear what people I trust thought about videos, that would be insane. Look, can you, like, solve all my problems, please?
+
+<br>
+
+; 2020.12.28
+
+* A Tiddler Injection extension, either pulled from a link or pasted in. [[Root Users: Hub]] is often best clientside, although there are reasons to want to shape a public entrance.
+** Ultimately, pre-computer on behalf of the user is required. Perhaps even just an ML model generated nightly (given perhaps more expensive ones less often) and inserted into the single-file. A predictive dictionary, of sorts. 
+** https://stork-search.net/ already obtains in context searching, but speed might be crucial. Maybe it should just be a browser extension more generally, but TW specifics might do way more.
+
+<br>
+
+; 2020.12.13
+
+* Local-first Friend-to-Friend modeling database and tooling (and perhaps homomorphic in some case?). That's where the real juice is. It's gotta be the cheapest and only fundamental answer to at least the Sybil attack in the end (and the automation of the attack on human trust in general). My social network tooling has to sit on my own machine, even the discovery and recommendations engines. The workers must own the means of production here. Federation is already stillborn.
+
+<br>
+
+; 2020.11.17
+
+* A simple and secure push-bridge-proxy from T2-VM-Guest to the host's notification system based either filesharing or networking (I want to be able to choose). With WSL, every major OS should be able to achieve this, right? 
+** Alternatively, though way more problematically from what I can see, reading memory states from outside the sandbox would do the trick without giving it away either.
+
+<br>
+
+; 2020.11.07
+
+* Cryptographically secure morse-code reading and flashing app. 
+** I suppose USB attachments could make some pretty dope things. 
+** Perhaps could go bidirectional.
+
+<br>
+
+; 2020.09.27
+
+* An [[ML]]ed needle-in-the-haystack picker for [[salience]]s in the wiki. A lowest-hanging fruit entrance customized to whoever would spend the compute. 
+** Say there were only 10 sentences most worth reading, what would they be? 
+*** What if they needed to be generated as new words with links mapping onto (and perhaps highlighting, maybe jumping to a cherry or anchor inside)?
+** Seems like it costs far too much though (on top of several moves yet unachieved).
+** Is this where WebBundling will lead to reliance upon MLed [[salience]]-popping shortcuts through masses of information, picked and shaped for the wrong reasons? 
+*** It's not a good thing that advances appear largely due to just throwing more hardware at it. But, some of the monsters might actually be able to give price-efficient births.
+**** With radical reinvestments in the corpus, I would bet on machines converting natural language specs to code more reliably than most humans in at least some cases. There will always be the need for welders. Making it pass QA correctly (or even magically provably) would be something extra special. My bet is that autocompletion will continue to grow, however slowly. That amount of hardware has to be decentralized; it's what our taxes would need to go toward. Our government has build the thing meant for everyone inside and out.
+
+<br>
+
+; 2020.09.26
+
+* A feed tool that showed me long-running conversation threads on HN, Plebbit, and Aether. 
+** Across the board, which conversations are lasting for a long-time, and why? Peaking above the 72-hour cycle is already something, and when can necroing be valuable?
+** Show me the thing that seems so unlikely yet beautifully human.

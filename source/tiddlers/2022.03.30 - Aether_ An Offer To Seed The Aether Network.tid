@@ -1,0 +1,58 @@
+created: 20220330081614878
+modified: 20220401134926776
+tags: Aether Note To Chatlog HighFlyer
+title: 2022.03.30 - Aether: An Offer To Seed The Aether Network
+
+`aether://board/86e782e80681ac580b4d6d102b12e787c066e59f194fee57bb0bf83cc1e42fc6/thread/b78964362a6e3ed83399ac275ef7a5168d7b4942da97febbe3a1f0075b326328`
+
+One decent way to get a file-sharing network up and actually running is to have at least a small foundation of [[power]]users to [[share]] their hoards. Maybe you'd be surprised what 10-20 dedicated people can bring to the table. Perhaps a forum that mimics Reddit in some respects would benefit in the same way (that is how they started plebbit back in the day).
+
+Don't get me wrong. There's some dope ass posters like [[search_social]], [[HighFlyer]], Troglodyte, and more. Yall are wonderful, <3. Unfortunately, we still lack network effect, content, a trustworthy userbase, etc. I've said it [[before|P2P: Aether]] (and I'm not the first either), but I think we need a way to automate the seeding of content. I keep an enormous [[Link Log]] of hand-picked content in my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 (tens of thousands of links). I'd be happy to seed on this network, but I don't have time to do it all by hand (I already do quite a bit by hand as it is). There's a bunch of ways to do it, but I would seed if I had a basic command line that looks something like this:
+
+    `aether --user h0p3keywhatever --subkey deadbeeffoobar123etc --new-thread properly_formatted_post.txt`
+
+If there's a decent pipe, I can do the rest from there. Maybe something like this already exists, and I don't know about it. 
+
+There's additional default whitelist worthy domains we should be able to hotlink to, including Reddit itself. Leverage your enemy. If you're willing to [[anonymize]] this network (at least enable it work under Whonix), I'll even host the media files themselves. I'm not willing to host in the cloud (the workers must own the means of production), but I will pledge my machine and my work, for whatever they are worth.
+
+<<<
+@h0p3 - Hopefully, we shall be hearing from @b soon, as the jobhunt comes to a succesful conclusion.
+
+Anyway, thanks for this. I hope you try something like this. It could be accomplished without extra permissions, I think.
+Pulling in content from Reddit could make Aether a preferred platform for browsing stuff there and even commenting. (I think that the comments are very important to making the place a success.)
+
+By default, content goes stale after 6 months, disappearing from view on the client, though it still is there on Aether's floodnet. If you (kindly) dumped those links here, they would be gone from view again after 6 months. Also, every post to Aether requires some CPU work, to limit spam, and this might slow the amount of content you could post. It might not be a bad thing, as having content go stale helps keep Aether's network fast.
+
+What I think we need for archiving content of lasting value is another, off-network store. I think IPFS would be good for that, as Aether's content is text and would require little storage space. We could be sure of the content being the same. If we integrated some IPFS archiving options into the client, that might be helpful. Have you seen this:
+https://github.com/jes/hardbin https://github.com/mayocream/pastebin-ipfs
+
+It would be nice to have something like that for thumbnails/meme-sized images too.
+
+Some domains are whitelisted by default. Additional, worthy domains can be requested by emailing @b or @benhylau or by contacting them on the Aether forum:
+https://meta.getaether.net/ You can also go into the settings and whitelist the domains you like.
+
+The problem with "the usual" alternative image hosting sites is that they all seem to be centralized. We should move to IPFS for sharing images, as people should be able to start seeding those images in a distributed way.
+<<<
+
+I appreciate your explanations. Thank you.
+
+Commenting is key. Aye. Without the ability to permanently pin (or at least repost complete threads) what we find [[salient]] for the rest of the network (something like what I'm doing by hand on the ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱), the historical value of the comments will disappear. There's usually an initial short-term window (2-3 days often), and then a long-term one that may not exist on this network (that forms part of the strength of Reddit). Something like Yacy and Recoll (with tailorable prioritization in results and feeds) over IPFS or Hypercored (I still recommend this instead of IPFS) content seems crucial (pretty tempting to just move all distributed data of this network onto such tools). There's a reason Reddit moved to hosting the content themselves, and Aether's success rests doing something similar (I've not seen either of those pastebins, but that is closer to what we need). I could imagine it would become a file-sharing tool with distributed governance over curation and moderation of how we relate objects (including people and groups of people) with each other. Ultimately, the key to P2P is getting people to put their skin in the game, contributing their own computational resources, and leveraging trust in friend-to-friend models (Hubski and Retroshare style). Otherwise, it will probably only ever be an ephemeral place we rip from but never store and distribute the extensions of our entangled identities.
+
+As my records show, I've spoken with both b (who has recommended I write here if he is going to take the time to speak with me) and [[benhylau]].  They are doing good work, and they are busy men. I've been checkin' out Aether since [[2018.11.04 - Link Log: Late Night Run]]. I'm still hoping it will take off; it's got enormous potential.
+
+<<<
+SionoiS is working on an IPFS social network site. https://discuss.ipfs.io/u/sionois/summary They hope to have it available later this year. If all the content goes directly onto IPFS it would probably make archiving it easier.
+
+I didn't know Recoll, thanks https://www.lesbonscomptes.com/recoll/
+
+I am familiar with YaCy though, and that is great. Even if you are only one person contributing your crawls to the network, it can make a substantial difference to the quality of results. There have been some attempts to make it easier for newbs to deploy but not very much progress there. If your group were able to run some YaCy nodes, that could definitely make an impact. I encourage you to try an experiment and see for yourself. For example, think up a niche topic that is unlikely to have attracted much interest. Investigate it, so that you know something about it and then try running some searches on YaCy. Note the quality of results, then have your team crawl some sites related to that topic and contribute their results to the pool and try the search again and compare the difference. It is amazing. It could be mycology for example, or virology or steam engines or some genre of Art.
+
+I hadn't looked at hypercore for ages either:
+https://hypercore-protocol.org/
+
+I will have to look again.
+
+I hope you are able to help Aether.
+<<<
+
+Thank you, [[nomad]]. You let me know if I can do anything else for ya. Unfortunately, I'm not convinced by YaCy, but I'll give it another go. I hope so too, and I hope to see the CLI tools I need for the job. It's not my prediction. We'll see. Perhaps if I get the automation and the results still aren't what people prefer, the point'n'click ability to repost and crosspost with modifications (don't care if it links back, though that can be useful in some cases) would help as well.

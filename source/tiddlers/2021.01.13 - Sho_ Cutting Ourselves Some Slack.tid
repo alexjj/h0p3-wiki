@@ -1,0 +1,16 @@
+created: 20210207210559935
+modified: 20210207210559935
+tags: Sho Note To
+title: 2021.01.13 - Sho: Cutting Ourselves Some Slack
+
+I hear ya. It's a serious pain in the ass. I know we have to cut ourselves some slack somewhere. I will continue to ask you to consider using the fitting tools to own your digital identities; there is no substitute. It is not pointless to fight Google, it's just hard. I'm still trying to figure out how to solve the problem at large myself. 
+
+Even if you don't have anything to hide, there are great reasons to own your machine (including that other people you connect with might have something to hide). Even for this e-mail right here: I'm writing it with the knowledge that it will sit on google's servers (they are trying to generate at least a commodifiable model of me too).
+
+Protonmail's free service is excellent, and it has a bonus when used with other protonmail accounts: the messages will be stored encrypted on their servers (crypto is clientside on both ends, which is exactly how it should be). Totally worth your time, and you don't have to do it all at once. Might as well make a Firefox sync account to go with it, eh?
+
+The VPN might not help still, especially if it is not used perfectly (and it still might not solve the problem then either). I suggest that Google (and many companies) fingerprints. In all my years, on every machine I've owned, I have never passed this test without Tor Browser: https://coveryourtracks.eff.org. My bet is all your devices are fingerprinted and your accounts are correlated by multiple institutions, and that would still be something that could be tracked after you start using a VPN. However, if all you need to do is appear plausibly from the Netherlands to bypass geoblocks, then go for it (many proxies will work in this case too). A VPN can also make sense if you do not trust your ISP (or your government's regulation or intervention upon your ISP, which sounds like a real possibility for you); yet, you should always use at least Tor if you need nearer bullet-proof privacy and anonymity. 
+
+Tell me your enemy, and I'll tell you how to beat 'em as best I know how.
+
+I'm looking forward to your kit and kaboodle too! 

@@ -1,0 +1,120 @@
+created: 20211118021322743
+modified: 20220826090751347
+tags: [[HN Log]]
+title: 2021.11.17 - HN Log: Arathorn & P2P Matrix
+
+https://news.ycombinator.com/item?id=29256618#29259203
+
+<<<
+Yup, Matrix as a network has no central authority at all, although it's a common untruth which gets passed around, rather depressingly.
+Things which could be at the root of this misunderstanding include:
+
+* The fact that we operate a *strictly optional* logically centralised directory service to look up matrix IDs by email address or phone number. I really wish we'd never added this to Matrix; it causes way more grief than it solves - we'd have been better off waiting off for someone to build a decentralised keybase service and use that instead.
+
+* Element runs a centralised integration manager (aka app store) to make it easier to add bots/bridges/widgets to rooms. Again, this is completely optional - although back in 2019 we had a stupid bug in Element Web which meant it checked the integration manager even if you weren't using it. This was fixed in June 2019 (https://github.com/vector-im/element-web/issues/6802).
+
+* Element has to query your server to find out what authentication mechanisms are available before you log in. Therefore if its config points to the default matrix.org homeserver, you end up pinging that every time you log in, even if your homeserver is elsewhere. The solution for now is to change your default homeserver in the config to avoid this.
+
+* Servers need to be able to validate events from servers even if those servers are offline. To do this you need to grab the public key for the offline server from somewhere; by default Synapse uses matrix.org as a fallback, but loudly nags the admin to pick a better default when you install the server.
+
+None of these actually allow a "central authority to have influence on another server" though; I've just listed the only places I can think of where a typical self-hosted Matrix implementation might interact with centralised services run by Matrix.org or Element.
+
+Unfortunately I think the real root of the misinformation is that it's just a bit too tempting and easy to throw around FUD. Some day we may get to the point where alternative FOSS projects will realise that the real enemy are centralised proprietary user-exploiting services rather than one another...
+<<<
+
+Amazing work. Bravo. I'm very much hoping to see P2P Matrix arise. That is no small task, I realize (and I'm grateful to those who have contributed to this). What are your thoughts on that aspect of the ecosystem?
+
+<<<
+P2P Matrix is a moonshot, but it's coming together really well. The only bits left at this point are:
+
+* Making Pinecone resilient to attacks. It's working well for clear weather scenarios, but we need to properly try to break it and get it audited. Need to test it at scale too.
+
+* Improving Dendrite so that it's more stable and efficient clientside
+
+* Metadata-protecting store-and-forward, so that clients can pass messages to each other without needing to be online at the same time. You can cheat and run a serverside P2P node to relay, but then it stacks up metadata - whereas half the point of P2P is reduce Matrix's metadata footprint.
+
+* Account portability. Currently each node is a separate account; need to support the same logical account being replicated over multiple nodes.
+
+* Better than full-mesh routing. This should be pretty easy as we can just follow Pinecone's topology to route traffic between nodes rather than having each node try to simultaneously post to every other node in a given room.
+
+You can get testflight & APK builds from #p2p:matrix.org if you want to experiment.
+<<<
+
+Thank you! Those are extremely important points, and I'm glad to hear it. Rambling from a madman in the desert, so please feel free to ignore me or tell me buzz off (and, if so, it was an honor speaking with you!):
+
+* This might be a worthy tool for simulating aspects of scale: http://imunes.net/
+
+* I assume power usage is a non-trivial concern (looks like yall have been worried about this too). I've tried my fairshare of P2P apps on mobile, and this can be a dealbreaker for many folks. I assume this will be something that has to be dialed in on mobile clients (and probably provides options to the user). I'm sure there are many trade-offs to consider, and I'm hoping logical accounts will provide significant advantages here. Are you feeling confident this will succeed?
+
+* The Store-and-Forward problem looks like a really big deal. Defaulting to friends (for those folks who are lucky to have them) or a chosen subset to proxy seems reasonable. Having the clear ability to pick out who we trust here (including volunteer networks) seems solid (I'm a huge fan of Retroshare's F2F concept). I take it that, ideally, with logical accounts and excellent NAT traversal (also a sore spot usually), one's own cloud of machines will obviate some of the desire to run anything in a datacenter (and even perhaps make friends a fallback). I'm excited to see Dendrite and Conduit grow!
+
+* As part of that portability, at least to my ideal, I'd be able to join my network from scratch using a password hashing algorithm for the private key, as otherwise I may be reliant upon secondary networks to move keys. This is often one of the first applications I want to install on a system to bootstrap myself in.
+
+* Pinecone's Topology looks like a good idea (Yggdrasil is dope too). That metadata problem may still raise its ugly head here. Do you predict the use of onion routing, at least with Tor and i2p, will be relatively easy to integrate in addition? Do you foresee Matrix enabling its own onion routing some day?
+
+* If you had to take a wild guess at the first stable moon landing, when do you think that might occur? Do you think 5-years may be acceptable?
+
+<<<
+Lots of interesting stuff there - thanks :) We're using https://github.com/mwarning/meshnet-lab rather than imunes.net for network simulation currently, but will take a look.
+
+Power usage is looking pretty positive so far; as long as we route the Matrix traffic over the routing topology rather than going full-mesh it should minimise radio usage (the main battery suck, other than screen).
+
+For store-and-forward, honestly using P2P Nodes as intermediaries is an okay approach other than exposing metadata to them. Our plan in the longer term is to switch to loopix-style mixnets to obfuscate the store and forwarding, a la nym.
+
+In terms of joining the network by deriving a private key from a passphrase... yup, that could be cute, although slightly terrifying in terms of the risk of weak passphrases :)
+
+We're hoping to get the P2P network stable in the coming year (although we were also aiming for this year originally :P)
+<<<
+
+You are exceptionally polite speaking with lunatics like me (I've seen that multiple times from you). I'm [[grateful]] for your candid responses. In case it may be useful, I will continue thinking about it here: https://philosopher.life/#2021.11.17%20-%20HN%20Log%3A%20Arathorn%20%26%20P2P%20Matrix. You already know, but it is my duty to acknowledge that you work on behalf of Humanity and quite a bit may ride on your success. You have a difficult ship to steer without enough resources, and I wish you had military-level funding for what is ideally a military-grade project. If you ever directly need something from me, please let me know. Thank you again for your time and willingness to listen to me, sir.
+
+<br>
+
+!! § I'm Taking My Sweet Time
+
+* You do have the ability to speed my process up, if you want. Say something.
+* In addition to thinking about your claims, I'm digging into [[DarkMX]], [[MuWire]], [[Outopos: Meh]], and also thinking about what I like most about Retroshare, Briar, and Tox. 
+** I'm hoping you'll perhaps wrestle a bit with these as well. 
+* It is possible that my conversation with [[benhylau]] will provide some context for you.
+
+<br>
+
+!! § Suggestions
+
+* I agree that the traffic shaping of a mixnet is excellent for most kinds of messaging (including padded/fixed packet length). Since Loopix seems of interest, this may be something to consider: https://www.usenix.org/conference/usenixsecurity21/presentation/hugenroth. Flood routing accelerates it. 
+** I don't think it's too much to ask (from a tax-funded organization that has enough resources, and that's not you, I realize) to ask for a thousands of clients to be able to participate in the same channel with reasonable performance. 
+** There are usecases where low-latency makes sense, and there are users who would prefer both. I think Tor and i2p should be first-class citizens of any messaging tool even with additional [[anon]]ymization tech. I hope you will continue to integrate that tooling, particularly in the p2p client.
+** This may also be of interest: https://katzenpost.mixnetworks.org/index.html. 
+*** I suggest that just as the Matrix protocol has evolved well in terms of bridging to other messaging protocols, it's in just as dire need of out-of-the-box bridging to multiple anonymizing protocols.
+
+<br>
+
+!! § User Responsibility
+
+* You could always force users to use relatively strong passwords if it will be used for generating the key. 
+* Proper use of password hashing can make these processes safe. It's not just cute. It's a realistic way for people to actually own their logical accounts from the most private thing they own: their memory. 
+** In practice, a proper PBKDF like Argon2 set to `-t 32 -m 21 -p 4` will add ~[[40 bits|https://www.kicksecure.com/wiki/Passwords#Key-Stretching]] of post-quantum entropy.
+* The login name //can// be a secret, and insofar as it is, it can add entropy. Separating the login name from the screen name is especially useful.
+* Make it so the user can modify their logical account's login name and password, and be prepared to ask users to reset these options with more secure secrets if an occasion calls for it.
+** Federated services have the opportunity to check for brute-force attempts in a way that locally-generated p2p identities may lack. It's easy enough to warn a user and trigger locks, blocks, and resets.
+
+<br>
+
+!! § Centralization
+
+* Perhaps there's no central authority, but there are points of centralization that we should not overlook. 
+* Exporting and importing identities, including metadata, needs to be front and center in the process.
+
+<br>
+
+!! § Spending More Time With Your Product
+
+* One should be able to turn off needing older devices to authenticate new ones.
+* I want more control over how I organize and nest rooms (or feeds*). 
+
+<br>
+
+!! § The Answer:
+
+* https://arewep2pyet.com/
+** Presumably, given the anti-goals, this conversation won't be relevant enough to your eyes. I wish you [[luck]].

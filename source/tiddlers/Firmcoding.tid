@@ -1,0 +1,16 @@
+aliases: [[firmcoding]] [[Firmcode]] [[firmcode]] [[firmcoded]] [[Firmcoded]]
+created: 20190304203803873
+modified: 20200902223904526
+tags: [[Wiki Mechanic]] j3d1h
+title: Firmcoding
+
+//One of my goals in the wiki is to maximize its static content and linking as much as possible. In some respects, this is not how TW was intended to be used. [[j3d1h]] has enabled me to begin dynamically generating static content within the wiki.//
+
+Types of Firmcoding:
+
+* <<tag [[filter-list]]>>
+* <<tag [[dir-lists]]>>
+* <<tag [[rel-lists]]>>
+* <<tag [[accu-rel-lists]]>>
+
+<$macrocall $name="list-links" filter="[tag[Firmcoding]]"/>

@@ -1,0 +1,640 @@
+created: 20220822050301469
+modified: 20220826000529511
+tags: BDS97 Chatlog
+title: 2022.08.22 - BDS97: The Very Rare Exception
+
+[[h0p3]]:
+
+Long time, no see, my friend. I check in on you from time to time, from afar. I hope you are doing well.
+
+[[BDS97]]:
+
+hi there!
+
+yep, doing well, thanks
+
+sorry for not writing to you before
+
+i procrastinate on a lot of things, and our previous discussions were kind of on a strange platform
+
+if you're okay with less than the total end to end encryption we've been doing before, i'm very active on discord nowadays
+
+b3nsn0w:#0311
+
+but i'm open to other channels as well
+
+we can probably figure something out, i just pretty much moved back entirely to windows lately, and never had a tox setup here
+
+[[h0p3]]:
+
+I'm glad to hear it, homie.
+
+What have you been up to?
+
+It's all good, btw. I'm glad we get to connect again. I know life gets busy. `/nod`.
+
+We're both skilled procrastinators =D.
+
+I really despise Discord, but I definitely appreciate its appeal. Not much different than talking here. We can speak without end-to-end.
+
+How's life?
+
+How's work, and family, and hobbies?
+
+That Ukraine shit is kinda close to home. Has that affected you much?
+
+[[BDS97]]:
+
+oh shit
+
+sorry, clicked off reddit, didn't notice your messages
+
+[[h0p3]]:
+
+Naw, np. Asynch is fine with me.
+
+[[BDS97]]:
+
+yeah, not a lot happened to me in the past two years-ish, actually
+
+stuff is going to go down soon, in a large part because of that
+
+this freelance thing i got going is not really serving its goal, i can't really concentrate on stuff like learning writing or music because my attention is always broken by it and called to something else
+
+usually without much payoff in the long term
+
+so i figured i might just get a job instead, won't be giving up much on the "i can live my life next to it" side, and will serve quite a few other things
+
+[[h0p3]]:
+
+That deep work flow state is hard to keep, especially for those of us with them 80HDs.
+
+Still working on immigration?
+
+What kind of stuff is going down soon?
+
+[[BDS97]]:
+
+yep, that's the idea
+
+i wanna get a job in the us soon-ish
+
+just working on an app now that i want to release before, because it would look really nice on my cv
+
+oh, yeah, got a new friend a little less than a year ago, she was kind of an influence in this one as well
+
+she got a job at microsoft earlier this year, and that way i got to see how the process looks like
+
+not what i expected
+
+but in a very positive sense
+
+so yeah, will be trying the same
+
+oh, an idea for a platform, we could do telegram
+
+my family switched to it lately because facebook messenger sucks
+
+like, not just in that it's tied to the zuck and stuff, but also in that it failed to deliver messages
+
+so that would be one way to ensure i get your messages properly
+
+reddit is kinda weird in this sense, like it's not allowed to send me notifications because i don't ever want desktop notifications for non-chat stuff
+
+but that way i don't get chat notifications either
+
+[[h0p3]]:
+
+I take it the app will perhaps catapult you into a sick career at a MAANG or something similar.
+
+What's the app about?
+
+How was the process different than you expected?
+
+[[BDS97]]:
+
+it's sort of a weird social network thing a friend of mine is working on (Alfonso, i've probably talked about him before)
+
+[[h0p3]]:
+
+I had made an anonymized account with them Telegram before, but it disappeared. I'll keep hunting that direction.
+
+[[BDS97]]:
+
+alright, if you ever find it, my phone number is [[REDACTED]], seems like that's what you'd need to add me
+
+[[h0p3]]:
+
+Never mentioned Alfonso directly.
+
+[[BDS97]]:
+
+on the social network, the idea is that we want to give people back this "family and friends newsletter" vibe that facebook once was, before it devolved into political hate clicks and all sorts of algorithm bullshit
+
+at least initially
+
+the app idea itself is kinda nice, it's like a modular social media where we could create a lot of different new post types, and give people fun ways to interact with each other
+
+but for the initial release, we're going with this thing that you can post about yourself and send it to friends who don't even have to register
+
+they'll get an email, it will contain a link with a token that authenticates them so that they can interact with you, and that's all for them
+
+[[h0p3]]:
+
+Neither here nor there, but I found this social network inspirational: https://multiverse.plus
+
+[[BDS97]]:
+
+huh
+
+at first glance this has a bit of a tumblr-ish vibe, but even more freeform
+
+[[h0p3]]:
+
+Made by a genius, imho
+
+Someone who loves the web.
+
+[[BDS97]]:
+
+wow, yeah, those post examples are awesome
+
+[[h0p3]]:
+
+What kind modularity or post types? What kinds of interactions stand out to you?
+
+[[BDS97]]:
+
+okay, you know what, thank you, this is super inspirational for the kind of stuff we're working on
+
+yeah, moment
+
+here's a screenshot from the current version of the appwel
+
+[[h0p3]]:
+
+(take your time, even if it takes days to respond...traditionally, I'm the slowpoke in our conversations anyway)
+
+[[BDS97]]:
+
+welp, my half-finished react native rewrite, to be precise
+
+[pics]
+
+[[h0p3]]:
+
+=D
+
+It's gorgeous.
+
+[[BDS97]]:
+
+your feed looks a bit like this, every post has a "label" and you just get a stream of art normally
+
+then you click into each of them
+
+and from there, individual post types (or bottlle types, that's what we're calling them) have their own individual uis
+
+yeah, this is from Alfonso's original swift app
+
+he's been working on it for years, and the pace of progress has been hella slow
+
+i've finally managed to convince him to let me redo it with better tech
+
+this will change, i don't really understand what eenie meenie does but we've discussed that it's not ready for the initial release
+
+daily was kinda bland, that's gonna change a lot
+
+but we had some interesting ideas already
+
+[[h0p3]]:
+
+That is kind of you. Helping your friend on such a key project.
+
+Dogfooding, I assume, gonna have to use it a lot to know how you want to change it.
+
+[[BDS97]]:
+
+yeah, pretty much
+
+one of the things we worked on for example was a post type we call photo spaceship
+
+it's basically a collaborative temporary photo album
+
+like, you create one for an occasion like a vacation, and for two months anyone you include can upload photos
+
+we even wanted to create a dynamically generated zine out of it, but that's kind of on the back burner
+
+and then you could put that one away, as a memory for that trip
+
+it had comment sections for each image and stuff, so like a mini social network tailored for an occasion like this, within your regular social network
+
+[[h0p3]]:
+
+ah, I see
+
+[[BDS97]]:
+
+then there's this idea i've proposed that we may do in the future
+
+where you'd meet up with a bunch of friends, and you'd each get a "photo six-shooter"
+
+like, you can each click the shutter exactly this time
+
+and then compare photos
+
+it's loosely based on the experience of polaroid photography, and i think it would just be a fun thing to do with friends
+
+[[h0p3]]:
+
+Reminds me of a photobooth somewhat.
+
+[[BDS97]]:
+
+oh yeah, good point
+
+that's kinda cool
+
+i never got to use those
+
+i kinda like this aspect of the app where we intend to make it a thing where the users pay for it, instead of advertisers
+
+that way we don't need to glue you onto the screen or track the hell out of you
+
+so we get to do a lot of fun stuff
+
+[[h0p3]]:
+
+`/nod`.
+
+I can appreciate how a software engineer like yourself needs to make money.
+
+I hope you'll find enough people who want to use it. It's hard to get people to do that.
+
+I think you've changed over the years a bit, moving more toward the art of storytelling each passing year.
+
+It seems more crucial to what you have on your mind than when we first met, perhaps.
+
+[[BDS97]]:
+
+yeah, good point
+
+it's weird, like it's part of the reason i'm a bit reluctant to brand myself as a nerd nowadays
+
+like, i'll go for photo apparel, or like half my wardrobe is nasa, but i don't want to grab random gaming stuff
+
+it's like, been there, but that's not my entire personality
+
+which i think was much less true when we first met
+
+holy shit, yes, that was all the way back in 2016
+
+[[h0p3]]:
+
+I suppose some of your work is concerned with helping people tell good stories with each other. No easy task.
+
+Seems like the current idea is gunning for the Instagram crowd a bit.
+
+[[BDS97]]:
+
+idk the original instagram crowd much
+
+just that they shafted the photographers lately
+
+[[h0p3]]:
+
+aye
+
+[[BDS97]]:
+
+in fact, been thinking about doing something there, figuring out how to give people a new place
+
+[[h0p3]]:
+
+That Tiktok sho' is addictive.
+
+[[BDS97]]:
+
+but i think grainery is slowly filling that role
+
+[[h0p3]]:
+
+Grainery is very pretty.
+
+Would you be amenable to using the Matrix protocol long-term? I find a lot of Discord/IRC related spheres on Matrix (bridges too). Someone as technically inclined as yourself may still find those communities valuable as well.
+
+[[BDS97]]:
+
+matrix protocol?
+
+looks interesting
+
+oh wait, does this mean that i could talk to you on discord without you being on discord?
+
+that sounds cool
+
+[[h0p3]]:
+
+It should be possible to set up a room that bridges.
+
+[[BDS97]]:
+
+oh, i see
+
+i mean, i could just download element as well
+
+[[h0p3]]:
+
+So, will your families be joining you and Alfonso in testing this new app out?
+
+[[BDS97]]:
+
+is matrix.org trustworthy, or should i get into hosting a homeserver?
+
+idk, probably not on my side
+
+Alfonso definitely has a few friends who are already testing the existing version of the app
+
+we have some feedback through them
+
+[[h0p3]]:
+
+I've tried the tooling many times. I currently use matrix.org myself, but I'm not claiming that is wise for the paranoid. I'm willing to lose my account though.
+
+[[BDS97]]:
+
+nice, then i'm creating an account there
+
+okay, i'm @b3nsn0w:matrix.org
+
+<br>
+
+"""
+3:38:14 AM - [[h0p3]]: joined the room
+3:38:14 AM - [[h0p3]]: made the room invite only.
+3:38:14 AM - [[h0p3]]: has allowed guests to join the room.
+3:38:14 AM - [[h0p3]]: made future room history visible to all room members, from the point they are invited.
+3:38:14 AM - [[h0p3]]: invited b3nsn0w
+3:38:17 AM - [[BDS97]]: joined the room
+3:38:20 AM - [[BDS97]]: hi there
+3:38:23 AM - [[h0p3]]: Yo! =)
+3:38:38 AM - [[h0p3]]: I'm trying out the Fractal client.
+3:38:42 AM - [[BDS97]]: nice
+3:40:09 AM - [[BDS97]]: okay, i've just installed element
+3:40:20 AM - [[h0p3]]: Cool
+3:40:33 AM - [[h0p3]]: Test*
+3:40:39 AM - [[BDS97]]: aaand i got a notification
+3:40:45 AM - [[h0p3]]: Nope, not encrypted on fractal
+3:40:49 AM - [[BDS97]]: weird
+3:41:27 AM - [[BDS97]]: it's kinda cool that it's the default though
+3:41:28 AM - [[h0p3]]: I'll stick with element for now as well.
+3:43:13 AM - [[h0p3]]: Is your family concerned with the war in Ukraine? Presumably, it won't spill over into Hungary directly.
+3:43:25 AM - [[BDS97]]: not really
+3:43:33 AM - [[BDS97]]: its effects here have been extremely mild so far
+3:43:43 AM - [[h0p3]]: Good
+3:44:47 AM - [[h0p3]]: But, it is a big reason for you?
+3:45:05 AM - [[BDS97]]: not really tbh, i'm not very concerned about it
+3:45:31 AM - [[BDS97]]: just been following ncd, laughing at russian incompetence occasionally, and in the background wishing for the russians to go home already
+3:45:35 AM - [[BDS97]]: idk how long it's going to take
+3:45:49 AM - [[BDS97]]: but i'm not expecting russia to take any more territory at this point
+3:46:11 AM - [[BDS97]]: plus even if they managed to by some miracle completely take ukraine, we're a nato country, attacking hungary would be literally ww3
+3:46:40 AM - [[h0p3]]: Yeah. That would be an even further radical catastrophe.
+3:47:54 AM - [[BDS97]]: i mostly wanna leave because i wanted to anyway, i just stayed because i hoped i could exploit the discrepancy in wages between hungary and the us to make some free time to learn skills i'd need for gamedev
+3:48:22 AM - [[BDS97]]: like, for the amount i've been making, i couldn't have afforded to live in the us
+3:48:44 AM - [[BDS97]]: hell, i couldn't have afforded to live here if it wasn't for my parents, although i guess if i took on a bit more work that could have been solved
+3:49:26 AM - [[BDS97]]: but i don't have any more focus to spend on those skills now than if i had a full time job, so i might as well get a full time job and start working on moving to a different country
+3:49:30 AM - [[h0p3]]: You might still consider doing remote full time while living there for a while. Easy to save.
+3:50:30 AM - [[BDS97]]: i know, but the critical path right now is getting to permanent residency, so that i could make a gamedev company in the us and work on interesting stuff there
+3:50:44 AM - [[BDS97]]: idk exactly how long that takes, my current estimate is five years but i could be wrong
+3:50:46 AM - [[h0p3]]: `/nod`. Yeah, that's makes sense.
+3:51:22 AM - [[BDS97]]: and that gives me plenty of time to save up for stuff, learn stuff, even do some of the crazier things i wanna do in life
+3:51:28 AM - [[BDS97]]: for example to get a private pilot's license
+3:51:58 AM - [[BDS97]]: but mostly to just start a proper life
+3:52:44 AM - [[h0p3]]: What's a proper life hopefully gonna look like for ya?
+3:53:04 AM - [[BDS97]]: idk, never really lived on my own
+3:53:16 AM - [[BDS97]]: i feel a bit like a kid still, just with a bigger allowance than before
+3:53:52 AM - [[BDS97]]: mostly the agency and responsibilities that come with that
+3:53:58 AM - [[h0p3]]: Independence
+3:54:02 AM - [[BDS97]]: yep
+3:54:18 AM - [[BDS97]]: also, like building out a proper social life and stuff, that would be cool too
+3:54:29 AM - [[h0p3]]: `/nod`.
+3:54:45 AM - [[BDS97]]: on that note, i'm hella glad we're talking again, and please remind me if i fuck around with social platforms again and get into a situation where we fall out of contact
+3:54:59 AM - [[BDS97]]: i know that distance won't mess up our friendship at least
+3:55:08 AM - [[BDS97]]: goes kind of the same with all my current friends
+3:55:24 AM - [[BDS97]]: but it would be nice to have some local friends too, kind of how life usually goes
+3:55:39 AM - [[BDS97]]: i just didn't want to work on that locally just so i could leave them behind
+3:55:56 AM - [[h0p3]]: Ah
+3:56:23 AM - [[h0p3]]: That make sense. Might feel like a waste somehow. The practice couldn't hurt. Having another home away from home if you ever did visit, probably useful.
+3:57:44 AM - [[h0p3]]: Skin hunger and being there in-person can't be satisfied or virtualized on the wire so well.  
+3:58:10 AM - [[h0p3]]: (lord knows, I've done my damnedest to live on the wire too) 
+3:58:46 AM - [[BDS97]]: damn, that line sounds amazing in like a half-cyberpunk hacker story context
+3:59:01 AM - [[BDS97]]: not to take away from your point
+3:59:05 AM - [[BDS97]]: it's just inspirational
+3:59:12 AM - [[h0p3]]: =D
+4:00:32 AM - [[h0p3]]: You into that sort of fiction? Neuromancer or anything like that tickle your fancy?
+4:01:03 AM - [[BDS97]]: haven't read much yet, but i kinda like the idea of the genre
+4:01:12 AM - [[h0p3]]: `/nod`. 
+4:01:12 AM - [[BDS97]]: pretty much my only exposure to it has been cyberpunk 2077 though so far
+4:01:17 AM - [[BDS97]]: although i really liked that too
+4:01:22 AM - [[h0p3]]: Audiobooks while you take pictures might be worthy.
+4:01:31 AM - [[BDS97]]: also, disco elysium is still on my radar, thanks for that rec
+4:01:35 AM - [[h0p3]]: Aint never played, but several family members speak highly of it.
+4:01:52 AM - [[BDS97]]: > "Audiobooks while you take pictur..." interesting idea
+4:02:03 AM - [[BDS97]]: idk though, i don't even listen to music while on a photo-walk
+4:02:12 AM - [[h0p3]]: Wow.
+4:02:17 AM - [[BDS97]]: can't really imagine an audiobook there
+4:02:20 AM - [[h0p3]]: I get anxious without my music. It's soothing.
+4:02:26 AM - [[BDS97]]: i'm kind of immersed in the environment when i do that
+4:02:43 AM - [[BDS97]]: yeah, i fucking love music, i do listen pretty much all the time on public transport for example
+4:02:57 AM - [[BDS97]]: but photo-walks are different
+4:03:12 AM - [[BDS97]]: when you want to represent a place you kind of have to pay attention to it
+4:03:26 AM - [[h0p3]]: Ah. Yeah. I can imagine that requires quite a bit of attention.
+4:03:42 AM - [[h0p3]]: Accurate representation is no joke of a problem.
+4:03:59 AM - [[h0p3]]: Audiobooks would not be fitting there.
+4:04:07 AM - [[BDS97]]: i feel like you would also lose a few cool photo-ops
+4:04:31 AM - [[BDS97]]: like, many of the best shots are not exactly obvious
+4:05:05 AM - [[BDS97]]: you have to be able to visualize the scene from a different angle than you're looking at, and find cool situations
+4:05:11 AM - [[BDS97]]: it's part of what makes it so fun
+4:05:35 AM - [[BDS97]]: but yeah, noted, i do see why people listen to audiobooks that much
+4:05:57 AM - [[BDS97]]: they've just never been my thing, i mostly prefer written media
+4:06:23 AM - [[h0p3]]: Makes sense.
+4:06:24 AM - [[BDS97]]: or like, movies and games if we're talking audio
+4:07:26 AM - [[BDS97]]: anyway
+4:07:30 AM - [[BDS97]]: what have you been up to lately?
+4:07:59 AM - [[h0p3]]: Grinding like I always do, [[TTTOTW]] (Trying to take over the world).
+4:10:02 AM - [[h0p3]]: Offspring are responsible for doing their schoolwork if they want, but it's on them at this point. I still drag them down to [[The Den]] to work on random shit. [[Links: Library]] archiving tool, setting up firejails, working on [[NixOS]] together (trying to build out a decent way to sync our home directories and secrets without trusting github like many of Nix fanbois do), calculus today too. 
+4:12:14 AM - [[h0p3]]: My wife is working her ass off. Doing what we can to convert Yale library systems to using FLOSS infrastructure and decentralize publishing and [[sharing]] information (which they have the resources to do). She's starting her MDiv program here soon, next week. Been decades in the making, and it is only because she married me that she waited this long for it. I'm looking forward to secretly taking her classes with her (at least the ones that I'm capable of doing*).
+4:13:45 AM - [[h0p3]]: My sympaticon, [[ASK]], has been a joy to have with us, a profound addition to [[The Alien Asylum]]. I continue to get to know her every day. It's pretty dope. 
+4:14:24 AM - [[h0p3]]: My brother, [[5c0ut]], has been transitioning a lot over the past couple years. I'm glad to have been able to serve him. I feel [[hope]]ful about his future. 
+4:15:17 AM - [[h0p3]]: My family member, though I know not what word to use, [[Sphygmus]], is safe and building her life from afar. I work to be useful to her wherever I can. I am usually extremely quiet.
+4:16:17 AM - [[h0p3]]: My brother [[JRE]] had adopted his first son, and in 45 days will begin the process to adopt the biological brother. He and his wife are financially well-positioned for the recession we are in. I hope to find a way to help my nephews to become educated young men.
+4:17:25 AM - [[h0p3]]: I've been a digital librarian to a variety of [[anon]]s. I reach out to fewer people, as I have been curling-up these past couple years. I am in [[Reply Mode]] for the most part (though, you are a very rare exception*). 
+4:17:44 AM - [[h0p3]]: I hunt for answers only a madman in the desert would. 
+4:18:51 AM - [[h0p3]]: Basically the same, though I think our material conditions have improved in some respects. I am [[lucky]]. I live on my [[monster]], spend time with family, and have incredible flexibility to pursue the projects I think are most [[salient]] to my vocation. 
+4:19:48 AM - [[BDS97]]: i find it amazing how you are linking into your wiki in realtime, so that if i need any details, i can just look into it
+4:20:08 AM - [[BDS97]]: then tumble down the tvtropes-esque rabbit hole that's your mind projected onto the internet
+4:20:20 AM - [[h0p3]]: =D
+4:20:55 AM - [[BDS97]]: anyway, didn't want to interrupt you
+4:22:19 AM - [[h0p3]]: Naw, I think that about covers it. Lol. To my surprise, I have begun to replace [[Madman's Photo Slideshow]] every week (embedding an image is quite expensive, even after compression, so I only keep one in there). Our photos are not nearly as skilled as yours, but I like them. 
+4:23:05 AM - [[BDS97]]: i mean, that's one hella cool butterfly shot that you currently have on there
+4:23:21 AM - [[BDS97]]: have i actually shared photos with you before?
+4:25:15 AM - [[h0p3]]: I don't see that you have. Thought I had run into them before.*
+4:27:04 AM - [[BDS97]]: just poking around in my folders, to see if there's anything interesting there
+4:27:17 AM - [[BDS97]]: sent an image. (Media omitted)
+4:27:19 AM - [[BDS97]]: here are a few
+4:27:34 AM - [[BDS97]]: i think i should have these individually
+4:27:48 AM - [[BDS97]]: took down my photo-wall, because we painted my room not that long ago
+4:28:01 AM - [[BDS97]]: and haven't put it back yet because i wanted to "scan" everything
+4:28:14 AM - [[h0p3]]: These look like classic photographs, like you'd find in a magazine or book.
+4:28:48 AM - [[h0p3]]: You still doing polaroid? Is there a middle ground for gettin both digital and the physical copy on the same device?
+4:29:02 AM - [[BDS97]]: not really
+4:29:09 AM - [[BDS97]]: at least not in a good camera
+4:29:43 AM - [[BDS97]]: fuji has a few "hybrid" cameras that do that
+4:30:01 AM - [[BDS97]]: but they're really just a laptop-grade webcam tacked onto an instax printer
+4:30:17 AM - [[BDS97]]: the photos that come out of those are terrible compared to an analog photo on the same film
+4:30:37 AM - [[BDS97]]: personally, i just do phone scans
+4:30:51 AM - [[BDS97]]: sent an image. (Media omitted)
+4:30:56 AM - [[BDS97]]: here's an example from my dad's wedding
+4:31:26 AM - [[BDS97]]: this was a super janky setup, because i had to scan these at his place, wanted to leave the originals with him
+4:32:05 AM - [[BDS97]]: so i took a random napkin to serve as a background, went into a dark room, side-lit it with a portable worklight, and scanned it with my phone in one hand and a book in the other
+4:32:34 AM - [[BDS97]]: the book was used to block the light from hitting the phone, so that it stays dark and its reflection doesn't show up in the picture
+4:32:45 AM - [[BDS97]]: actually scanned all 27 pics in like ten minutes
+4:32:53 AM - [[h0p3]]: That makes sense.
+4:33:20 AM - [[BDS97]]: so like, you do actually need a nicer phone
+4:33:24 AM - [[h0p3]]: sent an image. (Media omitted)
+4:33:26 AM - [[BDS97]]: this was on an iphone se 3rd gen
+4:33:26 AM - [[h0p3]]: sent an image. (Media omitted)
+4:33:40 AM - [[BDS97]]: oh hi there
+4:33:45 AM - [[h0p3]]: I work to reciprocate on pictures these days. So, here's mine.
+4:34:09 AM - [[BDS97]]: welp, i don't think i have one with me
+4:34:12 AM - [[BDS97]]: will have to look
+4:34:13 AM - [[BDS97]]: but thanks
+4:37:04 AM - [[h0p3]]: Also, in part because you continued to argue the value of multiple screens, I ended up going for it myself. Couldn't live without it now. 
+4:38:11 AM - [[BDS97]]: awesome
+4:38:28 AM - [[BDS97]]: yeah, i think my first dual-screen system was all the way back in 2014-ish
+4:38:41 AM - [[BDS97]]: when my parents got me a new monitor and i refused to throw the old one out
+4:38:47 AM - [[BDS97]]: i just hooked it up because i figured it was a cool thing
+4:38:55 AM - [[BDS97]]: then it has grown on me
+4:38:56 AM - [[h0p3]]: Hell yeah. 
+4:42:25 AM - [[h0p3]]: First dual monitor setup was late 90's for me, when I built my first machine. Dual cyrix processors, ran out of IRQs on that machine stacked to the gills with CDRWs and HDDs. Eventually, late 2000's, workspaces made all the difference for me, but now I'm back at it even with workspaces.
+4:44:04 AM - [[h0p3]]: Btw, have you felt the impact on inflation?
+4:44:16 AM - [[BDS97]]: sort of, but in a very weird way
+4:44:28 AM - [[BDS97]]: the hungarian forint has gone completely crazy
+4:44:37 AM - [[BDS97]]: like, it nosedived to kingdom come
+4:44:42 AM - [[BDS97]]: but that actually helped me
+4:44:56 AM - [[BDS97]]: because i get paid in usd, so my money was suddenly worth somewhat more here
+4:45:05 AM - [[BDS97]]: then that got corrected by things getting more expensive, but not completely
+4:45:06 AM - [[h0p3]]: ha
+4:45:20 AM - [[BDS97]]: also, fuck it, webcam pic
+4:45:22 AM - [[BDS97]]: sent an image. (Media omitted)
+4:45:24 AM - [[BDS97]]: that me
+4:45:38 AM - [[BDS97]]: i could find literally a single polaroid only that i was present on
+4:45:40 AM - [[h0p3]]: Yo. =)
+4:45:55 AM - [[BDS97]]: and it's like a family photo from last christmas
+4:46:35 AM - [[BDS97]]: i'm usually the one behind the camera, not the one in front
+4:47:00 AM - [[h0p3]]: I do my best to avoid having my picture taken. 
+4:47:45 AM - [[BDS97]]: i did too, actually got a lot less militant about it ever since i got into photography
+4:48:02 AM - [[BDS97]]: although, idk exactly how you mean
+4:48:12 AM - [[BDS97]]: because like strangers shooting strangers is not really a thing here
+4:49:12 AM - [[BDS97]]: but like, with family, we've done this stuff a lot where basically most of us play a game of "dodge the camera"
+4:49:18 AM - [[h0p3]]: Not exceptionally common here, except in a surveillance sense.
+4:49:25 AM - [[BDS97]]: oh, nice
+4:49:29 AM - [[h0p3]]: Yeah, that's pretty normal =).
+4:49:39 AM - [[BDS97]]: i've seen some weird shit in photography tutorials, but it was just that one specific person then
+4:49:44 AM - [[BDS97]]: or maybe two
+4:49:55 AM - [[BDS97]]: anyway, go on
+4:50:07 AM - [[h0p3]]: Oh, for sure some photographers do. I don't run into it a lot. Although, I don't go out a ton. 
+4:51:09 AM - [[h0p3]]: I have mixed feelings about the stories pictures tell. They do add something crucial though.
+4:51:45 AM - [[h0p3]]: Why do you think the Forint has gone crazy?
+4:52:46 AM - [[BDS97]]: that might actually be one of the few cascading effects of ukraine that you can actually feel here
+4:53:02 AM - [[BDS97]]: like, the hungarian government has been ridiculously pro-russian, and has been widely criticized for it
+4:53:26 AM - [[h0p3]]: I didn't know that.
+4:53:43 AM - [[BDS97]]: which i guess made the hungarian workforce somewhat less attractive to multinational companies
+4:54:13 AM - [[BDS97]]: we're pretty much the india of europe, if you want to outsource work to a cheap workforce that's still very much embedded into european culture, hungary is usually a pretty good bet
+4:54:24 AM - [[BDS97]]: and the government makes bank on this, because the taxes are crazy
+4:55:30 AM - [[BDS97]]: like, if you add the different fees and stuff together with the taxes you have to pay here, you get basically half of what you cost to your employer
+4:56:49 AM - [[BDS97]]: so the corporation in question wins because they get cheap labor, the government wins because they get to take a bunch of it, and we get a proper work environment resembling western nations, and better pay than the shit pit they'd normally have for us
+4:57:01 AM - [[BDS97]]: and i guess most people are happy with that
+4:57:16 AM - [[BDS97]]: i sure was after hs, was a damn nice change of environments
+4:57:58 AM - [[BDS97]]: but, if you fuck up internationally and make people reconsider hiring from your country instead of someone else in the region (afaik hungary isn't the only one playing this game) you have to lower your rates
+4:58:09 AM - [[BDS97]]: which you do by lowering your currency, because everyone is paid in that currency
+4:59:01 AM - [[BDS97]]: so that people don't get demoralized that they took home 400,000 huf a month last year, and they only get 300,000 this year
+4:59:22 AM - [[BDS97]]: (that's about $12k/year at the current exchange rate, and around double the average salary if i'm not mistaken)
+4:59:43 AM - [[BDS97]]: but the effect is the same, because the same amount of forints is worth a significantly lower amount in usd or eur
+5:00:40 AM - [[BDS97]]: this is my best guess for why the forint has been nosediving even compared to other currencies which are already experiencing inflation themselves
+5:01:17 AM - [[BDS97]]: what the fuck, the exchange rate has jumped back to 400
+5:01:21 AM - [[BDS97]]: i thought it was stabilizing
+5:01:26 AM - [[h0p3]]: I appreciate your telling me. Thank you. 
+5:01:48 AM - [[BDS97]]: sent an image. (Media omitted)
+5:02:06 AM - [[BDS97]]: that's the day russia invaded ukraine
+5:02:37 AM - [[BDS97]]: up is bad, in this case, the forint is just so worthless you don't get enough digits if you compare the other way
+5:03:12 AM - [[h0p3]]: In addition to your reasons, I'm thinking Hungary's National Bank is having to defend the Forint on exchange markets, which might only make local inflation worse. 
+5:03:45 AM - [[BDS97]]: could be
+5:03:51 AM - [[BDS97]]: idk enough about trade for that, tbh
+5:04:01 AM - [[BDS97]]: but commodities have been rising like crazy in terms of price
+5:04:06 AM - [[h0p3]]: me neither, but trying to understand
+5:04:31 AM - [[h0p3]]: Dozen eggs cost us three fitty here, no joke. 
+5:05:22 AM - [[h0p3]]: Has it impacted your family a lot? I realize you get paid in USD, so you avoid some of the problems. I assume they don't though.
+5:05:39 AM - [[BDS97]]: yeah, my mom is constantly stressed about being able to afford stuff
+5:05:53 AM - [[h0p3]]: `/nod`.
+5:06:36 AM - [[h0p3]]: Are you feeling any pressure to be the golden child safety net for them? 
+5:06:46 AM - [[BDS97]]: not yet
+5:06:54 AM - [[BDS97]]: but i'm expecting some of it
+5:07:04 AM - [[BDS97]]: i hope moving to the us will help with that too
+5:07:14 AM - [[BDS97]]: so i'll be able to easily afford helping them out a lot
+5:07:37 AM - [[BDS97]]: it's like our government wants me to go though
+5:07:49 AM - [[BDS97]]: they just fucked up the scheme in which i've been paying my freelance taxes
+5:08:21 AM - [[BDS97]]: it used to be a fixed ~$150 monthly tax for anything i make up to ~$3000/mo, then a 40% on everything above that
+5:08:32 AM - [[BDS97]]: those are the old exchange rates, idk what it would be with the new one
+5:08:48 AM - [[BDS97]]: but now that scheme can only be used to bill individuals, not companies
+5:09:07 AM - [[BDS97]]: like, about 5% of the country was using that, there were some massive protests about it
+5:09:30 AM - [[BDS97]]: but the people are basically powerless, we only have a voice in this every four years and the election was this spring
+5:09:40 AM - [[BDS97]]: otherwise they do whatever the fuck they want
+5:10:05 AM - [[h0p3]]: Do companies get taxed less?
+5:10:20 AM - [[BDS97]]: i mean, someone has to
+5:10:39 AM - [[BDS97]]: afaik hungary has about a third of its gdp in taxes
+5:11:12 AM - [[BDS97]]: and yet if individuals work anywhere, in the end everything we make is taxed at about 50% of the total
+5:11:29 AM - [[BDS97]]: so for an average to make sense, someone has to be under it
+5:12:14 AM - [[h0p3]]: Wondering if there is any way around it for you.
+5:12:15 AM - [[BDS97]]: i highly doubt corporate taxes are friendlier here than in the us though
+5:12:21 AM - [[BDS97]]: not that i know of
+5:12:53 AM - [[BDS97]]: we basically went around it with my mom's accountant, the best way i have right now would have roughly the same monthly costs, and a ~33% tax on everything i make on top of that
+5:13:05 AM - [[BDS97]]: my way around it is to just gtfo whenever i can
+5:13:18 AM - [[h0p3]]: `/nod`. 
+5:14:18 AM - [[h0p3]]: Wondering if it would be feasible and worthy to have an LLC + accounts here in the states, and if that might provide other options for you.
+5:14:30 AM - [[h0p3]]: I don't know shit though.
+5:14:56 AM - [[BDS97]]: as far as i know there are some treaties, and if you don't spend like half the year in that country they can come after you
+5:15:08 AM - [[BDS97]]: at least that's what said accountant told me
+5:15:52 AM - [[h0p3]]: Might be worth looking into one more time.
+5:16:07 AM - [[BDS97]]: yeah, you have a point
+5:16:11 AM - [[h0p3]]: For the shiggles
+5:16:19 AM - [[BDS97]]: oh yeah, good point
+5:16:22 AM - [[BDS97]]: i'm estimating about half a year though for its usefulness
+5:16:29 AM - [[BDS97]]: but fucking with our government sounds fun
+5:22:35 AM - [[h0p3]]: I've another Hungarian friend who lives maybe an hour from you who spends an enormous amount of time on his computer. He is a visual artist (and he makes music too). He does work for music labels in your area. Kinda a hiki, as most of his offline interactions are with his immediate family and gf. [[dziggetai]], he's an interesting and thoughtful human being. This is his discord ID: [[REDACTED]]. That might be too far away to meet offline, but maybe not. 
+5:23:32 AM - [[BDS97]]: sounds fun
+5:24:55 AM - [[BDS97]]: sorry for being somewhat inactive
+5:25:03 AM - [[h0p3]]: Naw, no worries
+5:25:13 AM - [[BDS97]]: i'm kind of balancing a few conversations at the moment
+5:25:22 AM - [[h0p3]]: Yes, sir. 
+5:27:00 AM - [[h0p3]]: I should log as it is. Been working on having a marginally more normal bedtime. I will have to travel tomorrow, so it would be wise that I sleep while I can (though, I'm all jitters at the moment, so probably not until after I wind down).
+5:27:18 AM - [[h0p3]]: You know me: I will respond to any messages. Asynchronous comms are fine with me. 
+5:27:50 AM - [[h0p3]]: Think about hitting Shp up. Might not be what you want, but maybe it wouldn't hurt. `/shrug`. 
+5:28:15 AM - [[BDS97]]: alright, will think about it, although depends on energy and stuff
+5:28:22 AM - [[BDS97]]: you know how well i can procrastinate
+5:28:27 AM - [[h0p3]]: ha =D
+5:28:34 AM - [[BDS97]]: you're in central time, right?
+5:28:42 AM - [[h0p3]]: Eastern
+5:28:46 AM - [[BDS97]]: oh, nice
+5:28:47 AM - [[h0p3]]: Connecticut
+5:28:50 AM - [[BDS97]]: oh
+5:29:03 AM - [[BDS97]]: okay, idk why i thought you lived somewhere around ohio
+5:29:09 AM - [[h0p3]]: Live real close to the ocean now, which is dope.
+5:29:15 AM - [[BDS97]]: that sounds awesome
+5:29:40 AM - [[h0p3]]: I did when we met (Tennessee). We just moved up here when covid it.
+5:30:12 AM - [[h0p3]]: Stressful but good* - I don't care for swarms of humans, hehe.
+5:30:36 AM - [[BDS97]]: yeah, i think that's why i mistook it, for some reason in my mind you just moved a bit north, forgot that it was somewhat east as well
+5:30:57 AM - [[BDS97]]: anyway, my sleep schedule is roughly synced to pacific
+5:31:15 AM - [[BDS97]]: but yeah, goodnight, in that case
+5:31:22 AM - [[h0p3]]: yes, sir, `/salute`, ttyl
+"""

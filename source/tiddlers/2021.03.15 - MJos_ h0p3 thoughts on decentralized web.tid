@@ -1,0 +1,66 @@
+created: 20210316035811069
+modified: 20210318024813908
+tags: Dope MJos AGladding From Note Fwd Outopos
+title: 2021.03.15 - MJos: h0p3 thoughts on decentralized web
+
+"""
+My hacker mentor (lahacker.net angelogladding.com) responds to your Outopos page.
+
+---------- Forwarded message ---------
+From: Angelo Gladding <self@angelogladding.com>
+Date: Mon, Mar 15, 2021 at 5:10 PM
+Subject: Re: h0p3 thoughts on decentralized web
+To: Maxwell Joslyn <maxwelljoslyn@gmail.com>
+
+
+On Mon, Mar 15, 2021, at 3:31 PM, Maxwell Joslyn wrote:
+https://philosopher.life/#Outopos:Outopos
+
+Check out the mad philosopher’s writing about how he envisions the replacement to the web. 
+
+> There are limits in computer science to what can be decentralized and distributed. Let's take ourselves to the practical limits and set ourselves up for success.
+
+I tuned in to a 1-on-1 with Greg Little [0] last Friday at 4p and deep-dived on his sync9 CRDT. We talked about the two other implementations, automerge [1] and yjs [2], and then he went into fine detail about how his is superior. Tooms entered the picture a good four hours in, lit up some dank and the topic shifted into all things crypto, web of trust and real time.
+
+I'm porting his sync9 to Python as you sent this to me. Three for three these implementers are PhDs (MIT, Cambridge and [Germany]). I shouldn't even be attempting it. I mean sync9's implementation goes above and beyond the others and introduces conflict-free PRUNING. The other two data structures (automerge and yjs) discard nothing and grow in size indefinitely (exactly like git). sync9 will prune everything back so long as all peers active in the synchronized state are indeed synchronized (REMEMBER THIS).
+
+CRDTs provide "strong eventual consistency" and allow for people to go into a grocery store/airplane and continue working on a collaborative document and then sync safely when they reconnect. So people are using them for "serverless". You have your browser open with the document and I have mine open with the document. Our browsers sync the documents when they can. This means if you use WebRTC to communicate directly between browser sessions then you can have a fault-tolerant, concurrent, atomic, eventually consistent app WITHOUT ANY CENTRAL AUTHORITY.
+
+The Braid guys are essentially building a CRDT infrastructure: CRDT data structure + HTTP transport mechanisms
+
+Here's the thing.. they only ever talk about two models: a centralized server with sync9 on the backend or decentralized browsers with sync9 on each frontend. The IndieWeb approach could provide decentralized *servers* with sync9 on the backend..
+
+DID YOU REMEMBER? ARE YOU READY? A group of 99.99999% uptime backbone-connected personal websites will rarely if ever fall out of sync (for longer than a server reboot) which means that pruning should be readily available 99.99999% of the time which means that:
+
+=== ~~~ === ~~~ ===
+
+For all intents and purposes you will be able to store *essentially* a "JSON document" on your server that is at all times precisely 100% synchronized with a non-trivially scaled group of peers, without permanently storing anything more than the actual content of the document itself.
+
+=== ~~~ === ~~~ ===
+
+Bloody fucking magic. https://github.com/angelogladding/python-sync9 -- i *think* i can do it.
+
+They call it the holy grail because it busts the CAP theorem. It redefines the limits to what can be "decentralized and distributed". So much so that it's hard to wrap your brain around. This idea was first introduced to academia 10 years ago. Websites are currently using automerge (as was demo'd that HWC). There's only a couple of open source implementations, all JavaScript as far as I can tell. Redis Enterprise uses them.. Facebook/Google have all experimented with eventual consistency in the context of geo-partitioning..
+
+If https://www.maxwelljoslyn.com/goblins and https://angelogladding.com/goblins were "braided" they'd essentially share a single JSON document under the hood with which you'd construct a "client/UX" for the standard GET of your resource and me mine. You can add a key with a string in it. You can add a key with an array in it. You can add three elements to the array. You can create a button on the page that adds elements to the array. You instruct your page to always reflect the current "state", that is to read the JSON and render any changes however. I can read the document and render it my own way. What could you do with such a technology?
+
+What if the /ledger JSON document was just a map of identities to balances:
+
+    {
+      "angelogladding.com": 2,
+      "www.maxwelljoslyn.com": 1,
+      ...
+    }
+
+What if merging an `increment` required a `mint` or `transaction` post with seven in-reply-to witnesses. What if merging a `decrement` required a `transaction` post with seven in-reply-to witnesses. Perform the merge correctly 100% of the time instantly. Fall back to individuals' post histories as a decentralized archive. The more of the DAG you store the more you can mint for yourself. This financially incentivizes pavement for the vouched web of tomorrow. Only auto-sign for those that you trust. Your only task is to go out and trust people are who they say they are. The more people you trust the more you earn. Trust a bad actor and you lose. Define reasonable thresholds. Greg's "Humancoin" is so eerily similar.. i gained a great deal of confidence in my hodgepodge of ideas when talking with him.
+
+Note to self: prune after verification.
+
+Fuck, dawg, I'm still paintin'.. but that last gloss coat went on like butter. I can't wait to tear this tiny guest room a new one and blast it into ZOOM ROOM territory.
+
+cya 'morrow!
+
+[0] https://glittle.org/resume.html
+[1]: https://www.youtube.com/watch?v=B5NULPSiOGw
+[2]: https://www.youtube.com/watch?v=0l5XgnQ6rB4
+"""

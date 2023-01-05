@@ -1,0 +1,9 @@
+{
+    "title": "$:/plugins/wimmoermans/history",
+    "author": "Wim Moermans",
+    "description": "History filter generates list of visited tiddlers (breadcrumbs)",
+    "list": "readme",
+    "plugin-type": "plugin",
+    "tags": "",
+    "version": "0.8.2"
+}

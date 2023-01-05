@@ -1,0 +1,20 @@
+created: 20220328163145582
+modified: 20220328193844432
+tags: Dllrisin Chatlog
+title: 2022.03.28 - Dllrisin: Avoiding The Fuzz
+
+"""
+[12:09:58][Dllrisin] How would you go about avoiding copyright strikes from your isp? 
+[12:10:08][Dllrisin] without a vpn
+[12:11:17][h0p3] Hilariously, I [[recent]]ly got one [[2022.03.15 - Carpe Tempus Segmentum: Discombobulated]] (last one was maybe 15 years ago?). I'll tell you my opinions, and you should take them with a grain of salt.
+[12:12:52][h0p3] Direct downloads have tended to be quite safe, but I've not found those communities worthwhile in most cases.
+[12:13:33][h0p3] A lot of P2P software has become non-low-hanging fruit, but Torrents, given their ability to scale, are still tracked (this is where I received my last one).
+[12:13:36][h0p3] There are only so many places that will be actively monitored, but anything on open, clearnet trackers is more likely to be watched. 
+[12:14:22][h0p3] I used VPNs and Seedboxes for many, many years, and if you're downloading something you suspect might be watched, it's better not to go bareback if you are paranoid. Better to proxy. 
+[12:14:34][h0p3] There are free proxying options available.
+[12:14:48][h0p3] (though, that is another bag of issues)
+[12:15:52][h0p3] Private (even barely private) trackers tend to be fine. You might consider joining some (in my old age, I've settled on two very large general private trackers, which seems to cover my needs, which are common and pedestrian). 
+[12:16:38][h0p3] Downloading over [[MuWire]], [[DarkMX]], and Retroshare set with Tor (it has the option) will automatically [[anonymize]] you. A VPN is generally not required with these tools.
+[12:17:33][h0p3] I've not found any recent trouble on Gnutella, Kademlia, eDonkey, and DC++ P2P networks either, but there is always a [[chance]].
+[12:19:01][h0p3] I still think it's worth exploring VPNs of many types no matter what.
+"""

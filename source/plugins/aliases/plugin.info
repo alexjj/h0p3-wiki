@@ -1,0 +1,10 @@
+{
+    "title": "$:/plugins/mklauber/aliases",
+    "author": "Matthew Lauber",
+    "core-version": ">=5.0.1",
+    "dependents": "",
+    "description": "Aliases - Alias Manager",
+    "list": "",
+    "plugin-type": "plugin",
+    "version": "1.0.0"
+}

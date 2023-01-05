@@ -1,0 +1,62 @@
+created: 20211201032119561
+modified: 20211201032141551
+tags: ASmith Chatlog
+title: 2021.11.30 - ASmith: A New Network
+
+"""
+02:44:23 PM [[ASmith]]: Morning to each and all
+02:45:05 PM [[h0p3]]: Morning, `/salute`
+02:45:10 PM [[ASmith]]: I've noticed a slight quirk, that is the app doesn't appear to want to share .torrent files
+02:45:28 PM [[h0p3]]: Might have to mark "other" for them.
+02:45:35 PM [[ASmith]]: dunno if its built into the application or the tor guards in the network are prevent that
+02:45:41 PM [[h0p3]]: The app seems to default to only sharing particular types of files.
+02:46:23 PM [[ASmith]]: well if you can get that to visible, I'd like to know, its the TAS library
+02:46:43 PM [[ASmith]]: you can type in TAS in the search if you have selected that library
+02:46:45 PM [[h0p3]]: Checking now, sir.
+02:46:56 PM [[ASmith]]: darkmx:network:TAS@rmk2lugcs632nonpfqdnsofss3ach6lxgppsffr7c62v6ck6ojdq|"TAS"
+02:47:31 PM [[ASmith]]: anime, animation, books, comics, videos, all seem ok, only glitch is the movie .torrent files
+02:47:43 PM [[h0p3]]: Yikes. Nothing.
+02:48:10 PM [[h0p3]]: And you have "other" flagged for sharing on the the library?
+02:48:12 PM [[ASmith]]: yeah there's nearly 80,000 tiny movie .torrent files in that folder
+02:50:01 PM [[h0p3]]: I'm able to get a .torrent file shared on mine here, but only with the "other" flag up.
+02:50:42 PM [[ASmith]]: k, thanks for the look and update, I'll have to travel over to my server that is located on
+02:51:09 PM [[h0p3]]: It's interesting that . hidden files/directories are not shared.
+02:56:00 PM [[ASmith]]: ok, that did it, thanks
+02:57:50 PM [[ASmith]]: let there be .torrent files, lol
+02:57:54 PM [[h0p3]]: =D
+02:58:21 PM [[ASmith]]: any other file sharing suggestions?
+02:59:36 PM [[ASmith]]: I have added Anime-Animations, Books, Comics, DIY Projects Circle, Movie torrents, Music Survivalist Circle, TV-Series
+03:00:25 PM [[ASmith]]: 2 days in, 12+ TB 1/4 Million files (255,000+)
+03:00:36 PM [[h0p3]]: All fantastic. As my son, [[1uxb0x]], just said a few minutes ago: you bring food to the party, sir.
+03:00:56 PM [[ASmith]]: ah, well thank you , very mature and astute
+03:01:57 PM [[h0p3]]: They are exploring the tool with me here. We're still thinking about what features are missing that are really needed. (I really want them to drop [] as much as possible).
+03:02:18 PM [[h0p3]]: Hrm. [[Discord]]]*.
+03:03:00 PM [[h0p3]]: (still playing with it; there seem to be lots of small bugs and things I don't understand with how text works. Is there are markdown that it's using that I can read about?)
+03:03:01 PM [[ASmith]]: well, being a rather new P2P tool with alot of potential, I think its a good time to file enhancement suggestions, missing tools and such now
+03:03:12 PM [[h0p3]]: Yes, sir. Absolutely.
+03:03:57 PM [[ASmith]]: its a hunt and peck, RetroShare programmers started with the hidden right clicks on window frames and such, no documentation on those features previously, I want such to be clear and defined IMO
+03:05:31 PM [[ASmith]]: a debug output might be useful for users to discern a internal issue. If your contacts or your platform clock get's off very much the tor network of course kicks up a fuss
+03:06:03 PM [[ASmith]]: the reconnection series appears to be automatic however when the circuits drop out
+03:06:23 PM [[h0p3]]: I like that. Aggressive to start up with, then it ratchets up the time.
+03:06:50 PM * darkmx:user:guest693@jutsbky3o6rw6outg2ijuio3xa3oizezkikj275n4p6yshva2cda has left
+03:07:14 PM [[ASmith]]: on all of my 'other' tor networked applications, I have chosen to compile and add the newest alpha tor v0.4.7.2 tor binary
+03:07:52 PM [[ASmith]]: there's been recently a sudden mass congestion on the tor network, my spider sense is tingling over that as a cautious note
+03:08:07 PM [[h0p3]]: A serious concern.
+03:08:19 PM [[ASmith]]: the newest unstable alpha has added anti-congestion coding to deal with it
+03:08:53 PM [[ASmith]]: the latest stable has some but after watching the inability to form a stable network, I've had to go to the alpha for reliable circuits
+03:09:50 PM [[ASmith]]: it appears I can point DarkMX to a tor binary of my choosing, I haven't had time to test that but I certainly will in the near future
+03:10:37 PM [[h0p3]]: I like that very much. Most users shouldn't (and probably wouldn't want to) touch that, but there are good reasons to have that capacity. Kevin has been quite thoughtful here.
+03:11:52 PM [[ASmith]]: yes, with monthly updates which could include a updated tor binary its not normally a issue, when there's acouple annual updates it is because tor needs to be very dynamic to address state sponsored attackers, hackers, crackers et al
+03:11:55 PM [[h0p3]]: I'd like to see torrenting integrated (and, the Dev is quite adept at this problem), but since it's poor form on the Tor network, perhaps i2p integration would be valuable here.
+03:12:30 PM [[ASmith]]: well a tie into sqlite DB and magnet url files that would be great
+03:15:40 PM [[h0p3]]: Perhaps mutable torrents, something like IPFS/hypercored/Resilio Sync/Syncthing, could be integrated as well. The ability to share a directory that users can change and sync would provide fertile grounds for future features.
+03:19:09 PM [[ASmith]]: IPFS would be nice, yes synch a file or directory would be a very well recieved feature I think
+03:20:07 PM [[ASmith]]: any plans for the last day in NOvember?
+03:24:54 PM [[h0p3]]: Not sure if syncing the features it has works so well yet, but that's a hard problem. Will be part of my write-up.
+03:25:08 PM [[h0p3]]: Just a normal grind for me today.
+03:25:17 PM [[h0p3]]: How about you?
+03:28:48 PM [[ASmith]]: getting around to prep breakfast, thanks,
+03:37:25 PM [[ASmith]]: its been raining, cold and wet outdoors here, can't do much in the lower 40, check on the new grow bags, looks like the potatoes are spent, but onions, garlic, carrots, raddishes are all good
+03:38:41 PM [[ASmith]]: apparently those are hearty even in this mild winter, the cherry tomatos however all got nipped , my iceberg lettuce test in my vertical growing containers are still good
+03:39:26 PM [[ASmith]]: afk
+"""

@@ -1,0 +1,99 @@
+created: 20220413201406404
+modified: 20220523021309402
+tags: Walkthrough D2
+title: D2: LK Rune Running
+
+//A technique that future generations will be unlikely to use. It's so much fun to play with nearly useless knowledge, of which I have acquired too much of over the years.//
+
+Lower Kurast superchest farming is one of the best methods for acquiring high-end runes, but it's probably the only method that doesn't require high-end runes to optimally farm. The poor saps on Resurrection get rekt by loading times, and closed battlenet players pwned by anti-spam measures and lack of the `/players` command. Original LOD Solo (and LAN players, though in their lonely ways, not actually in a [[shared]] [[game]]), however, can and should run this to hit the absolute late-game. I find some solace in this being a solo player's trick as a trade-off for generally being unable to actually trade items in a standard economy.
+
+These are fast runs. 20-25 seconds on a good map that you've practiced on (make it 30 for loads and bullshit),<<ref "14">> assuming you've got the Rainman^^tm^^ skills<<ref "rm">> veteran D2 players develop for glancing at the chaotic noise on the screen for increasingly rare [[signal|S2NR]]s (the delicious items on the hedonic treadmill embedded in the skinnerbox).<<ref "w">> Good news for you young whippersnappers, however, is that runes are now orange (otherwise, you'll have to go by the sound or employ exceptional reading skill [always worthy]). 
+
+LK has either 1 or 2 campfires encircled by torches. You're rolling for a map that has 2 campfires in sufficiently close proximity to each other and the WP. These campfires are deterministically surrounded by a hut in the upper right corner with one super chest, and a hut in upper left corner with two superchests. You should be hitting 6 superchests per run.<<ref "p">> You should either have a nice chain away from the WP or pathing that circles back to the WP, in case you prefer to hit A4 before saving and exiting,<<ref "hc">> as running through Kurast Docks takes some time. Though most pros recommend circling, solo players, especially with PlugY, are well-positioned to build a character specifically designed for these runs, including increasing run/walk speed. Limiting how much one has to focus on clicking particulars seems ideal to me too (and I've got a sinful amount of experience in grinding).
+
+We normally never care about chests, so what's special about these? These relatively safe and high density superchests are limited to a total of 65534 patterns. On `/players 7` there’s 9 patterns that have Sur and 3 with Ber (note that `/players 8` patterns are identical, and thus 7 is optimal). So you’ve got a 9/65534 (~1 in 7282) chance of a Sur and 3/65534 chance (~1 in 21845) of a Ber per.
+
+* ~993 runs average for Sur
+* ~3641 runs average for Ber
+* ~1285 runs average to farm or cube Ber
+
+You'll acquire plenty of other runes, jewelry, and charms too, if you wish.<<ref "i">> But, these two runes are why you run LK. Why? Infinity and Enigma, game-changing items that unlock the potential of late-game characters. That's about ~2570 runs for Infinity (~21.5 hours) and ~3855 runs for Enigma (~32 hours). That is shockingly good, especially for those of us who aren't used to the increased rune droprates in later patches of LoD.
+
+Obviously, teleport is required for efficiency. While still worth running even if you have an Enigma already on any class, the sorc has excellent FCR breakpoints (only the Barb matches her) with Telekinesis<<ref "t">> and Energy Shield (Baba no matchy). She's the only serious pick for the job.
+
+<br>
+
+!! The LK Runerunner Build:
+
+This is overkill. Kill it dead.
+
+; Cold
+
+* 1 Ice Bolt
+* 1 Frost Armor
+* 1 Ice Blast
+* ''20 Shiver Armor''
+* 20 Cold Mastery
+
+; Lightning
+
+* 1 Charged Bolt
+* ''20 Telekinesis''
+* 1 Lightning
+* 1 Chain Lightning
+* ''5 Teleport (final dump)''
+* ''20 Energy Shield''
+
+; Fire
+
+* 1 Warmth
+
+It's ridiculously specialized, but it allows you to do the job without much gear or {[[Focus]]} (both highly preferred, imho). Your goal is to be able to generally ignore all mobs and simply move, open, and observe as fast as possible with as much safet, high margins of error, and consistency as you can muster (microfailures add up).
+
+You only need to decrease Teleport's cost enough to make it so you can nearly infinicast. You will heavily abuse Telekinesis as your primary "attack" against the chests,<<ref "ch">> and it does push mobs out of the way (takes some getting used to, I think, especially as you cannot blindly untargeted holdcast to open), and it is a great synergy for Energy Shield. Energy Shield allows you take plenty of hits in p7,<<ref "8">> and just as importantly, Shiver Armor will limit how many you even take. Shiver Armor's effect triggers during the attack swing before you actually get hit, and Cold Mastery ensures chill duration.<<ref "ok">> Of course, you will avoid most of the damage through proper use of Teleport and Telekinesis, as well simply being so fast that they don't have much of a chance to touch you anyway.
+
+* Example Budget Tank Sorc LK Runerunner Gear<<ref "is">>
+** Weapons 1: Wizardspike + Stormshield w/P-Diamond
+** Weapons 2: Harmony
+** Body Armor: Skin of the Vipermagi 
+** Helm: Hwanin's Splendor
+** Gloves: Magefist 
+** Boots: Sander's Riprap (style, my ninja)
+** Belt: Verdungo's Hearty Cord
+** Ring 1: Ravenfrost
+** Ring 2: 10% FCR + Resist All + Replenish
+** Amulet: The Cat's Eye Amulet
+
+Max block, Cannot be frozen, 50% DR, some MDR, high run/walk speed,<<ref "rw">> full resists, 105 FCRBP met,<<ref "fcr">> and, oddly enough, a non-trivial amount of replenish. You will take some damage, and you don't want to have to worry about potions at all. You may need charms to round out your resists (or modify the gear accordingly). Grab an Insight for your A2 merc, but don't anticipate its merc aura being activated (Prayer seems alright, but Holy Freeze is still king). He's a distraction + manabattery for Energy Shield and infini-teleport. Would be nice to have good FHR here, but you tank well enough that you can get away without it. Don't forget to use Harmony in town.
+
+I suggest buying up to 2 columns of keys. MF is virtually irrelevant, as it doesn't affect the chests. 
+
+It's not even worth keeping tomes on ya. You'll have to glance at your inventory once in a while to vendor and stash. Make it fast. Just dump, unless it's actually quite rare. Stay in the grindset. Practice to the point where you don't have to think about it; you can just comfortably chill with most of your [[phenomenology]] in the ready-to-hand mode (maybe spend that time multi-tasking, thinking about other things that actually matter far more). It grows into a meditative trance. Happy hunting. Godspeed.
+
+
+---
+<<footnotes "14" "With a Loot Filter, staying in just A3, and using Harmony religiously, my runs average 14 seconds, but given vendoring and stashing, among other inefficiencies, I still think 30 is pretty reasonable a claim overall.">>
+
+<<footnotes "rm" "Reminds of of [[Rubik's Cube]] look-ahead. After 20 years, I finally bit the bullet and started using a loot filter (not autopick) that changes what shows on the screen at all with alerts (or pings) for particulars. This makes it much, much easier on the eyes and may speed you up another 3 seconds, especially if you begin teleporting immediately.">>
+
+<<footnotes "w" "Items tend to clutter toward the right side of the screen. This means when you open chest, don't open it from the left side, but rather position yourself below or even better right-below chest. You may want to walk-shift the items, which is sometimes required if you can't find what you know is there.">>
+
+<<footnotes "p" "4 poppables provide the same loot value as 1 superchest, however, the timesink isn't worthy unless you are quite fast and it's already with you next to the chest.">>
+
+<<footnotes "hc" "I'm sure the hardcore players among us appreciate just s/eing immediately instead.">>
+
+<<footnotes "i" "Given how difficult it is to acquire +skill charms in solo, all grand charms must be looted, period, and therefore, small as well. Word on the street is you'll see ~0.008 skiller grand charms per run. I continue to pick up all rare jewelry, though I'm no longer inclined to pickup ~~boots,~~ belts, ~~gloves, despite how some of the best in the game are just are. I also pickup wands and shrunken heads because I'm in need of +3 GM, +3 Summoner on each for pre-buffing, and they sell for gold just fine (and, I do intend to go gambling again).~~">>
+
+<<footnotes "t" "She can position herself even more to the right of the chests to check drops.">>
+
+<<footnotes "ch" "I suggest opening two chests before looking. No reason to wait on the animations if you can help it.">>
+
+<<footnotes "8" "And 8, as I accidentally rolled my current map, as of this writing ([[ITS]]), in 8. Can confirm, it works like a charm.">>
+
+<<footnotes "ok" "CM may be overkill, especially after 17.">>
+
+<<footnotes "is" "Surprisingly, people do not traditionally go tank for this run. Even low budget tanks will find it easier than all but the highest end offensive builds.">>
+
+<<footnotes "rw" "I have tested with run/walk speed charms, but it's not worth the sacrifice in inventory space over the long-haul.">>
+
+<<footnotes "fcr" "If you cast 15-20 times in a run, going from 105% to 200% will roughly save you around 0.6 to 0.8 seconds per run (15 to 20 frames in a 25 frames per second game). Considering how expensive it is to get to 200%, I can't recommend that.">>

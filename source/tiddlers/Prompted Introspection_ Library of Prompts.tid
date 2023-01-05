@@ -1,0 +1,993 @@
+created: 20200302054539182
+modified: 20211207202435549
+tags: [[Prickly Pin]] [[Prompted Introspection]] Library
+title: Prompted Introspection: Library of Prompts
+
+//After years, it's time to comb, curate, and narrow. Let's pick out the [[salience]]. I [[hope]] these will be questions I continue to ask and answer until I die.//
+
+!! Keepers:
+
+# What does death teach us about life?
+# When you look at an elderly person's hands, what do you see?
+# Which disease known to humankind do you hate the most? Explain why.
+# Tell me about an old friend you've lost touch with.
+# What do you think your life will be like ten years from now?
+# If you died tomorrow, what would you most be remembered for?
+# Name three people whose lives have been improved by knowing you, and explain why.
+# When was the last time you cried?
+# What did you eat as a child that you can't stand now as an adult?
+# Who is the one relative that I miss the most? What would I say to them if I could see them again?
+# What is one thing that happened today that I really want to remember 10 years from now?
+# Why is it important to be genuine?
+# Why do you think wars exist in the world?
+# Why do you think the ability to focus is an important quality?
+# Did I do something today that I can be proud of?
+# What is one thing that I am grateful for today?
+# What is one of your first memories?
+# Describe your typical day, from waking up to falling asleep.
+# If you could have a conversation with a loved one who has passed away, what would you ask them?
+# Where do you think you will be in five years?
+# If you were to die today what would like people to say about you?
+# What is your proudest accomplishment?
+# What book setting would you like to visit, if you could?
+# Given the chance to give your child only one quality as a person, which would you choose? How about if that choice were unavailable, what would be your second and maybe third choices? Why are these so important to you?
+# If your friend came to you depressed and upset as you've never seen before, how would you react?
+# In what ways do you wish you were a better friend? Why do you find yourself unable or unwilling to do so?
+# "If someone gains, someone else loses." How much does this reflect life, and how much does it come up short. Reflecting upon this, how could your attitudes have been different during events in your past?
+# Consider some of the parents others had growing up. What type of person would you be if you had grown up in those situations?
+# Think of how your life could have been harder or easier in some particular way. How do you think you'd be different?
+# Am I happy with my job, life, and situation? What parts are good? What parts are bad?
+# If I could change one thing about my spouse/lover, what would I change?
+# What did you want to be when you grew up?
+# If you had to write your life story, what would the title be? Why?
+# How do you feel when you see something beautiful? Have you ever seen something so beautiful it makes you cry?
+# What are you thankful for?
+# What do you think about as you are falling asleep?
+# What is your favorite thing to do outdoors? Why?
+# What would you write in a letter you could send back in time to yourself as a teenager?
+# What would you write in a letter you could send forward in time to yourself in 10 years?
+# Describe what it was like to fall in love.
+# Explain how you chose your career path.
+# When have you realized you were really wrong in your judgment about someone?
+# How do you react when you realize you've made a mistake?
+# What situation has caused you to confront your ethics recently?
+# What about a goal makes you most likely to procrastinate?
+# What would it be like to be in a tornado?
+# Where would you go to relax and why?
+# Did I recently have an interesting conversation?
+# Who is a person that has altered the course of your morals and values, and how did they affect you?
+# What is one of your happiest memories?
+# What would you do if you woke up one morning with a tail?
+# Who would you most like to be like if you could change your personality?
+# Where would you like to watch the sun come up? Why?
+# How do you think instant riches would affect your friendships and familial relationships? How do you think sudden loss of millions would affect your familial relationships and friendships?
+# If you were elected President, what do you think would be your most difficult tasks?
+# Describe something you feel passionate about to a complete stranger.
+# What has been a close brush with death you've experienced?
+# Talk about the last time you spoke to a person who later died.
+# If you were to die tomorrow, what would you want your last words to be?
+# Write about the last time weather scared you.
+# Who has been an important teacher in your life?
+# Describe one of your favorite sounds.
+# When were you the happiest this year?
+# What are you saving up for?
+# What caused me to wince today?
+# What tempted me today?
+# What trait did you admire in another person recently?
+# How do you feel when you stare at the stars?
+# You have to invite 5 people to dinner, dead or alive. Who do you invite and why?
+# What is a fond memory of an animal or pet you once had?
+# What is the best gift you've ever given someone? Why?
+# How do you escape from reality or life temporarily?
+# What are things that you wish people knew about you without your having to tell them?
+# What are a few qualities you dislike in other people, and why?
+# When do you think about your regrets the most often?
+# What is one of your most prized possessions?
+# Who do you live for?
+# Write about a friend as if they were a stranger.
+# What's one of the most difficult parts about being you?
+# What's one of your favorite parts of being you?
+# What is one of your favorite books? 
+# What is one skill you wish you had and how would that make your life different?
+# What would you like to accomplish by the end of the year?
+# Why do you journal?
+# Tell about a time when someone made you feel welcomed or accepted.
+# Tell about a time when someone made you feel bad about yourself. What did they do and how did you react?
+# What is one of your most embarrassing moments?
+# Who is someone you strongly trust and why?
+# Who is someone you trust little if at all?
+# What kind of fairytale creature would you be?
+# What is a convenience you wouldn't want to do without?
+# What is one of your favorite games? 
+# Have you ever swallowed something strange?
+# What organizations have you belonged or do belong to?
+# Tell about a cultural clash/experience you have had with a culture other than your own.
+# Tell about a video that has brought you to tears.
+# Recall an unusual bus, train, or plane ride.
+# Tell about an experience where you felt close to nature.
+# What do you like to do when it is really hot outside?
+# Name someone or an event that guided you in choosing your vocation or work.
+# Tell what you like about one of your hobbies.
+# What artistic tools, musical instruments, or devices do you wish you could use or play?
+# Tell about a habit that you picked up from a family member or friend.
+# What about your work can you take pride in?
+# How are you like one of your brothers or sisters?
+# Describe a favorite letter you have received.
+# What is something that made your mother happy?
+# How are you and your parents alike?
+# Tell about one of the kindest people you have ever met. 
+# Tell about a time you held hands with someone.
+# What is a smell that you remember from growing up?
+# Tell one of your favorite childhood stories.
+# Tell about one of your father-daughter/son activities.
+# Who is one of the most interesting people you have ever met?
+# Talk about a special place you've retreated to.
+# What did your parents do for fun?
+# Describe one of your teachers.
+# Tell about something that you and your siblings used to do together.
+# Tell about something that you and your siblings do together now.
+# Tell something you like about a friend from the past.
+# Who is a friend you haven't seen for a long time but would like to see?
+# What is something you liked about your childhood?
+# What is an event that you will never forget from your school days?
+# What is a place that inspires you?
+# What would be a practical example of a perfect day for you?
+# If you had more money, what would you alter about your life?
+# Describe one of the family traditions you practice.
+# How have credit cards affected your life?
+# What do you really like about where you live?
+# Are you ever lucky? Tell about it.
+# Tell about how your parents influenced your spiritual beliefs.
+# How is your life different now from just a year ago?
+# Talk about a source of inspiration for you.
+# Describe when someone has done something very nice for you.
+# What is something you do to relax?
+# What is a significant risk you've taken?
+# What occupation do you think would be fascinating?
+# Tell about a friend you have with a different national background.
+# What is one of the best decisions you have ever made in your life?
+# What is an experience that you would consider to be similar to a miracle?
+# Tell about a characteristic in others you admire?
+# Describe a time you helped someone.
+# What is something about yourself that you dislike?
+# Tell about something you do well?
+# Tell about your home.
+# What makes a good neighbor?
+# What historical figure, individual, archetype, or group do you identify with?
+# What is one of your greatest extravagances?
+# Who is a living person you despise?
+# What words do you most overuse?
+# What is one of your most marked characteristics?
+# Who is one of your favorite writers?
+# Who is one of your favorite heroes of fiction?
+# How would you like to die?
+# What is your idea of a boring evening?
+# What rituals do you have or hold?
+# What quality do you like about yourself?
+# How do you feel when you sleep at someone's house?
+# How do you have the most fun?
+# What's something you'd like to touch?
+# What's something you wish you had at least one of, if not exactly one of?
+# Who do you talk to when you have a problem?
+# What's one of the greatest inventions?
+# Which person would you like to see more often than you do now?
+# If you were to be transmuted into another living species, what would you want to be?
+# What's a superpower would you like to have?
+# What special talent do you have?
+# What can you do that makes people laugh?
+# Name four items that can always be found in your refrigerator.
+# When was the last time you sent or received a card-like message from someone?
+# What is your favorite time of day?
+# What is the best way to treat meddlesome people?
+# What is one of your favorite songs and why?
+# What do you think the world needs now?
+# What kind of pet would you like to have?
+# What is something that can be important to you in a friend?
+# What kinds of videos do you like to watch?
+# How would you feel if you were going to be on a show?
+# How do you have a lot of fun?
+# What is one of your favorite works of art?
+# Write a diary entry, dated 10 years in the future.
+# Give your city (or town or region) a new name that reflects what type of place it is, and explain why you chose that name.
+# Write about something presently in your life that is "worth it."
+# You are the wind's interpreter. What is it saying?
+# Come up with a mathematical formula to express something you know/believe. (Example: Long Saturday run + Frappucino = Happiness)
+# Name one thing you have lied to yourself about. Why did you do this?
+# What did you get into trouble for the most when you were a kid?
+# Do you prefer taking risks or having a safety net?
+# Complete this thought: "I wish I had paid more attention when..."
+# What do you look forward to every week?
+# Were you born to shine in one special way? What makes you really stand out?
+# What stupid question have you heard someone ask (or asked yourself)?
+# When was the last time you got lost?
+# What area of your life do you tend to enjoy in excess instead of moderation?
+# Write about three realistic goals you would like to achieve in your lifetime.
+# List a few phobias you have. When and how did you discover you had these fears?
+# You are a children's book writer. Write the first few lines of your new book.
+# If I looked into your fridge right now, what would I find?
+# Have you ever experienced something that just could not be logically explained?
+# What do you need right now?
+# It is the end of your life and you are up on stage being presented with a major award. What award is it, and what have you won it fore?
+# Have you ever lived in another country besides your country of birth? Would you want to?
+# What is the first thing you do when you wake up every morning? Why?
+# Write about something you purchased used.
+# If you were to teach as a career, what would you teach?
+# Write about a time everything changed in the blink of an eye.
+# Write about a souvenir you have bought or received.
+# What is the biggest trigger for stress in your life?
+# What was the last thing you read, heard, or saw that inspired you?
+# Complete this thought: "I wish an alarm would notify me whenever..."
+# What are you recovering from right now?
+# Write about something you would still buy if it cost twice as much as it costs today.
+# What do you think is the most important thing for today's kids to learn in school?
+# What have you been able to accomplish this year that you are really proud of?
+# Write about something you frequently forget.
+# Why do you think some people are successful in life and others are not?
+# Look around you and choose an object in the room. Now write something from the point of view of that object.
+# What is a memory you would like to erase?
+# What traffic sign best reflects your life right now?
+# Think about the various roles you play in your life. If you had to give up all but one, which one would you keep?
+# What do you do, even when you do not feel like it?
+# In what way are you strong?
+# Complete this thought: "Someone really needs to design a better..."
+# What is the last thing (or one of the last things) you searched for on the Internet? Why?
+# What do you love doing that you wish you could get paid for?
+# In what way are you selfish?
+# When have you experienced "heaven on earth"?
+# How do you act when you are afraid?
+# Write about a good discovery you have made (big or small).
+# Are there any lines that you simply will not cross?
+# Write about a messy area in your home, workplace, or life.
+# Write briefly about one thing in your life that is simple and one thing that is complex.
+# What takes too long?
+# Describe one of your favorite articles of clothing.
+# Write about an item you own that is not worth much money but has great value to you.
+# How do you strive to be similar to, or different from, your parents?
+# When was the last time you pulled an all-nighter? Why did you do it? How did you feel afterwards?
+# Do you have anyone in your life that has acted as a mentor to you? Have you ever helped someone else out in this way?
+# Write about a time you said "no."
+# Write about the most recent gift you gave someone.
+# Describe a time you cared for someone who was sick, or someone cared for you.
+# Write about the last time you felt guilty.
+# What expert do you wish could come teach you what they know?
+# It has been said, "You are what you eat." Rewrite that phrase: "You are what you ____."
+# Write about a memorable experience you have had staying at a hotel.
+# Imagine you are a news anchor. Write the beginning of tonight's newscast. 
+# Do you have any dreams that recur? Why do you think you continue to have that dream?
+# In what ways are you inhibited from expressing love?
+# What difficult or painful experience would you recommend to everyone?
+# What's among the most intense emotional pain you've ever experienced?
+# In what ways don't you trust yourself?
+# How have you disappointed your parents?
+# What about yourself have you been trying to fix for a long time?
+# What was one of the most difficult things you've ever had to do?
+# In what ways do you tend to fail at communication?
+# What is currently your greatest insecurity?
+# Which of your habits conflict with your values?
+# What do you still owe someone an apology for?
+# What have you done that you are ashamed of?
+# How do you heal from painful experiences? How do you know when you're done healing?
+# What was one of your biggest financial mistakes?
+# What problems do you see in the relationships of those around you?
+# If you could ask everybody in the world a question, what would it be? You don't get to hear their answers.
+# What emotion/feeling are you currently suppressing or ignoring?
+# What are the signs that someone understands you uniquely?
+# What is some of best advice you've received, and why did you need it?
+# What are you waiting to hear from someone close to you?
+# What do you most admire about the person to your right?
+# What relatively common experience have you never had?
+# Have you ever had (what you consider to be) a spiritual experience? If so, what was it like and what effects did it have on you?
+# What kind of people do you get along best with?
+# Given the guarantee that nobody will ask you the question: what is a question you would refuse to answer?
+# What is the an interesting fact about you that few people know?
+# Which of your beliefs would be difficult to change, even in the face of overwhelming evidence?
+# If you could ask the universe a question and get the truth, what would you want to know?
+# Which technology should not have been invented?
+# Of all the beliefs you hold, what is one most likely to be considered barbaric in 150 years?
+# What's one of the most controversial opinions you hold among your own social group?
+# What's a viewpoint you find difficult to empathize with?
+# What is a group or community you are judged for being a member of?
+
+
+
+---
+# What is your most prized possession and how did you come to own it?
+# What can you do---as an individual, parent, or community member---to help break a cycle of fear and failure?
+# Pick a favorite photo and write a story describing what you see.
+# Who is the happiest person you know? What do you think brings them joy?
+# If you could travel anywhere, where would you go and what would you do?
+# Think back to your childhood when you would visit grandparents or other elders. Capture one specific memory from those visits in the fullest detail possible, including the sights, sounds, and smells.
+# How have those elders left a mark on you?
+# List 10 favorite vegetables and how you like to prepare them.
+# How does nature nourish you?
+# How do you celebrate the holidays? What traditions does your family hold dear?
+# Describe a memorable holiday---whether recently or in the past. Where were you? Who was there? What food was served?
+# When were you last flung into new or uncomfortable terrain? How did this sudden change affect you? What value did it bring to your life?
+# List 5 people who invested in you when you were a child.
+# Choose one person from the list and describe how his or her support manifested in your accomplishments today.
+# How did you get to school every day when you were young?
+# Who was the most influential teacher when you were little? How did this person leave such an impression?
+# What has been your greatest sacrifice?
+# List 3 people who contribute to your circle of strength. Next to each person's name, describe why he or she is so dependable.
+# Create a playlist of 10 songs that you could listen to on repeat.
+# Describe a recent conversation you had with someone who did not share your history or perspective. How did you navigate the conversation?
+# What kind of childhood did your parents or grandparents have? How was it different from and similar to your own?
+# List one struggle, one failure, and one success you've encountered in your life. What did you learn from each?
+# Have you spent time in the military, or know someone who has? What does it mean for you to serve your country?
+# How would you describe yourself to someone who does not know you?
+# Describe a time when patience and rigor contributed to your own self-love and growth.
+# Write about a specific experience when someone dislodged a dream of yours by trying to lower your expectations. How did it make you feel? How did you try to overcome that obstacle? 
+# List 5 ways that person was wrong.
+# When was your last good cry, and how did you feel afterward?
+# How do you look after yourself after you've had a bad day?
+# What transition are you going through right now? Do you feel ready for it?
+# What was the best TV show you saw as a kid? What are you watching now?
+# Who is your favorite TV show character and what about them appeals to you?
+# Think of an endeavor you recently embarked upon---one which may have felt new, exciting, and perhaps a bit scary. List three of your attributes that mad you uniquely qualified for the challenge.
+# If you could travel back in time and give yourself advice before you took on a challenge, what would you say?
+# How have your beliefs changed over the years? How have they remained the same?
+# Reflect on your greatest struggle. What was it and how did you grow from it?
+# What major historical events affected your family---whether in the distant past or more recently?
+# What role does religion or spirituality play in your life.
+# Write about a time when you felt carefree.
+# List 10 reasons you are a special and worthy person. Look back at this list whenever you are in doubt. you are always good enough!
+# Write a thank-you letter to someone you love.
+# How do you connect with your community?
+# Describe your community and how it has evolved over the past decade.
+# List five changes you wish a civic leader would take on that would greatly affect your community for the better.
+# List your greatest gifts. Remember to embrace them and lay them on the table with pride!
+# How do you define the word //leader//? Have you ever considered taking on a leadership role? Why or why not?
+# What worries about yourself have you had that proved to be untrue? What methods do you use when faced with self-doubt?
+# Describe someone you know who was brave enough to tell their story. How did it change your perception of them? How did it change your perception of yourself?
+# How do you mark the seasons? What is your favorite month of the year?
+# Do you embrace change in your own life? Why or why not?
+# What skills or lessons have you sought to learn as an adult? How does learning bring about change in your life today?
+# What trailblazer throughout history has shaped you the most? If you could meet this person, what questions would you ask?
+# What legacy do you want to leave behind?
+# List five tiny victories you accomplished this week.
+# Change happens from the ground up. What is one small thing you can do this week to bring about new change in your life or in the life of someone else?
+# How have others tried to define you in the past and how do their perceptions differ from the person you know you are?
+# Write about someone outside your family who feels like a family member. What do you love about them the most?
+# Who are your mentors and how do you cultivate those relationships?
+# How often do you get together with your friends, and what do you like to do? Is it enough?
+# List your ten favorite movies.
+# How do you give back to your community?
+# How have you been able to create change in the lives of other people?
+# If you were asked to give a commencement speech, what advice would you offer the graduates?
+# What happened in your life today? List five things that went well.
+# What does self-care mean to you? How can you make more time for taking care of yourself?
+# Who do you care for in your family? How does that relationship help define you?
+# What gives you purpose? Who else in your life shares your resolve?
+# Have you experienced loss? How did it shape your life?
+# Write about the last moment you remember being truly at peace. Where were you? What were you doing? How can you tap into that feeling again?
+# When is the last time you felt you might be on the wrong path even though the world thought you were doing exactly the right thing? What did you decide to do?
+# List the ten most important social issues you feel need attending to.
+# "When they go low, we go high." -- How do you put this phrase into practice?
+# Who was your first love?
+# How does your family handle the pressures of the outside world?
+# Have you ever embraced ambitions that put you at odds with the people you love and trust most? How did you straddle those different worlds?
+# If you could find more time to do what you love, what would you do?
+# How do you balance the competing worlds of your home life and work life?
+# List ten outings you've been on with your family.
+# Pick one outing from your list and dig a little deeper: what did you do, where did you go, and who went with you?
+# Who or what are you grateful for?
+# How do you express your gratitude?
+# When have you had to swerve in life? How did it help you?
+# How do you stay centered?
+# What is your favorite way to unwind from a particularly demanding day?
+# What inspires you? List the first ten things that come to mind.
+# Reflect on one person you know who has overcome obstacles to accomplish their goals. How do you think they did it? What have you learned from their journey?
+# Describe a time when you had to speak up for yourself. What gave you the courage? What stood in your way?
+# Have you ever felt the need to speak up for someone else? Describe the situation and the outcome.
+# Who is your role model? How has that person shaped you?
+# Who looks up to you? How do you nurture that person's spark?
+# What's the best part of your morning routine?
+# List five things you do to unwind from the day.
+# Capture a favorite family recipe here. How is it unique?
+# Where did your name come from and how has it influenced the person you've become?
+# How do you bring your own history, culture, and experiences into spaces where they never existed?
+# If you could rewrite history books, what would you add that was left out?
+# Describe the world of your dreams. What changes---whether on a local, national, or global level---do you wish to see?
+# Describe a specific place that holds important meaning to your family.
+# If you had to choose, who is the most precious person in your life? How did you met this person and what do you think your future holds together?
+# What were five books you loved as a child?
+# Describe someone in your life who is truly wise.
+# Use this space to write a letter to someone you haven't seen in a long time, updating him or her on what's happened in your life since you last saw each other.
+# Use this space to capture your favorite family sayings along with who said them and what they mean to you.
+# List ten items of clothing you loved along with when and where you wore them.
+# What role has education---whether formal or informal---played in your life?
+# In as much detail as possible, describe one of your favorite childhood memories.
+# List ten things you noticed on your way home today that no one else may have noticed.
+# Spend an evening or afternoon without looking at social media or the news. How did it feel to unplug even for just a short amount of time? 
+# When your extended family gets together, what do you do?
+# Who makes you feel like you matter? How do they let you know?
+# What do you like to do to stay healthy?
+# List three new hobbies you'd like to learn to do. What about each of them appeals to you?
+# Describe your family car or other mode of transportation you took as a child. Capture the sounds and smells.
+# What's the longest road trip you've ever been on?
+# What would make your neighborhood a better place?
+# How do you make the children in your life feel valued?
+# What keeps you up at night?
+# How has this year been different from last year?
+# What five things do you want to have accomplished by the end of the month?
+# Close this journal, shut your eyes, and take ten deep breaths. Write down how you feel.
+# Think of a time when you gave away something you loved. What did you give away and why?
+# When was the last time you saw the sunset? What were you doing at the time?
+# What does the idea of "becoming" mean to you?
+
+
+---
+
+!! Offspring:
+
+# Are ethics practices and behaviors in the business world different than those found in public service? If so, why?
+# Are ethical standards in business organizations higher or lower than those in public service organizations?
+# Is there more unethical behavior in government than in business?
+# Do you believe the ethical performance of an employee can be evaluated fairly and accurately?
+# Is a professional code of ethics that is not enforceable a satisfactory code?
+# How does corrupt behavior resemble or differ from unethical behavior?
+# Should we hold appointed officials to a higher standard of behavior than elected officials?
+# Gandhi always advocated the purity of means. With respect to that, do you think it is unethical for a military officer to mislead the enemy?
+# “Private vices” produce “public benefits.” Can you think of a situation in which this works? If so, is it exceptional, or can we make it the rule?
+# Was Gandhi courageous? If so, what does that suggest about the relationship between courage and violence? Is the willingness to fight necessarily a sign of courage?
+# In recent years in countries where it is not illegal, poor people have begun to sell some of their own body parts such as eyes or kidneys to rich people in need of a transplant. Do people own their own bodies? If they do, are they entitled to sell parts of them if they wish to do so?
+# There are typically some gender differences in our society in regard to virtues such as courage and compassion. Based on your own experience, do you think this is true? Are there reasons why virtues and vices should be different for women and for men?
+# Studies have suggested that girls, especially from poorer neighborhoods, do better in classrooms without boys, at least in part because of social pressure not to appear smarter than the boys. Do single-sex schools have any legitimate place in our society? What does your answer to that question reveal about your views on the place of gender in the ideal society?
+# Is it always right to tell the truth, even if it hurts or destroys someone else? What matters more, the life of an individual or the majesty of the moral law?
+# From an evolutionary standpoint, is “survival of the fittest” selfish or selfless? Is self-preservation a moral imperative or just a fact? Is it selfish to prefer (saving) one’s own life to that of others?
+# What are your own deepest moral values?
+# What moral qualities do you look for in other people as well as in yourself? Are these values that you think everyone shares, or are some of your values ones that you feel are not always observed by our culture as a whole? How have your values changed, if at all, and what influenced their development?
+# When (under what circumstances) is it right to tell a lie? What does your answer reveal about the scope (or relevance) of morality in general?
+# What is the moral issue that you are most undecided about? How do you go about arriving at a decision when it is unavoidable?
+# What are the moral problems surrounding abortion?
+# Can we still justify eating meat?
+# Is it unethical to be extremely rich?
+# Should you buy Nestlé products despite the fact that the company privatizes water?
+# Is the unequal distribution of wealth unethical?
+# What can we do to combat racism?
+# Why are LGBTQ+ people discriminated against?
+# Should euthanasia be legal?
+# Can war be ethical?
+# Should schools punish students for attending protests?
+# Would drug use be unethical if it were legal?
+# Should companies be forced to hire more women in leading positions?
+# How far should everyone’s right to privacy go?
+# Is using animals for scientific testing unethical?
+# How should governments deal with refugees?
+# Can modern societies still be held accountable for what their nation did in the past?
+# How much control should the state have on the press?
+# Should schools teach religion?
+# What are ethical concerns regarding downloading media from the internet?
+# How much work should we leave entirely to computers?
+# Are computers secure enough to contain so much information about our lives?
+# Should all software be free?
+# How can you legitimize the possession of a computer algorithm patent?
+# What can be done to prevent cyberbullying?
+# Whose laws apply if you wish to protect your rights online?
+# Which ethical problems can people face due to the internet’s possibilities?
+# When is sabotaging another person’s computer justified?
+# Are computer crimes less harmful than crimes against humans?
+# Who owns information that is distributed online?
+# What is more important: easy accessibility or privacy?
+# If a computer makes a critical mistake, whose fault is it?
+# How should tech companies deal with ethical problems?
+# Can AI algorithms ensure ethical behavior?
+# Why do tech companies need ethics boards?
+# Which ethical conflicts appear when using drones?
+# What are moral complications when using enhancement drugs?
+# Is gamesmanship unethical?
+# How important is ethics in sports?
+# What are ethical reasons to pay college athletes?
+# Can college sports and the principles of higher education go hand in hand?
+# Was it selfish when the American female soccer team went to court to demand equal pay?
+# What moral obligations do universities have towards their athletes?
+# When can you justify cheating?
+# Concerning the environment, how can professional sports events be ethical?
+# Which ethical problems do healthcare workers have concerning sportspeople?
+# Which moral duties do teams’ coaches have?
+# Are the extremely high salaries of sports professionals justified?
+# In 2003, the Olympics abolished the wild card system. Was that fair?
+# Because of the Paralympics, disabled athletes cannot take part in the real Olympics. Is that discriminatory?
+# Which moral duties should a good sport follow?
+# How much should parents get involved in their child’s physical education?
+# Who is responsible if a player gets injured?
+# Are referees always fair?
+# What are the ethical responsibilities associated with using CRISPR?
+# When can humans be used for drug testing?
+# Should vaccinations be mandatory for everyone?
+# Should a person who is brain dead be kept alive?
+# Is it just that medical care is linked to an individual’s ability to pay?
+# Should everyone be an organ donor by default?
+# What is more important: a person’s right to privacy or the information of at-risk relatives?
+# Is prenatal invasive testing ethical?
+# Should neuroenhancement drugs be legal?
+# Is it ethical to improve memory functions with brain stimulation?
+# What are the problems of surrogacy?
+# Should medical personnel collect healthy tissues of a deceased person without their consent?
+# What should be done with the child of a brain-dead pregnant woman?
+# How important is a subject’s anonymity during research?
+# How much responsibility do mentally challenged people carry for their actions?
+# Was Sweden right not to impose strict lockdown rules during the COVID-19 pandemic?
+# To what extent are businesses responsible for their employees’ health?
+# Should universal healthcare be free?
+# When is it legitimate for a police officer to use violence?
+# How can an officer remain impartial?
+# Should law enforcement visibly wear guns in public?
+# How much force is too much?
+# Should prostitution be legal in the US?
+# How ethical is interrogation?
+# Can torture be justified?
+# Is working undercover deception?
+# Should the police be allowed to access everyone’s data?
+# Should convicted pedophiles be allowed to see their children?
+# Can teaching ethics at schools prevent crime?
+# Should NATO have become involved in America’s Afghan war?
+# What are the ethical implications of shooter drills at school?
+# Was Edward Snowden morally in the wrong?
+# How should we deal with child soldiers?
+# What moral obligations should someone consider when granting prisoners the right to work?
+# When is capital punishment justified?
+# Is it ethical to incarcerate juvenile offenders?
+# Should parents watch over what their children do on the internet?
+# Would you report an accident you caused if there are no witnesses?
+# What should a doctor do if a patient refuses life-saving treatment for religious reasons?
+# Should you turn down a client if their political views do not match yours?
+# Would you promote something you are not convinced of to get money?
+# Should you lie to land a job that gets you out of poverty?
+# Your partner cheated on you. Now, you get the chance to take your revenge with someone you really like. Would you do it?
+# Should you post online a picture of someone who does not use social media?
+# Your teacher is continuously mocking your classmate. You are a teacher’s pet. Would you speak up?
+# Prenatal testing showed that your unborn child has a disability. Would you terminate pregnancy?
+# You are in a long-term relationship. Suddenly, your partner gets a job offer in another part of the world. What would you do?
+# You have a terminal illness. This makes you a financial burden to your relatives. Are you obliged towards them to quit your treatment?
+# You have a red and a blue candy bar. Blue is your favorite, but you also know that it’s your friend’s favorite. Will you give it to them?
+# A friend asked you for a loan. Since then, they have not given you anything back. They are still not wholly stable financially. Will you ask them to return the money?
+# Your grandma passed away and bequeathed her favorite mink coat to you. You are a vegan. What do you do?
+# A few years ago, you borrowed a gun from a friend. Now, they ask for it back, but their mental state seems to be rapidly deteriorating. This makes you scared they are going to shoot someone, or themselves. What do you do?
+# You find out that your friend cheats on their spouse. You are close friends with their family. Will you tell on them?
+# For your birthday, your friend gave you a sweater they’ve made themselves. You think it’s ugly. Do you tell them?
+# You are a vegan. Should you buy vegan products which are highly problematic to produce?
+# You are in a restaurant. Your order arrives too late. The waitress looks stressed. Will you make her take it back?
+# You went to the store and bought a new, expensive item. The clerk gives you too much change. Do you give it back?
+# You are walking with a friend and find $50 on the floor. Would you share it with them?
+# Your child firmly believes in Santa Claus. One Christmas, they start suspecting that he is not real. What do you do?
+# Does the belief in God change a person?
+# Is science compatible with religion?
+# Are morals relative to culture or society?
+# Do moral facts exist?
+# Should philosophers be invited to consider the future of technological development?
+# Do moral rules enslave people? Can people violate moral rules to achieve a common good?
+# What theory explaining the drivers of human behavior is the most convincing?
+# Is morality related to the level of education of a person?
+# Research shows people have inborn capacities, which largely determine educational attainment. Should this affect the educational system? Does this justify a class system?
+# Should genetic engineering humans be legal?
+# Should euthanasia be legal?
+# Is abortion morally wrong?
+# Should a convict be allowed to decide whether to serve a life sentence or accept the death penalty?
+# Should the personal use of drugs be legal?
+# Can mass surveillance be justified?
+# Is cloning ethically permissible?
+# Is there a moral obligation to be honest?
+# Is it ethical to use drugs to enhance cognition? Is it compatible with the use of steroids in sports?
+# Can charity be considered a moral obligation? Should it be considered an obligation of the wealthy people?
+# Do developed countries have a moral responsibility to address the issue of hunger in the world?
+# Do democratic states have a moral right/moral obligation to overthrow/help overthrow dictatorship/eliminate oppression in some states?
+# Who should decide whether to place an elderly in the elderly center: the elderly person themself, children, or a healthcare specialist?
+# Can a person be denied a place in the hall of fame, etc. for demonstrating low moral standards?
+# Should the wealthy countries assume responsibility for organ trafficking business in developing states?
+# Should products manufactured with the use of child labor/in conditions detrimental to people’s health bear a special notification?
+# Is there a moral duty to care for the environment? Should environment awareness be treated as a virtue?
+# Is it ethical to have zoos and circuses?
+# Is it ethical to use animals’ fur and skin? Should the fur industry be regulated/banned overall? Should free relationships be considered immoral?
+# Is it ethical to invest in operations for pets if people in developing countries lack basic health care?
+# Is it ethical to use embryos in genetic engineering research?
+# Is it ethical to produce “designer babies”?
+# Should the state consider moral aspects of the policy when implementing it? What should overweight: morality or economic benefits?
+# Should people face legal responsibility for failing on the moral rules?
+# Should patriotism be considered a virtue?
+# Should violent and offensive content be removed from the Internet? Who should decide what content is offensive?
+# Has feminism as a movement achieved all its goals? Is there currently equality between the sexes?
+# Should white Americans hold responsibility for the disadvantaged position of black Americans?
+# Is ageism a real thing? How should it be tackled?
+# Are the existing policies adequately protecting people from discrimination?
+# Should hate speech on the Internet and social media sites be censored? Should there be a legal responsibility for hate speech?
+# Should the state be allowed to censor the creative work of artists?
+# Should violent offenders be incarcerated or executed when the possibility of rehabilitation is low?
+# Do parents who lack abusive tendencies have the right to discipline their children using corporal punishment?
+# Is the consumption of the flesh of other creatures moral?
+# Bearing in mind the current state of the planet Earth, should humans consider the colonization of the rest of the galaxy?
+# Do rich nations have an ethical obligation to welcome refugees of other countries whose economies they may have damaged beyond repair?
+# Should the right to consume intoxicants and hallucinogens be enshrined in law?
+# Should parents who allow or encourage their children to become super morbidly obese be treated as child abusers and suffer the full penalties under law?
+# Does the preservation of a country’s culture take precedence over the rights of its new immigrants to conserve their old way of life on new soil?
+# Is the concept of land ownership unethical as posited by Rousseau?
+# Should people be encouraged to limit population growth until the human population matches that which the planet can sustainably maintain?
+# Should people be allowed to engage in hunting for the sole purpose of entertainment?
+# Is the compulsory education system as it appears in many countries a form of immoral mental control over children?
+# Are members of oppressed minority groups kept back by policies which encourage them to see cultures foreign to themselves as innately superior?
+# The death penalty: when is it Okay to kill?
+# Homeschooling – a new trend of egoistic parents or a future of education?
+# Is it ethical to speak about the animal protection when thousands of people are starving?
+# Pros and Cons of plastic surgery. When is it really necessary?
+# Making people responsible for their choice. Should the government control election turnout?
+# Should marijuana be made legal?
+# Do we need proper grammar and punctuation in the social media?
+# Should we reduce the consumption of animal source food?
+# Should wealthy nations provide support for refugees?
+# Should young people do plastic surgery?
+# Should kids inform their teachers that they witnessed school bullying?
+# Fake news vs reality. Should people always know all the truth?
+# How to distinguish between authorship and plagiarism: where is the borderline?
+# Is religion moral?
+# Should medical ethics standards be the same all over the world?
+# Animal testing. Is it human to kill animals for someone's sake?
+# Is it possible to protect patients' privacy in the modern conditions?
+# Which form of love could be considered unethical?
+# Why are some people ready to "die for love"?
+# Can women be better leaders than men?
+# Culture, race and our identity. How are they linked?
+# How to teach multiculturalism without abusing someone's values?
+# In what way ethic and culture are interconnected?
+# Individual ethics or collective ethics?
+# What is ethical behavior and how we can manage ethical norms in the globalized world?
+# Does moral behavior lead to happiness?
+# Why do many people pursue hedonistic lifestyles nowadays?
+# Euthanasia justified: would you kill a person for mercy?
+# Do the rich deserve to have what they have?
+# The Good Samaritan dilemma: why people don’t help strangers in the streets?
+# Aren’t peacemaking and peacekeeping the same as waging a war?
+# Does abortion mean a woman has the right to choose?
+# How to choose between the lesser evil and the greater good?
+# Does democratic society lead to low morality?
+# Ethics in international law: is the Kyoto Protocol amoral?
+# Is suicide a crime today?
+# Does anyone have the right to condemn Michael Jackson for changing his skin color?
+# Is donating organs morally justified?
+# Can refugees from the Middle East be accepted in the US?
+# Is it necessary for a politician to strive for power?
+# How to understand terrorists and distinguish between them?
+# How can obeying the rules be bad?
+# Can we choose between a happy family life and a lucrative career?
+# How to make students obey academic integrity principles?
+# Would you report on your friend if he commits a crime?
+# How to distinguish between security regulations and censorship?
+# When, if ever, is taking a human life justified?
+# Can animals have morals?
+# Without religion would people become more, less, or be equally morally corrupt?
+# If humanity was put on trial by an advanced race of aliens, how would you defend humanity and argue for its continued existence?
+# What rights does every human have? Do those rights change based on age?
+# Do animals have rights and do those rights extend to all animals or do the rights change based on the complexity of the animal?
+# Is justice a human construct or is it independent of humans?
+# Why do people expect a universe full of randomness to be fair?
+# With no laws or rules to influence your behavior, how do you think you would behave?
+# What’s the difference between justice and revenge?
+# If it was discovered that personality traits were partly genetic and could be removed with gene therapy, would it be ethical to edit out negative character traits that harm others like extreme aggression, compulsive lying, or cruelty?
+# If you could press a button and receive a million dollars, but one stranger would die, would you press the button? And if so, how many times?
+# What would be the most ethical way to give away five million dollars?
+# Are people ethically obligated to improve themselves?
+# Is privacy a right?
+# At what point is overthrowing a government ethical, considering all the violence a revolution usually entails?
+# Can morality ever be objective or is it always subjective? If it can be objective, in what instances? If it’s always subjective, how do we decide whose concept of morality is correct?
+# Are intentions or outcomes more important when judging whether actions are moral?
+# Should there be limitations on the right to free speech?
+# If it was discovered that most animals were conscious of their existence and eventual death, what would be the ramifications of that discovery?
+# Should euthanasia be legal?
+# If scientists could accurately predict who was more likely to commit crimes, what should society do with that information?
+# Do business owners have the right to refuse service to customers?
+# If babies are considered innocent, when do people cease to be innocent?
+# Why do humans often associate beauty with morality?
+# If you can save another’s life and don’t because doing so would break the law, are you ethically justified in your decision?
+# Are all individuals morally obligated to save another person’s life if they are able? What if that person lives in another country?
+# Is it just and right to deny entry to a country when doing so probably means death for the immigrant and their family?
+# Should we terraform planets if it means that we may be destroying undiscovered microscopic alien life?
+# Does anonymity encourage people to misbehave or does it reveal how people would choose to act all the time if they could?
+# What is the most fertile soil for hatred? Fear, ignorance, jealousy, or something else entirely? Is it possible that some people are genetically predisposed to hatred?
+# If doing something good for others makes us feel good, can there ever be such a thing as pure altruism?
+# What is your definition of evil?
+# Do all people have equal value regardless of their actions or is a person’s value based on their actions?
+# Why are humans so fascinated by mass murderers if their actions are universally considered evil and vile?
+# As people, we feel our moral obligation weaken with physical as well as emotional distance from individuals in need. How does this human trait of morality dependent on distance shape our world?
+# If I steal a loaf of bread from you and eat it, when does the bread itself cease to be yours and becomes mine?
+# How much effort should an individual put into not offending others?
+# What does the word morality mean to you?
+# How do you decide what is moral and what is not?
+# Is there a moral obligation to help the less fortunate? If so, what is it? How much should you help? How much should our country help its own poor citizens versus the poor citizens of other countries?
+# Is it moral to pay your taxes even if you don’t agree with how the government spends it?
+# What is the best moral approach to our environment? Is there a monetary limit to how much we can really spend to clean everything up? If third world countries can become richer by building factories that harm the environment, is it OK to do that?
+# Is it ever OK to lie? If so, under what circumstances?
+# If a family is hungry and has no other way to get food, is it OK to steal food from a rich store owner?
+# Is it right to ever kill someone?
+# What does conscience mean? Can it ever be wrong?
+# What obligations should parents have to their children? And children to their parents?
+# Is what the majority of people decide always right or can it be wrong?
+# If Country A says it’s okay to steal and Country B says stealing is wrong, which one is right? Can they both be right?
+# Do you consider yourself to be an ethical person?
+# Would you risk your life to save another person?
+# Would you jump into a deep river to save a drowning animal?
+# What are some ethical dilemmas you have faced?
+# Is stealing ALWAYS wrong? When is it right to steal?
+# If you could save people by killing one person, would you?
+# How often do you lie? When is it okay to lie?
+# What makes a person act ethically or unethically?
+# If you saw a pickpocket stealing someone’s wallet what would you do?
+# Should poor people be punished for stealing if they are stealing to feed their family?
+# Is racial profiling moral?
+# Is doctor assisted suicide moral?
+# Is the death penalty moral?
+# Should women freeze their eggs?
+# Is bidding for your healthcare provider safe?
+# Is it an invasion of privacy if your gynecologist displays the pictures of the babies she has delivered?
+# Should killers be allowed to publish their books?
+# Should organ donation upon death be mandatory?
+# If you work for an employer that doesn’t believe in the use of contraception, should they have to pay for it?
+# With all of the advances in medicine where you can tell if your child has undesirable traits, is it moral to shop around for the best egg?
+# Should kids have to have a flu shot?
+# Should you allow a father to keep a brain-dead mother alive to incubate the fetus?
+# Would it be okay to accept an organ from an executed felon?
+# Should people act ethically simply because God requires them to?
+# Is there a moment when it is unethical to do a duty in your career?
+# When there is no chance of rehabilitating an offender, should government allow their execution?
+# Is consuming blood of animals immoral because they are living creatures?
+# Should we include the right to die in law?
+# Should parents who give their kids fatty foods be considered abusers?
+# Should we abolish compulsory education for kids?
+# Should we limit plastic surgery for medical purposes only?
+# Should journalists only show people what they want to see as opposed to being true?
+# What is the importance of following ethical codes in your workplace?
+# Should people follow the same moral code globally?
+# What is the role of ethics in UK schools?
+# Is professional ethics?
+# Do we need molarity to be happy?
+# What are the main causes of racial conflicts?
+# What makes some people so cruel?
+# Do we really need the moral norms?
+# Is it possible for all people to be happy all the time?
+# Should we use reason alone to determine the actions that are right or wrong?
+# Is it possible to draw a clear distinction between intrinsic good and instrumental good?
+# Is pleasure an intrinsic good?
+# Is happiness simply a sum of personal pleasures?
+# Is it possible to refute personal ethical egoism?
+# Do ends justify the means?
+# Does free will exist?
+# Does believing in God help change a person?
+# Should we invite philosophers to discuss the development of technology?
+# Are people enslaved by moral rules?
+# Which is the best theory to explain human behavior?
+# Should we legalize genetic engineering?
+# Should personal use of drugs be legal?
+# Is using drugs to enhance cognition ethical?
+# Is charity work a moral obligation for the wealthy?
+# The elderly, their kids or medical professionals: Who should decide when to place seniors in elderly centers?
+# Does every person has a moral obligation to take care of the environment?
+# Are the laws protecting people from discrimination adequate?
+# Should governments have powers to censor creative works of artists, such as films, books, and exhibitions?
+# Is homeschooling better than homeschooling?
+# Do you support the use of animals in biological research?
+# Should people who do not vote on election days be punished?
+# Is war on drugs more harmful than the drugs themselves?
+# Should we allow consenting adults who are close blood relatives to marry?
+# Crimes against the ecosystem: Should they attract harsher penalties?
+# Religious beliefs vs giving children accurate sex education: Which one should take precedence?
+# The pharmaceutical industry is very corrupt: do you agree?
+# Sports sponsorship: Is it unethical?
+# Should we separate state and church?
+# Civil disobedience for a good cause: Is it ethical?
+# Is raising the minimum wage a good idea?
+# Is it ethically OK to violate private property in order to reduce suffering?
+# Is equal pay for equal work always necessary, ethically?
+# Are companies ethically to blame when customers misuse their products?
+# Is it OK to sell a product when you can’t prove that it works?
+# Are there some things that simply should not be bought or sold?
+# Is Uber a good or bad thing, overall?
+# Is misleading advertising unethical?
+# Do ethics classes make people more ethical?
+# What ethical considerations should go into establishing a product’s price?
+# Are employees owed some say in a company’s direction?
+# Are companies responsible for bad behaviour in their supply chain (e.g., by the people who supply the suppliers they buy from directly)?
+# Are young/junior employees ethically special?
+# What are a corporation’s obligations to society?
+# What kind of thing is a corporation?
+# What are the effects of teen plastic surgery?
+# In a particular hospital, a terminally ill patient requested assisted suicide. Do you think this should be allowed in all hospitals?
+# Should men and women have equal rights?
+# Are genetically modified foods (GMO) fit for human consumption?
+# How do technological advancement and the advancement in technology affect the youth?
+# Can animal abuse by youngsters be classified as a violent act?
+# Do you think newspapers and radios should report only what people what to hear?
+# Is there a need to separate the church from politics?
+# Is it ethical to edit children’s genomes?
+# Should robots be given the right to kill?
+# Is Human Cloning Ethical?
+# Should Schools Enact Anti-Bullying Policies?
+# Combating Music Piracy: Should Governments Get Involved?
+# Is It Justified to Bribe to Avoid a Legal Penalty?
+# Should Nurses Be Allowed to Assist Terminally Ill Patients to End their Lives?
+# Is it moral to artificially control the birth rate?
+# Is personal privacy in social media real?
+# What is your attitude toward egoists?
+# Should gun ownership be made legal?
+# What is the overriding purpose of moral principles?
+# Organ donation upon death. Should it be made mandatory?
+# Should marijuana be legalized for public use?
+# Should women choose between career and family life?
+# Is it possible to use the church during political campaigns? Is it morally correct?
+# Is it normal when online companies gather the personal information of their clients?
+# Does a person have a right to die?
+# If something at a yard sale is far more valuable than the posted price, do I have to let the seller know?
+# Is it considered stealing to take pens from a bank? What about extra napkins from a fast-food restaurant?
+# My boss gave me credit for a project on which a colleague did most of the work. Should I accept the praise?
+# Am I obligated to lend money to friends and family?
+# Is it ever OK to sneak a peek at your child's e-mail?
+# My boss asked me to cover for him on his expense report by saying I was at a meal when I wasn't. Should I do it?
+# What does it mean to be morally right or morally wrong?
+# To what extent do we learn ideas of right and wrong from our environment? To what extent is this morality intrisnic, i.e. present in us from birth?
+# Are there actions you believe are always morally wrong?
+# Are there laws or rules governing moral behavior—i.e., that are not arbitrary—that you believe are unfair?  Which ones, and why?
+# What is the difference between the laws of our country and your sense of what is right and wrong?  Who determines and legislates the laws?
+# To what extent is a crime different from a sin?
+# How should our society collectively deal with criminals? Should we deal differently with sinners?
+# To what extent does justice/injustice differ from fairness/unfairness? Is your concept of morality more similar to one or the other?
+# How should our society collectively distinguish between just and unjust punishments?
+# What do you think about the victimization of love in the literature and real life? 
+# What should done about climate change?
+# What do you think about the use of plastic in the beauty industry?
+# How should workplace ethics should take sexism into account?
+# Please explain the moral problems, if any, that come with automating jobs?
+# What are the benefits and disadvantages of universal income?
+# What are the dangers of storing vulnerable data online?
+# Can hacking be morally justified?
+# What are you privacy-related concerns regarding computers?
+# What are the moral effects anonymity has on internet users?
+# What do you think about the necessity to own a computer and how it impacts poorer nations and people?
+# What do you think is the social responsibility that comes with developing new software?
+# What are the moral problems associated with AI?
+# What is the importance of netiquette?
+# Do you think there is racial bias in facial recognition systems?
+# What the is the moral responsibilities of athletes?
+# Are there moral conflicts with genetic engineering?
+# Are there ethics problems with stem cell research?
+# What are the ethics that apply to a medical worker?
+# What are the ethical conflicts concerning Disclosure and Barring Service?
+# What are the ethical issues concerning precision medicine?
+# What are the ethics of shared decision-making?
+# What are the ethical consequences of lying when working in criminal justice?
+# Is it an American citizen’s moral duty to participate in jury duty?
+# What are the moral complications of “innocent until proven guilty?”
+# What are the ethical problems of the Stanford Prison Experiment?
+# What, if any, ethical problems come with private prisons?
+# Are you for against utilitarianism?
+# Are you for or against psychological/ethical egoism?
+# What's with the controversy of abortion in modern society?
+# Are you part of the pro-life or pro-choice movement?
+# What do you think about organ transplantation from deceased donors?
+# What are the ethical problems of medicine in the 21st century
+# What is the issue with euthanasia if any? Why it should become legal?
+# Are stereotypes the main ethical issue?
+# What are the advantages of equal representation of genders and races in the workplace?
+# Must the government allow executing violent offenders when there is no chance of rehabilitation?
+# Is it immoral to consume the flesh of animals as they are living creatures?
+# Shoud wealthy nations have a responsibility to provide refugees of other regions of the world with shelter?
+# Do you think people shouldn't have the right to die in the law?
+# Do you think parents who lack abusive tendencies should manage their kids with the help of corporal punishment?
+# Parents who allow their kids to consume fat food that leads to the increased level of childish obesity must be treated as abusers and be penalized
+# Is the concept of land ownership moral?
+# Is the compulsory education system a type of immoral mental control over the youngest representatives of the population?
+# How does the family shape our ethical norms?
+# What are the ethics of criminal justice?
+# What do you think about the ethics personalized genetic medicine?
+# What is with the ethics of counterfeit pharmaceuticals and violation of US Patient law?
+# What do you think about the ethics of disclosure of patient information and moral distress?
+# What is the importance of self-awareness including self-care and professional identity?
+# What do you think is the reason behind respect for confidentiality and anonymity in research
+# About the death penalty: key pros and cons?
+# Is Voting a Moral or Legal Duty?
+# What's the moral problems with global warming and the extinction of animal and plant species
+# What are morally right actions?
+# What is the relationship between morality and artificial intelligence (AI)?
+# What are the moral problems, if any, with Animal testing?
+# What are the ethics of the disclosure of patient's personal information?
+# Explain the meaning of "self-realization?"
+# What do you think of the theory of moral egoism?
+# What are ethics of church and politics?
+# What does it mean to have a good life?
+# Is it more important to be respected or liked?
+# Are humans obligated to be better people and will that make them happier?
+# What is the most important purpose in life?
+# Does life require a purpose and a goal?
+# What is happiness?
+# Do acts of kindness have a motive?
+# What makes people evil?
+# What as made people in the current generation different, and why are they different, if they are at all?
+# What is friendship?
+# Can achieving nothing make a person happy?
+# What are the downsides to modern technology, if any?
+# If everyone spoke their mind would this world be a better place?
+# Is there a perfect life?
+# Why do we strive for perfection if it is not attainable?
+# Does utilizing time properly make our lives meaningful and/or happy?
+# Can life be meaningful without friends?
+# Do numbers in a bank account make people happy?
+# Is living life to the fullest possible?
+# Can spirituality make you a happy person?
+# Is being obsessive about someone or something ever a good thing?
+# Are highly intelligent people less happy than individuals with average intelligence?
+# Is there an absolute way to attain a happy state of mind?
+# Does living your life for others make your life have meaning?
+# Do knowledge and understanding make you content and happy as a person?
+# Does fate exist to any degree? What do you consider fate?
+# Do you think a near-perfect government can be achieved in the near future?
+# Does life have a reason?
+# Are there limitations on free speech?
+# Are we a minuscule part of intelligent life in the universe?
+# Does free will exist, or is every action predetermined?
+# What is conscious? At what point are things no longer conscious?
+# Why do we do things we do not like to do?
+# Does everyone make their own gods?
+# Can religious beliefs affect scientific thinking?
+# Will a world without reliance on modern technology make any progress?
+# Is human potential capable of anything?
+# Is death a new beginning?
+# Why does God not intervene when evil takes root in people?
+# Does belief make God exist?
+# Will robots take over the world in the future?
+# What is the path to salvation?
+# Are beliefs and superstitions the same?
+# Are we the biggest threat to humanity?
+# How does one find purpose in life?
+# Do guns protect people or kill people?
+# Will racism cease to exist?
+# Why is beauty associated with morality?
+# Why do we respect the dead more than the living?
+# Does God have supreme power?
+# Will the world be a better place if caste and religion cease to exist?
+# What is the meaning of love?
+# What’s more Important: doing the right thing or doing things right?
+# Do we love ourselves more in the virtual world and less in the real world?
+# Is humanity doomed to head in a destructive direction?
+# Should full access to the internet be a fundamental right?
+# Is peace the only way to stop war?
+# Can memories be erased?
+# Is religion conceptualized by one’s own belief system?
+# Will the world come to an end by human hands?
+# Intelligence or wisdom, what’s more important for a better world-and what is the difference between the two?
+# Is true beauty subjective or objective?
+# Do thoughts control who we are?
+# What is the extent of freedom human beings should have?
+# What is the meaning of rich and poor in the modern world?
+# Do we control technology or is technology controlling us?
+# Do we change when we have power and vice-versa?
+# Will technological advances wipe out humanity?
+# Does understanding philosophy lead to progress?
+# If all the currencies in the world did not have monetary value, would our world be a much better place?
+# Is it possible time is being altered right now?
+# Would this world be better or be worse without teachers and formal education?
+# Why do we throw away food when we know people are dying of hunger?
+# Will time travel be made possible in the future?
+# Do people who speak the English language have a higher rate of feeling superior to other peoples?
+# Will artificial intelligence help increase human lifespan in the future?
+# Does awareness of consciousness have benefits?
+# Do thoughts have a pattern?
+# Will stricter laws make a better world?
+# Are we losing our right to privacy?
+# Is limiting immigration to developed countries right?
+# Does faith make belief stronger?
+# Why can’t every person be a genius?
+# Is there freedom in creativity and art in the modern age?
+# Do the simple things become complexities when we try to attain perfection?
+# Will concepts and theories in regard to religion becoming obsolete come true?
+# Is blind belief prevalent more among holy, spiritual, and pious people?
+# Can dreams be associated with the unforeseen future?
+# If we live in a civilized world why do we see so many distinctions between rich and poor?
+# Is there intent behind every action?
+# How can we be sure there is or is not life after death?
+# If death is inevitable, why bother doing anything?
+# Is there such a thing as a good death?
+# How can we know for sure that there is or is not an afterlife?
+
+---
+
+!! Undecided Chopping Block
+
+# If you could be anybody, who would you be?
+# What is the most important aspect of your life and why?
+# What profession would you have chosen, if not your current one?

@@ -1,0 +1,163 @@
+created: 20220202105803253
+modified: 20220311044328068
+tags: ALM Letter To BAGD 𝕱𝕴𝕽𝕰🔥
+title: 2022.02.02 - ALM: Cheeto Jesus
+
+Dear ALM,
+
+How was your week? Asymmetrically, I'm flying pretty blind over here (that's usually how it goes for me). What was work like?<<ref "w">> You have any more weekend dinner plans with folks?
+
+<<<
+It was nice to hear back from you. Sorry for taking so long to reply. For some reason I really had to work myself up go sit down and devote the time to read and write out a genuine response.
+<<<
+
+I appreciate your taking the time to write it out. I know you're a busy man. Being a father often means you have so little time for anything else, and I know there's gonna be times where you can't afford to interact with me.<<ref "x">> Given the energy it takes to commit to writing and reading carefully for comprehension,<<ref "s">> being my [[friend]] is like a part-time job as it were. I understand not everyone can pay those prices. `/salute`.
+
+> When it comes to using technology, my offspring use it mostly to watch anime, code (as in a simply coding game that they were introduced to through their previous school), play Minecraft, or watch youtube videos.
+
+Sounds like [[youth|Afterschool Teaching]] to me, sir. I'm glad to hear they enjoy it.
+
+> Their mother is very much anti sitting in front of a screen all day and can scarcely stand being in front of a screen long enough to watch a movie. She heavily polices time with electronics. Makes her on edge just to see it. This has always been a point of contention between her and I. 
+
+Yes, sir. I can see that. I can appreciate how she may be worried about addiction in particular. Admittedly, I kinda have a hard time believing her policing will be effective in the long-run, but I would bet they will appreciate why she cares (and may it play a role in their reasoning and behavior). I consider it the plight of the privileged that we must each learn to manage our own digital addictions, [[WINTCIS]]. It reminds me of watching and reading about young children using some dangerous drugs alongside their donors. To not give our children this potentially dangerous drug would cause enormous damage.<<ref "sh">> Damned if we do, damned if we don't. Often, I think the best one can do is help them develop the habits to recognize where dependency has become addiction and to practice becoming an effective self-manager. That's a tall task, [[WINTCIS]].
+
+> The kids were given Chromebooks by their grandparents for Christmas and their mother took them away and put them up in a closet because they wanted to be sequestered away in their rooms all day. This came to a head last weekend as the kids went to visit their grandparents and this fact was let loose. They asked us why. We let them know and gave the Chromebooks back to them. I have a feeling that is not the last we will see of the devices since I had set both of them up already with logins, emails, etc needed for a Chromebook as well as parental controls and I am sure they would have no clue that a powerwash would even be needed much less how to perform one before sending them to other grandchildren.
+
+`/nod`. I could imagine it isn't easy for them to understand your position or to defer. You live a different life from your father in many respects.
+
+When will your offspring even partially or conditionally own their own devices? It takes some practice to master one's machine, and lord knows, I've not accomplished the task myself. Is that something they will take for themselves at 18? Will it be gradual or all-at-once thrown into that freedom?<<ref "i">>
+
+> As for my dreams on how I would like them to use technology - I think that I have had too much exposure/time with tech and certainly too much unfocused time with it. I do not want the same for them. I do, however, want them to know how to use the devices for their betterment. Many children cannot type any more due to touchscreens - so I want them to be able to type. I want them to be able to use the keyboard. I want them to be able to make full use of search via boolean expressions. In short, I want them to be able to use the tech without being a slave to it. 
+
+> Also, I want them to use/be familiar with Linux. I do have one machine with windoze on it at home and that is for the laser printer that wifey had to have to help out with stuff for her job. No drivers for Linux at all.
+
+I think it's a [[good]] thing they'd be familiar with multiple OSes and the sort they'd be most likely to encounter out in the world. Having the [[chance]] to compare the environments may be quite useful in the end. I could imagine yall would have a blast sitting down on your machines together to practice using Linux. Maybe those Chromebooks would be useful, especially if they can be hardmodded or enjoy a chroot environment (that might be a tricky initial leap though). I hope it will be a source of great joy for you all.
+
+> As for how they will use technology at my age it is anyone's guess. I never thought that I would be using tech the way that I am at my age, interacting with a phone most of the time vs a desktop. Gaming less and reading more. In short, I would like for them to be masters of the tech and not to be mastered by it.
+
+It may be worth fleshing out what it means to master tech and not be mastered by it. That's an exceptionally hard task, even for someone not addicted to their machines. Software continues to eat the world, and it's difficult to maintain one's autonomy when there is so much profit in taking control from users.
+
+> Curation and filtering today is done mostly by being with them when they use tech. With the Chromebooks being returned the kids do not have an old phone to play with or whatnot. The computer that they use is right next to mine. I keep an eye on them, as does their mother. This is not enough. 
+
+Aye. I can imagine that won't accomplish your goals in the long-run. Introducing them to great places to read, write, and participate in [[The Great Human Conversation]] may be useful. Having libraries of content prepared in advance and spending precious freetime each night digesting these libraries may go a long way to having a solid foundation or canon (and it's valuable to be able to refer to the same stories together, imho).
+
+> I have dabbled in filtering/blocking before but have not setup anything like that in the new home yet. 
+
+If it comes to that, I hope it will be a pleasant cat and mouse game where they learn how to take back control of their machines. Making it a [[game]] can be educational. [[j3d1h]] has launched some pretty neat attacks over the years to [[take control back|j3d1h: Take_back_control_of_myy̶o̶u̶r̶_computer.game]]. 
+
+> On that subject I need to get my pihole set back up here. 
+
+Yes, sir. I can appreciate that. Getting ads off all your screens will be a boon.
+
+> My time for now has been spent in getting an easiest to use but not Google or Amazon fire using device as a media device. We like to be able to cast from our phones to the TV. I have a pi4 running libreelec with Kodi hooked up right now and that was worked for casting from youtube (her) and Newpipe (me). 
+
+[[Nifty]]! Them pi4's look pretty [[awe]]some. Lots of horse[[power]]. Prices are out of control on them (I could imagine your daughters would learn a lot on that machine). It might still be worth having a wireless keyboard, but you can get a great deal done with the phones.
+
+> For movies and TV shows I have transferred that one or two items to a flash drive and hooked them into the device for local playback - a stopgap measure. I have a 10tb external that most of our media is stored on but I need to get things set up to share across the network. I have tried different distros to share via GUI with samba but have had no luck on this. Suggestions?
+
+There's a [[sharing]] option built into Kodi. I keep a copy up 24/7 on [[m16]] anyway, and you might do that on the machine where the 10tb drive is mounted. SFTP through Kodi works like a charm too. Some people in the house prefer to just manually move the files to their own drives no matter what, and they use an FTP client or SCP to do that most of the time. Remote mounting has been a reasonable option for us:
+
+```bash
+# Mount: folder/filesystem through SSH (don't forget folder permissions)
+sshfs name@server:/path/to/folder /path/to/mount/point
+
+# Mount: folder/filesystem through SSH with password
+sshfs -o password_stdin name@server:/path/to/folder /path/to/mount/point <<< "password"
+
+# Back when we had a TV in the living room, my daughter used this one:
+sshfs -o allow_other -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 h0p3@192.168.1.100:/mnt/m16-new-storage /mnt/htpc
+```
+
+Plex et. al. may be the way to go. If not, setting up NFS/Samba the [[ol' fashioned|https://techviewleo.com/configure-samba-share-on-arch-manjaro-garuda/]] way may be best, even though it's a pain in the ass. I've not found a great one-click solution here.<<ref "ws">> That's pretty sad. You'd think file-sharing and chat would be solved problems by now, right? lol.
+
+> How do I aim to condition my kids? Well, the wife and I have had a discussion and God willing, we are going to seriously look into starting to homeschool the kids. We have some local and not so local resources (:P) to help with this but are still very much in the pipe dream stage.
+
+It's an expensive task, and it may consume all of your freetime to do it, imho. I think it's still worth doing too. Keep {[[dreaming|Dreams]]}, sir. Now might be as good a time as any to make the transition, if you can. 
+
+> She is unhappy with work which has been quite stressful for her and I am not pleased by what I am hearing from my children about school and more so this new school in particular.
+
+I'm sorry to hear that. I can imagine she's doing the best she can with what she's got. She has long done [[good]] work. 
+
+What have you been hearing from your offspring about school, and this new one in particular?
+
+> I'd much rather her focus on our kids instead of pouring out her love/knowledge/experience into the vessels of others. 
+
+Why would you much rather her focus on your kids rather than pouring herself into the vessels of [[others]]? That seems like really important concern. I think quite highly of her desire to [[help]] [[others]]. 
+
+> She would handle the home/garden/PE/crafts/language lessons while I would handle English, math, computer, and science. There is a homeschool group they could easily join as well since our close friends are members and we have moved very close to them.
+
+It's a lot of work to do well, imho, [[WINTCIS]]. How do your offspring feel about the possibility?
+
+> How do most Americans do TV? Well, they make it a baby sitter and I have heard many Americans referred to as TV people or TV race. Especially in regards to boomers. My dad is a good example. Gotta watch his man orange cheeto, can't miss that no sir!
+
+I could nearly literally hear your voice for the last phrase, haha.
+
+What would we do without Cheeto Jesus? :P
+
+> When did we get teleported into the Hunger Games? 
+
+I think it's roughly always been the case.
+
+> We do not watch local or mainstream news.
+
+What news do you consume beyond Thai news? What's your media diet look like these days?
+
+> We watch American TV shows like The Book of Boba Fett or The Mandalorian and American movies. 
+
+How are you liking those two shows?
+
+> Most recently we watched the original Mary Poppins and we are going back to watch the Star Wars series since the kids did not get many of the references in the most recent Book of Boba Fett episode. We watched Episode I on Sunday afternoon.
+
+Been doing something similar with our [[Film: Library]] and longer episode shows in [[TV: Library]] during [[Family Time]] too. `/nod`. 
+
+> Switching gears, who is (((they)))? /grin Its da jooz of course.
+
+As is my duty, I speak with all kinds. [[Killcoin]] may be of interest to you. As in the case of [[Sir GB]], I [[aim]] to be a fitting sounding board for all, [[WINTCIS]].
+
+> As for ideal prep we would like to arrange more food on hand, some alternate forms of electricity generation, a firearm, and more close friends. 
+
+Electricity will be the expensive part. 
+
+> I have not read the link from Tmoney for Agent Smith but have them in an open tab to get to.
+
+There's so much to [[read|hao]], I can't say I know what should take priority in your shoes. I'm doing what I can to build an entrance, a doorway, or a bridge for ya. As was noted in [[Family Time]], we have deftly avoided speaking about about me and my family in many respects. That's gonna take some time and effort.
+
+> Your questions on a tribe are good ones. Ones that I don't have answers for regrettably. I am just not for sure. For now all I think is 'more than we have at current.'
+
+Well, I [[hope]] you'll keep thinkin' about them. I think they are crucial questions. I realize we can't be certain in many cases; we only improve our confidence interval sometimes. I'd like an answer when you develop one. It says a lot about who we are. Sir [[kickscondor]] and Sir [[DeathOfRobinhood]] have been important [[wrestling]] partners and teachers of mine on the topic, and less directly (though just as crucially), Madame Senpai [[chameleon]] and Madame [[Sphygmus]] as well.
+
+> Thanks for the info for the computer. I ran the commands but might have not done it correctly. This info did not come up on my previous searches so that is good I think. I will hit my head against it more to see if anything shakes out.
+
+`/salute`. Given that Manjaro's repos have ~2 week buffer for most packages, you might yolo it and cronjob the updates (or at least the keying). I've been bitten in the ass on graphics before, and that was why I initially gave up on Manjaro back at Betz.
+
+> Coming back to your wiki makes me want a wiki of my own. Any info you got for making a wiki that is mobile-centric would be great. Also, we come back to the issue of embedding media in the wiki. I want images. Links to video will serve needs but images I want to keep in perpetuity. All the memes! I would almost exclusively want to use the wiki from mobile. Perhaps tiddliwiki would not be the best for this situation. I am sure you have found competitors - any that come to mind for mobile exclusive use cases?
+
+We would probably be interested in different things for our [[RGM]]'s, and while I do use my TW from my phone where required, I have little knowledge of what tools work best out of the box on mobile. If I wasn't using TW, and especially if I were only writing for myself, I'd simply be using plaintext or markdown files in a Resilio Sync (and, you can already do this with TW as well). I'd be going custom no matter what, probably with emacs. Obsidian may be worth your time, and it is compatible with TW too (though you'll have to make it work). Self-hosting seems a fine starting requirement, and, unlike most notetaking tools (a giant graveyard in the history of [[computing]]), textfiles will stand the test of time. 
+
+TW is quite malleable, which is why it can be well-suited to mobile. You get to design the interface from within the tool itself; you probably can't change (or at least not easily, relatively-speaking) what you don't like about any other tool you might use here, except for custom tooling you build on top of plaintext or html.
+
+While I think it's generally a mistake to fully embed images in TW, it's pretty simple to display images in TW. Keep them in a directory right next to it (there's lots of good image management software too). I can appreciate wanting to keep all the memes. [[Links: Library]] will be working toward that.
+
+> Also, I noticed in one of your monster links about a Nostromo. I checked it out on Amazon. Brings back nostalgic memories. Do you use yours on windoze or nix? I also looked at your app list for monster-20. I will have to check some of those out.
+
+I gave it to [[1uxb0x]] about 5 weeks ago. Page updated. I can say it's unpleasant getting Nostromo's software and AHK working inside of Linux, but there aren't many substitutes. I'm still on i3-Arch, and I didn't find the Nostromo sped up my process. With i3, I think it's best to stick to one keyboard. So, I'm glad I tried, but I can't recommend it (but maybe that will [[change]] some day if real-time keyboard + mouse navigation become more relevant to me). If you're gaming though, I wouldn't leave home without it. It's comfortable and convenient.
+
+
+
+[[Love]],
+
+[[h0p3]]
+
+
+---
+<<footnotes "x" "Except at great sacrifice.">>
+
+<<footnotes "w" "It won't be boring to me.">>
+
+<<footnotes "s" "Which still isn't even the most demanding part of maintaining a relationship with me.">>
+
+<<footnotes "sh" "Sheltering is often poor guidance.">>
+
+<<footnotes "i" "And, I recognize that some parts of the problem are binary.">>
+
+<<footnotes "ws" "Workin' on a script for ya, if you want it. I think samba is unfortunately a finnicky pile of shit.">>

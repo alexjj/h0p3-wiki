@@ -1,0 +1,10 @@
+created: 20200519021058298
+modified: 20200519030501622
+tags: [[Wiki Audit]] j3d1h
+title: 2020.05.18 - Wiki Audit: Slow as the DMV
+
+Changed [[$:/core/ui/DefaultSearchResultList]]. Now the search headings open up all their listed tiddlers. Handy, but slows everything down! Code was originally from [[$:/core/macros/timeline]], changed the list filters.
+
+---
+
+It's a tentative addition for now. We need to keep experimenting here. 

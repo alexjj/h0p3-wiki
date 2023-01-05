@@ -1,0 +1,44 @@
+created: 20211129181640677
+modified: 20211201032156119
+tags: Jaxx ASmith Chatlog
+title: 2021.11.29 - Jaxx: Inspiration
+
+"""
+01:53:26 AM [[ASmith]]: wb hop3, welcome to DarkMX
+01:53:54 AM [[ASmith]]: and hello to Boxedin, DannyGlands, guest693 and Jaxx
+01:54:10 AM [[ASmith]]: How was your weekends?
+01:54:44 AM [[ASmith]]: were you all able to add my shared library, I'll likely adjust it alittle, add, trim
+01:55:12 AM [[ASmith]]: darkmx:network:TAS@5o2zzmnslowafacjzdmqlu3gkh6hvtpu5v4lmxxlna6c5mmhv7wa|"TAS"
+02:48:27 AM * darkmx:user:BoxedIn@smgcvw574innodkhubq4fuygbok3tmk5joc25qmoptf4iwbn534q has left
+02:48:30 AM * darkmx:user:BoxedIn@smgcvw574innodkhubq4fuygbok3tmk5joc25qmoptf4iwbn534q has joined
+02:58:19 AM [[h0p3]]: =)
+02:58:53 AM [[h0p3]]: Hey there, [[ASmith]]. I never left. I'm just in [[Reply Mode]]. Curled-up, as it were.
+03:00:18 AM [[h0p3]]: Last time I tried DarkMX was [[2021.05.05 - Link Log: Malice In Wonderland]]. It's grown since then. I like it. You're right about the mail, ofc, especially since there's already basic federation of the networks.
+03:00:36 AM [[h0p3]]: Though he may consider it a misuse of the claim, it's an instance of zawinski's law here.
+03:01:01 AM [[h0p3]]: I can see your shared libary, sir. It's dope.
+03:10:32 AM [[Jaxx]]: Glad u like darkmx :)
+03:10:55 AM [[Jaxx]]: u should try make this room as a web access
+03:16:45 AM [[h0p3]]: Hey there [[Jaxx]]. `/wave`. I'm always inspired by your curiosity and willingness to ask questions.
+03:17:21 AM [[Jaxx]]: ofcourse.. thats what questions are for xD
+03:17:28 AM [[h0p3]]: Also, I forgot to say: my weekend has been excellent. It's been chill. [[Family Time]] was good, and I got to spend copious amounts of time with my girls, [[ASK]] and [[k0sh3k]].
+03:18:24 AM [[Jaxx]]: nice :D
+03:19:09 AM [[Jaxx]]: I wonder if this darkmx could b run by someone in a vps and kept it running 24/7.. then the room would b available 24/7
+03:21:30 AM [[h0p3]]: You could do that. You don't own that machine though, so that might be a serious concern. Because it routes through Tor, DarkMX doesn't require we set up port forwarding or worry about NAT traversal all that much. That's a reason to just run it 24/7 on your own machine. If power is a concern, an RPi might go a long way here too.
+03:22:12 AM [[Jaxx]]: Whats a rpi?
+03:22:28 AM [[Jaxx]]: rasperry pi or something?
+03:22:33 AM [[h0p3]]: Yup. That's it.
+03:22:42 AM [[Jaxx]]: what does that do?
+03:23:13 AM [[h0p3]]: It's a fairly inexpensive computer that's well supported by its community.
+03:23:47 AM [[h0p3]]: (Great machine on which to get your hands dirty with Linux too, sir)
+03:24:28 AM [[Jaxx]]: i tried linux before,but i just went back to windows
+03:24:39 AM <darkmx:user:guest693@jutsbky3o6rw6outg2ijuio3xa3oizezkikj275n4p6yshva2cda> this is one disadvantage of this system - chat is dependent on server. it is not distributed, like retroshare is
+03:24:49 AM [[h0p3]]: Assuming you use a desktop, you might consider a hardware KVM switch to flip between your Windows machine and the Linux one.
+03:25:27 AM [[Jaxx]]: to mjuch work just for that :)
+03:26:21 AM [[Jaxx]]: *much
+03:27:01 AM [[h0p3]]: Currently having a discussion with the feller workin on the Element client for Matrix (https://philosopher.life/#2021.11.17%20-%20HN%20Log%3A%20Arathorn%20%26%20P2P%20Matrix). Making it so that data is eventually passed between P2P users when both clients go down is a hard problem.
+03:27:54 AM [[h0p3]]: It requires that someone proxy on our behalf here, and it's a reason that federation is still taken seriously (especially because pure distributed, mesh, p2p is a bit too easy to attack, you can flood the network).
+03:28:34 AM [[h0p3]]: I like Retroshare's F2F model though, as those are proxies I would like to designate (including that I received any packets at all*).
+03:36:01 AM [[Jaxx]]: wb :)
+03:37:27 AM [[Jaxx]]: it seems you have used darkmx before
+03:45:16 AM [[Jaxx]]: Anyway,I g2g afk for awhile be back soon
+"""

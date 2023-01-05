@@ -1,0 +1,36 @@
+caption: 𖡶🔍
+created: 20220128211445374
+modified: 20220131200404315
+tags: $:/tags/AdvancedSearch j3d1h
+title: Trisearch
+
+<$edit-text tiddler="tritemps" field=titlesearch placeholder="Filter by Title"/><br>
+<$edit-text tiddler="tritemps" field=tagsearch placeholder="Filter by Tag"/><br>
+<$edit-text tiddler="tritemps" field=textsearch placeholder="Filter by Text"/>
+
+<$reveal type="nomatch" stateTitle="tritemps" stateField="buttonpress" text="show">
+
+<$button setTitle="tritemps" setField="buttonpress" setTo="show">Show results</$button>
+
+</$reveal>
+<$reveal type="match" stateTitle="tritemps" stateField="buttonpress" text="show">
+
+<$button setTitle="tritemps" setField="buttonpress" setTo="hide">Hide results</$button>
+
+<$button>
+<$list filter=[search:title{tritemps!!titlesearch}tag:strict{tritemps!!tagsearch}search{tritemps!!textsearch}reverse[]]>
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<$list filter=[search:title{tritemps!!titlesearch}tag:strict{tritemps!!tagsearch}search{tritemps!!textsearch}reverse[]first[]]>
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<span style="color:#66ff66">Open All</span>
+</$button>
+
+<$list filter=[search:title{tritemps!!titlesearch}tag:strict{tritemps!!tagsearch}search{tritemps!!textsearch}] template="$:/core/ui/ListItemTemplate"/>
+
+</$reveal>

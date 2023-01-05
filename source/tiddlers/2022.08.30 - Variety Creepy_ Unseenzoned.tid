@@ -1,0 +1,228 @@
+created: 20220830170753997
+modified: 20220830190949723
+tags: [[Variety Creepy]] Chatlog
+title: 2022.08.30 - Variety Creepy: Unseenzoned
+
+"""
+[11:15:34] [[Variety Creepy]]: Hi!
+[11:15:38] [[Variety Creepy]]: I am extremely sorry for being so late
+[11:15:51] [[Variety Creepy]]: I was super busy and will explain it to you too
+[11:16:29] [[Variety Creepy]]: I'm working on trying to get research projects and stuff like that
+[11:16:49] [[Variety Creepy]]: And upon that college. So yeah, I couldn't get much time
+[12:59:15] [[h0p3]]: Yo! =)
+[12:59:28] [[h0p3]]: You're all good. I'm glad to hear you are in one piece and grinding hard, sir.
+[12:59:39] [[h0p3]]: What kinds of research projects?
+[12:59:57] [[h0p3]]: How many hours a day are you slaving away here?
+[13:00:01] [[Variety Creepy]]: Grinding? I'm getting grinded in here! I'm already minced meat!
+[13:00:29] [[h0p3]]: =D
+[13:00:43] [[Variety Creepy]]: Well, I'm trying to write some research atricles, do paper presentation and stuff like that. Currently working on AI.
+[13:01:10] [[Variety Creepy]]: Had an amazing idea but it had a lot of assumptions and would work only for an ideal world.
+[13:01:18] [[h0p3]]: `/nod`.
+[13:01:22] [[h0p3]]: What was the amazing idea?
+[13:01:40] [[Variety Creepy]]: I'm slaving away about 3-4 hours a day for college after classes. 
+[13:01:46] [[h0p3]]: Good.
+[13:02:42] [[Variety Creepy]]: Replicating the human brain. I tried to take the approach of how the human mind develops right from birth.
+[13:03:12] [[Variety Creepy]]: It's more like a PhD idea than something a person doing bachelor's would do
+[13:03:14] [[h0p3]]: Indeed, that is very ambitious. 
+[13:03:22] [[Variety Creepy]]: My roadblock was replicating desire
+[13:03:35] [[Variety Creepy]]: I still believe that if I can do it, I can make AI sentient
+[13:03:35] [[h0p3]]: I can see that being quite difficult. 
+[13:03:40] [[Variety Creepy]]: Yes
+[13:03:45] [[Variety Creepy]]: You need desire to walk
+[13:03:55] [[Variety Creepy]]: You need desire to speak
+[13:04:00] [[Variety Creepy]]: You need it everywhere
+[13:04:04] [[h0p3]]: `/nod`
+[13:04:52] [[Variety Creepy]]: It's quite hard, gave a few thoughts to it
+[13:05:04] [[Variety Creepy]]: Discussed with the professors
+[13:05:46] [[Variety Creepy]]: I'm visiting the Head of CSE department twice a week.
+[13:05:54] [[h0p3]]: Excellent.
+[13:06:00] [[Variety Creepy]]: I had made many crucial mistakes
+[13:06:21] [[h0p3]]: Finding them early. Seems very good. 
+[13:06:48] [[Variety Creepy]]: And the Head doesn't teach me any courses, so I cannot go to her everyday and I don't even make worthwhile progress in less than 24 hours.
+[13:07:01] [[Variety Creepy]]: Yes, I do not want to fall a victim to confirmation bias.
+[13:07:09] [[h0p3]]: Hard to find people to speak with sometimes.
+[13:07:17] [[Variety Creepy]]: I agree.
+[13:08:09] [[Variety Creepy]]: It went over the Head's head (lol.) And she arranged a meeting with some super busy prof who is very into research in Biology. It was a nice meeting
+[13:09:32] [[h0p3]]: How's your brother doing?
+[13:11:19] [[Variety Creepy]]: He's settling in good, but he is definitely struggling with all the assignments and house work
+[13:11:34] [[h0p3]]: What kind of house work?
+[13:12:06] [[Variety Creepy]]: He's living all alone
+[13:12:18] [[Variety Creepy]]: So yeah, he's gotta cook, clean and do laundry
+[13:12:21] [[h0p3]]: `/nod`.
+[13:12:32] [[h0p3]]: Bachelor life
+[13:12:37] [[Variety Creepy]]: Haha yeah
+[13:13:22] [[h0p3]]: I assume it will be much easier for you if and when it is your turn given how fastidiously clean you are.
+[13:13:41] [[Variety Creepy]]: Yes, but I gotta cook too... 
+[13:13:50] [[Variety Creepy]]: Anyways, how's your family?
+[13:14:30] [[h0p3]]: Grinding hard for the most part. I only get to see my offspring for maybe 3-4 hours a day now. Still making it count. 
+[13:14:44] [[Variety Creepy]]: Wait, how?
+[13:14:45] [[h0p3]]: Got to take my daughter out for her first driving lesson yesterday. That was pleasant.
+[13:14:54] [[Variety Creepy]]: Nice
+[13:15:33] [[h0p3]]: They are busy, working in their rooms on their own projects, and our sleep schedules are usually all over the place. It's generally in the late afternoon and evening that we can get together.
+[13:17:02] [[Variety Creepy]]: Oh, I thought they started regular school or you took up a job or something like that.
+[13:17:15] [[Variety Creepy]]: What kind of projects?
+[13:17:25] [[h0p3]]: School, art, computing. 
+[13:17:31] [[h0p3]]: Socializing too.
+[13:17:40] [[Variety Creepy]]: Oh nice.
+[13:17:46] [[Variety Creepy]]: What in comuting?
+[13:18:11] [[Variety Creepy]]: computing*
+[13:19:44] [[h0p3]]: A variety of projects. Learning particular pieces of art software, setting up game servers inside of VMs, building a robust command line archiving tool mapped onto fitting tools, ricing i3, and we've been thinking a lot of DHTs and bootstrapping+syncing accounts in NixOS.
+[13:22:01] [[Variety Creepy]]: May I know more about the game servers inside VMs? 
+[13:22:10] [[Variety Creepy]]: What is ricing i3?
+[13:22:45] [[h0p3]]: Ricing is basically customizing and decorating. Like when people make their racing cars look pretty, adding flame decals so it will go faster, etc.
+[13:23:59] [[h0p3]]: My son enjoys a game called //Space Station 13//, and he has some friends he enjoys playing with. He's setting up a few different servers inside VMs for portability, security, and for the ease of snapshotting. I think it's good practice for a number of things too.
+[13:24:07] [[Variety Creepy]]: When you told me that you made your daughter first learn how to use a command-line based operating system, were you talking about Arch Linux?
+[13:24:26] [[h0p3]]: That time it was Ubuntu. Many moons ago. 
+[13:25:00] [[Variety Creepy]]: Ah... Ubuntu is nice.
+[13:25:06] [[Variety Creepy]]: But it has GUI too
+[13:25:17] [[h0p3]]: Ubuntu comes in many flavors.
+[13:25:41] [[Variety Creepy]]: Your son could get a Raspberry Pi 4 and set up his own better server than relying on VMs
+[13:25:45] [[Variety Creepy]]: VMs are a pain
+[13:25:55] [[Variety Creepy]]: I am aware of that. Which flavour was it?
+[13:26:04] [[h0p3]]: Hrm.
+[13:26:11] [[h0p3]]: Well, I think you should reconsider that claim.
+[13:26:46] [[h0p3]]: It was just the server edition. It doesn't come with a GUI, though a TUI on installation.
+[13:27:23] [[Variety Creepy]]: Oracle VirtualBox is a great tool to test out different edition, but I prefer dual-booting to using VMs.
+[13:27:42] [[h0p3]]: Unfortunately, RPis are limited on what software they can run because of their architecture. And, he simply gets much better performance out of a VM on his other machines. 
+[13:28:06] [[h0p3]]: VMs are a pain at first. With practice, you may find they save you quite a bit of time and heartache.
+[13:28:19] [[Variety Creepy]]: Ahh, I knew the server edition was command-line based. I thought of asking you, but then when you mentioned flavours, I thought it was something like Kubuntu or Lubuntu or something like that/
+[13:28:38] [[h0p3]]: That too.
+[13:29:02] [[Variety Creepy]]: I have a separate USB pendrive for testing out various OS.
+[13:29:12] [[h0p3]]: `/nod`. That's a straightforward way to do it.
+[13:29:18] [[h0p3]]: I like that.
+[13:29:44] [[Variety Creepy]]: You can always test all OS in the bootable USB without installing it into the computer
+[13:30:03] [[Variety Creepy]]: OS is like 3-5 GiB at max.
+[13:30:20] [[Variety Creepy]]: The rest can be used to work out on stuff if interested. 
+[13:30:20] [[h0p3]]: I agree that most standard OSes are quite easily tested that way.
+[13:30:38] [[h0p3]]: Though, it's still much faster to spin up a VM (and I'm pretty quick at both). 
+[13:31:05] [[Variety Creepy]]: That's how I tried out Fedora, PopOS, Debian, Arch, etc.
+[13:31:34] [[Variety Creepy]]: It's easier to download into a VM but I just don't feel comfortable doing it
+[13:31:42] [[h0p3]]: More importantly, if you have software you don't trust, the VM provides a much safer place, unless you have some airgapped throwaway hardware (setting aside even the matter of routing).
+[13:31:50] [[h0p3]]: Well, I hope that will change for you in time, sir.
+[13:32:10] [[h0p3]]: Those are all excellent OSes.
+[13:32:24] [[Variety Creepy]]: What do you mean by airgapped throwaway hardware?
+[13:33:11] [[h0p3]]: I mean that untrusted software running directly on your everyday hardware provides it access to the rest of your machine. 
+[13:33:17] [[Variety Creepy]]: I hope it does too. They are excellent OSes, but I decided to settle on Ubuntu and made my laptop dual boot on Ubuntu.
+[13:33:34] [[h0p3]]: Sometimes I have to use software that needs some isolation.
+[13:33:39] [[Variety Creepy]]: Oh.
+[13:33:45] [[Variety Creepy]]: Makes sense
+[13:33:51] [[h0p3]]: Ubuntu is rock solid, goes everywhere. Makes sense. `/nod`.
+[13:34:32] [[Variety Creepy]]: Yep, Ubuntu has the best GUI and most user friendly.
+[13:34:45] [[h0p3]]: I think they do an excellent job.
+[13:34:51] [[Variety Creepy]]: Yes.
+[13:35:01] [[Variety Creepy]]: Linux is the best for coding,
+[13:35:10] [[Variety Creepy]]: Everything is so easy to donwload.
+[13:35:49] [[h0p3]]: I've grown fond of it for coding. It's nice to make an environment for development.
+[13:36:18] [[Variety Creepy]]: Downloading coding softwares like Icarus Verilog, etc are so hard in Windows. Just a sudo apt install can solve all those issues in linux.
+[13:36:23] [[Variety Creepy]]: I agree.
+[13:36:38] [[Variety Creepy]]: Do you use any software like vi or just code it in the text editor.
+[13:36:40] [[Variety Creepy]]: ?*
+[13:37:17] [[h0p3]]: I use a variety of text editors. I'm fond of nano, nvim, and sublime text. I'm neither skilled with nor picky about them. 
+[13:37:24] [[Variety Creepy]]: A few people I know use Vim or vi, but gedit text editor works perfectly fine for me and I do not see any need to install any new software.
+[13:37:46] [[h0p3]]: Had I youth and time and hindsight's knowledge, I would probably have mastered Emacs.
+[13:38:08] [[Variety Creepy]]: Sublime text is good.
+[13:38:08] [[h0p3]]: I like when a tool gets the job done.
+[13:38:28] [[Variety Creepy]]: Yes, so do I.
+[13:38:36] [[Variety Creepy]]: Are Emacs good>
+[13:38:37] [[Variety Creepy]]: ?*
+[13:38:51] [[h0p3]]: You might still find it worth your time to test out software in that space from time to time. Might change your mind or understand more about the tooling in general that way.
+[13:39:06] [[h0p3]]: Emacs in the hands of an expert can work magic. 
+[13:39:25] [[Variety Creepy]]: I will try that.
+[13:39:46] [[Variety Creepy]]: Oh really? I guess I will check out on Emacs later today.
+[13:40:40] [[h0p3]]: It has a steep learning curve, imho, but I think it's a worthy investment now. It's not a tool that is going to disappear anytime soon. Evergreen tools are quite rare, and it would last you a lifetime.
+[13:41:11] [[Variety Creepy]]: Okay, that's good to know. I will definitely use it to my advantage then.
+[13:41:22] [[Variety Creepy]]: Do you still do any kind of coding?
+[13:41:34] [[h0p3]]: I suppose it depends on what counts as coding. 
+[13:41:51] [[h0p3]]: I happen to think that getting my monster to do what I want it to do is programming. 
+[13:42:04] [[h0p3]]: I spend a lot of time programming, by that definition.
+[13:42:27] [[Variety Creepy]]: Nice, it is obeying you, so yeah, coding.
+[13:42:49] [[h0p3]]: I rarely spend time in standard programming languages. Most of the time, others have built tools that I can piece together to get the job done with far less effort.
+[13:43:01] [[h0p3]]: I'm a skiddie at heart.
+[13:43:45] [[Variety Creepy]]: You have basically described what every single programmer in the world does.
+[13:43:45] [[h0p3]]: But, that may change here soon. Specifying what I may need to build at the moment.
+[13:44:45] [[Variety Creepy]]: But still Copypasta is done in most places.
+[13:45:03] [[h0p3]]: I agree that virtually nobody does it from absolute scratch, from hardware, to building their own compiler, to their own OS, etc. I have met those who have hobbies and tools like Forth that allow them to do shocking things without the help of others.
+[13:45:32] [[h0p3]]: Oh, I see. Yes, most programmers do that as well. It's a crucial skill, and it's quite convenient. 
+[13:45:44] [[h0p3]]: There are some who still tend to write their tools from scratch though. 
+[13:46:16] [[Variety Creepy]]: Building my own compiler is a course I need to take in order to get my major.
+[13:46:21] [[h0p3]]: Good.
+[13:46:36] [[Variety Creepy]]: And I have a course on OS too,
+[13:46:41] [[h0p3]]: Excellent.
+[13:46:54] [[Variety Creepy]]: You should have just majored in CS.
+[13:47:18] [[h0p3]]: I almost did my PhD in it. Formal verification.
+[13:47:52] [[h0p3]]: Was accepted to the program, but ended up getting a full ride to study philosophy (a much rarer opportunity, and one in line with my vocation).
+[13:48:33] [[h0p3]]: I enjoy computers a lot. I'm glad that I still do. I know many who lose their passion for it after school and the drudgery of working for bigcorpo.
+[13:49:52] [[Variety Creepy]]: Well, you can learn them all on the internet. It doesn't really matter what you have on your resume.
+[13:49:59] [[h0p3]]: I agree that if I had it to do over again, I'd have learned mathematics and science alongside philosophy.
+[13:50:17] [[h0p3]]: The pieces of paper are quite valuable for signaling, and I'd have been given far more guidance.
+[13:50:18] [[Variety Creepy]]: Computers are a pain sometimes. I hate web development but I need to know it.
+[13:51:41] [[Variety Creepy]]: Nice, but those certificates are valid, but all they really care is whether you can do it or not. The certificates ensure that you can do it.
+[13:51:57] [[h0p3]]: Hrm.
+[13:52:19] [[h0p3]]: I think a large number of CS graduates I've met can barely use their own devices.
+[13:53:40] [[Variety Creepy]]: There's a stark contrast between the people who choose CS out of passion and those who choose it for money.
+[13:53:47] [[h0p3]]: `/nod`. Yeah.
+[13:55:19] [[Variety Creepy]]: How's America doing?
+[13:56:15] [[h0p3]]: I have no idea how to sum up what little I understand of the Hyperobject in a short timeframe. I'll do my best.
+[13:58:56] [[h0p3]]: I believe the Fed (an institution owned by our banks that essentially can print the USD and maintains their hegemony) is unable to control inflation, though they spend a lot of time trying to convince others they can or that there are other reasons inflation is occurring. I think they won't be able to ratchet up rates like Volcker without radical catastrophe, and I anticipate a liquidity crisis that will require more printing. I believe this process will continue to spiral, tighter and tighter. My assumption is that the USD will eventually no longer be the reserve currency, though I think many nations will default on their debts and suffer even higher inflation, particularly while they keep the USD as reserve and defend their own currencies.
+[13:59:52] [[h0p3]]: I believe the proxy war in Ukraine is being purposely extended, that our military industrial complex is a parasite that would even prefer to keep Russia in the game. I'm concerned about Taiwan, but I think that is quite a while from now.
+[14:00:34] [[h0p3]]: The recession is here, though not officially, and there's a lot of a propaganda working to deny it. The poor are suffering here, and everywhere.
+[14:01:12] [[h0p3]]: Energy and housing costs are out of control, and I do not anticipate that most people my age or younger will be able to even own the means of production for living, like a home. 
+[14:01:53] [[h0p3]]: I'm concerned that mask-off fascists are going to be non-trivial winners in the upcoming election.
+[14:03:03] [[h0p3]]: I'm watching droughts unfold, and I don't know the long-term implications. It is unsettling.
+[14:04:32] [[h0p3]]: An outlier I watch has divested of everything but private prisons and fresh water commodities. I think he's building a warchest to scoop up. Even Blackrock is building huge financial vehicles to buy things at rockbottom prices, should it occur.
+[14:06:00] [[h0p3]]: And, of course, America is going to lose in the upcoming League of Legends World Championship. I'm betting on China or Korea, of course. Very important.
+[14:06:10] [[h0p3]]: How about India, sir?
+[14:08:05] [[Variety Creepy]]: Almost the same as the US, sir. I do not have any idea on the economy.
+[14:08:08] [[Variety Creepy]]: It's raining
+[14:08:34] [[Variety Creepy]]: A lot. Drought in Europe and America has resulted in increased rainfall over here.
+[14:08:53] [[Variety Creepy]]: 60% of Pakistan is affected by flooding.
+[14:09:08] [[h0p3]]: 20 million homeless, I hear.
+[14:09:15] [[h0p3]]: Unfathomable
+[14:09:53] [[Variety Creepy]]: A cloud burst has occured in the neighouring district(county for you).
+[14:10:25] [[Variety Creepy]]: Yes, extremely sad. 20 million homeless and 1000+ are dead.
+[14:10:43] [[Variety Creepy]]: I pity the people of Pakistan. Economy in shables and upon that flooding.
+[14:11:25] [[h0p3]]: Indeed. And, they were already on the verge on defaulting too. 
+[14:11:45] [[Variety Creepy]]: Things are relatively calm here. Mostly uneventful. We had our 75th Independence aniversary.
+[14:11:51] [[Variety Creepy]]: Yes.
+[14:12:24] [[Variety Creepy]]: Today was supposed to be a holiday for me due to rain.
+[14:12:28] [[h0p3]]: Was is it a big party?
+[14:12:32] [[h0p3]]: Ah
+[14:14:09] [[Variety Creepy]]: A lot of plastic Indian flags. I would have preferred cotton, but there is only one place in the entire country that is allowed to make the official flag in cotton.
+[14:14:39] [[Variety Creepy]]: A huge demand and they cannot keep up, so obviously plastic flags. 
+[14:15:02] [[Variety Creepy]]: The more I watch TV, the more hope I lose in humanity.
+[14:15:31] [[Variety Creepy]]: So I just don't watch anymore. It's been petty politics and nothing serious.
+[14:15:53] [[Variety Creepy]]: Sad to hear that the US is going in that direction econimically
+[14:16:13] [[h0p3]]: Hard to find worthy media sources.
+[14:16:41] [[Variety Creepy]]: The war in Ukraine is just sad and tiring now. They need to stop.
+[14:16:49] [[Variety Creepy]]: Yep, extremely hard.
+[14:17:28] [[Variety Creepy]]: I don't think Taiwan and China are going to have a war soon.
+[14:17:46] [[Variety Creepy]]: It will be just scaring each other and things like that. Cold War part 2
+[14:18:20] [[Variety Creepy]]: I guess you're lucky to own a house, aren't you?
+[14:19:18] [[h0p3]]: I would argue we are lucky to be able to rent-to-own from capitalists who have invested in large financial vehicles that includes our mortgage. 
+[14:19:23] [[h0p3]]: And, yes, we are lucky.
+[14:19:51] [[Variety Creepy]]: Wait, do you own the house or have you rented it?
+[14:20:11] [[h0p3]]: We have taken out a loan. It is not ultimately ours until that loan has been paid.
+[14:22:01] [[Variety Creepy]]: Yes, I agree with that, but the liability value keeps on decreasing as the year goes as you'll be paying off the money but at the same time, your income would have increased, inflation would have made it lesser. It will be more like pittance later on.
+[14:22:27] [[Variety Creepy]]: it is sometimes better to slowly pay mortage rather than paying off asap.
+[14:23:11] [[h0p3]]: I agree that we are lucky to be able to maintain some capital over time, and I agree that our borrow rate given inflation and the continued bubble in real estate have been to our advantage.
+[14:24:01] [[h0p3]]: It is quite a privilege to be able to take on cheap debt during times of extended and high inflation.
+[14:24:54] [[Variety Creepy]]: Yes.
+[14:25:22] [[Variety Creepy]]: Financial planning is exciting and amazing. It is an extremely crucial job.
+[14:35:06] [[Variety Creepy]]: Climate change in real
+[14:35:11] [[Variety Creepy]]: And it's messed up
+[14:35:12] [[h0p3]]: `/nod`. Indeed it is.
+[14:35:22] [[h0p3]]: You have any predictions?
+[14:35:23] [[Variety Creepy]]: Do you think it's too late?
+[14:35:53] [[Variety Creepy]]: Nothing, this world already has chaos and all it does is add more chaos.
+[14:35:56] [[h0p3]]: No. I think we can survive. I think that it is too late to stop some things. I know it will change the world, but I think we have the chance to mitigate and adapt.
+[14:36:19] [[h0p3]]: I am a man of hope, ofc.
+[14:36:54] [[Variety Creepy]]: We have a chance but none are moving in thdirection of fixing it except for a handful of people.
+[14:37:03] [[h0p3]]: Yes, sir.
+[14:37:10] [[Variety Creepy]]: I am glad that you're hopeful.
+[14:37:17] [[h0p3]]: Tragedy of the commons
+[14:37:30] [[Variety Creepy]]: Humanity will definitely survive but at a great cost.
+[14:45:49] [[Variety Creepy]]: Okay,I fell alseep studying now, lol
+[14:45:55] [[Variety Creepy]]: I need to sleep
+[14:46:08] [[h0p3]]: Yes, sir. Get some good sleep. Keep grinding for what matters most. Best we can do.
+[14:46:30] [[Variety Creepy]]: Thanks, I'll text you tomorrow
+"""

@@ -1,0 +1,13 @@
+caption: Snr
+created: 20190220210055713
+creator: Mohammad
+icon: $:/core/images/gitter
+modified: 20190315180102502
+modifier: Mohammad
+tags: $:/tags/Commander
+title: $:/plugins/kookma/commander/ui/snr-operation
+
+Search and replcae in tiddler fields!
+
+<<tabs "[all[shadows+tiddlers]tag[$:/tags/Commander/SnrOps]!has[draft.of]]" class:"tc-vertical cm-tab-colorful cm-tab-wd">>
+

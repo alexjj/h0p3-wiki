@@ -1,0 +1,34 @@
+created: 20220908050615096
+modified: 20221001025850022
+tags: groupchat HighFlyer Aether Chatlog dscnct
+title: 2022.09.02 - Aether: Designing A Distributed Hash Table
+
+<<<
+>> That is exciting. I just [[recent]]ly linked to Keet, [[https://philosopher.life/#2022.09.22 - Link Log%3A Pulled From Thin Hammerspace]]. I've been using hypercore for a while (though perhaps incompetently). I can't say all parts of that ecosystem have handled [[NAT Traversal]] that well, and that's actually part of why I'm looking for other options. Keet does seem better here; I had no trouble for standard use, even behind double NAT. I don't like that Keet will not pass through a Whonix Gateway, but that may change in time. Until it can be onion-routed, which has been a running problem in Dat/Hypercore from the beginning, it's difficult to recommend it generally. There is [[hope]] though. Let's see what they do.
+
+> A lot of incredible work is being done with hypercore protocol. hypercore-protocol.org/. One of the developers started a company called Holepunch which has released its first app called Keet.io . Its p2p is much better than Zoom or Jitsi, and will be mobile soon. The holepunch platform will be open source in December. Its worth a look at their implementation at the hypercore level.
+
+>>>> This is me: https://philosopher.life. [[Readme]], [[Justice]], and [[Outopos]] are fine starting places. Here's an example of a project I've worked on: [[https://philosopher.life/#Atropos Protocol Spec - 2.0%3A Layer 0]].
+
+>>>> In my experience, some of the failures in this space have boiled down to writing a reference implementation in a language like Python or Javascript without recognizing that high performance is crucial to getting a sufficiently complex and secure DHT to function at all in practice. Golang or [[Rust]] are the primary languages that I think might be fitting. No standard repo beyond my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 for now.
+
+>>> more specifics of the project. do you have experience working in this space? do you have a language in mind for the project? is there a repo?
+
+>> That's true. What are you interested in knowing, thinking about, or constructing on the topic?
+
+> your post is incredibly vague.
+
+>> I'm an early adopter of the tools you've mentioned. My Session key was initially retired on 2021.01.08. Indeed, it is very hard to find tooling that doesn't federate too early, including i2p's netDB abuse (and, I've run a floodfill router for almost two decades). I don't even have records of when I first started using Zeronet, but from what I gather, development has been largely abandoned or forked, e.g. https://github.com/canewsin/zeronet-rs/. I'm grateful for the opportunity to learn from these tools, but they are part of the reason I'm convinced it must be done from scratch.
+
+>> It's a good idea to reach out to the developers of the projects I respect. Thank you. I've been trying this route some, but my experience so far has led me to believe they are only interested in their own design (and rarely on the DHT side of things), and only insofar as it doesn't require any significant redesign (sunk cost). I suppose I should continue to knock on those doors lookin' for folks.
+
+> Good shot in the dark! I suggest reaching out on Sesssion:
+
+> https://getsession.org
+
+> The developers there work on Lokinet. Lokinet uses DHTs but unlike TOR, there is no centralized authority. Lokinet is low latency too, unlike i2p, fast enough to stream video.
+
+> It would be also worth asking on Zeronet.
+
+I'm hoping to find some people that are willing to think long-term with me about a custom DHT that has the properties we as p2p application users would hope for. There's actually not a lot of tools that seem to get it right. So, this post is a shot in the dark hoping that someone might be willing to sustain a conversation with me as I design one.
+<<<

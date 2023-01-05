@@ -1,0 +1,57 @@
+created: 20210602040702202
+modified: 20210604190314074
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]]
+title: 2021.06.02 - Carpe Tempus Segmentum: Squirtle Inuyasha Meowth
+
+//I'd eat ass, foreign and domestic. This is my calling.//
+
+[[TTTOTW]]. Fireman Time! Sleep by 6. God damn, too much grind. I was filled with energy though.
+
+Woke at fuck knows, maybe 1? I was a good boi, but almost not. The only reason my morning glory was interrupted (and I know he would appreciate this) is seeing a message from Sir [[DeathOfRobinhood]]. I just can't keep an erection while reading his words (no matter how gently and sexily he might pronounce them...you should hear his french - smoooooooth as silk).
+
+[[TTTOTW]]. Hugs'n'bugs. A mistake explained further, and we both apologized. Grabbed watermelon and leftovers (exactly what I want).
+
+Took the car in to get the emissions checked (not the only emissions check of the day, :P). Pass. Dope. Went and got an extra key now. Lady at the Home Depot knows me by face, accent, and word choice now.
+
+Continued to slowly murder knotweed. It's going green again. Wat. The amount of poison I've put in these plants would kill me faster.
+
+//The Walk// with my offspring. Went well enough. It sometimes does when my daughter does more of the talking. When they study, we have too much to discuss. My memory for conversations is fading. Is it trust or mere stupidity? I kinda hope a bit of both. 
+
+//Skintime//, talked about her day. My daughter did some basic bitch computing work for the archivist at Milligan, and the exact same problem she solved is now here at Yale (though they don't believe my daughter can solve this problem...apparently). It was a good day, and we're counting down the summer we have until she can't remote halfdays (ugh). Also, she's going to be worshiping Beelzebub (heard it here first, folks); just grabbed an idol for 10 bucks. She's hoping to sleep well, avoid migraines, and have her eaten cake too. Inform the Men! Jabba. I think I've found the way. I am useful again. We should always use my blankets.<<ref "d">> Meditation. Shower of the gods!
+
+[[Family Gathering]]. Leftovers, tendies, watermelon, and beer. Eating like a king. Here's something odd though: it was kinda quiet. Normally, we cannot shut up. Often there's two conversations running at the same time. We sat and ate like savages. 
+
+Watched some LolVods of C9 at MSI with my broski. We chilled. I need to find snacks that fit his caloric restrictions. He's doing a good job. 
+
+[[TTTOTW]]. She came down for //Skintime// and //The Office//. It's important to put on a show that I have no serious interest in visually observing. That's not what I'm there for (though I do watch closely, I tell ye what). 
+
+Cleaning and assignments.
+
+~~Intrusion~~ Lightning Struck. Hell yeah.
+
+```bash
+yay -S etherpad-lite --noconfirm
+systemctl start etherpad-lite.service
+# Sadly, puking up errors.
+systemctl stop etherpad-lite.service
+yay -R etherpad-lite
+
+# The better way...
+cd ~/stage
+git clone --branch master git://github.com/ether/etherpad-lite.git
+cd etherpad-lite
+src/bin/run.sh
+# It aint shabby. It could do the scrapchatting trick.
+```
+
+Put folks to bed.
+
+Mediocreboi did aight: he even got thanked. Pretty good. :P
+
+[[TTTOTW]]. 
+
+My day was awesome.
+
+
+---
+<<footnotes "d" "Yes, if it weren't immorally expensive and so on and so forth, I would buy bathwater, used panties, and unwashed blankets used by naked women. That's rational. Seriously. I would stand before [[Saint Plato]] himself and argue that.">>

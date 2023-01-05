@@ -1,0 +1,13 @@
+{
+    "title": "$:/plugins/sphygmus/sbuttonsV2",
+    "author": "sphygmus",
+    "core-version": ">=5.0.8",
+    "dependents": "",
+    "description": "Sphygmus: Buttons, V2",
+    "list": "readme settings details",
+    "plugin-type": "plugin",
+    "revision": "0",
+    "source": "https://sphygm.us",
+    "tags": "",
+    "version": "2.0.0"
+}

@@ -1,0 +1,100 @@
+created: 20220905074544480
+modified: 20220905074600604
+tags: [[Variety Creepy]] Chatlog
+title: 2022.09.03 - Variety Creepy: Computationally Centralizing Labor Market Logistics
+
+"""
+[14:31:04] [[Variety Creepy]]: Hello!
+[14:31:13] [[h0p3]]: Hello, sir!
+[14:31:15] [[h0p3]]: How are you doign?
+[14:31:24] [[Variety Creepy]]: I'm good!
+[14:31:31] [[Variety Creepy]]: A bit tired, but good!
+[14:31:48] [[h0p3]]: What you been workin' on?
+[14:32:05] [[Variety Creepy]]: A hackathon
+[14:32:10] [[h0p3]]: =D
+[14:32:11] [[Variety Creepy]]: It's next weekend
+[14:32:19] [[Variety Creepy]]: I got a nice idea
+[14:32:37] [[h0p3]]: Will it be an all day sprint with others?
+[14:32:43] [[Variety Creepy]]: Yep
+[14:32:46] [[h0p3]]: What idea you mullin around?
+[14:33:28] [[Variety Creepy]]: There's a new National Education Policy released like 2 years ago that should be implemented all over India by 2030.
+[14:33:41] [[Variety Creepy]]: We need to fix certain problems and try to fix it
+[14:33:53] [[h0p3]]: What problems is it addressing?
+[14:34:53] [[Variety Creepy]]: You can choose anything. Full free reign. It's a 60 page document. If you think that you could do something with your code that makes it easier for anything, you can do it
+[14:35:38] [[Variety Creepy]]: I'm focusing on vocational education and trade school. They're extremely low in number in India and there's no means to certify if a person knows how to do a proper job or something like that.
+[14:36:03] [[Variety Creepy]]: The govt wants to increase the number of people in vocational schools
+[14:36:11] [[h0p3]]: That makes sense.
+[14:36:45] [[Variety Creepy]]: There are less people because it's viewed badly
+[14:36:52] [[Variety Creepy]]: And also, the pay is les
+[14:36:56] [[Variety Creepy]]: Less*
+[14:37:10] [[Variety Creepy]]: Pay will obviously be more if they're skilled
+[14:37:22] [[h0p3]]: Working with one's hands is often frowned upon, being low status, etc.
+[14:37:28] [[Variety Creepy]]: Agreed!
+[14:37:49] [[Variety Creepy]]: But if the pay is more, people would do it
+[14:37:59] [[Variety Creepy]]: That's the thing
+[14:38:49] [[Variety Creepy]]: So, what I'm gonna do with my team is that (purely my idea, I can prove it with text messages too), We will make a database for all the people who are currently experts in their particular trade
+[14:39:52] [[Variety Creepy]]: Under them, we are gonna make the students work as interns. The ending of the internship is only when the expert certifies that this student knows everything about the trade and is an expert in ti
+[14:39:54] [[Variety Creepy]]: it*
+[14:40:36] [[Variety Creepy]]: Once finished, we're gonna give a certificate of authenticity that this person knows what he's doing
+[14:40:52] [[Variety Creepy]]: Done with the skill part. Now the money
+[14:40:58] [[h0p3]]: I could imagine it would be useful to find some experts in trades to understand more about the process.
+[14:41:16] [[Variety Creepy]]: We'll create another databse of all the skilled people in the respective fields. 
+[14:41:42] [[Variety Creepy]]: We will have the profiles of workers, where all they have worked, what all stuff they can do, etc.
+[14:41:57] [[Variety Creepy]]: Kinda like a linkedin profile
+[14:42:13] [[h0p3]]: Sounds difficult to achieve, especially among the tradespersons I've encountered.
+[14:43:04] [[Variety Creepy]]: When I talk about skilled people in the second database, I'm talking about the ones who graduate
+[14:43:19] [[h0p3]]: `/nod`.
+[14:43:19] [[Variety Creepy]]: It's difficult but nothing in life is a cakewalk
+[14:43:42] [[h0p3]]: Few things are.
+[14:43:42] [[Variety Creepy]]: And we got the government to help us in case if we actually implement this in real life
+[14:43:56] [[Variety Creepy]]: Yeah... but you get what I'm saying
+[14:45:35] [[h0p3]]: Having been through tradeschool and worked as a tradesman, I think the network acquired through my teacher was crucial. 
+[14:45:51] [[Variety Creepy]]: So, the database is available on the internet for you too see. You need a plumbing for your house under construction? You can look up the profile of all the plumbers available! Can't choose one? We'll assign the nearest available person for you!
+[14:46:22] [[Variety Creepy]]: That's exactly what we want to break. We want to break that old school networks on having to depend on word.
+[14:46:36] [[h0p3]]: And, I am a registered pipefitter, and that database didn't help. 
+[14:46:49] [[Variety Creepy]]: Why not?
+[14:46:57] [[h0p3]]: It did allow me to walk onto a job for higher pay though. That's all it really signaled. 
+[14:47:30] [[Variety Creepy]]: Wait, I don't understand what you're trying to say.
+[14:48:34] [[h0p3]]: Getting my foot in the door was my teacher's doing, multiple times. They knew which jobs were running within 500 miles of us. They'd worked for the major companies. They knew who of their students would fit where. They knew their reputations were on the line. But, the industry is largely that.
+[14:48:49] [[h0p3]]: Even very technical and high status fields don't seem to escape that either, in my experience.
+[14:51:24] [[h0p3]]: It's hard to build a signaling system that won't be gamed, and that won't centralize power for rent-seekers.
+[14:52:00] [[h0p3]]: I don't know enough about your context to say it won't work though!
+[14:52:04] [[Variety Creepy]]: There are many popular apps in India like the Urban Company that will send in plumbers, electricians, hairdressers, etc., to your house if you post over there. They'll assign you some person and they'll come to your house to do the job. A middleman website. But what if the middle man was the goverment and it did not make any profits out of you either? Not even to run the server. If any company wants to hire for long term, they can do it too. 
+[14:53:13] [[h0p3]]: I think there's something to be said for having the government work to organize such a thing.
+[14:53:22] [[h0p3]]: `/nod`.
+[14:54:15] [[Variety Creepy]]: If any company wants to get people with expertise in soldering components on the chips, like a permanent job, we can give you the profiles of all the persons expertised in that trade and you can take in whoever you want.
+[14:55:35] [[h0p3]]: Trades are also pretty complicated. It's not so easy to show what one is proficient in. And, given how fast these fields evolve, you may find certification to be an impediment in some cases. Too much of the job is about experience, and not what a school can teach you (even with an excellent practicum, shop, etc.). 
+[14:57:15] [[h0p3]]: Most of the best tradesman I've encountered also didn't go to school for it or concern themselves much with certifications (though there are exceptions, Welding, for example). There are profound limits to what it buys you. 
+[14:57:23] [[Variety Creepy]]: Oh yeah, we have rating systems too, so that you can rate the job done. To answer your part of experience, we are gonna make the apperentices work with the experts until they have mastered or enough experience to do it on their own. We're not teaching them anything like a school.
+[14:58:11] [[Variety Creepy]]: The experts will then inform the schools that the apperentices have learnt enough
+[14:58:20] [[h0p3]]: Hrm. 
+[14:59:29] [[h0p3]]: I do appreciate the logic of what you're saying. 
+[15:01:06] [[Variety Creepy]]: Hmm
+[15:01:33] [[Variety Creepy]]: You're still trying to stick with the old ways of humanness and human contact.
+[15:01:40] [[h0p3]]: That's not my claim.
+[15:01:43] [[Variety Creepy]]: I want to bring in a disruption technology
+[15:01:58] [[Variety Creepy]]: I know it's not, but kinda similar
+[15:02:01] [[h0p3]]: It's not.
+[15:02:12] [[h0p3]]: I'm describing, not prescribing. 
+[15:02:34] [[h0p3]]: I agree that ideally our signaling would be far more efficient. 
+[15:05:04] [[Variety Creepy]]: What do you think is the solution, because I kind of feel that I have the solutions to what you are asking for and you're still not satisfied. I don't know if there's a communication issue or anything like that. So, if you are a plumber(which you are certified in) and were offered this, what changes would you want in it in order to make it better? I want to cater to the needs. So yeah, opinion matters.
+[15:08:29] [[h0p3]]: I am not claiming that it cannot work in your context. I have my doubts based on my own context. 
+[15:09:54] [[Variety Creepy]]: And what is your context?
+[15:10:55] [[h0p3]]: I live on the other side of the world. Maybe it is non-trivially a failure of my surrounding culture and society, and yours will not fail where we have. 
+[15:11:22] [[Variety Creepy]]: What do you mean?
+[15:12:08] [[h0p3]]: I think the problem you are looking to solve runs absurdly deep in many directions. I think you have to solve multiple problems at the same time. 
+[15:12:34] [[h0p3]]: You're trying to solve a classic signaling problem in markets. I think what you're trying to build has been attempted countless times (have you looked at others who have tried this?). Some attempts have probably been more successful than others.
+[15:12:53] [[h0p3]]: Perhaps you are building one important piece to the puzzle.
+[15:13:54] [[h0p3]]: I think you've very little experience having a job, out in the world. I think it's going to be hard to serve tradespersons well without that experience. 
+[15:14:25] [[h0p3]]: That's just an opinion. `/nod`. 
+[15:15:09] [[Variety Creepy]]: Yes, there are more successful attempts. Like I mentioned The Urban Company is one big example I have. But sometimes I myself have experienced unskilled people in them. There's no way we can know if the person is good enough and we cannot choose who is assigned.
+[15:15:25] [[Variety Creepy]]: Yes, I agree that I do not have experience in having a job.
+[15:15:32] [[Variety Creepy]]: I have never worked a day in my life.
+[15:20:58] [[h0p3]]: My opinion is that trades unions are the best model for learning a trade, for having bargaining power against exploitative capitalists, and organizing labor on multiple fronts. 
+[15:21:56] [[h0p3]]: They come out the most competent, by far. Schools are too easy to game, and they have too much incentive to pass you. 
+[15:22:53] [[h0p3]]: The real world experience is simply irreplacable. A stupid amount of any sufficiently complex trade has never been written down in a book, especially given how fast they've been evolving for the past century (and it doesn't seem to be slowing down).
+[15:23:21] [[h0p3]]: Codification is a hard problem, older than dirt. Can see it plainly in Saint Plato too. 
+[15:24:17] [[h0p3]]: There are only so many practices that can be tested for in a laboratory or shop setting. 
+[pending] [[h0p3]]: And, plenty of the job has more to do with soft skills (easily nepotistic and corrupted, obviously) and coordination than whether or not you've got clusters of tradeskill technique down pat.
+[pending] [[h0p3]]: A trade like electricianship is so vast, there are no 10 people together (the best in the world) who even know 90% of the trade inside and out. It's hard to build pedagogy and signaling around something that large. 
+"""

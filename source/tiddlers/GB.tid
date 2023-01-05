@@ -1,0 +1,22 @@
+created: 20181031203552707
+creator: h0p3
+fc-filter: GB
+modified: 20221220181726670
+modifier: h0p3
+tags: FTO [[Offline Users]] [[FTO Mode: P2P]] Sir
+title: GB
+
+!! Info:
+
+* Continental+Analytic Philosopher
+** A Semi-[[Straussian]] Nietzchean Philosopher steeped in Classic Ancient Greek Problematics, Analytic Metaethics, Postmodern German Idealism, and Marxism, syncretizing Hegel and Heidegger through Aristotle
+* We did our masters together.
+* MTG and EQ player.
+
+
+!! Communications:
+
+<$macrocall $name="list-links" filter="[prefix[$(currentTiddler)$:]]"/>
+<$macrocall $name="list-links" filter="[tag[$(currentTiddler)$]!prefix[$(currentTiddler)$:]!regexp[\d\d\d\d.\d\d.\d\d - .*]]"/>
+<$macrocall $name="list-links" filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - $(currentTiddler)$]]"/>
+<$macrocall $name="list-links" filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - .*]tag[$(currentTiddler)$]!regexp[^\d\d\d\d.\d\d.\d\d - $(currentTiddler)$]!regexp[^\d\d\d\d.\d\d.\d\d - Retired: $(currentTiddler)$]]"/>

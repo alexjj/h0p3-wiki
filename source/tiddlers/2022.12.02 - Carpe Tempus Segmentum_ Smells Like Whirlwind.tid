@@ -1,0 +1,35 @@
+created: 20221202133115119
+modified: 20221204080110983
+tags: [[Carpe Tempus Segmentum]] [[Computer Musings]]
+title: 2022.12.02 - Carpe Tempus Segmentum: Smells Like Whirlwind
+
+Woke at 4:30. Gumpination. Meditation. Fireman Time! Mi amor was up. Bagel. Made coffee with her. Quesadillas. Brief dialectics with my sympaticon. [[TTTOTW]]. Chatted with my daughter. Thinking about owning the means of production for her craft. It changes so fast. [[TTTOTW]]. Chat with [[Ignota]]. 
+
+We spent some time thinking about paranoia in [[2022.12.02 - Aether: Hiding Whonix]].
+
+```bash
+sudo pacman -S mediainfo --noconfirm
+find . -type f -exec mediainfo --Inform="General;%Duration%" "{}" \; 2>/dev/null | awk '{s+=$1/1000} END {h=s/3600; s=s%3600; printf "%.2d:%.2d\n", int(h), int(s/60)}'
+```
+
+3074 hours of curated low-culture (that is what I am) non-print media in [[The Library]]. If someone spent 8 hours a day consuming it, it would take over a year straight to consume it all. Gotdayum. I doubt I'll have many more shows to add over whatever years I have left. Film, audiobooks, and especially [[Link Log]] content will be the largest additions, I believe.
+
+Brought FF back to something sane, more cleaning [[extensions|Firefox Extension Collection]] too.
+
+* about:config
+** browser.cache.disk.enable to false
+** browser.cache.memory.capacity to 1048576
+* Turnoff Hardware Acceleration
+** This is the real money for me. Drives me crazy how often I have had to rotate this over the years. I can feel the difference when it is fully functioning and turned off. Since it isn't fully functioning, the best performance is turned off, even if it isn't ideal. Doing my best to stay on Firefox. Hard to argue that FF isn't dying a slow death.
+
+//Skintime// with my sympaticon. Tears, but not crying.
+
+The offspring came down to grind. Adblocking may be necessary for the tool; might dns block. Setup jitsi inside [[EssOS]]. Passthrough works fine. We'll see if it clicks this round.
+
+The postal service left a package that isn't ours. The outside label said it was a $3,000 photography tripod (absurd). This is the second time someone has left a very expensive tool in our house. We've been having a lot of trouble with package delivery lately. Several missing. Seems like something is up.
+
+Mi amor called. Conversations with [[R]] and [[CH]] went well. So much bread.
+
+//Raw Skintime// with mi amor. //Inform the Men!// Meditation.
+
+[[TTTOTW]]. //Skintime// with my sympaticon. [[TTTOTW]]. Sleep by unknown time.

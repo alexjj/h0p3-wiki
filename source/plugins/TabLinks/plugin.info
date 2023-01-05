@@ -1,0 +1,13 @@
+{
+    "title": "$:/plugins/TWaddle/TabLinks",
+    "author": "Mat von TWaddle",
+    "core-version": ">5.1.17",
+    "created": "NaNNaNNaNNaNNaNNaNNaN",
+    "creator": "twMat",
+    "description": "TabLinks - access the tab content tiddler easily",
+    "modified": "NaNNaNNaNNaNNaNNaNNaN",
+    "modifier": "twMat",
+    "plugin-type": "plugin",
+    "tags": "",
+    "version": "1.0.5"
+}

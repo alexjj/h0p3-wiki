@@ -1,0 +1,20 @@
+created: 20200427181354870
+modified: 20200427185027116
+tags: [[Computer Musings]]
+title: 2020.04.27 - Computer Musings: Shadowsocks
+
+* I'm simply unhappy with the AIO browser-based proxy tooling. 
+** The performance sucks, I have to mess with it too often, and I'm still unhappy with middlemen here. 
+*** Grateful to those donating, ofc.
+* Shadowsocks set up on Dallas
+* Could just do commandline, but I like the GUI here. Gonna use that for now on [[monster-16]].
+* I assume I'm going to get boned somewhere down the road here, but we'll see.
+** An arms race of rules. 
+
+---
+
+* Better route, since obviously they are fingerprinting to blacklist. Turned randomized user-agent switching back on. Voila, it works. 
+** Gonna keep the proxy up but unused for now, anywho.
+* Sticking it to the man with my tiny pecker again, thankfully:
+** Flooding search queries and clickthroughs for Ad nauseum. Pollution is about as useful as steganography.
+*** Officially, fuck you.

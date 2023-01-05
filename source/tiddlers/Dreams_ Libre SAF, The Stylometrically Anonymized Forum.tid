@@ -1,0 +1,48 @@
+created: 20221026233535011
+modified: 20221030234916358
+tags: Dreams Meh [[Dreams: An Arrogant Retard's Wishlist]] Outopos
+title: Dreams: Libre SAF, The Stylometrically Anonymized Forum
+
+//O' Holepunch, hear my plea brainstorm//
+
+* MLed Stylometric-Masking Paraphraser designed to anonymize against state of the art Open Stylometry Analysis Tooling 
+** To my knowledge, neither of these exist in the open (not any high-functioning at least), but we need to begin attacking ourselves openly in order to design the tool to defeat it. These tools are surely already being built (or already are) by military industrial complexes (including private corps).
+** The point is that posters will sound similar to each other after passing their plaintext words through the filter for the paraphrased output stegotext. Make it convenient, local (hence private), and default.
+*** Users should be able to continue generating paraphrasings (probably generating one or two in the background as they comb).  
+** A butterzone model for desktops/laptops is likely worthy, particularly for large sets of specialized vocabularies. The paraphraser needs potato-grade tiny models too. An elite model may still be necessary for developing the antidote?
+** Note that an entirely more radical stylometry anonymizing ML tool with semantic steganography [[might eventually obtain|2022.07.28 - /b/]].
+
+* Distributed P2P as hard as we can, not merely federated. Failure points should be no larger in size than bootstrapping.
+
+* New Posts: DCNet, posts are made once a day, no more. 
+** [[Social ramifications|2022.10.20 - /b/]]
+*** Keep pushing this direction:
+**** Random ordering of similarly voted objects
+**** Proportional voted feeds available, where percentage of voting userbase at the time is what is weighted.
+** Default Tor and i2p integration
+*** Default contribution to these networks
+** Any special CRDT notions well-suited to this? It doesn't have to be real-time collaboration.
+
+* Old Posts: Mutable Torrents
+** Much higher default resource usage than [[Aether]] for maximum retention, and automated pinning of the network to reseed. Default to permaseeding, with first-in, last-out unless specified manually pinned. Needs to be stupid easy to migrate.
+** IPFS or Hypercore
+*** Conversely, we could just have a regular torrent client. Should have all the pieces to do it, but not convinced there's incremental/delta option I'd adore.
+** CockroachDB might have a place too
+** Local search is highly preferred
+** Technically, in many cases, it doesn't have to be anonymized. I'd still strongly prefer it.
+** Whitelist curation feeds are another option among F2F networks. 
+
+* I can't fucking believe I'm saying this, but we might consider fostering development through the ability to buy cosmetics (including, and please, shoot me in the face, what is functionally an NFT, if uniqueness matters, and subscription models in some cases). Non-free cosmetics should not be default on though. That is some bourgeois bullshit.
+
+* Golang Webserver
+** It's easier to find contributors who can understand it. It's fast enough and well-suited to the task. 
+** Built-in authentication; allow users to allow it to be run on LANs without having to trust their LANmates so much.
+*** Stealth port option, where credentials are the knock
+** Additional Remote Options: ratox/tuntox + spork to the webserver, or mutable torrents otherwise
+*** Default contribution to these network would be ideal. I am uncomfortable with them not being anonymized, but technically this isn't absolutely necessary.
+**** Anonymity //is// crucial if we're going to enable instant PMs in the background.
+
+* ~~Firecracker MicroVMs seems an ideal base. Unfortunately, that's because I'm a loser.~~
+** Fine. [[NixOS]] is still reasonable. 
+
+* Might as well use the nastiest APGL-esque beast we can; it doesn't have to be open enough to subvert fundamental infrastructure.

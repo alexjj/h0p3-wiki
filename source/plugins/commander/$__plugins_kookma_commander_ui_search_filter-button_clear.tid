@@ -1,0 +1,17 @@
+created: 20190214132946159
+creator: Mohammad
+modified: 20190315113214388
+modifier: Mohammad
+tags: $:/tags/Commander/Search/FilterButton
+title: $:/plugins/kookma/commander/ui/search/filter-button/clear
+
+<$reveal state="$:/temp/commander/search-box" type="nomatch" text="">
+<$button class="tc-btn-invisible" tooltip="clear search box and selected tiddlers">
+<$action-setfield $tiddler="$:/temp/commander/search-box" $field="text" $value=""/>
+<$action-setfield $tiddler="$:/temp/commander" $field="text" $value=""/>
+<$action-setfield $tiddler="$:/temp/commander/selected-titles" $field="text" $value="{}"/>
+<$action-setfield $tiddler="$:/state/commander/snr/select-tiddler" $field="text" $value=""/><!-- SNR selection -->
+<$action-setfield $tiddler="$:/state/compInspect/temp/commander/selectState-tiddler" $field="text" $value=""/> <!-- Inspect selection -->
+{{$:/core/images/close-button}}
+</$button>
+</$reveal>

@@ -1,0 +1,9 @@
+caption: ...
+created: NaNNaNNaNNaNNaNNaNNaN
+modified: 20210105040103300
+tags: .plan Autogen
+title: More: .plans
+
+<div class="tc-more-sidebar">
+<$macrocall $name="tabs" tabsList="[tag[.plan]]+[tag[More]]+[sort[caption]]" default={{$:/config/DefaultMoreSidebarTab}} state="$:/state/tab/moresidebar" class="tc-vertical" />
+</div>

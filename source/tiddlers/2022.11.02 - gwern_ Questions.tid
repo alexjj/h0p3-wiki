@@ -1,0 +1,17 @@
+created: 20221102061327182
+modified: 20221102061628933
+tags: gwern Chatlog [[Le Reddit Log]]
+title: 2022.11.02 - gwern: Questions
+
+https://www.reddit.com/r/GPT3/comments/ygi65a/can_gpt3_be_used_to_make_a_chatbotstyle_ai_of/iubcco0/
+
+<<<
+I'd be indebted to you for even just your guesses:
+
+* Do you predict there will be an ideal approach in the next three decades for someone who would spend $1000 for a model?
+* Would the odds be improved significantly if a user would be content with combing through hundreds of outputs to help them reason about what they might say?
+* Do you have tips for what an ideal corpus should be like?
+* Do you predict such a model would be significantly useful for increasing the signal-to-ratio in searching other files for what the user may find salient?
+* Is there hope for a serious stylometric-masking paraphraser that runs on desktops (and even phones)?
+* Will it ever be feasible to steganographically hide and recover plaintext messages (even with only partial confidence in the recovery process, which wouldn't necessarily be a bad thing) within a stegotext generated and revealed by machine learning?
+<<<

@@ -1,0 +1,10 @@
+created: 20221001033720579
+modified: 20221001033804593
+tags: squirrelcity Note From
+title: 2022.09.30 - squirrelcity: On His Way
+
+Ill have to look back into DC nets. I believe you are right, without host anonymization there is no way to protect the nodes. I was hoping for some level of plausible deniability but it comes down to the network layer and there is no way to provide that short of a cumbersome and bloated bitmessage file distribution system.
+
+Mixnets Nym and XX are promising protection against global passive adversaries, but they are still in beta. Tor may be sufficient given that Bob is only handling transcoding encrypted blocks and is for all purposes a common carrier. 
+
+Thanks for your input, perhaps im overthinking all of this, its the tendency of these designs to want to overengineer everything to perfection. 

@@ -1,0 +1,25 @@
+created: 20200713201321882
+modified: 20200713202025703
+tags: Sphygmus Chatlog
+title: 2020.06.19 - Sphygmus: Rebellyow
+
+"""
+[11:41 AM] h0p3: How's it going?
+
+[12:48 PM] robotic_scarab: dang you're over here doing magical stuff like that Contextlink -- first time I've seen something like it and I barely understand the TW code under the hood but wow, there's a lot to think about with embedding references like that
+[12:49 PM] h0p3: Yo! :slight_smile:
+[12:50 PM] h0p3: I'm trying to understand the nature of it still. At the very least, it is a way to provide a windowed filter expression search on behalf of the reader.
+[12:51 PM] h0p3: Our wikis are so big, it's hard to represent them effectively.
+[12:52 PM] h0p3: This-CD-ROM.jpeg
+
+[12:52 PM] robotic_scarab: It looks like one way to solve the problem or desire I have to embed pieces of other tiddlers into each other - I like that the search is right there in the tiddler - and it doesn't feel very slow / laggy either
+[12:53 PM] robotic_scarab: i've never seen that picture before - is it a visualization of how much paper info can fit on a single CD-rom? :laughter:
+[12:53 PM] h0p3: Aye. That image has stuck with me too.
+[1:01 PM] h0p3: I'm diggin' the new skin. It's bright. I don't know anything about color (I can barely see it compared to most) or design, but it seems to break a rule on the web. We're not allowed to have bright yellow dominate our screens too much. It's rebel yellow.
+[1:02 PM] robotic_scarab: thank you!! it's so bright right now, and that's after I decided I needed to tone it down a bit from full-on eye bleed brightness/saturation when I changed it last night :joy:
+[1:03 PM] robotic_scarab: part of it was also inspired by noticing that `//sphygm.us` was loading faster on my phone since I got rid of the base 64 background, but I still wanted something then I saw your yellow tag & said to myself, heck I'm bringing on the yellow :happiness:
+
+[9:57 PM] robotic_scarab: lmfao at the spelling mistake XD
+[9:57 PM] robotic_scarab: I was so confused why the link looked missing reading it this morning and it took me several re-reads to realize it was mis-spelled
+[9:58 PM] h0p3: Lol. I do it all the fucking time! It's embarrassing. I need to go back and add it to my text-substitution extension.
+"""

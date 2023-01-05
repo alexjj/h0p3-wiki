@@ -1,0 +1,110 @@
+created: 20190715180723492
+modified: 20190717201942921
+tags: 
+title: $:/plugins/kookma/todolist/readme
+type: text/vnd.tiddlywiki
+
+!! How to use
+<<<
+Todolist is a Pure tiny Tiddlywiki pluging for creating simple todolist. In any tiddler you wish to have the Todolist simply call `todolist-ui` macro. Details are given below.
+<<<
+
+!! Syntax
+<<<
+```
+<<todolist-ui caption:"" width:"" base:"">>
+```
+
+!! Content and parameters
+|Parameter |Type |Description |h
+|caption |optional|a short description appeares at top of todolist. The default value is `A plain todo list` |
+|width |optional|the width of UI, default value is `100%`. All CSS units are valid to be used e.g `60%`, `400px`, `15em`, etc. A min-width as `360px` is setmeans UI width can not be smaller than this.|
+|base |optional|a name space used for creating different todolist. It is actually used in naming the data tiddlers internally used for todo lists. The default value is `base`. |
+<<<
+
+!! Add, edit items
+<<<
+!!! Add a new item
+* Simply click in the provided textbox and give the description of new item
+* Then click on the add button {{$:/core/images/add-button}}
+* Or simply press `Enter` key. This is a keyboard shotcut and can be customized via [[Keyboard Shortcut Tab|https://tiddlywiki.com/prerelease/#%24%3A%2Fcore%2Fui%2FControlPanel%2FKeyboardShortcuts]]
+
+!!! Edit an item
+# Click on the edit button {{$:/core/images/edit-button}}, this will enable inplace editing of all items
+# Goto the desired item and edit it
+# Finally click on done button {{$:/core/images/done-button}}
+<<<
+
+!! Done, undone, and delete items
+<<<
+!!! Change an item status to done
+* To change an item status to //done//, go the desired row in todolist and click the checkbox at the left side.
+
+!!! Change an item status to undone
+* To change an item status to //undone//, go the desired row in todolist and remove the checkmark by clicking the checkbox.
+
+!!! Delete an item
+* To delete an item, go the desired row in todolist and click on {{$:/core/images/delete-button}} at the right side
+<<<
+
+!! Categories
+<<<
+Todolist has several categories and support user categories. The below categories are available
+
+; Primary categories
+:<<high "high priority">>
+:<<normal "normal priority">>
+:<<low "low priority">>
+
+; Secondary categories
+:<<fixme "FIXME item">>
+:<<bug "BUG item">>
+
+
+The colors used are pale colors for minimum contrast with normal text.
+
+!!! How to use categories
+A category is a simple macro. To use a category use the related macro. Each category macro has a syntax like below:
+
+```
+<<mac-name text:"your-text-here">>
+```
+
+For example to create an item with high priority add new item with the below description (text in textbox)
+
+```
+<<high "This is a high priority item">>
+```
+The current version of Todolist has five category macros: `high`, `normal`, `low`, `fixme`, and `bug`.
+<<<
+
+!! Bulk operations
+<<<
+* Click on the {{$:/core/images/options-button}} a slider will show more options panel
+
+!!! Done/undone all items
+* You can done/undone all items at once by clicking on below buttons
+* {{$:/core/images/save-button}} to mark all items as done
+* {{$:/core/images/refresh-button}} to mark all items as undone
+
+!!! Archive complete items
+* You can also export done items to archive using {{$:/plugins/kookma/todolist/images/archive.svg}} button
+* You can navigate to archive and see them as a table
+
+!!! Display and manupulate completed items
+* By clicking on {{$:/plugins/kookma/todolist/images/list-alt.svg}} you can navigate and display archived items
+* In Archive item tiddler, you can remove all items at once or selectively remove those you like.
+<<<
+
+
+! Install
+<<<
+Simply drag and drop $:/plugins/kookma/todolist into your wiki
+<<<
+
+
+! Project code and demo
+<<<
+* [[GitHub demo page|https://github.com/kookma/TW-Todolist]]
+* [[GitHub code page|https://github.com/kookma/TW-Todolist]]
+<<<

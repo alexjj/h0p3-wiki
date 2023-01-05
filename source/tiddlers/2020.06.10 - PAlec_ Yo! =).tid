@@ -1,0 +1,80 @@
+created: 20200610062240432
+modified: 20200611022219551
+tags: PAlec Note To
+title: 2020.06.10 - PAlec: Yo! =)
+
+<<<
+what's new for you?
+<<<
+
+[[New]] is my best answer at the moment.
+
+<<<
+I've finally got TWBob going :) Gonna have to set up CI and everything still, but at least its hosted somehow for now https://alecperkey.gitlab.io/wiki/
+<<<
+
+Bob is outstanding. Beware that it may have some flaws that hurt. I can't replace it though. You are better with computers than I am, so you're probably all set. I highly recommend keeping backups/versioning.
+
+I'm excited to see what you do. Despite heavy use of my wiki, I'm only slightly better than a noob in this sphere.
+
+<<<
+I am excited for the time when I no longer rely on Google Keep for quick one -offs. There is a lot of good stuff I've been planning https://i.imgur.com/vvKdrYv.png
+<<<
+
+TW seems like an excellent tool to get off the Google tit. 
+
+<<<
+I've been reading some of your wiki, and I actually understand it as good as you could hope for someone with little philosophical education (took one Existentialism class 9 years ago)
+<<<
+
+Oh, well thank you for taking the time. And, don't worry: even people with a philosophical background find it disturbing. Lol. I will do my best to answer any questions you might have.
+
+<<<
+You've heard of Eliezer Yudkowski I assume? I read his book on rationality which ties into a sort of utilitarian-techno-futurist utopianism hope of the approaching ai singularity. It is refreshing to read someone who understands so thoroughly ideas of us requiring some technologically-enabled 'Philosopher King' agent/institution/algorithm/decision-theory-bayesian-political process...
+<<<
+
+I am familiar with Big Yud. I skim that sphere. I cannot say I am as optimistic, utilitarian, empiricist, or [[pright]]ist as he is (though I am far more [[arrogant]] and annoying!), but we do have a ton of intersection. Given the chance, I think we would have quite a bit to talk about in [[TOP]], [[Aispondence]], and more. It may be important for you to know that despite my efforts to be cordial, I very rarely get a long with the neo-rationalist crowd. I am, of course, lucky to read what they have to say.
+
+<<<
+Also what is crazy is I haven't read a whole lot of books, but I have read DUNE and love the references. Also Godel Escher Bach I haven't gotten around to, but I loved A Strange Loop.
+<<<
+
+Ah, I've not really read a lot of books either given my age. It is one of my many failings. I'm grateful for the opportunity to think about them though.
+
+Dune is my favorite book, dude! 
+
+<$button class="tc-btn-invisible" popup=<<qualify "$:/temp/Dune">>>
+
+Contextlink: [search:text[Dune]]
+</$button>
+<$reveal type="nomatch" state=<<qualify "$:/temp/Dune">> text="">
+
+<$list filter="[search:text[Dune]]+[sort[title]]" emptyMessage="">
+<$link to={{!!title}}><$view field="title"/></$link>
+<$context length=80 term="Dune"/>
+<br>
+</$list>
+
+</$reveal>
+
+My brother [[JRE]] says I'm foolish to think the upcoming movie has even a shot at being worthy of the book (we've been disappointed since before you were born). 
+
+
+
+<<<
+Do you have a GoodReads or something like taht?
+<<<
+
+I don't remember if I have an account, but I know I never used it. I have something similar in [[Deep Reading]] and [[Link Log]]s, ymmv.
+
+<<<
+shoot me an email or whatever is the best way to keep in touch. alecperkey@gmail.com
+<<<
+
+Done!
+
+<<<
+I plan on getting an xmpp client soon and aggregating as many platforms into it. Gotta get my information stream optimized asap
+<<<
+
+I don't meet many people who use XMPP. I may eventually move to (or probably add) another federated chat client. Seems difficult to get this streamlined. There are no chat systems that I like. Tox is the best, imho, but it is deeply flawed still. My [[Chatlog]]s are where I do my aggregation, but it is done by hand.

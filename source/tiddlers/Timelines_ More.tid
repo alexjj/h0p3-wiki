@@ -1,0 +1,7 @@
+caption: ...
+created: 20200129211258682
+modified: 20220128235426462
+tags: Timelines
+title: Timelines: More
+
+<<tabs "$:/core/ui/SideBar/Open $:/plugins/wimmoermans/history/HistoryTab [[Timelines: FTO]] [[Timelines: Philosophers]] [[Timelines: All]]" "$:/core/ui/SideBar/Open">>

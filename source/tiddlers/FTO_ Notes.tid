@@ -1,0 +1,16 @@
+aliases: notes Notes note Note
+caption: Notes
+created: 20191017000551147
+modified: 20210815073842492
+tags: Timelines
+title: FTO: Notes
+
+<div class="tc-menu-list-item">
+<$list filter="[!is[system]!prefix[Hidden:]!tag[Hidden]!tag[no-recent]tag[Note]!nsort[created]]">
+<div class="tc-menu-list-subitem">
+<$link to={{!!title}}>
+<$view field="title"/>
+</$link>
+</div>
+</$list>
+</div>

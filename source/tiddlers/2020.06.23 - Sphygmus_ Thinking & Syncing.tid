@@ -1,0 +1,78 @@
+created: 20200713211841146
+modified: 20200713213610707
+tags: Sphygmus Chatlog
+title: 2020.06.23 - Sphygmus: Thinking & Syncing
+
+"""
+[5:13 PM] robotic_scarab:
+no sandbox method. Ugh. This seems like epic fail to me, breh. You have to hand-graft.
+could you elaborate more on this? maybe I'm not seeing the chain of conversation or understanding what's at stake here?
+[5:16 PM] h0p3: https://groups.google.com/forum/#!searchin/tiddlywiki/h0p3$20sandbox%7Csort:date/tiddlywiki/yufXvipCB5A/UjvIPpn7DgAJ
+[5:17 PM] h0p3: https://groups.google.com/forum/#!msg/tiddlywiki/rd9hYKzGvwA/xOXGa9jnBwAJ
+[5:19 PM] h0p3: I may be misunderstanding here.
+[5:20 PM] h0p3: I'm thinking it would be nice to "pull" from my loved one's wikis.  It's hard to safely generalize this without stripping out what makes TW what it is programmatically. I want to run what is something like a VM inside the wiki.
+[5:21 PM] h0p3: This isn't a problem for pulling from you. You already have the right in my book. But, I would like to see this generalized even for anon strangers.
+[5:22 PM] robotic_scarab: hmm I gotcha
+[5:22 PM] robotic_scarab: this becomes a much larger issue when it comes to running Bob, too :fearful:
+[5:23 PM] h0p3: Jed feels it is safe. I can say that commands have to be whitelisted (which is wise). Yeah, it could get way, way uglier.
+[5:24 PM] h0p3: My claim is that what makes TW special is that it doesn't need a server. It works on any server that can serve html. The direction of TW should continue to leverage its Quine nature. That is the competitive advantage.
+[5:26 PM] h0p3: The thing I'm picking out works whether you go single-file mode or with Bob, and that's why I think it is extra special. The average person does not have real control over their end-points, the end-to-end principle has never existed for almost anyone. TW can play around this in some cases.
+[5:27 PM] robotic_scarab: this is definitely something I need to think about a lot more to understand, I think :sweat_smile:
+[5:28 PM] h0p3: I'm currently thinking about how to say it well to Sir Tony. I'm not sure if I will succeed. I hope to necro that post later with a reasonable response.
+[5:29 PM] robotic_scarab: switching subjects slightly, have you seen the command palette plug-in?
+[5:29 PM] h0p3: H a w t
+[5:29 PM] robotic_scarab: Adam introduced me to it yesterday
+[5:29 PM] robotic_scarab: omg
+[5:29 PM] robotic_scarab: so good
+[5:30 PM] h0p3: I've made too many changes to the core, so we're going to try to figure out how to actually move completely to 5.1.22.
+[5:30 PM] h0p3: I won't be able to introduce many new plugins until then.
+[5:31 PM] robotic_scarab: augh me too
+[5:31 PM] robotic_scarab: More and more I think I need relink
+[5:31 PM] robotic_scarab: But that means completely rebuilding from a fresh version
+[5:31 PM] robotic_scarab: lots of work..
+[5:31 PM] h0p3: No doubt.
+[5:33 PM] h0p3: Relink solves a set of naming problems that have been covered by aliases (though, I still need aliases [both functional and multiple individual constants] for first-order logic to solve some problems).
+[5:33 PM] h0p3: Covered poorly*
+[5:34 PM] h0p3: shellscripting over the .tid files also solves the problem.
+[5:35 PM] robotic_scarab: Relink will solve so many of my firmcoding annoyances
+[5:36 PM] robotic_scarab: Hopefully no more manually fixing missing links that are the result of my buttons
+[5:36 PM] h0p3: I am surprised Relink is not core.
+[5:36 PM] h0p3: from the beginning
+[5:37 PM] robotic_scarab: I agree!!
+[5:43 PM] h0p3: Interesting to see the SSC blog come down.
+[5:48 PM] h0p3: Btw, for the clearing browser tabs out, you might just save them to PDF, have something to grep through (plus, can make a scanned-look collection).
+[6:02 PM] robotic_scarab: Interesting - never did poke around on SSC / related subreddits that much but it does seem to have been / be an internet phenomenon
+[6:03 PM] robotic_scarab: I would be a little shocked if the sorts of people reading SSC weren't also the sorts of people inhabiting r/datathoarders and backing it up themselves
+[6:03 PM] robotic_scarab: or at least having some sliver of overlap
+[6:57 PM] h0p3: I agree. There's definitely copies to be had.
+[6:58 PM] robotic_scarab: maybe you can help, do you remember [https://en.wikipedia.org/wiki/Long-time_nuclear_waste_warning_messages] being linked around by someone in the circle lately?
+[6:59 PM] robotic_scarab: I swear I was just reading it this weekend but I can't remember if it was you or kicks or mjos or deathOfRobinhood or chame or someone else that linked to it
+[6:59 PM] h0p3: I don't remember.
+[6:59 PM] robotic_scarab: ah well. I'll have to try searching my history on my desktop
+[7:05 PM] h0p3: It is in my link log.
+[7:05 PM] h0p3: But, not recent.
+[7:06 PM] robotic_scarab: hm, interesting
+[9:18 PM] robotic_scarab: I see Midsommar on your list -- maybe I should have mentioned, hope you're watching the director's cut! unfortunately we didn't and after reading an article going through the differences, I think I would have appreciated the director's cut
+[11:06 PM] h0p3: Gracias!
+[11:06 PM] h0p3: Only 40 minutes in, gonna restart.
+[11:06 PM] h0p3: Hereditary is so scary, I had to stop. I will be coming back to finish it.
+[11:09 PM] robotic_scarab: I'll be keeping an eye on your hereditary thoughts! I have an opinion about the movie as a whole, lol
+[11:10 PM] h0p3: I will be grateful to hear it. You know how to pick media out.
+
+[7:57 PM] robotic_scarab: would you see if you have access to all of the Saga volumes that have been released?
+[9:36 PM] h0p3: Yup. I have them.
+[9:36 PM] h0p3: Prefer an http link?
+[9:40 PM] robotic_scarab: that would be good! I'm happy to install resilio sync (sp) too tho
+
+[[REDACTED]]
+Jun 24 9:44pm
+
+[9:46 PM] h0p3: Cool, let's use the sync. Makes it easy to send big stuff: [[REDACTED]]
+
+[12:10 AM] robotic_scarab: having trouble installing the thing on arch :sweat_smile:
+[12:11 AM] h0p3: I know the pain. Lol. https://philosopher.life/#Install%20Resilio%20Sync%20in%20Manjaro%20As%20USER
+[12:13 AM] h0p3: I have it set for logging in remotely though.
+[12:15 AM] robotic_scarab: nothing changed except I made a .rslsync folder for the PID like you have, instead of sticking it in the .config/rslsync, and copied/edited your config, and ... now it works :thinkmad:
+[12:23 AM] robotic_scarab: cool, seems to be going :happiness:
+[12:25 AM] h0p3: \o/
+"""

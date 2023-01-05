@@ -1,0 +1,56 @@
+created: 20220725040122555
+modified: 20220727090249063
+tags: [[Polymath Craftsman]] [[Carpe Tempus Segmentum]] [[Computer Musings]] [[D2 Log]]
+title: 2022.07.25 - Carpe Tempus Segmentum: Fixing
+
+<<<
+Woke at 9? Rumination. //Skintime// with my sympaticon. [[Morning Routine]]. [[TTTOTW]]. Cat pissed in the bathroom? Thinking about how we might seal off [[The Den]] for AC while enabling a catdoor.
+
+Chat with [[sabaLynx]]. ⁸Δ⁸ + played clarinet.
+
+[[D2]] with my sympaticon, hugs'n'bugs with offspring, and driveby with mi amor. I'm setting Bowazon up to be auxiliary to Ashe until I play a much better tank. The kicker makes short work of bosses and packs when she is safe. Very excited to work with her alongside the nec. I need to acquire an Infinity for NeckRomancer's merc. The goal is build up the Baal slayers to the point that p8 is as trivialized as we can make it with 200%MF. It's probably our best shot at the rarest uniques to boot.
+
+```bash
+yay -S etcher-bin --noconfirm 
+# always on the hunt a USB image burner better than dd, rufus, etc. 
+
+sudo pacman -S exa --noconfirm    
+# trying again, not convinced.
+```
+
+[[sabaLynx]] and I are having difficulty [[sharing]] large files over the tools they might prefer. May start including log reports in the ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱. `tree /mnt/m16-new-storage/public-share/ -h -D` > [[Report: Public-Share]].tid, etc. Output might be grossly large though (unhappy with ~~1MB~~ nm..10...tiddlers). More than once I've needed to point to it though, and I know people have found it useful. Maybe not feasible. [[DarkMX]] info updated. 
+
+[[Family Time]] @4:20nice in [[The Den]]. Held hands for our seance calling down the aliens, though we failed to humchant the same note until we passed out. //Good Omens// and [[TTTOTW]]. Nice part about being high sometimes is that I can smashdraft [[/b/]].
+
+My sympaticon offered me Hawaiian punch with some lemon juice. Slaps. [[TTTOTW]]. More chat with [[sabaLynx]]. Prepped liver and onion sammiches with my sympaticon. Put mi amor to bed. She toast. Chat with my daughter who asked for outside perspective on her bully and the notions of theorizing about stories and headcanon. [[TTTOTW]].
+<<<
+
+[[TTTOTW]]. Sleep by unknown time. 
+
+Woke at 8:30? Rumination. //Skintime// with my sympaticon. [[Morning Routine]]. [[TTTOTW]].
+
+Mounted the hook rack in [[The Den]]. Finally, something that can take weight. Assignments. My daughter is unhappy with us (me and her) today.
+
+S-hooks with catches on the pan-holder. 
+
+Worked on the door handles of the kitchen. I noticed the inner was coming off as well. These are some of the worst door handles I've ever encountered. Tried epoxy on these, and it failed! Gonna have to try again.
+
+[[D2]] with my sympaticon. Bowchika went with Ashe until Baal, and then I switched. My sympaticon made her phone call, and we'll have the paperwork we need for two things. Regeared her assassin. I need to acquire some 3/20 gloves (only have 3/10)<<ref "g">> and another Guillame's (both of ours have Um) to drop a 15% IAS jewel to hit 6 kicks max breakpoints, as maintaining decrep makes more sense too.
+
+Prep dinner with my sympaticon. I noticed the old fridge we acquired has a crack in the seal (and the light doesn't turn off either), and this is new (might have been something doctored that undid itself eventually). Tried vaseline on the gasket, but it failed to help enough. Have a few different insulatory liners laying around, trying to fill the gap. It's not working well enough. 
+
+Scheduled with [[5c0ut]].
+
+//The Walk// with mi amor. Dranks. She found a coconut soda that she adores. On the circle, a bit beyond halfway through the way, there is an ex-forested area that was recently cleared. They've got a lot of small, straight branches left. Hrm. 
+
+[[TTTOTW]]. Bit of chat with [[Jaxx]].  
+
+Finished up dinner with my sympaticon.
+
+[[Family Gathering]] was delicious. Pork, couscous, veggies, gravy. I had fizzy water too. //Stranger Things// at least has good music (and, that guy who plays you in the movies, Samwise, he dies, `/thumbs-up`). Relax and [[TTTOTW]].
+
+Went to bed immediately, since I needed to get up in the middle of the night.
+
+
+---
+<<footnotes "g" "GG God Tier Crafted: 2 Martial, 20%IAS, 5%ML, 8%LL, 20life, 10%CB.">>

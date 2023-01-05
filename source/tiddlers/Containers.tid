@@ -1,0 +1,107 @@
+created: 20220811204006257
+modified: 20220813140626127
+tags: Computing BAGD
+title: Containers
+
+!! Docker:
+
+* Podman appears preferred `/fingerguns`, but otherwise...
+* Keep Docker up-to-date.
+* Do not store or pass around any secret in Dockerfile.
+* Least privileges, so don't run the container as root (the unfortunate default). 
+** Set user -u for runtime: `docker run -u 4000 alpine`
+** Never run container with `--privileged`
+*** Use `--cap-drop` to harden your docker containers, or add some capabilities with `--cap-add`
+**** Whitelist only: `docker run --cap-drop all --cap-add CHOWN alpine`
+** Run with `--security-opt=no-new-privileges` in order to prevent privilege escalation using `setuid` or `setgid` binaries
+** Enable user namespace support (`--userns-remap=default`) in Docker daemon
+** For buildtime:
+
+<<<
+```
+FROM alpine
+RUN groupadd -r myuser && useradd -r -g myuser myuser
+<HERE DO WHAT YOU HAVE TO DO AS A ROOT USER LIKE INSTALLING PACKAGES ETC.>
+USER myuser
+```
+<<<
+
+* To run Docker in rootless mode:
+*# Install Docker in root mode - see instructions. 
+*# Use the following command to launch the Daemon when the host starts:
+*#* `systemctl --user enable docker`
+*#*  `sudo loginctl enable-linger $(whoami)`
+*# Here is how to run a container as rootless using Docker context:
+*#* `docker context use rootless`
+*#* `docker run -d -p 8080:80 nginx`
+
+
+* Disable intercontainer communication with `--icc=false` and then whitelist with ` --link=CONTAINER_NAME_or_ID:ALIAS`
+* Configure resource quotas/limits
+** `--restart=on-failure:<number_of_restarts>`
+** `--ulimit nofile=<number>`
+** `--ulimit nproc=<number>`
+* Do not expose the Docker daemon socket found at /var/run/docker.sock (even to the containers) 
+* Do not enable tcp Docker daemon socket. e.g. running docker daemon with -H tcp:/''''/0.0.0.0:XXX
+* `docker-scan` to vulnerability detection, scanning and verifying images, static analysis
+** Clair, ThreatMapper, Trivy
+** Secrets in images: ggshield, SecretScanner
+** Misconfigs in Docker
+*** inspec.io, dev-sec.io, Docker Bench for Security
+* Linux Namespace, SELinux, AppArmor, Cgroups, Capabilities, Seccomp, Restrict system calls from within containers
+* Run containers with a read-only filesystem:
+** `docker run --read-only alpine sh -c 'echo "running as read only" > /tmp`
+** If an application inside a container has to save something temporarily, combine `--read-only` flag with `--tmpfs` like this:
+*** `docker run --read-only --tmpfs /tmp alpine sh -c 'echo "whatever" > /tmp/file'`
+** In addition, if the volume is mounted only for reading mount them as a read-only It can be done by appending :ro to the -v like this:
+*** `docker run -v volume-name:/path/in/container:ro alpine`
+*** Or by using --mount option:
+**** `docker run --mount source=volume-name,destination=/path/in/container,readonly alpine` 
+* `docker-compose --log-level info up` in docker-compose
+* Lint the Dockerfile at build time
+** Ensure a USER directive is specified
+** Ensure the base image version is pinned
+** Ensure the OS packages versions are pinned
+** Avoid the use of ADD in favor of COPY
+** Avoid curl bashing in RUN directives
+* Where ever possible COPY must be used in place of ADD instruction. One can inspect an image to check the use of ADD command in building the image by using the DOCKER HISTORY command
+** `docker history <Image Name/ID>`
+
+
+<br>
+
+!! Links:
+
+* https://hub.docker.com/
+* https://docs.docker.com/engine/security/trust/
+* https://unbiased-coder.com/podman-vs-docker-differences/
+* https://docs.podman.io/en/latest/
+
+<br>
+
+!! Docker Tools:
+
+* docker-scan
+* docker-compose
+
+
+<br>
+
+!! Other Tooling to consider:
+
+* AppImage, etc.
+* https://github.com/intoli/exodus
+
+
+<br>
+
+!! Moar Skid:
+
+* Run the following command to find out the username/userid. If a blank is returned it means the container is running as root.
+** `docker ps — quiet — all | xargs docker inspect — format ‘{{ .Id }}: User={{ .Config.User }}’`
+* To inspect an image to see if a user is set to run the command use DOCKER HISTORY:
+** `docker history <Image Name/ID>`
+* To list all the packages installed in a container run the following command:
+** `docker exec <CONTAINER_ID> apk info`
+* To make sure HEALTHCHECK instruction is present in the Docker image run the following command:
+** `docker inspect --format='{{ .Config.Healthcheck }}' <Image Name/ID>`

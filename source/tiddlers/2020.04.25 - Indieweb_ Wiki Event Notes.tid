@@ -1,0 +1,82 @@
+created: 20200425182412514
+modified: 20220516133520941
+tags: [[@: FTO Proofs]] [[Public Self-Modeler]] Indieweb [[Tagging Theory]] [[RGM Notes]] [[Wiki Audit]] [[Computer Musings]] Hyperconversation Diamond Letter To CAldrich
+title: 2020.04.25 - Indieweb: Wiki Event Notes
+
+//[[TLDR]]: there's too much to [[read|Readme]], so please ignore this animated and absurd letter if you have anything better to do. Go ahead and call me a [[Straussian]]ly paranoic sumbitch. [[IA2DYJ]], itellyawhat. I [[hope]] to see 99% of everyone's notes in the open on platforms they own [[irwartfrr]]. That's a tall ask from a vicious loser like me. I also want to see what you do with a link you own on my property, a link I own on your property, and the diplomatic link we both own.<<ref "d">> Decentralized, [[technologically|Computer Musings]]-enabled language games can become mechanically, politically, and semantically safer to a non-trivial degree, with far higher bandwidth and computation. I don't know how to do that well enough either. It's not easy to share our data with ourselves, let alone [[others]].//
+
+```
+                                                                    ,,    ,,                                   ,,           
+`7MM"""Yb.                                  `7MMF'                `7MM    db                                  *MM           
+  MM    `Yb.                                  MM                    MM                                         MM           
+  MM     `Mb  .gP"Ya   ,6"Yb.  `7Mb,od8       MM  `7MMpMMMb.   ,M""bMM  `7MM  .gP"Ya `7M'    ,A    `MF'.gP"Ya  MM,dMMb.     
+  MM      MM ,M'   Yb 8)   MM    MM' "'       MM    MM    MM ,AP    MM    MM ,M'   Yb  VA   ,VAA   ,V ,M'   Yb MM    `Mb    
+  MM     ,MP 8M""""""  ,pm9MM    MM           MM    MM    MM 8MI    MM    MM 8M""""""   VA ,V  VA ,V  8M"""""" MM     M8    
+  MM    ,dP' YM.    , 8M   MM    MM           MM    MM    MM `Mb    MM    MM YM.    ,    VVV    VVV   YM.    , MM.   ,M9  ,, 
+.JMMmmmdP'    `Mbmmd' `Moo9^Yo..JMML.       .JMML..JMML  JMML.`Wbmd"MML..JMML.`Mbmmd'     W      W     `Mbmmd' P^YbmdP'   dg 
+                                                                                                                          ,j 
+                                                                                                                         ,'  
+```
+
+At the very least, {[[I|About]]} am a schizoid Kanyautistic madman. Too often I'm just a [[naked]] idiot, and sometimes disgracefully a malicious one.<<ref "r">> Let's see.
+
+I thought I'd turn my humble notes and unhumble perspective into a [[letter|Timelines: FTO]] for you. Here are my shitty and, unfortunately, sometimes [[profoundly preachy|Why You Might Hate Me]] notes and scribblings, in my caveman speak, my foolish wrastling, yet another [[alias]]ed abstraction over my [[hlexical]] language, and another funneled foothold into the window of a digital approximation of the qualia of a soul.<<ref "e">> May you see what is positive and not merely negative about this letter. It's for you and me, and anyone else who might find them useful. It is expensive to be useful to each [[other]], [[nomad|Contact]], and exceptionally so when we aim for transparency, freedom that is free as in freedom and beer [[irwartfrr]], blind-[[trust]], [[ROG]] integrity, and community built on [[Gradual]]ized [[T42T]]. I can never atomize and molecularize in [[DOR]] well enough. I [[hope]] you can forgive me for writing cryptically, stupidly, or [[arrogant]]ly in some respects. I am trying to tell you what I think as carefully as I know how to say it, [[WINTCIS]]. Sometimes, all I have is a mere heap. 
+
+Thank you for the meeting. It's not clear to me which of my notes belongs in the masterlist, so I took a link instead.<<ref "a">>
+
+; mostly a heap piled on with the others:
+
+* `/wave`, [[@: CAldritch]]
+** https://plato.stanford.edu/entries/memory/
+* Links
+** https://events.indieweb.org/2020/04/gardens-and-streams-wikis-blogs-and-ui-a-pop-up-indiewebcamp-session-j9bg0pJDBgBD
+** http://tw.boffosocko.com/#Wiki%20Session%20for%20IndieWeb
+** https://etherpad.indieweb.org/GardenAndStream
+* You might say I see my wiki as a unified and chaotic garden of detachable and reusable static streams (even a rhizome of blogs) spaghettified around dynamic nodes of long-term projects I'm cultivating.
+** My [[Yearly X-Section]] gives an idea of it.
+** I build molecules from atoms or stacks from heaps in the pursuit of what I take to be my end.
+** [[FO]] editing and reuse of the tiddler, and [[SO]] editing and re-use of the structures.
+** Often, I think when I'm transcluding, I'm doing it wrong, but I don't have a good reason to suggest that.
+** Tiddlywiki is a dojo with a fairly reasonable learning curve for methods of abstracting, remodeling, drafting, and evolving your data. It's a good middleground bridge even for non-technical people.
+* I aim not to build infrastructure I don't own; the workers must own the means of production. 
+** Webmentions built over the Tox network would make more sense to me. Similarly, the Dat protocol (if and when it becomes viable) makes excellent sense. 
+* Reference tab in Information of TW gives something like bi-directional linking for hardcoded links. 
+** It also performs well in a larger wiki.
+* While I agree various wiki ecosystems can [[ltf]] for onboarding, at some point, if we are going to own our data and the means of production, we are responsible for understanding at least some of the abstractions and technology. There's no way around this inconvenience. 
+** Which is not to claim that we aren't obligated to [[help]] those in need. Building a decentralized web for the common person is exactly what I see in idealized [[democracy|TOP]].
+* TW5 Bob merits more time. It (or something like it) is a necessary piece to solving some of these infrastructural problems.
+* [[Kickscondor]]'s fraidyc.at performs a crucial role
+** It may eventually be a dashboard for mentions (without a rigid protocol) too.
+** indieweb.xyz is also worth thinking about.
+* [[@: hypertext 2020]]
+* [[Sphygmus]]' idea to have custom CSS for individual style
+* In the end, it must be a human (and preferably, humans, in a fairly built network) that picks out what is [[salient]] (even if aided by automation).
+* ML {[[Dreams]]}, [[Link Log]], Corpus Linguistics, [[Aispondence]]
+** 64MB is a minimum preference for having a reasonably accurate semblance/model, a guess I've been given.
+** I aim for my wiki to be a kind of exobraindump (uploading my mind into heavily linked text), a model of myself ([[PSM]]). The wiki is a story-telling device that reuses older stories to reconstruct new ones; if it is a memory palace or garden, it's one that is evolving toward externalizing the relationship between our sensibilities and cognition (for the sake of something else). We are the kinds of creatures that tell ourselves the stories of ourselves and our [[Phenomenology]]. I want to speak to automated versions of myself (even for autosuggestions, dialectical argumentation, and exploring the world), and to use those kinds of tools to pick out what is [[salient]] on the web. (I want it to help me curate my feeds).
+* It is difficult to build maps for [[others]].
+* Tags. vs Hierarchy. Tagging is gunky, and it helps you build hierarchy eventually (and, hierarchy is necessary for fast reasoning).
+** [[Hao 2 Search Dis Wiki]]
+*** Recording our searches as metadata.
+* [[Aliases]], Folksonomy, & Controlled Vocabulary
+* Also, it was my honor to hear [[twMat|https://github.com/twMat]] speak. =)
+* Decentralization problems, [[P2P: Aether]], censorship, federation+moderation, capitalism, sharing our computation (infrastructure and minds), etc. 
+* JBOD, Just a Bunch of Textfiles, building hierarchical stacks from the heaps. I will never get my UNIX on well enough.
+
+To a significant [[dok]], I think you are aiming to play a crucial Golden-Ruled role in binding [[Humanity]] together in [[The Great Human Conversation]]. I hold that work in high regard. The //independence// of the Indieweb will only be morally permissible if it is in virtue of creating the fitting //dependence// upon [[The Other]], [[irwartfrr]]. Let's learn to be [[Root Users]] with each other.
+
+
+Sincerely, Your [[Madman²|2019.06.25 - DeathOfRobinhood: The Chickenscratch Confession Booktour]],
+
+[[h0p3]]
+
+
+
+---
+<<footnotes "d" "I don't normally write letters to creatures larger than atomic individuals. I'm still waiting to hear back from the [[EFF]], but I'm pretty sure I have been saved tremendous embarrassment. I am just a dude.">>
+
+<<footnotes "r" "With an awfully punchable asshole for a face. Fist me, daddy. ">>
+
+<<footnotes "e" "Even if I don't believe in souls that last beyond mortal life.">>
+
+<<footnotes "a" "Preferably, a link to a name based on a public key I own.">>

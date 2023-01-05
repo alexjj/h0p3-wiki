@@ -1,0 +1,42 @@
+.tw-password-field {
+	display: inline-block;
+	width: 55%;
+  font-size:1em;
+  line-height:0;
+  margin:0;
+	padding-left:7%;
+}
+
+.pc-batch-controls .tw-crypt-dropdown{
+	right: 0px;
+}
+
+.pc-batch-controls{
+		position:relative;
+}
+
+.pc-listItem-lock svg{
+	height: 1em;
+	width: 1em;
+	fill: #aaaaaa;
+}
+
+/*It is for use in combination with tc-block-dropdown */
+.tw-crypt-dropdown{
+      line-height:0;
+			padding-left:5px;
+			}
+
+.tw-password-field input{
+       font-size:0.5em;
+
+}
+
+.tw-crypt-button {
+	display: inline-block;
+	width: 10%;
+}
+
+.tw-crypt-button button{
+	font-size:0.5em;
+}

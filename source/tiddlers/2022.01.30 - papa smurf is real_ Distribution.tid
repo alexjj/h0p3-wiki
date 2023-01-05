@@ -1,0 +1,21 @@
+created: 20220130092924786
+modified: 20220130182640657
+tags: [[papa smurf is real]] Chatlog
+title: 2022.01.30 - papa smurf is real: Distribution
+
+"""
+[[papa smurf is real]]: you guys were talking about an automatic host failover function a few hours ago `^^^`
+[[papa smurf is real]]: i'm working on something so we can have a load-balancing + failover
+[[papa smurf is real]]: but it's not so simple over Tor
+[[papa smurf is real]]: we will need to do mixed intro points into the directory announce, so it has complications
+[[papa smurf is real]]: we also need a back-channel connections between all owners, to keep user info and file listings synced up
+[[papa smurf is real]]: (the latter only in the case of a network)
+[[papa smurf is real]]: otherwise there can be problems, where a user has one level on one host, and different on another
+[[papa smurf is real]]: so it's not going to be something i can pop out in a jiffy
+[[papa smurf is real]]: also want to get on with putting a forums in here, hosted much like chat rooms are currently
+[[papa smurf is real]]: and direct ip-ip transfers between mutually trusting peers, so we can finally download at a good speed
+[[papa smurf is real]]: i think this is of the highest priority really
+[[papa smurf is real]]: so hang in there......
+[[h0p3]]: `/thumbs up`. Excellent work, sir. Thank you.
+[[h0p3]]: Perhaps this is irrevelant, but just in case it is not, maybe this may be useful: https://github.com/rqlite/rqlite
+"""

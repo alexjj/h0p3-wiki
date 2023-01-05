@@ -1,0 +1,28 @@
+created: 20221013040606491
+modified: 20221013040802104
+tags: [[That's for you to decide]] [[FTO: Seemingly One-Off Online Encounters]] FTO [[FTO Mode: Reply]] groupchat gREEN
+title: emdee
+
+!! Information:
+
+* @emdee_net:libera.chat
+* https://git.plastiras.org/emdee
+
+!! Communications:
+
+; 2022.10.12 - emdee: Part of The Problem
+
+<<<
+"""
+10/9/2022, 5:00:16 PM - TokTok: [[gREEN]]: thats one of the reason, why i wanted to prototype ngc as friend communication, where all your devices are in that group with your friend :P
+10/9/2022, 5:01:56 PM - TokTok: [[emdee]]: Critique my POC first then I'll critique yours - I don't think yours will scale well, but I know mine does.
+10/9/2022, 5:02:22 PM - TokTok: [[gREEN]]: it was just a reminder :)
+10/9/2022, 7:18:53 PM - [[h0p3]]: You've been doing some exciting work, [[emdee]]. If you have the time, can you point me to your approach to NGC?
+
+10/12/2022, 2:20:00 AM - TokTok: [[emdee]]: I wouldn't open the URL that Tha_14 suggested to you from  philosopher.life - it's a 54M web page with at least 6 sections of obfuscated javascipt. GreenSky tells me it's h0p3's site; I think he was a part of my problem.
+10/12/2022, 2:51:33 AM - [[h0p3]]: For the paranoid, Whonix or at least a browser that can't connect may be useful to you. It's a Tiddlywiki, which isn't meant to be obfuscated; though, I'll agree it is a mess. 
+
+10/12/2022, 2:25:09 PM - TokTok: JF for those who are still in irc, we're moving our dev chat to a tox group that isn't bridged with IRC. get an invite from titbot: 07DF9BD870036D00BC4A67A78327B5F8F2A92BDA4699E0A2BD614BE703A6EF2B33E966555CC9
+10/12/2022, 2:30:38 PM - [[That's for you to decide]]: Also, anyone who wants to use pgc(conferences) you can add me and I'll invite you to the conference bridged with the dev group. My toxid: F0AA7C8C55552E8593B2B77AC6FCA598A40D1F5F52A26C2322690A4BF1DFCB0DD8AEDD2822FF
+"""
+<<<

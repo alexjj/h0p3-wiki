@@ -1,0 +1,22 @@
+created: 20210207210606404
+modified: 20210207210606404
+tags: Sho Note To
+title: 2021.01.15 - Sho: More Input
+
+Haha, it's okay. I'm glad to be able to talk.
+
+I agree things are getting proper scary. I know you have to be joking about that rule, but there's something to be said for it. If you ever have a terribly old laptop, it can be secured in such a way that you can safely write your thoughts and feelings down (and even distribute them over whatever channels you prefer). There are things I cannot write down in my wiki. 
+
+VPN for torrents will work just fine (some people prefer to use a seedbox [a computer in a datacenter] for this task, but I wouldn't worry about it). That's a great use of the VPN. It's a non-trivial barrier, particularly as the service provider takes on some of that liability for you. It's possible for a VPN that has not been set up correctly to leak your information still even if the vast majority of packets are routed through the proxy. You may also prefer to route only your torrent traffic through the VPN for various reasons, and you may want to set up firewall rules that will prevent any torrent connections that aren't routed through the VPN. I don't know what kinds of legal troubles you'd face where you live. I have grown more relaxed on protecting myself for torrenting. I don't use a seedbox or a VPN anymore, although I use a private tracker for the most part. Also, if you need anything, HMU. I can send you plenty.
+
+Makes sense on the savings account front. Eventually, I hope to remove myself from our joint account. Ultimately, I am the person who takes on the bad debt for us. I don't mind burning my social score so much.
+
+Yeah, I'm hating almost all the world too. I get it. Lol. China appears to be taking the lead this year. 
+
+This is the Tor Browser: https://www.torproject.org/download/. It's worth reading about privacy and anonymity to understand what a tool like Tor does and does not buy you. It's very good at what it does.
+
+Firefox is far, far more trustworthy than Chrome (which is not to say that Mozilla, the institution which develops FF, has an unblemished record, but it's solid enough). Chrome is Google's Spyware sitting on your devices. Switching over to FF with the fitting extensions would solve a lot of problems for you right out of the gate (and no VPN can save you from not using a fitting browser). You can link your FF account to your Proton account, and both are sufficiently private. It makes it so you can sync your FF settings across devices, and there's no FAANG directly involved. Take a few minutes, try it out.
+
+Your phone is the hardest thing to solve (and even I don't have an answer that I find satisfactory). De-googlifying your life otherwise is reasonable, especially if you maintain a google account just for the exceptions. We can walk through a list of services and tools you use to find alternatives, if you'd like.
+
+I do have a problem with how capitalists limit freedoms of speech on private platforms that are functionally used as "the commons," ultimately squelching the innocent and guilty on the margins alike (in addition to other kinds of social cooling effects from surveillance and the shaping of The Spectacle based on either what makes money or the egoist's will to power playing out in the state of nature). I blame almost everyone for this one. Free speech, to my eyes, is concerned with a living, communally run (workers own the means of production), p2p, highly decentralized infrastructure supporting even our enemy's abilities to anonymously say what they think should be said in public. These are a kind of safe space to my eyes. Not all spaces need be free speech areas, but free speech contexts should be heavily used and supported by citizens. It's the only way we can engage in The Golden Rule at scale. Limits on speech come in degrees and kinds, and there are some steps you can take to guarantee that your words can be found, but if the discovery of content in a digital world is commodified, then it is less likely that your voice will actually be heard (even if it were available otherwise).

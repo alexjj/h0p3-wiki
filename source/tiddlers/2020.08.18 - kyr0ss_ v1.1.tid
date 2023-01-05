@@ -1,0 +1,79 @@
+created: 20200818210140841
+modified: 20200827063500504
+tags: kyr0ss Letter From
+title: 2020.08.18 - kyr0ss: v1.1
+
+Hello again h0p3,
+
+I feel chatty today and this is a long message. Please take your time to read it.
+
+<<<
+It's an honor meet you! Let me know if I can help you. I'm curious about your name. I'd like to know what it means to you. You will have to forgive me for caring about aesthetics, but I'm a fan of . Like gh057, it already makes me feel like you are a part of family.
+<<<
+
+I also saw from the entry you have made of [[me|kyr0ss]] that you found my handle interesting. It's a new name I'm using and since I'm not really good at choosing, I named myself after a saint celebrated on the day I was born. Κύρος. It's not that interesting but I like the way it sounds. 
+
+<<<
+I appreciate the pull of introversion ([[PSM|https://philosopher.life/#PSM]] goes against a number of my instincts), especially for having spent much of my life minimizing how much I revealed of myself to almost anyone. In case you change your mind, I know some people maintain a public-face of their wiki (tagging it Public would allow you to export it out into a public wiki), and that may be a worthwhile way to approach it.
+<<<
+
+The public face of my wiki is something I will soon (very soon) do, since I found out that blogging is so boring, I could not keep it up. 
+I inspected the option of exporting html tiddlers with custom theming (tutorial [[here|https://www.didaxy.com/exporting-static-sites-from-tiddlywiki]]) but I think your favorite one file wiki-wiki solution is the best. I even discovered the correct -- build commands to do that only today (it was hard to figure it out and I was ready to ask for your help). 
+
+As you can see I'm on nodejs since I don't have your requirements of simultaneous editing and I'm happy with it so far. 
+
+Do you think the wiki have made you more extrovert? That would be an interesting thought.
+
+<<<
+I'm hard-pressed to think of anything of mine that isn't at least partially a mimetic copy of something else. Which mechanics seem to work best for you so far? I would like to know how you to do it differently too.
+<<<
+
+This is so well put. It's like art and open source, two of my favorite subjects. 
+
+Like the wiki logic, your mechanics are not linear and that was what I liked in your approach.
+
+* Your wiki review for example, it took me a while to figure out how it works, but it's like a weekly review which you do daily. 
+** I'm using wiki reviews but in a weekly fashion. it's more work to do, but fits me better, I even used your python script. It's cool, it's cool.
+* The TDLs? I still don't know how you find your undone things but I think you don't. And that's great. It goes with your daily flow and somehow you will recall it. 
+** I mark as TDL tiddlers that i need to work on them later and my someday or waiting lists I took from the GTD approach
+* Οι φιλοσοφικές αναλύσεις; I have many unknown words in your texts, but you can ask me for Greek translations anytime. 
+* I used the pinned tiddlers idea and... 
+* the Lifetime Projects concept. I always thought that half of my projects will never end and that defies the definition!
+* I also try to do the prompted introspections, I had already in store 365 of them but never did even one (some of them hurt) 
+** and of course I stole yours, removing your categorization. 
+* Your snapshot routine is nice too. It's easier for me since I have no server to maintain.
+
+<<<
+We obviously have a ton in common. I don't have the privilege of meeting many fathers that share my interests. How long have you been using Linux? What are your preferences in that space? If you can say, how many [[children|https://philosopher.life/#Be%20A%20Good%20Dad]] do you have? Do they enjoy computers like their old man?
+<<<
+
+We indeed have lots in common. In the Linux field I think you know more than me and you seem more consistent. 
+
+I met with Linux into the 90s, but I ditched windows completely 5 years ago. I like Debian and Fedora very much but I currently use Ubuntu so I won't have to customize anything (big rabbitholes). I really love i3 but I've never made a good config and stick to it so I had always took shelter into the sweet XFCE. 
+
+''''* Lately I have a thing about BSDs and I don't know why. I sometimes explore freeBSD and openBSD for a while before I quit. I'm so different than my 2 boyz, who both prefer gaming so far. I got no strong selling points on Linux just yet.
+
+<<<
+It's awesome that you are both an emacs and TW user. My senpai, chameleon, is also skilled in both, like you. I am benignly envious, lol. It is my wish that my offspring will learn to master both tools.
+I often consider my wiki "just a bunch of textfiles" that I unflatten from different perspectives. I'm excited to get to understand what you do about this tool.
+<<<
+
+Emacs is great, I'm using it for 7 or 8 years, mainly because of org-mode. It can blow your mind really, all the power and the plugins, but it's a HUGE rabbithole that's why we're on a break! I was using the flat files wiki approach with emacs, it was OK, org-mode format, fantastic, org-roam plugin, cool, but it was not really a wiki.
+
+Apart from that it's a worthy tool to master, just like vim which I love also but I'm not so familiar with. 
+
+<<<
+How hawt is that Pinephone?
+<<<
+
+It's so cool! And I thought it was more expensive! Come on it WAS more expensive a few months ago when I was buying a phone! 
+
+<<<
+r : I'm looking for a way have a functioning terminal inside a tiddler. Bob allows us to run commands, but that isn't even in the same league as what I'm looking for. If you ever happen to stumble upon a direction that looks promising here, please let me know.
+<<<
+
+How can this happen? Linking some code-academy terminal? Seems hard to do but okay!
+
+Sincerely,
+
+kyr0ss

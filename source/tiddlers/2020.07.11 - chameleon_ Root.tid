@@ -1,0 +1,78 @@
+created: 20200715034628076
+modified: 20200715034931237
+tags: chameleon Chatlog
+title: 2020.07.11 - chameleon: Root
+
+"""
+[1:53 PM] h0p3: I wish you luck at FNM! :slight_smile:
+[1:53 PM] h0p3: You doing alright?
+[2:20 PM] chameleon: Not bad!
+[2:20 PM] h0p3: Noice.
+[2:20 PM] chameleon: We're going to pick up the shopping
+[2:21 PM] h0p3: `/salute` - I wish you all the fat lootz.
+[2:21 PM] h0p3: You see [[kicks]]' project?
+[2:21 PM] chameleon: I didn't. Did see the disney thing tho. Lol
+[2:22 PM] h0p3: Yeah, that's the one. Must have taken forever to build it all out.
+
+[7:10 PM] chameleon: been a while since I've seen activity on [[Music: Exploration]]
+[7:10 PM] h0p3: No doubt.
+[7:10 PM] chameleon: I remember a while back whenever I posted a yt link it'd show up there :stuck_out_tongue:
+[7:10 PM] h0p3: I'm not sure what to capture in it well enough.
+[7:11 PM] h0p3: Aye. It is a valuable signal sometimes. I also just listen too much. That process needs to be automated.
+[7:12 PM] h0p3: I am lost in thought thinking about you, [[Sphygmus]], [[kicks]], and my [[Root Users]] in general.
+[7:12 PM] chameleon: I saw you'd been talking to [[DeathOfRobinhood]] about that
+[7:13 PM] chameleon: in your chat logs. those ones are the most difficult to decipher. have to do it from context
+[7:13 PM] h0p3: Aye. I kinda need my [[Root Users]] to help me define what consists in a root user, lol.
+[7:13 PM] chameleon: hehehe
+[7:13 PM] chameleon: For a while I thought it meant editing the wiki, since when I first saw it it was just your immediate family
+[7:13 PM] chameleon: iirc
+[7:14 PM] h0p3: Yes. It does include the right to edit my wiki.
+[7:14 PM] h0p3: I am trying to specify that cleanly.
+[7:14 PM] chameleon: oh! not that I have anything in particular to add to it atm =w=.;;
+[7:15 PM] h0p3: Or substract, or modify
+[7:15 PM] chameleon: from my own personal usage it'd be... making it easier to get to pages I know are there. I can do a search, but I don't really like doing that, for some reason
+[7:16 PM] chameleon: maybe because being on the web means heavy mouse usage and it's quicker on my wiki to click a [[TOC]] tiddler then click the article which is in there. Two clicks, no need to move my hand to the kb
+[7:16 PM] h0p3: It is one of the strengths of TW that we can design this.
+[7:16 PM] chameleon: indeed!
+[7:16 PM] h0p3: I would like to make it so that you control a portal in my wiki.
+[7:17 PM] chameleon: hm. I'd have to think about what that'd look like
+[7:18 PM] h0p3: I am, unfortunately, a demanding and paranoic loser who can't program his way out of a paperbag. I'm childish and foolish too often here. I appreciate your thinking about it with me. I want something that can be replicated.
+[7:19 PM] chameleon: the way my wiki is structured is quite hierarchical, which makes it easy enough to navigate through clicks. was an early design choice. I figured that I'd have a lot of tiddlers very quickly (yup)
+[7:19 PM] h0p3: My hierarchy slowly congeals.
+[7:20 PM] h0p3: You make it easy to navigate, and I appreciate that.
+[7:25 PM] h0p3: Maybe importing a bundle based on some tag or filterexpression from your wiki into mine?
+[7:26 PM] h0p3: That doesn't handle everything.
+[7:27 PM] chameleon: some of your stuff is already tagged actually. let me try something here
+[7:28 PM] chameleon: something similar to the Hub tab.
+[7:29 PM] chameleon: I would put your axioms in there (at least as a subdir)
+[7:29 PM] chameleon:
+`2019.09.30`
+was it really that long ago, haha
+[7:29 PM] h0p3: :slight_smile:
+[7:29 PM] h0p3: It has been an insane year.
+[7:30 PM] chameleon: yeah ikr! coming up on my wiki's anniversary actually
+[7:30 PM] chameleon: I'm going to have to do "on this day" like sphyg-friend. hehe
+[7:31 PM] h0p3: Aye. I think that is a valuable tool for everyone.
+[7:33 PM] h0p3: Merging is a problem I don't know how to solve well enough. It may also be possible to store diffs (not full copies like the versioning I've seen so far in TW), and that would allow multiple views of the same object. We could technically do this through git, but in a way, it could just happen inside the wiki itself too.
+[7:40 PM] h0p3: Did you have a good time at FNM?
+[7:40 PM] h0p3: Assuming you had time.*
+[7:42 PM] chameleon: yeah, it was pretty fun
+[7:45 PM] chameleon: came... 6th maybe? they only announced the top 4
+[7:45 PM] chameleon: went against two black/blue milling decks. lost 1:2 to the first, won 2:1 to the second
+[7:45 PM] chameleon: and 2:0 against a little kid, which never makes me feel great =w=.
+[7:46 PM] chameleon: he was playing red white something
+[7:47 PM] chameleon: hubby is building a new deck. gruul shenanigans: https://www.mtggoldfish.com/deck/3179919#paper
+[7:47 PM] h0p3: Rhythm of the Wild is well-costed.
+[7:48 PM] h0p3: This deck is neat.
+[7:49 PM] chameleon: also deconstructing the fairy deck to build https://www.mtggoldfish.com/articles/budget-magic-eight-rare-78-izzet-prowess-standard
+[7:49 PM] chameleon: I'll miss having flyers :upside_down:
+[7:49 PM] chameleon: but in gruul I guess I could sideboard some reachers
+[7:51 PM] chameleon: I just realised that castle garenbrig means I can get elder gargoroth a turn or two early
+[7:51 PM] chameleon: and that card is monstrous haha
+[7:52 PM] chameleon: with rhythm of the wild out... haste trample reach vigilance 6/6 gg no re
+[9:02 PM] h0p3: That Izzet deck fits a classic mold; it's like combo moving toward a Thresh-like strategy (you only have so many cards available to you in the format, and I don't know the meta to say anything specific). Quirion Dryad + Psychatog ("Grow-a-tog") are some of the originals (lots of versions of this). It has a chance to slowroll or just blow its load. It also feels like an Infect deck that benefits from 1cc instant speed hexproofing in a meta that is forced to respond to it with hate.
+[9:08 PM] h0p3: I am surprised to see milling is so big a strategy. That's cool.
+[9:09 PM] h0p3: I assume that kid will be stomping us all some day.
+[9:58 PM] chameleon: Probably haha
+[9:58 PM] chameleon: Yeah. I got down to one card before winning a combat in one game
+"""

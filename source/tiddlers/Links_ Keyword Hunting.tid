@@ -1,0 +1,69 @@
+created: 20190713050309071
+modified: 20210106061513155
+tags: [[Skiddie Tools]] Links Exploration
+title: Links: Keyword Hunting
+
+//Part of curation is being alerted to particular keywords on various parts of the web.//
+
+<br>
+
+https://addons.mozilla.org/en-US/firefox/addon/feedbroreader/
+
+```json
+[{"id":"1609910734075","schema":1,"enabled":true,"fallthrough":true,"name":"Alert","trigger":"1","contexttype":"1","contextvalue":[],"match":"2","conditions":[{"target":"1","mode":"2","value":"h0p3","casemode":"2"},{"target":"1","mode":"2","value":"philosopher.life","casemode":"2"},{"target":"1","mode":"2","value":"ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱","casemode":"2"},{"target":"1","mode":"2","value":"tiddlywiki","casemode":"2"},{"target":"1","mode":"2","value":"wiki.waifu.haus","casemode":"2"},{"target":"1","mode":"2","value":"kickscondor","casemode":"2"},{"target":"1","mode":"2","value":"sphygm.us","casemode":"2"},{"target":"1","mode":"2","value":"hwikiea2zykn5hdkmf4srti5gg","casemode":"2"}],"actions":[{"type":"1","value":""}],"contextvaluetext":[]},{"id":"1609912188891","schema":1,"enabled":true,"fallthrough":true,"name":"Filter Out","trigger":"1","contexttype":"1","contextvalue":[],"match":"3","conditions":[{"target":"1","mode":"2","value":"h0p3","casemode":"2"},{"target":"1","mode":"2","value":"philosopher.life","casemode":"2"},{"target":"1","mode":"2","value":"ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱","casemode":"2"},{"target":"1","mode":"2","value":"tiddlywiki","casemode":"2"},{"target":"1","mode":"2","value":"wiki.waifu.haus","casemode":"2"},{"target":"1","mode":"2","value":"kickscondor","casemode":"2"},{"target":"1","mode":"2","value":"sphygm.us","casemode":"2"},{"target":"1","mode":"2","value":"hwikiea2zykn5hdkmf4srti5gg","casemode":"2"}],"actions":[{"type":"3","value":""}],"contextvaluetext":[]}]
+```
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+<head>
+<title>Feed Subscriptions</title>
+</head>
+<body>
+      <outline text="Nate &#34;nomasters&#34; Toup" title="Nate &#34;nomasters&#34; Toup" type="rss" 
+            xmlUrl="https://nomasters.io/index.xml" htmlUrl="https://nomasters.io/"/>
+  <outline title="4chan" text="4chan">
+      <outline text="/g/ - Technology" title="/g/" type="rss" 
+            xmlUrl="https://boards.4chan.org/g/index.rss" htmlUrl="http://boards.4chan.org/g/./" scanDelay="1"/>
+      <outline text="/b/ - Random" title="/b/" type="rss" 
+            xmlUrl="https://boards.4chan.org/b/index.rss" htmlUrl="http://boards.4chan.org/b/./" scanDelay="1"/>
+      <outline text="/lit/ - Literature" title="/lit/" type="rss" 
+            xmlUrl="https://boards.4chan.org/lit/index.rss" htmlUrl="http://boards.4chan.org/lit/./" scanDelay="1"/>
+      <outline text="/r9k/ - ROBOT9001" title="/r9k/ - ROBOT9001" type="rss" 
+            xmlUrl="https://boards.4chan.org/r9k/index.rss" htmlUrl="http://boards.4chan.org/r9k/./" scanDelay="1"/>
+      <outline text="/ic/ - Artwork/Critique" title="/ic/ - Artwork/Critique" type="rss" 
+            xmlUrl="https://boards.4chan.org/ic/index.rss" htmlUrl="http://boards.4chan.org/ic/./" scanDelay="1"/>
+      <outline text="/pol/ - Politically Incorrect" title="/pol/ - Politically Incorrect" type="rss" 
+            xmlUrl="https://boards.4chan.org/pol/index.rss" htmlUrl="http://boards.4chan.org/pol/./" scanDelay="1"/>
+  </outline>
+</body>
+</opml>
+```
+
+<br>
+
+https://f5bot.com/ 
+
+* find the others
+* h0p3 wiki
+* h0p3's wiki
+* hwikiea2zykn5hdkmf4srti5gg
+* kickscondor
+* philosopher.life
+* sphygm.us
+* waifu.haus
+* ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱
+
+<br>
+
+https://www.google.com/alerts
+
+* "h0p3's wiki"
+* "https://philosopher.life/"
+
+<br>
+
+https://www.talkwalker.com/
+
+* h0p3's wiki
+* philosopher.life

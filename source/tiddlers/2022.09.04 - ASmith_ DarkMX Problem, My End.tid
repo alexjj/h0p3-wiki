@@ -1,0 +1,25 @@
+created: 20220905074426671
+modified: 20220905215822460
+tags: ASmith Chatlog
+title: 2022.09.04 - ASmith: DarkMX Problem, My End
+
+"""
+[14:45:08] [[h0p3]]: [[DarkMX]] working just fine for everyone else? Mine is currently stuck in "Waiting for consensus" on Network and Chat servers. 
+[17:20:25] [[ASmith]]: perhaps you could further clarify your comment some h0p3 ?
+[17:21:24] [[ASmith]]: perhaps you are asking 'Is DarkMX' working, your's is currently stuck in Waiting for Consensus'
+[17:23:03] [[ASmith]]: I've repeatedly pointed out in numerious venues that the Onion Network has been under State Sponsored attacks prior to the Russian-Ukraine proxy war to the current timeframe, as such I have urged DarkMX developers to place the newest torproject router into a new DarkMX release
+[17:25:08] [[ASmith]]: if the Tor router is having problems, be 100% certain to shift to the newest tor router release v0.4.7.10 https://www.torproject.org/download/tor/
+[17:26:01] [[ASmith]]: it is specifically built to defend against the multiple State sponsored attacks on the Onion Network, the Onion Anonymous Servers AND on tor users.
+[17:26:49] [[ASmith]]: I've downloaded the source at that link, compiled it 100% without issues and have upgraded from the most recent tor release to the current on 6 applications spanning two system platforms here
+[17:27:26] [[ASmith]]: Aug 24 01:01:18.719 [notice] Tor 0.4.7.8 running on Linux with Libevent 2.1.11-stable, OpenSSL 1.1.1f, Zlib 1.2.11, Liblzma 5.2.4, Libzstd N/A and Glibc 2.31 as libc.
+[17:27:52] [[h0p3]]: At first, I was only experiencing a partial failure (I could still, for example, reach your chat server). Now, I've got a complete failure to connect to any server, with the "Status" column showing "Waiting for consensus".
+[17:28:02] [[h0p3]]: Currently on tor-0.4.7.10-1
+[17:28:27] [[ASmith]]: and now its...
+[17:28:28] [[ASmith]]: Sep 04 14:27:57.139 [notice] Tor 0.4.7.10 running on Linux with Libevent 2.1.11-stable, OpenSSL 1.1.1f, Zlib 1.2.11, Liblzma 5.2.4, Libzstd N/A and Glibc 2.31 as libc.
+[17:28:54] [[ASmith]]: Sep 04 14:28:22.000 [notice] Bootstrapped 100% (done): Done
+[17:29:15] [[ASmith]]: ok, chores to do
+[17:29:37] [[h0p3]]: Thank you, sir.
+[17:29:54] [[ASmith]]: you'll need to control-C if possible on the tor router and re-run it
+[17:30:18] [[ASmith]]: if that isn't possible, you'd of course need to shut-down DarkMX for 3 min and reboot it 
+[17:42:39] [[ASmith]]: afk
+"""

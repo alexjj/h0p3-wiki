@@ -1,0 +1,47 @@
+created: 20180331003424344
+modified: 20220817041607726
+tags: Computing
+title: NixOS
+
+!! About:
+
+I'm learning Nix.
+
+
+---
+!! Principles:
+
+* Learn Nix.
+
+
+---
+!! Focus:
+
+* Resources:
+** [[Nix Pills|https://nixos.org/nixos/nix-pills/index.html]]
+** https://nixos.wiki/
+** https://nixos.org/nixpkgs/manual/
+** https://nixos.org/nixos/manual/
+** https://nixos.org/nix/manual/
+
+* Tools:
+** https://github.com/jeaye/nixos-in-place
+
+* Log:
+** [[2018.03.30 - NixOS: Intro]]
+** [[2018.04.03 - NixOS: Hyperreading]]
+
+Autogen:
+
+<<list-links "[tag[NixOS]]">>
+
+---
+!! Vault:
+
+* (*crickets*)
+
+
+---
+!! Dreams:
+
+* [[Monsternix]]

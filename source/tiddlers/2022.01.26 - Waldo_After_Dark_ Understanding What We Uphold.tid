@@ -1,0 +1,48 @@
+created: 20220128055726143
+modified: 20220128061843305
+tags: Waldo_After_Dark Chatlog
+title: 2022.01.26 - Waldo_After_Dark: Understanding What We Uphold
+
+"""
+[[Waldo_After_Dark]]: Waldo pulls up a stool and removes foot from mouth...
+[[h0p3]]: Well, I'm listening. I'd like to know your list of ideas of what your ideal dark, decentralized community tooling should be. I respect being concerned with tooling for potatoes and building one's own distro.
+[[Waldo_After_Dark]]: lol potatoes love it
+[[Waldo_After_Dark]]: i typed a bunch in testing but apparently my idea due to current legal situations would somehow make all users liable for files that dont ever hit their system and sadly i can even see that as being true
+[[Waldo_After_Dark]]: i dont want to get anyone in trouble i just want us to protect children we are geeks this is supposed to be our domain of existence
+[[Waldo_After_Dark]]: im being told that {if you read between the lines} that the current case precident set by the system stops us from using p2p at risk of liability if the tools existed to stop it if they were not used
+[[Waldo_After_Dark]]: so that tells me the law is on the side of hurting children and the legal system should be sued for the existence of cp by making illogical laws which make it so
+[[Waldo_After_Dark]]: i see the point about liability
+[[Waldo_After_Dark]]: but i dont see why potential liability for not policing would matter if the files could not be sent to your system
+[[Waldo_After_Dark]]: the ai method to hash based on what i stated should be accurate enough to treat cp as malware and depending where the decision lies is where the liability falls. so if someone were to not use the cp filter they would be liable. but wouldnt that be limited to those sharing cp?
+[[Waldo_After_Dark]]: if it could be made to produce zero false positives then it should work
+[[Waldo_After_Dark]]: id imagine cp would be easier to accuratly detect than some maleware the way im saying.
+[[Waldo_After_Dark]]: so this reduces down to it being the government system being the problem and protecting cp
+[[Waldo_After_Dark]]: its damned if you do or dont from what im being told but i have hope
+[[Waldo_After_Dark]]: who knows right?
+[[Waldo_After_Dark]]: ill be back i have to take a disabled friend to the hospital
+[[Waldo_After_Dark]]: so how is eveyone today? i appologize if i have freaked anybody out. its not my intention to cause problems for anyone
+[[Waldo_After_Dark]]: i was just told ive been up for three days, i need an internal chronometer installed
+[[h0p3]]: I [[hope]] you sleep well, [[Waldo_After_Dark]]. Still thinking about what you've said. My opinion is that the ability to filter/curate from the command line is a non-trivial tool we need. There are reasons we might not want the mechanism built directly into [DarkMX]] itself, but rather only the possibility for such 3rd party tooling to arise.
+[[h0p3]]: I am here to uphold free speech, even of my enemies. We may have some difficulties there.
+[[h0p3]]: ML on a potato may not be such a great idea. It is possible that users would need a logical account or various clouds or communities in which they could borrow the compute (or results) from some other machine for this.
+[[Waldo_After_Dark]]: I want to uphold freespeech as well.
+[[h0p3]]: Yes, sir.
+[[Waldo_After_Dark]]: i feel that if the really harmful stuff isnt stopped then we may reach a point where the world uses what i described to lock all of that down. and it seem to be a sensible thing to protect people from violence
+Dougal Dragon: if the CP isnt stopped it not going be good for the DEV FBI etc soon will crack down hard
+[[Waldo_After_Dark]]: ones rights end where anothers begin and the cp is display of the childs rights being disreguarded for the pleasure of the predator
+Dougal Dragon: you wont see that shit on any torrent sites
+Dougal Dragon: because they get shut down fast
+[[Waldo_After_Dark]]: on one hand, we can block, dissassociate from it, which is ignoring it. that protects us in ways. but it does nothing to protect the victimized. its a trauma that keeps itself in looping cycles
+[[Waldo_After_Dark]]: im not so sure where the right, obligation or liability belongs now. but i know where it should belong
+[[h0p3]]: If any, what do you think about the difference between the nature of political rights and moral rights?
+Dougal Dragon: only issue i have is the CP assholes
+[[Waldo_After_Dark]]: i think that we must respect life and children because the children dont have a fighting chance. the only way to do that is to make trafficking not profitable or easily possible at a frame by frame granularity hash level to give people who dont want cp a right to not be associated and even stop those types of files only from transit
+[[Waldo_After_Dark]]: the law wont allow human civs to inspect and most wouldnt want to see it anyway so an ai limited in task and function could do it but it could not be allowed to be known about by the fed
+[[Waldo_After_Dark]]: the moment any part of mainstream society knows it exists then say hello to orwells nightmare
+[[Waldo_After_Dark]]: then they would say its infringment of speech because they dont have that tool somebody else does and they would not want that and would employ the world computational power even quantum leveraged ai to break or crack it open
+[[Waldo_After_Dark]]: so it has to be everywhere but nowhere
+Dougal Dragon: i guarantee you it not on any sites i use LOL
+Dougal Dragon: they say directly you post such shiut they do all they can get you arrested
+[[Waldo_After_Dark]]: no the tool not cp
+Dougal Dragon: never going be found on iptorrents etc EVER
+"""

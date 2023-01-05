@@ -1,0 +1,113 @@
+created: 20181215153022475
+creator: sphygmus
+title: $:/plugins/sphygmus/sbuttonsV2/buttonAllInOne
+type: text/vnd.tiddlywiki
+
+\define WRtitle() <$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##WRtitle}} />
+\define CDtitle() <$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##CDtitle}} />
+\define PItitle() <$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##PItitle}} />
+\define WRtags() <$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##WRtags}} />
+\define CDtags() <$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##CDtags}} />
+\define PItags() <$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##PItags}} />
+
+\define WR_append()
+<!--
+	We've hit the big time, baby! Same exact building blocks as before; we're just calling them with different settings and different macro names.
+	
+	Note that we're wikifying the titles in a single line macro now, just to save space. The <<WRtags>> etc macros aren't actually used - I was experimenting with using today's date as a tag, but it wouldn't combine with text and broke the ability to use [[this feature]] to make tags with spaces.
+
+--><$vars front="* [[" back="]]"><$wikify name=WR_title text=<<WRtitle>> ><$list filter={{$:/plugins/sphygmus/sbuttonsV2/dick##WRlogs}}><$view field="text" />
+<<front>><<WR_title>><<back>></$list></$wikify></$vars>
+\end
+
+\define CD_append()
+<$vars front="* [[" back="]]"><$wikify name=CD_title text=<<CDtitle>> ><$list filter={{$:/plugins/sphygmus/sbuttonsV2/dick##CDlogs}}><$view field="text" />
+<<front>><<CD_title>><<back>></$list></$wikify></$vars>
+\end
+
+\define PI_append()
+<$vars front="* [[" back="]]"><$wikify name=PI_title text=<<PItitle>> ><$list filter={{$:/plugins/sphygmus/sbuttonsV2/dick##PIlogs}}><$view field="text" />
+<<front>><<PI_title>><<back>></$list></$wikify></$vars>
+\end
+
+\define WR_list(delta)
+<$vars front="* [[" back="]]"><$list filter="$delta$"><<front>><$view field="title" /><<back>>
+** 
+</$list></$vars>
+\end
+
+\define testButton()
+<!--
+	SO MUCH WIKIFY! Thank goodness linebreaks don't affect anything in this macro; they help keep things a little bit organized.
+	
+	Dictionary references come in //strong// for us here - with so many settings, it's much much easier than creating a new tiddler for every single config option.
+-->
+<$wikify name=WRLogLocation text={{$:/plugins/sphygmus/sbuttonsV2/dick##WRlogs}} >
+<$wikify name=WRLogAppend text=<<WR_append>> >
+<$wikify name=WR_title text=<<WRtitle>> >
+<$wikify name=WR_text text="""<$macrocall $name="WR_list" delta=<<myFilter>> />""" >
+<$wikify name=WR_tags text=<<WRtags>> >
+
+<$wikify name=CDLogLocation text={{$:/plugins/sphygmus/sbuttonsV2/dick##CDlogs}} >
+<$wikify name=CDLogAppend text=<<CD_append>> >
+<$wikify name=CD_title text=<<CDtitle>> >
+<$wikify name=CD_tags text=<<CDtags>> >
+
+<$wikify name=PILogLocation text={{$:/plugins/sphygmus/sbuttonsV2/dick##PIlogs}} >
+<$wikify name=PILogAppend text=<<PI_append>> >
+<$wikify name=PI_title text=<<PItitle>> >
+<$wikify name=PI_tags text=<<PItags>> >
+
+<!-- Depending on your open-tiddlers-in-story-river settings, you might want to switch the order of these around. My set-up is "open above the current tiddler" from within the story river, so clicking this button ends up with the Wiki Review above Carpe Diem above Prompted Introspection. The reverse would be true with "open below the current tiddler". -->
+
+<$action-setfield $tiddler=<<PILogLocation>> text=<<PILogAppend>> />
+<$action-sendmessage $message="tm-new-tiddler" title=<<PI_title>> tags={{$:/plugins/sphygmus/sbuttonsV2/dick##PItags}} />
+
+<$action-setfield $tiddler=<<CDLogLocation>> text=<<CDLogAppend>> />
+<$action-sendmessage $message="tm-new-tiddler" title=<<CD_title>> tags={{$:/plugins/sphygmus/sbuttonsV2/dick##CDtags}} />
+
+<$action-setfield $tiddler=<<WRLogLocation>> text=<<WRLogAppend>> />
+
+<$reveal type="nomatch" state=<<WR_title>> text="">
+<$action-sendmessage $message="tm-new-tiddler" title=<<WR_title>> tags={{$:/plugins/sphygmus/sbuttonsV2/dick##WRtags}} />
+</$reveal>
+<$reveal type="match" state=<<WR_title>> text="">
+<$action-sendmessage $message="tm-new-tiddler" title=<<WR_title>> tags={{$:/plugins/sphygmus/sbuttonsV2/dick##WRtags}} text=<<WR_text>> />
+</$reveal>
+
+</$wikify></$wikify></$wikify></$wikify></$wikify></$wikify></$wikify></$wikify></$wikify></$wikify></$wikify></$wikify>
+\end
+
+<$set name="myFilter" value={{$:/plugins/sphygmus/sbuttonsV2/dick##WRfilter}} >
+
+<p class="center" style="font-size:1.5em;"><$button actions=<<testButton>> >All In One Button</$button></p>
+
+</$set>
+
+---
+
+* //Filter to be used://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="WRfilter" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Title of wiki review tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="WRtitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Wiki review tags://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="WRtags" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Wiki review log location://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="WRlogs" class="tc-edit-field-value" class="reviewButton" tag=input />
+** {{$:/plugins/sphygmus/sbuttonsV2/dick##WRlogs}}
+*
+* //Title of carpe diem tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="CDtitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Carpe diem tags://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="CDtags" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Carpe diem log location://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="CDlogs" class="tc-edit-field-value" class="reviewButton" tag=input />
+** {{$:/plugins/sphygmus/sbuttonsV2/dick##CDlogs}}
+*
+* //Title of prompted introspection tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="PItitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Prompted introspection tags://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="PItags" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Prompted introspection log location://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="PIlogs" class="tc-edit-field-value" class="reviewButton" tag=input />
+** {{$:/plugins/sphygmus/sbuttonsV2/dick##PIlogs}}

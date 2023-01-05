@@ -1,0 +1,35 @@
+caption: Add remove fields
+created: 20190314051054548
+creator: Mohammad
+modified: 20190317081419411
+modifier: Mohammad
+tags: $:/tags/Commander/FieldOps
+title: $:/plugins/kookma/commander/ui/fieldops/add-remove-fields
+
+<$edit-text
+tiddler="$:/temp/commander/field-add"
+tag="input"
+default=""
+class="cm-txt-area"
+placeholder=" new field"
+/> 
+<$button class="cm-btn"> Add new field
+<$macrocall $name="add-new-field-bulk" newField={{$:/temp/commander/field-add}} />
+</$button>
+
+<$button class="cm-btn"> Remove old field
+<$macrocall $name="remove-old-field-bulk" oldField={{$:/temp/commander/field-remove}} />
+</$button>
+<$select class="cm-select-wd" tiddler="$:/temp/commander/field-remove" default=<<dummy>>>
+<$list filter="[subfilter{$:/state/commander/add-remove-fields/fields}]" >
+<option><$view field="title"/></option>
+</$list>
+</$select> &nbsp; 
+<$checkbox 
+ tiddler="$:/state/commander/add-remove-fields/fields" 
+ field="text" 
+ checked="[[$:/temp/commander/selected-titles]indexes[]fields[]sort[]] -title -tags" 
+ unchecked="[[$:/temp/commander/selected-titles]indexes[]fields[]sort[]] -[[$:/plugins/kookma/commander/empty-tiddler]fields[]]"
+> Include system fields?</$checkbox>
+
+

@@ -1,0 +1,61 @@
+aliases: "/light" ᛝ
+created: 20210207211359035
+modified: 20210922013133387
+tags: [[Root User]] Constellations FTO [[FTO Mode: P2P]] 𝕱𝕴𝕽𝕰🔥 [[FTO Mode: Alien]] Diamond Nifty
+title: ᛝLightᛝ
+
+//I know. I love you. All the way down, no matter what. I have bent over backwards to see you in the best light I can.//
+
+<center>{{YinYang-Mondala}}</center>
+
+<<<
+I have so much to say to you that I am afraid I shall tell you nothing.
+
+-- Fyodor Dostoyevsky, //The Brothers Karamazov//
+<<<
+
+<<<
+"""
+I don't know what to do without you
+I don't know where to put my hands
+I've been trying to lay my head down
+But I'm writing this at three AM
+
+I don't need the world to see
+That I've been the best I can be, but
+I don't think I could stand to be
+Where you don't see me
+
+On sunny days I go out walking
+I end up on a tree-lined street
+I look up at the gaps of sunlight
+I miss you more than anything
+
+I don't need the world to see
+That I've been the best I can be, but
+I don't think I could stand to be
+Where you don't see me
+
+And autumn comes when you're not yet done
+With the summer passing by, but
+I don't think I could stand to be
+Where you don't see me
+"""
+<<<
+
+<$button class="tc-btn-invisible" popup=<<qualify "$:/temp/ᛝLightᛝ">>>
+
+Contextlink: [search:text[ᛝLightᛝ]]
+</$button>
+<$reveal type="nomatch" state=<<qualify "$:/temp/ᛝLightᛝ">> text="">
+
+<$list filter="[search:text[ᛝLightᛝ]] +[sort[title]]" emptyMessage="">
+<$link to={{!!title}}><$view field="title"/></$link>
+<$context length=80 term="ᛝLightᛝ"/>
+<br>
+</$list>
+
+</$reveal>
+
+
+<<list-links "[tag[ᛝLightᛝ]]">>

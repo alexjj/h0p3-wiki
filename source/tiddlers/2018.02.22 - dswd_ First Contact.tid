@@ -1,0 +1,62 @@
+created: 20210210195615113
+modified: 20210210195921050
+tags: dswd Note To
+title: 2018.02.22 - dswd: First Contact
+
+I adore this software. I'm a complete noob. I really want to run it on my RPi and my phone. I've been unable to cross-compile it (and I even tried compiling on the RPi). Here is a sample output:
+
+<<<
+"""
+    $ cargo build --target=armv7-unknown-linux-gnueabihf
+    Compiling vpncloud v0.8.1 (file:///home/h0p3/vpncloud.rs)
+    error: failed to run custom build command for vpncloud v0.8.1 (file:///home/h0p3/vpncloud.rs)
+    process didn't exit successfully: /home/h0p3/vpncloud.rs/target/debug/build/vpncloud-641c68931705eb78/build-script-build (exit code: 101)
+    --- stdout
+    TARGET = Some("armv7-unknown-linux-gnueabihf")
+    OPT_LEVEL = Some("0")
+    TARGET = Some("armv7-unknown-linux-gnueabihf")
+    HOST = Some("x86_64-unknown-linux-gnu")
+    TARGET = Some("armv7-unknown-linux-gnueabihf")
+    TARGET = Some("armv7-unknown-linux-gnueabihf")
+    HOST = Some("x86_64-unknown-linux-gnu")
+    CC_armv7-unknown-linux-gnueabihf = None
+    CC_armv7_unknown_linux_gnueabihf = None
+    TARGET_CC = None
+    CC = None
+    HOST = Some("x86_64-unknown-linux-gnu")
+    CROSS_COMPILE = None
+    TARGET = Some("armv7-unknown-linux-gnueabihf")
+    HOST = Some("x86_64-unknown-linux-gnu")
+    CFLAGS_armv7-unknown-linux-gnueabihf = None
+    CFLAGS_armv7_unknown_linux_gnueabihf = None
+    TARGET_CFLAGS = None
+    CFLAGS = None
+    PROFILE = Some("debug")
+    running: "arm-linux-gnueabihf-gcc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-march=armv7-a" "-I" "src" "-o" "/home/h0p3/vpncloud.rs/target/armv7-unknown-linux-gnueabihf/debug/build/vpncloud-6ec0f618f669dc21/out/src/c/tuntap.o" "-c" "src/c/tuntap.c"
+    exit code: 0
+    TARGET = Some("armv7-unknown-linux-gnueabihf")
+    TARGET = Some("armv7-unknown-linux-gnueabihf")
+    HOST = Some("x86_64-unknown-linux-gnu")
+    AR_armv7-unknown-linux-gnueabihf = None
+    AR_armv7_unknown_linux_gnueabihf = None
+    TARGET_AR = None
+    AR = None
+    TARGET = Some("armv7-unknown-linux-gnueabihf")
+    TARGET = Some("armv7-unknown-linux-gnueabihf")
+    running: "ar" "crs" "/home/h0p3/vpncloud.rs/target/armv7-unknown-linux-gnueabihf/debug/build/vpncloud-6ec0f618f669dc21/out/libtuntap.a" "/home/h0p3/vpncloud.rs/target/armv7-unknown-linux-gnueabihf/debug/build/vpncloud-6ec0f618f669dc21/out/src/c/tuntap.o"
+    exit code: 0
+    TARGET = Some("armv7-unknown-linux-gnueabihf")
+    cargo:rustc-link-lib=static=tuntap
+    cargo:rustc-link-search=native=/home/h0p3/vpncloud.rs/target/armv7-unknown-linux-gnueabihf/debug/build/vpncloud-6ec0f618f669dc21/out
+
+    --- stderr
+    make: *** No rule to make target 'clean'. Stop.
+    sh: 0: Can't open autogen.sh
+    sh: 0: Can't open configure
+    make: *** No targets specified and no makefile found. Stop.
+    thread 'main' panicked at 'called Result::unwrap() on an Err value: Error { repr: Custom(Custom { kind: InvalidInput, error: StringError("the source path is not an existing regular file") }) }', /checkout/src/libcore/result.rs:916:5
+    note: Run with RUST_BACKTRACE=1 for a backtrace.
+"""
+<<<
+
+Can anyone point me in the right direction?

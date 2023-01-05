@@ -1,0 +1,6 @@
+created: 20190214135831279
+description: {{$:/language/Filters/SessionTiddlers}}
+filter: [haschanged[]]
+modified: 20190214135859202
+tags: $:/tags/Commander/Filter
+title: $:/plugins/kookma/commander/filters/SessionTiddlers

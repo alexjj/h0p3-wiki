@@ -1,0 +1,63 @@
+created: 20221205072014112
+modified: 20221205132231731
+tags: fourmyle57 Note From
+title: 2022.12.05 - fourmyle57: Vision
+
+//I've reformatted.//
+
+Replies inline
+
+> //I'm thinking slowly in this note I'm drafting in the open. I continue to reveal my retardations to you. Disclosure is hard a problem. I'm autistic AF. You'll have to help me figure out what we're talking about and how we should do so. I appreciate your patience with me.//
+
+I'm def on the spectrum too, mine is more from being raised old school in rural Appalachia and being Scotts-Irish though.  Harder to like people that weren't from a place like that. Definitely actually have ADHD too. I am very patient.
+
+> We're storytellin' and interpretaytin' machines. It is not easy to engage in morally justified engineering these days. Maybe we should consider collaborating, in part, by writing outloud about the qualitative aspects of what we're doing here. Sometimes, there's no substitute for experience. If you consider such dogfooding unjustified, a waste of our time, or unacceptably performative, then we can work to avoid it.
+
+Yep, designing this and thinking about what users actually want is key. A prototype should be built with off the shelf tools to start and we can make things custom later. It's easier to get started and stay motivated if we leverage some things as primitives like Wireguard.
+
+> As part of thinking about DHTs, I'm also here to think about what consists in a morally justified darknet with you. Perhaps we should consider what consists in [[trust]] and justified [[paranoia|2022.12.02 - Aether: Hiding Whonix]]. I can imagine you have a great deal to say about the topic, but it also might not be something you want to speak about publicly. For this project, I think it makes sense for us to pursue radical transparency from the beginning, though I seek to maintain your [[anonymity]].
+
+Agree, radical transparency is a value of mine. Staying anon on this project is important because if we actually pull it off then ((they)) won't be able to twist our arm into compromising the system. For me, a darknet is moral even if some users are evil. It's a trade off and evil users use the current Internet for child porn etc. We aren't adding that. This balances out because good users could use the system for noble purposes likes revolutions. It's a wash.  No state, or mob, should be able to delete your ideas from the darknet no matter how vile they think they are. Federation doesn't work either for the same reason the ancient Greeks knew direct democracy doesn't work. It's mob rule. Only the owner of content should decide who its shared with or if it's public or if it should be deleted.
+
+> Not just schizo, but ultimately untrained. I think I can only serve as a source of intuition. It quickly becomes black boxes all the way up and down to me. If I served as your retarded rubberduck little brother, I will have been useful.
+
+You certainly know a lot more about the scene than I do, just starting to get my feet wet. Combined with my "big tech" dist systems experience and mobile dev experience we should make a nice team. You also have recruiting of other anons locked down. We will need to make a community.
+
+> I don't know how cryptography works well enough, and I really don't understand more than the basic concepts of linear algebra. I do not know how much linear algebra or the mathematics of cryptography will improve one's ability to construct more secure or performant software in this space. As I found with [[Loup Vaillant]], even the ability to implement primitives well (better than the cryptographers themselves, I suggest) doesn't seem to entail what may be a satisfying understanding of the topic. Knowing when and where to use primitives (or well-audited protocol or frameworks) wisely seems a hard enough task in the first place (there are good classes for this). However, I could easily imagine that understanding the mathematics may provide many tacit connections and inferences. I am not nearly as skilled in computers or mathematics as you (and I never will be, I believe). There may be other good reasons I'm missing as well, including critical tasks outside of cryptography (seems exceptionally useful in many high-performance domains). I am blind, and I often must almost blindly trust the networks of experts whose signals eventually affect me.
+
+I have been training my math the past few months and will continue, knowing how cryptography works won't be important at the beginning but could be down the road. I have some training in this area from college but it's been a while. It's hard to promise users something is secure if you don't understand it. 
+
+> Please take all the time you need. I'm brainstorming here, and I have been for a long time. I work on a lot of different problems. This project continues to crop up as as being [[salient]] to [[justice]]. I am not in a rush, and I'm generally buried in the world. My work offline is emotionally intense and time-consuming as well. We have time.
+
+Great, this is also a long term thing for me. My day job keeps me quite busy. The key will be to make slow and steady progress. Research and knowledge is key to something like this too.
+
+<<<
+I may be misunderstanding you. Please correct me. I think Wireguard would be a valuable tool, yes. And, the seamlessness is crucial, yes. For where it should be used, I think there are good reasons to prefer Wireguard over other options as well. At the very least, I think offering a few key out-of-the-box Wireguard VPN configurations for some of the networks we'd build would be necessary (what the god-tier programmer of zerotier wished he could build). I suggest Wireguard is something we'd be using to build some types of networks on top of the DHT, and I'll say the same of other types of tools, like shadowsocks. Random tools for thought:
+
+* https://github.com/manuels/wireguard-p2p
+* https://github.com/dswd/vpncloud
+* https://github.com/yggdrasil-network/yggdrasil-go
+* https://www.v2fly.org/
+* https://git.2f30.org/ratox/file/README.html
+* https://spork.sh/
+
+Collectively maintaining the ability to even begin to discover and connect to other users in almost arbitrary topologies is the problem I think we're facing. I think it's really hard to build a safe, tough, high-performance DHT that has avoided decentralization as far as is feasible. I still think it should be from scratch, but perhaps Wireguard would be the preferred base for the edge layer. There are SSH options that seem decent too. 
+
+I also like relying upon tools that are so thoroughly understood and trusted by others. So, keep going on the Wireguard idea, please. Tell me what you see. 
+<<<
+
+The reason for NAT is IPv4 started to run out of addressed. ISPs quit making it easy for residential users to have static IPs years ago. If a user has a static IP they can easily self host things. The Internet is already largely decentralized besides DNS. 
+
+Wireguard is the easiest way I know of to self host something without a static IP. All you need to do is setup an (free tier) AWS EC2 instance as the Wireguard service and tunnel to it from the server in your basement. Add a reverse proxy like NGINX and you can host services from home reliably. At that point it's like you have a static IP. We could wrap this up in an App for mobile users as long as they provided their own AWS account (need a credit card linked, but the node is free tier) with 1 button. 
+
+Envisioning this as something like p2p Dropbox. I just want to take photos with my phone and they go to my phone's storage. Then they sync to the p2p dht cloud we are building. I can select who to share them with or if they should be public.  Wireguard makes this "easy". Hopefully abstracted from the user, all that needs to happen is I need to associate my Wireguard VPC/VLAN with another by adding a Wireguard pub key. 
+
+The trouble for mobile users still is availability. Mobile clients should be thin like you mentioned.  They are the source of truth for that users data but that data syncs to the system. When another user shares something to a mobile user the system only needs to send that users pub key and "link" the VPC each user is in and notification to download the shared data.  Once the mobile app receives this message and the VPCs are peered it can simply download the file to disk. 
+
+Perhaps there many DHTs.  The inner main DHT values are VPC CIDR ranges. Each range is another DHT with wiles.  The outter DHTs can be linked via Wireguard or peering etc.  This is not dissimilar from the goals of AWS PrivateLink which is trying to link business VPCs on AWS together.  I can draw this later to make it easier to understand what I am thinking.
+
+> [[Tox|Contact h0p3]]: FDD7005639C618263AB2EEDAB974F7576C7C0DED6217EED9E9DC0344C622E72AEEF7055F8B4D
+
+> I appreciate that it can be routed over Tor. Works well in Whonix too, my friend.
+
+Will set this up when I can.

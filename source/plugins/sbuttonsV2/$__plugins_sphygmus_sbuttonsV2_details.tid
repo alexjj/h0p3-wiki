@@ -1,0 +1,21 @@
+created: 20181215153022475
+creator: sphygmus
+title: $:/plugins/sphygmus/sbuttonsV2/details
+type: text/vnd.tiddlywiki
+
+!! Button Descriptions:
+
+; [[Append Button|$:/plugins/sphygmus/sbuttonsV2/buttonAppend]]
+: This is a reference button, demonstrating the construction of macros needed for silently appending a bulleted, linked title to another tiddler.
+; [[Wiki Review Button|$:/plugins/sphygmus/sbuttonsV2/buttonWikiReview]]
+: Another reference button, this time demonstrating the insertion of a hard-coded double-bulleted-linked-list of tiddlers, from a specific filter, into a new tiddler.
+; [[Append & Wiki Review Button|$:/plugins/sphygmus/sbuttonsV2/buttonAppendWikiReview]]
+: This button combines the append button and wiki review button concepts -- it creates a new hard-linked Wiki Review tiddler and then silently appends the new tiddler's title to a second tiddler.
+; [[All-In-One Button|$:/plugins/sphygmus/sbuttonsV2/buttonAllInOne]]
+: This button is a replica of the [[All-In-One River button|$:/plugins/sphygmus/reviewButton/button: AIO River]] from my previous plugin. It creates and opens in the story-river a hard-linked Wiki Review tiddler and two new tiddlers based on the given settings.
+; [[All-In-One Page Button|$:/plugins/sphygmus/sbuttonsV2/pageButtonAIO]]
+: This button is a version of the All-In-One button that is suitable for embedding into the sidebar, and can also serve as a template for embedding other buttons as page controls.
+; [[Hardcoded List Button|$:/plugins/sphygmus/sbuttonsV2/buttonHardcodedList]]
+: This button creates a new tiddler in the story river with a generic hard-coded list of links, based on a given filter.
+; [[Monthly Audit Button (4 h0p3)|$:/plugins/sphygmus/sbuttonsV2/buttonMonthlyAudit(4h0p3)]]
+: This button expands on the Hardcoded List button to create a new hard-coded link list tiddler formatted in h0p3's monthly audit format.

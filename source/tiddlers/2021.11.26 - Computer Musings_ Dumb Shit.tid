@@ -1,0 +1,45 @@
+created: 20211127033319937
+modified: 20211127191738421
+tags: Dreams [[Wiki Audit]] [[Computer Musings]]
+title: 2021.11.26 - Computer Musings: Dumb Shit
+
+Something almost useless. Without having to install anything like RHash, I'm looking for legible, concise, GNUish portable one-liner quine+ (I want to embed the one-liner directly in the script) that generates a script that includes the recursive checksums of everything except itself and autoupdates for new files. Ideally, it's an aliasable, threaded one-line command to rule them all. Any way to escape ugly escapes? I understand this tripwire is still deeply flawed, but I also think it's better than nothing at handling drive corruption (this is a drive I want to keep long-term, which a thumbdrive isn't designed for) and some malware vectors (and, this is the kind of drive that may encounter it, though perhaps I'm just being too lazy) for [[The Bootable USB Thumbdrive]].
+
+Tried xargsing it on the initial run, but it actually costs more CPU and time, lmao.
+
+```bash
+(echo -e '#!/bin/bash\n' ; echo -e 'md5sum -c checksum.sh\n' ; echo "<< /////" ; find "$(pwd)" ! -iname "checksum.sh" -type f -print0 | xargs -L1 -P24 -0 md5sum ; echo "/////") > checksum.sh && chmod +x checksum.sh
+```
+
+Went through some very odd approaches to this problem, and there's nothing that quite fits to my taste (I like having it all rolled into one, ofc, just like the ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱). Well, at least we have an abomination in [[One-Line CLI Wonders]] now. That too got cleaned up.
+
+In any case, I'm thinkin' I should consider reaching out to Ventoy for some suggestions. They've got something special (and, I'd like to see hardware built for it too).
+
+<br>
+
+Tried to get this quasi-quine working, but inline is hard to hack into TW5 by design. Technically, it comes up before [[Wiki.gif]] can load (for very slow connections), but it breaks TW.
+
+```javascript
+.<script>
+eval(z='p="<"+"pre>"/* ,.oq#+     ,._, */;for(y in n="zw24l6k\
+4e3t4jnt4qj24xh2 x/* =<,m#F^    A W###q. */42kty24wrt413n243n\
+9h243pdxt41csb yz/* #K       q##H######Am */43iyb6k43pk7243nm\
+r24".split(4)){/* dP      cpq#q##########b, */for(a in t=pars\
+eInt(n[y],36)+/*         p##@###YG=[#######y */(e=x=r=[]))for\
+(r=!r,i=0;t[a/*         d#qg `*PWo##q#######D */]>i;i+=.05)wi\
+th(Math)x-= /*        aem1k.com Q###KWR#### W[ */.05,0<cos(o=\
+new Date/1e3/*      .Q#########Md#.###OP  A@ , */-x/PI)&&(e[~\
+~(32*sin(o)*/* ,    (W#####Xx######.P^     T % */sin(.5+y/7))\
++60] =-~ r);/* #y    `^TqW####P###BP           */for(x=0;122>\
+x;)p+="   *#"/* b.        OQ####x#K           */[e[x++]+e[x++\
+]]||(S=("eval"/* l         `X#####D  ,       */+"(z=\'"+z.spl\
+it(B = "\\\\")./*           G####B" #       */join(B+B).split\
+(Q="\'").join(B+Q/*          VQBP`        */)+Q+")//m1k")[x/2\
++61*y-1]).fontcolor/*         TP         */(/\\w/.test(S)&&"#\
+03B");document.body.innerHTML=p+=B+"\\n"}setTimeout(z)')//
+</script>
+```
+
+<br>
+
+Just lookin' at the titlebar, and I think [[Matrix|The Matrix]] rain Zalgo might be possible. That would be delicious.

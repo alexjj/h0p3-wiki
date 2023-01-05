@@ -1,0 +1,71 @@
+created: 20221128065801345
+modified: 20221128065833837
+tags: Jaxx ASmith groupchat
+title: 2022.11.23 - Jaxx: Securing Demonsaw
+
+"""
+[01:36:28] [[Jaxx]]: to bad there's no similar app like darkmx that is open source.. at least I havent found any yet or at all
+[01:36:57] [[ASmith]]: demon saw ?
+[01:38:04] [[ASmith]]: https://www.demonsaw.com/
+[01:40:44] [[Jaxx]]: i have heard of it,but never tried
+[01:42:27] [[Jaxx]]: i see on a video where it has something called "Groups".. idk if that has to do with chat.. because I cant see anything about any chat on it from a video
+[01:55:50] [[ASmith]]: its open source!
+[01:56:02] [[ASmith]]: has a github and twitter account
+[01:57:02] [[Jaxx]]: i dont see any place to add host 127.0.0.1 and the port 9050 though
+[02:50:12] [[Jaxx]]: So how do i configure demonsaw to use 127.0.0.1 and port 9050?
+[03:08:54] [[ASmith]]: well it sounds like you are wanting to proxy it over tor?
+[03:09:12] [[ASmith]]: perhaps a shout out to the github demon saw would prove helpful Jaxx?
+[03:09:47] [[Jaxx]]: probably,cuz there is nobody on demonsaw.. at least not in any rooms I have listed
+[03:09:48] [[ASmith]]: https://github.com/demonsaw
+[03:10:18] [[ASmith]]: code was updated on Oct 25 2021, so its current
+[03:10:49] [[ASmith]]: https://www.titan.wiki/
+[03:11:22] [[ASmith]]: questions are suggested to https://twitter.com/demon_saw
+[03:11:57] [[ASmith]]: email developer at eijah@demonsaw.com
+[03:12:17] [[ASmith]]: gd'nite Jaxx, long day, need some ZZZZZZZzzzzzzzzzzzzzzz's
+[03:12:20] [[ASmith]]: cya
+[03:12:22] [[ASmith]]: afk
+[03:13:08] [[Jaxx]]: g'night
+[22:06:48] [[h0p3]]: `proxychains /home/h0p3/bin/demonsaw/demonsaw &` seems to work fine for forcing demonsaw over Tor, btw.
+[00:55:47] [[ASmith]]: Thanks h0p3 , I haven't looked at proxychains in a very long time, Jaxx will be happy to hear that
+[01:04:55] [[Jaxx]]: :D
+[01:29:28] RedEagle: A_Smith: hello agent
+[01:30:03] [[ASmith]]: greetings and wb RedEagle 
+[01:30:04] RedEagle: Jaxx: hello
+[01:30:10] RedEagle: hey! 
+[01:30:11] [[ASmith]]: Hi Jaxx, and h0p3 
+[01:30:51] [[ASmith]]: have you watched the popular TV sci-fi series Warehouse 13 ?
+[01:31:44] RedEagle: yes proxychains very goood.. but use proxychanins-ng  which is active now.. 
+[01:31:55] RedEagle: ng new generation 
+[01:37:30] [[ASmith]]: https://github.com/rofl0r/proxychains-ng
+[01:39:12] RedEagle: you can install through apt
+[01:40:27] RedEagle: about to flood text here ...  beware...  tighten your seat-belt 
+[01:40:36] RedEagle: ~$ apt show proxychains4
+[01:40:36] RedEagle: Package: proxychains4
+[01:40:36] RedEagle: Version: 4.14-3
+[01:40:36] RedEagle: Priority: optional
+[01:40:36] RedEagle: Section: net
+[01:40:39] RedEagle: Source: proxychains-ng
+[01:40:41] RedEagle: Maintainer: Boyuan Yang <byang@debian.org>
+[01:40:44] RedEagle: Installed-Size: 45.1 kB
+[01:40:46] RedEagle: Provides: proxychains, proxychains-ng
+[01:40:49] RedEagle: Depends: libproxychains4 (= 4.14-3), libc6 (>= 2.4)
+[01:40:51] RedEagle: Breaks: proxychains (<< 3.1-8)
+[01:40:54] RedEagle: Replaces: proxychains
+[01:40:56] RedEagle: Homepage: https://github.com/rofl0r/proxychains-ng
+[01:40:59] RedEagle: Download-Size: 14.4 kB
+[01:41:01] RedEagle: APT-Manual-Installed: yes
+[01:41:04] RedEagle: APT-Sources: http://deb.debian.org/debian bullseye/main amd64 Packages
+[01:41:06] RedEagle: Description: redirect connections through socks/http proxies (proxychains-ng) Proxychains is a UNIX program, that hooks network-related libc functions in dynamically linked programs via a preloaded DLL (dlsym(), LD_PRELOAD) and redirects the connections through SOCKS4a/5 or HTTP proxies. It supports TCP only (no UDP/ICMP etc). . This project, proxychains-ng, is the continuation of the unmaintained
+[01:41:12] RedEagle:  proxychains project (known as proxychains package in Debian).
+[01:41:13] [[ASmith]]: apt install proxychains4
+[01:41:23] RedEagle: yeah
+[01:41:53] [[ASmith]]: proxychains4_4.14-1_amd64.deb
+[01:42:10] RedEagle: yes.
+[01:42:28] RedEagle: install through apt..  official repo
+[01:42:52] RedEagle: you are on mint .. it may be already there. being debian is grandaddy of mint.. 
+[01:43:18] [[ASmith]]: yes its in the mint and ubuntu repo
+[01:43:30] [[ASmith]]: and this workstation has it installed
+[01:43:37] RedEagle: goood.. 
+[08:51:37] [[h0p3]]: Aye, I'm on proxychains-ng 4.16-2; it's what's offered in Arch's community repo. 
+[09:05:01] [[h0p3]]: I should also say that one cannot [[share]] files on demonsaw over Tor, though you can download them. =/. All other functions seem to work though.
+"""

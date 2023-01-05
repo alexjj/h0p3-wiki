@@ -1,0 +1,69 @@
+created: 20201011053547872
+modified: 20201012075303525
+tags: Outopos [[Carpe Tempus Segmentum]] Dreams [[Computer Musings]]
+title: 2020.10.11 - Carpe Tempus Segmentum: A Singular Yike
+
+* Read+Write
+* Spoke with my Light today.
+** I feel much further over the hump now in voice. 
+** It was exactly what I needed. 
+* Workin' on [[m16]]
+* Fireman Time!
+* Read
+* Tried sleeping at 6, but probably didn't conk out until 7
+* Woke at 1:30
+* [[Morning Routine]]
+* Bugged my wife
+* Fireman Time!
+* Read+Write
+* [[Family Time]] @ 3:30?
+* 1-on-1s
+** Discussion of i2p and Tor (and the centralization problem) with son.
+*** Things we've talked about several times. Seems to click better over the years. 
+** Daughter found the Beaker blowup while troubleshooting her own wiki problem. 
+* Reading The Wikis
+** I didn't fully read mine. Was lost wandering. Lots of side discussions.
+*** My daughter controlled the timers for us.
+* [[JRE]] Called Us
+** Glad he joined us. I think he felt bad about interrupting, but he shouldn't. He's clearly part of our family too.
+** He spoke with the offspring almost exclusively. 
+** We rehearse our stories with each other. It's special to watch.
+* [[TTP]]s
+** We had some difficulty about 8-8:30. It was not wise to debate with me there. Now they are will accountable (I will not hold my breath though).
+** Still aiming for them to run.
+* Reading The Wikis
+** Miss having my daughter in Discord, but her choice.
+* Nightwalk
+** Wife didn't want to hit the trail, but we walked around the neighborhood. 
+** A discussion of souls, unpredicted.
+* //Skintime//
+* Read+Write
+
+!! [[Computer Musings]]:
+
+* After thinking about what [[ASmith]] said, I've decided to give i2pd yet another shot. 
+** Confs in `/etc/i2pd/`
+** It's noice. Aint the resource whore that the java client has always been. `/shakes-fist`
+*** 5% CPU is acceptable, especially because the memory footprint has shrunk beautifully. Still a long way to go before you IoT on i2p well, right? Currently at least 80% bootstrapped is my guess, still drinking through a straw though (it never did abuse threading enough, but FOSS syncing on that network [and the difference in torrenting vs everything else], even by hand, would be powerful). I'm [[grateful]] to wait here too.
+* `opera --proxy-server="http://127.0.0.1:4444"`
+* crontab a script for `cd /home/h0p3/syncs/h0p3-wiki && python -m http.server 6969 &> /dev/null &`
+* yggdrasil looks dead =/...that's the one I want to see succeed!
+* Tried SSB again for the giggles.
+* Nope, it appears constant updates in Beaker's Hyper blew up the drive (as I had been told). It is still not in the same league as Resilio Sync there, but I think it's amazing what can be built as is.
+** Cleaned out 350GB built up in just a day on /home...
+** They've done amazing work. It's ready for primetime in at least the sense that an RPi is, and that is something. 
+*** I'm increasingly convinced it requires way more money to build this well. I wish I could funnel tax money into it.
+** Welp, back to the drawing board.
+
+!! {[[Dreams]]}:
+
+`/mode DramaQueen`
+
+I have an odd way of living with my broken computers, including myself. Lawd. 
+
+Containerized, [yggdrasil (and, yes, bluetooth will be a requirement {I <3 U Briar}), i2p, hyper], in Rust, Yesterday. Will pay 1 Trillion USD. Find a Socialist's Eth, slap it in there. I still think that protocol should be from the ground up built to do that; p2p is so fucking expensive to run on what much of the world owns. May even the ravens, octopuses, and trees compute such a collective thing. 
+
+Also, I want a Retrosharified, TWWasmified, Discordified, Aetherified, Toxified social tool built to maximize how I programmatically and by-hand pick out who I trust to moderate and curate. Feed control is a hard problem on a number of fronts. [[Hyperconversations]] not just on potatoes, but even clouds of fleas.
+
+
+ 

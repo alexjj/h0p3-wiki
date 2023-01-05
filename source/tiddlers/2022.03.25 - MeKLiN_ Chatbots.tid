@@ -1,0 +1,39 @@
+created: 20220325202354640
+modified: 20220325202433398
+tags: MeKLiN Chatlog
+title: 2022.03.25 - MeKLiN: Chatbots
+
+"""
+[15:15:23][MeKLiN] stop by our chat room sometime though it doesnt all the time provide intellectual discourse, though
+[15:15:28][MeKLiN] tinychat.com/irony
+[15:31:58][h0p3] Thank you for the invite. I appreciate that.
+[15:32:54][MeKLiN] np
+[15:33:13][h0p3] Have you moved to a new blog, btw?
+[15:33:46][MeKLiN] i was thinking about it but i dont know where yet probably on my awardspace.com free page since i wont be getting much traffic anyway
+[15:34:37][h0p3] If you do, please let me know.
+[15:35:27][h0p3] I'm a big fan of tiddlywiki (https://tiddlywiki.com). It's really offline first, like rolling up an entire site in a single html file with the batteries loaded. Can be distributed over web servers, file-sharing tools, e-mail attachments, etc. 
+[15:35:35][h0p3] You might find it useful.
+[15:35:45][MeKLiN] i saw thats how yours was thats a good format
+[15:36:05][MeKLiN] illalways take notes from others web design despite rarely doing it . i work on python bots for the chat room
+[15:36:07][h0p3] I aint much of a programmer, so I just use the tools that work for me. 
+[15:36:11][h0p3] Neat.
+[15:36:12][MeKLiN] https://github.com/MeKLiN2/Zbot
+[15:36:22][MeKLiN] mostly manipulating others old projects but i learned somewhat how to code doing it
+[15:37:50][h0p3] That makes sense to me.
+[15:38:03][h0p3] What do you hope to accomplish with the bot?
+[15:38:24][MeKLiN] well there is a guy who also uses python scripts to make new accounts and bother the girls who regularly cam up and chat with us 
+[15:38:48][MeKLiN] some of them have porn and he'll play that and post their addresses as well as manipulate simple face images to make them look ugly and weird or animate their face, with snap cam
+[15:39:12][MeKLiN] my bot will close cameras automatically that arent on its friend list, or ban them
+[15:39:25][h0p3] `/nod`.
+[15:39:30][h0p3] Anti-spam is a hard problem.
+[15:39:44][MeKLiN] yeah he can literally make a new account in 30 seconds with no effort
+[15:39:50][MeKLiN] and new ip
+[15:40:19][h0p3] Perhaps a new venue would be better, idk.
+[15:40:44][MeKLiN] a lot of us have been using tinychat.com since 2009
+[15:41:02][MeKLiN] so no one is leaving
+[15:42:28][h0p3] Hard to overcome inertia. Not easy to find a worthy platform for this problem either.
+[15:44:22][h0p3] I like Tox when it's just two people. 
+[15:44:56][h0p3] As a python programmer, I could imagine you'd find https://github.com/pranomostro/ratox interesting (even if it isn't something immediately useful). 
+[15:50:52][MeKLiN] i think i heard of this
+[15:51:02][MeKLiN] nice to see it on github
+"""

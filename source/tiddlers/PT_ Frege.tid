@@ -1,0 +1,15 @@
+created: 20200609204149639
+modified: 20200609210336469
+tags: Philosophers
+title: PT: Frege
+
+; 1848-1925: Frege
+
+* Logic is independent of human thought; we can learn it, but it's not "laws of thought".
+* Mathematical truths are not empirical truths and numbers cannot be properties of aggregates of objects.
+* Arithmetics can be derived from logic.
+* Numbers can be construed as sets.
+* The "reference" of an expression is the actual thing corresponding to it - its truth value if it is a proposition.
+* The "sense" of an expression is the "mode of presentation" by which one conceives of the reference, whether or not it exists.
+* Expressions with different senses can have the same reference.
+* "I see blue" has the same content as "It is true that I see blue"; nothing is added to the thought by my ascribing to it the property of truth.

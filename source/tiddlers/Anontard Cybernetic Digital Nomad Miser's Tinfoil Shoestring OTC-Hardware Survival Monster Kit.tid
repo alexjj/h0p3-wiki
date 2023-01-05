@@ -1,0 +1,62 @@
+created: 20220630121027011
+modified: 20220702131102206
+tags: [[Shiggles Prep]] Highdeas Computing Dreams Anonymous
+title: Anontard Cybernetic Digital Nomad Miser's Tinfoil Shoestring OTC-Hardware Survival Monster Kit
+
+//This autistchizowordsalad is dedicated to [[BDS97]] & [[ASmith]].//
+
+!! Every Day Carry Wardriving Backpack & Briefcased Modular Mobile Battlestation
+
+* Black'n'white e-Ink Reader (maybe color, maybe a drawing tablet notetaker)
+* paper & pen
+* Powerbanks
+* Solar
+* Internal Hard-drive external wiring kit
+* Low-power laptop (or converged phone)
+* High-power Qubes NUC
+* Hardened Hardware Router/VPN tunneler
+* Multiplex Pineapple WAN-Bonding Router
+** Options to just load balance over multiple connections or a true bond to an endpoint
+* non-NVME m.2 SSD NAS
+* Power docking station
+* Walking Laptop Harness
+* Phones
+* Basic construction multitools
+* 1 Long-range Wireless adapter
+* Car cigarette-lighter transformer adapter
+* ~~Multi-nation transformer adapter~~
+* pedal crank power
+
+
+<br>
+
+!! Offnet: Semi-Mobile Offgrid Remote Distributed Homebase Backbone Root Control Server Anarchonetwork, Whatever
+
+* Flexibility & Mobility at almost all costs
+* Preferrably dufflebaggable
+* Weatherproofed, tamperproofed
+* Intranetable. Maybe temporarily connects to the internet to sync. Perhaps only intermittently connects to intranet while primary power is down.
+* Cameras, sensors, tripwires, inconspicuous, self-destruct
+* UPS, warning if it loses primary power
+* Power load balancer, only powers devices given conditional constraints
+* 1 pineapple?
+* Designed for physically and politically adverse conditions
+* [[RPi02W|https://www.tomshardware.com/reviews/raspberry-pi-zero-2-w-review]] seems a fine base, or [[PicoW|https://www.theverge.com/2022/6/30/23189994/raspberry-pi-pico-w-wi-fi-microcontroller-6]]
+
+* Power
+** [[Water Turbine|https://www.amazon.com/Yosoo-Turbine-Generator-Micro-Hydro-Charging/dp/B00ZCBNNOC/]]
+** [[Wind Turbine|https://www.amazon.com/VEVOR-Generator-Controller-Direction-Motorhome/dp/B09C6CBWKS/]]
+** Solar
+** Heat/Geothermal/Steam? The Box [[JRE]] spoke of.
+
+
+<br>
+
+!! Blackdrop Distributed Overlay VPN; The Engine
+
+* Extended wLAN
+** Ham Radio
+** Long-distance wifi
+
+* Hacksawnet
+* IoT+Routerbotworm, go infinite

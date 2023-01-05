@@ -1,0 +1,19 @@
+caption: Pouri
+created: 20190213200338381
+creator: Mohammad
+modified: 20190220161101463
+modifier: Mohammad
+tags: $:/tags/Commander/Template
+title: $:/plugins/kookma/commander/template/pretty
+version: beta
+
+! Heading
+This is pretty
+
+```
+sample code
+```
+
+!!! Footnotes
+# one
+# two

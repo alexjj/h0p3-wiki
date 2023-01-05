@@ -1,0 +1,39 @@
+created: 20220921044618667
+modified: 20220922050519060
+tags: [[Carpe Tempus Segmentum]] [[Computer Musings]]
+title: 2022.09.21 - Carpe Tempus Segmentum: Surprisingly Quiet
+
+Fireman Time! [[TTTOTW]]. Continued chat with [[ASmith]]. [[TTTOTW]]. More discussion with solar people (misinformation yet again; I am frustrated, and I'm having a hard time believing anyone). Sleep by 3?
+
+Woke at 10:30? Meditation, Gumpination. //Skintime// with my sympaticon. More bandaging. [[TTTOTW]]. Grits & Eggs + //Star Trek: Lower Decks// with my sympaticon. 
+
+[[5c0ut]] may not be feeling well. Borrowed The Beast a bit. Holed up, I think, trying not to spread it (like wildfire at two workplaces now). 
+
+Offspring came down to grind. Conversation did not go well. Dialecture. They were released to work together on whatever was worthy, but I don't think they have.
+
+Need 4GB Nvidia card (I have only 2): 
+
+```bash
+yay -S anaconda --noconfirm
+cd stage
+git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
+# download https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt to ../stable-diffusion-webui/models/ (requires an account)
+cd stable-diffusion-webui
+./webui.sh
+```
+
+//The Walk// with my sympaticon. Clarinet. Delivered bread to Reggie, but he didn't come to door (hope he trusts it, because I didn't have paper to leave a note...I was very prepared). Elaine was happy to us, on the edge of tears as usual. She knows her mind is going, and it is increasingly apparent. She asked a question she wouldn't want the answer to (and, couldn't understand even if I had a thousand hours with her to answer). We passed that grill, next to the food truck, and I was reminded of tradeschool. I'd enjoy making custom grills like that. Waste of everything to do it though.
+
+[[TTTOTW]]. My sympaticon has loaned me her big monitor since my Left Horizontal died (PSU, actually). My wires are a mess, and I'm unconvinced I will ever be able to make the sane and easily modified at the same time. 
+
+Leftover, rice and curry with my sympaticon. //Steven Universe//. [[TTTOTW]].
+
+Son wasn't interested in doing anything, but my daughter was down to chill. We watched //Corporate//. Helluva show, glad I get to think about it with her. My dialectures seem to roll off her back just fine. 
+
+Sleep by 8? Fell asleep in the chair. Woke at 9:30? 
+
+Chilled with mi amor. Put mi amor to bed. Her day was extra stupid long. Too many ceremonies. Glad she likes that sort of shit, 'cause it would drive me insane. Surprisingly, she did get her Greek done despite the lack of time, piecemeal throughout the day (no meetings!). Plans to walk tomorrow. 
+
+Meat & fried grits sticks with my sympaticon. //Star Trek: Lower Decks//. 
+
+Cleaned my legs. They are not lookin' great. Water feels good though. [[TTTOTW]].

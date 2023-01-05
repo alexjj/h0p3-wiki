@@ -1,0 +1,12 @@
+created: 20190303055230230
+creator: Mohammad
+modified: 20190303055421039
+modifier: Mohammad
+tags: $:/tags/Macro
+title: $:/plugins/kookma/commander/macro/selection
+
+\define title-selection-reset()
+<$macrocall $name="compSelective-reset" 
+tiddler="$:/temp/commander/selected-titles" 
+filter="[subfilter{$:/temp/commander}] +[!is[missing]]" />
+\end

@@ -1,0 +1,16 @@
+created: 20200427195135930
+modified: 20200705045945996
+tags: j3d1h [[Wiki Mechanic]]
+title: Font Button
+
+<$reveal type="match" state="$:/state/font" text="">
+<$button class=<<tv-config-toolbar-class>> set="$:/state/font" setTo="zing">◌</$button></$reveal>
+
+<$reveal type="match" state="$:/state/font" text="zing">
+<$button class=<<tv-config-toolbar-class>> set="$:/state/font" setTo="mono"><$action-setfield $tiddler="StyleSheet-Zing" tags="" /><$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/settings/fontfamily" text="Mono" /><$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/settings/codefontfamily" text="Mono" /><$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/settings/editorfontfamily" text="Mono" />◉</$button></$reveal>
+
+<$reveal type="match" state="$:/state/font" text="mono">
+<$button class=<<tv-config-toolbar-class>> set="$:/state/font" setTo="default"><$action-setfield $tiddler="StyleSheet-Zing" tags="" /><$action-deletetiddler $tiddler="$:/themes/tiddlywiki/vanilla/settings/fontfamily"/><$action-deletetiddler $tiddler="$:/themes/tiddlywiki/vanilla/settings/codefontfamily"/><$action-deletetiddler $tiddler="$:/themes/tiddlywiki/vanilla/settings/editorfontfamily"/>◍</$button></$reveal>
+
+<$reveal type="match" state="$:/state/font" text="default">
+<$button class=<<tv-config-toolbar-class>> set="$:/state/font" setTo="zing"><$action-setfield $tiddler="StyleSheet-Zing" tags="[[$:/tags/Stylesheet]]" /><$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/settings/fontfamily" text="Zing" /><$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/settings/codefontfamily" text="Zing" /><$action-setfield $tiddler="$:/themes/tiddlywiki/vanilla/settings/editorfontfamily" text="Zing" />◎</$button></$reveal>

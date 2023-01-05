@@ -1,0 +1,307 @@
+created: 20210326233341402
+modified: 20210511205740966
+tags: MTG Games ??? j3d1h 1uxb0x BAGD Dreams
+title: ∰
+
+//Defining essence is a street legal unhinged oomph, somewhere between vintage and legacy standalone powerlevel budgets. If at all, destined for singleton cube-drafting.//
+
+* Colors
+** ↂ, Byzantium, [[h0p3]]
+** T (Tau), Cyan, [[1uxb0x]]
+** Φ, Grey, [[j3d1h]]
+
+<br>
+
+!! Byzantium:
+
+<<<
+; Conceptualize, ↂ, Sorcery
+
+As an additional cost to play Conceptualize, discard a card.
+
+Draw 4 cards, then put 2 cards from your hand on the bottom of your library in any order.
+
+//I see 10 Birthdays; My Grandkids grow old, move out; Please resolve this spell.//
+<<<
+
+<<<
+; Rosewater, ↂↂ3, Creature - Zombie, 1/0
+
+Horsemanship, Banding, Epic
+
+Dredge 7
+
+Cycling, ↂ (ↂ, Discard this card: Draw a card.)
+
+//The graveyard is another place to keep your hand. How do you like them apples?//
+<<<
+
+<<<
+; Keeper's Maneuver, ↂↂ, Instant
+
+Buyback ↂ1
+
+Choose one — 
+
+* Gain 3 life. Scry 1.
+* Return target non-land permanent to its owner’s hand.
+* Counter target activated or triggered ability.
+* Exile any number of cards in an opponent's graveyard from the game.
+
+//Loremasters couldn't make up their minds.//
+<<<
+
+<<<
+; Seal of Double Effect, ↂ2, Enchantment
+
+Sacrifice Seal of Double Effect: double the amount of damage, life gain, cards drawn, cards discarded, tokens generated, counters generated, permanents sacrificed, cards exiled, and mana produced by target spell or ability.
+
+//This is extremely original.//
+<<<
+
+<<<
+; Chicken, ↂↂ4, Sorcery
+
+Each player shuffles their library.
+
+Each player reveals the top card of their library. Starting with the active player, each player may play their revealed card as though it had flash and without paying its mana cost. Repeat this revealing process until a player has chosen not to play their revealed card.
+
+Storm
+
+//Don't swing until you have a huge army.//
+<<<
+
+<<<
+; Rage, ↂↂↂ1, Sorcery
+
+Destroy all creatures.
+
+Forecast — ↂↂ, Reveal Rage from your hand: Destroy target non-byzantium, non-artifact creature.
+
+//Or else!//
+<<<
+
+<<<
+; Byzybody, ↂ2, Creature - Germ, 3/3
+
+Flash, Lifelink, Vigilance
+
+ↂ1, Return Byzybody to its owner's hand.
+
+//Get in there!//
+<<<
+
+<<<
+; Antithesis, ↂX, Sorcery
+
+Split Second
+
+Target player exiles X cards at random from their hand.
+
+Flashback ↂↂX
+
+//Use it or lose it.//
+<<<
+
+<<<
+; Depends, ↂ1, Enchantment
+
+ↂ1, Discard a card: Search your library for a card of the same type, reveal that card, and put it into your hand. Then shuffle your library.
+<<<
+
+<<<
+; All Or Nothing, ↂ, Sorcery
+
+Take an extra turn. At the end of that turn, you lose the game.
+<<<
+
+<<<
+; The Orb, ↂ, Artifact
+
+↴: Add ↂ
+
+ↂ, ↴: Scry 2
+
+Sacrifice The Orb: Draw a card.
+<<<
+
+<<<
+; Viral Ooze, ↂ1, Creature - Ooze, 0/1
+
+Viral Ooze can't block.
+
+Whenever a non-token permanent enters the battlefield, create a token that’s a copy of Viral Ooze.
+<<<
+
+<<<
+; Apox, ↂↂↂ, Sorcery
+
+Sacrifice any number of permanents you control. For each permanent you sacrifice, each opponent sacrifices that many permanents.
+
+//On ya whole family!//
+<<<
+
+<<<
+; Wishdom of the Epoch, ↂↂ1, Instant
+
+You may reveal a card you own from outside the game and put it into your hand. 
+
+You get an emblem with "All spells cost 1 more to cast."
+
+Exile Wishdom of the Epoch with three time counters on it and it gains suspend.
+
+//Yesh you uh.//
+<<<
+
+<<<
+; May, ↂ3, Creature - Wizard, 1/4  
+
+You may have target player gain or lose 1 life.
+
+You may have target player draw or discard a card.
+
+You may clone or remove a target counter on a permanent.
+
+You may exile target permanent from the game.
+<<<
+
+<<<
+; Vial of Mark, ↂ, Artifact
+
+At the beginning of each opponent's upkeep, you may exile target card from their graveyard, and if you do, add a charge counter on Vial of Mark.
+
+At the beginning of your first main phase, you may play a spell with converted mana cost equal to the number of charge counters on Vial of Mark.
+
+Sacrifice Vial of Mark: Exile target player's graveyard from the game.
+
+//Viva the Death of Dredge & Multiplayer//
+<<<
+
+
+<<<
+; Hymn to Galadriel, ↂↂ, Sorcery
+
+Search your library for a land card and put it into play.
+<<<
+
+<<<
+; Hymn of Fostering, ↂↂ, Sorcery
+
+Draw two cards.
+<<<
+
+<<<
+; Hymn to Wite, ↂↂ, Sorcery
+
+
+<<<
+
+<<<
+; Hymn to Zuko, ↂↂ, Instant
+
+Deal to 5 damage divided as you choose among any number of targets.
+<<<
+
+<<<
+; Crucible of the Universe, ↂ2, Artifact
+
+You may play lands from outside the game.
+<<<
+
+<<<
+; Mine of Corondor, Legendary Land
+
+Mine of Corondor enters the battlefield tapped.
+
+↴: Add ↂ
+
+↴: Exile Mine of Corondor and target land.
+<<<
+
+<br>
+
+!! Φ/Grey:
+
+<<<
+; Dead Ringer, Φ2, Creature - Nightmare Reflection, 2/2
+
+ΦX: Return target creature with converted mana cost X to its owner's hand. Dead Ringer acquires all characteristics of this creature and loses all characteristics it had previously acquired in this manner. Dead Ringer retains this ability.
+<<<
+
+<<<
+; Levy, Φ1, Enchantment
+
+If a player would cast a spell without paying its mana cost, exile that spell. 
+<<<
+
+<<<
+; Timber Rattlesnake, Φ, Creature - Snake Coward, 3/1
+
+Vigilance<br>
+Timber Rattlesnake can't block.
+
+Tap Timber Rattlesnake: Prevent the next 4 damage that would be dealt to target creature or player this turn.
+<<<
+
+<<<
+; Reap, Φ, Instant
+
+Kicker ΦΦ<br>
+As an additional cost to cast Reap, pay X life.
+
+Destroy target creature with converted mana cost X or less. If Reap was kicked, draw X cards.
+<<<
+
+<<<
+; Dividends, ΦΦΦ, Artifact
+
+As an additional cost to cast Dividends, pay X life.
+
+Indestructible<br>
+Dividends doesn't untap during your untap step.
+
+Tap Dividends: Gain X life.<br>
+ΦΦΦ: Untap Dividends.
+<<<
+
+<<<
+; Infernal Machine, ΦXX, Instant
+
+Suspend X­—X<br>
+Split second
+
+Destroy X permanents.
+<<<
+
+<<<
+; Compleat, ΦΦ, Enchantment
+
+As an additional cost to cast Compleat, exile X creature or artifact cards from your graveyard.
+
+Enchanted creature loses all abilities and has base power and toughness X/X.
+<<<
+
+<<<
+; Rick Astley, Φ3, Creature - Demon, 2/2
+
+Rick Astley enters the battlefield with a +1/+1 counter on it for each creature target opponent controls.<br>
+Φ: Remove a counter from Rick Astley and place a +1/+1 counter on any creature you control.
+<<<
+
+<<<
+; Otherwise, Φ1, Instant
+
+Counter target spell. Draw a card.
+
+//A card says otherwise.//
+<<<
+
+<<<
+; Distort, Φ1, Sorcery
+
+Choose one:<br>
+-Each creature's base Toughness is equal to its Power until end of turn<br>
+-Each creature's base Power is equal to its Toughness until end of turn
+
+Flashback Φ1
+<<<

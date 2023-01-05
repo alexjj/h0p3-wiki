@@ -1,0 +1,40 @@
+created: 20220326074817777
+modified: 20220331202746504
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]]
+title: 2022.03.26 - Carpe Tempus Segmentum: Field Trip
+
+Woke at 2. It was enough; still having difficulty converting my sleep schedule. Rumination. Meditation. Fireman Time! Meditation. [[TTTOTW]].
+
+My sympaticon is awake. Hugs'n'bugs. [[TTTOTW]]. Burritos and salsa.
+
+[[Aether]] was not as decentalized as it should have been (not that anyone is going to listen to me :P), this time the bootstrap nodes, `/nod`. My hiccup was everyone's hiccup. It's back (and I'm glad I held onto the db and periodically tested). My opinion on bootstrapping is that no one entity should control it, and it should come batteries loaded with multiple entrances wherein even randos can add to the list (including reaching through hidden networks, pastebins, etc.; obfuscation tools are fundamental, even with DHTs).<<ref "s">> It may not see any more development given a lack of funding, but we'll see. Can tell [[search_social]] and [[HighFlyer]] have been checkin' often too. Also, upgrades make external links work for me. yay. =). Still not set to [[anonymize]] (and I don't predict it at this point). That's a big deal. Can't even get degraded mode to work in Whonix.
+
+Another shot at IPFS. IPNS is as shitty as ever. Until they've got basic naming solved (and they have it easy: we're happy to use keys), then I don't see it actually doing anything wildly more than plain torrents with some sugar sprankled on top (but with hype and corporate, maybe it will see more integration).
+
+My sympaticon was mentally suffering because some important papers no longer exist. Comforting. We will see what we can do. 
+
+We hit the Beinecke, walked around the quad, saw the bougie shit. Translucent marble walls enshrining very rare texts (a gutenburg bible even). Anyone who reads and writes as much as I do would appreciate it, right? Next time I go, I'm hiding at least one thumb drive in there, maybe some QR stickers.<<ref "b">> Cool, cool, cool. Talked [[D2]] shop with [[1uxb0x]] on their extremely comfortable couch-like furniture in the corner (broski was done in about 5 minutes as well). We got Pitazikis though, and that was fantastic. Vapelyfe. Cold out, but we enjoyed the artificial park. Lots of walking, bit of rain, a packed car. Glad we went.
+
+Massage for mi amor. Grabbed caffeine dranks because we are both struggling to stay awake. [[TTTOTW]] with mi amor and my sympaticon in [[The Den]]. It was 3-4 hours of near [[silence]] as we read and wrote. Bit of back and forth with [[HighFlyer]]. Coffee. 
+
+-=[ Rabbitholed ]=-
+
+Working on [[The Book of Impassionata]] like a madman. It takes a madman to interpret that many contradictions, I think. Doing my best. It would be easy to throw it away, as there are some very serious moral errors (yet, I still have [[faith]] in this person).
+
+Another shot:
+
+```bash
+yay -S opensnitch --noconfirm
+sudo systemctl enable opensnitchd
+sudo systemctl start opensnitchd
+```
+
+40 rules made on the fly, lol. [[m16]] makes ~3 million connections a day. I hate the bottleneck of our ISP so much. I would actually saturate a 10gbit connection (though, I'd have to move to more expensive storage to pull it off, even if only for caching). Despite RN, I am still working to own the means of production and to practice such a thing on less, figuring out how to take it to the limits on potatoes in digital famines.
+
+Put everyone including myself to bed. //Community// with my sympaticon. Sleep by 9:40?
+
+
+---
+<<footnotes "s" "If you want to prioritize lists of list-carriers to defeat spam, fine.">>
+
+<<footnotes "b" "Beggin' to get slapped, surely.">>

@@ -1,0 +1,58 @@
+created: 20220808050116958
+modified: 20220809105148677
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]]
+title: 2022.08.08 - Carpe Tempus Segmentum: Hot
+
+<<<
+Woke at 5. Hot AF. [[Variety Creepy]] speaks. [[TTTOTW]]. No idea when I fell asleep again.
+
+Woke again at 11:45. Good. Chilled with mi amor. Put her to sleep. She needs it, though I hope it won't wreck her tonight. Everyone is huddled in their rooms for the AC. The dryer is working again, for now (duh, duh, duhhhhh). [[TTTOTW]].
+
+Responding to [[MoebiusInfinity]].
+
+Still need to finish off [[Music: Library]] import. [[TTTOTW]].
+
+//The Walk// with my sympaticon. Hot AF. Brought Reggie his medicine. He's uppin his dose to 2 drops (10mg). `/nod`. It helps the man. 
+
+[[Family Time]] @ 4:30? Politics, ASL, Music, etc. Made pasta for those who wanted. Scraped the bottle that fits the straps nicely. //The Sandman//. Of course. =).
+
+Sleep by 7:30? Woke at 10. Just in time to put mi amor to bed. [[TTTOTW]]. Tomatoes.
+<<<
+
+[[TTTOTW]]. 
+
+//The Walk// with my sympaticon. Heavy dialectics. 
+
+[[TTTOTW]]. //Skintime// + //The Sandman// with my sympaticon. [[TTTOTW]]. Saw mi amor. Some giggles, with just enough sleep to survive. [[TTTOTW]]. Sleep again by 7?
+
+Woke at 10:45. [[TTTOTW]]. [[5c0ut]] cleaned the kitchen, for which [[j3d1h]] and [[1uxb0x]] were surely as [[grateful]] as I was when I saw it. Glass. XOXOs. Assignments. [[TTTOTW]]. 
+
+Sammiches with my sympaticon. Delicious. 
+
+Shopping @ Aldi with my sympaticon. Slightly over one cart. Lots of fresh that we needed. Eggs up to $3.23 a dozen (even worse than measuring from gas, obviously). Forgot the bags. I need to find them. 
+
+Fireman Time! [[TTTOTW]]. 
+
+Offspring came down to grind. They chose the projects they preferred. [[D2]] + //Hyperion// @131:08:19. A level in HC, few runs in soft.
+
+//Skintime// with mi amor. Giving it to the end of the week, then contacting the doc. Seems to make it worse. =/. //Inform the Men!//
+
+[[TTTOTW]].
+
+[[Family Gathering]] was delicious. [[5c0ut]] made enchiladas, rice and beans (spicy delicious), and we had water too. //Stranger Things//. [[TTTOTW]].
+
+```bash
+go install github.com/rhardih/serve@latest
+
+#...
+
+/home/h0p3/scripts/bin/webserve -g -p 6969
+
+# check for difference between uncompressed and compressed
+curl http://127.0.0.1:6969 --silent --write-out "%{size_download}\n" --output /dev/null 
+curl http://127.0.0.1:6969 --silent -H "Accept-Encoding: gzip,deflate" --write-out "%{size_download}\n" --output /dev/null
+```
+
+For the i2p crowd, however small. Better than the python one-liner, and, this is what golang was designed to replace. The lightest option I found that came with compression out of the box. Small enough to be extended easily enough too. 
+
+Chilled with my sympaticon. //Black Dynamite// + //Arrested Development// + //Skintime//. Sleep by 11?

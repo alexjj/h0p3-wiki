@@ -1,0 +1,124 @@
+created: 20210522070015695
+modified: 20210524170151445
+tags: [[Tapeda the Dragon]] Anonymous [[Herb Quine]] 𝕱𝕴𝕽𝕰🔥
+title: 2021.05.22 - Anonymous: Good People, Kind People, My People
+
+//It is my honor. Thank you. You know who you are. I want to hug you. 360 Root Training Wheels 4 Lyfe. I'd like to say thank you to [[Tapeda the Dragon]] and Ericsson. `/salute`. Touched to see [[Love]] on the board. =).//
+
+https://boards.4channel.org/lit/thread/18285823#p18285823
+
+```
+File: Relationship between math(...).jpg (691 KB, 1104x1168)
+691 KB
+ /pkmg/ - Personal Knowledge Management General Anonymous 05/21/21(Fri)04:19:20 No.18285823▶>>18286005 >>18286410 >>18286889 >>18296278 >>18304795
+Organize all the information you consume, generating new ideas and improving your productivity.
+
+Previous: >>18217190 →
+
+>What is this for?
+Having an organized database of your knowledge frees up brain space and allows you to focus on the tasks at hand, instead of trying to mentally juggle several lines of thought simultaneously. It also forces your ideas to be more clearly defined, as the human brain tends to be satisfied with vague, fuzzy notions.
+
+>Ok, but WHAT is this for?
+Remembering what you read. Learning a subject. Learning a skill. Writing papers. Writing fiction. Developing your character. Developing theories. Getting things done.
+Virtually anything related to learning can benefit from efficient knowledge management.
+
+>What do I have to do?
+In short: Learn to take proper notes. That's it.
+When you learn new content, be it from a book or from a martial arts training session, don't let it fade away: turn it into a short reminder. Then, elaborate on it when you have the time and integrate this new piece of information into your favorite PKM method.
+
+>What are the main PKM methods?
+- Zettelkasten (ZK): "Slip box", in German. A system of interlinked notes in an organic way, rather than hierarchical. Not meant to be read from start to finish, but rather browsed where the wind takes you (serendipity), in hopes of providing unexpected connections and repurposing "old knowledge" into new context. Its potential grows exponentially. It is recommended to read the book on the subject before starting your ZK, check the resources list. ZKs are great for interdisciplinary learners, academic writers,..
+Recommended software: Obsidian, Roam, OCR Space, The Archive, Zotero, Zettlr...
+
+- Personal Wiki (PW): A personal wiki. Used for structuring and linking information in (generally) a more hierarchical way, making sure all points have been covered. Great for planning and executing projects, to-do lists, worldbuilding and cataloguing.
+Recommended software: TiddlyWiki, ZimWiki, Trilium,...
+
+- Spaced Repetition Software (SRS): Flashcards. Used for reviewing and remembering large quantities of information. Great for things like language learning, law and medical school.
+Recommended software: Anki or Supermemo.
+
+- Software to organize your ebooks and pdf: Calibre
+
+>Which one should I use?
+None. Any. All. A little of each, depending on your needs. These are methods to help you to understand and structure your own way of thinking and leaning, not cake recipes. Experiment.
+
+>Should I take notes manually or digitally?
+Writing manually requires more focus, thus it is more beneficial.
+But digital is more practical, easier to manage, search and archive. Again, experiment. Think of your knowledge database as a lifelong project, so future-proofing is always a good idea
+
+>Resources
+See end of the Pastebin: https://pastebin.com/sWwenNge
+
+
+Feel Free to contribute and ask questions
+
+
+ Anonymous 05/21/21(Fri)05:07:56 No.18286005▶
+>>18285823 (OP)
+I'd still recommend Tiddlywiki for the Zettelkasten method. Many use it that way.
+
+It takes some time to look under the hood; it's a Quine that evolves with your use. You can rebuild the entire interface to suit your needs again and again, and the underlying metadata and structures can be as fluid and non-hierarchical as any of the other tools (it really depends on how you choose to use and construct it). TW is reasonably well-suited to programatically shaping your data, but it excels in organically molding itself to your contexts.
+
+There are lots of add-ons for it, including for Spaced Repetition.
+
+TW is also quite capable of organizing your ebooks, pdfs, bookmarks, music, and all your other files. You can arbitrarily organize, construct information around, and open your files from your browser. It's not as snappy as binaries optimized for these tasks in some cases though.
+
+You can build interfaces to control your machine from the command line inside Tiddlywiki (technically, you can build a desktop environment inside of TW), and bi-directional synchronization between the contents of your browser and your underlying file structure is available. Your browser's extensibility also maps onto TW (and almost any extension you can construct in a browser can be built within TW as well).
+
+The tool is far more flexible, customizable, portable, and enduring than most people realize (it's self-hosted software that has stood the test of time too). Somewhat like emacs, it's got a steep learning curve, but you don't have to be a serious programmer to wield it. It is skiddie friendly with plenty of room to grow (I've taught middle schoolers to use it), even if you don't know upfront how you want it to develop (that's actually its strength).
+
+It's not even close to a perfect tool (and being that it uses Javascript and that TW-WASM doesn't exist yet, there are non-trivial performance limitations), but it does way more than PKM. You can build any custom PKM tool with it, and you can integrate it with other kinds of tooling. I consider the word "wiki" in its name to be a misnomer that provides a simplified entrance and intuition pump for getting started with the tool.
+
+
+>>
+ Anonymous 05/21/21(Fri)08:42:34 No.18286932▶>>18287647 >>18288094
+File: 1620831195536.png (280 KB, 596x720)
+280 KB
+If the guide was constructed in a ZK way - just lightly, as a self-demonstrating example, but keeping the bulk linear -, like the Evergreen page, that could be interesting. Adding some pictures as well
+
+For now, my only suggestion is to make it clear what is the book that explains ZK (Smart Notes).
+
+Another interesting feature to have would be to dissect each type of "craft" and how it relates to these methods.
+Language learning, for example, can be mostly memorized through flashcards, but a ZK/Wiki could work when you're getting insight on grammar and want to structure your own knowledge in an organic, easy-to-review manner that only focus on the aspects that interest you. Not to mention to-do lists, with short and medium-term goals.
+
+Also, SRS doesn't limit itself to flashcards. The Supermemo software, however outdated in terms of UI it is, has Spaced EVERYTHING. The creator is a level 99 druid who does everything in his life ruled by his Supermemo scheduling. He reads a book for however many minutes he scheduled it, then it's time to stop and write a summary for 5 minutes. Then the text gets buried for months if it's not a relevant topic, and will only come up later when Supermemo decides it's time.
+
+He warns about emails taking months to get replied, or not being replied at all if he loses interest, because everything is done in little non-linear increments according to his priorities and level of interest.
+He doesn't book meetings, travel or anything that could disrupt his autismo-learning life.
+
+His family time is scheduled through Supermemo.
+
+His Guru wiki is a very fun rabbithole, especially when he (rightfully) rants against the school system on long, LONG essays about why it's inefficient and we need to change it.
+He should at least invest more into making Supermemo user-friendly for reaching such an ideal goal, but then he goes linuxtardmode with the "just learn it, it's not that complicated" zinger.
+
+It's definitely worth a read, though I'd recommend caution since I've been at it for months, reading a little at a time, since there is so much stuff to process.
+https://supermemo.guru/wiki/SuperMemo_Guru
+```
+
+Sounds like my kind of retard. That wiki is dope. 
+
+```
+>>
+ Anonymous 05/21/21(Fri)12:06:03 No.18288094▶>>18288129
+>>18286932
+My god this is time cube shit but with learning. Is this what I sound like to my friends? His writing style reminds me quite a bit of richard stallman. I can't stop reading it.
+
+>>
+ Anonymous 05/21/21(Fri)12:12:58 No.18288129▶
+>>18288094
+Everyone who gets really deep and hinged on a certain kind of PW sounds like that haha.
+```
+
+=D. Yup.
+
+```
+Anonymous 05/22/21(Sat)09:20:25 No.18294456▶>>18294627
+File: 1608151374329.png (271 KB, 1392x1521)
+271 KB
+On the previous thread, anon proposed we made a note on "Love" for a little comparative session.
+
+Here is mine, I only have 11 notes so far so I can't link that much stuff yet.
+My notes have (mostly) no sources because I have lots of formed opinions, but I think it's good to have these snapshotted like this so I can confront them whenever I come upon contradictory information.
+
+ Anonymous 05/23/21(Sun)01:03:12 No.18299590▶>>18299771
+Thank you for your notes on Love, folks. I hold your work in high regard.
+```

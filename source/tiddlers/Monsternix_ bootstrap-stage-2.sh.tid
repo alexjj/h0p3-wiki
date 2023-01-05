@@ -1,0 +1,248 @@
+created: 20220906194926674
+modified: 20220907022413386
+tags: Monsternix bash
+title: Monsternix: bootstrap-stage-2.sh
+
+```bash
+#!/usr/bin/env bash
+# Run as root.
+
+# This isn't a NixOS specific tool, it just so happens to help handle a flaw in most personal computing.
+# This is a prototype. At the end of the day, it only adds convenience. Edit by hand.
+# Automated updating of Monsternix files will be default on. Edit the script if you want different behavior. 
+# The ability to change the username or password of a logical account hasn't been implemented.
+# Routing completely over anonymizing networks hasn't been implemented. 
+# If it is even possible, sane automated partitioning hasn't been implemented.
+# Disk encryption hasn't been implemented either. 
+# A complete offline installation, containers, and VMs will be worth creating.
+
+# Ask if disks have been partitioned. If they did it themselves, they need to modify configuration.nix
+
+
+echo
+printf "Choose this device's name: "
+read DEVICENAME
+
+echo
+echo "The combination of your username and password must be unique in the history of humankind. Choose wisely."
+echo "This combination forms your logical account, synchronized across any number of devices."
+echo "If you forget your username or password, you might not be able to even partially recover your identity or data."
+echo "Key Generation will attempt to temporarily consume all your CPU time and requires ~2GB of free RAM." # Monsternix is a kitchen-sink
+echo "The shorter the password, the longer it will take to compute the hashkey. Do yourself a favor and make it long."
+echo "https://www.kicksecure.com/wiki/Passwords"
+
+echo
+printf "Username: "
+read USERNAME
+
+while true; do
+    stty -echo
+    printf "Password: "
+    read PASSWORD
+    stty echo
+
+    echo
+
+    stty -echo
+    printf "Confirm Password: "
+    read PASSWORD2
+    stty echo
+
+    echo
+    [ "$PASSWORD" = "$PASSWORD2" ] && break
+    echo "Didn't match. Please try again."
+    echo
+done
+
+# Note that NixOS's bootstrapping currently doesn't allow for users to change the password hasher from SHA-512 to something stronger. 
+# Admittedly, by the time your attacker can access your machine, the password is often irrelevant. We can at least protect the password file from non-root users.
+# Remember it's not prefixed /mnt after installation.
+#echo $PASSWORD | mkpasswd -m sha-512 -s > /mnt/etc/nixos/nixos.$USERNAME.password
+#chown root:root /mnt/etc/nixos/nixos.$USERNAME.password
+#chmod 600 /mnt/etc/nixos/nixos.$USERNAME.password
+
+echo
+echo "This may take quite a while on limited systems, especially with unsafely short passwords."
+echo "Please, wait patiently..."
+echo
+
+# I'm not convinced we should always force people to use good passwords, but we can try to make them safer while incentivizing hygiene.
+# There are severe diminishing returns to time spent key stretching, however, we can afford to squeeze a bit more entropy out in this case. 
+# This authentication process should usually be quite rare. It only occurs at installation time, not login time.
+if [ "${#PASSWORD}" -lt 4 ]; then
+PRICE_FOR_SHORT_PASSWORDS="1024"
+elif [ "${#PASSWORD}" -lt 6 ]; then
+PRICE_FOR_SHORT_PASSWORDS="512"
+elif [ "${#PASSWORD}" -lt 8 ]; then
+PRICE_FOR_SHORT_PASSWORDS="256"
+elif [ "${#PASSWORD}" -lt 10 ]; then
+PRICE_FOR_SHORT_PASSWORDS="128"
+elif [ "${#PASSWORD}" -lt 12 ]; then
+PRICE_FOR_SHORT_PASSWORDS="64"
+else
+PRICE_FOR_SHORT_PASSWORDS="32"
+fi
+
+# There's a tradeoff loss in entropy to pick up speed from parallelization. 
+# This process protects you from remote brute-force attacks on the keyring.
+# Ideally, this key can be used to generate other secrets before synchronization.
+# Ideally, the Masterkey (and its parts) don't have to stored anywhere. Different usernames and differen passwords solve the problem better...repudiation of slaves would be nice too.
+# NixOS user login is a serious problem (even though I doubt this will ever matter to anyone else).
+MASTERKEY=$(echo $USERNAME$PASSWORD | argon2 "MASTERKEY: $USERNAME, goodwill shines forth like a precious jewel." -t $PRICE_FOR_SHORT_PASSWORDS -m 21 -p 16 -r)
+echo "Master Key Generation Complete."
+echo "Generating derivative keys (a shorter process) and installing their systems (may require time to synchronize)."
+
+# Ultimately, relying upon Resilio Sync is a profound weakness. We don't have a high-functioning substitute yet.
+# Multiple syncs are required, but merging parts of them or configuring software to automatically handle it may be infeasible.
+# The Masterkey already has quite a bit of entropy.
+# Does Resilio Sync work with hardlinks across btrfs subvolumes?
+# It is not clear to me we can safely sync any of NixOS's directories, and there additional unpleasant hurdles to doing so.
+
+# We can check for a file to see if they have the sync or not? At least to know if it started.
+# This Read+Write key is used to synchronize the private directory: /syncs/monsternix-$USERNAME
+monsternix_USERS_RESILIO_KEY_INITIAL=$(echo $MASTERKEY | argon2 "$monsternix_USERS: $USERNAME, to love is to will the good of the other." -t 16 -m 21 -p 16 -r)
+monsternix_USERS_RESILIO_ENCODED_KEY=$(echo $monsternix_USERS_RESILIO_KEY_INITIAL | base32) # Resilio Sync Keys are base32 encoded, A_Z, 2-7
+monsternix_USERS_RESILIO_READWRITE_KEY="D${monsternix_USERS_RESILIO_ENCODED_KEY:0:32}" 
+echo "$USERNAME's Monsternix Sync Key Generation Complete." 
+
+
+# Install Resilio Sync with 
+# Check if device exists, if not, mkdir for it. 
+
+# This Read+Write key is used to synchronize the private home directory: /home/$USERNAME
+USERS_HOME_RESILIO_KEY_INITIAL=$(echo $MASTERKEY | argon2 "USERS_HOME: $USERNAME, conversation is a sacrament." -t 16 -m 21 -p 16 -r)
+USERS_HOME_RESILIO_ENCODED_KEY=$(echo $USERS_HOME_RESILIO_KEY_INITIAL | base32) # Resilio Sync Keys are base32 encoded, A_Z, 2-7
+USERS_HOME_RESILIO_READWRITE_KEY="D${USERS_HOME_RESILIO_ENCODED_KEY:0:32}" 
+echo "$USERNAME's Home Sync Key Generation Complete." 
+
+
+
+
+
+# This is the Monsternix Read-only key for the directory: /syncs/monsternix-public
+
+
+
+# Automated sync key adds....
+
+# This key is used to synchronize the public home directory: /home/syncs/$USERNAME-public
+# Note
+
+
+# INSTALL Monsternix Temporary Bootstrap Sync
+# mkdir /mnt/syncs/monsternix
+
+
+
+# Generate and install bootstrapping configuration.nix 
+# Load KEY into sync.conf, restart
+# If not configuration.nix file can be found, we use the monster-public's configuration.nix
+# Need install hook, whenever /etc/nixos/configuration.nix gets a nixos-rebuild switch, we can do things...maybe.
+## Hardlink on the file makes the most sense.
+
+
+
+## Hook to run the next postboot script on startup? == WE LOSE WHAT WE"VE COMPUTED AND STORED IN VARIABLES.
+
+
+
+
+
+
+
+
+
+
+
+
+#su h0p3 -c "mkdir -p /home/h0p3/config/resilio-sync"
+
+
+
+# Self, Trusted Peer, Untrusted Peer
+
+# Trusted MUR, Untrusted MUR
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Install Tor
+# Can we get the rest to proxy through Tor? Resilio, yes.
+# Install argon2.
+# Instll Resilio Sync
+## Join Monsternix Read-Only Sync
+
+
+
+
+mkdir -p /mnt/syncs/monsternix #permissions?
+
+
+
+
+
+
+
+
+
+
+
+# Generate & install Resilio Sync's Configuration file
+
+# Install the bootstrapping config
+cat <<EOT > /mnt/etc/nixos/configuration.nix
+{ config, pkgs, ... }:
+
+{
+  imports =
+    [ # Include the results of the hardware scan.
+      ./hardware-configuration.nix
+    ];
+
+  system.stateVersion = "22.05";  
+  system.copySystemConfiguration = true;
+  nixpkgs.config.allowUnfree = true;
+  nix.extraOptions = "auto-optimise-store = true";
+  hardware.enableAllFirmware = true;
+  hardware.cpu.amd.updateMicrocode = true;
+  hardware.cpu.intel.updateMicrocode = true;
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;
+  fileSystems = {
+    "/".options = [ "compress=zstd" "noatime"] ;
+    "/home".options = [ "compress=zstd" "noatime" ];
+    "/nix".options = [ "compress=zstd" "noatime" ];
+  };
+
+
+
+  systemd.services.monsternix-bootstrap = {
+    script = ''
+      echo "foobar"
+
+    '';
+    wantedBy = [ "multi-user.target" ];
+  };
+
+
+EOT
+
+
+
+
+echo "The system will reboot shortly."
+echo
+
+
+nixos-install
+reboot
+```

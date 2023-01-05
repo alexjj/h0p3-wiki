@@ -1,0 +1,216 @@
+created: 20210407114203006
+modified: 20210412015029235
+tags: search_social Chatlog 4chan Aether
+title: 2021.04.07 - search_social: From The Depths of 4chan
+
+<<<
+I said hello? at the top did You see it
+https://philosopher.life/#2021.04.07%20-%20Anonymous%3A:%5B%5B2021.04.07%20-%20Anonymous%3A%5D%5D%20nkbghost%20Readme%20%5B%5B2019.06.25%20-%20DeathOfRobinhood%3A%20The%20Chickenscratch%20Confession%20Booktour%5D%5D
+<<<
+
+Well, hi there! The thread got murky fast, didn't it? What would you like to talk about?
+
+<<<
+`Pic: Local edit of the ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱`
+
+I just want to know how to talk in tiddlywiki do you see this
+<<<
+
+Ah, I see what you mean. Cool. Well, you can only edit your local copy. Here's the basic infrastructure I use:
+
+https://philosopher.life/#RGM
+
+Every minute, I compile the html file and push it downstream.
+
+My Root Users (https://philosopher.life/#Root%20Users) are the only people who have read+write access to the wiki hosted on my machine (https://philosopher.life/#Monster-%CE%A6). What you see on https://philosopher.life/ is just a plain html file served up like any file with no dynamic access to a server (even your queries happen entirely clientside).
+
+<<<
+`6-Spectrum Political Personality test`
+
+Okay thanks well do you like Hayek I want to work on UBI with individually-issued cryptocurrency so that means there are 7.8 billion separate currencies on the planet instead of like 1 global currency and each person can print as much of their own currency as they want and give it to whoever they want (ubi); kind of like people can give as many compliments as they want or be as tightlipped as they want
+
+this is my personality test
+<<<
+
+Thank you for sharing your personality test results with me. You seem to be balanced, in the middle-ish on these issues.
+
+I can't say I'm a huge fan of Hayek or classic liberalism. I'm a Marxist, but I have significant training with some fancy Libertarians (experts in Locke, primarily).
+
+I can only give you my gut instincts here, so forgive me. I assume that most would still prefer a reserve currency or a widely circulated fiat currency or even a standard commodity to a currency issued from an individual like myself.
+
+I'd be interested to see how to create high-performance, sustainable networks that could support billions of different currencies. Decentralization in computing is a place I'm quite interested in.
+
+<<<
+`p@freespeechextremist.com replying to moth@husk.site`
+
+Hello this is a post for you.
+
+Compute dust. I've been thinking about this stuff a while. I think it's essentially the Holy Grail of distributed architecture, it's one of the reasons I would very much like to do more lab stuff than I do, this stuff lights up my brain and the thing you are describing is a thing I stare at the ceiling and think about instead of sleeping.
+
+I think you need a memory-safe language for this, not because of the safety feature but because you need the language to treat pointers as opaque, so that writes to memory allow the pointer to be swapped out transparently. You could make this Dis-compatible but it'd require some heavy lifting to make Dis do it directly. But if you think for a second, what's the code? There's a process you want to run on the system, you want to treat the system as monolithic, one big node.
+
+Joe Armstrong (:pressf:) summed up one of the big principles of distributed computing really nicely by pointing out that it's easier to send the code to the data than to get the data to where the code is running, because the code is smaller and if the data is distributed, then it's parallel. You can see this play out in Erlang, but that's also the point of most databases that aren't just bags of bytes, like Postgres, Redis, even Mongo, any DB that you can program, same thing with GPUs, same thing with more exotic stuff like Intel's experiments in embedding ALUs in RAM or Chuck Moore's GreenArrays architecture.
+
+So, what's a process? Like if you get down to it, what is everything that constitutes a process? You've got the memory space (the instructions and the data, including the stack) and the current state of the registers (the GPRs, the flag registers, the program counter), and then you've got a bundle of data structures in the kernel that mediate that process's access to things like the disk, the network stack, etc. For something like Inferno or Plan 9, even something like Erlang if you tweak it some, interaction with system resources is done by message-passing, so you don't need to handle the network stack the same way if "the network" is just another shared resource. So you think of data as one form of resource, and data locality becomes just a subset of resource locality. Any notional resource (physical resources like hardware or non-phyisical respositories of state, like a TCP stack or a running process) is something you can think of as that which has non-temporal locality, that's the essence of a "resource": that which can't be propagated. Moving a running process out of that category would be a massive change to the game.
+
+I think your IPFS-as-RAM idea, that's a cool concept. IPFS might not be the best fit but the idea of idle nodes spending their time propagating data, there's something there in terms of fleshing out how to actually solve this problem. It'd have to be durable and redundant because garbage collection is a bitch and distributed garbage collection is N bitches. I think I get where you were going earlier when you asked about IPFS and nodes arriving and leaving. MJL did an in-memory venti server, which he used just for testing: it's not particularly fast or anything and it's obviously not resilient, but it would serve pretty well as a skeleton for this kind of thing, since it'd be easy to add the parts we want without doing anything particularly arcane: broadcast writes that occur. If it speaks the venti wire protocol you also get a few things for free, like if a disk is attached to a node, you can propagate things to that node and have it act as a slower version of the in-memory nodes, have a memory node sit in front of it even.
+
+"Ethernet always wins." Instead of trying to prevent a conflict, you transmit hoping for the best, and then detect the conflict if it happens. The way Blue Gene works is a massive distributed interconnect, based more or less explicitly on Ethernet. Even when it's not explicitly influenced by Ethernet, the pattern crops up because it's the fastest and the easiest to implement and, by coincidence, it gives the best throughput and most reliability. Erlang again, just crash on failure and try again. OoOE/SpecEx, just do the computation and throw away the result if you incorrectly guessed a branch.
+
+Your process, here's a thought I'm going to sit on for a minute in the shower: instead of trying to make sure the process has the data it needs, what if you do some optimistic propagation and toss it at a few nodes and see if any of them come back with an answer? A node gets the process, tries to execute it. If it gets a page fault and it doesn't have that page of memory, it asks around on other nodes. One of these nodes will finish first by virtue of having the data already. "Success" is a memory write, so it isn't even harmful for it to happen more than once, but you'd have to bottleneck it (i.e., broadcast a "RESULT" to get your answer back and to stop other nodes that might be working on the same problem) if it has to talk to a singleton (i.e., a resource) but it would be fine even for stochastic processes because you only need to observe one result.
+
+So, like I said, I'm going to go scrape the stink off and stare at the ceiling while thinking about this but my brain's buzzing and my heart's racing.
+<<<
+
+Thank you, anon! That is a lot to take in. I'm still lost in your claims.
+
+I'm reminded of this:
+
+https://philosopher.life/#2021.03.15%20-%20MJos%3A%20h0p3%20thoughts%20on%20decentralized%20web
+
+I'm going to write my schizo-sperg. Might be pointless drivel to ya, and I'm sorry if it is. 
+
+For the set of problems I'm most interested in solving, the network stack is the hardest problem (it's a political one). I don't know how to drive down latency far enough, P2P networking continues to federate further because of NAT-Piercing and reliance upon living inside the browser, and no one has a tool that works on potatoes and phones that doesn't gobble up all resources (though federation in some tools like Urbit get closer). 
+
+A practical^^tm^^ goal for me is to be able to spin up VMs distributed across multiple devices that are collaboratively owned and operated by regular people without relying upon datacenters where the workers don't own the means of production.
+
+A more important practical goal to me, however, is friend-to-friend sharing of resources. Building lossy, sharded networks that aren't looking for consensus, but rather trust is something that is computed per node or key. The Golden Rule (to my knowledge, best approximated as Gradualized Tit For Two Tats) has to be at the heart of the kind of decentralized computing that defeats nation-state adversaries.
+
+The branch prediction could be scored. If you compute something for me successfully and fast, that should increase how much I trust you. The same for any kind of resource, including proxying for me, or holding data. 
+
+There's a lot to think about here.
+
+<<<
+search_social, p@freespeechextremist.com
+
+You are now immortal.
+
+>You seem to be balanced, in the middle-ish on these issues.
+Notice that I am Deconstructive (Left) + Hierarchy (Right). I have a hypothesis that ENTPs/contrarians/egotists (me) will consistenly score this outcome.
+
+All I know about Hayek is he said something about "the purpose of money (prices) is to COMMUNICATE INFORMATION". I strongly agree with that. When I upvote a post, I am communicating information (that I liked that post). The problem is all upvotes get lumped together. But my upvote is not interchangeable with someone else's upvote. We like different things, and the information communicated with our upvote is different.
+
+Keeping track of each person's upvotes separately is essentially a form of letting each person issue their own currency.
+
+About Marxism, I heard it said recently that there is a thing called "syndicalism" which has a principle that "You should be able to influence that which influences you." I think that's a good restatement of the Golden Rule.
+
+IRL people naturally keep track of comments from different people they know separately, at least below a Dunbar Number. But, just like flow above a Reynolds Number transitions from laminar to turbulent, with too many connections people lose the ability to track comments and therefore barter/information/value (hayek's "knowledge") from individual people. Computers and crypto provide an opportunity for us to regain this information instead of collapsing it all into a single currency.
+
+Furthermore, we used to have private currencies, private banks, etc. There is precedent.
+
+And, UBI is a very interesting idea, but I don't trust a 300-million-person federal government to implement it fairly, but not only could individuals issue a UBI through crypto but smaller organizations could as well, keeping track of internal trades (and Hayek's "knowledge") according to the goals of the group. Some Marxists linked https://en.wikipedia.org/wiki/Platformism about this idea.
+<<<
+
+Thank you for the immortality. Best I can do for you atm is my personal network and https://philosopher.life/. =)
+
+And, among we INTJs, it is commonly thought we pair well with ENTPs. =)
+
+I am open to the claim that markets are quite similar to Generalized AI. I'll agree that money does communicate information (though it need not be the only or best way). My concern boils down to the centralization of [[power]]. I wouldn't back a currency that wasn't purposely trying to be continuously redistributed to the people who it need most (given the diminishing marginal utility of money [~115k USD per year, assuming the person "feels" they've earned it]).
+
+Your distinction between and relation between votes and currency is crucial, I agree. This might be something you'd be interested in:
+
+https://philosopher.life/#Justice
+
+At first glance, I'm in favor of a unified global currency for standard economies (it may be the only way to tax the wealthy). Though it may be ridiculously hard to do, I'd prefer to peel apart my financial assets from my political voice in some crucial respects. Your idea doesn't seem necessarily opposed to that though.
+
+You might try Aether out (still not even close to what we'd want to dream about, I think, but closer than anything else, including Syndie and Retroshare). I'd love to see your currency concept applied in that specific space. Trying to unify our upvotes //loses// information, as you point out. You are correct. I really, really want my feeds to moderated by moderators (and groups of them) I've picked out (or by other mods I've picked out to pick out other mods, and so forth). I want my feeds to be shaped by how much I trust the various networks of people around me (Hubski also has something going on here).
+
+To my eyes, I must keep track of the upvotes of the people that I trust (and I dearly wish there was a way to automate this well). I want Quadratic Ranged Voting Scores and tags based on communities of people I've hand-picked (even if they've never met each other). I want something that can eventually be MLed too.
+
+Syndicalism is a fine a start (though I'm not convinced The Rule of Law can be generated by it), and I agree that striking a balance in how we influence each other is key to The Golden Rule (I don't have a definition I adore, unfortunately).
+
+Many cryptocurrencies I've found want to supplant global reserve currencies, working to eliminate some of the top-down power dynamics (though, in practice, I've found cryptocurrencies to be even more centralized in both ownership and computation). Though, if I understand correctly, I think your voting concept is absofucklutely brilliant. I beg you to keep working in that space.
+
+What does it mean to share our voices together? We don't necessarily need //money// to communicate information. I think it's more about trust (a non-rivalrous resource) than the more zero-sum like qualities of money.
+
+<<<
+>Aether
+Hello there.
+>Syndie/Retroshare/Hubski
+Thanks.
+
+>INTJ/ENTP
+Why? Flame/Moth?
+
+>Votes/Currency/Information[...]/Trust
+Correct. It could be reframed as Crypto-Trust or Crypto-Karma.
+>Influence
+Perhaps Crypto-Influence, in that Circles of Trust ~=~ Spheres of Influence.
+
+>You are correct. I really, really want my feeds to moderated by moderators (and groups of them) I've picked out (or by other mods I've picked out to pick out other mods, and so forth). I want my feeds to be shaped by how much I trust the various networks of people around me
+Exactly.
+>Trying to unify our upvotes //loses// information
+There's a 2nd level to this. I, as an individual, do not just have one "kind" of upvote. Slashdot, for example, allows "funny" upvotes as distinguished from "interesting" upvotes. Not only do Corporatist Websites mush our votes together with other people, but they **also** mush our own votes together with themselves. My recommended videos feed in youtube is all mushed together, and manipulated by an algorithm with its own purposes, instead of being segregated into say my meme clips, my verisatum and 3d printing clips, my music clips, etc.
+> I must keep track of the upvotes of the people that I trust (and I dearly wish there was a way to automate this well). I want Quadratic Ranged Voting Scores and tags based on communities of people I've hand-picked (even if they've never met each other).
+Yes.
+
+>https://philosopher.life/#Justice
+>the unifying Rule of Law [...] but the greatest many to the flexibly greatest extent we can morally en
+>unifying
+Here we disagree.
+
+>I come see that it is my duty to treat others not as mere means but as ends in themselves.
+Are you using "others" as the above sentence, where the goal is to satisfy "the greatest number"?
+Then we still disagree.
+
+Or are you using "others" literally, as separate individuals, with separate ends, which are incommensurate, ununifyable, even when a million needs are weighed against one? Then we agree.
+<<<
+
+Noice! Sent you a message on Aether. If you wish, you can reach me on Session/Tox any time as well.
+
+I've gotta head to bed. Nearly 8am here. I will be responding from the wiki (it's where I do my talking normally). You'll find your person-page here (might consider bookmarking it):
+
+https://philosopher.life/#search_social
+
+<<<
+Acknowledged.
+Sweet dreams!
+<<<
+
+<<<
+>I wish I knew how to sum it up in a few words.
+
+# Blog;;;
+# Wiki;;; non-linear/hyperlinked/branching/choose-your-own-adventure/hyperstudio
+# Long;;; Ergodic/Hypergraphia/David Foster Wallace
+
+I am replying to this to bring traffic from the "New" feed to this post and this subreddit.
+
+Speaking of ''hyperlinked'', let's mention Xanadu.
+Wikipedia Page: https://en.wikipedia.org/wiki/Project_Xanadu
+Taglines: 1960, ''Hypermedia'', Ted Nelson vs Tim Berners-Lee, Vaporware
+Creator Interview: https://0x0.st/iFMf.mp4
+Concept Art Gallery: https://0x0.st/-HCI.jpeg https://0x0.st/-HCl.jpeg https://0x0.st/-HCU.JPG https://0x0.st/-HC0.png https://0x0.st/-HCG.jpg
+
+My Takeaway: ''Annotations''.
+
+# The ability to write an ''annotation'' without duplicating the entire work. (e.g. diff patches, dissenter)
+# The ability to link directly to an ''annotation''. (e.g. linking to a timestamp in a video; linking to an anchor, but you can "make" an anchor anywhere on the page e.g. with a diff patch when linking someone)
+
+There's some other crap he threw in there like addresses being permanent which is obviously a pet idea bolted on and not essential to the purpose, and he got touchy about the trademark and other things. riperoni
+
+Of course the same concept is useful both connecting between websites but also building a single person-internal "memory engine", as your website demonstrates. Of course I can search for mind mapping software myself but if there is any you have personally used and recommend for or against it would speed my search.
+
+Ars Memoriae. Memory Palace. Masonry.
+
+I have been getting into ''architectural'' trends because of a book on the 1950s typewriter-turned-desktop-computer company Olivetti which suggests that the Italian owner and an Asian employee were murdered by a TLA (speculative, about the same probability that Magufuli was murdered) in order to conduct a hostile takeover (pretty much proven, with cooperation of factions within Italy) of the computing division of Olivetti and secure an IBM/TLA (temporary/head-start) monopoly of (useful) computers. The owner, before his death, aside from leading the transition of his company from typewriter to desktop computer; had a strong interest in both the welfare of his workers and in architectural design of their community.
+
+Also I think this 1977 ''architecture'' "cookbook" is interesting, available in your local library: //A Pattern Language//, Christopher Alexander. I now think there is a Metaphor between designing a physical building and designing a societal structure (or ''Cornerstone''). Also between designing a physical computer program or a mental memory.
+
+"""
+隐-__ Secret
+__-喻 Comparison
+隐-喻 ''Metaphor''
+隐- also means "crypto-", so it is literally "Crypto-Comparison", to go along with crypto-currency crypto-karma crypto-trust crypto-influence listed earlier.
+Also see https://en.wikipedia.org/wiki/Cryptotype
+"""
+
+As a single human is a member of more than one category (having more than one ''cornerstone'' role in more than one overlapping social structure), I think this essay is useful: http://en.bp.ntu.edu.tw/wp-content/uploads/2011/12/06-Alexander-A-city-is-not-a-tree.pdf
+
+It distinguishes a
+
+* "''tree''" (categories and sub-categories, but no overlap) from a
+* "''semi-lattice''" (categories and sub-categories, but with overlap)
+
+on the topic of city design. ("''Cornerstone''" is, indeeed, already a borrowed word from an ''architectural'' metaphor.)
+<<<

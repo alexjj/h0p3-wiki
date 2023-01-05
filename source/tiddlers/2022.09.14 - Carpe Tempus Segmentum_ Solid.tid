@@ -1,0 +1,22 @@
+created: 20220914042923500
+modified: 20220915125131339
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]]
+title: 2022.09.14 - Carpe Tempus Segmentum: Solid
+
+Lolvod. [[TTTOTW]]. Attempted sleep by 3? 5 episodes of //Archer// passed, so I'm guessing 4:30.
+
+Woke at 10:30? I was dreaming of a book for [[Variety Creepy]] about how to get a poor night of sleep. To the nines, intentionally left blanks, ToC, index, copyright, etc., for just that one page that says, "Don't sleep." `/nod`. Dreaming about the ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱. Doctor called for appointment. I assume they are just waiting me out? Attempted sleep. Fail. Gumpination and meditation.
+
+//Skintime// with my sympaticon. Hotdogs and Lolvod with my sympaticon. Took my blood pressure again. Normal. Prolly just visiting the doctor's office then (normally I can compensate by calming myself).
+
+Offspring came down to grind. Still thinking about the stack, but I'm kinda liking [[NixOS]] superhost nesting Firecracker microVMs of NixOS guests themselves hosting arbitrary fleets of deprivileged and capabilities-stripped [[systemd-nspawn|https://blog.beardhatcode.be/2020/12/Declarative-Nixos-Containers.html]] NixOS containers. Technically, this could be nested insider another VM, which was a goal I wasn't sure could be achieved. Perhaps this won't be necessary, or only rarely used. It's hard to see right now. Whonixesque microVMs would be far, far more performant, and could even be used on a phone. After that, I think the unikernel is the only option left (and that could be used as drop-in-replacements, perhaps). Block level deduplication in btrfs could also make this not grow out of control. Son is setting the tool up for command line use, including a blacklist option, and my daughter is about to switch to multi-threading. Dope.
+
+Watched another class of HB with mi amor and my sympaticon. I continue to attack what I consider the postmodern aspects of his argument. He does good work though. Wish those were the sermons I heard growing up (and, all things considered, I was pretty lucky on this front compared to most, wherein preaching means teaching).
+
+Talked with [[5c0ut]], and [[j3d1h]] and [[k0sh3k]] too. Stacks of papers. Looks like he has to amputate an infection (ofc, I'm hoping it doesn't come to that with my own limbs =D). It's not easy being a gentle gay man who gives a AF about the poor caught between competing sociopathic interests. I respect how my brother protects those who are most vulnerable. He's found a way to help Jaron and a single mother. Ed may be ded soon enough. 
+
+[[Family Gathering]] was dope. We had fish and chips, with water. //House of Cards//.
+
+//The Walk// with my sympaticon. Clarinet. 
+
+Junk food + LolVod. Sleep by midnight?

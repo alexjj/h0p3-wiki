@@ -1,0 +1,102 @@
+created: 20200615041822577
+modified: 20200622004652317
+tags: [[TW Canvassing]] TWGGF
+title: 2020.06.15 - TWGGF: A Step Toward Federation
+
+* https://philosopher.life/#2020.06.15%20-%20TWGGF%3A%20A%20Step%20Toward%20Federation
+* https://groups.google.com/forum/#!topic/tiddlywiki/rd9hYKzGvwA
+
+Tonight, I was struck by [[TW-Searchwikis|https://kookma.github.io/TW-Searchwikis/]]. Yet again, Mohammad "kookma" Rahmani is brilliant. It is certainly possible I'm not really understanding it, but I feel like his creation points in a special direction. I think the strength of the evolution of that tool is understated. I am, of course, your local crank and madman shouting nakedly in the streets (so feel free to ignore me, please). I am not a developer, so I ask for your patience as I try describe something beyond me with my big-boy words. 
+
+It is my honor to read many Tiddlywikis. My friends, strangers, and family members keep wikis, and we're lucky to use Tiddlywiki as, at least in part, an incredibly customizable, FOSS, self-hostable social media device. TW kinda already has part of a protocol going on (we all pay some price to have something in common too); it's designed to share tiddlers, and I think TW is well-suited to help us take back the web and more. I want TW to be so big, even the cast or the characters of //Stranger Things// would have their own TWs. Forget the Roamcult: there's no reason a billion people can't have their own TW, folks. From what I can tell, TW-Searchwikis is a kernel example of a foothold to weave and branch communities of wikis. 
+
+TW-Searchwikis is a decentralization tool. It's like a metadata RSS feedreader inside of TW. Crucially, it promotes a golden-rule-based resource sharing behavior: hosting your friend's metadata. This is a big deal! It makes it easy. It's not just sharing an http link or a dat_protocol_pubkey to your buddy's wiki, it's a chance to increase the performance and reach of their wiki from your own. It's a chance to move toward integrating our wikis together, to build a community on a toolset we own. 
+
+<br>
+
+!! Interwiki-Linking:
+
+Why not treat external tiddlers of other TWs that we've whitelisted (and already host the metadata for) as objects to be fetched when necessary and temporarily treated as an internal tiddler? TW-Searchwikis's index shows that the tiddler exists. Surely, with that information, it is possible to fetch it and temporarily use it as a tiddler for the session (or to even give an appearance of it).
+
+I have hundreds of dead/orphaned links to tiddlers in wikis that are external to mine. I'd like to be able to render the external tiddler in my storyriver (preferably with the external style intact). If there are multiple matches, then maybe a disambiguation page or the chance to just open them all (or a determined subset) would be excellent.
+
+One of the core strengths of TW's story-river interfacing is that you can render an arbitrary number of pages inside a single tab. It enables contained workspaces and custom entrances to hypertexts, and it doesn't burn 10 tabs in your browser to do it. You can even nest wikis inside each other: https://philosopher.life/#Links%3A%20Fire%20in%20yo%20fire. Sure, the links can be hardcoded to a particular URL, but it wouldn't it be nice if they didn't have to be? They could be more seamlessly automated, forgiving, fuzzy, and expansive. 
+
+<br>
+
+!! Indexing indexers:
+
+Some of you will remember that the best public torrent search tools were actually just giant centralized indexers of various trackers they scraped. We could kinda federate that. TW-Searchwikis can be extended for a session to index the indexes that my friends keep, and to index the indexes their friends keep, and so forth. 
+
+Imagine I'm looking for [[Books]] tiddlers or even a book, like [[1984]], on my friends' wikis. Why not make it so that I can expand my search not just to the friends I've indexed, but also another step (incrementally expanded)? Perhaps there is a kind of recommendation and moderation engine built into this. Seems like there's discovery to be had here. Automating sections of the friend-to-friend model seems strong. 
+
+<br>
+
+!! Deep Searches:
+
+Currently, the tool enables searching an index of a skeleton of other wikis. Scraping the external wiki for this index maximizes local performance. Imagine checking a box for "Deep Searching" that would just download the external wikis in the background and return the results of each external wiki's filter-expression as a subset of a filter expression in mine. 
+
+Decentralization is bandwidth intensive. It's slower too. Now, I'm happy to blow 200mb of bandwidth on a high quality, well-organized search. Mutable torrent tools like Dat could improve performance as copies of your friends' wikis may already be synced (and perhaps it could be automated to sync their friends' sites too). In a way, I wish I could grow an archive that I'm seeding, making it endlessly copyable and pruneable. Being able to search our sites locally is still the goal. Perhaps, in the end, this is best not done in TW until WASM, Dat, and more effective hole-poking through high-performance browsers have come about.
+
+<br>
+
+!! Timed Processes:
+
+Is it possible to have timers in TW? Can this indexing be triggered, put on a cronjob, basically?
+
+<br>
+
+---
+
+<<<
+>h0p3 wrote:
+
+>Tonight, I was struck by [[TW-Searchwikis|https://github.com/kookma/TW-Searchwikis]].
+
+That link is broken. You should maybe edit it to point to: https://kookma.github.io/TW-Searchwikis/
+
+Best wishes
+TT
+<<<
+
+---
+
+Fixed. Gracias. https://kookma.github.io/TW-Searchwikis/ and https://github.com/kookma/TW-Searchwikis should work now.
+
+---
+
+<<<
+Thanks for the reminder to check out Searchwikis, that was a very well thought out concept. Jed has done a lot of work on the federation concept that I also want to get familiar with. I agree that this opens up a huge opportunity to share/trade content.
+
+Best,
+
+Joshua F
+<<<
+
+---
+
+<<<
+h0p3,
+
+Progress and tools are enhancing this every day. Past federation work especially Jed's has a lot to teach us, including the need for simplicity and integration with the core.
+
+So much new material has being forth coming with the times Covid-18, has isolation and social distancing given people more time to get involved?, I have not yet being able to catch up.
+
+A particular area related to this subject is the use of libraries. They are currently hard to build but the mechanisms are there for more tools to allow this. The thing about a library is it is a single definition tiddler with a url that points to someone else's resources, it provides update detection and opening a library will list the most recent published "tiddler/plugins".
+
+Libraries are also efficient as each tiddler is published in its own file, thus url. But this adds complexity if generating shareable items on some hosts and from single file wikis.
+
+* The important thing about a library is If I maintain mine people can see my changes as they are saved. This is a pull update process.
+* Already node servers publish a static tiddler, I do not see why it could not publish a static tiddler that is in fact a tiddler someone can subscribe to like a library entry.
+
+I believe extending the tools available to automate access to libraries and library items, or generate them, would take us a long way. This includes scheduled update and notify queries.
+
+I believe we should start with a loosely coupled network of tiddlers, via this existing mechanism.
+
+I have more ideas to support this but want to seek your view.
+
+"""
+Regards
+Tony
+"""
+<<<

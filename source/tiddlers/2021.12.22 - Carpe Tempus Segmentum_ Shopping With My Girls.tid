@@ -1,0 +1,36 @@
+created: 20211222142844295
+modified: 20211223072341315
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]]
+title: 2021.12.22 - Carpe Tempus Segmentum: Shopping With My Girls
+
+Woke at 7. Hell yes. Slept hard. Meditation. Racing around as usual. =). [[TTTOTW]]. System feels slow, and I have no idea why. Syu, reboot. Still smoothing out the layout autostart with all the programs added. Also, unfortunately, several tools rehash on reboot (though not merely restart). Spoke too soon on [[P2P: Aether]]'s ability to rebuild from profile DB; while the network has slowed down considerably (lost the momentum it had, no doubt), I should still be seeing more than I am (nothing actually new). Briar-gtk wrapper hiccups. =/. I admire that they hacked it into place. 
+
+She's up. Hugs'n'bugs. Followed her around all morning. There's something special about not only having said everything I need to say but everything that I want to say to a person. Contentment just fucking around, trolling, being her retard. We made coffee. All over her. Eventually, it was time for both of us to grind. [[TTTOTW]].
+
+```bash
+yay --mflags "--skipchecksums --skippgpcheck" -S gnurl #ugh
+```
+
+Gnunet is up. It has made progress. I will admit that. Maybe in a few years it will be ready. Working on Torrifying more applications. Bootstrapped into Retroshare with hiccups...took a couple dozen keys accepted before a connection landed (heard people have having serious ISP problems, to the point they have to bridge and obfs). I'm also hitting an odd bottleneck ([[ASK]] too), down to 100mbit (despite what Ethtool says); router upgrade is available (new), so I was wondering if it is degraded for some reason. It's set to autoupdate, but that doesn't work consistently. Moreover, even the suggested firmware is behind what is available for download. =/. That fixed it. `/shrug`. Voodoo. Unfortunately, after router update, I'm getting a notification of a server disconnect, and had no idea what was causing it:
+
+```bash
+dbus-monitor "interface='org.freedesktop.Notifications'" |  grep --line-buffered "member=Notify\|string" 
+```
+
+mumble. Hrm. Everything looks good so far. Considering how it doesn't get used. `/shrug`.
+
+//Raw Skintime// with mi amor. Told me about her day. It's been a good one. She's been exceptionally empathic today too. Defending me. //Inform the Men!// Meditation. Shower of the gods!
+
+Shopping @ Costco with [[ASK]] and [[k0sh3k]]. Everyone has fabric they need to touch. I watch my girls. We picked up stuff for lunches, noodles. Then we had a hotdog date (I also had a slice). 
+
+Shopping @ Aldi. Filled that cart up. Hope not to have to shop big time until 2022. I had fun. Meat is crazy fucking expensive. 
+
+Shopping @ W-Entity. Smashed through the last pieces we needed to make dessert and a dish that [[ASK]] wants to make. Then, of course, they touched fabrics on clothing until it was time to go.
+
+Called [[JRE]] back. Boys are sleeping better. Car is totaled, and he's trying to convince [[Rb]] not to go the full 18k for a mini-van. He's workin' on going all in on their joint account, and she's hesitant (I [[hope]] she figures it out). Talked with me about some enlightened centrists. Compared me to an autist he's been following. Discussed essentialism, social construction, and Wittgenstein. Thinking about [[5c0ut]]'s jobs this year. [[JRE]] has been puttin' in serious work for the union at his job, doing the right thing, costly though it may be. Continues to defend his friend Aaron against profound racism. 
+
+[[TTTOTW]].
+
+//The Walk// with [[ASK]]. Yus.
+
+Late night Advent (I chilled in the background and made food). A chicken salad, loaded. All the veggies. Also, dark chocolate and a beer (a coffee stout we picked up for X-mas, yo).

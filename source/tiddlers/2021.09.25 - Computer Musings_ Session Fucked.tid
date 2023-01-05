@@ -1,0 +1,52 @@
+created: 20210925070625748
+modified: 20210927112548792
+tags: [[Computer Musings]]
+title: 2021.09.25 - Computer Musings: Session Fucked
+
+//I'm hoping I have this wrong. Plenty of user error too, I am sure.//
+
+The mic isn't working on Zoom. Hrm. Upgrade. Nope. Tried another application for the mic that shouldn't have a problem (recognizes, but can't use). Syu, reboot. Mic works now. Zoom doesn't. And, it killed the mic again. Zoom is the demon. Reboot, and the mic is back. Laptop it is. Oh, Beaker is not autostarting the autosync (and there may still be a problem with the image of the wiki that is used, as [[New]] and [[Recent]] timelines were fucked), but that's okay. I rarely reboot, and it's not daemonized completely (I have to manually interact with it upon reboot anyway). These are minor problems. I can fix or workaround that.
+
+Session also stopped working upon the system update. Rolling back (I've got 3 different backups) the config files and AppImage has been irrelevant, and that's reason to think it's not the application itself. Here's the doozy kicker though: it's deleting my user profile upon failing to run! That is ''catastrophic failure'' to my eyes. 
+
+```
+h0p3@monster-16 ~/scripts/bin/                                                                                               2:31:45 ⏲ 
+$❯ ./session.AppImage        
+
+(session-messenger-desktop:21237): Gtk-WARNING **: 02:31:57.575: Theme parsing error: gtk-contained-dark.css:2871:228: Missing closing bracket for :not()
+Set Windows Application User Model ID (AUMID) { appUserModelId: 'com.loki-project.messenger-desktop' }
+NODE_ENV production
+NODE_APP_INSTANCE undefined
+NODE_CONFIG_DIR /tmp/.mount_sessioEtmHU1/resources/app.asar/config
+NODE_CONFIG {}
+userData: /home/h0p3/.config/Session
+config/get: Successfully read user config file
+config/get: Successfully read ephemeral config file
+making app single instance
+{"name":"log","hostname":"monster-16","pid":21237,"level":30,"msg":"app ready","time":"2021-09-25T06:31:58.165Z","v":0}
+{"name":"log","hostname":"monster-16","pid":21237,"level":30,"msg":"starting version 1.4.0","time":"2021-09-25T06:31:58.165Z","v":0}
+{"name":"log","hostname":"monster-16","pid":21237,"level":30,"msg":"Database startup error: Error: SQLITE_NOTADB: file is not a database","time":"2021-09-25T06:31:58.180Z","v":0}
+{"name":"log","hostname":"monster-16","pid":21237,"level":30,"msg":"config/remove: Deleting user config from disk","time":"2021-09-25T06:31:58.190Z","v":0}
+{"name":"log","hostname":"monster-16","pid":21237,"level":50,"msg":"(node:21237) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'get' of undefined\n    at getById ([REDACTED]/app.asar/app/sql.js:1743:24)\n    at Object.getItemById ([REDACTED]/app.asar/app/sql.js:1617:10)\n    at getSpellCheckSetting ([REDACTED]/app.asar/main.js:95:26)\n    at showMainWindow ([REDACTED]/app.asar/main.js:812:44)\n    at async App.<anonymous> ([REDACTED]/app.asar/main.js:773:5)","time":"2021-09-25T06:31:58.225Z","v":0}
+{"name":"log","hostname":"monster-16","pid":21237,"level":50,"msg":"(node:21237) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'get' of undefined\n    at getById ([REDACTED]/app.asar/app/sql.js:1743:24)\n    at Object.getItemById ([REDACTED]/app.asar/app/sql.js:1617:10)\n    at getSpellCheckSetting ([REDACTED]/app.asar/main.js:95:26)\n    at showMainWindow ([REDACTED]/app.asar/main.js:812:44)\n    at async App.<anonymous> ([REDACTED]/app.asar/main.js:773:5)","time":"2021-09-25T06:31:58.225Z","v":0}
+{"name":"log","hostname":"monster-16","pid":21237,"level":50,"msg":"(node:21237) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)","time":"2021-09-25T06:31:58.225Z","v":0}
+{"name":"log","hostname":"monster-16","pid":21237,"level":50,"msg":"(node:21237) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)","time":"2021-09-25T06:31:58.225Z","v":0}
+{"name":"log","hostname":"monster-16","pid":21237,"level":50,"msg":"(node:21237) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.","time":"2021-09-25T06:31:58.225Z","v":0}
+{"name":"log","hostname":"monster-16","pid":21237,"level":50,"msg":"(node:21237) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.","time":"2021-09-25T06:31:58.225Z","v":0}
+```
+
+I'd not touched the files, and I'm a bit miffed that a self-updating piece of software (grandiose to the point that we might wonder if the onus and responsibility are yours now!) that doesn't even use my package manager, purposely isolated, has this kind of problem.
+
+10 bucks says it's a GTK + SQLITE issue from looking at similar Signal errors (searching the internet for the word "session" is its own sadness), but I couldn't be bothered to roll that back at this point. To delete my database, my key, and my identity (6MB gone!) upon any error is simply //that// fucking unacceptable. I'm obviously downgrading my recommendation now. That's a damned shame because this project held a lot of promise to my eyes. And, I praise those who contributed to Session. You are wonderful, awesome people in this regard. I believe you're doing your best, and we're extremely lucky to have you in the world. This problem may be beyond the scope of what you can solve with the resources you have though. 
+
+The problem with trying to openly leech off Signal's work (and I have no immediate problem with that) is that Signal's model isn't designed to be P2P and fully self-hosted (let alone the coin, onion routing, and other dank possible future features), and there's hidden behavior and gotchas in here that one could probably overcome using Signal (because of Signal's more centralized architecture) that may simply be unsolvable for a Session user. I've seen Signal fuck up for lots of people, but it's tended to be recoverable; if you're self-hosting something built on modified Signal code without backups, however, you might not be able to recover from this kind of behavior (and, I agree we're responsible to some degree for backing up our files, no doubt). Unfortunately, there may be many such landmines in Signal's code, and I kinda doubt that they've been sought out and handled. I think this counts as evidence that such a tool should be written from scratch (at least Matrix's recent failure wasn't like this), as you're less likely to footgun yourself like this. 
+
+I think this is also a good argument for automated self-backup components. At least the last known working config (however you want to define that) should be held as just in case. In any case, I'll hold onto the files, as I'd prefer to have the chance to gracefully exit from the application if I do (since I do have people who speak to me from it - though, they are perfectly capable of checking and using the ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱). Maybe the situation will be resolved, but I have my worries.
+
+Software is gonna be buggy. I get it. Some applications, however, aren't the sort that should ever fail catastrophically. Messaging software is one such example. You're looking at fundamental identity software in terms of Zawinski's Law (not as evolving into toolkits and platforms, but rather that the example of mail is the key example, not merely a side effect as he might think). We're talking about the ability to own an end-point of a functioning, fully-decentralized, usable network, where manually piping strings of text from my machine to yours nearly real-time is simple. That's as basic and crucial as it gets, and it's a lynchpin building block for (and even just the most basic possible test for making progress toward) a network that respects the users. Tox is the only remaining multi-platform tool I have, and it's not without its flaws either, I understand.
+
+Yet again, capitalism will not solve this problem. Several forces actively conspire against the workers owning the means of production on what is something like a functional primitive (in, paradoxically, a high-level sense) to even begin developing the rest of our tooling correctly. 
+
+We need a Wireguard quality tool here. Divert the tiniest fraction of the USMIC and taxes to this please. I bet the unaudited library could be solved with $100k divided across bounties and a single, highly experienced, primary volunteer dictator-for-life developer ruthlessly at the helm. I tell you right now that multi-device (especially heterogenous single-user network structures, where some tasks must be offloaded to particular devices on someone's personal cloud [and no, it cannot be reliant upon a fucking VPS/dedi]) is one of the hardest problems facing the future of P2P today, and that's the only way you can hope to make an end-run play around The Big 5's continued squeeze in the end. Imma say it again: it's 2021, and I'm still fucking using IRC. When is the year of ~~the linux desktop~~ never using IRC again going to come?
+
+Bonus entitled attitude {[[dream]]}: a CRDT component which has a file or directory synced through this tool for real-time collab, where we can choose whatever editor we want to sit on top. All of this is above my paygrade.

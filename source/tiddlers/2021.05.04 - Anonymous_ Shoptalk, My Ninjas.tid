@@ -1,0 +1,238 @@
+created: 20210504214440684
+modified: 20210504214553715
+tags: Anonymous Live 4chan
+title: 2021.05.04 - Anonymous: Shoptalk, My Ninjas
+
+```
+[a / c / g / k / m / o / p / v / vg / vm / vmg / vr / vrpg / vst / w] [vip / qa] [cm / lgbt] [3 / adv / an / biz / cgl / ck / co / diy / fa / fit / gd / his / int / jp / lit / mlp / mu / n / news / out / po / pw / qst / sci / sp / tg / toy / trv / tv / vp / vt / wsg / wsr / x / xs] [Edit][Settings] [Search] [Mobile] [Home]
+4chan
+/g/ - Technology
+[Post a Reply]
+08/21/20	New boards added: /vrpg/, /vmg/, /vst/ and /vm/
+05/04/17	New trial board added: /bant/ - International/Random
+10/04/16	New board for 4chan Pass users: /vip/ - Very Important Posts
+[Hide] [Show All]
+Toggle
+Janitor acceptance emails will be sent out over the coming weeks. Make sure to check your spam box!
+
+Self-serve ads are available again! Check out our new advertising page here.
+[Return] [Catalog] [Bottom]
+27 / 0 / 12 / 3
+[Update] [Auto] 174
+File: holy terror.png (332 KB, 1184x1988)
+332 KB
+the state of the "Personal Wiki" concept in 2021 Anonymous 05/04/21(Tue)14:04:59 No.81460000▶>>81460302 >>81460948 >>81461108 >>81461114 >>81463049 >>81463186
+
+    >MediaWiki
+    Her Majesty's Grace the Grey Lady. four hundred years young and 2 short tons large. install Apache+MariaDB+PHP on windows and locate the eight magic lines in four separate configs and download mystery meat files unknown to man to fix bugs that shouldn't happen and then set up MySQL and kill yourself
+    >DokuWiki
+    plucky upstart. can be used standalone courtesy of some boomer's demoscene project from ten years ago. be sure to add the extension that lets you type the letter "e"
+    >TiddlyWiki
+    straddling the market segment between "owo what's this" and "awl reader". twine if twine were a notebook. activate the background service+plugin+persistent toolbar icon and you won't have to open and navigate the save file dialogue every time you edit a word
+    >MoinMoin
+    python
+    >ConnectedText
+    closed-source BRware. may or may not watermark all your images with "Unregistered Hypercam 2" until you buy the full version
+    >Writer with in-document links
+    set your desktop to a picture of a mountain and make a window with a dirt bike in it very small. drag it across the mountain's contours and pretend you're playing a video game
+    >WikiMedia aka Fandom.com aka Gamepedia aka captchachops.co.nz/offer (post 2022)
+    Wikipedia is for serious shit like writing your own bio as an author that no one will ever read and covering up government misdeeds via WP:Notability so what if we cut everything worthwhile out of it and poured said entrails into a dumpster to be deleted five years later for infringing one of the 20 assorted TLA boilerplate pseudoagreements every website has to have now
+
+    that pretty much sums it up. remember, just because putting text and words together and linking them in data structures is a concept that fucking predates the microprocessor is no reason for there to be any software that can do it now. oh well, off to invent more altcoins
+
+>>
+Anonymous 05/04/21(Tue)14:09:29 No.81460065▶>>81460183 >>81460199
+
+    What do you wish was different about Tiddlywiki?
+
+>>
+Anonymous 05/04/21(Tue)14:11:58 No.81460110▶>>81460377
+
+    what about ZimWiki?
+
+>>
+Anonymous 05/04/21(Tue)14:15:19 No.81460183▶>>81461108
+
+    >>81460065 (You)
+    I wish it were a standalone LibreOffice program that was LibreOffice's version of a type of program as reified and expected as the "word processor" or "spreadsheet program", the "commonplace book" (or whatever it might actually be called), which generated linked bodies of text+images in a variety of commonly accepted formats
+
+>>
+Anonymous 05/04/21(Tue)14:16:21 No.81460199▶>>81460283
+
+    >>81460065 (You)
+    but in the absence of that, the whole "extension+background service to save anything unless you don't mind it being an enormous PITA" sort of gripes me
+
+>>
+Anonymous 05/04/21(Tue)14:20:48 No.81460283▶
+
+    >>81460199
+    I appreciate your response. You might look around the atrociously organized ecosystem some more. There are standalone options (and you don't have to poke a hole through the browser or mess with extensions if you don't). I agree with you though. It's quite a turn off.
+
+    If you ever have one for me to look at, I'd like to see it. I'm quite interested in this space.
+
+>>
+Anonymous 05/04/21(Tue)14:21:56 No.81460302▶>>81460377 >>81461312
+
+    >>81460000 (OP)
+    just use org mode
+
+>>
+Anonymous 05/04/21(Tue)14:26:28 No.81460377▶
+
+    >>81460110
+    looks like ass/a developer environment, has the formatting chops of Geany (no horizontal text alignment?!). Mediawiki is a carcass but the visual design is on-point imo
+
+    >>81460302
+    waiting for emacs to finally include the second life clone they've been talking about
+
+>>
+Anonymous 05/04/21(Tue)15:01:50 No.81460948▶
+
+    >>81460000 (OP) (checked)
+
+    Just make a massive PDF document using LaTeX and hyperref internal links
+
+>>
+Anonymous 05/04/21(Tue)15:11:17 No.81461108▶
+
+    >>81460000 (OP)
+    >>81460183
+    >Onenote
+    Works pretty well for me
+
+>>
+Anonymous 05/04/21(Tue)15:11:29 No.81461114▶
+
+    >>81460000 (OP)
+    Most ominous quads.
+
+    I appreciate your summary OP. Maybe there is something you might like in this list: https://GitHub.com/awesome-selfhosted
+
+    Also, is Python actually a problem for a personal wiki which probably has no traffic? There are some Go implementations, but those are pretty minimal.
+
+>>
+Anonymous 05/04/21(Tue)15:23:34 No.81461312▶
+
+    >>81460302
+    This
+
+
+    >>81459999
+
+>>
+Anonymous 05/04/21(Tue)15:24:46 No.81461331▶>>81462029
+
+    Sphinx + reStructuredText + Read the Docs Sphinx Theme
+
+    https://sphinx-rtd-theme.readthedocs.io/en/stable/
+
+>>
+Anonymous 05/04/21(Tue)16:14:13 No.81462029▶>>81462230
+
+    >>81461331
+    How could multiple users edit it, though? A static site generator with markdown is simpler than Sphinx.
+
+>>
+Anonymous 05/04/21(Tue)16:27:22 No.81462230▶>>81462452 >>81462762
+
+    >>81462029
+    >personal wiki
+    >multiple users
+    Do you have schizophrenia?
+
+>>
+Anonymous 05/04/21(Tue)16:43:49 No.81462452▶>>81462471
+
+    >>81462230
+    >>personal wiki
+    >>multiple users
+    >Do you have schizophrenia?
+    Why, yes, I do, my ninja. What do you want to know?
+
+>>
+Anonymous 05/04/21(Tue)16:45:13 No.81462471▶>>81462505
+
+    >>81462452 (You)
+    Do each of your personalities get their own comma key?
+
+>>
+Anonymous 05/04/21(Tue)16:45:31 No.81462475▶
+
+    what about qownnotes?
+
+>>
+Anonymous 05/04/21(Tue)16:47:24 No.81462505▶>>81462741
+
+    >>81462471
+    Dope. Gorgeous. Bravo. <3. Muchas Smoochies. Periods, Too.
+
+>>
+Anonymous 05/04/21(Tue)17:05:12 No.81462741▶
+
+    >>81462505 (You)
+    Collect all the styles. I tell ye. May I be The Retard Ice King. The Self-Annointed Rap God of the Internet Is Here, My Ninjas.
+
+
+    I do aim to make my life worth writing about, and that includes knowing others have to write their stories too.
+
+>>
+Anonymous 05/04/21(Tue)17:06:56 No.81462762▶>>81462853
+
+    >>81462230
+    Use a fucking notebook. Make tabs with stickies. Using a wiki to take notes you won’t read is, and I’m quoting 6ix9ine here, dum-da-dum-da-dum-da-dum-dum-dumb
+
+>>
+Anonymous 05/04/21(Tue)17:14:01 No.81462853▶>>81462899
+
+    >>81462762
+    the medium influences what you do with it
+    if you use a typewriter you write differently than if you're doing it by hand
+
+    mildly suspect that the whole thing about the wiki format is you end up actually reading the notes (no proof)
+
+>>
+Anonymous 05/04/21(Tue)17:16:32 No.81462899▶>>81462996
+
+    >>81462853
+    Bingo. Ya got it. Whirlwinds, Sir, At Your Service.
+
+>>
+Anonymous 05/04/21(Tue)17:23:53 No.81462996▶>>81463087
+
+    >>81462899 (You)
+    Anyone want to tell me what they think of Bayesian Reasoning and Wikis, Digital Gardens, what have you, M'theydy? What about ML for such things? Mirrors into who we are, prisms into The World. A connection device, a dialectical ball of lightning. All powerful. MAWHAHAHAAAAAAAAAHASHAAHAHAHAHHAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
+
+>>
+Anonymous 05/04/21(Tue)17:27:52 No.81463049▶>>81463099
+
+    >>81460000 (OP)
+    nice GET, looks like wikis are fucked
+
+>>
+Anonymous 05/04/21(Tue)17:30:41 No.81463087▶
+
+    >>81462996 (You)
+    Let us know each other all the way down into the multiverse plus and more. Light as a feather, hoping we don't have to sting like a bee.
+
+>>
+Anonymous 05/04/21(Tue)17:31:51 No.81463099▶
+
+    >>81463049
+    Maybe. Best option I see thus far.
+
+>>
+Anonymous 05/04/21(Tue)17:38:04 No.81463186▶
+
+    >>81460000 (OP)
+    What about Bookstack?
+
+[Post a Reply]
+[Return] [Catalog] [Top]
+27 / 0 / 12 / 3
+[Update] [Auto] 174
+Delete Post: [File Only]
+Style:
+[a / c / g / k / m / o / p / v / vg / vm / vmg / vr / vrpg / vst / w] [vip / qa] [cm / lgbt] [3 / adv / an / biz / cgl / ck / co / diy / fa / fit / gd / his / int / jp / lit / mlp / mu / n / news / out / po / pw / qst / sci / sp / tg / toy / trv / tv / vp / vt / wsg / wsr / x / xs] [Edit][Settings] [Search] [Mobile] [Home]
+All trademarks and copyrights on this page are owned by their respective parties. Images uploaded are the responsibility of the Poster. Comments are owned by the Poster.
+About • Feedback • Legal • Contact
+```

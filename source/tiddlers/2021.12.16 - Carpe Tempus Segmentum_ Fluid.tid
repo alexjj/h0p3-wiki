@@ -1,0 +1,45 @@
+created: 20211216082733653
+modified: 20211218042832091
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]]
+title: 2021.12.16 - Carpe Tempus Segmentum: Fluid
+
+Woke at 2. Hardcore sleep from dinner. I feel much better. Unfortunately, [[ASK]] was frustrated at her box the entire time, and if I had been awake to reiterate we were absolutely going ethernet, she'd not have had to toil with what [[1uxb0x]] and I did. I know that pain. //Skintime//. She's sleeping on the bed now, zonked. Chili + chips + coffee + SC2 2021 PiGFest + [[TTTOTW]].
+
+* Cleaning more files and testing more tools. `/home/h0pe` is 90% hidden. Not going for a careful deep clean here. I think a rebuild makes more sense in that case. 
+* Hypercore/drive/beaker isn't even close to ready for a serious library, unfortunately. Memory use balloons out of control (and it already burns half a core). I'm just not convinced you can write the performance sensitive parts of this in anything but a systems language. I've broken it multiple times with my own [[RGM]] (it does not like a minutely push, and I appreciate why...but I should have control of that), and now I fed 4TB into it and broke it again.
+** Again, by comparison, [[Resilio Sync]] uses 1.6GB of RAM and an eighth of a core for +30 syncs, including the 4TB share (this is better than the last time I tried, btw). Finishes hashing quickly and without crashing too. I still don't have a replacement.
+* Smart File Renamer has made tedious work quite bearable. Still walking through [[TV: Library]] to make it sane.
+** There are very few things I'd change about the UI (and that's pretty damn surprising). I would never want to do this on the command line. It enables you to reason many steps ahead too. Gets better with practice too (and the undo is fantastic) to work around some of the arguable flaws (still impressed!). I'd like the [[Search of h0p3]] to be this clean. And, another reason that WASM-based tooling will be the preference.
+* Working more on backend for [[Connect]]. The graveyard runs deep in this space. There's a lot of old tools that were never used (many dope ass university projects too). There's a pain tolerance required for a lot of this tooling (more than dealing with compiling issues).
+* Not having to work through VM filesharing is noice.
+* Cleaning muh pr0n and archiving [[Links: Erotic Short Stories]].
+* Found a backup of some of [[k0sh3k]]'s images (she may already have them).
+* iotop is lit up like a christmas tree, sustained. aMule, MuWire, EiskaltDC++, Retroshare (`/this` close to joining again, as active development has made some sense since the last time), gtk-gnutella (bare bones, and I like it).
+* Still thinking (enjoyed these before, but not convinced):
+** GNUnet
+** Perfect Dark
+** Tribler
+** Zeronet
+
+
+She's up. Bugged her this morning. She's in a good mood! Pieces are coming together for her. Holiday spirit in her too. We [[shared]] mint honey sticks together (and I took one of her ginger beers): the flavors work well enough together, and I'm surprised. 
+
+[[TTTOTW]].
+
+Woke offspring. `/nod`. More cleaning. [[TTTOTW]]. [[ASK]] woke. She's comfy. //Skintime//. Dadnap. 
+
+Woke at 3. Fireman Time! Yikes, didn't realize the time. Began making dinner. More cleaning. Son's been fixing things today. Offspring talked about their days with me. The usual, of course. That is now three people that think it's the flapper on the toilet. Cool. 
+
+Shopping @ W-Entity with [[1uxb0x]]. Cute girl and mom in front of us. =D. Grabbed what we needed, he didn't want anything else, and he did the check-out. A pleasant journey. I [[hope]] one of many more.
+
+[[TTTOTW]] + //Skintime// with [[ASK]]. She's getting everything set. Still feels off though. 
+
+//Raw Skintime// with mi amor. I think she's letting go of more of her freakout. Also, good news, she'll probably be presenting twice at ATLA (panel session for one on how her library handled covid [and she led the charge]). //Inform the Men!// Thank god. Meditation. Shower of the gods!
+
+Finishing dinner. Flapper we grabbed might not be a perfect fit. We'll try again. [[TTTOTW]] + mi amor played double bow on her psaltery.
+
+[[Family Gathering]] was fun, but I fucked up the timing on the roast. We didn't get to eat until after our gathering, `/sigh`. Talked and then watched the children with hormones episode of //House//. Roast with veggies. Watched //Arcane//, but I couldn't get through a second episode. Bounced between people, and put mi amor to bed.
+
+//The Walk// with [[ASK]]. <3. Gotdayum, it is warm for mid-December.
+
+Chocolates, chips, dip, water. We watched //China, IL//.

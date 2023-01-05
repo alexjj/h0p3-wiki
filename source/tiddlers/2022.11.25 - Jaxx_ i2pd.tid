@@ -1,0 +1,17 @@
+created: 20221128065159499
+modified: 20221128065256674
+tags: groupchat Jaxx ASmith
+title: 2022.11.25 - Jaxx: i2pd
+
+"""
+[02:40:42] [[ASmith]]: i2p is superior in some areas to tor and newer in design for video streaming and further anonymous connectivity but really needs 5G and Fiber users to make it zip
+[02:41:24] [[ASmith]]: freenet was like a BC Comic strip here in the United Snakes, write a message, place it on a log and float it in the ocean, the next day the reply comes floating back
+[02:42:18] [[Jaxx]]: the only thing i like more is tor over i2p. but if i wanted to choose 2,it would be i2p and tor. I tried i2p twice i think,but I always went back to tor. no idea why though
+[02:53:49] [[ASmith]]: i2p's main router is writting in straight Java and there's some backdoor or something that suddenly get's triggered after about 24hrs of running to soak up about 70% of your CPU, RAM, and bandwidth
+[02:54:15] [[ASmith]]: so that basically is a no-go for me despite rebooting it every 24hrs to prevent that collapse and evil parasitesH
+
+[05:49:29] [[h0p3]]: You might consider i2pd in some cases. It's not a resource hog.
+[05:52:20] [[h0p3]]: Containerizing RS might be worthy. Full virtualization can be had with minimal overhead too: Firecracker is pretty dope.
+[05:52:44] [[h0p3]]: Wish my system were sandboxed as such far moreso.
+[06:34:04] [[Jaxx]]: Maybe I try i2pd one day. but the times i tried,it always went back to tor
+"""

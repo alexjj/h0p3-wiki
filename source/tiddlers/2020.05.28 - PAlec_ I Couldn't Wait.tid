@@ -1,0 +1,103 @@
+created: 20200530214847754
+modified: 20200530215055599
+tags: PAlec Chatlog
+title: 2020.05.28 - PAlec: I Couldn't Wait
+
+"""
+h0p3 4:19 PM
+
+I'm still thinking about what I want to say to you. 
+
+Sorry, I'm slow. I am thinking though.
+
+I write in the open. I'm currently drafting  your note here: https://philosopher.life/#2020.05.27%20-%20PAlec%3A%20TW-Talk
+
+planit_earth 4:31 PM
+
+This is awesome. The next thing I am intending to do is deploy mine to either zeit or perhaps for now github pages as read only
+
+How did you host yours? 
+
+h0p3 4:33 PM
+
+The short answer is that I distribute in several ways, but I push every minute to github pages for the primary URL. This may be useful if you want to dig: https://philosopher.life/#Readme
+
+I would prefer to distribute mine over something completely decentralized.
+
+I use TW5-Bob as my development environment. It has some warts, but it has the best save method overall I've found.
+
+planit_earth 4:58 PM
+
+nice. I need to set up wikifolders and some visibility toggle for tiddlers which shouldn't be accessible without login.
+
+Or i could just have a build script which handles that using wikifolders.
+
+I'm using the default tiddly-wiki server for node
+
+https://i.imgur.com/glG8goC.png
+
+i got discouraged for a little while because I created a bug where my tiddlers were getting overwritten. and I didn't notice until a week or so, plus I hadn't been committing frequently WOOPs
+
+https://github.com/alecperkey/TiddlyWiki5/pull/12
+
+planit_earth 5:26 PM
+
+Hey, I tunneled with ngrok for you to check what mine looks like
+https://372a903f239c.ngrok.io
+
+just don't save or delete anything :p
+
+I have it backed up now so I guess you could
+
+ DUDE I have a 'Know Yourself' and 'Reflects log'(Prompted Introspection Log)
+
+so cool. I love everything about your wiki but the font. And i'd use off black/off white cause full contrast hurts my eyes :p
+
+planit_earth 5:56 PM
+
+nice, we're using the same jdmob mobile layout iirc https://i.imgur.com/5xYoZwO.png
+
+h0p3 6:21 PM
+
+You can change the font button by clicking the tiny circle in the upper right-hand corner. 
+
+A lot of people hate the way it looks, hehe. I hear it often.
+
+planit_earth 6:22 PM
+
+Thank you much for all the links ~ playing with fraidycat and probably set up twbob tonight, I was testing it out a little while ago
+
+h0p3 6:23 PM
+
+I adore how much our wikis have in common, and I am hoping to understand how you think about the tool. I don't get to see how others do it very often.
+
+You've been explosively working in your wiki.
+
+planit_earth 6:25 PM
+
+much better :D https://i.imgur.com/XpAgDFZ.png
+
+h0p3 6:27 PM
+
+That does look good.
+
+h0p3 6:32 PM
+
+I've not given enough thought to Yak shaving. I appreciate your focus on it.
+
+planit_earth 6:36 PM
+
+I'm the kind of person who starts a bunch of projects only to get bored, so I've put a lot of recent work into finding ways to avoid getting side tracked... and that process itself sometimes is off target haha. 
+
+that sort of enfp novelty-seeking pairs decently with the ecosystem of javascript... cause there is a lot of churn and a lot of change happening always
+
+h0p3 6:48 PM
+
+INTJ here. I seem to pair well with ENFPs (my daughter is one). 
+
+Totally appreciate what it's like to be off target. That is my life. Lol.
+
+h0p3 7:39 PM
+
+Alright, I'm making some adjustments to my palette here. Gonna keep testing.
+"""

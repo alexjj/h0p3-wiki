@@ -1,0 +1,25 @@
+created: 20220126053955957
+modified: 20220126122121637
+tags: [[papa smurf is real]] ASmith Chatlog
+title: 2022.01.22 - ASmith: Need Indentation & Multiline
+
+"""
+12:32:01 AM [[ASmith]]: yeah, its been a long day, which could be 2hrs longer if I have to boot systems up and reload the apps running
+12:32:57 AM [[h0p3]]: [[j3d1h]] made this for me today:
+12:33:15 AM [[h0p3]]: #!/bin/bash
+12:33:16 AM [[h0p3]]: TOUCHY=$(xprintidle) #get time since last touched
+12:33:20 AM [[h0p3]]: if [ $TOUCHY -gt 3600000 ]] #1 hour in milliseconds
+12:33:25 AM [[h0p3]]: then
+12:33:30 AM [[h0p3]]: RIGHTNOW=$(date +%s) #grab current unix time
+12:33:34 AM [[h0p3]]: WAITDATE=$(cat next-time.txt) #grab logged +12h timestamp
+12:33:37 AM [[h0p3]]: if [ $RIGHTNOW -ge $WAITDATE ]] #if it's been 12 hours...
+12:33:40 AM [[h0p3]]: then
+12:33:45 AM [[h0p3]]: date --date='+12 hours' +%s > next-time.txt #replace logged timestamp w/ 12h from now
+12:33:48 AM [[h0p3]]: #do your stuff
+12:33:51 AM [[h0p3]]: fi
+12:33:55 AM [[h0p3]]: fi
+12:34:03 AM [[h0p3]]: (no multi-line, I believe)
+12:35:01 AM [[h0p3]]: Anyways, the idea is that if I've not touched the machine for an hour, and it's been 12 hours since I restarted qBittorrent, et. al., then I'll use i3 to pop over and restart what needs to be started (just gonna have it autologin from xdotool*).
+01:05:34 AM [[ASmith]]: nice, I'll review this tomorrow h0p3, tx for sharing it
+01:05:53 AM [[ASmith]]: gd'nite to each and all
+"""

@@ -1,0 +1,40 @@
+created: 20220927052457612
+modified: 20220929083551874
+tags: squirrelcity Note To
+title: 2022.09.27 - squirrelcity: Pointing Again At The Core Problem
+
+ > I dont mean to load a difficult design problem onto your shoulders, i was looking for any input about technologies i may not be aware of, specifically DHTs that carry strong anonymity and security. 
+
+It is my honor to think about the problem with you. I'm the sort who instinctively argues about nearly everything (I'm a verbose sumbitch :P), and I just want to make sure I'm [[wrestling]] about the topics you find most relevant here. I think what you are trying to build is a crucial moral problem to solve in [[The Great Human Conversation]], at least in the 21st Century. I wish I knew of a better way. 
+
+> So this may be more in your domain: Are there any DHT tech that would allow a node to host a DHT without necessarily being able to see the entire DHT? 
+
+I am not an expert in this domain. 
+
+In most cases, no node will host the entire DHT (except some bootstrap nodes, if those obtain). 
+
+To my understanding, any sufficiently funded adversary should be able to crawl any DHT. You might be able make it a bit more difficult, especially for very large DHTs. Consider a modified Kademlia with ip-binned k-buckets:
+
+* ipv4-nodeID := [octets, tcp, udp, elligatored-ed25519-truncated-for-padding]
+** e.g. 1.2.3.4:65535:65536 -> 0010020030046553565536padding 
+* ipv6-nodeID := [global prefix, subnet, interfaceID, tcp, udp, elligatored-ed25519-truncated-for-padding]
+** e.g. 000100020003AAAA00040005000600076553565536paddding 
+
+If the DHT protocol is constructed in such a way that nodes limit how they share their routing tables with other nodes (though there are costs for doing this) while actively looking to blacklist crawlers, and if the DHT's nodeIDs themselves contained the IP/port information, the adversary could perhaps have difficulty crawling the DHT. If an adversary can't simply choose arbitrary nodeIDs to fill out their k-buckets, it may be difficult to brute-force crawl. However, if the adversary controls enough IP addresses, they might still have a fairly high chance of capturing a significant percentage. 
+
+> As alices key is shared, the private key can as well be provided to the query node, in essence allowing the node to unlock the directions to her file. Are there any DHT's that can be encrypted on a per-entry basis?
+
+Yes, but I don't think it buys you anything more.
+
+> This would be optimal, as opposed to slow cumbersome networks like DC-nets, or ones that offer weak security against DDoS and deanonymization like .onions. 
+> The security provided by IP anonymization networks is not ideal for a sufficiently secure network at this time. 
+
+If you think sufficient IP anonymization cannot be achieved for your threat model, then that's the place to start (and perhaps end*). I admire how high you keep the bar. It's part of why I asked you to consider DC-nets, as the anonymity it provides succeeds even against global adversaries. It's not probabilistic; either the communication goes through or it doesn't, but no anonymity is lost. Making a decentralized network that provides radically strong anonymity without being subject to interference is quite a task, and may not even be feasible. 
+
+> I suppose this doesnt really solve the problem of Eve having the keys, since she can simply look it up herself as a query node. Then as you said it comes down to establishing trust.
+
+`/nod`. Anonymizing the hosts is the core problem. You seem unhappy with the options. 
+
+> I would have to wonder what Bobs liability in this situation would be, if his role carried any sort of liability. 
+
+Probably depends on the jurisdiction. What is practiced may also be different from what's on the books. I think Bob needs to be anonymized as well. 

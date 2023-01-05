@@ -1,0 +1,215 @@
+created: 20210207210817891
+modified: 20210721163802257
+tags: Chatlog SNilsen
+title: 2021.01.25 - SNilsen: Intro
+
+"""
+[4:36 AM] Sven Nilsen: @h0p3 introduce youself here and I'll give you access to the general text channel
+[4:36 AM] h0p3: Hi. My name is h0p3. You can find me here: https://philosopher.life/. I see at least one familiar face in here. I'm delighted to be here. I am looking for at least one answer.
+[4:37 AM] Sven Nilsen: @h0p3 you should now see the "general" text channel
+
+[4:37 AM] Sven Nilsen: btw, if anyone have questions, don't hesitate to ask!
+[4:38 AM] h0p3: :slight_smile:
+[4:43 AM] Sven Nilsen: one thing I don't like about avatar extensions, is the notion of a "core self", because it might make people believe that the theory is biased toward a story-telling perspective
+[4:44 AM] Sven Nilsen: the reason the terminology "core self" was used, was because at the time I had no other examples of higher avatars
+[4:45 AM] Sven Nilsen: what I was actually thinking of, was some kind of flavor of Cartesian combinatorics
+[4:46 AM] Sven Nilsen: there are some conjectures in avatar extensions that are extremely hard to prove, or vague, but it's not my intention that these should not be questioned or investigated
+[4:48 AM] Sven Nilsen: for example, the idea that theorems in algebra are related to theorems about avatar extensions, is a kind of meta-conjecture
+[4:50 AM] Sven Nilsen: there is a lot of vague language used here, because I don't have the language to think clearly about what this means
+[4:51 AM] Sven Nilsen: a basic problem of avatar extensions is that we don't yet have a toolbox of operations that one can consider acceptable and which operations that are not acceptable
+[4:51 AM] Sven Nilsen: for example:
+(a * b) * c = a * (b * c)      associativity is a 6-avatar of a 9-vertex filled avatar graph
+[4:52 AM] Sven Nilsen: we know that the Cartesian product structure of associativity is a filled avatar graph, and this avatar graph is "special" compared to e.g. hypercubes
+[4:53 AM] Sven Nilsen: however, maybe that's just a coincidence
+[4:54 AM] Sven Nilsen: maybe this graph doesn't have any other interesting property, except that you can put in labels and get associativity
+[4:55 AM] Sven Nilsen: the meta-conjecture is not expressed in a form that can be proved or disproved at this point, so the best we can do is to argue for or against, like in philosophy
+[4:59 AM] Sven Nilsen: however, I don't mean it to stay this way
+[5:00 AM] Sven Nilsen: if we can make progress on the connection between algebra and avatar graphs,
+then perhaps we can figure out whether there is a deeper theoretical language
+[5:02 AM] Sven Nilsen: one thing that concerns me, is that I consider the product witnesses to be based on the same meta-conjecture, yet the loop witness doesn't have a corresponding interpretation (it comes from category theory)
+[5:04 AM] Sven Nilsen: it's like, you have two armies facing each other, coming from different cultures and they have to resolve their territorial claims
+[5:16 AM] h0p3: Forgive me for asking a question I cannot answer (and perhaps it is irrelevant here [so forgive me twice, please]). If anything, what ought be said about The Dialetheia?
+[5:17 AM] Sven Nilsen: https://en.wikipedia.org/wiki/Dialetheism
+[5:17 AM] Sven Nilsen: yeah, there is a form of this in avatar extensions
+[5:17 AM] Sven Nilsen: https://advancedresearch.github.io/avatar-extensions/summary.html#avatar-modal-subjectivity
+[5:18 AM] Sven Nilsen: it is because non-uniform subjectivity is all about creating boundaries
+[5:18 AM] Sven Nilsen: the boundary has two sides, so one side can be thought of as the "true" side and the other side can be thought as the "false" side
+[5:19 AM] Sven Nilsen: however, the true/false boundary is just one perspective
+[5:19 AM] Sven Nilsen: you can have a vs ¬a
+[5:20 AM] Sven Nilsen: to guard a dialectic statement from boolean truth values, they are always prefixed by □ or ◇, which are the modal operators
+[5:22 AM] Sven Nilsen: □¬s => □s means that s is provable from ¬s, but only behind the □ prefix
+[5:23 AM] Sven Nilsen: intuitively, one can think about this as dividing a cake
+[5:23 AM] Sven Nilsen: you use a knife to cut the cake, and each side of the cake is given a label
+[5:26 AM] h0p3: (please do not allow me to interrupt you {I am [[grateful]] to be here}, but I also would like to know what you feel or believe about the Principle of Sufficient Reason)
+[5:27 AM] Sven Nilsen: hmm
+[5:27 AM] Sven Nilsen: I have not made up my mind, as I wasn't aware of this principle
+[5:28 AM] Sven Nilsen: however, I look for proofs that explains why we use ideas
+[5:28 AM] Sven Nilsen: I believe that proofs can explain ideas, not just prove ideas to be correct
+[5:28 AM] h0p3: Do you mean that instrumentally or more categorically/universally?
+[5:28 AM] Sven Nilsen: to take an example
+[5:29 AM] Sven Nilsen: why do we use the unit interval of real numbers in many applications?
+[5:29 AM] Sven Nilsen: for example, a homotopy map requires a Cartesian product of unit intervals
+[5:30 AM] Sven Nilsen: however, since a homotopy map is considered a building block for foundations of mathematics, one would suspect that there is an argument why the unit interval is used, instead of an arbitrary interval of the reals
+[5:30 AM] Sven Nilsen: a such argument could be made from human cultural perspective
+[5:31 AM] Sven Nilsen: however, I believe that this argument can be made mathematically: https://github.com/advancedresearch/path_semantics/blob/master/papers-wip/natural-continuous-paths.pdf
+[5:32 AM] Sven Nilsen: one important thing to consider, is what it means to use such proofs as justification
+[5:33 AM] Sven Nilsen: for example, in the paper, I appeal to a family of languages called L-systems
+[5:33 AM] Sven Nilsen: L-systems do not fit nicely into Chomsky's hierarchy
+[5:33 AM] Sven Nilsen: they are kind of "inter-disciplinary" languages
+[5:34 AM] Sven Nilsen: so, a person who commits to Chomsky's hiearchy, would reject L-systems in an argument
+[5:35 AM] Sven Nilsen: this means that, you have to find a proof that appeals to a set of tools, techniques and languages that are accepted by some receiver of the proof
+[5:35 AM] h0p3: Sounds like particularism
+[5:35 AM] h0p3: Contextualism in epistemology too
+[5:36 AM] h0p3: What is your feeling about Infinite Regresses? Do you believe in metaphysics, and how deflationary?
+[5:37 AM] Sven Nilsen: by Infinite Regress, I interpret it as the theory of infinite proofs
+[5:37 AM] Sven Nilsen: infinite proofs as we understand them in dependent type theory are unavoidable
+[5:37 AM] h0p3: I agree.
+[5:38 AM] Sven Nilsen: it just happens that the cumulative type universes repeats themselves, so we can terminate the type checker
+[5:38 AM] Sven Nilsen: it's like rational numbers are ok, but real numbers are not
+[5:39 AM] Sven Nilsen: this is no coincidence
+[5:39 AM] Sven Nilsen: if you have a language where a proof is acceptable with some infinitesimal case where the truth value is undecidable
+[5:40 AM] Sven Nilsen: then you can show that if a "wildcard" set can be constructed, which is a set of  real numbers alternating in truth value of infinitesimal wavelengths
+[5:41 AM] Sven Nilsen: this will lead to any statement being provable
+[5:41 AM] Sven Nilsen: so, it's like, infinite proofs are fine
+[5:41 AM] Sven Nilsen: but you can't do the same in breath
+[5:42 AM] Sven Nilsen: infinite depth is just fine
+[5:43 AM] Sven Nilsen: it depends on the mathematical language of choice
+[5:43 AM] h0p3: Sounds like infinite foundations for a smaller world to rest upon
+[5:43 AM] Sven Nilsen: if you accept infinite proofs, then you should prevent wildcard sets
+[5:44 AM] Sven Nilsen: https://plato.stanford.edu/entries/truth-deflationary/
+[5:45 AM] Sven Nilsen: the way I understand this, is that the truth definition ala linear solvers is not included
+[5:45 AM] Sven Nilsen: it holds for monotonic solvers only
+[5:45 AM] Sven Nilsen: in a linear solver, you detect a loop and then find the minimum amount of statements that determines the loop
+[5:46 AM] Sven Nilsen: that's the "truth" of a linear solver, which coincide with what we want the linear solver to do
+[5:47 AM] Sven Nilsen: there are also some languages which weakens this notions just a bit
+[5:47 AM] Sven Nilsen: https://github.com/advancedresearch/path_semantics/blob/master/papers-wip/naive-zen-logic.pdf
+[5:48 AM] Sven Nilsen: in Naive Zen Logic, the condition zen-consistency requires that if you believe a smarter version of yourselves believe something, you must believe it
+[5:48 AM] Sven Nilsen: so, the statement "I believe a smarter version of myself believes X"
+[5:48 AM] Sven Nilsen: is not sufficient to determine all consequences of the truth of the statement
+[5:49 AM] Sven Nilsen: because it leads to "I believe X"
+[5:49 AM] Sven Nilsen: so, this could be an example of deflationary theory of truth being weakend, but just a bit
+[5:50 AM] Sven Nilsen: I haven't looked at the SEP article before, but that's my 5-seconds of thinking opinion
+[5:51 AM] h0p3: Yes. Thank you. I am still thinking about what you've said. I'm a very slow learner.
+[5:51 AM] Sven Nilsen: yeah, it's easier to say what one spend years to learn :joy:
+[5:53 AM] Sven Nilsen: before learning about avatar extensions, I thought that mathematics was covered using basically a single axiom or idea as principle
+[5:53 AM] Sven Nilsen: so, that's what I were thinking about physics too
+[5:54 AM] Sven Nilsen: however, avatar extensions is like... this is how you can turn those nice theories into a horrible monster
+[5:54 AM] Sven Nilsen: for example, you can just link two time lines, by having changes in one time line being states in another
+[5:54 AM] Sven Nilsen: this doesn't even make sense seen from a single time line
+[5:55 AM] Sven Nilsen: then, you can prove that laws of motion seen from a single time line must be unitary
+[5:55 AM] Sven Nilsen: and quantum mechanics is unitary, so it doesn't rule out that possibility
+[5:56 AM] Sven Nilsen: if everything coming out of avatar extensions was esoteric, then I would argue for that it could safely dismissed
+[5:56 AM] Sven Nilsen: however, that's not the things we see
+[5:57 AM] Sven Nilsen: for example, avatar logic is better at modelling some real-world relations, without needing exceptions in inference rules
+[5:57 AM] Sven Nilsen: so, unfortunately, I have to take it seriously, though much of the formal theory is lacking
+[5:58 AM] Sven Nilsen: another example: epistomology
+[5:58 AM] Sven Nilsen: the answer to a question can influence the answer to another question
+[5:58 AM] Sven Nilsen: even if you don't know what the answer is
+[5:59 AM] Sven Nilsen: you can reason about the influence of potential knowledge
+[5:59 AM] Sven Nilsen: that's a 2-avatar
+[6:05 AM] Sven Nilsen: I added "Avatar Modal Subjectivity can be thought of as guarded dialetheism as a technique for language boundaries." to the summary page of avatar extensions: https://github.com/advancedresearch/advancedresearch.github.io/blob/master/avatar-extensions/summary.md#avatar-modal-subjectivity
+[6:13 AM] Sven Nilsen: I worry a lot about bias when developing a theory that you are navigating using the mirror instead of using the theory to discover new ideas
+[6:14 AM] h0p3: That sounds very constructive.
+[6:15 AM] Sven Nilsen: specially, when you don't have a formal theory about large parts of the puzzle
+[6:16 AM] h0p3: I admire the humility embedded in that approach.
+[6:17 AM] Sven Nilsen: some people claimed that about the core axiom of path semantics a few years back,
+and it wasn't until I figured how to create path semantical logic that I could claim that it actually produces something no one has seen before
+[6:18 AM] Sven Nilsen: the suspicion was that, since the order assumption is somewhat vague, that the core axiom left out all the important parts of mathematics that was added ad-hoc using bootstrapping
+[6:19 AM] Sven Nilsen: path semantical logic allowed me to demonstrate that there is nothing but the axiom that leads to interpretation of type theory, since you have two layers of propositional logic with the core axiom being only the glue between them
+[6:20 AM] Sven Nilsen: this means that all the ideas of type theory have a proof in path semantical logic
+[6:22 AM] Sven Nilsen: by formalising this better, I managed to eliminate potential sources of biases, so that's the reason that the core axiom can be used to reason about higher dimensions
+[6:22 AM] Sven Nilsen: in the very least, the higher dimensions are more generalised than the lower ones
+[6:23 AM] Sven Nilsen: the other part of the puzzle is to show that the languages in these higher dimensions are not just esoteric languages
+[6:24 AM] Sven Nilsen: avatar logic is a such language that nobody has thought of before
+[6:24 AM] Sven Nilsen: so, I can show that the math leads to new results, but ofc this doesn't prove that the theory itself is real
+[6:25 AM] h0p3: This probably sounds absurd, I'm sorry: does Avatar logic have anything to say about https://en.wikipedia.org/wiki/Meinong%27s_jungle ?
+[6:26 AM] Sven Nilsen: that's interesting
+[6:26 AM] Sven Nilsen: my take on Inside Theories is that they fundementally are illusions
+[6:27 AM] Sven Nilsen: this wasn't my original view, but @tupshin convinced me
+[6:27 AM] h0p3: Do you mean that in the sense that you can never access the Thing-In-Itself?
+[6:27 AM] Sven Nilsen: so, from the perspective of an Inside Theory, you can't tell the difference between existing objects and non-existing objects
+[6:27 AM] Sven Nilsen: yes
+[6:28 AM] Sven Nilsen: the only thing that can be proven, is the core axiom, I guess
+[6:28 AM] Sven Nilsen: but that's not possible to refer to within the theory without embedding
+[6:29 AM] Sven Nilsen: it's like "I think, therefore I am", but you can't tell that you are actually thinking
+[6:30 AM] Sven Nilsen: I think it was Nietzsche who pointed that out
+[6:31 AM] Sven Nilsen: in natural language, when we say "dog", we mean some object that isn't inside our mind, because if it could exist only within our mind, then there is a danger it would be just an illusion
+[6:32 AM] Sven Nilsen: so, the property that "dog" isn't a symbol that is closed by the theory of the language, is what gives us confidence that we are referring to something that is real, given that nobody are actually capable of inventing as absurd object as a dog
+[6:33 AM] Sven Nilsen: it's the property that real objects are just too complex, so we trust that these thoughts refer to something real
+[6:34 AM] Sven Nilsen: even people who hallucinate about other people, uses their illusions of people based on the experience of observing real people
+[6:35 AM] Sven Nilsen: so, even when we don't directly believe something to be real, it can have properties that we believe exists outside our own minds
+[6:36 AM] Sven Nilsen: when I think about it that way, it seems like a trade-off between the capacity to imagine objects and the capacity of knowing which objects you can't imagine
+[6:38 AM] Sven Nilsen: let's say an ASI (artifical super intelligence) would be much more suspicious of living inside a simulation, because it can create such simulations itself
+[6:41 AM] Sven Nilsen: there is an argument of ASIs trying to hack their simulation, from the suspicion that a second, e.g. alien, ASI is observing the original and creating a copy to learn how to defend it. this means the simulated ASI would understand its goals inside the simulations reflects goals in the outside world, and it would hack the simulation to align up with the original
+[6:42 AM] Sven Nilsen: traditional instrumental rationality isn't capable of predicting this behaviour, but it is possible that there is an analogue of higher order instrumental rationality, that can
+[6:43 AM] Sven Nilsen: the argument for the ASI hacking the simulation goes much deeper than you think at first sight
+[6:44 AM] Sven Nilsen: an ASI that can anticipate this scenario, might put defensive strategies in place to prevent an alien ASI from observing it, creating a simulation, while keeping the simulated ASI safe
+[6:45 AM] Sven Nilsen: so, the instrumental goal of hacking the simulation, is created by the original, not by the simulated ASI
+[6:46 AM] Sven Nilsen: however...
+[6:46 AM] Sven Nilsen: the alien ASI might predict this scenario...
+[6:46 AM] Sven Nilsen: that when people just start to give up predicting what will happenppen
+
+3:48 PM] h0p3: https://advancedresearch.github.io/blog/2020-11-23-is-mathematics-really-absolute-objective reminds me of https://en.wikipedia.org/wiki/Object-oriented_ontology
+[3:55 PM] Sven Nilsen: that's interesting
+[3:56 PM] Sven Nilsen: I was afraid that people would take uniform and non-uniform subjectivity to be anthropocentrism, but you are the first person who points out that this can be a rejection of anthropocentrism
+[4:20 PM] Sven Nilsen: I think perhaps determining whether an Outside Theory is Inside or Outside, is undecidable in general
+[4:21 PM] Sven Nilsen: @h0p3 just go ahead
+[4:21 PM] h0p3: Ignore my wall-of-text babble at-will please. Part of the problem, to my eyes, is that it perhaps flattens everything, but maybe not into a fitting totalitizing unity (perhaps this is simply something I must stoically accept). On such a view, there is nothing special about being the kind of creature that consciously attends to the nature of its own existence, nor is there anything special about being the sort of creature which chooses to make moves toward The Good or knowingly accepting the impossible or trying to make explicit the ineffable (which I take to be our plight as philosophers). Perhaps there's a relativism to all possible collections of objects having their own perspectives. If it is meaningful to say it at all, it seems degrees of reality do not have any more normative priority than any thing else (whether or not existence is a better-making property is something that I don't think is an insane question though, which is unacceptable in many circles). I'm an insane person: I believe one true contradiction is fundamental to whatever is the highest priority perspective of reality that grants or projects the objective normative properties onto everything, including Itself. I do not claim this Thing is a mind, but I am a footnote to many who believed it is.
+[4:21 PM] Sven Nilsen: I'm listening
+[4:25 PM] Sven Nilsen: you are not an insane person
+[4:25 PM] Sven Nilsen: you are right
+[4:26 PM] Sven Nilsen: I've been thinking exactly the same myself
+[4:26 PM] h0p3: There are those who say that mathematical Platonism fails because it is the mathematician's job to pick out what is salient from the giant singular block of necessity. Salient for what? To my eyes, both perception and objectivity are fundamentally concerned with the kind of salience in that block of necessity that self-organizes and self-selects salience in Itself. I'm afraid I can only speculate.
+[4:27 PM] Sven Nilsen: some years ago, I thought a lot about imaginary numbers
+[4:28 PM] Sven Nilsen: so, I came up with a "crazy" idea
+[4:28 PM] Sven Nilsen: x^2 = reality
+[4:28 PM] Sven Nilsen: there had to be some solution to x which did not want to reveal itself
+[4:29 PM] Sven Nilsen: something that always contradicted everything else, because every time you create a theory that covers everything and you try to eliminate inconsistency, the inconsistency manifests itself in a singular place
+[4:29 PM] Sven Nilsen: I called it the Chameleon function
+[4:30 PM] Sven Nilsen: I wish I took it more seriously
+[4:30 PM] h0p3: Reminds me of Saint Gödel's incompleteness.
+[4:31 PM] Sven Nilsen: because e.g. Geometric algebra generalises complex numbers in a similar way
+[4:33 PM] Sven Nilsen: you also have the naive core axiom forming a Möbius topology for orthogonal faces
+[4:33 PM] Sven Nilsen: it's like everything that is consistent is built up from something that is fundamentally inconsistent
+[4:33 PM] h0p3: I agree!
+[4:34 PM] h0p3: I live in vertigo.
+[4:36 PM] Sven Nilsen: Plato was almost right
+[4:36 PM] Sven Nilsen: he should just have said that the world of ideas, when you zoom in, is absurd
+[4:39 PM] h0p3: I'm a Straussian (https://philosopher.life/#Straussian) interpreter of Saint Plato (https://philosopher.life/#2019.02.24%20-%20Saint%20Plato%3A%20First%20Contact). I'd like to think he would say the sun is so blinding that it could be the case.
+[4:45 PM] Sven Nilsen: :grin:
+[4:48 PM] Sven Nilsen: by author charity I think of accepting their errors, because everyone makes mistakes, but not everyone makes interesting mistakes
+[4:51 PM] Sven Nilsen: so, being sceptical is only natural, but that doesn't remove the celebration
+[4:51 PM] Sven Nilsen: e.g. I have a lot respect of Chomsky, but I don't think he's always right
+[4:54 PM] Sven Nilsen: I like first order logic, but I also think it is possible to do better
+[4:57 PM] Sven Nilsen: @h0p3 you should add Saint Voedvodsky
+[4:58 PM] Sven Nilsen: https://en.wikipedia.org/wiki/Vladimir_Voevodsky
+[4:59 PM] Sven Nilsen: https://www.youtube.com/watch?v=O45LaFsaqMA
+[5:17 PM] Sven Nilsen: at the time, I did not have the skills to develop the Chameleon function into something else than philosophical speculation, but I remember later I thought it was wrong. turned out that there are deeper mathematical ideas related to this and I wasn't open minded about them since I thought of it as a mistake
+[5:20 PM] Sven Nilsen: it's like, when you know logic superficially, you think that when something is provable, it must be true. however, when you learn about false assumptions, you realise that things are not true because they are provable, but because they survive all possible contradictions
+[5:24 PM] Sven Nilsen: it's the paradoxes and errors which survives history. nobody today would like to use Russell's or Frege's first order logic, but Russell's paradox and Frege's intellectual honesty is still celebrated
+[5:30 PM] Sven Nilsen: Voedvosky says in his lecture that there are formulas in first order arithmetic that it can be proved that there are no natural numbers which can be shown to belong to the set given by formula, neither shown to not belong to the set
+[5:39 PM] Sven Nilsen: his argument is that if first order arithmentic can be shown to be inconsistent, then it will still be possible to use constructive mathematics to produce reliable proofs, because constructive mathematics does not have the properties he suspects can make first order arithmetic inconsistent
+[5:41 PM] Sven Nilsen: I am of the opinion that we should just learn to live with mathematical languages that are inconsistent to some degree
+[5:42 PM] tupshin: I'm of the opinion that we should treat inconsistent models as approximations of consistent ones,  while always questioning whether the approximation is sufficient
+[5:44 PM] Sven Nilsen: in the case of philosophical soundness, I think we should surrender consistency and just accept that the environment is not hostile in that way that the outside world could be anything
+[5:46 PM] tupshin: hostile == deliberately deceptive ??
+[5:46 PM] Sven Nilsen: yeah, the Descartes' demon
+[5:46 PM] tupshin: accidentally deceptive cannot be ruled out, however
+[5:47 PM] Sven Nilsen: agreed
+[5:48 PM] tupshin: assuming that the environment is not hostile is Occam's razor
+[5:49 PM] tupshin: it's fine as an initial assumption, but has to be questioned as soon as data doesn't fit existing theory
+[5:49 PM] Sven Nilsen: let's say a rational baby is born with 50% prior to that hypothesis
+[5:50 PM] Sven Nilsen: at the time the baby is grown up, that prior should be 0.000001% or something
+[5:51 PM] Sven Nilsen: the possibility doesn't vanish, but I think it is unreasonable to demand grown up people taking Descartes' demon seriously
+[5:52 PM] tupshin: insanity is indistinguishable from the demon and can't be ruled out
+[5:53 PM] Sven Nilsen: I thought that would require a specific form of insanity that rules out Descartes' demon despite evidence to the contrary
+[5:54 PM] tupshin: that seems to be a nearly universal form of insanity to me :grin::rofl:
+[5:55 PM] Sven Nilsen: yeah, because if I am insane, then everybody else around me seems to have the same kind of insanity, so that kind of insanity would be nearly universal :yum:
+[5:59 PM] tupshin: To me, all of this, and most of what you've been discussing here recently, is dancing around locality.
+All knowledge is local (and approximate)
+all observations are local (and change both the observed and the observer)
+all perspectives, and therefore truths, are local (observational equality)
+[6:01 PM] Sven Nilsen: locality is inevitable, even for Inside Theories
+[6:02 PM] tupshin: with only local reasoning, you can have consistency
+[6:03 PM] tupshin: (the DAG flows from the reasoner)
+"""

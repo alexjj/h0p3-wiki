@@ -1,0 +1,52 @@
+created: 20210102085121046
+modified: 20210106023554550
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]] [[MTG Log]]
+title: 2021.01.02 - Carpe Tempus Segmentum: Reactive Hiki
+
+* Try To Take Over The World
+* //House of Cards//
+* Sleep by 7
+* Woke at 1:30
+* //Skintime//->Assisted Fireman Time!
+* Try To Take Over The World
+* Fireman Time!
+* [[Morning Routine]]
+* Offspring on tasks
+* //The Walk//
+** Keep the reactive hiki sane. We both needed the exercise. 
+** There are many dogs in our neighborhood. I've yet to see a cat; presumably all indoors. 
+** Higher rates of conservatives than I'd have guessed. That is a discomforting thought long-term. My wife will speak for both of us.
+* Made dinner with offspring; accountability went poorly.
+* Called [[JRE]] Back
+** Signal has too much feedback for speaker. 
+** They just got back from a walk too. Quinn doesn't care for the wagon.
+** Gonna be an influential month for my brother: test, new meds, picking work back up, party, and daycare...on top of the zillion other things. 
+*** A cleaner beneficiary of the safety net (fewer tatters).
+** Δ⁸ discussion, oh and ⁸Δ⁸ (reminder*).
+** Enjoying //Cyberpunk 2077//, especially the story, trying not to read about minmaxing/ludology of the game. Felt it was quite dark.  
+*** Spoke a bit about Witcher 3. 
+**** Ludological optimization and ugly females in [[vidya]] [[games]]. 
+* Try To Take Over The World
+* //Skintime// until she couldn't hold her book up any longer.
+* Nap/Delirium
+* [[Family Gathering]]
+** Chili, peaches, cake, and water
+** [[MTG]]: 
+*** Offspring played their usual, probably a turn disadvantaged for my daughter. She continues to improve with the many decisions in her deck. My son is getting better at bluffing. I heard sound reasons in their stories.
+*** Wife's Thesh vs Infect +1: Rift bolt suspend is too late, T3 combo unanswered. 
+*** Wife's Thresh vs D&T: Thalia was a complete lockout, scooped. In reverse, counters on both vials with 1-land vs. 2 delvers, scooped.
+* Try To Take Over The World
+
+<br>
+
+!! [[Computer Musings]]:
+
+```
+sudo pacman -S arandr --noconfirm
+```
+
+Thus far, it is the simplest way I've found for the vertical monitor. Sidebar on wiki should collapse in one of the toggles. 
+
+Don't like the way the edges catch moving from vertical to horizontal. That should be scalable. 
+
+I need to go back through [[.i3/config]] to make it clean on reboot too. 

@@ -1,0 +1,34 @@
+created: 20190324052145002
+creator: Mohammad
+modified: 20190324053838682
+modifier: Mohammad
+tags: $:/tags/Macro
+title: $:/plugins/kookma/commander/macro/snr/ui/setting
+
+\define snr-difftext-cleanup()
+
+<form class="snr-form">
+<fieldset>
+<legend>Difftext cleanup</legend>
+
+<$radio
+  tiddler="$:/state/commander/snr/setting/cleanup" 
+  field="text" 
+  value="none">&nbsp; none
+</$radio><br>
+
+<$radio
+  tiddler="$:/state/commander/snr/setting/cleanup" 
+  field="text" 
+  value="semantic">&nbsp; semantic
+</$radio><br>
+
+<$radio
+  tiddler="$:/state/commander/snr/setting/cleanup" 
+  field="text" 
+  value="efficient">&nbsp; efficient 
+</$radio>
+
+</fieldset>
+</form>
+\end

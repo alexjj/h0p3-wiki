@@ -1,0 +1,47 @@
+created: 20220806011126562
+modified: 20220807172805624
+tags: groupchat eyedeekay [[Le Reddit Log]]
+title: 2022.08.05 - Le Reddit Log: i2pnix
+
+https://www.reddit.com/r/i2p/comments/wgepf7/i2p_whonix_gateway/
+
+
+<<<
+>>>>>>> Yeah I just got back from HOPE and I'm not entirely sure when the next time I'll be that far north again. Bummer. My travel schedule has been a bit more extensive than I'm used to this summer, not that I'm complaining, but the next few stops for me are out west, down south, out west again, and then maybe Germany. Next time I find myself in New England I will be in touch.
+
+>>>>>> I live in Connecticut, and I've only visited Vegas once (ate at a buffet there when I was a young one). Thank you for the invitation. I've wanted to go for a couple decades, but I've never been able to afford to go. I believe I just missed you at A New [[Hope]] (couldn't be a more fitting name); I should have gone. Maybe next time. Should you find yourself near New England, I'll be happy to have you over at our house (you are free to stay for as long as you want) or drive out to meet you.
+
+>>>>> Oh also, don't know where you are or how you feel about Vegas but I'm meeting people in-person at Def Con in less than a week. Anyone in the area is welcome to get in touch with me and I'll do my best to meet up with them.
+
+>>>> That makes sense. It's not like Whonix is likely to disappear at this point either.
+
+>>>> I do keep notes about and my conversations with people open, except under rare circumstances (and with as few [[redactions|REDACTED]] as possible). I strive for transparency. I strongly appreciate the need to [[link]] to my own words as well. `/nod`.
+
+>>>> Thank you again. It was a pleasure meeting you.
+
+>>> Got yourself a little dossier there, don't you. Getting in touch with me on Reddit is fine, Github too, especially if the questions might apply to more than one person I try to answer things in public so I can reference myself instead of repeating myself lol. If you want to contact me privately, use GPG to reach out to my work e-mail, which is hankhill19580 at gmail dot com.
+
+>>> A hard lesson young enthusiastic programmers learn is the building it from scratch is only the right answer if the question is "How do we get a new implementation of this concept." Take Debian for instance, we don't need a distro to be good in Debian, we only need an attentive maintainer. Same for KickSecure(Which is downstream of Debian and going to be upstream of Whonix). Never tried HBSD but there, we probably need a packager. Whonix might be best because it is the place where most of the steps have been taken already.
+
+>> Your work is amazing. As I was mentioning to [[ASK]] and [[my wife]], I almost reached out to you directly. I'd gladly read about what [you](https://philosopher.life/#eyedeekay) are doing, but that may not be worth your time given the opportunity costs. You devote a lot of time to writing code, helping others on forums, and supporting the i2p network. Where's best to follow and [contact](https://philosopher.life/#Contact%20h0p3) you? 
+
+>> Perhaps fixing Whonix isn't the best direction. Starting with something like Debian, KickSecure, or HardenedBSD and building it from scratch may be wiser in the long-run. Crazy dream though it may be, part of why I'm doing this is to further poke holes into a custom workstation just to make it easier for other people to share files from their host OS without having to set up much of what would be inside the workstation.
+
+> I used to help out with it quite a bit and have gradually been re-involving myself with it. Trouble is that I don't actually run Whonix full-time, my setup is at this point a weird mix of KickSecure and Debian Sid, so debugging the Whonix stuff in practice is a bit difficult. I need to just bite down and get a Whonix machine set up I guess.
+
+''''
+
+>>> I also tried to setup i2p on whonix with no success, that's a shame. I think i2p should be integrated into whonix as is tor.
+
+>> Thank you. I'm glad to hear there are still other people who want this too. Would you prefer it were i2pnix exclusive to i2p or integrated into Whonix? 
+
+> Unfortunately, I have no technical support for you, only moral. I too have wanted a "i2pnix" Gateway. I've tried to follow the "install i2p on the Whonix Gateway" instructions before and have never been successful. I've always given up and installed it on the Workstation.
+
+I'm lost out here in the desert, [nomad](https://philosopher.life/#Find%20The%20Others). Please help me.
+
+There have been attempts at modifying a Whonix Gateway to allow i2p to run in parallel and pass constrained access to a Whonix Workstation. This would allow the Workstation to avoid running i2p tunnels over Tor, which may be preferred in some cases. From what I can see, whatever successes may have obtained seem short-lived, though I am [grateful](https://philosopher.life/#Gratitude) for their tremendous effort and showing it's possible. 
+
+I think this remains a valuable project. It's not clear to me Whonix Devs with the fitting expertise (a substantial portion of the work is in carefully engineering holes in the Gateway, I believe) have tended to think this is a good idea or a worthy use of their time. Tor has weaknesses, including centralization and remaining basically a TCP-only protocol, that i2p (and its community) handles better. I want my workstations to be able to use TCP and UDP tooling, and I think a Tor monoculture is dangerous given how little control the users ultimately have over the network. Diversity is worthy here, and i2p fills in some gaps. Has anyone been working on this project? Anyone have any tips, rants, or resources about this? Would anyone like to work on this with me? I'm probably going to fail, but that's okay.
+
+If we have to, perhaps we should build a separate Gateway/Workstation specific to i2p. Firejail, bubblewrap, or containerizing simply isn't as secure as virtualization, on average (and, one does not preclude the other). I'm not sure what's best to do here.
+<<<

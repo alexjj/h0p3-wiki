@@ -1,0 +1,179 @@
+created: 20211021024530140
+modified: 20221121095818403
+tags: Library Computing Toolporn Nifty
+title: The Bootable USB Thumbdrive
+
+//Dedicated to [[The Ultimate USB]] (one day, homie!). To rule them all, of course. A [[Leet]] Swiss Army Knife for the Sneakernet. This is a tool I'd love to see in the hands of every kid on the planet. It's cheap, recyclable, customizable, FLOSSy piratical, and deeply concerned with owning the means of production while leveraging the brilliance of so many minds (not me, I'm the skiddie, always).//<<ref "df">>
+
+!! [[Ventoy|https://www.ventoy.net/]]:
+
+I've a sad history<<ref "s">> of having to write over USBs all the time to make bootable shit. In my limited experience, multi-boot USB devices are a pain in the ass,<<ref "m">> and, much like my [[micropenis]], I've never had big thumb drives (for a while, I preferred 2.5" externals). Prices have dropped since I last bought one, and Ventoy is outstanding: good enough to buy a [[USB-C + USB 3.1 64GB|https://www.ventoy.net/]] Thumbdrive for twelfitty.<<ref "f">> I think it's time to clear out my hollowed George Orwell graphography book to only hold gold again, like this thumb drive.<<ref "rb">> Not much outside x86/64 for now, and I don't anticipate needing any ancient voodoo. Aside from electricity concerns, perhaps this counts as a real post-apocalypse tool, as you can often walk up to a machine even without a network and make it work with this.
+
+<br>
+
+!! Reproduction:
+
+* Ventoy
+** ventoy-1.0.70-linux.tar.gz  
+** ventoy-1.0.70-livecd.iso  
+** ventoy-1.0.70-windows.zip
+* checksum.sh<<ref "qu">>
+
+```bash
+(echo -e '#!/bin/bash\n' ; echo -e 'sed -n "/^<< \/\/\/\/\//,/^\/\/\/\/\//p" checksum.sh | sed "/^<< \/\/\/\/\/$/d" | sed "/^\/\/\/\/\/$/d" | md5sum --check\n' ; echo "<< /////" ; find -type f ! -iname "checksum.sh" -exec md5sum "{}" + ; echo "/////") > checksum.sh && chmod +x checksum.sh
+```
+
+<br>
+
+!! .iso list:<<ref "l">>
+
+* Just Fuck My Shit Up
+** Windows 10 (Windows 10 LTSCX64.3in1.ENU.JUN2019.iso)
+** Windows XP (Windows XP Pro Performance Edition SP3 November 2010.iso)<<ref "i">>
+** AtlasOS (AtlasOS_v0.5.2.iso)
+** Windows 10 Ameliorated - (2021-08-09) - user⁄malte.iso
+
+* Shit Is Fucked
+** Hiren's 14.1 Restored (Hirens Boot CD-14.1-Restored-V1.0-dvd-proteus.iso)<<ref "a">>
+** [[Rescatux|https://sourceforge.net/projects/rescatux/]] (rescatux-0.73.iso)
+** [[Ultimate Boot CD|http://www.ultimatebootcd.com/download.html]] 5.3.9 (Ultimate Boot CD 5.3.9.iso)<<ref "so">>
+** [[Finnix|https://www.finnix.org/]] (finnix-123.iso)
+** [[Kaspersky Rescue Disk|https://support.kaspersky.com/krd18]] (Kaspersky Rescue Disk 18.iso)
+** EaseUs Data Recovery Wizard (EaseUS.Data.Recovery.Wizard.v14.4.iso)
+** [[Strelec's WinPE|https://m.majorgeeks.com/files/details/sergei_strelecs_winpe.html]] (WinPE10_8_Sergei_Strelec_x86_x64_2021.07.21_English.iso)<<ref "b">>
+
+* Free As In My Time Is Worthless<<ref "j">>
+** [[Anarchy|https://anarchy-linux.org/download/]] (anarchy-1.3.4-x86_64.iso)
+** [[Arch Linux|https://archlinux.org/download/]] (archlinux-2021.10.01-x86_64.iso)
+** [[Manjaro KDE|https://manjaro.org/downloads/official/kde/]] (manjaro-kde-21.1.5-211008-linux513.iso)
+** [[Manjaro i3|https://manjaro.org/downloads/community/i3/]] (manjaro-i3-21.1.2-210907-linux513.iso)
+** [[Manjaro XFCE|https://manjaro.org/downloads/official/xfce/]] (manjaro-xfce-21.1.5-211008-linux513.iso)
+** [[NixOS|https://nixos.org/download.html]] (nixos-minimal-22.05.2397.5c211b47aea-x86_64-linux.iso)
+** [[Proxmox|https://www.proxmox.com/en/downloads]] (proxmox-ve_7.0-2.iso)
+** [[QubesOS|https://www.qubes-os.org/downloads/]] (Qubes-R4.0.4-x86_64.iso)
+** [[Debian Netinst|https://www.debian.org/CD/netinst/]] (debian-11.1.0-amd64-netinst.iso)<<ref "ci">>
+
+* Live Cornercases
+** [[Slitaz|https://www.slitaz.org/en/]] (slitaz-rolling.iso)
+** [[TailsOS|https://tails.boum.org/]] (tails-amd64-4.23.img)
+** [[Kali|https://www.kali.org/get-kali/#kali-live]] (kali-linux-2021.3-live-amd64.iso)
+
+* Persistent Cornercases
+** [[Freedombox|https://freedombox.org/download/amd64/]] (freedombox-bullseye-free_all-amd64.img.xz)<<ref "sq">>
+** [[OpenWRT|https://downloads.openwrt.org/]] (openwrt-21.02.0-x86-64-generic-ext4-combined-efi.img)
+** [[pfSense|https://www.pfsense.org/download/]] (pfSense-CE-2.5.2-RELEASE-amd64.iso)
+** Unraid OS Pro v6.9.2<<ref "cc">>
+** [[Yunohost|https://yunohost.org]] (yunohost-buster-4.1.8-amd64-stable.iso)<<ref "ym">>
+
+* Kami
+** [[TempleOS|https://templeos.org/]].iso
+** [[Plan9|https://9p.io/plan9/download.html]].iso
+
+<br>
+
+!! Virtual Machines:
+
+* [[Whonix XFCE|https://www.whonix.org/wiki/VirtualBox/XFCE]] (Whonix-XFCE-16.0.3.7.ova)<<ref "vi">>
+* [[Whonix CLI|https://www.whonix.org/wiki/VirtualBox/CLI|]] (Whonix-CLI-16.0.3.7.ova)
+* [[Imunes|http://imunes.net/download]] (IMUNES-11.3-RELEASE_20190722.ova)
+
+<br>
+
+!! Making It Liveable:
+
+* nix bin
+** MuWire.AppImage
+** darkmx
+** webserve
+
+* Windoze Warez, etc.
+** PowerISO 6.5
+** Microsoft Office 2019 Pro Plus
+** KMS Tools Portable
+** [[nirsoft_package_enc_1.23.52.zip|https://launcher.nirsoft.net/downloads/index.html]]<<ref "ps">>
+** [[7-zip|https://www.7-zip.org/]]
+** [[Firefox|https://www.mozilla.org/en-US/firefox/download/thanks/]]
+** [[qBittorrent|https://www.qbittorrent.org/download.php]]
+** [[VLC|https://www.videolan.org/vlc/download-windows.html]]
+** [[Everything|https://www.voidtools.com/downloads/]]
+** [[Classic Shell|http://www.classicshell.net/downloads/]]
+** [[Resilio Sync|https://www.resilio.com/platforms/desktop/]]
+** [[qTox|https://github.com/qTox/qTox/blob/master/README.md#qtox]]
+** [[Bitvise SSH Client|https://www.bitvise.com/ssh-client-download]]
+** Sublime Text 3 Build 3059
+** [[Zerotier|https://zerotier.com/download/]]
+** [[Tor Browser|https://www.torproject.org/thank-you/]]
+** [[NoMachine|https://www.nomachine.com/download]]
+** Smart File Renamer 1.0.5
+
+* Android APKs<<ref "apk">>
+** atox.apk
+** Smart Audiobook Player.apk
+** Sandisk
+*** SanDiskMemoryZone_AppInstaller.apk
+** Mesh
+*** briar.apk  
+*** meshenger.apk 
+*** rumble.apk
+*** serval.apk
+*** LibeRouter
+**** GuerrillaBoards.apk  
+**** GuerrillaPics.apk 
+**** hereandnow.apk 
+**** LibeRouter.apk 
+**** PeopleFinder.apk
+
+* Snacks
+** [[Music: Library]]<<ref "bc">>
+** ⦗2021.10.21 – ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱ː h0p3⦘.html
+** 2021.10.21 – Sphygmus's Wiki.html
+** 2021.10.21 – 1uxb0x's Wiki.html
+** 2021.10.21 – 5c0ut's Wiki.html
+** 2021.10.21 – chameleon's Wiki.html
+** 2021.10.21 – j3d1h's Wiki.html
+** 2021.10.21 – k0sh3k's Wiki.html
+** [[Political-Ponerology-A-Science-on-the-Nature-of-Evil-Adjusted-for-Political-Purposes|Political Ponerology: A Science on the Nature of Evil Adjusted for Political Purposes]].pdf
+
+<br>
+
+
+---
+<<footnotes "df" "It's kinda hard to gauge just how much human effort has gone into these precious few gigs of data. I would not be surprised to find there were hundreds of billions of dollars of labor poured into the creation of these objects. I barely know how to use them on a surface level, though I feel like I live in //Foundation// or something.">>
+
+<<footnotes "s" "No, way more sadderer than what you're thinking.">>
+
+<<footnotes "m" "Much love to Yumi for making it bearable (WinSetupFromUsb and many others aint the worst either). Ventoy is a cut above them all.">>
+
+<<footnotes "f" "I've never used a thumbdrive as fast as this one. Dayum son.">>
+
+<<footnotes "rb" "Had I infinite money, obviously, I'd buy Rubber Ducky like tools too. Hawt. Can't justify that shit though. This I can.">>
+
+<<footnotes "qu" "Any hackers wanna make it a quine++?">>
+
+<<footnotes "l" "Have to find your own links for some of these, `/wink`.">>
+
+<<footnotes "a" "Restored because the legal copies have a third of the goods left. Ridiculous. Naw. Pirate the real deal; it's an amazing tool for retards. Respect.">>
+
+<<footnotes "so" "Shoutout to HFAC's Katana and Medicat">>
+
+<<footnotes "b" "Fuck My Shit Is Fucked">>
+
+<<footnotes "j" "Just like this ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱!">>
+
+<<footnotes "ci" "Ol' Reliable deserves a slot. Note, there are so many distros I am tempted to include, e.g. guix and gentoo are exceptional tools (there are some kinds of situations where Gentoo is still the only fitting answer). I'm trying to force myself to be picky here, as I am in [[Music: Library]].">>
+
+<<footnotes "i" "Yes, you read that correctly. Even though we hates M$, [[my precious|monster]], we have to admit this particularly tuned project is a work of [[art]]. Even GNU/Linux struggles to be as effective as what this tool was. If you've never tried it, don't knock it. Unfortunately, there are many, many reasons not to use it. Still, you never know. May it breathe life into some potato or VM problem for me once more. [[G r a t i t u d e|Gratitude]].">>
+
+<<footnotes "sq" "`/squint`, honorary iso.">>
+
+<<footnotes "cc" "Okay, yet another type of exception.">>
+
+<<footnotes "ym" "Yes, ma'am. This one too.">>
+
+<<footnotes "vi" "Striking a balance between usability and security is a hard problem. We have to leave some exercises to the reader too.">>
+
+<<footnotes "ps" "password is nirsoft9876$">>
+
+<<footnotes "bc" "Never leave home without it, kids. As we all know, the easiest way to rice a machine is to provide it a serious list of mp3s.">>
+
+<<footnotes "apk" "USB-C is hawt (can't on [[m14]], but I can on the [[Pinephone]] (unfortunately, still dead to me). I hate setting up the standard toolchains. Sideloading and jumpstarting a device from a thumbdrive sounds so ideal to me.">>

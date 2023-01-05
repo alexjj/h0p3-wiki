@@ -1,0 +1,35 @@
+caption: Links
+created: 20200308225442946
+modified: 20220127052218614
+tags: Keys Links
+title: Keys: Links
+
+[[127.0.0.1|Links: 127.0.0.1]]
+
+{{Links: 127.0.0.1}}
+
+[[192.168.1.1/24|Links: 192.168.1.1/24]]
+
+{{Links: 192.168.1.1/24}}
+
+[[file:///|Links: Filesystem]]
+
+{{Links: Filesystem}}
+
+For [[Others]]:<<footnote "bn" "be nice and know what you are doing, please">>
+
+* [[http://rn.philosopher.life]]<<footnote "v" "[[In case you are bothered, you may verify...|Verify]]">>
+** Public SOCKS5 Proxies
+*** Shadowsocks: 
+**** port: 8008
+**** pass: titties
+**** timeout: 300
+**** method: chacha20-ietf-poly1305
+**** fast_open: true 
+*** Tor:<<footnote "it" "It makes more sense to connect through Tor to this server, imho.">> 
+**** port: 1337 
+**** not recommended even with E2EE
+** Public Mixnet VPN configs
+*** [[AnoNomad.ovpn]]
+*** [[wg0-client-AnoNomad.conf]]
+** Feel free to ask for shell access.

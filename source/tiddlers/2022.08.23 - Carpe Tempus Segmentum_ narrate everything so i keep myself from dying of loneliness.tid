@@ -1,0 +1,28 @@
+created: 20220823051219240
+modified: 20220824065904016
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]]
+title: 2022.08.23 - Carpe Tempus Segmentum: narrate everything so i keep myself from dying of loneliness
+
+//Skintime// + //ATLA// with my sympaticon. [[TTTOTW]]. Sleep by 3?
+
+Woke at 11. ~~Wake up, day ruined.~~ Good sleep. Fireman Time! Meditation. [[TTTOTW]]. Offspring aren't being honest. I'm no fun to be around. Millennial toast + water + caffeine. 
+
+Offspring came down to grind. Walked through the second stage of the script for bootstrapping [[Monsternix]], namely logical account generation. They've made progress on [[Links: Library]], and there's still consideration between python's multiprocessing and xargs. Went pretty well today. =). [[TTTOTW]].
+
+Called around to see if there really was another ISP in our area, which claimed it was offering fiber. Lies.
+
+//The Walk// with mi amor. Drove us to the W-Entity through a powerful storm. No rain when we got there, but we saw a bolt of lightning hit a car right across from where we parked. As soon as we walked through the doors, it started pouring again. Found our loop, and thought about the day. School starts tomorrow, and given her ADHD, they're offering several technical solutions for notetaking+recording. Pretty dope. Wallace + Mary pic was cute. A rainbow on the way back.
+
+Cleaned the tool area. We got 4 more of them boxes.
+
+It's like pulling teeth asking for help with the NixOS community. I'm asking basic questions, and the assumption is if you aren't doing it their way, then it is either impossible or pointless. I wouldn't mind them making that inference if it were correct. Secret-handling, configuration outside of Nix, initial installation, and anything trapped inside the bootstrapping of NixOS itself don't work as well as I'd like (including providing flexibility to make your own without having the knowledge to re-engineer the entire thing). One feller, K900, a grumpy Russian NixOS fanboi evangelist, stood out. Hey, we both had a bright blue background in our first IDE. Some common ground. I'm going to take it that there's no good way to do it without building my own iso (totally doable*) or having a minimal bootstrap installation first with a series of reboots instead (ugh). Well, at least I can run arbitrary scripts from systemd from the configuration.nix file and autologin as root for the virtual console. 
+
+[[Family Gathering]] was delicious. Kickerassole and water. I'm considering not continuing //House of Cards//. I'm the only one who really cares about it, I think. I do appreciate people humoring me here. [[TTTOTW]]. 
+
+Killed another install with a known good configuration.nix. XD. It's brittle. Re-installation is a breeze though.
+
+A wild [[bumharmony]] appears...
+
+//The Walk// with my sympaticon. We found two chairs, a rocking chair and a folding outdoor/camping one, both in reasonable shape. Paint was peeling right off the rocking chair. Maybe should go for plain wood.
+
+[[TTTOTW]].

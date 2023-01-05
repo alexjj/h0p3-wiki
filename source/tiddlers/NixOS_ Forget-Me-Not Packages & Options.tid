@@ -1,0 +1,28 @@
+created: 20220817041617592
+modified: 20220817063313329
+tags: NixOS
+title: NixOS: Forget-Me-Not Packages & Options
+
+//Just thinkin'//
+
+https://search.nixos.org/
+
+* security.rtkit.enable
+* nix.buildMachines
+* nix.distributedBuilds
+* nix.settings.substituters
+* services.disnix.package
+* system.activationScripts
+* system.userActivationScripts
+* virtualisation.containers.containersConf.cniPlugins
+* boot.isContainer
+* security.apparmor.enable
+* boot.loader.grub.splashImage
+* boot.loader.grub.configurationLimit
+* services.borgbackup
+* programs.firejail.enable
+* security.wrappers
+* security.polkit.enable
+* security.sudo.extraRules
+* security.sudo.configFile
+* go-mtpfs

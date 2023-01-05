@@ -1,0 +1,18 @@
+created: 20221214102326634
+modified: 20221214210401034
+tags: [[Le Reddit Log]] [[Anders Aamodt]] Note To
+title: 2022.12.14 - Anders Aamodt: P2P
+
+https://www.reddit.com/r/sorceryofthespectacle/comments/zkrjfy/the_internet_is_no_longer_ours/j01pf1o/
+
+<<<
+If an AI can successfully simulate good content for this subreddit, go for it. Chat GPT is a more flexible thinker than some, but not others. And yes we should all be exiting to p2p networks made up of persons we know asap. Decentralized DNS is a real problem.
+<<<
+
+Hey there, [[Anders Aamodt]]. I'll keep it brief because you're a busy man doing [[good]] work.
+
+I think we're in agreement on the DNS problem. Because there is nothing that really works well, I'm currently working with [[fourmyle57]] on a proper [[DHT|Outopos: DHT]] (I do not predict success). Vaporware or maybe a decade or two from now I'll have something. If you know anyone else suited to the task (and, I think even an expert needs years to build this correctly), please let me know.
+
+Might not be saying anything new at all to ya. Living on the wire, I've some experience engaging in [[hyperconversations]] from site-to-site in the open on the web (mostly [[Indieweb]]™ sorts of folks), e.g. [[Sphygmus]], [[kickscondor]], [[MJos]], [[chameleon]], etc. In some ways, it's just a convention. It can be done without much automation (site push/pull or syncing, and notifications, e.g. [[Update Scanner|https://addons.mozilla.org/en-US/firefox/addon/update-scanner/]] or [[RSS|https://fraidyc.at/]]), even real-time (though my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 is set to 2-minute updates instead of 1). Best mutable torrent option is still [[Resilio Sync]] (works within Whonix too). It's workable with minor elbow grease. People don't value it enough. It's not convenient, lacks network effect, and discovery + receiving attention are simply too valued by the average creator.
+
+[[MuWire]] is dead. [[DarkMX]] and [[Aether]] are probably the best multi-user tools I've got at the moment. If you have any you want me to join, you let me know. I'm happy to follow you. [[The Motte|https://www.themotte.org/]] recently attempted to transition. Do you [[aim]] for that with SotS?

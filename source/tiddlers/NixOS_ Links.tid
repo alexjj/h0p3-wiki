@@ -1,0 +1,74 @@
+created: 20220906131437483
+modified: 20221128232839926
+tags: NixOS [[Link Log]]
+title: NixOS: Links
+
+* LIFO
+** https://mynixos.com/
+** https://unix.stackexchange.com/questions/522822/different-methods-to-run-a-non-nixos-executable-on-nixos
+
+* Getting Started
+** https://github.com/nix-community/NUR
+** https://nixos.org/manual/nixos/stable/index.html#sec-installation
+** https://search.nixos.org/packages
+** https://github.com/elitak/nixos-infect
+** https://search.nixos.org/options
+** https://mt-caret.github.io/blog/posts/2020-06-29-optin-state.html
+** https://nixos.wiki/wiki/Comparison_of_secret_managing_schemes
+** https://github.com/NixOS/nixpkgs/
+** https://alexandre.peyroux.io/posts/2018-12-26-resilio
+** https://thewagner.net/blog/2021/02/25/building-container-images-with-nix/
+** https://nixpkgs-manual-sphinx-markedown-example.netlify.app/installation/installing-behind-a-proxy.xml.html
+** https://github.com/NixOS/nixpkgs/blob/nixos-22.05/nixos/modules/services/networking/resilio.nix
+** https://github.com/philandstuff/nixcfg/blob/master/configuration.nix
+** https://lastlog.de/blog/posts/nix-assistant.html
+** https://github.com/purenix-org/purenix
+** https://dataswamp.org/~solene/2022-01-13-nixos-hardened.html
+** https://github.com/NixOS/nixpkgs/blob/master/nixos/modules/profiles/hardened.nix
+** https://nix-community.github.io/awesome-nix/
+** https://mdleom.com/blog/2020/03/04/caddy-nixos-part-2/
+** https://github.com/NixOS/
+** https://teu5us.github.io/nix-lib.html
+** https://mipmip.github.io/home-manager-option-search/
+** https://wiki.nikiv.dev/package-managers/nix/
+*** `/wave`
+** https://xeiaso.net/blog/nix-flakes-1-2022-02-21
+
+* Unrelatedish
+** https://www.reddit.com/r/archlinux/comments/qlueji/is_waydroid_better_than_anbox/hj6j1qs/
+** Automated partitationing
+*** https://www.reddit.com/r/bash/comments/bebkr9/automatic_partitioning_with_bash/
+*** https://github.com/CodeCanna/super-duper-archey-installer/blob/master/arch_installer/enterarchway
+*** https://forum.linuxfoundation.org/discussion/857161/lfs201-chapter-23-logical-volume-management-lvm-script-to-exercise
+*** https://pastebin.com/ER0jrLw2
+** QoS
+*** https://github.com/NixOS/nixpkgs/blob/master/nixos/modules/services/misc/siproxd.nix
+*** https://manpages.ubuntu.com/manpages/bionic/man1/fireqos.1.html
+*** https://git.ingolf-wagner.de/palo/nixos-config/src/commit/c98efed4f5cd4dd968439fc233f5556064456796/system/all/networking-qos.nix
+*** https://git.ingolf-wagner.de/palo/nixos-config/src/commit/c98efed4f5cd4dd968439fc233f5556064456796/system/all/networking-qos.nix
+** https://determinate.systems/posts/introducing-riff
+*** dope
+
+* [[vidya]]s
+** https://youtube.com/playlist?list=PLRGI9KQ3_HP_OFRG6R-p4iFgMSK1t5BHs
+** https://www.youtube.com/user/elitespartan117j27/videos?view=0&sort=da&flow=grid
+** https://www.youtube.com/watch?v=TbIHRHy7_JM
+** https://youtube.com/c/NixCon
+
+* Configs
+** https://github.com/jluttine/NiDE
+** https://github.com/Th0rgal/horus-nix-home
+** https://github.com/mitchellh/nixos-config
+** https://github.com/balsoft/nixos-config
+** https://github.com/lovesegfault/nix-config
+** https://github.com/danielfullmer/pinecube-nixos
+** https://github.com/grahamc/nixos-config
+** https://raw.githubusercontent.com/tagepicdotfiles/dotfiles/master/configuration.nix
+** https://github.com/cstrahan/nixos-config/blob/master/configuration.nix
+** https://git.sr.ht/~noneucat/nixos-configs/tree/00f5364f595883cf63fb452f9c9914c2c4a3752b/item/imports
+** https://github.com/ilya-fedin/nixos-configuration/blob/master/configuration.nix
+** https://notabug.org/ActualizeInMaterial/nixosian/src/15f494443f644c0d3a52e570331a545964533835/configuration.nix
+** https://codeberg.org/davidak/nixos-config/src/branch/master/profiles
+** https://github.com/shiryel/nixos-dotfiles/blob/master/system/shiryel.nix
+** https://git.elven.pw/Rebrain/basic-nixos/commit/fd97fb5abf1e7338f24af26199e21d24817003f4?style=unified&whitespace=ignore-all
+** https://gist.github.com/ulysses4ever/d667955933be956da75783fed8d8d0fe

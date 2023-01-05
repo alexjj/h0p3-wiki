@@ -1,0 +1,18 @@
+created: 20221202134646137
+modified: 20221202134706105
+tags: fourmyle57 Note From
+title: 2022.12.02 - fourmyle57: Excited to Dive In
+
+Thanks for the link. These notes are very interesting, not too schizo ha. Going to take me some time to work through this and get up to speed. I need to play with dark web stuff a bit and read. I am also currently working through "Coding the Matrix" to finally learn linear algebra. I hate not really knowing how cryptography works fully and trying to change that. 
+
+I am fairly strong in distributed systems and networking from my day job.. Hoping to contribute the most there. 
+
+From my first pass at the notes, could wireguard be a good base to build on for the edge layer? I'm imagining we could build VLANs entirely with wireguard and it could be made seamless to the user.  
+
+I used to do some mobile dev early in my career.  The problem will be the phone can't use the radio 24/7. Mobile to Outopos will need to use some sort of message passing.  Not sure push messages will be private enough. That will be the hard part. 
+
+Fascinating stuff. Excited to dive into this.  Think this is the kind of project I have been looking for.
+
+Can I post on the site with comments etc? Not sure what's appropriate.
+
+Protonmail is probably fine while I ramp up, but do you have preferred real time comms? 

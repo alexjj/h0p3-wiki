@@ -1,0 +1,34 @@
+created: 20190714040123984
+modified: 20190716161710846
+tags: $:/tags/Macro
+title: $:/plugins/kookma/todolist/macros/category
+type: text/vnd.tiddlywiki
+
+\define priority-symbol(color)
+<svg width="12" height="12" >
+<circle cx="6" cy="6" r="5" stroke="grey"  fill="$color$"/>
+</svg>
+\end
+
+\define high(text) 
+<<priority-symbol #cd5360>>
+<span style="padding-left:3px;color:#cd5360;">$text$</span>
+\end
+
+\define normal(text) 
+<<priority-symbol #286da8>>
+<span style="padding-left:3px;color:#286da8;">$text$</span>
+\end
+
+\define low(text) 
+<<priority-symbol #b37d4e>>
+<span style="padding-left:3px;color:#b37d4e;">$text$</span>
+\end
+
+\define fixme(text)
+<span style="fill:#006400;color:#006400;padding-right:3px;">{{$:/plugins/kookma/todolist/images/wrench.svg}}</span>$text$
+\end
+
+\define bug(text)
+<span style="fill:#8B0000; color:#8B0000;padding-right:3px;">{{$:/plugins/kookma/todolist/images/bug.svg}}</span>$text$
+\end

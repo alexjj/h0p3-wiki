@@ -1,0 +1,26 @@
+created: 20190716161142919
+modified: 20190716161710928
+tags: 
+title: $:/plugins/kookma/todolist/mechanism
+type: text/vnd.tiddlywiki
+
+This tiddler explains how Todolist plugin works
+
+! Mechanism
+<<<
+Todolist plugin uses three data tiddlers (json tiddler) to store the todo items. Each todo item is an entry in data tiddler as below
+
+* a todo item is stored in task tiddler
+* a done item is stored in done tiddler
+* the status of item (done/undone) is stored in status tiddler
+
+!!! ''User interface''
+The user interface including
+
+* A header (e.g a caption)
+* Add new item section
+* A table listing and displaying the todo items
+
+!!! ''Categories''
+Each category has a dedicated macro. To create a category the related macro should be called. Other categories can be simply added by adding desired macros.
+<<<

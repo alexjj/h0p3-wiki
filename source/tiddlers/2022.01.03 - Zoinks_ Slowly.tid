@@ -1,0 +1,54 @@
+created: 20220103125128935
+modified: 20220108233845731
+tags: Zoinks Note To
+title: 2022.01.03 - Zoinks: Slowly
+
+> I haven't seen many people speak in hypertext, very cyberpunk. 
+
+Yeah, I vibe with that. As my [[Link Log]]'s primary page explains, I've lived in ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 for a long time now. I think it's fair to say I'm cyberpunk. As I have spoken about with Sir [[kickscondor]], I still cannot pick out what isn't hypertext so easily.<<ref "t">> Perhaps it is more context-relative than most words; I don't know. My bet is that you've not spent much time looking at where my words point, but that's okay. It's quite uncommon. Yeah, cyberpunk.
+
+> I think mail seems to just sit in the outbox until a connection can be made. 
+
+Aye. I think that has some serious flaws. Sometimes, when I'm thinking about [[Outopos]] or diagnosing or testing software for use (as Madame Senpai [[chameleon]] does where she finds it fitting), I feel like I'm actually just trying to think about what every person should minimally have as a computer. Too much to ask of the generous developer of [[MuWire]]. Hard to prioritize here.
+
+> I am hoping for a global MuWire chat, that would be sweet. 
+
+Hard to do in a fully decentralized fashion. Nobody has solved this problem well. cabal.chat is interesting, but I have no idea how it scales (I've found plenty of problems, though I'm [[grateful]] and quite impressed). This isn't just a MuWire problem, and I think MuWire could struggle with performance. 
+
+> To see if my connection count would degrade if I blocked everyone that searched for a certain kind of content. To answer a larger question of if the network is primarily used for such content. I am happy to report it is not, at least from this experiment.
+
+That is fascinating. I'm not convinced going by search is accurate enough. I actually soft-scanned the network by trying a variety of filetype and name searches to give me an idea of who I'm dealing with on the network. I'd be surprised if the connection degraded all that much. I'm glad you tested it.
+
+> Governance is indeed a hard problem, yet to be solved even after thousands of years. :)
+
+I agree. [[Justice]] is an infinite problem too.
+
+> I have used Retroshare and Tox. I dropped RS for being too difficult to configure, I dropped Tox for security concerns.
+
+What security concerns did you have with Tox?
+
+> And lack of users to talk/share with on both at the time. I
+
+A classic problem for this space.
+
+> I've never used DarkMX. I do like anonymity networks, but only MuWire and Tor have the simplest user experience so far and that goes a long way for adoption imo.
+
+Worth your time to try it it. DarKMX is quite straightforward. It's Fopnu with Tor + more.
+
+> At the moment I am searching for artificial intelligence/machine learning material but at the layman level. I have difficulty understanding the formal math formulas!
+
+What are you hoping to understand about it?
+
+> MuWire has a feed/subscription system. That might do the job with snapshots. I think that you can have only one feed though which is a bummer.
+
+Seems like it should be a good idea. Even RSS tends to fail for me, but I do think the ideal system requires it.
+
+>> Happen to know [[ASmith]]? He's an [[good]] man. Doin' the lawd's work, imho.
+
+> Nope, never spoke to him. What's he do?
+
+Hard to nail it down. He builds friendly dark communities. 
+
+
+---
+<<footnotes "t" "I've had [[TempleOS|2021.04.18 - SSTLabs: Calm & Balanced]] on the brain [[lately|2021.12.31 - Waldo_After_Dark: Love your ascii banner it's very nice]], and I think that is clearly as form of hypertext too (even if few can read and write it on the fly).">>

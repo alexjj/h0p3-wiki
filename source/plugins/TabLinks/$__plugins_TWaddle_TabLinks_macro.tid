@@ -1,0 +1,19 @@
+created: 20160806203109547
+creator: twMat
+modified: 20180914222219769
+modifier: twMat
+tags: $:/tags/Macro
+title: $:/plugins/TWaddle/TabLinks/macro
+
+\define tablink()
+<div class="tablink">
+<$tiddler tiddler=<<currentTab>>>
+<$link to=<<currentTab>> tooltip="go to tab" >
+  <span class="tablink-btn">{{$:/core/images/preview-open}}</span>
+</$link>
+<$button message="tm-edit-tiddler" param=<<currentTab>> tooltip="edit tab">
+  <span class="tablink-btn">{{$:/core/images/edit-button}}</span>
+</$button>
+</$tiddler>
+</div>
+\end

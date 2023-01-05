@@ -1,0 +1,13 @@
+{
+    "title": "$:/plugins/bimlas/locator",
+    "author": "bimlas",
+    "core-version": ">=5.1.18",
+    "dependents": "",
+    "description": "Locator: Discover and search by context",
+    "list": "README/README README/view README/search README/tags README/TIPS README/CHANGELOG",
+    "plugin-type": "plugin",
+    "revision": "0",
+    "source": "https://gitlab.com/bimlas/tw5-locator",
+    "tags": "",
+    "version": "1.4.0"
+}

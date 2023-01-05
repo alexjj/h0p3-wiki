@@ -1,0 +1,84 @@
+created: 20220316054038880
+modified: 20220316061421172
+tags: Chatlog ASmith
+title: 2022.03.16 - ASmith: Standard
+
+"""
+[22.03.15 - 23:23:52] [[ASmith]]: wb [[h0p3]] , how's u?
+[22.03.15 - 23:24:00] [[ASmith]]: what's new there this week [[h0p3]] ?
+[22.03.15 - 23:54:45] [[h0p3]]: Yo. =)
+[22.03.15 - 23:54:52] [[h0p3]]: I'm doing alright.
+[22.03.15 - 23:54:56] [[h0p3]]: Still grinding away.
+[22.03.15 - 23:55:40] [[h0p3]]: Got hit with a DMCA today. Trying to use proxy infrastructure that is free and at least federated, so that limits what tools I can use.
+[22.03.15 - 23:55:44] [[h0p3]]: How about you, ASmith?
+[22.03.16 - 00:02:51] [[ASmith]]: well the dev's have been trying to work to a 0.6.7 candidate but I think they are trying to incorporate libretroshare internally first
+[22.03.16 - 00:05:37] [[ASmith]]: sorry to hear that [[h0p3]] , lolinxu sent me a free VPN to try
+[22.03.16 - 00:08:35] [[ASmith]]: I pitched a suggestion to RS devs to incorporate sharable proxys but no go, I think the RS relay is essentially doing that but the socks 5 proxy lacks sharing outside the RS system
+[22.03.16 - 00:11:25] [[ASmith]]: I was thinking of gutting the files in my old mega account to offer a lighting fast centralized server push
+[22.03.16 - 00:19:00] [[ASmith]]: I recommend Private Internet Access, PIA's Socks 5 Proxy and Global VPN service, its typically $3 / month, no logs, a number of payment options including I think anonymous bank cards you buy in markets, bitcoins or other means
+[22.03.16 - 00:19:03] [[ASmith]]: [[h0p3]]: 
+[22.03.16 - 00:19:24] [[h0p3]]: I appreciate those recommendations.
+[22.03.16 - 00:19:26] [[h0p3]]: Thank you.
+[22.03.16 - 00:20:17] [[ASmith]]: https://www.privateinternetaccess.com
+[22.03.16 - 00:20:38] [[h0p3]]: They do good work over there.
+[22.03.16 - 00:20:40] [[ASmith]]: covers up to 10 different devices at no extra costs
+[22.03.16 - 00:20:59] [[h0p3]]: If it's not free and [mix or onion] routed, I'm trying to avoid it. I want something that can be replicated for free. 
+[22.03.16 - 00:21:31] [[h0p3]]: MuWire, DarkMX, and Retroshare are the remaining tools, atm.
+[22.03.16 - 00:21:34] [[ASmith]]: I checked but didn't see lolinux online or I would have provided that VPn she offered me
+[22.03.16 - 00:33:14] [[ASmith]]: I've been adding as many fruit trees as I can along the borders of my lower forty here for tasty snacks with my food
+[22.03.16 - 00:33:24] [[h0p3]]: That makes sense.
+[22.03.16 - 00:33:52] [[ASmith]]: pricing is skyrocketing, on food and even on the tree's they jumped 100% in typical prices already
+[22.03.16 - 00:33:57] [[h0p3]]: We're gonna try to get a teaberry plant, as it may be useful in hard times.
+[22.03.16 - 00:34:17] [[ASmith]]: Russia was a global exporter of much of the commercial farming fertilizer
+[22.03.16 - 00:35:09] [[ASmith]]: I figure EU,UK and USA along with South American farmers warehouses should get emptyed out of the commercial fertilizers by the end of this year leaving them between a rock and a hard place next year
+[22.03.16 - 00:35:22] [[h0p3]]: Yaupon for caffeine (though we keep a few kilos of powder too).
+[22.03.16 - 00:35:31] [[h0p3]]: I did not know that.
+[22.03.16 - 00:35:44] [[ASmith]]: interesting [[h0p3]] , yes caffine and coffee would be priceless in long term storage
+[22.03.16 - 00:35:45] [[h0p3]]: Inflation projections continue to look worse and longer in many corners.
+[22.03.16 - 00:36:23] [[ASmith]]: I just ordered some PAI-PAI trees (aka PAW-PAW), large fruit, tasting like banannas
+[22.03.16 - 00:36:35] [[h0p3]]: Yo, we just fucking planted a pair of those last year!
+[22.03.16 - 00:36:53] [[h0p3]]: Never tasted it before. I heard you can freeze it for an ice cream kinda thing.
+[22.03.16 - 00:37:21] [[ASmith]]: I have the typical cherrys, plums, asian pears, peaches, necturine, apricots, figs
+[22.03.16 - 00:38:05] [[h0p3]]: `/nod`. May they be fruitful, sir.
+[22.03.16 - 00:38:06] [[ASmith]]: Russia is a major exporter of Palladum which is needed to refine gasoline, build computer chips
+[22.03.16 - 00:38:42] [[ASmith]]: some prunes also, yes hope to dehydrate some, need to try and be self sufficent as possible
+[22.03.16 - 00:40:34] [[ASmith]]: Russia is a major exporter of Uranium enriched fuel rods critical to 60 USA reactors alone, electrical power is likely going to be much more expensive in some areas
+[22.03.16 - 00:41:01] [[h0p3]]: I wish we could afford geothermal and our own solar.
+[22.03.16 - 00:41:07] [[h0p3]]: Not in the cards.
+[22.03.16 - 00:41:36] [[ASmith]]: Darn USA Gov slapped a huge tariff on the cheap 300+ Watt powerful Chinese Solar Panels that cost less than $1 /watt
+[22.03.16 - 00:42:04] [[ASmith]]: There's Geothermal test wells here in Volcano ridden Oregon but I don't live on top of those
+[22.03.16 - 00:42:41] [[ASmith]]: I'm not happy with the USA Gov preventing 90% of Americans from loading up with superior, cheap, powerful Chinese Solar Panels for their home and business roof tops
+[22.03.16 - 00:43:20] [[ASmith]]: if China plays their Rare earth elements ace in the hole card, suddenly even wind turbines would be far to expensive for most to have
+[22.03.16 - 00:43:45] [[h0p3]]: Solar is subsidized in CT, but in a devious way. They take partial ownership of your house, control your roof, and you pay for the privilege of possibly having a lower electricity transportation cost. 
+[22.03.16 - 00:43:52] [[h0p3]]: Our costs are soaring everywhere.
+[22.03.16 - 00:44:09] [[ASmith]]: USA Gov slapped a large tariff on cheap, ecofriendly, Ethanol from Brazils sugarcane fields
+[22.03.16 - 00:44:19] [[h0p3]]: Blows my mind.
+[22.03.16 - 00:45:08] [[ASmith]]: Inflation came from Biden's reckless quantum funding his way through the pandemic, his former boss Obama overplayed quantum funding some $30 Billion/month for years on the markets without any interest at all
+[22.03.16 - 00:45:35] [[ASmith]]: free $Billions in a heavily depressed market which high schoolers with mega millions could have easily made 400%
+[22.03.16 - 00:46:07] [[h0p3]]: Well, though I am no fan of any of our presidents (and while they do bear considerable responsibility), I think the Fed is to blame more directly.
+[22.03.16 - 00:46:51] [[ASmith]]: yes and the Rothschild's are directly behind the sudden all Western hands against Putin, Russia
+[22.03.16 - 00:47:50] [[ASmith]]: When Russia, China untangle the web of the Rothschild's central banking enslavement, they'll be far better off in the future but the world will be divided West vs and apart from the East
+[22.03.16 - 00:49:07] [[h0p3]]: Perhaps. It appears that Russia may survive parts of the attack on the currency by leaning on China, who reserves one bank strictly for sanctioned nations. The Yuan may eventually become a primary reserve currency too. 
+[22.03.16 - 00:49:46] [[ASmith]]: yes there's a strong push for the PetroYuan, Saudi's sound like they are heading that direction now
+[22.03.16 - 00:50:19] [[ASmith]]: that places $20 Trillion in floating PetroUSD dollars to be remitted and exchanged for the Yuan, a big hit on the Zionists federal reserve
+[22.03.16 - 00:52:44] [[ASmith]]: thankfully Russia has been very active in building up its national gold bullion reserves
+[22.03.16 - 00:53:21] [[ASmith]]: I urged Russia and BRIC's Nations to have a national bitcoin tumbler to further anonymize bitcoins and their wallets
+[22.03.16 - 00:55:01] [[ASmith]]: I added 8 vertical stacked planters in the fall last year, working on added another 8. Those are 6 growing planter trays each stack containing 4 growing areas = same as a 25 foot garden row each.
+[22.03.16 - 00:56:32] [[ASmith]]: I added nearly 20 new twenty-five gallon portable grow bags for onions, carrots, potatos as a test, those worked well sitting on used tires. I'm expanding those this year inter-mixing some portable grow bags with 10-15 gallon ones for tomatos, peppers, not sure on cucumbers yet
+[22.03.16 - 00:57:35] [[h0p3]]: I couldn't hope to feed our family on the land we have. All we can do is augment.
+[22.03.16 - 00:59:33] [[ASmith]]: vertical staked growing takes up very little room
+[22.03.16 - 00:59:46] [[ASmith]]: about 1-2 cubic feet per
+[22.03.16 - 01:00:27] [[ASmith]]: https://www.amazon.com/gp/product/B00A3HFNNE/
+[22.03.16 - 01:03:44] [[ASmith]]: https://www.amazon.com/dp/B097PHG8PV?aaxitk=6850bb5038267d021f74c760a4e3695d&pd_rd_w=saVMO&pf_rd_p=563e7715-166f-4dea-b89e-78330fc27322&pf_rd_r=MQKC1BX4QKDVVRJ9MPBW&pd_rd_r=7700eba9-7446-4e57-b270-1fc1b9be6788&pd_rd_wg=YfjYD&ref=dacx_dp_587392330229581065_9948026970201
+[22.03.16 - 01:04:03] [[ASmith]]: 10 pack 25 gallon HD grow bags
+[22.03.16 - 01:08:50] [[ASmith]]: Feel free to preview or Dl any of my survival and garden videos collections [[h0p3]] 
+[22.03.16 - 01:09:04] [[h0p3]]: Yes, sir. I have been for several days.
+[22.03.16 - 01:09:14] [[ASmith]]: outstanding, ty
+[22.03.16 - 01:09:26] [[h0p3]]: No, thank you, sir.
+[22.03.16 - 01:10:14] [[ASmith]]: this property including home with lots of landscaping mostly had ornamental trees and bushes, nice to the eyes but mostly poisonous for humans to eat
+[22.03.16 - 01:11:13] [[ASmith]]: I've been rapidly changing that over and working out what works, what to avoid and of course finding out how to overcome the unexpected. Tangle weed is a nasty invasive weed I hadn't see previously that suddenly took over
+[22.03.16 - 01:12:59] [[ASmith]]: the runners from tangle weed are like steel wires, wrapped around tomato vines, cucumbers, beans, just about any veggie except corn stalks and carrots dooms them if you pull out the weeds it cuts off the fragile plants in a 4 foot diameter that invasive weed wraps runners on
+[22.03.16 - 01:13:00] [[h0p3]]: Japanese Knotweed is quite destructive around these parts.
+[22.03.16 - 01:13:24] [[ASmith]]: I got 600 feet of heavy duty silege weed barrier this year
+[22.03.16 - 01:16:53] [[ASmith]]: I'll use it for walkways and leave about 6 inches for the garden furrows making it far easier to deweed that invasive tangle weed before it can wrap around everything with a deep tap root
+"""

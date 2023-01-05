@@ -1,0 +1,48 @@
+created: 20220204093019503
+modified: 20220205204229893
+tags: [[Carpe Tempus Segmentum]]
+title: 2022.02.04 - Carpe Tempus Segmentum: Acquired
+
+Woke at 3:30. Fireman Time! Meditation. Hugs'n'bugs with [[ASK]]. Planned our days. [[TTTOTW]]. 
+
++0/-0 MWC vs Gobbos, started Dredge vs Gobbos, but something's not right. Mistakes she would never make. I conceded because she is off. Sleep, food, and meds are missing.
+
+Dadnap. Hard fucking core. That's exactly what the doctah ordered. Woke at 10:15. Meditation. Hugs'n'bugs. Assignments. Mi amor is coming home. The weather is getting bad.
+
+Shopping @ W-Entity with my sympaticon. Returns, grabbed the missing boxes, and the pieces for the toilet that fit (keeping two extra, since eventually we'll want to replace it, and I don't want to have to engage in science to figure it out again...the cheap $2 ones are the only ones that fit. cool.). It's raining/sleeting. 
+
+[[TTTOTW]]. I am left speechless by [[valmad]].<<ref "s">> I [[hope]] they will impose themselves on us through writing. I've not gone out of my way to get better translation services in my browser than I have, and I may need to.
+
+She's home. [[5c0ut]] too. Her back is killing her, and this storm feels like something else (even though it is only a spike). Covid sign in her dept, maybe. Bro is doing the right thing by his workers. `/nod`. He came down to borrow my tiniest screwdriver set for his glasses (and my bright ass light). 
+
+Offspring came down to grind. Some scripting for everyone, then we moved to cleaning and organizing. Laundry.
+
+[[JRE]] called. Biomom may be making moves to take [[Q]]. Little information, lots of fear. Thought about what we consider to be the low odds of her success. Gonna puke. Shot the shit trying to think about anything else. [[k0sh3k]] thinks it may be coming time to lawyer up. Donuts in the parking lot, the most fun he's had in a very long time.
+
+[[ASK]] working on paperwork. She's frustrated.
+
+Made tendies, potato salad. Watched //Smiling Friends// per [[JRE]]'s recommendation. [[TTTOTW]]. [[m16]] crashed. Our minutely scripting stacked up after I was fussing with 7zip GUI on loonix (burning a lot of CPU for nothing). Oopsed, I actually lost work, writing to [[Variety Creepy]]. `/sigh`. I am old enough to know better. Good news is briar-gtk is back up and running. `/thumbs-up`. =). [[TTTOTW]]. 
+
+She came down to acquire me. //Raw Skintime//. //Inform the Men//! Meditation. Shower of the gods!
+
+[[TTTOTW]]. MWC vs Gobbos, one each. She's back.
+
+Good news: there are people in our neighborhood using our network for the interwebs (not v& or wardriven thus far). It's not a honeypot...more like a stone hitting all the birds. I am, just, like, you know, desperately glad to have random strangers who will absolutely use our network responsibly and with kindess (and, by god, you fucking better :P). Any illegal activity emanating from our WAN IPs, unfortunately, are probably due to miscreants. `/shakes-fist`. I think they were wearing Maga hats, your honor.
+
+[[Family Gathering]]. Scrounged (plenty for all), House's Dad's Funeral episode. [[TTTOTW]].
+
+```bash
+sudo pacman -S --needed base-devel cmake curl mpfr libmpc gmp e2fsprogs ninja qemu qemu-arch-extra ccache rsync unzip --noconfirm
+cd ~/stage
+git clone https://github.com/SerenityOS/serenity
+cd serenity
+Meta/serenity.sh rebuild-toolchain
+Meta/serenity.sh run #fail... too lazy to care
+```
+
+Some MWC vs Gobbos & vv. No art group.
+
+Chat with [[DeathOfRobinhood]]. [[TTTOTW]]. Sleep by midnight? Blurry.
+
+---
+<<footnotes "s" "Reminds me of [[specialist]].">>

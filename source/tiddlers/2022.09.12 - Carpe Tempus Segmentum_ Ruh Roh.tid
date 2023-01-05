@@ -1,0 +1,48 @@
+created: 20220912041339080
+modified: 20220914044732683
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]]
+title: 2022.09.12 - Carpe Tempus Segmentum: Ruh Roh
+
+<<<
+Cleaning. Laundry. Back to single KVM. May have found part of the original problem. One of the HDMI cables clearly sucks. I don't like building in VM. It's slow. ITX box is up again. Switched the disks up in fstab after a second rsync. Duperemove buys 200GB, but perhaps some months it will buy more; not sure if the load on the drives is worthy. At least I've 1.5TB free instead of 600GB. I'm doing what I can to keep it lean and clean. 
+
+[[Monsternix]] is currently at 57GB referenced, but 14GB total. Pretty cool. I would not be surprised to see just the [[NixOS]] packages hit 100GB, and I have no idea how much I'll use otherwise. If I do make an iso, I don't think I'll include the packages, but instead just the scripting. 
+
+Rice and curry. Water. Attempted to sleep at 3. Fail.
+
+[[Resilio Sync]] just for the [[Monsternix]] bootstrap is up and running. I cannot Torsocks or Tsocks wrap it. I don't know what I'm doing wrong, but I know it works within Whonix. Sleep by 6?
+
+Woke at noon. Garbage sleep. Time was spent, rest wasn't much gained (but it wasn't nothing!). Meditation. //Skintime// with my sympaticon.
+
+//Raw Skintime// with mi amor. She is exhausted. 
+
+[[TTTOTW]].
+
+Orjail barely functions on my Arch build. I can't compile it on Nix, and I can't get JuNest working either. However, I found out they already had a package. It fails to do anything, and verbose gave basically nothing. I'm increasingly worried the only way out is to virtualize or containerize within the initial bootstrap script itself (or, bootstrap into having the material to begin building those containers to actually connect to the real bootstrap - it's getting ludicrous). Redsocks is an odd sledgehammer. The interface binding in Resilio Sync may be an out.
+
+I had peanut butter toast, but my sympaticon threw me a curveball. I could barely afford to watch her eat her peanut-butter-''MAYO'' toast. 
+
+[[Family Time]] was difficult at first. Dialecture. Got easier though, fun even. Eventually, //The Sandman//, but I fell asleep. I can finally wear a blanket again. I don't think people understand how much comfort I find with a blanket. It's night and day different to me.
+
+Woke at 10:30. Not great sleep, but it was enough. //Skintime// with my sympaticon. Made stirfry. //The Strain//.
+<<<
+
+Cleaning my wounds. Might be chemical burns, but I don't know from what. LolVods with my sympaticon. [[TTTOTW]]. Sleep by unknown time.
+
+Woke at noon? Hard fucking sleep. Good. Dreams have been crazy for days. //Skintime// with my sympaticon. [[TTTOTW]]. Everyone has been having some interwebs troubles, but mine have only been getting worse over the course of the day. 
+
+Talked with solar folks. They have agreed to reimburse us monthly costs after I very carefully fussed again. No fun talking to a retard.
+
+Took [[j3d1h]] out driving. Another daughter/parent pair were practicing too. Good parking lot. I'm sure we looked funny practicing parallel parking and multi-point turns with our invisible lines. She did well. Had her ride up on the curb gently from a few angles to get a feel for the limits. We need to get a real permit so that we can go out into the world.
+
+Offspring came down to grind. Wasn't particularly productive. Had fun though. Also, [[ASK]] made pancakes and her own syrup for us. They were delightful.
+
+[[JRE]] called. He is on the meds. Low odds, so little worry. Sucks that Good Samaritans are not protected in the same way that others are. Need to get the [[Project Ascension]] account over to him. After thinking about //Tears in Heaven//, he's thinking about how fucked up it is that a parent could consider a place heaven that would reject their own children for eternity, and, of course, this is pointing at our donors. My man is in for a wild ride as he raises his offspring. My process was complicated by having the devils in the midst of my figuring it out, with much fewer resources, before my brain had even developed, and with little or no aid, not even from those closest to me. I need to watch Shane Gillis, check out MSSP too.
+
+Something in my i3-layout-autostart is eventually killing DNS for me. I can't even proxy (systemwide). Testing one by one, and nothing in particular seems to be the problem. Syu (I don't upgrade nodejs*), and [[Aether]] won't start, `--no-sandbox` or `--disable-gpu-sandbox` or `--in-process-gpu` on execution gets me closer. One of them not great computing days. 
+
+//Raw Skintime// with mi amor. Double dose wasn't what she wanted, but some day might be worthy. 6 meetings, morning prayer, colloquium, work, class. Talked with [[R]], who kept the conversation quite short. 
+
+[[Family Gathering]] was delicious. Kickasserole. //House of Cards//. 
+
+//Skintime// + LolVod with my sympaticon. Sleep at 8. Woke at 11:30. Better. [[TTTOTW]].

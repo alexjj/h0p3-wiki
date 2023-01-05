@@ -1,0 +1,56 @@
+created: 20200615191644170
+modified: 20200616073859044
+tags: [[Computer Musings]] [[cruise control]] [[Carpe Tempus Segmentum]]
+title: 2020.06.15 - Carpe Tempus Segmentum: Who Gave Me Root? Idiot.
+
+* Woke at noon
+** Not enough. Should get to bed earlier. 
+* [[Morning Routine]]
+* I came down to my [[beautiful]] [[monster]] to see a host of torrent-related io error notification. That sinking feeling, the confirmation: I'm a fucking moron. 
+** [[monster-16: Root crontab]]: `0 5 * * 1 rsync -acr --delete --force /mnt/m16-backup-nvme/timeshift/ /mnt/m16-new-storage`
+*** h0p3, YOU IMBECILE. YOU FUCKING MORON!
+**** God damnit, lol. I should never be in charge of computers. I'm just not careful enough.
+** All is not lost. I rolled back at week.
+* Ran into two folks, and TW Canvassing
+* Dialectures
+** My daughter has no intention of trying too often. Brutal about her lying at this point. No space.
+** Like pulling teeth
+* Cleaning
+* Walk+Talk
+* Read+Write
+* Canvassing
+** Ongoing conversation today with [[Memexy]]. 
+*** I suggest what will eventually need to occur will be a pre-computed image/file/model used for searching. 
+**** Anything built into TW for the compute would be awful. It's gotta happen externally (probably fine-tuned to death) and get injected (though Bob makes this easier). 
+**** One could imagine that the quasi-CLI, command palette, or query input would become the primary (and maybe only) UI decades from now in some cases. 
+***** No, sometimes wandering hand-crafted structures is exactly what allows you to even know what you would want to ask or say (and you might not realize that's what you should ask for, nor would they be curated by hand).
+* Chats
+* Walk+Talk
+* CS: worked on providing a contextlink option for the filter search. 
+** Might not be worth it in the end. 
+* Walk with wife!
+** She couldn't make it all the way this time. Something is up with her ankle. It aint right.
+** S got in trouble with his boss for the way he's using her. I continue to digest the theater.
+** I joked that the headless pigeon would make a fine male sex toy.
+* Fireman Time! =)
+* Made the Jamaican Hotpockets^^tm^^, deconstructed salad (because I like onion more than everyone else, and my son hates tomatoes like the autist he is). 
+** We talked about the project for [[DeathOfRobinhood]].
+* [[h0p3ful Review]]: Short. Glad to see both are wrestling hard. 
+** I hesitate to provide any more direction for my daughter in some places of the desert. I feel like she's the one who will have to make the decisions of where to go, and I trust her instinct. Double her age, and she'll have been down far more paths I have, I assume.
+* [[Φιλοσοφική ανάλυση]]: timeline continues to grow
+** We're taking a second pass. It's going to be easy for a bit, but it will ramp up.
+** My offspring seem to be pleased with this route. They are making fun of me for making fun of history of philosophy so much, understandably. =)
+* Worked on the NASB wiki for [[DeathOfRobinhood]]
+** My son stuck around long enough to understand what we were doing.
+*** Each verse atomized to its own tiddler. Cut out created/modified. Verse, chapter fields, book tag. Ended up giving just a plain sequential order counter so that we could pick to two points and derive the verses in between without hassle.
+**** Lots of things could be built with it. It needs a pericope generator, maybe transcluded.
+** My daughter and I raced to build the script. It was fun. 
+*** I wish she'd just mount my drive and use a text-editor that synced. Had to verbally mutex. 
+*** Xonsh is da best. I mostly picked up parts that were needed like an apprentice and thought about the whole with her.
+*** Her Bob instance generator worked nicely.
+**** I don't like all of the changes to the newer versions of Bob
+** Book, chapter, favorites, topics...ToCs
+** Inject and linking up commentaries would make it exceptional.
+** Performance for +30k tiddlers was reasonable.
+* Walk+Talk
+* Read+Write

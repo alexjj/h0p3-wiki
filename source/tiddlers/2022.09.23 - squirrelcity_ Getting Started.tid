@@ -1,0 +1,127 @@
+created: 20220923060533251
+modified: 20220926120024902
+tags: squirrelcity Matrix Note To Chatlog From Outopos
+title: 2022.09.23 - squirrelcity: Getting Started
+
+> Hi there, im okagain
+
+I believe you. 
+
+It would be funny for some other random person on [[Aether]] to make a Matrix account and talk about how to build an [[anonymized]] fully distributed no-knowledge storage network. In case you are playing a prank on me, you [[other]] person from [[Aether]] you, I think you are a wonderful scoundrel, and I think this idea is absolutely dope AF.
+
+> Ive been reading the links you provided in your dht thread, on pisces, thesus, and octopus
+
+And, if you have any [[link]]s to send my way (about anything you find [[salient]], not just in this context), please do. 
+
+> Im working on a design for a decentralized storage system, where a state actor with (user) alices key + file hash cannot pressure (storage node) bob to locate and censor alices file. 
+
+The ability to censor files from either user key or hash is unacceptable. I'm still thinking about your design. I'll say what I'm thinking as I wait for more details.
+
+> Ive not done an exhaustive search to see if this problem has been addressed before, but this keeps reappearing in every distributed storage system so far (freenet, ipfs, filecoin, maidsafe, bitmessage). And so far i have not found any papers even describing this as a problem much less attempting to solve it.
+
+I've not either. I could attempt to search with you, if you'd like. Maybe even crawling through //Tools// on my [[Link Log]] might net something (though probably only adjacent or partially relevant). There's gotta be someone who has done a literature review at least, right?
+
+I agree that this problem keeps reappearing. It's a really hard problem. In my experience, nobody has come even close to solving it, only parts of it. What I have to say you may already know or know what's wrong about it. I have no idea if I will be useful to you, but I [[hope]] to be. Spittballin' muh unhinged opinionated autismophrenic gibberish here:
+
+Onion-routed mutable torrents (or perhaps even well-conceived distributed mutable containers, https://inqlab.net/projects/dmc/) seem like an ideal starting place to me, in some respects. There are versions of this that exist or can be constructed already, but they aren't pretty or easy to use, imho. Beyond that, the problem becomes coordinating the people who want to share files. In torrenting, we have files [[others]] want and sometimes recognize the value in seeding back as well (and discovery itself can be [and in some cases has been] decentralized further than most tracker communities), and this works alright-ish. It's hard to incentivize long-term contributions and cooperation on these networks without centralizing [[power]] somewhere. 
+
+Private trackers incentivize this through ratio requirements, but these can be cheated pretty easily, in my experience. There's more overhead we'll have to pay to verify (or least have a high enough [[chance]] of detecting) that other users are playing fair. The sybil attack isn't easy to answer. Trading resources can defeat the sybil. Freenet and (perhaps in a sense) PerfectDark have some volunteer trading built-in that I don't consider heinous, but they are wildly ineffective. These are very old tools, and it shows. 
+
+How do we incentivize users on such a network in a way that it would scale? I am not convinced this problem should be solved by mining for a currency or a consensus (I remain completely unconvinced a blockchain will solve this problem at all), even as just an abstraction that stays entirely within network. I am convinced that success will only be found through the [[Gradual]]ized [[T42T]] (tit-for-two-tat) golden-ruled [[sharing]] of drive space, seeding time, bandwidth resources, and so on. Volunteers could still choose to seed content (or hold for particular individuals in need). Plenty will give just because they think this information is important enough for everyone to have access to, but otherwise, we rely upon people to trade resources. It helps when we can leverage [[trust]] earned through interpersonal relationships, but that's not always feasible (even if a F2F model might be the backbone of the network). How do we get strangers to fairly and seamlessly trade with each? Proof of trust at an atomic level seems a reasonable start. You scratch my back, and I'll scratch yours. 
+
+With a proper matchmaking system, I'll happily trade X*YGB on my drive for X [[anons]] to host YGB for me. I'd even pay 2(X*Y) for no additional benefit without blinking. I'm a madman in the desert though. Speaking as someone who has a file he wants to be completely uncensorable (namely, ⦗ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱: h0p3⦘), I'd be willing to pay 1TB of space for premium CDN-like 100MB uncensorable, high-discoverability space without flinching. I'd be happy to ask for chunks, subchunks, or hashes of random pieces as some evidence they were holding for me (and vv.), and testing whether or not they are distributing it when asked can be done [[anonymous]]ly. I'd be interested in what the nodes that have earned my trust have to say about how much they trust other nodes too, and being able to leverage my social trust in others might accelerate and increase my confidence of where the surface of the sybil network is (or at least that I have avoided it). Some people will have a difficult time trading though, that isn't not easy to solve or account for, and I'm not sure how best to build something that can't be gamed. This is an important hard problem to solve.
+
+It is my opinion that the tool you are building would be the target of a lot of attacks were it to be successful. Just like running i2p or Tor nodes on any of your devices screams it to your ISP (and some folks that you connect to), the whiff of this tool would get you put on a list. A lot of people will have a kneejerk response to the fact that such a network will be used to host evil things, and they'll take that as an excuse not to participate. A network that isn't censored will have more than piracy (plenty will cross the piracy line, but only if they think the content is otherwise morally permitted), and that's not an easy sell to your average Joe. This is far more dangerous than sharing bandwidth. The only thing more dangerous than holding files (even encrypted files or just parts of them) for [[anon]]s is actually running processes for them (which, I would like to see, ofc).
+
+> The maidsafe project in particular is finding themselves in a very tough position, being under uk law they are compelled to maintain blacklists of hashes and to implement a way in software for all nodes to adopt this. At best this would lead to balkanization of the network, at worst total surveillance and censorship. 
+
+Yikes. I wonder if monetizing the public commons leads to this vulnerability. For the network to be properly uncensorable, it must be FLOSS, international, belonging to no particular body of people, and there probably can't be any direct profit motive to warp it. Its users alone must be the reason it functions. If there is money to be made, it will centralize and it is unlikely to survive legal attacks on its infrastructure. 
+
+> This may be mitigated if all nodes were hidden behind a sufficiently safe ip anonymization network. Fortunately these are here but are still very new and will take another decade to mature. But its putting a bandaid over a bullet wound. 
+
+I am quite surprised to hear that, and I'm concerned there's centralization in that process. Fully distributed, high-functioning onion-routing on consumer-grade devices behind [[NATs|NAT Traversal]] is already a profoundly tall task, imho. i2p has had 20 years, and it still isn't there (not even close). It might not even be a real bandaid.
+
+> And that adds a considerable amount of latency and overhead, as they still adopt the 3 node model Tor uses. 
+
+Content-addressable networks may blur the conceptual lines for onion-routing because end-points may serve semi-static content. If the ephemeral end-point already has the file, temporarily, and given that some users might not even desire 3-hops of their own, significant speed-ups may be possible. The overhead is fine for some kinds of filesharing, but not others. Streaming and surfing are too latency dependent for the average person, but many might be willing to pay the price. 
+
+Say Charlie is the person who may be volunteering or contractually obligated to serve Alice's file (or chunk of one). Perhaps they know each other, perhaps they don't. If they are trading with each other, they could remain strangers on completely ephemeral keys for their one transaction (or more, if long-term trust might be useful), while still maintaining the ability to see if the other is playing fair (Charlie's anonymity makes it harder for Alice to verify he's doing what he said he would if there are others also holding this chunk, so a component of what he is sharing should probably be unique to his transaction with Alice). After he receives the file, Charlie, like all the users on the network, continues to generate ephemeral 3-hop tunnels, some of these will be serving up Alice's file. If the file is small enough or Charlie is willing to pay for it (or is paid to pay for it), the end-points of the those tunnels could just hold the file themselves. That's probably not a price most would want to pay though. Still worth thinking about if you wanted to replace the web. 
+
+<br>
+
+<<<
+> Onion-routed mutable torrents
+You are referring to zeronet over tor? As you mentioned p2p topologies are very vulnerable to sybil and have problems with churn. 
+https://blog.nymtech.net/hopr-network-design-and-flaws-a-system-analysis-43c1d244a779
+This explains in simple terms what p2p designs are poor choices for anonymous networks, and why hub + spoke networks like Tor and Bitcoin are more functional and useful. 
+
+>How do we incentivize users on such a network in a way that it would scale? 
+By providing dapps that have unique usecases and benefits not found in centralized systems. 
+But churn is mitigated by long lived nodes that are paid through fees generated by these dapps
+Blockchain is mostly a solution in search of a problem, but given its original usecase, censorship resistance, it can be invaluable. 
+
+> Just like running i2p or Tor nodes on any of your devices screams it to your ISP (and some folks that you connect to), the whiff of this tool would get you put on a list.
+This is not a concern, the target audience values freedom over safety.
+>Still worth thinking about if you wanted to replace the web.
+Thats not really the scope, its a design for a censorship resistant file storage network, its usecase is for people concerned with persisting files that could be identified within the network if shared. Alice storing some encrypted content only alices has access to can be done using google drive and achieve the same effect.
+
+> I've not either. I could attempt to search with you, if you'd like. Maybe even crawling through //Tools// on my [[Link Log]] might net something (though probably only adjacent or partially relevant). There's gotta be someone who has done a literature review at least, right?
+If you could find anything, search keywords like "censorship resistant distributed file storage network" yeilds a host of projects that all claim censorship resistance which all amounts to "split your file into chunks and spread it across alot of computers". This doesnt address the fact that each of those chunks are identifiable by their hash.
+So the extent of their protection again censorship is "the nodes dont know what these files are", which is true for google hosting an encrypted file, so ultimately a pointless claim. 
+
+Back to my problem:
+
+Bob and Charlie may be identifiable in some way, and Alice will talk directly to Bob, and Bob to Charlie, so Alice may be the only party that is unknown, and Alice will not know who Charlie is as they will not relay any sort of information between eachother in a way that will reveal themselves. 
+
+I say Alice will be unknown because as a client she may wish to hide behind Tor. Otherwise she will be known to Bob. 
+
+And known meaning their IP is revealed. None of this is relevant to the problem at hand, other than to consider possible attack vectors.
+
+Bob and Charlie will be paid by Alice for this as well, i have not considered exactly how this would be done. The Hopr project had a way of doing this https://docs.hoprnet.org/core/incentives
+
+The Nym link mentions why this may be a bad idea for anonymity
+
+Theres probably some other things im leaving out, the setup isnt complicated
+
+Its a similar design to most distributed systems, Alice is the user class, Bob is the relay class, and Charlie is the storage class
+
+Bob and Charlie are long lived nodes who get paid to be there, and are monitored for abuse
+
+They are volunteers, like Tor relays
+
+And like most distributed systems there is redundancy, so Alices file will be given to multiple Charlies, and multiple Bobs will store the intermediary key (and this info in a DHT so she can find the Bobs later)
+
+This number would be about 3, a balance between possible Bob and Charlie churn, and malicious Bob and Charlies
+
+There are probably better ways of approaching that, like sharding across many computers like freenet and filecoin, but ill keep it simple.
+
+Bobs and Charlies would ideally keep track of eachother on a DHT, since directory authorities, as Tor is finding out the hard way, are easy targets
+
+Though Tor may have a very good reason for using them instead of DHTs, i dont know, ive never seen them explain this
+
+The process is, Alice would encrypt her file with her public key, locate Bob, send her file along with the hash of the file and her public key.
+
+Bob would take her file, checksum it with her hash, generate his own keypair for this file, encrypt it with his key, generate a hash for this new file
+
+Then he would find Charlie and send it to him with the hash, and Charlie would checksum it and put it into a local hash table for reference.
+
+Bob would take Alices public key, his keypair, and any hash info, and upload it as an encrypted block into a bitmessage type blockchain that all Bobs and Charlies would maintain. 
+
+The encrypted block would be encrypted with a new keypair for this purpose
+
+This keypair is distributed to two other Bobs
+
+This keypairs pubkey and alices pubkey along with the Bobs info is stored in a DHT that alice will use to locate them for retrieval
+
+Now, this is where im getting stuck. 
+
+Lets say Alices pubkey is blacklisted, and lets say the DHT that contains this link to her file will allow someone to pressure the bobs to delist either the DHT or to destroy their keys to the file. 
+
+Could you deduce some way for this DHT that contains these Alices and Bobs keys, and the link to the Bobs, to be obfuscated, or allow for some level of reasonable doubt?
+
+Now the assumption here is that the attacker has Alices keypair, because she wanted to share access to the file. Whatever she has the attacker has too. 
+
+So she and the attacker must be able to look at the DHT, and send a request to one or more Bobs, and they will respond. This will expose which Bob has her file, and with enough attempts will expose all Bobs. This is the problem, unless Bob is hiding his IP and protected from Sybil attacks he will be known. I dont know, its late, maybe there is some other way of doing this.
+
+If you have any ideas
+<<<

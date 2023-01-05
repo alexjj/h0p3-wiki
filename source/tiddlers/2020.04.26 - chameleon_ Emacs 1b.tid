@@ -1,0 +1,18 @@
+created: 20200519221852514
+modified: 20200519221915583
+tags: chameleon Chatlog
+title: 2020.04.26 - chameleon: Emacs 1b
+
+"""
+[6:34 PM] h0p3: Seems hard to beat emacs in the end.
+[6:35 PM] chameleon: Emacs: 1b
+Everything else: 0
+Film at 8
+[6:35 PM] h0p3: I wonder if, in the end, it might not be easier to build out some kind of emacs that will eventually be the interface even your readers would navigate (as WASM might make that a reasonable possibility).
+[6:35 PM] chameleon: Of course I've been getting so much out of tw that I'm unlikely to stop using it
+[6:36 PM] chameleon: Hmm. Interesting thought
+[6:37 PM] h0p3: You might try to map emacs onto TW too. TW5-Bob instance, and just edit the .tid files programmatically. Don't know how to transition well, but that might be something worth doing.
+[6:37 PM] h0p3: I would like to know which particular features of TW are necessary, something you would want to replicate.
+[6:38 PM] h0p3: I also wonder how far org-mode can go here.
+[6:40 PM] h0p3: I'm not worried about having to break from the modern browser infrastructure too much yet for the wiki (but I am worried about that in general too; hard to imagine that I will be able to escape it, just like I'm forced to have an android phone). Having an older browser version I used just for the wiki is a price I would pay.
+"""

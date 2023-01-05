@@ -1,0 +1,233 @@
+https://boards.4channel.org/lit/thread/18217190#18217190
+
+```
+/lit/ - Literature
+
+File: wittgenstein__!.jpg (53 KB, 374x262)
+53 KB
+/pkmg/ - Personal Knowledge Management General Anonymous 05/10/21(Mon)17:33:49 No.18217190▶>>18217196 >>18217281 >>18220140
+
+    Last thread: >>18186269 →
+
+    General for personal knowledge management, personal knowledge bases, Zettelkasten, person wiki software, Obsidian, Roam, Tiddlywiki, &c.
+
+    Let's get some resources together to start off the next thread with, as well as some example Zettelkasten notes to compare.
+
+>>
+Anonymous 05/10/21(Mon)17:35:13 No.18217196▶
+
+    >>18217190 (OP)
+    meant to use another Wittgenstein pic, sorry Ludwig...
+
+>>
+Anonymous 05/10/21(Mon)17:52:18 No.18217281▶>>18217291
+
+    >>18217190 (OP)
+    Hey there, anon. I use my wiki every day. I'm a huge fan. What do you hope to accomplish with yours?
+
+>>
+Anonymous 05/10/21(Mon)17:53:22 No.18217291▶>>18217369 >>18220613
+
+    >>18217281 (You)
+    Just better comprehension and cohesion of what I read, hopefully aiding writing. I'm less optimistic than those people who posit Obsidian as a "second brain," but I still find the concept massively useful. Definitely something I had been needing for a while.
+
+>>
+Anonymous 05/10/21(Mon)18:04:27 No.18217369▶>>18217699 >>18220613
+File: Wittgenstein-Laser-Eyes.jpg (50 KB, 400x400)
+50 KB
+
+    >>18217291
+    I'm pessimistic that such a tool could think for us in many respects. Perhaps one day ML would aid in such a thing, but I have my doubts it would be in my lifetime. I'd argue it is an extension of my mind, and it definitely adds and improves memory. I like that it grants me the ability to find a context again. Still, "second brain" is likely hyperbole.
+
+    This one is mine: https://philosopher.life/. I don't know if it would be useful as an example, but it might be worth thinkin' about.
+
+    What do you like to read and write about, anon?
+
+>>
+Anonymous 05/10/21(Mon)19:09:32 No.18217699▶>>18217830
+
+    >>18217369 (You)
+    Oh, yeah, I've seen this one. Even if machine learning goes that far, I don't think I'm too interested in that. I wouldn't even say it's an extension of my mind, just something I use to maintain myself.
+
+    I read about Christianity and some other assortments when I can. What about you?
+
+>>
+Anonymous 05/10/21(Mon)19:29:53 No.18217830▶>>18217923
+
+    >>18217699
+    I hate to say it, but I've largely stopped reading books. I read a lot on the internet, web and otherwise.
+
+    If you ever need anything for your reading, HMU. I have surprising access to Christian literature in particular.
+
+>>
+Anonymous 05/10/21(Mon)19:48:10 No.18217923▶>>18218606
+
+    >>18217830 (You)
+    Sure, hit me up with what you have. How come you stopped reading, by the way? I've fallen into some decline too.
+
+>>
+Anonymous 05/10/21(Mon)22:31:58 No.18218606▶>>18218941
+
+    >>18217923
+    I think depression is part of it, but I also haven't really been moved by many books in a long time. Hyperreading > Deepreading for my work for a while now. Perhaps part of it is a lack of attention span too. I usually dig for particular chapters instead these days. My wife reads a lot of books (a scary amount), and I try to do the same on the web. It makes for good walks and conversations with the family.
+
+    As to literature, beyond pirating for you, I'm connected to a well-known divinity school. Anything they can access, I can try to access for you as well.
+
+>>
+Anonymous 05/10/21(Mon)23:39:22 No.18218941▶>>18220832
+
+    >>18218606 (You)
+    Anything on this? https://books.google.com/books/about/Hell_and_Its_Torments.html?id=4_HOAAAACAAJ&source=kp_book_description What did you usually read before you slowed down?
+
+>>
+Anonymous 05/11/21(Tue)07:56:51 No.18220613▶>>18220668 >>18220832
+
+    >>18217369 (You)
+    I, too, wouldn't call it a second brain. It's clearly a marketing hyperbole. If we manually feed info to this "second brain", wouldn't it cease being a brain and being, y'know, a personal knowledge base?
+
+    I find the concept of personally inserting and formating info in these software very time consuming and all, and have been using obsidian only as an aid to personal studies because it's more efficient than writing in paper.
+
+    Another question for frens:
+    We know that we remember/learn more (with) what we write in paper than what we type. That being said, could one of these methods (ZK, GTD, etc.) be used in an analogical way? As in a paper knowledge database (not just notebooks filled with notes, ofc.)
+
+>>
+Anonymous 05/11/21(Tue)08:03:50 No.18220651▶>>18220835
+
+    what are the best examples of the personal wiki type of thing, which one should i use?
+
+    obsidian looks a little too scattered and incoherent for me, but i have to say that the wiki idea has become much more appealing to me as i've thought about it since the last thread
+
+>>
+Anonymous 05/11/21(Tue)08:51:44 No.18220832▶
+
+    >>18218941
+    https://www.youtube.com/watch?v=_FzUJl-wB1s [Embed] - subs aren't pretty, but they work.
+
+    Not sure if it's feasible for you, but Amazon has it for $2. https://www.amazon.com/Hell-Its-Torments-Robert-Bellarmine/dp/0895554097
+
+    I tend to read what is recommended to me by those I trust. My trust in others and their recommendations have varied considerably over time. Philosophy, computing, and science fiction are some broad areas I've tended to prefer.
+
+    >>18220613
+    `/salute`. Trying to specify what counts as an inference (something we might consider brain-like behavior) is perhaps harder than it looks. I'll agree it's not a mind (barring some Hegelian possibilities that I'm not interested in defending). I also think PKM is not a sufficient description of my own work (https://philosopher.life) either though. But, mine isn't just for me.
+
+    I aim to limit how much I rely upon formatting as well, and I hope to maintain escape hatches from my tools (though after 5 years of writing every day, I'm less convinced I'll move away from TW). I want it to be useful from the command line and any text editor, and not just the hypertext application itself. Obsidian locks you into a perspective, which can be exactly what you need in a given situation. It depends. You can also hybridize systems, use Obsidian + TW + other tooling, as long as you've got your synchronization down right (that might not be worth the work for most).
+
+    I seek salience in the zoo of 15k notes (~40MB of plaintext). Does it help me tell and retell the stories that matter to those I love?
+
+    As to your question, I can write the file from scratch on paper. I have before in a pinch. Even before I started using these tools, I'd written by hand plenty too. Nothing beats the speed of typing and computerized organization and searching. My Hypertext/wiki is ridiculously large, and it's not feasible to deal with that much data by hand. If the point isn't to store your memory external to your brain but to maximize brain retention, I suggest spaced repetition and continued clarification of your work (I still recommend typing it). If I had to write by hand (e.g. from prison), I'd do so on the assumption of OCR and importing into digitized body of writing.
+
+    My offspring have used their TWs for years for a wide variety of projects, including proof of their schoolwork. It's part of what we read and talk about together in [[Family Time]]. It's a social media tool that we own together. It has a lot of functions. We can call this learning and a type of knowledge too, but it's not what is normally meant.
+
+    ...
+
+>>
+Anonymous 05/11/21(Tue)08:52:52 No.18220835▶
+
+    >>18220651
+    I use Tiddlywiki. Imho, it's wiser not to pigeon-hole yourself into zettel or any particular method. Read and write in hypertext generally. Get it out onto the page(s). You probably can't or don't know all the arbitrary structures you'll need. Mold the tool and discover the methods you need for each problem. Can you re-use your data and transform it into the next step with low friction? I can't say I'm good enough at it.
+
+    You may find any sufficiently powerful tool in this domain is going to be scattered and incoherent. The learning curve for the complete infrastructure you may prefer in the end might be quite steep. I consider myself only an intermediate user, despite heavy use.
+
+>>18220651
+Obsidian is actually pretty compact as far as I've been using it, but >>18220835 (You) has some good ideas too.
+
+>>18220832 (You)
+Thank you very much! Interested in your tie to a divinity school. Your interests seem like those of someone who's somehow connected in that manner.
+
+Your own work is very impressive, useful contribution to this thread. I think even the closest approximation of a "brain" we could make would still be very reductive and the term, at best, would be applied for marketing.
+
+OCR has gotten pretty good these days. If you know a program better than this (https://ocr.space/), you should drop it so we can include it at the top of the next general.
+
+Seeing by your seriousness in life, it must be good to keep everything orderly. Even when I was more unserious I would have volumes of notes. It also works for me as a replacement for social media (which I was basically addicted to before I destroyed all my accounts, lol).
+
+>>18220835 (You)
+I just accept that w/r/t these programs, my usage of them is more akin to a tourist than anything. I don't use anything seriously so as to keep fluidity.
+```
+
+My wife works at a divinity school. She's a librarian. It's a {[[dream]]} job for her, vocation even. Also, a surprising amount of Christian literature just can't be found in digital form, so perhaps I will be of further service to you (and she as well). Feel free to [[Contact]] me for anything. I'll see what I can do.
+
+I've almost gone to seminary three times (one in Hong Kong, one in California, and another in Louisville). I've spent a lot of time around them and with people who have attended. I'm a double PK and MK (and my grandfather was an evangelist as well). I can't say most of my interests are things that divinity students and scholars are investing themselves into, but we do have some overlap, no doubt. Admittedly, not many religion professors tolerate me unless I'm being quiet.
+
+Thank you for the compliment. I work hard on it. I'm glad that I was useful in the thread as well. I keep some keyword alerts on 4chan to join conversations that I might be suited for. Perhaps I should expand the set of terms I search for.
+
+Yeah, I think you're on the money about the marketing point too. It's hard to describe what this thing is with deep use, so I can forgive it to some extent. "Digital Garden" is another phrase that I [[like]], but it also falls short, imho.
+
+I've not tried enough of recent OCR tech to know what is really worth using. Sorry. =/.
+
+I do [[hope]] to be serious about what matters most in life, no doubt. I //wish// I could keep my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱, let alone my life, orderly. I try to keep my head above the water. Still learning to swim over here. =). 
+
+I would like to see your notes and [[social media|PSM]] replacement, if you ever are willing to make them public. 
+
+I've recently used that word "fluid." Most find me exceptionally dogmatic. I hope you'll reconsider not using //anything// seriously. That's a very strong claim.
+
+
+```
+ Anonymous 05/11/21(Tue)23:08:53 No.18225342▶
+File: Learning to Learn Pill.png (577 KB, 1280x720)
+Image
+
+    >>18217369 (You)
+    Pretty neat, the aesthetic is kinda overwhelming for me, sorry. 
+```
+
+`/salute`. Definitely not everyone's cup of tea. Most people really don't like the way it looks, among other things. I can appreciate that. 
+
+
+```
+>>18217369 (You)
+Hey, bubs, got a link to that background gif?
+```
+
+No trubs 4 bubs, guvnuh: [[Wiki.gif]]. 
+
+```
+>>18236933
+How’s ur musashi notes going. Show us the way.
+
+>>18237037
+https://philosopher.life/#Miyamoto%20Musashi
+
+>>18238726 (You)
+That was pretty great. Read it on mobile this time and I could really appreciate the aesthetic. I like how you worked through it all as a process, though it seemed like by the end you just started bickering with him based on modern principles without contextualizing what a man who lived in a cave from 400 years ago who’s goal was to be the best at killing people said to his student. Good use of integrating links into it. High quality shitposting.
+
+Good work!
+```
+
+`/salute`. Thank you. 
+
+I hope to have honored the spirit of his approach to warfare in my wording (I'm certain he would approve). I think I captured what was [[salient]] about the context. I don't consider the topic sufficiently relevant. Given two hours, that's what I think I need to know about him. 
+
+The odds are very good that you gather far less information from my words than I do (which makes sense, the notes are primarily for me).  I'm not using strictly "modern" principles (surely you've taken me out of context in your 20 minutes of glancing through my words too :P). I'm speaking on behalf of [[Saint Plato]] plenty here. I think [[Musashi|Miyamoto Musashi]]'s argument was dead on arrival, and I think this character is mostly hype. You let me know what you think I should have understood or thought, and I'll wrestle with that. I'm glad you appreciated the shitposting aspects to what I said though. I'm going to make fun of what I think is ridiculous, but I did pay him some serious compliments too. You know hao it do.
+
+In the end, I'm trying to show folks how and why to use a tool like this one. I'm interested to see how [[others]] do it. Note, of course, I'm the only person here to have to put their skin in the game. A screenshot is not even close to providing the full context.
+
+```
+ Anonymous 05/20/21(Thu)14:02:12 No.18281974▶
+>>18279429
+
+...
+
+From all my research this thread by far is the biggest goldmine of things like that. Between Ericcssonanon, the philosopher.life guy, and the evergreen note links, I would say those three alone give you a rock-solid base to start on with respect to all this stuff.
+```
+
+`/salute`. I doubt that what I'm doing is what anyone else wants to do. As I said, I don't think PKM is a fitting descriptor. It's way more than that for me. I also think it takes way, way more time to understand what I've done here than what almost anyone wants to spend (the fact is that you need to be proficient in a number of topics to interpret some of my potent retardations - I wish I knew how to simplify it and say it cleanly for everyone). I'm glad to have you met, anons. I hope to see you all [[PSM]] for us. 
+
+```
+ Anonymous 05/21/21(Fri)01:31:11 No.18285379▶>>18285528 >>18285554
+I want to see more complete and explorable examples, not just screenshots.
+
+ Anonymous 05/21/21(Fri)02:22:30 No.18285528▶>>18285591
+>>18285379 (You)
+Be the change you want to see anon. I’m sorry my screen shots aren’t good enough for you.
+
+ Anonymous 05/21/21(Fri)02:31:19 No.18285554▶>>18285591
+>>18285379 (You)
+It's not really something you see though. It's something you do. It's like reading someone else's notes and being like what the fuck is this guy even writing.
+
+ Anonymous 05/21/21(Fri)02:48:14 No.18285591▶
+>>18285528
+Naw, anon. Your screenshots were dope and amazing even if insufficient for a topic this complex. Thank you. And, yes, I'm doing my best to be the change I want to see.
+
+>>18285554
+That's an excellent starting intuition, and you are correct about the necessity of having done it yourself (there is no substitute). I'm reminded of: see one, do one, teach one. In this case, it doesn't matter how good you are at this practice: there's still plenty worth seeing as an expert (I've systematically read every page of some very large examples in this sphere), even if we can't understand these objects as well as their authors.
+```

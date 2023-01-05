@@ -1,0 +1,4 @@
+description: Non-encrypted normal tiddlers
+filter: [!is[system]!has[encrypted]]
+tags: $:/tags/Filter
+title: $:/plugins/danielo/encryptTiddler/Filters/normal-unencrypted-tiddlers

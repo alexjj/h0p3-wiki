@@ -1,0 +1,83 @@
+created: 20211211025351835
+modified: 20211211233341827
+tags: [[Computer Musings]]
+title: 2021.12.10 - Computer Musings: 𝐓𝐡𝐞 𝐄𝐲𝐞 𝐨𝐟 𝐒𝐚𝐮𝐫𝐨𝐧
+
+i3 Monitoring Container. Eventually going to end up in: [[i3-layout-autostart.sh]]
+
+```bash
+#!/bin/bash
+
+i3-msg 'workspace 0:Left Horizontal'
+sleep 1
+i3-msg 'layout tabbed'
+
+### Parent Container: System Monitor
+terminator -p h0p3 -x sudo nethogs & #visudo and add "ALL ALL=NOPASSWD:/usr/bin/nethogs"
+sleep 2
+i3-msg 'split vertical'
+sleep 1
+terminator -p h0p3 -x sudo nethogs -v 3 & #visudo and add "ALL ALL=NOPASSWD:/usr/bin/nethogs"
+sleep 0.5
+i3-msg 'focus parent'
+sleep 0.5
+i3-msg 'title_format "-=[ 𝐧𝐞𝐭𝐡𝐨𝐠𝐬 ]=-"'
+sleep 0.5
+i3-msg 'split horizontal'
+sleep 0.2
+i3-msg 'layout tabbed'
+sleep 1
+terminator -p h0p3 -x sudo iptraf-ng -d enp5s0 & #visudo and add "ALL ALL=NOPASSWD:/usr/bin/iptraf-ng"
+sleep 0.5
+i3-msg 'title_format "-=[ 𝐢𝐩𝐭𝐫𝐚𝐟 ]=-"'
+sleep 0.5
+terminator -p h0p3 -x sudo iotop & #visudo and add "ALL ALL=NOPASSWD: /usr/bin/iotop"
+sleep 0.5 
+i3-msg 'title_format "-=[ 𝐢𝐨𝐭𝐨𝐩 ]=-"'
+sleep 0.5
+terminator -p h0p3 -x btop &
+sleep 0.5 
+i3-msg 'title_format "-=[ 𝐛𝐭𝐨𝐩 ]=-"'
+sleep 0.5 
+terminator -p h0p3 -x htop &
+sleep 0.5
+i3-msg 'title_format "-=[ 𝐡𝐭𝐨𝐩 ]=-"'
+sleep 0.5
+i3-msg 'focus parent'
+sleep 0.5
+i3-msg 'title_format "-=[ 𝐓𝐡𝐞 𝐄𝐲𝐞 𝐨𝐟 𝐒𝐚𝐮𝐫𝐨𝐧 ]=-"'
+```
+
+<br>
+
+!! Uh huh:
+
+* WM_NAME or _NET_WM_NAME for i3 titlebars show terminator and /bin/zsh, so i3 title_format
+* iptraf-ng with flags seems to render for a smaller terminal emulator
+* tmux and terminator can be fashioned to do quite a bit of this work as well, I realize.
+* `nethogs -v 3` crashed after 300GB, pegged at 100% on a core. iptraf may be the winner for that.
+
+<br>
+
+!! Out:
+
+* etherape (I know what it looks like, `/squint`) pegs a core at 50% on [[m16]].
+** Damn shame it forces the graph on you. The information is otherwise quite usable.
+** Ideally, it would be console and potatoable, so this is out.
+* vnstat is what it always was
+* ksysguard 
+** Doesn't appear complete on my system. Some KDE tools don't quite out of the box (though I'm still impressed*).
+
+<br>
+
+!! Thinkin'
+
+* Naemon
+* Munin
+* Cacti
+* Tangent:
+** http://afick.sourceforge.net/
+** https://www.ossec.net/
+** https://www.la-samhna.de/samhain/index.html
+** https://onotelli.github.io/justniffer/
+** https://github.com/aide/aide

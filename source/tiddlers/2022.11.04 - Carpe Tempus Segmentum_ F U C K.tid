@@ -1,0 +1,50 @@
+created: 20221104103444917
+modified: 20221105140134938
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]]
+title: 2022.11.04 - Carpe Tempus Segmentum: F U C K
+
+[[TTTOTW]]. Sleep by 1? 
+
+Woke at 5. Couldn't get back to sleep. =/. 
+
+Saw mi amor off. She did sleep. Good. Early today. CPE meeting may give us insight into what life may be like for her a year from now. Bagel and ginger ale. [[TTTOTW]]. 
+
+Sleep by 8?
+
+Woke at 1:30. [[Morning Routine]]. //Skintime// with my sympaticon.
+
+A flash. DNS entry fixed. 
+
+A wild [[gojreaogij]] appears...
+
+Google's 2FA has been forced upon me. Clownworld, itellyawhat.
+
+Draft [[The Salient Cube]] with folks.
+
+Mi amor called. Drafted while wandering and speaking. Paper looks good. Thinking about the coming weeks. Mid-call, a one, and I shit you not, "Jon Snow" shows up, a rep from our new ISP. Thought he might be here to fix, but just a salesman. I am clearly the first to have the service. He clearly has no fucking clue what I'm talking about, and, of couse, I missed my chance to say it, "You know nothing, Jon Snow." Unless, the card itself was a meme (which would be hilarious), but I don't think so. 
+
+//The Walk// with mi amor. Clarinet. Full route. Glorious. Also, if we get that rebate, we may need to use it to replace the heating system in the house. It's 50-70yo, and this is the second time we've had to replace significant sections of it. Not cheap.
+
+Assignments. //Skintime// + //Red Rising// @3:01:47:22 with my sympaticon. [[DeathOfRobinhood]] speaks.<<ref "g">> Eggnog and snacks with my sympaticon. Computer trouble begins.
+
+Ran out of space on /home, xsession error log at 150GB, lol. Even after deletion, system wasn't acting right. Restarted, but I should have been more careful! Unfortunately, given my work on [[Monsternix]], I've stopped doing the nightly backups. And, my choice not to fix that has bitten me. I lost all unsaved buffer in my text editor. That's a fuckton of work that cannot be recovered. I still keep weekly and monthly backups though, so it was only a week rather than 3 months. Still: absolutely fucking brutal. Even losing a day is pretty painful. That's a stupid number of hours just gone, poof. I'm an idiot. `/nod`. Like, I ''know'' better. What kind of retard does this? How many times must I learn this lesson?
+
+Nightly backups set up again. Testing. Hail mary `find -iname` turned nothing, ofc. Data recovery time. That's too much fucking work not to try. This definitely should not work. 
+
+```bash
+sudo pacman -S testdisk --noconfirm
+sudo photorec #takes ~~1.5~~ 4.5 hours, its prediction is wrong, on a ~700GB nvme partition
+# It's a fine tool. Glad to have the extra drive space too.
+```
+
+The reason I think this shouldn't work is that the partition was filled. Everything should be overwritten! Wear-leveling and other SSD features make it hard to sanitize though, and, therein, it may be possible to recover what can't be recovered on an HDD. It appears so, and I am still surprised. I've 414GB recovered, but don't even have half of that in freespace. I only have 2.2 million files on my primary SSD, but I've recovered 2.7 million (which is likely, in part, due to how the recovery tool recognizes files; some odd looking fragments among these, imho). Clearly, I do not understand. TRIM hasn't hit yet, so that's presumably in my favor. I'm [[grateful]] that I can click open files from the terminal emulator. 
+
+```bash
+strings ~/.local/share/clipit/history > cliphist.txt
+```
+
+Clipboard manager saved [[Link Log]] work (minus commenting), but my loss in [[/b/]]uffer doesn't appear recoverable. I am reminded that I wish I had something like that append-only homomorphic keylogger. There might be versions of asymmetric crypto that would do it, just as long as the keylogger's private key and my public key don't provide a way for an attacker to decrypt (RSA maybe, but ECC probably is out, right?). Nope ECEIS will work. We can generate ephemeral keypairs for a session (might as well rotate often), attach the encrypter's public key with each ciphertext, and scrub.
+
+
+---
+<<footnotes "g" "Ever get the feeling people aren't in your life for the right reasons? I don't get that feeling from him. It's a rare opportunity.">>

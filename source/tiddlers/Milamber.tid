@@ -1,0 +1,35 @@
+created: 20220216205222438
+modified: 20220218143343254
+tags: [[FTO: Seemingly One-Off Online Encounters]] [[FTO Mode: Alien]] FTO
+title: Milamber
+
+!! Information:
+
+* darkmx:user:Milamber@wjj4q6xjyljgdomykmcp5ah3gdjy3q54ezrakg5rsmtfv46vw5wa
+* ???
+** darkmx:user:Mili_on_UBUNTU@uoohru36llnsa7e2ylel6kqz7ydvfd2fczedbycfoxh275umb3aq
+
+!! Communications:
+
+<<<
+; 2022.02.18 - Milamber: Take Two
+
+"""
+12:08:27 AM [[Milamber]]: @h0p3 Milamber here 2nd attempt. Clean install from no O/S disk. Took all night to let me start install. Stable so far. Cheers.
+09:29:33 AM [[h0p3]]: Dope. Glad to hear it's up and running. I think reinstalling many times is a rite of passage (and, sometimes, that's the best option, imho).
+"""
+<<<
+
+<<<
+; 2022.02.16 - Milamber: Ubuntu
+
+"""
+01:03:21 AM [[Milamber]]: Just dipping a toe into Ubuntu :)
+
+07:30:20 AM [[h0p3]]: @Milamber: if you need any help with Ubuntu, you let me know. `/salute`.
+03:10:06 AM [[Milamber]]: Hi h0p3. Funny U should say that .. Just lost all excep 640x480 res on my Nvidia GTX1060. Was fine one min. then after reboot it;s the onlr res. available.
+08:39:45 AM [[h0p3]]: Yo, what is the output of `inxi -Gx`?
+08:40:28 AM [[h0p3]]: You using the proprietary driver?
+01:38:09 PM [[Milamber]]: Have not loaded the proprietary driver myself (unsure which ti use) but will have a look at the output tonight.
+"""
+<<<

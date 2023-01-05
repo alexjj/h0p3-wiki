@@ -1,0 +1,8 @@
+created: 20200705025221786
+modified: 20200706011008050
+tags: Canceled j3d1h $:/tags/Stylesheet
+title: Stylesheet: Canceled
+
+[data-tags*="Canceled"] {
+    color: #383838;
+}

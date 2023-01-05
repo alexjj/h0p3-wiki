@@ -1,0 +1,150 @@
+created: 20210706034353981
+modified: 20210706070111341
+tags: ASmith Jaxx Chatlog
+title: 2021.07.05 - ASmith: Shoptalk
+
+"""
+[21.07.05 - 23:29:13] [[ASmith]]:  Greetings [[h0p3]] , [[Jaxx]] , Lord_XetroV , PiB-4-8ormal , t3chn0 , how are you's this Monday?
+[21.07.05 - 23:29:26] [[Jaxx]]: Hello :)
+[21.07.05 - 23:29:33] t3chn0: [[ASmith]], o/
+[21.07.05 - 23:29:35] [[h0p3]]:  Hanging in there. Lots of reading and writing, trying to take over the world [[TTTOTW]].
+[21.07.05 - 23:29:39] [[ASmith]]:  hi [[Jaxx]] , t3chn0 , [[h0p3]] 
+[21.07.05 - 23:29:40] [[h0p3]]:  How are you? 
+[21.07.05 - 23:29:43] [[Jaxx]]: tueday? just calm and silent
+[21.07.05 - 23:29:48] [[ASmith]]:  hotter a firecracker
+[21.07.05 - 23:29:50] [[Jaxx]]: *Tuesday
+[21.07.05 - 23:30:07] [[ASmith]]:  another triple digit day here, another expected tomorrow, 12 nearly back to back :(
+[21.07.05 - 23:30:12] t3chn0: Brand new version of RS today :)
+[21.07.05 - 23:30:14] [[h0p3]]:  Lawd.
+[21.07.05 - 23:30:21] [[ASmith]]:  lol [[h0p3]], knowledge is power
+[21.07.05 - 23:30:34] [[Jaxx]]: what? prand new rs? how? where? for what OS?
+[21.07.05 - 23:31:17] [[ASmith]]:  Total Elapsed Time: 00:01:20
+[21.07.05 - 23:31:18] [[ASmith]]:  RS06 Compile Elapsed Time: 00:01:20
+[21.07.05 - 23:31:18] [[ASmith]]:  Finished building
+[21.07.05 - 23:31:18] [[ASmith]]:  retroshare_0.6.6.20210704.0c98b7f1-gui-focal_sqlite_amd64
+[21.07.05 - 23:31:18] [[ASmith]]:  v0.6.6-66-g0c98b7f17
+[21.07.05 - 23:31:19] [[ASmith]]:  ./retroshare_0.6.6.20210704.0c98b7f1-gui-focal_sqlite_amd64
+[21.07.05 - 23:31:29] [[ASmith]]:  I built the newest binary myself earlier today
+[21.07.05 - 23:31:53] [[h0p3]]:  Do you automate that process significantly?
+[21.07.05 - 23:32:17] [[ASmith]]:  yes I wrote the software that does that [[h0p3]] otherwise I'd have no time
+[21.07.05 - 23:32:44] [[h0p3]]:  Knowledge Is Agony if ignorance is bliss.
+[21.07.05 - 23:33:43] [[ASmith]]:  lol [[h0p3]] 
+[21.07.05 - 23:33:51] [[h0p3]]:  :P
+[21.07.05 - 23:41:31] t3chn0: Ok, I got it. It is version 0.6.6-3.10 
+[21.07.05 - 23:41:43] t3chn0: Running on openSUSE Tumbleweed.
+[21.07.05 - 23:48:08] t3chn0: (Qt version 5.15.2 here)
+[21.07.05 - 23:49:13] [[ASmith]]:  I'm running 1t version 5.12.8 here
+[21.07.05 - 23:49:13] t3chn0: I started using this rolling release from openSUSE back in March.
+[21.07.05 - 23:49:30] t3chn0: Pretty content with it tbh.
+[21.07.05 - 23:49:50] [[ASmith]]:  I built 18 flavors of RS for years, just to seed RS across file sharing networks including torrents
+[21.07.05 - 23:50:08] [[ASmith]]:  alot of work, I rolled that back with some success
+[21.07.05 - 23:50:38] t3chn0: Cool.
+[21.07.05 - 23:50:50] [[ASmith]]:  difficult to imagine the obstruction and negatism towards torrents at that time by some hard core RS early users
+[21.07.05 - 23:51:22] t3chn0: The first time I came across RS must have been back in 2017.
+[21.07.05 - 23:51:24] [[ASmith]]:  I overcame that with time and they disappeared, I tried to explain to them there were only 3 copies of RS on torrents
+[21.07.05 - 23:51:38] t3chn0: It was a guy over on the I2P IRC service who told me about it.
+[21.07.05 - 23:51:46] [[ASmith]]:  2 were pfishing files, 1 was way outdated
+[21.07.05 - 23:52:11] [[ASmith]]:  I convinced Dr. Bob, the founder to include I2P, he had already coded in Tor
+[21.07.05 - 23:52:39] [[ASmith]]:  at that time there was zero i2p for RS and no push to have it included besides myself also
+[21.07.05 - 23:53:31] [[ASmith]]:  I had hoped that in time, there'd be enough 5G I2P users that network would really pick up
+[21.07.05 - 23:54:00] [[ASmith]]:  dunno if that happened but undoubtedly there are 5G users piling bandwidth to I2P now
+[21.07.05 - 23:54:46] [[ASmith]]:  yes OpenSUSE is very popular with those that use it t3chn0 
+[21.07.05 - 23:56:15] [[ASmith]]:  [[h0p3]]: you recall that Denzel Washington movie where books were more rare than gold and he became a walking book?
+[21.07.05 - 23:56:27] [[h0p3]]:  The Book of Eli
+[21.07.05 - 23:56:34] [[h0p3]]:  helluva movie
+[21.07.05 - 23:56:51] [[h0p3]]:  You ever identify with that character, sir?
+[21.07.05 - 23:56:52] [[ASmith]]:  yep that's it
+[21.07.05 - 23:57:09] [[h0p3]]:  (Agent Smith being a fascinating choice, ofc*)
+[21.07.05 - 23:57:13] [[ASmith]]:  Denzil is in a different level as a actor, wonderful character
+[21.07.05 - 23:57:36] [[h0p3]]:  Yeah, I agree. He's amazing. 
+[21.07.05 - 23:58:30] [[h0p3]]:  Do you believe yggdrasil (https://yggdrasil-network.github.io/) might eventually be integrated into RS one day? 
+[21.07.05 - 23:58:30] [[ASmith]]:  I encountered the real life darkness depicted in one of the movies regarding the spirit hopper that killed off the hosts
+[21.07.05 - 23:58:52] [[ASmith]]:  starring Denzil Washington
+[21.07.05 - 23:59:03] [[h0p3]]:  Fallen
+[21.07.05 - 23:59:05] [[h0p3]]:  Amazing movie.
+[21.07.05 - 23:59:19] [[h0p3]]:  How'd that encounter go?
+[21.07.05 - 23:59:41] [[ASmith]]:  yes Fallen, I survived, the last host didn't, it went poorly regardless
+[21.07.06 - 00:00:33] [[ASmith]]:  she left a wonderful husband and beautiful family, probably plagued that region for many decades, picking how to take over, killed them off to do the same to another and another
+[21.07.06 - 00:00:59] [[Jaxx]]: sorry to interrupt.. But does anyone know any good free email services where I can send unlimited emails anytime,anonymous,encrypted,free (no cost at all),can send and receive to emails from tor and clearnet (except protonmail,tutanota,dnmx,secmail,torbox,eludemail,mail2tor,riseupmail)
+[21.07.06 - 00:00:59] [[ASmith]]:  not here but whatever that dark spirit was, long gone now
+[21.07.06 - 00:02:16] [[ASmith]]:  I had improperly chauked it up as a serious case of bipolarism, and ignored the super human abilitys that spirit displaced, just pushed that out as 'she's crazy'
+[21.07.06 - 00:02:42] [[h0p3]]:  I can empathize with that.
+[21.07.06 - 00:03:10] [[Jaxx]]: and ofcourse only accessable via tor. if anyone know,please do let me know :)
+[21.07.06 - 00:03:21] [[ASmith]]:  her family would commit here for 7 day observations at the state mental hospital, the spirit would be quite and obediant because they'd have to release her in 7 days
+[21.07.06 - 00:03:32] [[h0p3]]:  I'm a pastor's kid (both of my donors). Exorcisms were a thing. My wife's ([[k0sh3k]]'s) co-worker has been recording his house for a ghost of someone who got killed in there.
+[21.07.06 - 00:03:43] [[h0p3]]:  [[Jaxx]]: I'm sorry, you've already picked out all the ones I know. =(.
+[21.07.06 - 00:04:03] [[Jaxx]]: oh darn
+[21.07.06 - 00:04:15] [[Jaxx]]: its ok :)
+[21.07.06 - 00:04:17] t3chn0: [[Jaxx]], try http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/
+[21.07.06 - 00:04:27] t3chn0: (Not sure if it'll suit your needs)
+[21.07.06 - 00:04:33] [[Jaxx]]: not my type of meail,sorry..
+[21.07.06 - 00:04:35] [[ASmith]]:  yeah, shoved into a deadly game of life and death like that made me feel like a chess board pawn on the board of life
+[21.07.06 - 00:04:39] [[Jaxx]]: *mail
+[21.07.06 - 00:05:17] [[Jaxx]]: even the daniel's chat has even been unavailable alot. so i dont really want to use emails that are down alot
+[21.07.06 - 00:06:06] [[Jaxx]]: There is one: http://tormailpout6wplxlrkkhjj2ra7bmqaij5iptdmhhnnep3r6f27m2yid.onion .. but the captcha there is broken when u try register
+[21.07.06 - 00:06:06] t3chn0: I have 3 accounts on DanWin's platform and their uptime is pretty acceptable though.
+[21.07.06 - 00:06:22] [[ASmith]]:  Anyone see The Tomorrow War yet, just released
+[21.07.06 - 00:06:25] [[h0p3]]:  I've seen a lot of privacy and anonymity focused mail services come and go over the years. If you can avoid relying upon such a centralized (and, I appreciate that is has some federated features) for basing online identities upon, the better off you'll be in the long-run, imho.
+[21.07.06 - 00:07:21] [[h0p3]]:  I hate that feeling of being bounced around like a pinball in life. Lacking autonomy (of the various kinds) sucks. =/. 
+[21.07.06 - 00:07:46] [[h0p3]]:  Worse to feel used by another, even if it were just some cosmic force. 
+[21.07.06 - 00:07:48] [[ASmith]]:  Yep, and that was hindsight
+[21.07.06 - 00:08:34] [[ASmith]]:  could have been, someone felt the time for that dark spirit was over, difficult to say how long that region had been plagued by that
+[21.07.06 - 00:15:19] [[Jaxx]]: t3chn0, http://sonarmsng5vzwqezlvtu2iiwwdn3dxkhotftikhowpfjuzg7p3ca5eid.onion
+[21.07.06 - 00:30:18] [[Jaxx]]: i dont use twitter much,its just there in case there is something i want to ask people that use twitter.. usually i dont use twitter myself
+[21.07.06 - 00:31:03] t3chn0: I got rid of it a couple of years ago.
+[21.07.06 - 00:31:29] t3chn0: FB and IG disappeared from my life even longer ago.
+[21.07.06 - 00:32:03] [[ASmith]]:  FB still to this day attempts to lure me back, they are like a parasite looking for hosts IMO
+[21.07.06 - 00:32:17] t3chn0: I concur.
+[21.07.06 - 00:35:22] [[ASmith]]:  I have some associates that still use it, at one time I thought about creating a faux FB account with a white picket fence and some copy and paste generic images for various employers to pour over but nah
+[21.07.06 - 00:36:25] [[ASmith]]:  I just tell human resources I have no social media accounts for them to scrutinize and stare them down as they frown and pout
+[21.07.06 - 00:38:30] t3chn0: The only few social media platforms I use are Mastodon, GNUsocial, diaspora* and I think that's all.
+[21.07.06 - 00:38:40] t3chn0: Oh and Pleroma as well.
+[21.07.06 - 00:38:46] t3chn0: And PeerTube lol
+[21.07.06 - 00:39:07] [[h0p3]]:  Aether is worth trying out too.
+[21.07.06 - 00:39:17] t3chn0: [[h0p3]], gonna check.
+[21.07.06 - 00:39:38] [[ASmith]]:  I think mastodon has a plugin for Nextcloud also
+[21.07.06 - 00:39:43] [[ASmith]]:  and there's Element
+[21.07.06 - 00:40:11] t3chn0: Yeah, I have Element too.
+[21.07.06 - 00:40:23] t3chn0: https://getaether.net/ <-- [[h0p3]], you meant this one, right?
+[21.07.06 - 00:40:28] [[ASmith]]:  I'm looking at Many Verse, a off the grid social network at the moment https://www.manyver.se/ and Briar
+[21.07.06 - 00:40:48] t3chn0: [[ASmith]], I use Briar too.
+[21.07.06 - 00:40:50] t3chn0: And Session.
+[21.07.06 - 00:41:29] [[h0p3]]:  Yes, that one. Recently spoke with the co-creator of it. Difficult to find funding to work on it full-time. They haven't released complete control of the network, but I'm still quite hopeful. 
+[21.07.06 - 00:41:58] [[ASmith]]:  yep, funding is vital on many projects these days
+[21.07.06 - 00:42:54] [[Jaxx]]: https://getaether.net/ looks good.. to bad its not a chat u know
+[21.07.06 - 00:43:16] t3chn0: Weird, LibreWolf (browser) would not let me download the *.rpm even enabling JS.
+[21.07.06 - 00:43:19] [[ASmith]]:  looks like many verse is largely mobile p2p encrypted and decentralized
+[21.07.06 - 00:44:08] [[Jaxx]]: if briar were for pc (windows),i might have used it,but it doesnt
+[21.07.06 - 00:44:19] [[h0p3]]:  Their flood network still isn't fast enough to enable quasi-real-time forum communications. They are likely going to pick up Element/Matrix (particularly since it suits the "Pro" version's centrality features) and hope that Matrix eventually goes true P2P.
+[21.07.06 - 00:44:43] t3chn0: I have the Manyverse app from F-Droid on my phone, but I haven't used it yet.
+[21.07.06 - 00:44:45] [[ASmith]]:  that's good insight there [[h0p3]] 
+[21.07.06 - 00:46:25] [[ASmith]]:  https://gitlab.com/staltz/manyverse/-/wikis/roadmap
+[21.07.06 - 00:47:14] [[h0p3]]:  That is ambitious.
+[21.07.06 - 00:47:44] [[ASmith]]:  yes but nice to see such ambitious goals these days
+[21.07.06 - 00:48:08] [[ASmith]]:  'Desktop App' Horizon 2, approx 3 months out
+[21.07.06 - 00:48:33] [[h0p3]]:  Once it is available to the Desktop, I'll try it again. There are several interesting mobile-only tools out there. I can appreciate how the poorest on the planet are relegated to Android or even accessing only whatever Facebook (or their government) allows. Mobile-only is a problem in that it's really difficult to own your phone (even my [[Pinephone]] is barely operational, imho). 
+[21.07.06 - 00:50:23] t3chn0: [[ASmith]], I did a 'git clone https://gitlab.com/staltz/manyverse.git' but I could find not executable in its folder.
+[21.07.06 - 00:50:28] [[ASmith]]:  hmm, nearly all gov's evesdrop on cell calls, only the citizens are locked out of those frequency's
+[21.07.06 - 00:50:38] [[Jaxx]]: https://u.is
+[21.07.06 - 00:53:00] [[Jaxx]]: what you think of https://u.is ?
+[21.07.06 - 00:53:58] [[h0p3]]:  I've tried it isolated in VM. I don't trust it. Gorgeous though.
+[21.07.06 - 00:54:21] t3chn0: [[Jaxx]], looks interesting.
+[21.07.06 - 00:54:29] [[h0p3]]:  Just a gut instinct. I have no evidence. Lacking FLOSS is a redflag.
+[21.07.06 - 00:54:37] t3chn0: Hm
+[21.07.06 - 00:54:40] <presagacity[m]> > We want to contribute to the development of a self-regulating society which encompasses both humanism and freedom.
+[21.07.06 - 00:54:40] <presagacity[m]> This seems a bit 1990s to me.
+[21.07.06 - 00:54:50] [[Jaxx]]: How u dont trust it, [[h0p3]]? if u read its faq,it tells u why its not open source
+[21.07.06 - 00:55:40] [[ASmith]]:  I think 2001 served to crush such ideals presagacity[m] 
+[21.07.06 - 00:56:44] [[h0p3]]:  I appreciate the reasons, but they don't outweigh the fact that such a network must be built on tools that can be verifiably reproduced and owned by the proletariat (Retroshare is a fantastic example of how to do it right). 
+[21.07.06 - 00:57:58] [[h0p3]]:  As to why I don't trust it, I can't fully codify for you. I've tried 10's of thousands of pieces of software in my decades. I've seen ridiculous numbers of webpages. It doesn't pass my sniff-test. Maybe it's legit though. I'm just an autistic paranoid schizo, for real. So, please take my gut feelings and opinions with huge grains of salt.
+[21.07.06 - 00:58:01] [[ASmith]]:  RS IMO needs to focus on funding, part time developers are needed that are specialists for several areas and there's plenty of them across India now
+[21.07.06 - 00:59:15] [[h0p3]]:  I agree. It's getting to the point where there are simply too many problems one must understand. No one can hold or understand enough of the whole thing to make progress in some hard places. I'm hoping India proves a fantastic grounds for developing free as in freedom software.
+[21.07.06 - 00:59:17] [[Jaxx]]: i doubt you find anything like utopia that is cross platform and open source
+[21.07.06 - 01:00:19] [[ASmith]]:  Utopia has a lot of features including the crypto currency however if you can't look under the hood, that throws up yellow and red flares [[Jaxx]] 
+[21.07.06 - 01:02:26] [[ASmith]]:  India presents a interesting opportunity as China-India competition has triggered a AI-Robotic between them leaving many Indian developers looking for jobs on the side
+[21.07.06 - 01:16:38] [[Jaxx]]: A question. Is it possible to enable something in the tor browsers config or something that allow me to use webcam for example on tor browser?
+[21.07.06 - 01:18:00] [[h0p3]]:  It is possible to try to stream video (though your performance will vary considerably) across the Tor network, though I don't know if the browser can be configured as such, and I wouldn't even try. That is a job for Whonix. 
+[21.07.06 - 01:18:03] [[ASmith]]:  hmm, that would likely need to lower your tor browsers security levels to work
+[21.07.06 - 01:18:39] [[h0p3]]:  And, you really shouldn't touch the Tor Browser's security (even browsing with JS is incorrect use in almost all cases). 
+[21.07.06 - 01:18:44] [[ASmith]]:  I've streamed audio ok if the formats are proper, you wouldn't want to do that with flac encoding even on clear net
+"""

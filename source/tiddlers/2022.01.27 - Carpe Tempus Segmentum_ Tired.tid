@@ -1,0 +1,42 @@
+created: 20220127050303948
+modified: 20220128142818020
+tags: [[Carpe Tempus Segmentum]] [[Computer Musings]] Chatlog free2
+title: 2022.01.27 - Carpe Tempus Segmentum: Tired
+
+[[TTTOTW]]. Vapelyfe + Bagel + Water + Candy. [[TTTOTW]].
+
+Saw someone claim they got Beaker to run in TailsOS. Seemed unlikely, but worth a shot (though persistence for a VM can be painful). No dice. It's a shame that ipfs-desktop does not include an auto-updating ipns. Still have to script it. Daemon for Hypercore won't work inside Whonix either. Womp womp. Given how Cloudflare seems to have sunk their claws further into IPFS, I feel even more compelled to push toward Hypercore. Please, proxy support, please, then rewrite in [[Rust]] (perhaps this is where [[j3d1h]] and I should go). 
+
+Fireman Time! [[TTTOTW]].
+
+She's up. Hugs'n'bugs. Still can't get her to kiss me with that cold sore. Talking about le economy, large purchases, work, anti-work, and more. She's doing good this morning. [[Morning Routine]]. I had millennial toast while she her coffee. Busy fucking day.
+
+Long hug with [[5c0ut]]. The Grind.
+
+[[TTTOTW]]. Fed up with Debian (which is easy to do), made progress toward making a custom Arch Whonix Workstation. I've some mixed feelings here though. If I'm going that custom, why not go balls out? I'm not an experienced Docker user, but ultimately I think I do have to modularize my system through it and Nix. Compartmentalization is much stronger in VM (and I don't know how far to go; even to egress filtering), but what I want to build be something that can be run inside a VM itself (and nested VMs aren't a solved place). No, it's not Qubes or two pieces of hardware (custom hardware routers are what I consider the gold fucking standard). Has Docker matured enough here? I fear not. More importantly, the full network stack can't be controlled in a Docker. There are times where we need to continue virtualizing here. That doesn't mean Dockerwhonix isn't still necessary (even [[m16]]'s setup would benefit from the isolation). 
+
+[[ASK]]'s up. Hugs'n'bugs. Trying to find a way to get sleep, cause I need sleep.
+
++1/+0/+1 MWC vs Delver. She wins the match! Gasless for a very long time (I am going to change the deck to have fewer land.
+
+//Skintime// with [[ASK]]. //Todd & the Book of Pure Evil//. [[TTTOTW]]. Finally, sleep at 10.
+
+Woke at 5? Not great, and my toes were hurting as they warmed up. It was enough. Chilled with [[ASK]] for a while. Meditation. Fireman Time!
+
+Sous chef to [[ASK]]. I'm gonna learn how to be her third-arm without her having to think about it. I hope to be a decent apprentice that  [[ltf]] and enables her to concentrate.
+
+[[Family Gathering]] was excellent. We had kielbasa, potatoes, and cabbage. Glorious. Stripper Cuddy episode of //House//. I caught up with each person. Offspring didn't get much done, `/nod`. We all know my predictions. Son's head was hurting today.* Mi amor's injections went well, her paper is solid (and surprisingly short), and she's buried in Greek.
+
+<<<
+"""
+Jan 27, 2022, 5:13 PM free2@5ti6ybmfcrghnsmz6247uuenbrxy7mjr joined the chat room
+Jan 27, 2022, 5:13 PM <free2@5ti6ybmfcrghnsmz6247uuenbrxy7mjr> Hi
+Jan 27, 2022, 5:44 PM free2@5ti6ybmfcrghnsmz6247uuenbrxy7mjr disconnected
+"""
+<<<
+
+Hi. `/wave`. You have mail.
+
+Put mi amor to bed. //Frontline// on KY Pensions (I've met hundreds of teachers in that state, and was once a teacher in that state myself, so plenty to digest there) + //Skintime// with [[ASK]].
+
+Laundry. Put [[ASK]] to couch. [[TTTOTW]].

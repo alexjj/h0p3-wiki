@@ -1,0 +1,11 @@
+aliases: [[autogen]]
+created: 20181007230122247
+creator: h0p3
+modified: 20200902222355115
+modifier: h0p3
+tags: [[Wiki Mechanic]]
+title: Autogen
+
+//A place to celebrate automatically generated content. I hope to make static music and firmcoding with this machine.//
+
+<$macrocall $name="list-links" filter="[tag[Autogen]]"/>

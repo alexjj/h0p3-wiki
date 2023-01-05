@@ -1,0 +1,11 @@
+caption: TabLinks
+created: 20170115223014606
+creator: twMat
+list-before: 
+modified: 20180914222302945
+modifier: twMat
+tags: $:/tags/ControlPanel/Settings
+title: $:/plugins/TWaddle/TabLinks/Toggle
+
+<$checkbox tiddler="$:/plugins/TWaddle/TabLinks/Stylesheet" field="display" checked="inline-block" unchecked="none" default="inline-block"> In tabs, display shortcut links to the content tiddler, //when hovering// on the active tab.
+

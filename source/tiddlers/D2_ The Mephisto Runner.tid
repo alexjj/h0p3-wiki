@@ -1,0 +1,97 @@
+created: 20220711041537755
+modified: 20220711043111654
+tags: [[Diablo 2]] Walkthrough
+title: D2: The Mephisto Runner
+
+With the exception of [[D2: LK Rune Running]], Hell Mephisto may be the best overall farmspot in the game. And, in the early game, it is the best, as staple gear is not only a crucial ladder (especially if you can trade) but remains a necessary component of absolute top end gear for a variety of classes and builds. Once you've acquired the gear that does drop from it, you're left climbing the rest of the steep curve of [[D2]]'s skinnerbox, so ideally you milk this spot for everything it's worth while it's worth anything (No TC 81 or 84).
+
+You can do Mephisto runs on any class with almost any build, but some are wildly better than others, especially when it comes to budget. In my experience, anyone who would significantly benefit from running Mephisto should just TS Orb. It's a classic all around solid build. Though it doesn't top the damage charts in the rest of the game, nothing else is as fast or consistent for Mephisto runs while he's still worth farming, and no cheese or major gear are required. This is a fantastic build to rush and do multiplayer runs with as well. It's not the worst duelist either, as you don't need much skill to tele, orb, and TS. It's a classic for a reason.
+
+<br>
+
+; TS Orber:
+
+* Cold Spells
+** 20 Ice Bolt
+** 1 Frozen Armor
+** 1 Frost Nova
+** 1 Ice Blast
+** ''1 Shiver Armor''
+** 1 Glacial Spike
+** 1 Blizzard
+** ''20 Frozen Orb''
+** 20 Cold Mastery (up to 32 after gear)
+
+* Lightning Spells
+** 1 Charged Bolt
+** ''1 Static Field''
+** 1 Telekinesis
+** 1 Nova
+** 1 Lightning
+** 1 Chain Lightning
+** ''1 Teleport''
+** ''20 Thunder Storm'' 
+** ''1 Energy Shield''
+** 12 Lightning Mastery (final dump)
+
+* Fire Spells
+** 1 Fire Bolt
+** 1 Warmth
+** 1 Fireball
+** ''1 Enchant''
+
+This build orbs with no spellweaving, as you'll spend that time positioning. The key to orbing is positioning so the final shard pop of the orb lands on or on the back of the target. The difference in damage is enormous, and it's worth getting it right. The best option is to improve your passive damage sources, hence TS. Since it triggers on attack, Shiver Armor is superior for making your way through the crushers and dolls. Level 17 Cold Mastery after gear is the usual advice, as these points are never wasted, however, Mephisto has 75% cold resistance. You'll want 32 points in Cold Mastery after gear, and after that you'll dump into passive TS damage. Enchant AR enables your idiot to survive (has to hit to leech), and he ends up being your second source of passive damage in the long run.
+
+<br>
+
+; Example Cookiecutter Gear:
+
+* Weapons 1: The Occulus (Ist) + 35% FCR Spirit Monarch 
+* Weapons 2: Harmony (low dex requirement preferred)
+* Body Armor: Skullder's Ire (Perfect Topaz)
+* Helm: Harlequin Crest (Perfect Topaz)
+* Gloves: Chance Guards 
+* Boots: War Traveler 
+* Belt: Arachnid Mesh
+* Ring 1: 10% FCR/Prismatic/MF 
+* Ring 2: 10% FCR/Prismatic/MF
+* Amulet: Mara's Kaleidescope
+* Charms: 5-7% MF charms (preferably with resists), Gheed's, Torch & Anni are nice if you can afford
+
+You don't need any of this to be successful, and moving from magic + gem and low-rune socketed gear into a partial Tal Rasha's set, into this cookiecutter is a smooth path. Note that most of this gear is achievable from simply killing Mephisto himself. So, you can bootstrap and snowball your way into an ideal build (making this probably the most important choice for opening a ladder season, especially since it can double for LK runs too), and for some of these items, you'll find so many of them you'll be able to achieve perfect rolls (e.g. Chance Guards). Unfortunately, the small charms are best found through LK runs; there's nothing that competes with it. You have little need for anything more than 4x4 slots open in your inventory. Cold and lightning resists are the most important, but poison and fire are useful as well; I think it's worth pushing for max resists, but it can be done without. 105% FCR requires making sacrifices somewhere (Magefists help without a loss in skill), and resists or MF should probably be the first things you drop to hit it. 500% MF is easily achieved (even 200% MF is quite effective), and I'm not even sure if that's worth pursuing, especially if it comes at a `/player` count cost. The only time a weaponswap for MF gear is worthwhile is when you are too poor to take Mephisto without primary combat gear or lack the Harmony runeword (so cheap to make though, and easily achieved within an hour of LK runs).
+
+<br>
+
+; A2 Holy Freeze Mercenary's Gear:
+
+* Insight
+** Mana is offense and defense for you, and killing Mephisto is the best way to save your mercenary in the end. Reaper's Toll seems good, but why manage potions?
+* Smoke or better
+** Easy to hit 75 resists, which is key until both high level and gear.
+** If you don't have LL on your helm, get it here. Insight is that valuable.
+* Vampire Gaze, or any LL helm
+** DR+LL is hard to beat. You can go more offensive with visage, but that's not obviously the correct move to make if you want to increase `/player x`. 
+
+The mercenary is a passive source of damage and quasi-roots for your nukes. Ideally, your difficulty setting is just high enough that he usually just barely survives the tank'n'spank. Think of his health pool as a resource you are spending each run.
+
+One may be tempted to deck the merc out in MF gear and allow him to last hit, but it's not clear that the investment in gear, risk, and time are worthwhile. Obviously, one can pick out better gear across the board here, but by the time you even have that gear, you may not find Mephisto's drops mean anything to you.
+
+<br>
+
+; The Run:
+
+* Upkeep & Prep
+** Make sure you've rolled a decent map (though it is less important compared to LK runs, imho).
+** On game creation, weaponswap to Harmony your way through town, Cain->Ormus->Rez if you must->Stash if you must->WP. You should be weaponswapping right before clicking on the WP itself, and moving your hand to buff salute right after. Buff, tele, kill, loot, save and exit 
+* The Pull & Spell Sequence:
+** Teleport close to enough to get any shards of the orb to touch him to pull him down away from the mobs in the back (and without pulling an council), positioning and slowing him. The southern edge of the seal in the middle of his courtroom is ideal, and you don't want Mephisto stuck on the corners. 
+*** If your idiot dies too fast or lack gear, you may have to cheat across the gap on the bottom, where it's a caster vs caster battle that you'll win because of Energy Shield.
+** Teleport close enough to static him down to ~60%. Generally, his shitty AI will make him wander by the time you're done using static. By this time, he should begin melee range attacks on your idiot.
+*** Note the value of 105% FCR here.
+** If you're significantly out of position, teleport and hope Mephisto doesn't move, otherwise cast orbs in between running into position. 
+** Shift + right click on potions to feed your idiot, though by level 80, you may not need or care to. It's also fine if he dies once in a while, eh?
+*** You can chug potions and just trade blows with Mephisto at range too because you are the superior caster. Ideally, you don't use potions and your idiot lives through most of the encounters.
+
+One may also be tempted to hit the superchest behind Mephisto, poppables, or do the council. I've not found these worthwhile, but if any are, the superchest is the most valuable of the bunch. It may be worthy to take the portal to A4, but economy of motion may be simply too valuable. Limiting the need to micro makes runs more pleasant, less error-prone, and mindless. With practice, decent gear, and a good map, you can get your runs down to 40 seconds a piece. 
+
+For a skilled trader, this is the fastest way to become rich in the game, and for solo players, it is the only viable method of equipping all your characters in a reasonable time frame.

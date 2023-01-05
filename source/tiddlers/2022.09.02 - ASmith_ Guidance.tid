@@ -1,0 +1,28 @@
+created: 20220905074319088
+modified: 20220905074514318
+tags: ASmith Chatlog
+title: 2022.09.02 - ASmith: Guidance
+
+<<<
+"""
+[16:21:31] [[h0p3]]: Sir [[ASmith]], I was hoping that you may offer me some guidance and brainstorming. I'm working on a custom DHT. Would you be interested in thinking about its design with me? And, do you know of anyone you trust to design one as well? I could use some help.
+[16:54:33] [[ASmith]]: There was some effort to add a 3rd security leg to existing DHT's of course such would then be a custom DHT however when I pitched that to the RetroShare lead developer it was pushed off for 'later' and then to the curb. That was many years ago, fine tuning a DHT code can be time consuming and I provided the RS dev all the documents and information I collected at that time.
+[16:55:17] [[ASmith]]: the security addition was something like a balancing leg or such.
+[16:59:00] [[ASmith]]: DHT Chord 'Finger Table'
+[16:59:53] [[ASmith]]: probably invented and worked on in 2001
+[16:59:59] [[ASmith]]: 20 yrs ago, wow...
+[17:00:42] [[ASmith]]: Chord is one of the four original distributed hash table protocols, along with CAN, Tapestry, and Pastry. It was introduced in 2001 by Ion Stoica, Robert Morris, David Karger, Frans Kaashoek, and Hari Balakrishnan, and was developed at MIT. 
+[17:00:46] [[ASmith]]: https://medium.com/techlog/chord-building-a-dht-distributed-hash-table-in-golang-67c3ce17417b
+[17:00:56] [[ASmith]]: https://github.com/sethiojas/dht-chord
+[17:01:25] [[ASmith]]: You might look over this Github project in Python https://github.com/sgupta38/Chord-Building-a-DHT-Distributed-Hash-Table-in-Python
+[17:03:04] [[ASmith]]: Thanks for the memory dump there h0p3 , I'm surprised I could recall such a detail from over 22 yrs ago
+[17:03:23] [[ASmith]]: afk, chores, transactions to carry out and do here
+[17:03:34] * Received a CTCP PING 1662102614134 from A_Smith
+[19:47:37] [[h0p3]]: Thank you, Sir [[ASmith]]. It's surprising how little progress has been made in real-world DHTs for p2p applications. I don't think most devs find it fun or interesting enough. 
+[19:48:01] [[h0p3]]: Do you have any particular reasons that you prefer Chord to Kademlia? 
+[20:08:18] [[ASmith]]: if you want the KAD DHT, that is the ONE that RetroShare uses, copy that one....
+[20:08:42] [[ASmith]]: Chord would be superior in security but yeah go with the Kad DHT... copy it
+[20:09:48] [[ASmith]]: I don't think KAD's DHT utilizes the finger table offering that higher level of security but again its been years since I looked at those features, as in 20 yrs...
+[20:10:29] [[ASmith]]: I don't think I have anything else to offer, nor time to spend on that. Your'e welcome h0p3 
+"""
+<<<

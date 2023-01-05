@@ -1,0 +1,24 @@
+created: 20210521070352952
+modified: 20210522092639545
+tags: [[Carpe Tempus Segmentum]]
+title: 2021.05.21 - Carpe Tempus Segmentum: Beep Boop
+
+[[TTTOTW]]. Continued discussion on [[2021.05.10 - Anonymous: PKM General]]. Fireman Time! [[TTTOTW]].
+
+```bash
+# find all the words in a.txt which appear in b.txt
+w1=($(<a.txt)) w2=($(<b.txt))
+print -rl -- ${(u)${w1:*w2}} > c.txt
+```
+
+Sleep by 4? Woke at noon. A flash, gorgeous music. I can almost taste it. [[TTTOTW]]. Meditation. Extended Fireman Time! 
+
+Cleaning and trying to murder that knotweed. I'm pretty sure that rose bush is going to die. =(. [[Morning Routine]] and breakfast (cheers, [[Variety Creepy]]). 
+
+//The Walk// with my offspring. Rough start, but it smoothed out eventually. Serious dialectures. Encountered lots of folks in the neighborhood who invited us to stop to talk, but we were into it. The boy with DS spoke with us the most. I am a poor interpreter, and he is quite skilled. I wasn't sure if we were actually be invited to say hello to his family. Maybe. I introduced us. 
+
+Work on [[The Proxy Cube]]. 
+
+⁸Δ⁸. //Skintime//. A rare treat. Inform the Men! Shower of the gods! 
+
+Assignments. [[TTTOTW]]. Broski came to chill, but I was my usual pacing anxiety devil. If there was a [[Family Gathering]], I didn't attend today. Eventually, I had to lay down. Tossed and turned. Hard time breathing, but I'm not convinced it was a cardiac event. 

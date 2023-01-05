@@ -1,0 +1,179 @@
+created: 20200918050012033
+modified: 20200918051516161
+tags: saya Chatlog
+title: 2020.07.22 - saya: Bookmarking
+
+"""
+[11:26 PM] saya: do you read the scp wiki?
+
+[12:12 AM] h0p3: Not much. At best, I am only slightly familiar with it. It's a place that my offspring and other family members have talked about with me. Pretty amazing place!
+[12:12 AM] h0p3: How about you?
+
+[9:17 PM] saya: i kind of grew up on it lol
+[9:17 PM] saya: i also made a sticker!
+[9:19 PM] saya:
+
+[9:19 PM] saya: anyways the point was that your wiki evokes a similar vibe
+[10:00 PM] h0p3: I take that as very high praise. Thank you. I do intend the memetic hazard vibe especially. I think my work can be especially painful in some places. While I think there is already consent for a number of reasons, I also intend to provide some hedged-buffer space for people to reckon with the insanity of my work and speaking with me. I am realpolitik in how I offer so little privacy and anonymity to almost anyone. There are some people who will find me incredibly toxic to their identities; I'm a polarizing person with most people in my life.
+[10:07 PM] saya: how do you manage the structure of it all?
+[10:08 PM] h0p3: Can you give me examples of structure here?
+[10:08 PM] h0p3: There's different kinds of layers to consider, imho.
+[10:09 PM] saya: i guess the most obvious would be the web of hyperlinks
+[10:09 PM] h0p3: Ah, from my [[Link Log]]?
+[10:09 PM] saya: mhm
+[10:09 PM] saya: but also just sort of... everywhere, internally
+[10:12 PM] h0p3: I am afraid I still don't understand the question well enough to know which direction I should head. I'll wander, and you can let me know.
+[10:13 PM] h0p3: The actual [[Link Log]] directory defines the project by-and-large, including its vault of audits and the tiddler  [[review]]s.
+[10:14 PM] h0p3: The structures of the [[Link Log]] tiddlers have evolved over the years, and that is self-documented in the wiki.
+[10:14 PM] h0p3: Defining the practice and the reasons for engaging in it have taken time.
+[10:15 PM] saya: i'm going off my initial impressions lol bc i need to take a closer look after i do admin stuff
+but there's a particular scope and scale to the wiki that hits initially like a bucket of ice water
+[10:15 PM] saya: i don't know if you've read the unknown, a multi author hypertext from 1999
+[10:15 PM] saya: http://unknownhypertext.com/unknown.htm
+[10:15 PM] saya: but you look at it and go oh god there's gonna be a lot
+[10:16 PM] h0p3: Nope. Sick link. Thank you.
+[10:16 PM] saya: https://emshort.blog/2019/11/07/the-unknown-1999-and-polyphonic-hypertext/
+[10:16 PM] saya: oh shoot
+[10:17 PM] saya: alright so i edited the link and pasted a short overview by emily short
+[10:18 PM] saya: peruse as you wish it is the freedom of the interwebs
+[10:19 PM] h0p3: Stunning! (<--that is one of my archetypes). I ask you to share any links with me that strike you like this.
+[10:20 PM] saya: i have 7k bookmarks i can probably find some right now lmfao
+[10:20 PM] h0p3: I will take the entire lot, if they are safe to give me.
+[10:20 PM] saya: i'm actually working on that with my mentor
+[10:21 PM] saya: we're building an open-source bookmarking webapp people can host and share their bookmarks w their community or just the general web
+[10:21 PM] saya: we're also gonna use my bookmarks as a corpus to train er
+[10:21 PM] h0p3: I hold your goal in high regard.
+[10:21 PM] saya: a machine learning nlp model
+[10:21 PM] h0p3: feel free to use mine too, if you wish; it is a large corpus
+[10:21 PM] saya: and find other things like my bookmarks out there
+[10:21 PM] saya: is it on the wiki?
+[10:22 PM] h0p3: Yes.
+[10:22 PM] saya: sweet i'll add it to the list
+[10:23 PM] h0p3: There's 20-30k outbound links in my wiki atm.
+[10:23 PM] h0p3: Most of them are contained in the [[Link Log]].
+[10:23 PM] saya: https://likeliketext.glitch.me/
+[10:24 PM] saya: this is an online exhibition of text games that opened just last month
+[10:24 PM] h0p3: Very pretty.
+[10:24 PM] saya: hosted in mud style!
+[10:24 PM] saya: i don't think there are people to talk to on there right atm but if you try and chat
+[10:24 PM] saya: it replaces / adds some words or phrases based on whatever linguistic memetic virus you have atm
+[10:25 PM] h0p3: Reminds me of my friend https://kickscondor.com/ 's bulletin board.
+[10:25 PM] saya: there's the valley virus which afflicts you with a terrible overabundance of "like"
+[10:25 PM] saya: and a lot of other minorly annoying things
+[10:25 PM] saya: it's all very endearing
+[10:25 PM] h0p3: lol
+[10:26 PM] saya: have you played any of porpentine's twine games?
+[10:26 PM] h0p3: I haven't.
+[10:27 PM] h0p3: I appreciate the work that goes into that.
+[10:27 PM] saya: porpentine does a lot of twine/choice-based works that are very emotionally and thematically heavy
+[10:27 PM] saya: http://slimedaughter.com/games/twine/howlingdogs/
+[10:28 PM] saya: this is her best known game, but look up the content warnings if you need to
+[10:29 PM] h0p3: Reminds me of MUDified https://philosopher.life/#Disco%20Elysium
+[10:30 PM] h0p3: I have to warn you, I'm afraid that the way narrative works in my head isn't terribly normal. RPing with me, for example, is a chore (most say I'm incapable of it).
+[10:30 PM] h0p3: I still don't know what you are asking in: "how do you manage the structure of it all?" I don't think you mean my physical infrastructure (https://philosopher.life/#RGM).
+[10:31 PM] h0p3: Maybe you mean something more like https://philosopher.life/#Tagging%20Theory or https://philosopher.life/#Wiki%20Audit
+[10:32 PM] h0p3: One of the strengths of TW is that it is highly malleable. It's meant to reuse what you've got to make the next move.
+[10:32 PM] saya: between the two links i think that cleared it up
+[10:35 PM] h0p3: I'm especially interested in that bookmarking problem you are trying to solve.
+[10:36 PM] saya: hoooo boy
+[10:36 PM] h0p3: It intersects with several projects of mine.
+[10:37 PM] saya: people have been very receptive about it
+[10:37 PM] saya: my mentor was a former engineer @ the internet archive and worked on a search engine thing at ibm
+[10:37 PM] saya: so this is something i can Actually Do omg
+[10:38 PM] saya: but first, for context, imma paste my college app essay on bookmarks here
+[10:38 PM] saya:
+` In an era of rampant misinformation, knowing where a fact comes from is just as important as knowing the fact itself. That’s why I’ve spent the past seven years carefully curating my digital bookmarks. These bookmarks, responsibly backed up on two flash drives and the cloud, serve as my very own bibliography. Every interesting article and anecdote that I deem worthy of recollection goes straight into the relevant folder, saving me the trouble of scouring the entire Internet every time I want to paste a pertinent blog post into one of my group chats. 
+ 
+ My bookmarks double as a record of my personal growth—like dendrochronology for the digital age. One folder chronicles my journey to define my cultural and religious identity, while my folder of transformative works (AKA fanfic and fanart) showcases my increasingly particular taste in fan-produced media. Without my bookmarks, I wouldn’t be able to gauge how far I’ve come through the wild realms of the Internet.
+ 
+ The existence of my bookmarks also helps me feel more at ease in everyday conversation. The knowledge that my facts’ sources are only a tap away gives me the confidence to engage in discourse over just about anything.
+ 
+ Sometimes, I take my bookmarks for granted. It’s easy to forget that other people don’t always have a comprehensive record of their online escapades and voyages of self-discovery, but I’m grateful for my bookmarks for giving me comfort and the opportunity for introspection. Plus, I’m never at a loss for good fanfic recommendations.`
+[10:39 PM] saya: currently all my bookmarks are in firefox
+[10:39 PM] saya: i've agonized for ages over the dearth of several things
+[10:40 PM] h0p3: Your bookmarks tell a story, and they help you tell stories with fitting properties.
+[10:41 PM] saya: lack of even rudimentary autotagging / sorting (i use folders but in the grand scheme of things they're the same thing database wise)
+the absolutely horrific cross operating system / desktop-mobile integration
+[10:41 PM] saya: and why can't i share my bookmarks for free ;-;
+[10:41 PM] h0p3: You can empower and free those bookmarks inside a wiki.
+[10:41 PM] h0p3: I feel your pain.
+[10:41 PM] saya: i come from the Fandom Side Of The Web so i have seen many, many communities lose all their info when servers go down or services shutter
+[10:41 PM] h0p3: Currently, I have ~1k tabs opens. Maybe 10% make it into my bookmarks over time.
+[10:42 PM] h0p3: The workers must own the means of production.
+[10:42 PM] saya: literally a fandom rallying call
+[10:42 PM] saya: except it goes like this
+[10:43 PM] saya: https://fanlore.org/wiki/I_Want_Us_to_Own_the_Goddamned_Servers
+[10:43 PM] h0p3: :slight_smile:
+[10:43 PM] h0p3: Preach, yo!
+[10:45 PM] h0p3: I will continue to make an argument for Tiddlywiki. It's standardized yet highly customizable. It has a very low learning curve given its power (competing with something like Emacs, imho). It runs on anything with a browser (which is any consumer device). It can synced as a single file, as the atomic tiddlers, or accessed on a running TW webserver. It's a quine, a competitive advantage.
+[10:46 PM] h0p3: It's FOSS, and the community is extremely helpful.
+[10:46 PM] h0p3: You own the data and how you shape it.
+[10:47 PM] saya: i've been rolling around the idea in my head for talking about my 15 ongoing projects bc i only have a tilde.club website
+[10:47 PM] h0p3: Would be ideal for that problem too.
+[10:48 PM] saya: for bookmarks the dream is federation and open-source, self-hosted
+i think we're gonna roll our own front-end and back-end for scaling
+[10:49 PM] saya: and also to accomodate the nlp / ml training model
+[10:49 PM] saya: my half joking goal was "i just wanna find more good fic man"
+[10:49 PM] h0p3: In case it might be useful: https://philosopher.life/#Aispondence:Aispondence%20Justice%20Outopos%20AIoutopIA
+[10:50 PM] saya: gpt-3 go o-o
+[10:50 PM] h0p3: Moderation and voting are crucial topics to me. Hubski and Retroshare's Friend-to-Friend model merits inspection.
+[10:51 PM] h0p3: https://philosopher.life/#P2P%3A%20Aether
+[10:52 PM] saya: there are several reddit spinoffs already part of the fediverse, i think
+[10:52 PM] h0p3: In the end, it must be a human that picks out what is salient at the bottom, and we have to leverage trust in the epistemic authority of others.
+[10:54 PM] h0p3: I have seen many attempts, but none have the correct model for freespeech, owning the means of production at a P2P level, having individuals choose who has the right to moderate for them in various contexts, and liquid democratic proxy voting necessary for leveraging webs of trust.
+[10:54 PM] saya: hmmm
+[10:55 PM] h0p3: Another ML project that has a lot in common with this one: https://philosopher.life/#Music%3A%20Library
+[10:55 PM] saya: one particular context for the bookmarks software i've been keeping in mind is fandom, which has been grappling with those issues for decades
+[10:58 PM] h0p3: One other consideration from [[Link Log]]. Maintaining my own archives of the material I've bookmarked. First, this is greppable, and second, it expands the real corpus material for finding salient links.
+[10:59 PM] saya: i will talk to my mentor about that tomorrow
+[10:59 PM] h0p3: Projects like Zeronet, IPFS, and Dat may be useful here for collectively seeding that mutable archive.
+saya pinned a message to this channel. 
+See all the pins.
+07/22/2020
+[11:02 PM] saya: hey it's ipfs
+[11:03 PM] saya: rifles through notebooks
+[11:03 PM] saya: i'm sure i wrote about that somewhere
+[11:03 PM] saya: i can't wait to build a crawler of some sort
+[11:04 PM] saya: there are a lot of technical aspects to this project i am just barely getting a grasp on
+[11:04 PM] saya: but it's highly enjoyable
+[11:05 PM] h0p3: The crawler seems to be the hardest part. I suggest that it would initially, at best, simply provide feeds for humans to sift through for the network.
+[11:05 PM] saya: lol we're actually working on that rn for a client project
+[11:06 PM] saya: the client keeps trying to stiff us but that's ok my mentor will sue him if he doesn't stop incriminating himself over email
+[11:06 PM] saya: people r dumb
+[11:06 PM] h0p3: and immoral
+[11:06 PM] saya: ye
+[11:07 PM] saya: i told my mentor don't drag me into a lawsuit he said he'd offer to waive my fee to the client as a concession (but i'll still get money lol)
+[11:07 PM] saya: and i was like
+[11:07 PM] saya: yeah i'll take not being in a lawsuit over what, 500?
+[11:08 PM] saya: i won't take that for 500, alex
+[11:08 PM] h0p3: :smile:
+[11:09 PM] h0p3: At large, I think the hardest part of your project is the networking problem. Even IPFS and Dat have had massive growing pains here. You'd need to be wizards to handle that section of the project.
+[11:10 PM] saya: my mentor's other specialty is in distributed systems
+[11:10 PM] h0p3: Good
+[11:10 PM] saya: he's been thinking about that aspect for er
+[11:10 PM] saya: ten years? more?
+[11:10 PM] h0p3: It's a very hard problem to even reason about in theory, let alone implement something that performant.
+[11:11 PM] h0p3: It's also a gigantic leap from desktop to mobile, but I suppose that is why you are leaning toward federation.
+[11:11 PM] h0p3: I consider federation a significant mistake though.
+[11:12 PM] h0p3: (you still might have to have proxies, NAT holepunching, and foothold/gateways onto DHTs)
+[11:13 PM] saya: i don't know if we're using "federation" in the same way
+[11:13 PM] h0p3: We might not be.
+[11:14 PM] saya: i still need to hash out the p2p and security aspects at some point with him too
+[11:14 PM] saya: i am a sprout in the computing world basically
+[11:15 PM] h0p3: Ah, me too. Don't worry. The world is too big, lol.
+[11:15 PM] h0p3: Have you looked into the other bookmarking services out there? Might consider an inventory, comparison, and "what went wrong?" analysis.
+[11:16 PM] h0p3: This is a classic problem space. Many have tried, few have succeeded, hehe.
+[11:16 PM] saya: people keep trying to monetize wheeeeeeeeeeeee
+[11:16 PM] h0p3: yeah
+[11:19 PM] h0p3: Btw, for your bookmark collection, if you wish, you could export it and I'll just parse the file.
+[11:19 PM] h0p3: I'm currently looking for bodies of bookmarks to mine.
+[11:19 PM] h0p3: By hand
+[11:20 PM] h0p3: Turns out to be difficult to find large collections with enough overlap for me. I wish the tool you are making were here yesterday, lol.
+[11:20 PM] saya: hahahahaha
+[11:20 PM] saya: i'm in the middle of restructuring the technical folders but maybe when i'm done w that
+[11:21 PM] saya: there's really only a few folders i wouldn't share and they're mostly identity/gender based
+[11:21 PM] saya: which i was surprised to realize
+[11:21 PM] saya: i have a ton of interactive fiction and sff short story recs
+[11:21 PM] saya: also all the fic
+[11:21 PM] saya: idk if you fic but there's a looot of it
+"""

@@ -1,0 +1,42 @@
+created: 20200630043533550
+modified: 20200630054228317
+tags: Lojban Cheatsheet
+title: Lojban: Cheatsheet
+
+* Any sentence you have a relationship (selbri in Lojban) between one or more arguments (sumti).
+* the order in which arguments appear is built in to the meaning of the word.
+* In order to choose the right wording one must clearly specify the structure as a whole, using markers that serve as spoken parentheses.
+
+* cmavo := structure words
+
+---
+
+gismu ~ root word
+
+tanru ~ combination of gimsu
+
+fu'ivla ~ words imported from other languages
+
+rafsi ~ a word fragment
+
+selbri ~ verb
+
+brivla ~ a word which may express a selbri relation by itself
+
+lujvo ~ compound, kind of brivla
+
+bridi ~ predicate
+
+sumti ~ a noun: “an argument that takes the place of simple Lojban sentences”
+
+pro-sumti ~ pronoun
+
+gadri ~ descriptor/attribute
+
+cmavo ~ articles, conjunctions, prepositions, numbers, and punctuation marks
+
+selma'o ~ group of cmavo with same grammatical use but different meaning or other usage.
+
+cmene ~ proper names
+
+se ~ by (preposition)

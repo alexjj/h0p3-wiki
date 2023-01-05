@@ -1,0 +1,29 @@
+aliases: λ
+caption: λ
+created: 20210701133020234
+modified: 20220209155037332
+tags: One-Liners Pins Collection
+title: Pins: Code Snippets
+
+`{{Text Art: 𝕱𝕴𝕽𝕰🔥}}`
+
+;
+
+`<span style="color:#789922"></span>`
+
+;
+
+```
+<$button class="tc-btn-invisible" popup=<<qualify "$:/temp/TEMPTID">>>
+Contextlink: FILTER
+</$button>
+
+<$reveal type="nomatch" state=<<qualify "$:/temp/TEMPTID">> text="">
+<$list filter="FILTER +[sort[title]]" emptyMessage="">
+<$link to={{!!title}}><$view field="title"/></$link>
+<$context length=80 term="TERM1"/>
+<$context length=80 term="TERM2"/>
+<br>
+</$list>
+</$reveal>
+```

@@ -1,0 +1,41 @@
+created: 20210212082039491
+modified: 20210212082205292
+tags: dswd Note From
+title: 2021.02.12 - dswd: General Questions
+
+> Perhaps all I can offer in return at the moment is my paranoid, ignorant opinion here (might not be worth much, sorry). I think you have a tool that competes with Zerotier (this is the tit I'm trying to get off) and perhaps even https://github.com/yggdrasil-network/yggdrasil-go. Having something that "just werx" on any Linux machine is quite an accomplishment, especially if there is a simple installation (if you had more people helping you, it seems like it could be used on most unlocked platforms [perhaps even inside the browser via WASM one day]). I like to think that this tool could be the basis of the decentralization that so many applications are really seeking in the end. Here's some dumb questions and uses I have in mind:
+
+I think both Zerotier and yggdrasil-go are made for desktop users and support multiple platforms. VpnCloud on the other hand comes from the world of Linux servers and strives for high performance. So there are different starting points for the projects. Although VpnCloud will support desktop user cases and multiple platforms we are not there yet (see projects tab).
+I only have limited time for my open source projects and I when I do something I want to do it right, so sometimes it takes more time.
+
+> Can I hand my brother a key and few lines to run almost blindly with zero compilation?
+
+When I provide a precompiled static binary (I probably will) then you can do one-line installs.
+You can provide a config file for him and he just needs to enable it with a command.
+
+> Can I connect to hundreds of networks, some of them quite large?
+
+This depends on what you mean with networks.
+If you mean VPNs (i.e. VpnCloud instances) the honest answer is "i don't know". There might be a limit on the number of network interfaces you can have. VpnCloud is quite efficient but running hundreds of instances will consume some resources.
+If you mean hundreds of networks that are joint using one VPN (routed), yes that is possible. I once tested VpnCloud with 500 nodes and it worked quite well. That was the original reason, why I stopped using tinc and wrote my own VPN software: Tinc couldn't handle that many peers.
+
+> Can I nest VPNs?
+
+Yes you can. Of course you will suffer some performance penalty be encrypting the data twice but there is no reason not to run a VPN inside another VPN.
+
+> Can I route this over i2p/loki/tor with ease? (ws-proxy and hooks are dope, btw)
+
+Honestly I have not tested it. With the websocket proxy feature you might have some luck running over tor. However I expect the performance to be pretty bad.
+
+> Can I run it on a potato (in some mode, perhaps), especially an android phone (I'm close to just giving up and going for a pinephone)? (would it need to leverage other machines to limit battery usage?)
+
+VpnCloud supports x86 and arm architectures (both in 32 and 64 bits) and currently only runs on Linux. That includes mini computers like Raspberry PI and sorts. There are users who setup Raspberry PIs with VpnCloud and just plug them in at a remote location to have an instant VPN.
+
+On Android: technically you might be able to cross compile it to run on a rooted android device but it will come without any UI and only run on the console (so no app). Battery usage will be another topic on mobile devices. VpnCloud is connected all the time and periodically (at least once a minute) sends some data. This is not optimal for mobile devices.
+
+> Given the continued centralization of and censorship within internet infrastructures, is it easy to run a volunteer beacon-router-tracker-proxy on behalf of any vpnclouds that may need the extra foothold? (I admit that federation may still be a required, though avoiding it is preferred).
+
+Yes this is absolutely possible. The beacon feature allows you find other peers when no node has a static address. This feature can use public infrastructure like github gists or twitter but you can also voluntarily host a beacon server, like I do.
+The new websocket proxy feature also allows people to host a proxy for other people to use. There is no trust required between the VpnCloud instance and the proxy it uses as encryption stays intact between the instances. I already provide a tutorial on hosting your own proxy whenever you need it on AWS. You can also host a public proxy for people to use but beware of traffic costs (if you pay for traffic).
+
+A lot of that is already possible using VpnCloud and some of the points are already on my roadmap. I am working on improving VpnCloud but my time is limited and I also have other projects that I am working on (there is a backup solution coming sometime soon). I am open to contributions of any kind. Even non-developers can help if they write documentation, help other users or just spread the word. (Also donations are welcome wink)

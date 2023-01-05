@@ -1,0 +1,19 @@
+created: 20190328174051471
+fc-filter: [tag[@]]
+modified: 20201008205930561
+tags: Autogen FTO [[FTO: Pin]]
+title: @
+
+//Ghetto public latent full-duplex IMing off my wiki, @taboi. I need a globby method for communicating fragments that doesn't cost an entire tiddler per message. @ is about molecularizing briefer communications and [[ltf]] for signaling. Unfortunately, this also doesn't make it easy for my interlocutors to cite the passage through hyperlinking alone, and it requires more work on the part of a reader to disentangle the uncertain timeline.<<ref "i">>//
+
+!! Groupchats:
+
+<<list-links "[tag[@]]+[tag[groupchat]]">>
+
+!! Individuals:
+
+<<list-links "[tag[@]]-[tag[groupchat]]">>
+
+
+---
+<<footnotes "i" "This isn't the best option for rapidfire dialogue (and I'm not particularly skilled in it, I suppose), and hence they have the right to ask me to stop using this flawed tool.">>

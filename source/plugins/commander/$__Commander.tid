@@ -1,0 +1,14 @@
+created: 20190212051316149
+creator: Mohammad
+icon: $:/core/images/list
+modified: 20190314211552990
+modifier: Mohammad
+title: $:/Commander
+
+{{$:/plugins/kookma/commander/ui/search}}
+<<slider-ii title:"$:/plugins/kookma/commander/ui/tiddler-selection">>
+
+<<tabs "[all[shadows+tiddlers]tag[$:/tags/Commander]!has[draft.of]]" default:"$:/plugins/kookma/commander/ui/tiddler-operation" class:"cm-tab-colorful">>
+
+---
+<<slider-ii title:"$:/plugins/kookma/commander/ui/log-status">>

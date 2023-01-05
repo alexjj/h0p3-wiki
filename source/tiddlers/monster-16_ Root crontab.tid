@@ -1,0 +1,15 @@
+created: 20190726061448355
+modified: 20200615192019159
+tags: monster-16
+title: monster-16: Root crontab
+
+```bash
+# Timeshift Snapshot Backups of Root Partition
+*/30 * * * * timeshift --check > /root/timeshift.log
+
+# Weekly Backup of Timeshift to New-Storage
+0 5 * * 1 rsync -acr --delete --force /mnt/m16-backup-nvme/timeshift/ /mnt/m16-new-storage/timeshift
+
+# Update mirrors and package lists
+0 5 * * * reflector --latest 100 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist && pacman -Syy
+```

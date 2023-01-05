@@ -1,0 +1,336 @@
+created: 20220803233430310
+modified: 20220925054017064
+tags: EssOS Outopos
+title: Outopos: Whonix Prototype Build
+
+//Seems I can't escape the idea, [[DjinniOS (ˈGeniusˈ)]], [[EssOS]], etc.. Ideally, the workstation would still be viable regardless of the gateway(s) chosen, including decentralized access from the clearnet.//
+
+!! Gateway:
+
+```bash
+passwd #changeme
+sudo apt update
+sudo apt-get dist-upgrade
+sudo apt install unattended-upgrades
+sudo nano /etc/apt/apt.conf.d/50unattended-upgrades
+```
+
+<<<
+```
+        "origin=Debian,codename=${distro_codename}-updates";
+        "origin=Debian,codename=${distro_codename}-proposed-updates";
+
+Unattended-Upgrade::Remove-Unused-Dependencies "true";
+Unattended-Upgrade::Automatic-Reboot "true";
+```
+<<<
+
+```bash
+sudo dpkg-reconfigure --priority=low unattended-upgrades
+sudo apt-get install cron #throwing redundant kitchensink
+sudo apt-get --purge remove exim4 exim4-base exim4-config exim4-daemon-heavy
+crontab -e
+```
+
+<<<
+```
+0 2 * * * upgrade-nonroot
+```
+<<<
+
+```bash
+sudo su
+crontab -e
+```
+
+<<<
+```
+0 4 * * * apt update && apt upgrade && apt autoremove -y
+```
+<<<
+
+* VM: Memory ceiling to 512mb
+** As I've run into trouble at 256mb. 
+* Network Adapter 2 (Internal Network), Name: EssOS
+
+<br>
+
+!! Workstation:
+
+While I prefer the Gateway to be relatively bulletproof and set up by an expert, I'm not convinced the Workstation should be. Functionality is more important, and I've long disliked Whonix's default constraints here. I'm liking [[Anarchy|https://anarchyinstaller.gitlab.io/]]. Really should have just done it by hand.
+
+* VM: 4 processors, 4096mb RAM, 128mb VRAM, Bidirectionals, Enable PAE/NX, Nested VT-X/AMD-V, Temporarily Bridged Adapter
+* Install
+** user, btrfs, 4096 swap, xfce
+*** they do not get sudoers file correct
+*** btrfs fstab isn't right
+**** I also want to keep the VM appliance reasonably small. Current Whonix Workstation is at 37GB, and compression can easily cut that in half.
+* root/pass
+
+```bash
+sudo EDITOR=vim visudo
+```
+
+<<<
+```
+user ALL=(ALL) ALL
+```
+<<<
+
+* exit, user/pass, startx
+
+```bash
+sudo pacman -S openssh --noconfirm
+sudo vim /etc/ssh/sshd_config
+```
+
+<<<
+```
+Port 4222
+```
+<<<
+
+```bash
+sudo systemctl enable --now sshd
+```
+
+Login remotely.
+
+```bash
+sudo pacman -S reflector --noconfirm
+sudo reflector --latest 100 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist && sudo pacman -Syyu
+
+sudo pacman -S git --noconfirm
+git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm
+cd ~ && sudo rm -r yay
+
+sudo pacman -S neovim xclip --noconfirm
+mkdir -p ~/.config/nvim
+echo 'source ~/.nvimrc' > ~/.config/nvim/init.vim
+sudo mkdir -p /root/.config/nvim/
+echo 'source /home/user/.nvimrc' | sudo tee -a /root/.config/nvim/init.vim > /dev/null
+vim .nvimrc
+```
+
+<<<
+```
+" Show Line numbers
+set number
+
+" All, motherfucka, can you select it?
+map <C-a> <esc>ggVG<CR>:
+
+" Use system clipboard
+set clipboard+=unnamedplus
+vmap <C-c> "+yi
+vmap <C-x> "+c
+vmap <C-v> c<ESC>"+p
+imap <C-v> <C-r><C-o>+
+
+" Have a functional mouse
+set mouse=a
+
+" W := Create directory while saving file 
+function! s:WriteCreatingDirs()
+  let l:file=expand("%")
+  if empty(getbufvar(bufname("%"), '&buftype')) && l:file !~# '\v^\w+\:\/'
+    let dir=fnamemodify(l:file, ':h')
+    if !isdirectory(dir)
+      call mkdir(dir, 'p')
+    endif
+  endif
+  write
+endfunction
+command! W call s:WriteCreatingDirs()
+
+" Auto-refresh/render external updates to files
+set autoread                                                                                                                                                                                    
+au CursorHold * checktime
+```
+<<<
+
+```bash
+nvim ~/.zshrc
+```
+
+<<<
+```
+export VISUAL="nvim"
+export EDITOR="nvim"
+```
+<<<
+
+```bash
+. ~/.zshrc
+sudo nvim /etc/fstab
+```
+
+<<<
+```
+UUID=foobar     /   btrfs rw,relatime,compress-force=zstd,...
+```
+<<<
+
+```bash
+sudo mount -a
+sudo pacman -S lightdm
+sudo pacman -R xfce4-screensaver xfce4-power-manager
+yay -S lightdm-autologin-greeter-git --noconfirm 
+sudo systemctl enable lightdm
+sudo groupadd -r autologin
+sudo gpasswd -a user autologin
+sudo nvim /etc/lightdm/lightdm.conf
+```
+
+<<<
+```
+greeter-session = lightdm-autologin-greeter
+user-session=lightdm-xsession
+autologin-user=user
+pam-service=lightdm
+pam-autologin-service=lightdm-autologin
+
+```
+<<<
+
+```bash
+sudo groupadd -r nopasswdlogin
+sudo gpasswd -a user nopasswdlogin
+sudo nvim /etc/pam.d/lightdm
+```
+
+<<<
+```
+auth        sufficient  pam_succeed_if.so user ingroup nopasswdlogin
+```
+<<<
+
+```bash
+sudo pacman -S cronie --noconfirm
+sudo sed -i '/SystemMaxUse=/s/^#//g' /etc/systemd/journald.conf
+sudo sed -i '/SystemMaxUse=/s/$/100M/g' /etc/systemd/journald.conf
+sudo systemctl enable --now cronie.service
+sudo su
+```
+
+```bash
+export EDITOR=nvim
+crontab -e
+```
+
+<<<
+```
+# Update mirrors and defrag weekly
+0 5 * * 1 reflector --latest 100 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist && pacman -Syy
+0 5 * * 1 btrfs filesystem defragment -r /
+
+# Update keys daily
+0 5 * * * pacman -S archlinux-keyring --noconfirm
+
+# Clear out extra packages that aren't needed, only keeping the last one
+0 5 * * * paccache -rk 1
+```
+<<<
+
+```bash
+sudo nvim /etc/environment
+```
+
+<<<
+```
+TOR_SKIP_LAUNCH=1
+TOR_NO_DISPLAY_NETWORK_SETTINGS=1
+TOR_SKIP_CONTROLPORTTEST=1
+```
+<<<
+
+* Shutdown.
+* Set adapter to "Internal Network" with Name: "EssOS"
+* Bootup, at the network manager, edit your connection, ivp4 settings, manual method, add:
+
+<<<
+```
+Address: 10.152.152.50
+Netmask: 255.255.192.0
+Gateway: 10.152.152.10
+    DNS: 10.152.152.10
+```
+<<<
+
+* Check
+** https://check.torproject.org/
+** https://www.dnsleaktest.com/
+* Basic Rice
+
+```bash
+sudo pacman -S tuntox --noconfirm 
+mkdir -p /home/$(whoami)/keys/tuntox
+TUNTOX_SHARED_SECRET=foobar /usr/bin/tuntox -C /home/$(whoami)/keys/tuntox/ 
+```
+
+Copy and transmit ID for your client. Kill process.
+
+```bash
+mkdir /home/$(whoami)/bin
+nvim /home/$(whoami)/bin/autostart.sh
+```
+
+<<<
+```
+#!/bin/bash
+
+TUNTOX_SHARED_SECRET=foobar /usr/bin/tuntox -D -C /home/$(whoami)/keys/tuntox/
+```
+<<<
+
+```bash
+chmod +x /home/$(whoami)/bin/autostart.sh
+/home/$(whoami)/bin/autostart.sh
+```
+
+Set an xfce autologin for `/home/$(whoami)/bin/autostart.sh`
+
+
+
+
+
+
+
+
+
+```bash
+yay -S vpncloud --noconfirm
+```
+
+
+
+
+
+<br>
+
+!! Dreams:
+
+* filesharing unification, passthrough for VM, perhaps even automated installation wizard for hosts
+* raTox and VPNcloud for mosh
+* [[Connect]], ipfs, etc.
+** One password->key to rule them all would be pretty sick
+* i2pd
+* rats-search(?) + torrent client
+* ~~opensnitch~~
+** just too CPU intensive
+* firejailed proprietary software
+* yggdrasil, etc.
+* etherpad
+* Basic TW hosting
+* Alternative Gateway/Workstation combos for other VPNs (some tools simply will not route over Tor, or some may prefer something different), can make them work together*
+
+<br>
+
+!! Links:
+
+* https://www.kicksecure.com/wiki/Dev/Automatic_Updates
+** `/nod`. That is reasonable. As far as I'm concerned, the thing I'm building is meant for someone who isn't going to take this time and care. Better than nothing. It may be simply easier for a user to replace the entire gateway VM than administrate. Pragmatic paranoia.
+* https://www.whonix.org/wiki/System_Hardening_Checklist
+* https://wiki.archlinux.org/title/Whonix
+* https://github.com/gjedeer/tuntox
+* https://www.whonix.org/wiki/Tunnels/Introduction

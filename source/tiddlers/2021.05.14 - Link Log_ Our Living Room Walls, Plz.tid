@@ -1,0 +1,50 @@
+created: 20210515020620209
+modified: 20211110161135896
+tags: [[Link Log]]
+title: 2021.05.14 - Link Log: Our Living Room Walls, Plz
+
+* Confirm My Bias
+** https://www.technologyreview.com/2021/04/30/1024325/police-video-filming-prevention-tactics/
+** https://www.aljazeera.com/opinions/2021/5/6/rich-countries-drained-152tn-from-the-global-south-since-1960
+** https://taibbi.substack.com/p/the-heroic-congressional-fight-to
+** https://www.cnbc.com/2021/05/03/warren-buffett-says-berkshire-hathaway-is-seeing-very-substantial-inflation-and-raising-prices.html
+
+* Think About It
+** https://schemeflood.com/
+*** Yet another route. This one is slow, ugly, and obvious (bad fingerprinting). It's not consistent (and a user can modify their browser to fight it), but (a) that could probably be improved (this is merely a proof of concept) and (b) it doesn't have to work every time for it to be a threat. Doesn't work on Tor Browser set up correctly, and doesn't work on Blink browsers on Linux. Both my FF installations got hit though. VM isolation on completely separate dark-net only hardware is still the minimum. 
+**** The only correct answer is run the site fully clientside. I should not be using a thinclient or handing over any information in headers and that which JS can access. A default vanilla across the board has to exist, even as a quasi-mixnet. Only the networking stack should reveal anything. It has to be the browser's job not the server's to get it right, even if it costs more bandwidth and even losses in some functionality.
+**** This is yet another argument to fully virtualize (and not merely containerize) key applications like the browser. Nested sandboxes all the way down.
+
+* Interesting
+** http://booktwo.org/notebook/network-realism/
+
+* Tools
+** https://github.com/shelljs/shelljs
+*** I'm not saying this is an abomination, but I am. `/salute`
+
+* Maymays
+** https://i.redd.it/ynzos02z3xi41.jpg
+** https://i.redd.it/5gb9g9etowa41.jpg
+** https://i.redd.it/mgnwsjqr4a441.jpg
+** https://i.redd.it/ypy24lmklr251.jpg
+** https://imgur.com/3DuzrGn
+*** This is perfect. 
+** https://i.redd.it/5dto8gqrmis31.jpg
+** https://i.redd.it/3mjpt2c26q351.jpg
+** https://i.redd.it/x5s00u7j2o551.jpg
+** https://imgur.com/Eodl7Gc
+** https://imgur.com/DByOdw2
+** https://i.redd.it/l5pkevudzoy61.png
+** https://imgur.com/VzE1Fba
+** https://i.redd.it/zi1ujo9ngby61.jpg
+
+* [[vidya]]s
+** https://gfycat.com/shockedillagama
+** https://i.imgur.com/TcZSnBh.gif
+** https://i.imgur.com/t2x55ca.gifv
+** https://www.youtube.com/watch?v=ZIljQn1x7jw
+** https://64.media.tumblr.com/ded150db132dd1e33e19febbadfd0c06/tumblr_ornc7fWv0c1twd8ddo1_500.gif
+** https://i.imgur.com/Vyq1YaU.gifv
+
+* SCWR
+** https://en.wikipedia.org/wiki/Ehrenfeucht%E2%80%93Fra%C3%AFss%C3%A9_game

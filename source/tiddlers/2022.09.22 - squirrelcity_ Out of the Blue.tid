@@ -1,0 +1,36 @@
+created: 20220923060403236
+modified: 20220923060939429
+tags: squirrelcity Aether Chatlog Matrix
+title: 2022.09.22 - squirrelcity: Out of the Blue
+
+//See: [[2022.09.09 - dscnct: Tox & Bleep]]//
+
+> Are you on matrix by any chance? I'd like to hear your thoughts about how to anonymize DHT in the context of an zero-knowledge storage concept im working on.
+
+Yo. It's a pleasure to meet you, [[okagain|squirrelcity]]. [[https://philosopher.life/#Contact h0p3]]. I am currently on Matrix, though I don't take myself to own my identity on it: `@-=h0p3=-:matrix.org`. It could disappear any day (though that isn't my prediction). The [[creator of Freenet|Ian Clarke]] is working on [[Locutus]], and he's a Matrix channel that might also be worth your time. I'm also happy to speak out in the open here on [[Aether]]. Whatever works, friend.
+
+<br>
+
+<<<
+"""
+1:14:18 AM - [[squirrelcity]] joined the room
+1:14:18 AM - [[squirrelcity]] made the room invite only.
+1:14:18 AM - [[squirrelcity]] made future room history visible to all room members.
+1:14:19 AM - [[squirrelcity]] has allowed guests to join the room.
+1:14:19 AM - [[squirrelcity]] invited [[h0p3]]
+1:14:22 AM - [[squirrelcity]]: Hi there, im okagain
+1:18:20 AM - [[squirrelcity]]: Ive been reading the links you provided in your dht thread, on pisces, thesus, and octopus
+1:21:54 AM - [[squirrelcity]]: Im working on a design for a decentralized storage system, where a state actor with (user) alices key + file hash cannot pressure (storage node) bob to locate and censor alices file. 
+1:25:05 AM - [[squirrelcity]]: Ive not done an exhaustive search to see if this problem has been addressed before, but this keeps reappearing in every distributed storage system so far (freenet, ipfs, filecoin, maidsafe, bitmessage). 
+1:25:35 AM - [[squirrelcity]]: And so far i have not found any papers even describing this as a problem much less attempting to solve it.
+1:30:59 AM - [[squirrelcity]]: The maidsafe project in particular is finding themselves in a very tough position, being under uk law they are compelled to maintain blacklists of hashes and to implement a way in software for all nodes to adopt this. At best this would lead to balkanization of the network, at worst total surveillance and censorship. 
+1:33:29 AM - [[squirrelcity]]: This may be mitigated if all nodes were hidden behind a sufficiently safe ip anonymization network. Fortunately these are here but are still very new and will take another decade to mature. But its putting a bandaid over a bullet wound. 
+1:34:23 AM - [[squirrelcity]]: And that adds a considerable amount of latency and overhead, as they still adopt the 3 node model Tor uses. 
+1:41:27 AM - [[squirrelcity]]: The design i have for this so far works using only a combination of DHT and asymmetric encryption. 
+1:46:57 AM - [[squirrelcity]]: The stick figure explainer: Alice wants Charlie to store her file, she passes it to Bob who reencrypts it with a new key he generates for this. Bob stores the keys in a bitmessage style rolling blockchain, and then passes the file to Charlie. Charlie now has Alices file, but he doesnt know it and cant prove it, even if Alices shares her key and it finds its way to Charlie. 
+1:49:24 AM - [[squirrelcity]]: The reverse goes: Alice sends her pubkey to Bob who checks it against the blockchain and decrypts the relevant section to obtain the keys he will now use to decrypt the file Charlie holds. 
+1:50:56 AM - [[squirrelcity]]: This is very bare bones, im leaving out alot of details to make the concept easy. 
+1:58:16 AM - [[squirrelcity]]: I can explain it more later, i have to go now.  The missing link im running into is how would Alice, who is requesting her file, give her blacklisted key to Bob, if a state actor were to tell Bob that he needs to reject requests for her key. This presumes that Bob cannot hide his location or identity. Im hovering over ring signatures, or some special form of DHT, or maybe some combination thereof.  The key that Alice (and the state actor holds), must be permutated or mixed before reaching Bob so that he can have reasonable doubt as to its origin, but still respond to the data held on the blockchain. 
+2:16:34 AM - [[h0p3]] joined the room
+"""
+<<<

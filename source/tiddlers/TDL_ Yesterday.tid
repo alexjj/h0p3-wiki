@@ -1,0 +1,11 @@
+caption: yTDL
+created: 20200309164648449
+modified: 20201010052546778
+tags: TDL More .tdl
+title: TDL: Yesterday
+
+<$set name="today" value=<<now YYYY.0MM.0DD>>>
+<$list filter="[regexp:title[\d\d\d\d.\d\d.\d\d - TDL]] -[regexp:title<today>] +[last[]]">
+<$transclude mode="block"/>
+</$list>
+</$set>

@@ -1,0 +1,25 @@
+created: 20200924224417988
+modified: 20200925170058473
+tags: [[Prompted Introspection]]
+title: 2020.09.24 - Prompted Introspection: Colorful DNA
+
+!! What color do you feel like today?
+
+I've answered a similar question before: [[2018.03.23 - Prompted Introspection Log: Color of Self-Being]], [[2019.12.07 - Prompted Introspection: Colors of Happiness]]. XD. While not thoroughly explored, color is an important topic for me; it runs into the DNA of this [[ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱]]. 
+
+<$button class="tc-btn-invisible" popup=<<qualify "$:/temp/PI-Color">>>
+
+Contextlink: [search[color]]
+</$button>
+<$reveal type="nomatch" state=<<qualify "$:/temp/PI-Color">> text="">
+
+<$list filter="[search[color]] +[sort[title]]" emptyMessage="">
+<$link to={{!!title}}><$view field="title"/></$link>
+<$context length=80 term="Color"/>
+<$context length=80 term="TERM2"/>
+<br>
+</$list>
+
+</$reveal>
+
+I have no idea. Maybe all of them. {{Text Art: 𝕱𝕴𝕽𝕰🔥}}. Rainbows are expensive, and I've not even earned my imaginary stripes. Mmm. I also feel transparent and mirroring sometimes too. I feel like I'm bouldering the torrent of colors too. Surely, I am too old to have not figured this out. 

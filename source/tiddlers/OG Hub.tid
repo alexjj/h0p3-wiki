@@ -1,0 +1,21 @@
+caption: 🙫
+created: 20200713222152546
+modified: 20220119131600884
+tags: Hub Relic Diamond
+title: OG Hub
+
+[[Core Daily Requirement]]:
+
+{{Core Daily Requirement}}
+
+[[Hopefully|Hope]] [[Frequent Logs]] & [[Projects|Frequent Projects]]:
+
+<<list-links "[tag[Frequent Log]][tag[Frequent Project]]+[sort[title]]">>
+
+[[Recent Obsessions]]:
+
+<<list-links "[tag[Recent Obsession]]+[sort[title]]">>
+
+[[Lifetime Project|Lifetime Projects]][[s|Hidden: Root]]:
+
+{{Lifetime Projects}}

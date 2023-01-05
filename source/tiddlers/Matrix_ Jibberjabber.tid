@@ -1,0 +1,146 @@
+created: 20220819042323671
+modified: 20220908051148459
+tags: [[FTO: h0p3's Published Communications]]
+title: Matrix: Jibberjabber
+
+!! 2022.09.02
+
+-=h0p3=-: Hello folks. I'm hoping to find some people willing to speak with me about DHT design. I think it's a hard problem, and, unfortunately, it's hard to find people who have the knowledge and desire to think about it. Tox is a crucial real-world DHT, and so I thought this would be a fitting place to ask. Is there anyone here who would be up for it? And, if not, does anyone know someone or some community who might be interested?
+
+Terry Davis: -=h0p3=-: is this a job offer or a request for someone to do your homework for you?
+
+-=h0p3=-: I'd argue that's a false dichotomy.
+
+avoidr: No comma for it to be a false dichotomy.
+
+<br>
+
+!! 2022.08.23
+
+https://matrix.to/#/#nix:nixos.org
+
+<<<
+"""
+8:29:01 PM - -=h0p3=-: I'm using the NixOS minimal iso within a VM, and I need to temporarily install libargon2 (and preferably some temporary services like Tor as well) for use before I can perform the real installation. From what I can see, I can't use `nix-env -i libargon2` (it just hangs). Is there a way to do this without having to load a configuration.nix? If not, can I load a temporary configuration.nix without having to reboot? I've got some pre-install work that needs to be done to bootstrap myself into downloading my real configuration.nix file, and I'd prefer not to have to reboot or at least limit how many times I'll have to do so.
+8:29:45 PM - K900 (bcachefs when): If you're still trying to use argon2 for password hashes, it still won't work 
+8:30:11 PM - K900 (bcachefs when): To be clear, "won't work" means. "you'll lock yourself out of the system with no way in" 
+8:32:27 PM - toonn: Can you use whatever hash function you want to back passwd?
+8:33:08 PM - K900 (bcachefs when): No 
+8:33:18 PM - K900 (bcachefs when): Your libc needs to support it 
+8:33:39 PM - K900 (bcachefs when): Or rather, your libcrypt, which currently comes from libc on NixOS
+8:34:20 PM - K900 (bcachefs when): You can add assertions to the module 
+8:36:33 PM - -=h0p3=-: K900 (bcachefs when): Thank you. I listened the first time you told me, and I appreciate your helping me think carefully. And, while I desperately do want to be able to use argon2 for my system's password hasher, that's not what I'm using libargon2 for in this case. I'm using it to generate a key for anonymously joining a private p2p mutable torrents swarm that holds other secrets and files, including my working configuration.nix. 
+8:38:33 PM - K900 (bcachefs when): Then you'll probably need to package the application that you actually want it for 
+8:38:53 PM - K900 (bcachefs when): As installing libraries separately isn't really a thing you want to do on NixOS
+8:39:14 PM - K900 (bcachefs when): Also, your configuration shouldn't be secret, because everything you put in it will be world readable in the Nix store anyway 
+8:39:25 PM - K900 (bcachefs when): So treating it as a secret is probably not a good idea in the first place 
+8:40:08 PM - -=h0p3=-: I appreciate that my configuration isn't a secret to my system. 
+8:40:28 PM - -=h0p3=-: I only need a temporary installation of libargon2 up front. 
+8:41:43 PM - K900 (bcachefs when): `libargon2` will not be useful to you, because it's a library, so you won't have an entry point to run it 
+8:42:03 PM - K900 (bcachefs when): If you need that library for another piece of software, you should be looking for that software and not the library 
+8:43:39 PM - K900 (bcachefs when): Because running said software from a binary or whatever will fail on NixOS
+8:43:56 PM - K900 (bcachefs when): Because NixOS does not have things in locations binaries built for other systems expect them to be 
+8:43:58 PM - -=h0p3=-: K900 (bcachefs when): when I include libargon2 in my environment.systemPackages, it provides me a command line tool `argon2`
+8:44:17 PM - K900 (bcachefs when): In that case just `nix-shell -p libargon2`
+8:44:23 PM - -=h0p3=-: That's the tool I need.
+8:44:23 PM - K900 (bcachefs when): To use it in a temporary shell 
+8:46:00 PM - Dee: as an aside, speaking of libcrypt, I have been able to drop libxcrypt into a derivation's `buildInputs` and have it work
+8:46:55 PM - K900 (bcachefs when): I think yes but also wouldn't rely on that 
+8:47:07 PM - K900 (bcachefs when): But also it would be nice to just drop glibc libcrypt
+8:47:17 PM - K900 (bcachefs when): But that requires untangling the bootstrap first... 
+8:47:54 PM - -=h0p3=-: K900 (bcachefs when): That works. Thank you. 
+
+"""
+<<<
+
+<br>
+
+!! 2022.08.21
+
+https://matrix.to/#/#systemd:nixos.org
+
+<<<
+"""
+2:15:23 PM - Solène Rapenne (she/her): I finished implementing it only using systemd https://pastebin.com/791WnvE9
+I'll write a blog post about this :D
+2:15:57 PM - Solène Rapenne (she/her): when you connect, the minecraft server is started and your TCp connection proxified to the daemon once ready, and there is a check every 20 seconds to stop the server if there are no player
+2:16:06 PM - Solène Rapenne (she/her): today I increased my systemd foo :D
+8:57:36 PM - Solène Rapenne (she/her): the config file parametrized + some explanations https://dataswamp.org/~solene/2022-08-20-on-demand-minecraft-with-systemd.html
+1:00:06 AM - -=h0p3=-: Solène Rapenne (she/her): That's cool. I can see that being useful for lots of things. I've stumbled on your blog three times now this week. It's good work. Thank you for [[public self-modeling]].
+8:38:02 AM - Solène Rapenne (she/her): thank you -=h0p3=- <3 
+"""
+<<<
+
+<br>
+
+!! 2022.08.20
+
+https://matrix.to/#/#nix:nixos.org
+
+<<<
+"""
+-=h0p3=-
+Does anyone know how I could change the password hashing tool used by NixOS? I'd prefer to use Argon2.
+
+K900 (bcachefs when)
+Currently unsupported due to bootstrap issues
+
+-=h0p3=-
+Thank you. If you had to guess, do you think that is something likely to be supported in the coming year or two?
+
+K900 (bcachefs when)
+If someone wants to invest the time and effort into redoing the bootstrap process to account for libxcrypt
+"""
+<<<
+
+<br>
+
+!! 2022.08.19
+
+
+<<<
+-=h0p3=- I'm trying to override part of a pkg, replacing one line in what will eventually become its systemd service file with another. I realize this may not be ideal, but I think it's the best option in front of me. This is what I've got in my `configuration.nix`:
+
+```
+systemd.services.resilio.serviceConfig.ExecStart = ''${pkgs.resilio-sync}/bin/rslsync --nodaemon --config /home/h0p3/config/resilio.sync/sync.conf'';
+```
+
+This is the error I get:
+
+```
+error: The option `systemd.services.resilio.serviceConfig.ExecStart' has conflicting definition values:
+       - In `/nix/var/nix/profiles/per-user/root/channels/nixos/nixos/modules/services/networking/resilio.nix':
+           ''
+             /nix/store/yq6lvjrk6g2l0j911z6fxq0ql0ycldzv-resilio-sync-2.7.3/bin/rslsync --nodaemon --config /nix/store/iab93qd70hi126lfqy0r8lkqcjacnb6k-config.json
+           ''
+       - In `/etc/nixos/configuration.nix': "/nix/store/yq6lvjrk6g2l0j911z6fxq0ql0ycldzv-resilio-sync-2.7.3/bin/rslsync --nodaemon --config /home/h0p3/config/resilio.sync/sync.conf"
+```
+
+I'm a complete noob here. I may be doing this all sorts of wrong. Can anyone offer me some guidance?
+<<<
+
+https://matrix.to/#/#systemd:nixos.org
+
+<<<
+ElvishJerricco: -=h0p3=-: You can forcefully override what's been set by another nix module with lib.mkForce, e.g.
+
+```
+systemd.services.resilio.serviceConfig.ExecStart = lib.mkForce ''${pkgs.resilio-sync}/bin/rslsync --nodaemon --config /home/h0p3/config/resilio.sync/sync.conf'';
+```
+
+-=h0p3=-: ElvishJerricco: That's it. I only had to add pkgs. before lib, and voila: it works. Thank you!
+
+ElvishJerricco: -=h0p3=-: FWIW people generally get lib by adding it to the list of parameters at the top of the module. It's no different, just a little more convenient IMO :)
+
+-=h0p3=-: Ah. That makes sense.
+<<<
+
+https://matrix.to/#/#nix-plus-linux:matrix.org
+
+<<<
+-=h0p3=-: I found an answer, in case anyone else stumbles across this problem:
+
+```
+systemd.services.resilio.serviceConfig.ExecStart = pkgs.lib.mkForce ''${pkgs.resilio-sync}/bin/rslsync --nodaemon --config /home/h0p3/config/resilio.sync/sync.conf'';
+```
+<<<

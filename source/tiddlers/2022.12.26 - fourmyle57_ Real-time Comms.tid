@@ -1,0 +1,8 @@
+created: 20221227005524916
+modified: 20221227010548329
+tags: fourmyle57 Note To
+title: 2022.12.26 - fourmyle57: Real-time Comms
+
+I did have [[MuWire]] up, but not anymore. IRC2P is probably still too centralized and prone to bots. [[eyedeekay]]'s [[brb|https://eyedeekay.github.io/brb]] or [[MuWire]] (though, I think it's dead) or rolling our own is possible. We're not at voice comms yet, but Mumble with i2pd's UDP tunnels or [[samforwarder|https://github.com/eyedeekay/sam-forwarder]] might be doable (you might not care for fiddling with Mumble's settings to get it working right). I2PChat with SAM or Retroshare over i2p are probably the better p2p-oriented tools that route over i2p, and I can't say I adore them either. Tox over Tor is still my recommendation, and that doesn't require Whonix.
+
+It's fine if you don't have Whonix (I'm assuming that even with virtualbox running on ARM, you're running into problems with multiple virtualization tools - I know I have that problem with virtualbox). I assume you appreciate the mindset of it. You might go the more dangerous route [[by container|https://github.com/bcapptain/dockernymous]]; eventually, I [[hope]] to do this by FirecrackerVM.

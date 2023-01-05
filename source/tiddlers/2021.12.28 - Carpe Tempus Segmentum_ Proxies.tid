@@ -1,0 +1,71 @@
+created: 20211228074806278
+modified: 20211229182227553
+tags: [[Computer Musings]] [[Carpe Tempus Segmentum]]
+title: 2021.12.28 - Carpe Tempus Segmentum: Proxies
+
+Put folks to bed, assignments for tomorrow. [[TTTOTW]]. Responding to [[MuWire]] folks.
+
+//The Walk// with [[ASK]], second route then the U. Fuzz out. Vapelyfe. Icy and thick loafers (composite toe boot loafer hybrid*, fiteeen smackers). I needed that walk.
+
+Noodles + Dark Chocolate + SC2. [[TTTOTW]]. Tears watching humans. No idea what time I fell asleep, but it was light out.
+
+Woke at 2? Meditation. Fireman Time! Hugs'n'bugs for everyone. Mi amor is not feeling well: her belly (she thinks it's a tide coming, and, if so, this is the second time I have failed to predict it; I think we're all feeling different even). 
+
+Hit the library with mi amor. She knows how to pick books. Other librarians there were after the ones she reserved, again. I do not have good taste. I prefer boobs.
+
+[[TTTOTW]].
+
+[[ASK]] continues to work on loonix, i3 in particular. She picks it up fast. She slows down at good points too. The job can be done faster, but I like many of the places she [[pause]]s (makes sense to me). 
+
+The Offspring came down to grind in [[The Den]]. I cleaned, and my space is coming along nicely. Since I'm encountering more blocks and captchas (don't believe [[DarkMX]] or Retroshare run relays), I now actually do need a shadowsocks proxy (don't know how many times I've been here, `/smh`). Offspring and I found a cheap VPS for a bit over a buck a month (pleased to have a new kernel, as usually you're fucked at the lowend).
+
+```
+~# wget -qO- bench.sh | bash
+
+----------------------------------------------------------------------
+ CPU Model             : Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz
+ CPU Cores             : 1
+ CPU Frequency         : 2799.998 MHz
+ CPU Cache             : 16384 KB
+ Total Disk            : 24.0 GB (2.4 GB Used)
+ Total Mem             : 981 MB (87 MB Used)
+ Total Swap            : 1023 MB (0 MB Used)
+ System uptime         : 0 days, 4 hour 22 min
+ Load average          : 0.04, 0.01, 0.00
+ OS                    : Ubuntu 20.04.3 LTS
+ Arch                  : x86_64 (64 Bit)
+ Kernel                : 5.4.0-91-generic
+ TCP CC                : cubic
+ Virtualization        : KVM
+ Organization          : AS36352 ColoCrossing
+ Location              : Piscataway / US
+ Region                : New Jersey
+----------------------------------------------------------------------
+ I/O Speed(1st run)    : 364 MB/s
+ I/O Speed(2nd run)    : 552 MB/s
+ I/O Speed(3rd run)    : 440 MB/s
+ Average I/O speed     : 452.0 MB/s
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency     
+ Speedtest.net    890.42 Mbps       904.16 Mbps         0.46 ms     
+ Shanghai   CT    249.93 Mbps       475.91 Mbps         217.48 ms   
+ Shanghai   CU    25.86 Mbps        824.17 Mbps         242.91 ms   
+ Guangzhou  CT    70.74 Mbps        343.56 Mbps         221.22 ms   
+ Tokyo      JP    272.35 Mbps       566.64 Mbps         175.48 ms   
+----------------------------------------------------------------------
+```
+
+It's got all the basics, with dedicated ivp4 and a reasonable bandwidth cap. Could go for a custom iso, but I think it's good for them to practice with the other distributions again. [[j3d1h]] found the tool we'll be using to print up proxies for [[The Cube]]. She set up [[Resilio Sync]] and [[vpncloud.rs]], and he's setting up the proxy and webserver(s). 
+
+[[Family Gathering]] with leftovers (dope) and [[MTG]]. Offspring played the usual match, and [[ASK]] and I played with all our cards open on the table to explore. +1 MWC vs Gobos with [[ASK]]. She demolished me. Very little serious background in the game, but has a solid grasp of the deck. Took me down to 9 cards (clawed my way into the game again and again, but she kept me at bay the entire time with a healthy margin for error and accident). A couple more tries, and I don't think she'll need any help at all (that's impressive).<<ref "i">> She wanted a troll deck, and this is a solid one. She doesn't like how slow she feels with it (and, it is epicly slow as it is), and maybe wants something more aggressive. Will work toward it.
+
+[[TTTOTW]].
+
+//The Walk// with [[ASK]]. One good question sends us on a deep rabbithole. Vapelyfe. Time flew.
+
+Put offspring to bed. Accidentally woke mi amor. Not sure how to handle this one. Oh, she left me her ginger beer. Gracias.
+
+[[TTTOTW]].
+
+---
+<<footnotes "i" "I'll say it yet again: she might be more intelligent than I am. It's like liquid for her sometimes.">>

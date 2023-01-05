@@ -1,0 +1,699 @@
+#########################################################################################Monsternix####
+##                                                                                  ,,               ##
+##  `7MMM.     ,MMF'                             mm                                 db               ##
+##    MMMb    dPMM                               MM                                                  ##
+##    M YM   ,M MM  ,pW"Wq.`7MMpMMMb.  ,pP"Ybd mmMMmm .gP"Ya `7Mb,od8 `7MMpMMMb.  `7MM  `7M'   `MF'  ##
+##    M  Mb  M' MM 6W'   `Wb MM    MM  8I   `"   MM  ,M'   Yb  MM' "'   MM    MM    MM    `VA ,V'    ##
+##    M  YM.P'  MM 8M     M8 MM    MM  `YMMMa.   MM  8M""""""  MM       MM    MM    MM      XMX      ##
+##    M  `YM'   MM YA.   ,A9 MM    MM  L.   I8   MM  YM.    ,  MM       MM    MM    MM    ,V' VA.    ##
+##  .JML. `'  .JMML.`Ybmd9'.JMML  JMML.M9mmmP'   `Mbmo`Mbmmd'.JMML.   .JMML  JMML..JMML..AM.   .MA.  ##
+##                                                                                                   ##
+#######################################################################################################
+##                                                                                                   ##
+##  A Skiddie's Nix + Arch Derivative                                                                ##
+##                                                                                                   ##
+##  Making it home, batteries loaded, hoping it's my forever-kitchensink-config.                     ##
+##                                                                                                   ##
+##  At the bottom of this document, you'll find the companion bash script.                           ##
+##                                                                                                   ##
+#######################################################################################################
+
+# Edit this configuration file to define what should be installed on your system.
+# Help is available in the configuration.nix(5) man page and in the NixOS manual (accessible by running ‘nixos-help’).
+
+{ config, pkgs, ... }:
+
+{
+  imports =
+    [ # Include the results of the hardware scan.
+      ./hardware-configuration.nix
+    ];
+
+
+
+  ####### Nix, Firmware, Updates, etc. #######
+
+  system.stateVersion = "22.05"; 
+  
+  system.copySystemConfiguration = true;
+
+  nixpkgs.config.allowUnfree = true;
+
+  nix.extraOptions = "auto-optimise-store = true";
+
+  nix.gc.automatic = true;
+  nix.gc.dates = "7:00";
+  nix.gc.options = "--delete-older-than 32d";
+  
+  system.autoUpgrade.enable = true; 
+  system.autoUpgrade.dates = "6:00";
+  system.autoUpgrade.randomizedDelaySec = "15min";
+  system.autoUpgrade.allowReboot = true; # because I //will// force myself to make effortless reboots work goddamnit!
+  system.autoUpgrade.rebootWindow = { lower = "06:30";  upper = "06:45"; };
+ 
+  hardware.enableAllFirmware = true;
+  hardware.cpu.amd.updateMicrocode = true;
+  hardware.cpu.intel.updateMicrocode = true;
+  
+  #nixpkgs.config.packageOverrides = pkgs: {
+  #  nur = import (builtins.fetchTarball "https://github.com/nix-community/NUR/archive/master.tar.gz") {
+  #    inherit pkgs;
+  #  };
+  #};
+
+
+
+  ####### Boot, Reboot, & Logs #######
+
+  time.timeZone = "America/New_York";
+  
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader.timeout = 2;
+
+  boot.kernelPackages = pkgs.linuxPackages_latest;
+  # boot.kernelPackages = pkgs.linuxPackages_latest_hardened;
+  # boot.kernelParams = [ "mitigations=off" ]; # either doesn't frontface or greedy hypocritical yolo abusing herd immunity & assumption of mere PoCs
+  
+  boot.cleanTmpDir = true;
+
+  systemd.watchdog.rebootTime = "2m";
+  systemd.coredump.enable = false; # could be exploited later
+
+  services.journald.extraConfig = "SystemMaxUse=100M";
+  
+
+
+  ####### IO, Filesystems, & Backups #######
+
+  boot.tmpOnTmpfs = true;
+
+  zramSwap.enable = true;
+  zramSwap.memoryPercent = 50;
+
+  services.earlyoom.enable = true;
+  services.earlyoom.enableNotifications = true;
+  services.earlyoom.freeSwapThreshold = 6;
+  services.earlyoom.freeMemThreshold = 6;
+
+  services.devmon.enable = true;
+
+  fileSystems = {
+    "/".options = [ "compress=zstd" "noatime"] ;
+    "/home".options = [ "compress=zstd" "noatime" ];
+    "/nix".options = [ "compress=zstd" "noatime" ];
+  }; #I've found I must have this in my configuration.nix on installation, before I reboot
+
+  #services.btrfs.autoScrub.enable = true;
+  #services.btrfs.autoScrub.fileSystems = [ "/" "/home" "/nix"];
+
+  services.fstrim.enable = true;
+
+  services.smartd.enable = true;
+  services.smartd.notifications.mail.enable = if config.services.postfix.enable then true else false;
+  services.smartd.notifications.x11.enable = if config.services.xserver.enable then true else false;
+  services.smartd.notifications.wall.enable = true;
+
+
+
+  ####### Users & Groups ########
+
+  #users.mutableUsers = false; # don't be tempted by your laziness, retard
+
+  users.users.h0p3 = {
+    isNormalUser = true;
+    extraGroups = [ "wheel" "docker" "libvirtd" "networkmanager" "wheel" "rslsync"]; # Enable ‘sudo’ for the user.
+    #passwordFile = "/etc/nixos/nixos.password"; must be synced, as NixOS doesn't use a safe hashing mechanism
+  }; #Define a user account. Don't forget to set a password with ‘passwd’.
+
+  #users.users.h0p3.isNormalUser = true;
+  #users.users.h0p3.uid = 42069; #noice
+  #users.users.h0p3.extraGroups = [ "wheel" "docker" "libvirtd" "networkmanager" "wheel" "rslsync"];
+  #users.users.h0p3.passwordFile = "/etc/nixos/n
+  
+
+
+  # Not sure if symlinking or entire home, or both, setup watches on files, and source/update accordingly
+  #services.resilio.enable = true;
+  #services.resilio.directoryRoot = "/syncs/rslsync/";
+  #services.resilio.enableWebUI = true;
+  #services.resilio.httpLogin = "h0p3";
+  #services.resilio.httpPass = "foobar";
+  #services.resilio.httpListenAddr = "127.0.0.1";
+  #services.resilio.httpListenPort = 8888;
+  #services.resilio.checkForUpdates = false;
+  #services.resilio.sharedFolders = [
+  #  {
+  #    directory = "/home/h0p3";
+  #    knownHosts = [];
+  #    searchLAN = true;
+  #    secret = "";
+  #    useDHT = true;
+  #    useRelayServer = true;
+  #    useSyncTrash = true;
+  #    useTracker = true;
+  #  }
+  #];
+
+
+
+
+
+
+  ####### Cron ####### 
+  #services.cron.systemCronJobs = [
+  #  "0 2 * * * root fstrim /"
+  #];
+
+
+
+  ####### Sound & Graphics #######
+  sound.enable = true;
+  hardware.pulseaudio.enable = true;
+  hardware.pulseaudio.support32Bit = true;
+  #security.rtkit.enable = true;
+  #services.pipewire = {
+  #  enable = true;
+  #  alsa.enable = true;
+  #  pulse.enable = true;
+  #};
+
+  #hardware.opengl.enable = true;
+
+
+
+  #########################################################################################Networking####
+  ##                                                                         ,,                        ##
+  ##  `7MN.   `7MF'         mm                                   `7MM        db                        ##
+  ##    MMN.    M           MM                                     MM                                  ##
+  ##    M YMb   M  .gP"Ya mmMMmm `7M'    ,A    `MF',pW"Wq.`7Mb,od8 MM  ,MP'`7MM  `7MMpMMMb.  .P"Ybmmm  ##
+  ##    M  `MN. M ,M'   Yb  MM     VA   ,VAA   ,V 6W'   `Wb MM' "' MM ;Y     MM    MM    MM :MI  I8    ##
+  ##    M   `MM.M 8M""""""  MM      VA ,V  VA ,V  8M     M8 MM     MM;Mm     MM    MM    MM  WmmmP"    ##
+  ##    M     YMM YM.    ,  MM       VVV    VVV   YA.   ,A9 MM     MM `Mb.   MM    MM    MM 8M         ##
+  ##  .JML.    YM  `Mbmmd'  `Mbmo     W      W     `Ybmd9'.JMML. .JMML. YA..JMML..JMML  JMML.YMMMMMb   ##
+  ##                                                                                        6'     dP  ##
+  ##                                                                                        Ybmmmd'    ##
+  ##                                                                                                   ##
+  #######################################################################################################
+
+  ####### On Install #######
+
+  networking.hostName = "monsternix";
+  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
+
+  # The global useDHCP flag is deprecated, therefore explicitly set to false here.
+  # Per-interface useDHCP will be mandatory in the future, so this generated config
+  # replicates the default behaviour.
+  networking.useDHCP = false;
+  networking.interfaces.enp0s31f6.useDHCP = true;
+  #networking.interfaces.wlp3s0.useDHCP = true;
+
+
+
+  ####### Firewalls #######
+
+  networking.firewall.enable = false;
+  hardware.bluetooth.enable = false;
+
+  services.opensnitch.enable = true;
+  services.opensnitch.settings.DefaultAction = "allow"; #for now - really should be done by hand
+  
+
+
+  ####### DNS #######
+
+  networking = {
+    nameservers = [ "127.0.0.1" "::1" ];
+    resolvconf.useLocalResolver = true;
+    # dhcpcd.extraConfig = "nohook resolv.conf"; # commented out to avoid overwriting config - set in host config
+  };
+
+  services.dnscrypt-proxy2 = {
+    enable = true;
+    upstreamDefaults = true;
+    settings = {
+      ipv6_servers = true;
+      require_dnssec = true;
+      require_nolog = true;
+      require_nofilter = true;
+    };
+  };
+
+
+
+  ####### SSH #######
+
+  services.openssh.enable = true;
+  services.openssh.passwordAuthentication = true;
+  services.openssh.permitRootLogin = "yes"; #for now*
+
+  services.sshguard.enable = true;
+  services.sshguard.services = [ "sshd" ];
+  
+
+
+  ####### VPNs #######
+
+  #nebula, tailscale, zerotier
+  #
+
+
+
+  ####### Filesharing #######
+  # Var for /paths/to/share?
+  #systemd.tmpfiles.rules = [ "d /home/h0p3/public-share 0755 share users" ];
+  #users.users.share= {
+  #  isNormalUser = false;
+  #};
+
+  ### NFS ###
+  services.nfs.server.enable = true;
+
+  ### Samba ###
+  services.samba.enable = true;
+  services.samba.enableNmbd = true;
+  services.samba.extraConfig = ''
+        workgroup = WORKGROUP
+        server string = Samba Server
+        server role = standalone server
+        log file = /var/log/samba/smbd.%m
+        max log size = 50
+        dns proxy = no
+        map to guest = Bad User
+    '';
+  services.samba.shares = {
+      home-h0p3-public = {
+          path = "/home/h0p3/public-share";
+          browseable = "yes";
+          "writable" = "no";
+          "guest ok" = "yes";
+          "public" = "yes";
+          "force user" = "share";
+        };
+     };
+
+  ### ReadyMedia/MiniDLNA ###
+  #services.minidlna.enable = true;
+  #services.minidlna.announceInterval = 60;
+  #services.minidlna.friendlyName = "h0p3";
+  #services.minidlna.mediaDirs = ["V,/home/h0p3/"];
+
+  ### Avahi ###
+  services.avahi = {
+    enable = true;
+    nssmdns = true;
+    publish = {
+      enable = true;
+      addresses = true;
+      domain = true;
+      hinfo = true;
+      userServices = true;
+      workstation = true;
+    };
+    extraServiceFiles = {
+      smb = ''
+        <?xml version="1.0" standalone='no'?><!--*-nxml-*-->
+        <!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+        <service-group>
+          <name replace-wildcards="yes">%h</name>
+          <service>
+            <type>_smb._tcp</type>
+            <port>445</port>
+          </service>
+        </service-group>
+      '';
+    };
+  };
+
+
+
+
+  #####################################$hells##Shells####
+  ##                                                   ##
+  ##      M      ,,                 ,,    ,,           ##
+  ##   ,,,M..  `7MM               `7MM  `7MM           ##
+  ##  'P  M `db, MM                 MM    MM           ##
+  ##  8m._M  `"' MMpMMMb.  .gP"Ya   MM    MM  ,pP"Ybd  ##
+  ##  `YMMM._    MM    MM ,M'   Yb  MM    MM  8I   `"  ##
+  ##     `MYMMb, MM    MM 8M""""""  MM    MM  `YMMMa.  ## 
+  ##  M   M  .M8 MM    MM YM.    ,  MM    MM  L.   I8  ##
+  ##  YbmmMmd9'.JMML  JMML.`Mbmmd'.JMML..JMML.M9mmmP'  ##
+  ##      M                                            ##
+  ##                                                   ##
+  #######################################################
+
+  ####### Environments, Terminals, Browsers, & Languages #######
+
+  programs.zsh.enable = true;
+  users.defaultUserShell = pkgs.zsh;
+  programs.zsh.enableBashCompletion = true;
+
+  programs.xonsh.enable = true;
+
+
+
+  environment.variables = {
+  #  GOROOT = [ "${pkgs.go.out}/share/go" ];
+   "EDITOR" = "nvim";
+   "VISUAL" = "nvim";
+  };
+
+
+
+  ####################################################################DE##Desktop Environment##Desktop Env.####
+  ##                                                                                                         ##
+  ##  `7MM"""Yb.                   `7MM        mm                         `7MM"""YMM                         ##
+  ##    MM    `Yb.                   MM        MM                           MM    `7                         ##
+  ##    MM     `Mb  .gP"Ya  ,pP"Ybd  MM  ,MP'mmMMmm ,pW"Wq.`7MMpdMAo.       MM   d    `7MMpMMMb.`7M'   `MF'  ##
+  ##    MM      MM ,M'   Yb 8I   `"  MM ;Y     MM  6W'   `Wb MM   `Wb       MMmmMM      MM    MM  VA   ,V    ##
+  ##    MM     ,MP 8M"""""" `YMMMa.  MM;Mm     MM  8M     M8 MM    M8       MM   Y  ,   MM    MM   VA ,V     ##
+  ##    MM    ,dP' YM.    , L.   I8  MM `Mb.   MM  YA.   ,A9 MM   ,AP       MM     ,M   MM    MM    VVV  ,,  ##
+  ##  .JMMmmmdP'    `Mbmmd' M9mmmP'.JMML. YA.  `Mbmo`Ybmd9'  MMbmmd'      .JMMmmmmMMM .JMML  JMML.   W   db  ##
+  ##                                                         MM                                              ##
+  ##                                                       .JMML.                                            ##
+  ##                                                                                                         ##
+  #############################################################################################################
+
+  ####### i3wm #######
+
+  services.xserver.autorun = true;
+  services.xserver.desktopManager.xterm.enable = false;
+  services.xserver.displayManager.autoLogin.enable = true;
+  services.xserver.displayManager.autoLogin.user = "h0p3";
+  services.xserver.displayManager.defaultSession = "none+i3";
+  services.xserver.displayManager.lightdm.enable = true;
+  services.xserver.enable = true;
+  services.xserver.layout = "us";
+  services.xserver.windowManager.i3.enable = true;
+  services.xserver.windowManager.i3.package = pkgs.i3-gaps;
+  #services.xserver.windowManager.i3.configFile = "/home/h0p3/dotfiles";
+  services.picom.enable = true;
+
+
+
+
+  #########################################################################Browsers####
+  ##                                                                                 ##
+  ##  `7MM"""Yp,                                                                     ##
+  ##    MM    Yb                                                                     ##
+  ##    MM    dP `7Mb,od8 ,pW"Wq.`7M'    ,A    `MF',pP"Ybd  .gP"Ya `7Mb,od8 ,pP"Ybd  ##
+  ##    MM"""bg.   MM' "'6W'   `Wb VA   ,VAA   ,V  8I   `" ,M'   Yb  MM' "' 8I   `"  ##
+  ##    MM    `Y   MM    8M     M8  VA ,V  VA ,V   `YMMMa. 8M""""""  MM     `YMMMa.  ##
+  ##    MM    ,9   MM    YA.   ,A9   VVV    VVV    L.   I8 YM.    ,  MM     L.   I8  ##
+  ##  .JMMmmmd9  .JMML.   `Ybmd9'     W      W     M9mmmP'  `Mbmmd'.JMML.   M9mmmP'  ##
+  ##                                                                                 ##                                                                                
+  #####################################################################################
+
+
+
+  security.chromiumSuidSandbox.enable = true;
+
+
+
+  ###########################################################
+  ##                                                       ##
+  ##  `7MM"""Yb.                 .M"""bgd mm           gp  ##
+  ##    MM    `Yb.              ,MI    "Y MM           \/  ##
+  ##    MM     `Mb  ,6"Yb.      `MMb.   mmMMmm ,pW"Wq. `'  ##
+  ##    MM      MM 8)   MM        `YMMNq. MM  6W'   `Wb    ##
+  ##    MM     ,MP  ,pm9MM      .     `MM MM  8M     M8    ##
+  ##    MM    ,dP' 8M   MM      Mb     dM MM  YA.   ,A9    ##
+  ##  .JMMmmmdP'   `Moo9^Yo.    P"Ybmmd"  `Mbmo`Ybmd9'     ##
+  ##                                                       ##
+  ###########################################################
+
+  environment.systemPackages = with pkgs; [
+    
+    ####### System Administration #######
+
+    # Monitoring & Notifications
+    htop
+    btop
+    multitail
+    iotop
+    #iptraf #failed to build
+    bandwhich
+    inotify-tools
+    vnstat
+
+    # Disk & Files
+    compsize
+    tree
+    udevil
+    gparted
+    ncdu
+    dfc #df alias?
+
+    # Network
+    
+    # Processes
+    killall
+
+
+    ####### Core CLI Tools #######
+
+    bat #alias cat?
+    #plocate need `updatedb` plocate group and crontab (locate is easier but...)
+
+    # Documentation
+    tealdeer
+
+
+    ####### File-handling #######
+
+    # archives & compression
+    unzip
+    zip
+    unrar
+    dtrx
+    p7zip
+    ark
+    xz
+
+    # file browsers
+    mc
+    ranger
+    dolphin #libsForQt5.dolphin-plugins? #libsForQt5.qtstyleplugin-kvantum?
+    pcmanfm
+    
+    # search
+    fd #alias find?
+    recoll
+
+    # diffs
+    git
+    ydiff
+    meld
+
+
+    ####### Filesharing #######
+
+    # bidirectional
+    qbittorrent
+    lftp
+    filezilla
+
+    # unidirectional
+    youtube-dl
+    wget
+    curl
+    aria
+
+    # Terminal
+    alacritty
+    screen
+
+    # DE
+    rofi
+
+
+    # Text
+    vim
+    neovim
+    micro
+
+    # browsers
+    firefox
+    librewolf
+    ungoogled-chromium
+    w3m
+
+
+    ####### Media #######
+
+    # local media play/control
+    pavucontrol
+    deadbeef
+    vlc
+    kodi
+
+    # local media create/read
+    gimp
+    spectacle
+    okular
+
+
+    ####### Messaging #######
+
+    #  Messaging
+    qtox
+    signal-desktop
+    fractal
+    #aether
+    #retroshare #failed to build
+
+
+
+    # Leet
+    tuntox
+    ratox
+
+
+    # Rice
+    #python310Packages.pyfiglet #fails
+    #adapta-gtk-theme
+    #adapta-kde-theme
+    #libsForQt5.qtstyleplugin-kvantum
+
+    # virtualization
+    #virt-manager
+
+    # Security
+    lynis 
+    clamav
+    #ossec
+
+   
+  ];
+
+
+
+  ####### Virtualization, Containers, & Jails #######
+
+  virtualisation.virtualbox.host.enable = true; #3D acceleration issue:  https://github.com/NixOS/nixpkgs/issues/22760
+  #virtualisation.virtualbox.host.enableHardening = true;
+
+  virtualisation.podman.enable = true;
+
+  virtualisation.docker.enable = true;
+  virtualisation.docker.storageDriver = "devicemapper";
+
+  virtualisation.libvirtd.enable = true;
+
+  programs.singularity.enable = true;
+
+
+  programs.firejail.enable = true;
+  programs.firejail.wrappedBinaries = {
+      firefox = {
+          executable = "${pkgs.lib.getBin pkgs.firefox}/bin/firefox";
+          profile = "${pkgs.firejail}/etc/firejail/firefox.profile";
+      };
+      ungoogled-chromium = {
+          executable = "${pkgs.lib.getBin pkgs.ungoogled-chromium}/bin/chromium";
+          profile = "${pkgs.firejail}/etc/firejail/ungoogled-chromium.profile";
+      };
+  };
+
+
+  ####### Additional Security #######
+
+  # services.usbguard.enable = true;
+
+
+
+
+
+
+
+  ###### Rice ######
+
+
+
+
+
+
+  ############################################################Unused####
+  ##                                                             ,,   ##
+  ##  `7MMF'   `7MF'                                           `7MM   ##
+  ##    MM       M                                               MM   ##
+  ##    MM       M `7MMpMMMb.`7MM  `7MM  ,pP"Ybd  .gP"Ya    ,M""bMM   ##
+  ##    MM       M   MM    MM  MM    MM  8I   `" ,M'   Yb ,AP    MM   ##
+  ##    MM       M   MM    MM  MM    MM  `YMMMa. 8M"""""" 8MI    MM   ##
+  ##    YM.     ,M   MM    MM  MM    MM  L.   I8 YM.    , `Mb    MM   ##
+  ##     `bmmmmd"' .JMML  JMML.`Mbod"YML.M9mmmP'  `Mbmmd'  `Wbmd"MML. ##
+  ##                                                                  ##
+  ######################################################################
+
+  # Configure network proxy if necessary
+  # networking.proxy.default = "http://user:password@proxy:port/";
+  # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
+
+  # Enable touchpad support (enabled default in most desktopManager).
+  # services.xserver.libinput.enable = true;
+  # powerManagement.enable = true;
+
+  # Some programs need SUID wrappers, can be configured further or are started in user sessions.
+  # programs.mtr.enable = true;
+  # programs.gnupg.agent = {
+  #   enable = true;
+  #   enableSSHSupport = true;
+  # };
+
+  # Select internationalisation properties.
+  # i18n.defaultLocale = "en_US.UTF-8";
+  # console = {
+  #   font = "Lat2-Terminus16";
+  #   keyMap = "us";
+  # };
+
+  # services.printing = {
+  #   enable = true;
+  #   drivers = [
+  #     pkgs.gutenprint
+  #     pkgs.cups-bjnp
+  #     pkgs.hplip
+  #     pkgs.cnijfilter2
+  #   ];
+  # };#
+  # hardware.sane.enable #scanners
+
+  # Allow suspend as anyone & allow 
+  # security.polkit.extraConfig = ''
+  #     polkit.addRule(function(action, subject) {
+  #     if (action.id == "org.freedesktop.login1.suspend" ||
+  #         action.id == "org.freedesktop.login1.suspend-multiple-sessions" ||
+  #         action.id == "org.freedesktop.login1.hibernate" ||
+  #         action.id == "org.freedesktop.login1.hibernate-multiple-sessions")
+  #     {
+  #         return "yes";
+  #     }
+  #     });
+  # '';
+}
+
+
+
+
+#######################################################################install.sh####
+##    ,,                                        ,,    ,,                ,,         ##
+##    db                        mm            `7MM  `7MM              `7MM         ##
+##                              MM              MM    MM                MM         ##
+##  `7MM  `7MMpMMMb.  ,pP"Ybd mmMMmm  ,6"Yb.    MM    MM       ,pP"Ybd  MMpMMMb.   ##
+##    MM    MM    MM  8I   `"   MM   8)   MM    MM    MM       8I   `"  MM    MM   ##
+##    MM    MM    MM  `YMMMa.   MM    ,pm9MM    MM    MM       `YMMMa.  MM    MM   ##
+##    MM    MM    MM  L.   I8   MM   8M   MM    MM    MM   ,,  L.   I8  MM    MM   ##
+##  .JMML..JMML  JMML.M9mmmP'   `Mbmo`Moo9^Yo..JMML..JMML. db  M9mmmP'.JMML  JMML. ## 
+##                                                                                 ##                                                                               
+#####################################################################################
+
+
+
+####### Missing Packages #######
+# guess we go Arch or dl/compile/sync our own bois, and maybe oneday make the nix pkgs for others
+
+# shadowsocks-qt5
+# Cracked subl
+# tripwire
+# p7zip-gui
+# rkhunter

@@ -1,0 +1,58 @@
+created: 20220909210601541
+modified: 20220919150700061
+tags: dscnct Aether Chatlog
+title: 2022.09.09 - dscnct: Tox & Bleep
+
+//See: [[2022.09.02 - Aether: Designing A Distributed Hash Table]]//
+
+<<<
+Which failures are you talking about? How do you plan to improve vs other implementations ( tox, bleep, etc.) ?
+<<<
+
+I take it you didn't find what you were looking for. Maybe walking through particular tools is a better idea. `/nod`. Let's start with Tox and Bleep. 
+
+I'm going to try to stick to criticizing the DHT-oriented aspects of these tools. You may want to [[wrestle]] with me about where the lines of the concept of a DHT end or blur.
+
+§1
+
+Tox is often the best tool I've got for the job. I don't like that I have anything negative to say about it. It's a shining beacon to me, and I respect many of its goals. I'm [[grateful]] to its various contributors. Say what you will about its history of development or lack of auditing, I still use it and preach its gospel to this day. Again, I hate that I have any criticism to offer here. 
+
+Tox's DHT is not designed to be all-purpose. It does a reasonable job for what it aims to accomplish, and indeed there's something to be said for building a tool to do one thing well. That's an understandable choice they've made, but it narrows the functions the network is suited for. If we were to expand that functionality, mutable content-addressable storage and stronger [[anonymity]] (they already do far more than most) need to be packaged directly into it, and I recognize that is a very tall task; both are open areas of research.
+
+Though one can manually add peers, in practice, Tox is still too centralized and not nearly as distributed as advertised, especially as there are just too few relays. They've been too quick to rely upon what are functionally de facto supernodes. I do not claim any of these nodes are malicious, but if I were attacking this network (or, even more effectively, particular users), that would be one place I'd do it, even if only for surveilling who is messaging who, for how long, recipient/sender, etc. I recognize that we must decentralize until it hurts and centralize until it works: but centralization has come too early in this case.
+
+State of the art [[NAT Traversal]] will only hit 95%, and there's room for improvement on Tox. Relays, for now, are unfortunately too often necessary in practice, and you can feel yourself slurping through a straw. While any client can be a relay, in practice, vanishingly few are. Every key (I'm fine with having one device carry the load for my other devices) should default to participating and contributing back; the network can't securely scale without it. Further, yes, it is routable over Tor or i2p (though, I am not convinced that Tox strictly enforces the proxy rules it claims to), but at great cost. Its DHT includes some onion pathing, but only to protect untrusted discovery of temporary DHT keys associated with long-term public keys. Tox's internal onion routing use should be expanded. Part of the problem, of course, is that there simply aren't enough users of the network either.
+
+The lack of multi-device logical accounts and offline messaging (and historically, persistent groupchats) is a deal-breaker for the average user who isn't so concerned with the security properties as we are. There's no quick fix of their tooling for this. Synchronizing mutable data is best done with a DHT designed for it. This wasn't a problem Tox tried to solve, but they did great work with the resources they had.  
+
+Additionally, discovery of purposely public groupchats seems like an important feature. I'm not convinced that can be done well without users manually trusting each other for various contexts. 
+
+That the Tox DHT is UDP only is a failure. In practice, many nodes just can't, hence the overload on their handful of TCP relays.
+
+There may be other considerations too. For example, it remains unclear to me that the nospam component of the ToxID actually prevents spamming. The ability to change the entire key itself may be just as important too.
+
+§2
+
+I'm surprised to hear you pick out Bleep. Why that one? 
+
+It's hard to know what Bleep got wrong. It died early, it's weakly cross-platform, it's not FLOSS, its development was centralized, they likely controlled at least the entrances to "their" DHT (and, yes, they refer to it as theirs) which they've done in previous products, and there are reasonable concerns the parent company can't be trusted. Tox's model of having a [[shared]] library, mostly a DHT engine with some syntactic sugar, with different front-ends built on top is wiser.
+
+To my knowledge, no one has reverse engineered it to gather more information, and we can't at this point. Independence from the transport layer with its session initiation protocol was worthy, and they had E2EE P2P chat with fitting primitives long before almost anyone else. Unfortunately, I don't have enough information to say if they did it all well (given how far ahead of the curve that institution has been, I wouldn't be surprised if it was well-conceived). I never did test to see if it could be routed over i2p or Tor. 
+
+It remains unclear which parts of Bleep had forward secrecy enabled, though I'm willing to argue ephemeral key rotation doesn't have to be for every message. Note that no major tools are prepared for post-quantum, and forward secrecy becomes more complex when we have to weave tools together.
+
+Bleep claimed to have asynchronous offline p2p messaging with logical multiple-device accounts connected to one key. To my knowledge, no one else has succeeded at this. It remains unclear that they've secured the creation of the master private key for the account, and to my eyes it should never be present on any hard drive. That it was meant to be verified by e-mail or phone number with their authentication server might help with discoverability, but is not a centralization we should accept. Further, they chose to simply store this key encrypted given the user's OS account. I doubt they spent enough work preventing collisions or brute-force attacks on these keys. I don't recall if they had a worthy method to revoke devices or recover accounts either, and that's a huge deal. 
+
+They stored offline messages on the DHT, and we know precious little about it. I believe it was [[private]], but I don't believe it was [[anonymous]], even though they took steps to separate some parts of DHT traffic from the user's public key. Proper onion-routing is a must, and perhaps other types of anonymization may be valuable for messaging in particular. We also don't know what mechanisms they used to keep this offline data alive until it was retrieved by the receiver (it would be easy to screw this up). They offered no guarantees about delivery either. Their "refreshing" of those holding these key-value pairs on the DHT is disconcerting, and I'm not convinced they haven't either federated or essentially enabled surveillance (though I don't think this was their intent!). If I got to choose who held data for me, trade resources with [[anon]]s, or automated tests for trustworthiness, I'd have much stronger guarantees or confidence. https://nikita.ca/papers/octopus-icdcs12.pdf and https://nikita.ca/papers/pisces-ndss13.pdf are worthy considerations here.
+
+We're in the dark about whether or not their DHT could actually handle the load they claimed, if it could scale up, if it could remain resistant to sybil and eclipse attacks, if it weeded out malicious nodes properly, and so on. They retrofitted an older DHT network to have Bleep nodes operate on top, and we don't know how much metadata was leaked nor how much this would hold back performance in the end. It further remains unclear if they have solved this problem for mobile, which often requires the assistance of other trusted nodes to limit resource usage.
+
+§3
+
+You've only picked messaging tools (which surprises me), and they're both written in fast languages (re: your previous concern). The DHT I'm hunting for does more than this. Given the expense of connecting to multiple p2p networks, and given the need for having a large userbase for realistic anonymity, it's best to rely upon fewer larger DHTs that can handle lots of usecases. Bleep's DHT benefited from the millions of torrent users out there; we'd need something similar. 
+
+Bootstrapping for these tools are/were reasonably fast enough for their purposes (I also prefer Kademlia). They aren't well-suited to situations where lower-latency bootstrapping is critical. For example,  whereas most people will wait 60 seconds to load their messager, they're usually too impatient to wait 60 seconds for a webpage to load. I'm not saying it's not the user's responsibility to be patient, but I am saying DHTs can be constructed to decrease average distance and improve load times on decentralized webs.  Having multiple k-bucket strategies may be part of the answer. 
+
+Despite being E2EE, I believe none of these tools have taken all the steps to make their packets indistingishable from random. https://wootfish.github.io/theseus.dht is the only example I can find that even tries. Further, obfuscated tunneling needs to be a modular, easily implemented part of a high-functioning DHT for p2p software.
+
+None of these tools are building complex networks based on trusting others, which is the only way to have proper proxying, discovery, curation, and holding information for others. Part of that problem just boils down to the sad state of account handling in p2p contexts. Portable, self-authenticating decentralizable identity and content-addressable key management are probably necessary for a high-functioning DHT. We need an offline-first, airgap-reproducible, decentralizable self-sovereign identity to which other disavowable identities, devices, or data can be provably associated, disassociated, nested, orchestrated, and controlled by the underlying root identity key-holder.

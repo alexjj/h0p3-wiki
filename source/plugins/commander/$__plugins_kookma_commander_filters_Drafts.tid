@@ -1,0 +1,6 @@
+created: 20190214135512125
+description: {{$:/language/Filters/Drafts}}
+filter: [has[draft.of]sort[title]]
+modified: 20190214135559126
+tags: $:/tags/Commander/Filter
+title: $:/plugins/kookma/commander/filters/Drafts

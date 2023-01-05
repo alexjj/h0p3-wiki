@@ -1,0 +1,16 @@
+created: 20190705224754618
+modified: 20200501170258882
+tags: Keys
+title: Buttons
+
+<<cdr-button>>: [[CDR]]
+
+{{firmcode-all button}}: [[Firmcode]]
+
+<$button>
+  Rebob
+  <$action-websocketmessage $type='runScript' name='rebob'/>
+</$button>: Clean [[Firmcoded]] Focus tids, Restart Bob
+
+* [[Monthly Auditable]]
+* [[Wiki: Font Button]]

@@ -1,0 +1,97 @@
+created: 20220118211615590
+modified: 20220118213117893
+tags: ASmith Chatlog
+title: 2022.01.18 - ASmith: Anonymously Serving Others
+
+"""
+[15:41:00] ASmith: Hi h0p3, have you tried the Fopnu and/or Tixati applications by the same developer as DarkMX yet?
+[15:41:12] h0p3: I have. Yes, sir.
+[15:41:23] h0p3: What do you think of them?
+[15:43:29] ASmith: interesting, useful alternatives
+[15:44:06] ASmith: it seems to flood out the network connection on a platform if I try to run both qbittorrent and Tixati at the same time
+[15:44:56] h0p3: Which resources are being completely consumed on that machine?
+[15:45:21] h0p3: (I'm a huge fan of qBittorent, like you)
+[15:45:28] ASmith: I used to have dual network cards on these two platforms but I pulled them after not getting the RS devs to support balancing two RS nodes concurrently
+[15:45:59] ASmith: well mostly its the flooding of the UDP DHT table that consumes enormous amounts of ram
+[15:46:00] h0p3: That might be something you can do at an OS or even router level.
+[15:46:21] h0p3: Yeah, they are RAM hogs. 
+[15:46:25] ASmith: 8 GB ram,
+[15:46:43] h0p3: qBittorrent regularly consumes 6GB for me
+[15:46:46] ASmith: fopnu
+[15:46:55] h0p3: (and I'm not even pushing it)
+[15:47:20] ASmith: I restarted QB and it dropped to 5.4 GB currently
+[15:47:39] ASmith: RS 3.9 and Darkmx 2.4 GB
+[15:47:44] h0p3: rTorrent is the most performant client
+[15:48:28] ASmith: Tixati was pretty good but it pulled down the through-put on my QB concurrently running
+[15:48:36] h0p3: That makes sense.
+[15:49:35] ASmith: Fopnu pushed my ram to the max, 32 GB is what each of these boxes have here and fopnu, qb and rs concurrently running it was 98% of my static and 100% of my cached Ram
+[15:49:38] h0p3: I have a hard time giving a reason to use Tixati, except perhaps community/discovery, as there's a sense in which one could build distributed trackers by hand (Tribler attempts to automate, but it is not well-constructed, imho).
+[15:49:49] h0p3: Ugh.
+[15:49:53] h0p3: Yeah. =/
+[15:50:09] h0p3: Good not to waste RAM though. 
+[15:50:21] h0p3: oom errors blow; I don't have an answer I like
+[15:50:41] h0p3: auto-restarting the services every 12 hours might do some good work
+[15:50:50] ASmith: I'm anxious to see if any of my suggestions to the DarkMX dev come to fruition
+[15:50:51] h0p3: (graceful shutdowns are not easy)
+[15:50:58] h0p3: I have my doubts, friend.
+[15:51:00] ASmith: same on Tixati and Fopnu
+[15:51:22] h0p3: It's not clear he's even looked at mine.
+[15:51:37] ASmith: well RS bellys up on shutdowns, difficult to say how much Ram that app keeps hanging in limbo for afew cycles
+[15:51:45] h0p3: I understand he's got his own preferred way to do things, and it's not fun to [[wrestle]] about some of these problems.
+[15:53:11] h0p3: Is performance destroyed with a swapfile for RAM? 
+[15:53:55] ASmith: not enough to really notice on networked remote apps
+[15:54:06] h0p3: Good.
+[15:54:27] ASmith: I prefer to not run any sizeable swapfiles for extra RAM however, 2 GB at most
+[15:55:56] h0p3: Unfortunately, even dropping swappiness down doesn't fix the issue, imho. I still stick to doubling it, but I try not to have any swapfile if I can (I do it from one machine though). 
+[15:57:25] h0p3: DarkMX is my favorite of the bunch. It does ~~one~~ a couple things well: an [[anonymous]] federated network with direct p2p [[sharing]] and tor hidden web service integration. 
+[15:57:43] h0p3: Out of the box "just werx," and that's pretty rare. 
+[15:57:56] ASmith: Yep, I agree
+[15:58:09] h0p3: Despite some differences, Fopnu is competing with Soulseek, imho.
+[15:59:24] ASmith: yes, but I can't run it on this box concurrently with QB, haven't tried it yet on the TAS Server but the TAS server is running 2 RS nodes plus DarkMX
+[16:00:37] ASmith: I tried a secure Socks 5 Proxy with fopnu and tiaxti both, worked but my setup only appeared to work with one of those two apps at a time
+[16:00:43] h0p3: It's quite performant. Jackshit CPU usage, and ~800mb of RAM, sharing +80k files adding up to 4TB. It's not having to maintain much state.
+[16:00:55] h0p3: Oh. 
+[16:01:02] h0p3: I'm surprised to hear that.
+[16:01:22] ASmith: its likely a proxy port conflict trying to run the same port on both apps there
+[16:01:23] h0p3: (sock5 proxies with Soulseek are hacks)
+[16:01:52] h0p3: Guess you have to run a proxy for each? 
+[16:02:00] ASmith: the RS devs were entirely not helpful to add Socks 5 and VPN support
+[16:02:19] h0p3: Hard to get right too. 
+[16:02:25] ASmith: I can't shoehorn the tascloud.me website through a VPN
+[16:02:39] h0p3: Why's that?
+[16:02:58] ASmith: I could however push other apps onto a 2nd network connection if I had that dual network card
+[16:03:24] ASmith: VPNs often change and websites are rather static in their DNS settings
+[16:03:59] ASmith: everytime a VPn shifts or drops out your website would drop out also until you reconfigured the settings
+[16:04:13] ASmith: that's multiple times a day
+[16:04:15] h0p3: That might be worth more of your time. The web kinda sucks in the end. We never own our own domain names; we merely rent.
+[16:04:34] h0p3: It can be done though. You may have to build your own VPN. 
+[16:04:48] ASmith: I use a forwarding proxy
+[16:05:14] ASmith: better range and its entirely stable, only update when my ISP releases my IPv4
+[16:05:32] h0p3: Many VPNs don't offer anything bi-directional. It's like a NAT. It mixes your traffic though.
+[16:06:47] h0p3: A cheap, tun-tap enabled low end box for 15-20 bucks a year can be an astounding, fully configurable proxy though.
+[16:07:57] ASmith: yes the anonymous tiny-proxy was something I looked at for sometime but the RS Devs and RS users weren't all that interested
+[16:08:19] ASmith: small, optimized and elite level anonymous
+[16:16:21] ASmith: I've added 18 TB of my most recent movie DL's and one of my Survival folders to my DarkMX Library
+[16:16:37] h0p3: Noice.
+[16:17:26] h0p3: How many bytes you think you've uploaded over the years?
+[16:18:38] ASmith: perhaps 1/2 petabyte worth
+[16:18:47] ASmith: 500 TB's
+[16:18:48] h0p3: gotdayum
+[16:18:52] h0p3: That's crazy
+[16:19:09] ASmith: I have nearly 250 TB on hand
+[16:19:18] h0p3: We're all fortunate to have people like you share so much with the world.
+[16:19:39] ASmith: well, this world is fast approaching a crossroads
+[16:19:44] h0p3: I could imagine unraid would be useful.
+[16:19:51] h0p3: That is fair to say, sir.
+[16:20:04] ASmith: yes it has been earlier, I'm operating with fewer safety nets now
+[16:20:06] h0p3: The contradictions are building, and the world seems to be collapsing in some places.
+[16:20:21] h0p3: Same here. 
+[16:21:01] ASmith: I have about 20,000 more recent and new, classic movies to add to my collection for 100,000+ then work on adding more ebooks
+[16:21:46] h0p3: Hard to have enough space for everything.
+[16:21:46] ASmith: I think I have about 87,000+ currently
+[16:22:13] h0p3: I'm forced to slim down, filter, and only carry particular objects.
+[16:22:17] ASmith: 1 million+ music singles, 100,000 plus movies, good numbers
+[16:23:44] ASmith: well, things to pickup, and chores to do here, thanks for the chat and encouragement my friend
+[16:24:13] h0p3: Yes, sir. It is my pleasure and honor to speak with you. Always is. TTYL!
+[16:24:26] ASmith: u2, cya
+"""

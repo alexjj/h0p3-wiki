@@ -1,0 +1,12 @@
+caption: Title
+created: 20190212051704536
+creator: Mohammad
+modified: 20190309032112441
+modifier: Mohammad
+tags: $:/tags/Commander
+title: $:/plugins/kookma/commander/ui/title-operation
+
+Warning: These operation may overwritte existing tiddlers
+
+<<tabs "[all[shadows+tiddlers]tag[$:/tags/Commander/TitleOps]!has[draft.of]]" class:"tc-vertical cm-tab-colorful cm-tab-wd">>
+

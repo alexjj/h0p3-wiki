@@ -1,0 +1,15 @@
+created: 20180916164830456
+modified: 20180916172551533
+tags: 
+title: $:/plugins/sphygmus/reviewButton/readme
+type: text/vnd.tiddlywiki
+
+This plugin adds [[a "new Wiki Review" button|$:/plugins/sphygmus/reviewButton/button]] to the Page Controls list. When this button is clicked, all the tiddlers created yesterday (and not today) are selected, formatted into a bulleted list, and inserted into a new tiddler which is then shown; the title of the new tiddler is also appended as a bulleted list item to the end of the [[Wiki Review: Focus]] tiddler.
+
+See the "settings" tab for the plugin's current title and tag settings, and to modify for your own needs. The "details" tab goes into more technical specifics about the plugin's functioning.
+
+This plugin is made for h0p3!
+
+---
+
+Note: you have to use the [[AutoTagger Plugin|http://www.tiddlytools.com/#AutoTaggerPlugin]] in order to tag newly-made tiddlers with the date.

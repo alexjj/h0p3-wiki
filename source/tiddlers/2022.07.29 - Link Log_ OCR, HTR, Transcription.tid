@@ -1,0 +1,25 @@
+created: 20220729041922903
+modified: 20220729042001308
+tags: [[Link Log]] k0sh3k
+title: 2022.07.29 - Link Log: OCR, HTR, Transcription
+
+* Tools
+** https://github.com/microsoft/unilm/tree/master/trocr
+** https://gitlab.com/scripta/escriptorium/
+** https://readcoop.eu/transkribus
+** https://github.com/mittagessen/kraken
+** https://github.com/githubharald/SimpleHTR
+** https://huggingface.co/docs/transformers/v4.15.0/en/model_doc/trocr
+*** https://huggingface.co/spaces/nielsr/TrOCR-handwritten
+
+* SCWR
+** https://en.wikipedia.org/wiki/Handwriting_recognition
+** https://readcoop.eu/transkribus/howto/how-to-train-a-handwritten-text-recognition-model-in-transkribus/
+** https://link.springer.com/article/10.1007/s10502-022-09397-0
+** https://arxiv.org/pdf/2012.03868.pdf
+** https://arxiv.org/abs/1909.10120v1
+** https://nanonets.com/blog/handwritten-character-recognition/
+** https://lectaurep.hypotheses.org/232
+** https://kraken.re/master/index.html
+*** https://kraken.re/master/training.html
+** https://digitalorientalist.com/2019/11/05/using-kraken-to-train-your-own-ocr-models/

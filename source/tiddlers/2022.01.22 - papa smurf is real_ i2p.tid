@@ -1,0 +1,64 @@
+created: 20220122054843449
+modified: 20220125093737781
+tags: Jaxx [[papa smurf is real]] Chatlog
+title: 2022.01.22 - papa smurf is real: i2p
+
+"""
+[[papa smurf is real]]: Jaxx, if we had !ban or something like that, you would need to type the username then?  doesn't sound quicker.... you can right-click any username in chat window, eg. [[Jaxx]], you don't need to find in the userlist on right
+[[papa smurf is real]]: <---- right click my name here
+[[Jaxx]]: u just hda to first rightclick whatever name and copy the name,then type !ban before the nick.. done
+[[papa smurf is real]]: lots better then having to type out !ban papa_smurf_is_real or something like that
+[[Jaxx]]: maybe..
+[[papa smurf is real]]: yeah
+[[papa smurf is real]]: if you have to click the name anyways
+[[Jaxx]]: what about if darkmx had a way to autocomplete a name by pressing a letter in the name and complete it withbackspace or whatever
+[[Jaxx]]: *writing a letter
+`<darkmx:user:Noir@yyideubiz5mggi74vmmglkiitthty7uixkbosgcsq53nnfadayhq>` type this nick:  大老赖不赖(1)
+[[papa smurf is real]]: what if the name is all funny letters that aren't A-Z, like 𝔄 𝔅 ℭ 𝔇 𝔈 𝔉 𝔊
+[[papa smurf is real]]: 大老赖不赖
+[[papa smurf is real]]: haha see i did it
+[[Jaxx]]: it would still be able to copy the name
+[[papa smurf is real]]: if you are copying the name, why not simply right-click the name and click ban in the menu?
+[[Jaxx]]: i guess ur right
+`<darkmx:user:Noir@yyideubiz5mggi74vmmglkiitthty7uixkbosgcsq53nnfadayhq>` darkmx:file:gues7@s5kuws6bw7ijlwsybn34d46kat5rh2n7x2piportipasfabyev4q/_links/Tv-Shows/-%20%E2%99%AB/_Themes%20US/Father%20Knows%20Best.mp3|"Father Knows Best.mp3"
+[[papa smurf is real]]: that and the thought of putting /commands or !commands into these chat rooms makes me want to vomit a little
+[[papa smurf is real]]: really a maintenance nightmare in tixati
+[[papa smurf is real]]: in the middle of ripping all that out right now
+[[Jaxx]]: speaking of tixati.. whats the difference between that one and darkmx?
+[[papa smurf is real]]: torrents
+[[papa smurf is real]]: not inside Tor
+[[papa smurf is real]]: the only thing similar is they download
+[[papa smurf is real]]: one is about 12 years older than the other too
+[[papa smurf is real]]: .... BTW guys, if anyone has any I2P experience and can speak of the general speeds they saw, please pipe up
+[[Jaxx]]: I dont use i2p. i tried to few times,but went back to tor
+[[papa smurf is real]]: if anyone wants to install their back-end client and run some tests, that would be good too
+[[papa smurf is real]]: Jaxx when you tried, what happened? that bad?
+[[papa smurf is real]]: did you try "eepsites" or something like that?
+[[Jaxx]]: there wasnt many people to talk to and not many sites
+[[Jaxx]]: so i gave up
+[[papa smurf is real]]: was it fast?
+[[Jaxx]]: tbh,i cant remember,sorry
+[[papa smurf is real]]: couldn't have been too bad then
+[[papa smurf is real]]: speed-wise at least
+[[Jaxx]]: well. it wasnt that bad,it wasnt. the i2p itself. i didnt try long enough to test speed. was more busy to just chat etc and surf
+[[Jaxx]]: at least the time tried
+[[papa smurf is real]]: when some free time happens, i'm going to see if i can put up a test site with some larger files, and just see how fast it works through the browser
+[[papa smurf is real]]: i saw a few posts from a year or two back saying 20-40 K/s, but who knows
+[[Jaxx]]: i use most apps like onionshare to share files if i have to
+[[papa smurf is real]]: the other problem with i2p is everyone has to be a relay, it's not like Tor
+[[papa smurf is real]]: so you have to give your own bandwidth, or use someone else's gateway you trust
+[[papa smurf is real]]: anyways..........
+[[Jaxx]]: the most i was interested in when it came to i2p,was email and chatting
+* darkmx:user:waldg%C3%A4nger@n6ashfsopgj226mii7cjayx5nlhjcxdqda5x4b6sfvyaqgmlfbja has left
+* darkmx:user:Noir@yyideubiz5mggi74vmmglkiitthty7uixkbosgcsq53nnfadayhq has left
+* darkmx:user:waldg%C3%A4nger@n6ashfsopgj226mii7cjayx5nlhjcxdqda5x4b6sfvyaqgmlfbja has joined
+* darkmx:user:Noir@yyideubiz5mggi74vmmglkiitthty7uixkbosgcsq53nnfadayhq has joined
+<darkmx:user:DannyGlands@cwu45l7asbyb34zw24xtdmlqzw4epyd5b7gw2a5ohwjpf2bccyna> 1
+* darkmx:user:Waldo_After_Dark@h2ilamcqehdggzp6owrfrrmmhqv6yv2kpsdvkycz62otlomd3gsa has joined
+[[h0p3]]: @papa smurf is real Just randomly chose 5 things to download in MuWire. Top speed on a single download is 250kb/s (a lot of variance though), and I'm hitting 700kb/s top end (probably only 200kb average, just guessing). 20-40 kb/s is pretty common, in my experience (I've used the network off and on for a long time).
+[[h0p3]]: You can suppress how many resources you donate to the network pretty significantly.
+[[Jaxx]]: sorry if im abit quiet. its not always i chat xD
+[[h0p3]]: I think it tends to be a good thing that people are encouraged to participate as relays on i2p. The centralization of the Tor infrastructure is a non-trivial concern.
+[[Jaxx]]: i have been trying to get people.. well rather try get them to try darkmx,but i think i havent succeeded yet
+[[h0p3]]: Multiplexing over multiple tunnels may provide a speed-up.
+"""

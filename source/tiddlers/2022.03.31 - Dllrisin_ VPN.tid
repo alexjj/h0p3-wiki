@@ -1,0 +1,15 @@
+created: 20220331202028736
+modified: 20220401150640032
+tags: Dllrisin Chatlog
+title: 2022.03.31 - Dllrisin: VPN
+
+"""
+[8:50:55][Dllrisin] what do you think of mullvad vpn?
+[16:08:56][h0p3] Yo. https://www.dnsleaktest.com/ and https://torguard.net/ should be tools you try out with your torrent client (assuming you're going that direction). 
+[16:10:40][h0p3] Mullvad will suffice for standard piracy. 
+[16:12:06][h0p3] There may be reasons you would not want to route all your traffic through Mullvad, and further, perhaps you'd prefer to ensure that no traffic can be routed except through Mullvad. In that case, I would recommend using a virtual machine with your virtual private network inside it, with firewall rules set appropriately.
+[16:13:15][h0p3] That would allow your host system to be unaffected by the VPN, but anything you are pirating from within the virtual machine (VM), which can share file access to the host*, will always be routed through your VPN provider. 
+[16:14:39][h0p3] You should prefer Wireguard over OpenVPN in most cases; the performance is better, and the codebase is so small that it is unlikely to have security flaws (it's designed to be audited).
+[16:15:41][h0p3] If you need access to IPT, TL, or MYA, let me know. I'd need an e-mail address tied to those tracker accounts to send the invite.
+[16:17:46][h0p3] I'd like to recommend learning Linux here. I think it would make you a happier camper in the long-run, though it has a learning curve. You can make it do what you want it to do, and you own the system. 
+"""

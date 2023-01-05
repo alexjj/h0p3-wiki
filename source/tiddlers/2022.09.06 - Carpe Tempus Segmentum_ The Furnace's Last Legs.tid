@@ -1,0 +1,34 @@
+created: 20220906131326376
+modified: 20220907061748325
+tags: [[Carpe Tempus Segmentum]] [[Computer Musings]]
+title: 2022.09.06 - Carpe Tempus Segmentum: The Furnace's Last Legs
+
+Woke at 8:30. Dave the Capitalist had arrived. [[Morning Routine]]. [[TTTOTW]].
+
+Shopping @ Costco with my sympaticon. Pizza slice and water. Delicious. Picked up the bulk we lacked. 
+
+Shopping @ Aldi with my sympaticon. 
+
+Dave's still workin' on it. Kinda stuck trusting him. One of his slaves is quite a pirate, and we've spoken of him before. Handed my card for his slave. `/wave`. He argued we didn't need a water-heater, but then I explained that we have 6 near adults in the house. [[TTTOTW]].
+
+Fireman Time! [[TTTOTW]]. Offspring came down to grind. 
+
+```bash
+chrt -i 0 duperemove -Adrhv /mnt/m16-old-storage --dedupe-options=same --io-threads=1 --hashfile=/home/h0p3/stage/duperemove-m16-old-storage-hashfile
+```
+
+Also, I was wrong on the deduping. Saved 400GB (though only 200GB of the uncompressed [which tends to already be compressed], so a cleanup of `/home/h0p3` will probably cut it significantly), and the permanent hashfile is only ~4GB. 7% is good. Surprised in a good way. I don't think there's a safe way to transfer deduplication data across drives, which means I'll need to run them separately. I am downright impressed by this script too. 
+
+Dave had a buddy come in to finish the job. Took all day, and he had to replace the inner container+liner (apparently, whoever installed the last one fucked up), and we've a new old igniter, again. Ugh. Eventually, we need to replace the whole thing. No idea when we'll have to.
+
+[[Family Gathering]] was good. We had pinto bean soup (had bacon, rice, and the works). Water. Watched the //House of Cards// S02E01. Ah yeah. Slaps. Clarinet. [[TTTOTW]].
+
+Oh, the floor in my corner is wet, and I think it's because of the flash flood that touches the window. =/. 
+
+Watched the 4th HB lecture. It's moving very slowly. Still worthy. [[TTTOTW]]. Put mi amor to bed. [[TTTOTW]].
+
+A wild [[ilmu]] appears...
+
+[[NixOS]] went OOM with a failure to compile some software with only 2GB of RAM in the VM. Hrm. Bump to 3 is fine, but since I'm forced to allow broken packages to get anything at all to work, I'm fucked. This is disheartening.
+
+[[TTTOTW]].

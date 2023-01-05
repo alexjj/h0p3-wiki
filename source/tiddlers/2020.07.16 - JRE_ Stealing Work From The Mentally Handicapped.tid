@@ -1,0 +1,170 @@
+created: 20200906034105910
+modified: 20200906084534825
+tags: JRE Chatlog
+title: 2020.07.16 - JRE: Stealing Work From The Mentally Handicapped
+
+"""
+Straight to voicemail
+Jun 29 11:55am
+Straight to voicemail
+Jul 7 6:05pm
+Straight to voicemail
+Jul 8 5:04pm
+Just got home, gotta shit and shower, then time with matthew
+Jul 8 5:40pm
+k
+Jul 8 5:40pm
+enjoy, sir!
+Jul 8 5:40pm
+Image attached to message
+
+Jul 9 2:01pm
+My god, TBC is looking delicious. Feel like I don't have time for it though. =/
+
+Jul 12 4:21pm
+How's your day going?
+
+Jul 13 4:17pm
+https://gfycat.com/jitteryaccuratekudu
+
+Jul 15 12:48pm
+Neat
+Jul 15 12:48pm
+Fuck working on cars tho
+Jul 15 12:48pm
+That's stealing work from the mentally handicapped.
+Jul 15 12:49pm
+lmao
+Jul 15 12:50pm
+
+Hah, got so close to accidentally buying an m2 hard drive last night before I realized that nvme drives use the m2 socket but are actually different from other SSDs that use the same socket. Lol
+Jul 16 11:07am
+Yes. You might consider the "level cell" of the NAND flash. I use TLC on mine.
+Jul 16 12:26pm
+You able to try out a new install?
+Jul 16 12:26pm
+Not yet
+Jul 16 12:27pm
+Gonna have to download win 10 and perhaps make a bootable USB or something...
+Jul 16 12:28pm
+Yup. I would recommend having a laptop next to you, just in case.
+Jul 16 12:29pm
+(I doubt it will matter, but I've had my ass saved so many times because of it.)
+Jul 16 12:29pm
+Think mine is 3d qlc nand
+Jul 16 12:34pm
+I think TLC is better for write intensive workloads, and they recommend qlc for read intensive, and since it will mostly be my gaming HD, I think I lucked out by choosing qlc
+Jul 16 12:37pm
+Aye, that should work.
+Jul 16 12:40pm
+Have new monitor on the way, nvme 2tb, 8tb hhd and new USB hub to try out
+Jul 16 12:43pm
+Wont actually do anything until next week I think
+Jul 16 12:43pm
+Nice.
+Jul 16 12:43pm
+Guess I could do the os now
+Jul 16 12:43pm
+Kiddo gonna be home again next week
+Jul 16 12:43pm
+Well, you'll be putting Windows on the NVME, right?
+Jul 16 12:43pm
+Going to dentist monday
+Jul 16 12:44pm
+Hmm, I had planned on keeping os on my 250gig ssd
+Jul 16 12:44pm
+It boots up plenty fast
+Jul 16 12:44pm
+Keep games and vr shit on the nvme
+Jul 16 12:45pm
+And porn and all other media on 8tb
+Jul 16 12:45pm
+I feel like that is backwards.
+Jul 16 12:45pm
+I'd keep my games and OS on the NVME.
+Jul 16 12:46pm
+Was hoping to keep os separate without partitions
+Jul 16 12:47pm
+I appreciate that.
+Jul 16 12:48pm
+Does benefit that much from faster drive besides boot up speed?
+Jul 16 12:49pm
+Well, if write speed doesn't matter so much to you, and if you feel the Sata SSD is plenty fast, maybe the NVME isn't critical to you.
+Jul 16 12:50pm
+You gain more than boot speed. Opening any application or file should be snappier.
+Jul 16 12:51pm
+I still use swap too, and that makes a big difference for me.
+Jul 16 12:51pm
+It won't be a waste though. That NVME drive will be useful long-term, and you can always partition it and throw your OS on it later, if you want.
+Jul 16 12:53pm
+Yeah, and the nvme I found is just about 30 bucks more than an m2 ssd of equivalent size I was looking at.
+Jul 16 12:54pm
+Perhaps I should make nvme my os drive, think oculus doesnt do well at putting content on drive that isn't the os drive
+Jul 16 12:58pm
+Just seemed nice to have a clean hardware separation
+Jul 16 12:58pm
+It is nice to have that clean hardware separation, although there are barriers to doing it on Windows. Some software just plays nicer on the OS partition, you may have registry issues that make it so you can't just reinstall windows on one and then run the old binary from the other partitition.
+Jul 16 1:02pm
+What if I split the 250 gig into two, and made a 125gig linux boot and a 125g win 10 boot?
+Jul 16 1:03pm
+That would work, but I still think your OS should be on the fastest drive you have.
+Jul 16 1:05pm
+Ok, I'll put os and games on nvme, media on hdd, and run over games and special media (pics/vids of kiddos) on the 250g ssd.  Partition the os on Nevada maiden's eye?
+Jul 16 1:14pm
+Were I making the system, I'd do the following: (1) Standard W10 Install on NVME using the wizard (2TB is plenty for everything), (2) KDE Manjaro Linux on SSD, (3) Automated weekly backups of both drives to the HDD.
+Jul 16 1:20pm
+I'd make sure my torrent client downloaded the fragments onto the NVME and then pushed it only to HDD for seeding.
+Jul 16 1:20pm
+Is it faster that way?
+Jul 16 1:21pm
+Surprised my download speed could beat out an hdd
+Jul 16 1:21pm
+Less wear and tear on the HDD, and if your HDD is busy while downloading, you might notice the difference.
+Jul 16 1:23pm
+Pics/vids of kiddos can sit on the NVME, but you'll have a redundancy just in case.
+Jul 16 1:25pm
+Only problem I could see with that is I would need to leave about 100gig free on nvme at all times to have a "download" space available
+Jul 16 1:30pm
+I had planned downloading straight to hdd
+Jul 16 1:31pm
+But maybe that is why my hdd is dying now lol
+Jul 16 1:31pm
+They all die eventually. Download straight to HDD if you want.
+Jul 16 1:32pm
+Perhaps I could leave the 250g ssd as my downloading zone
+Jul 16 1:32pm
+That would work too.
+Jul 16 1:32pm
+Thx
+Jul 16 1:32pm
+How much should I partition for win10/linux?
+Jul 16 1:34pm
+This is where I think that having two drives makes the most sense. Microsoft intentionally destroys bootloading to other OSes. You can work around that in several ways. The most foolproof way is just to have different drives.
+Jul 16 1:35pm
+100GB for Linux is plenty. You could probably get away with 50GB and not feel a difference (you can also resize partitions later).
+Jul 16 1:38pm
+So I could put windows on nvme, and keep linux on 250g ssd?
+Jul 16 1:49pm
+Or should*
+Jul 16 1:50pm
+Not even sure I'm going to add linux honestly
+Jul 16 1:50pm
+I think you should have linux, but even if that is not imperative: if you are dual-booting Linux alongside Windows, separate drives makes the most sense.
+Jul 16 1:50pm
+I know, lol
+Jul 16 1:51pm
+It would probably be a toy you wouldn't use except for debugging and interrogating whether or not it's your OS or your hardware that is having trouble in the future.
+Jul 16 1:52pm
+The laptop you have already has linux on it, and in a way, living inside it is the only way to learn it. That would probably be the best transition device.
+Jul 16 1:53pm
+The only people I know who actually use Linux dualboot consistently were already Linux fans that were forced to reboot for Windows (and didn't want to engage in VM passthroughs).
+Jul 16 1:54pm
+
+With [[AIR]] now, he is good
+Jul 17 5:04pm
+Good! You guys chillaxin?
+Jul 17 6:18pm
+Image attached to message
+Getting ready to leave
+Jul 17 6:19pm
+"""

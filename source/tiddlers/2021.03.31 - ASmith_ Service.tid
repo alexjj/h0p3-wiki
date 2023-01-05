@@ -1,0 +1,72 @@
+created: 20210331061741368
+modified: 20210401090350079
+tags: ASmith Chatlog
+title: 2021.03.31 - ASmith: Service
+
+"""
+[21.03.30 - 23:26:53] <TAS_Helpbot> Join us on the Tascloud website file sharing server Registered users receive free 50 GB of private file storage, file sharing space. Well over 3,000,000 Tascloud shared files over a wide range of themes and category's. Over a dozen Public Circles which includes a Retroshare Users Circle with Retroshare help documents and builds.
+[21.03.30 - 23:26:54] <TAS_Helpbot> Internet Radio, Music Players, Video Player and many more useful tools for registered users. Join Tascloud Today, Download and Share files tomorrow https://tascloud.me
+[21.03.30 - 23:40:54] [[ASmith]]: .
+[21.03.30 - 23:40:55] [[ASmith]]: Notice: Work is continuing through possibly mid-April to add GPT (General partitions) to each of the large 10-12 TB HD's in the DAS Enclosures on this workstation and on the TAS, TAS_Tor Server. To carry that large task out, I am unloading the 10 TB and the 12 TB HD's which were lacking a GPT partition one at a time and reformatting and adding a GPT partition and then reloading each of its files again.
+[21.03.30 - 23:40:55] [[ASmith]]: This single operation takes 2-4 days each, depending on the complexity of the file directory trees and total stored files. I'm using a new 12 TB WD Red Label NAS HD on this Workstation and a new 12 TB Seagate Iron Wolf NAS HD on the TAS Server to carry this series of operations out as quickly as possible. Thank-you for your patience and understanding.
+[21.03.30 - 23:40:57] [[ASmith]]: .
+[21.03.30 - 23:41:11] [[h0p3]]: How many people you think you serve, my friend?
+[21.03.30 - 23:41:24] [[h0p3]]: Directly and indirectly*
+[21.03.30 - 23:41:27] [[ASmith]]: on my nodes and webserver?
+[21.03.30 - 23:41:34] [[h0p3]]: Aye. Across your entire infrastructure.
+[21.03.30 - 23:41:35] [[ASmith]]: or the public at large?
+[21.03.30 - 23:41:38] [[h0p3]]: That too
+[21.03.30 - 23:41:45] [[ASmith]]: I see, perhaps 1,000
+[21.03.30 - 23:42:09] [[ASmith]]: why do you ask?
+[21.03.30 - 23:42:28] [[h0p3]]: I'm an autistic man. I ask lots of questions. Sheer curiosity, lol.
+[21.03.30 - 23:42:37] [[h0p3]]: It's impressive.
+[21.03.30 - 23:42:55] [[ASmith]]: I see, we'll I'm retired so the numbers are lessened 
+[21.03.30 - 23:43:15] [[h0p3]]: Also a good point. Perhaps it has been millions of individuals of the decades.
+[21.03.30 - 23:43:21] [[h0p3]]: over*
+[21.03.30 - 23:43:55] [[ASmith]]: dunno
+[21.03.30 - 23:44:29] [[ASmith]]: feeling like dust in the Wind there h0p3 ?
+[21.03.30 - 23:44:57] [[h0p3]]: Always
+[21.03.30 - 23:45:26] [[ASmith]]: ah, well abnormal, PiB-4-8ormal will cheer ya up
+[21.03.30 - 23:45:41] [[h0p3]]: lol, yes, I am sure. You do a fine job too.
+[21.03.30 - 23:46:15] [[ASmith]]: entertainment is rare these days but the sun still sines
+[21.03.30 - 23:46:19] [[ASmith]]: shines
+[21.03.30 - 23:46:21] [[h0p3]]: Itdo
+[21.03.30 - 23:46:41] [[h0p3]]: Walking is something I am lucky to do.
+[21.03.30 - 23:47:46] [[ASmith]]: I see, well I'm not sure if any visitors are wheelchair bound h0p3 
+[21.03.30 - 23:52:44] [[ASmith]]: New season of the Mayans Motorcycle Club debute tonight
+[21.03.30 - 23:58:54] [[ASmith]]: obtained your covid19 vaccines yet h0p3 ?
+[21.03.30 - 23:59:36] [[ASmith]]: what about the very likely Covid19 Vaccination ID Card? h0p3 
+[21.03.31 - 00:02:06] [[h0p3]]: I have not been able to get it. I'm not old enough yet for CT.
+[21.03.31 - 00:02:36] [[h0p3]]: Tomorrow, it will open up, possibly. Lots of people want it, not everyone is able to get it.
+[21.03.31 - 00:03:08] [[ASmith]]: dog eat dog
+[21.03.31 - 00:03:14] [[h0p3]]: aye
+[21.03.31 - 00:03:31] [[ASmith]]: perhaps if you show up waving a dixie flag?
+[21.03.31 - 00:03:35] [[h0p3]]: My wife has the first half of the pfizer, and they gave her a standard vaccination card. 
+[21.03.31 - 00:04:02] [[ASmith]]: my covid vaccine card looks different from my other vaccine cards
+[21.03.31 - 00:04:02] [[h0p3]]: Not so much of that in CT (though I am from the South). 
+[21.03.31 - 00:04:24] [[ASmith]]: pifizer lot# and such 
+[21.03.31 - 00:05:12] [[ASmith]]: I still of course wear a mask as that is a state requirement, took some weeks to get used to that
+[21.03.31 - 00:06:05] [[ASmith]]: I walked through a pharmacy without realizing I had no mask then walked out of the store, past a bewildered incoming customer to the parking lot to get my mask, no one mentioned nor challenged me
+[21.03.31 - 00:07:01] [[ASmith]]: supposed to hit around 80F here in the Northwest tomorrow
+[21.03.31 - 00:13:44] [[h0p3]]: I accidentally didn't wear a mask in Home Depot the other day.
+[21.03.31 - 00:13:57] [[h0p3]]: No one challenged me either. I was surprised.
+[21.03.31 - 00:25:52] [[ASmith]]: oh well, folks are of course anxious to get on with their lives however there's many victims in this warm-up to what I assume is WW3
+[21.03.31 - 00:49:47] [[h0p3]]: I would very much like to hear your opinion about //Lazarus//, the graphic novel. 
+[21.03.31 - 00:50:03] [[h0p3]]: I don't know what you read while you take a shit, but that one is worth your time, even if only so you can make fun of me, okay? =)
+[21.03.31 - 01:00:38] [[ASmith]]: I am trying to add GPT partitions on the massive HD's here that do not have one
+[21.03.31 - 01:00:59] [[ASmith]]: perhaps later in the Summer I'd have the time to take a look h0p3 ?
+[21.03.31 - 01:01:14] [[h0p3]]: Yes, sir. `/salute`.
+[21.03.31 - 01:03:36] [[ASmith]]: k, I could add it to the comics on tascloud
+[21.03.31 - 01:05:46] [[ASmith]]: https://en.wikipedia.org/wiki/Lazarus_(comics) Lazarus is a dystopian science fiction comic book series created by writer Greg Rucka and artist Michael Lark. The two began developing the idea in 2012 and partnered with colorist Santi Arcas to finish the art. Image Comics has been publishing the book since the first issue was released on June 23, 2013. Other creators were brought in later to assist with lettering and inking.
+[21.03.31 - 01:05:52] [[ASmith]]: A six-issue spin-off limited series, Lazarus: X+66, was released monthly in 2017 between issues 26 and 27 of the regular series. Rucka initially said the series could run for up to 150 issues, but later reduced the estimate by half. Lazarus is being collected into paperback and hardcover editions, which sell better than the monthly issues.
+[21.03.31 - 01:07:22] [[ASmith]]: .
+[21.03.31 - 01:07:22] [[ASmith]]: It has received particular attention for its political themes, and comparisons have been drawn between elements of the story and the presidency of Donald Trump??
+[21.03.31 - 01:14:30] [[h0p3]]: The hardcovers are insanely expensive, btw. They've not printed nearly enough of them. It is extremely rare that I purchase a book these days (so tired of moving those fuckers). 
+[21.03.31 - 01:16:15] [[h0p3]]: Its technical and political themes are relevant (a lack of ML advancement withstanding). Its world is well-built, though I do not claim it is sufficiently coherent. 
+[21.03.31 - 01:19:14] [[ASmith]]: Is this one of them, The Ritual Bath The 1st Peter Deck an 491 ?
+[21.03.31 - 01:19:33] [[ASmith]]: The Mercedes Coffin_A Decker_Lazarus No 507 ?
+[21.03.31 - 01:19:52] [[ASmith]]: The Forgotten, The Burnt house, The Beast, Street Dreams ??
+[21.03.31 - 01:20:57] [[h0p3]]: Nope.
+[21.03.31 - 01:21:03] [[h0p3]]: The wikipedia entry is correct though.
+[21.03.31 - 01:22:05] [[ASmith]]: There's many Lazarus projects
+"""

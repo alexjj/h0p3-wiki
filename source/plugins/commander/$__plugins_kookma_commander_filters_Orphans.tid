@@ -1,0 +1,6 @@
+created: 20190214135426497
+description: {{$:/language/Filters/Orphans}}
+filter: [all[orphans]sort[title]]
+modified: 20190214135606070
+tags: $:/tags/Commander/Filter
+title: $:/plugins/kookma/commander/filters/Orphans

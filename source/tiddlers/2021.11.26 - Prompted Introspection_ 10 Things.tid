@@ -1,0 +1,12 @@
+created: 20211126164409000
+modified: 20211127031021697
+tags: [[Prompted Introspection]]
+title: 2021.11.26 - Prompted Introspection: 10 Things
+
+!! What do you want? List ten things you want for yourself. For each item, write one simple step toward making that wish come true.
+
+```python
+for i in range(10): print("I wish to come up with this wish #" + str(i+1) + " and take a step toward making it come true by having it displayed on my screen.")
+```
+
+Lady Melisandre, this is a waste of my time. My {[[Axioms]]} have me covered here. You see the grind every day. Prioritizing what I want into what I //should// want is part of the problem. Where ought I direct my attention? I've been narrowing that down for sometime. The curl-up has clarified a great deal (a classic trope for retards like me). The things I want aren't simply up to me alone. [[Stoic]]ly, to some [[dok]], I'm gonna have to be okay with just doing my part. `/salute`.

@@ -1,0 +1,107 @@
+created: 20200619164002744
+modified: 20200805204446322
+tags: TWGGF Draft To Tones TWShoshin Letter Necro
+title: 2020.06.19 - TWGGF: Two Tones To Tones
+
+```
+
+`7MM"""Yb.                                  MMP""MM""YMM                                   
+  MM    `Yb.                                P'   MM   `7                                   
+  MM     `Mb  .gP"Ya   ,6"Yb.  `7Mb,od8          MM  ,pW"Wq.`7MMpMMMb.  .gP"Ya  ,pP"Ybd    
+  MM      MM ,M'   Yb 8)   MM    MM' "'          MM 6W'   `Wb MM    MM ,M'   Yb 8I   `"    
+  MM     ,MP 8M""""""  ,pm9MM    MM              MM 8M     M8 MM    MM 8M"""""" `YMMMa.    
+  MM    ,dP' YM.    , 8M   MM    MM              MM YA.   ,A9 MM    MM YM.    , L.   I8  ,, 
+.JMMmmmdP'    `Mbmmd' `Moo9^Yo..JMML.          .JMML.`Ybmd9'.JMML  JMML.`Mbmmd' M9mmmP'  dg 
+                                                                                         ,j 
+                                                                                        ,'  
+```
+
+It's about injecting our models into the virtual world that we do not even collectively and fairly own in such a way that we maximize the autonomy over our self-modeling toward decentralized [[Justice]]. It's about building the right molecules, cells, tissues, organs, systems, and Body from the atoms of our thoughts in these devices on which we cooperate. I'm not joking when I claim the workers must own the means and ends of production. TW can be a tool for defeating slavery (a concept that comes in degrees) to some degree. It's a free speech tool. For some reason, even [[Tim Berners-Lee|2018.07.06 - Tim Berners-Lee: Solid Failure]] doesn't appear to understand capitalism's devastating effects on our ability to own our digital dialectical identities together wisely.
+
+Tones, I trust you with my gut paranoid feeling here. You know I aint the hacker you are (but, I wager I like computers as much as you though, brother), but sometimes I see some interesting things. Pick the rubble of my [[arrogant]] thoughts for whatever is useful to ya.
+
+Sir Jed's software is amazing; he's a genius. If that's the way TW should go, then I hope to see TW5-Bob run with a secure p2p network-sync tool inside a browser (the virtual machine of the people is going to require some hacks). This isn't Jed's job. That dude is a beast hacking his brains out for everyone. Providing host-CLI control of a live wiki through local and remote file synchronization is what I think makes TW5-Bob The Bomb, yo. In my dreams, I see an the ecosystem that arises around TW5-Bob serving as the basic prototype for a very low-level tooling. 
+
+Right now, the average user is not going to be able to control their end-points online well enough; the end-to-end principle will not be respected by capitalism. Read-only mode html files are the basic block of routing through this lack of neutral pipelines (it even allows you to snailmail, deaddrop, and sneakernet), and given how TW is a quine, our context becomes more acceptable. That's where TW is this viral magnet of a tool that can clump communities of very loosely based technologies together. This is the competitive advantage of TW. In a sense, if you aren't abusing its quinity, you aren't pushing the correct direction. You stay radically platform independent, in a sense, by maximizing that feature: ensure your longevity.
+
+I feel like my TW is attempting to be a p2p-distributed, compact, self-editing web binary. It's designed to reverse engineer itself.
+
+Here's an example of why TW has superior openness: you can download my wiki and search for things that you would not want me to see you searching for. Google is never going to give you that [[power]]; even Wikipedia doesn't seem to build for decentralization when they ought. Built into the fabric of the tool itself, TW enables me to give you the power to query the data as well as I can. That's what I think a fairer society has to look like. It is trivial to mirror me. I can host as many end-points as I need. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+<<<
+Thanks for the reminder to check out Searchwikis, that was a very well thought out concept. Jed has done a lot of work on the federation concept that I also want to get familiar with. I agree that this opens up a huge opportunity to share/trade content.
+
+Best,
+
+Joshua F
+<<<
+
+Thank you, sir. I don't know how to do this best with what we've got. Admittedly, while my predictions are not optimistic, I am still hopeful we can find a way.
+
+TW [[lowers the friction|ltf]] to iteratively constructing almost arbitrarily complex pieces of hypertext. It gives a simplified box to be creative in, and in doing so, allows us to share structures
+
+
+---
+
+Then here is what I have to tell you, Sir Tony (so much more than you bargained for).
+
+First, more than once I've said it to you, and I am going to say it outloud around the campfire again: I think you do outstanding work for Humanity. Thank you. I should try to say it to you in full as best I can (I am grateful that you forgive this fool for spittin' 𝕱𝕴𝕽𝕰 with sincerity). We are lucky to know you; you're a pillar and pioneering craftsman of this community too. You give back what you understand of the world (a massive amount) so thoroughly. I'm not joking when I say you are a gentleman and a scholar. You are one of my favorite teachers I've met, and that is higher praise than I'm gonna know how to explain. You're in the trustworthy trenches everyday, mate. You're a self-taught ninjahacker who survives on fresh tiddlywiki (may they swarm!) and honey in the desert, a man who who aims to do what's right with what he has. You inspire me, sir. I reserve that term for philosophers I meet on my journey. I do not use it lightly. You, sir, are an architect of tools meant to save humanity. You are an expert, and it is my honor to think carefully with you. I hope to live up to you.
+
+I am grateful that you will listen to me (I'mma c r a z y man XD); you bring light into my blind eyes. You help me stand up, give me water, put a fire in my belly, help me find my way, Samaritan. You make the world a less lonely place, and I don't know how to thank you for that enough.  
+
+<<<
+Progress and tools are enhancing this every day. Past federation work especially Jed's has a lot to teach us, including the need for simplicity and integration with the core.
+<<<
+
+I am glad to hear it. 
+
+<<<
+So much new material has being forth coming with the times Covid-18, has isolation and social distancing given people more time to get involved?, I have not yet being able to catch up.
+<<<
+
+No doubt. 
+
+<<<
+A particular area related to this subject is the use of libraries. They are currently hard to build but the mechanisms are there for more tools to allow this. The thing about a library is it is a single definition tiddler with a url that points to someone else's resources, it provides update detection and opening a library will list the most recent published "tiddler/plugins".
+<<<
+
+<<<
+Libraries are also efficient as each tiddler is published in its own file, thus url. But this adds complexity if generating shareable items on some hosts and from single file wikis.
+<<<
+
+<<<
+The important thing about a library is If I maintain mine people can see my changes as they are saved. This is a pull update process.
+Already node servers publish a static tiddler, I do not see why it could not publish a static tiddler that is in fact a tiddler someone can subscribe to like a library entry.
+<<<
+
+<<<
+I believe extending the tools available to automate access to libraries and library items, or generate them, would take us a long way. This includes scheduled update and notify queries.
+<<<
+
+
+<<<
+I believe we should start with a loosely coupled network of tiddlers, via this existing mechanism.
+
+I have more ideas to support this but want to seek your view.
+
+Regards
+Tony
+<<<
+
+

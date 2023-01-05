@@ -1,0 +1,72 @@
+created: 20200918025615288
+modified: 20200918031410781
+tags: chameleon Chatlog
+title: 2020.07.18 - chameleon: Family Heirloom Guitar
+
+"""
+[12:57 PM] h0p3: I wish you luck!
+
+[5:52 AM] chameleon: Idk if I told you about [[REDACTED]]: it's an electric guitar me and pops cobbled together from spare parts
+Today I finished the electronics!
+
+[5:52 AM] chameleon: Wiring gore:
+
+[11:59 AM] h0p3: Sick! That's metal.
+[12:01 PM] h0p3: ELI5, what did you have to do to cobble it together and finish the electronics?
+[7:56 PM] chameleon: busy morning! alright
+[7:56 PM] chameleon: so, you know how a pickup works I'm assuming (electro magnetism + the motion of the strings)
+[7:57 PM] chameleon: I think that's the right-hand rule
+[7:57 PM] chameleon: the hot wire originally just went straight to the jack
+[7:57 PM] chameleon: I had to branch it off to a potentiometer, whose output has a capacitor going to ground
+[7:59 PM] chameleon: this has the effect of a low-pass filter (the tone knobs)
+[8:00 PM] chameleon: there's one per pickup, so I had to install three of them
+[8:00 PM] chameleon: I also had to repair some wiring that had broken off/gone dry
+[8:01 PM] chameleon: probably because of my bad soldering and rough treatment of these wires!
+[8:01 PM] chameleon: and I also installed a new pickup (a single coil) in the center position
+[9:13 PM] h0p3: No, I don't know how pickups really work. Looking it up now.
+[9:14 PM] h0p3: This looks like fun though.
+[9:15 PM] h0p3: I'd like to hear the difference in tones some time.
+[9:15 PM] h0p3: Was it expensive to complete the project?
+[9:18 PM] chameleon: Had to buy a new mid pickup, $40
+[10:04 PM] chameleon: Here's a video of me playing & explaining the guitar (redact it from going on wiki pls)
+[11:52 PM] h0p3: This is wonderful.
+[11:53 PM] h0p3: I think it's awesome that you got to build it with family too.
+[11:54 PM] h0p3: Seems like you have the ability to really customize an electric guitar over the years.
+[11:54 PM] h0p3: Not a lot of instruments with that much flexibility.
+[11:55 PM] chameleon: yeah, I suppose so! the main other rock instrument with that ability (apart from electric bass, that's cheating) is the drums. you can build a huge drumkit or just keep it minimalist
+[11:56 PM] h0p3: I know a lot of people have sentimental value in their instruments (understandably), but I could imagine that it could be almost impossible to replace something you made like this.
+[11:56 PM] h0p3: Yeah, I can see that, especially with the electrical drumkits.
+[11:57 PM] chameleon: https://www.youtube.com/watch?v=3CqOtEz6PfA
+[11:57 PM] h0p3: haha, classic
+
+[12:00 AM] chameleon: oh I guess pianists too? some rock keyboard players have a huge setup
+[12:00 AM] chameleon: Keith Emerson comes to mind
+[12:00 AM] h0p3: I consider them two different instruments.
+[12:01 AM] h0p3: Synthesizers are their own worlds.
+[12:01 AM] h0p3: If I had unlimited time, I would learn to make electronic music.
+[12:02 AM] chameleon: https://www.youtube.com/watch?v=JwsflF5Fyho
+[12:02 AM] chameleon: synth is really something
+[12:03 AM] chameleon: some synth players will just have one, but then there's the likes of keith or wassisface from Phish who just have a zillion of them
+[12:08 AM] h0p3: I can appreciate wanting to have multiples historically. 20 years ago, I used to make money on the side playing a relatively nice Korg each week. It had its limits, and I could imagine wanting to have that keyboard set for this piece, and another keyboard for some other piece, and so on.
+[12:08 AM] chameleon: I didn't know you played!
+[12:11 AM] h0p3: Yup. Been a long time since I played. [[L]]'s wedding was the last time, and before that, I don't remember.
+[12:12 AM] chameleon: I see! ever since I learned guitar I've never been away for long. it's one of my favorite things
+[12:13 AM] h0p3: I was pretty decent at the piano and clarinet, but I'm still just a noob on my folk instruments. I usually only play my own music when I'm feeling particularly sad.
+[12:14 AM] h0p3: I can see being quite attached to that guitar. I like the sound of it.
+[12:15 AM] chameleon: it probably has the nicest tone out of the guitars I own, which is surprising (maybe it's the high action)
+[12:16 AM] chameleon: it's cobbled out of fairly cheap parts, but I guess nice pickups and nice strings really make for a good sound
+[6:32 PM] chameleon: I spot a [[Guitar]] page :eyeshyper:
+[6:33 PM] chameleon: you read music too? awesome
+[6:33 PM] chameleon: classical guitar is magical. the closest I get is playing bossa. haha.
+[6:35 PM] chameleon: and I can't read music. I have no formal music education at all. entirely self taught. :bongo2:
+
+[12:46 AM] chameleon: re: https://buttondown.email/hillelwayne/archive/syntax-highlighting-is-a-waste-of-an-information/
+I used to use an eink colorscheme. no colors at all. that was fun. I find string highlighting is one of the best use-cases; same with comments.
+[12:47 AM] chameleon: because you don't want your comments or strings overflowing and fucking it up :stuck_out_tongue:
+[3:17 AM] h0p3: I read music, though not like I used to. It's a labor of love when I do it now. Back when I played piano seriously, it was something I enjoyed more.
+[3:19 AM] h0p3: I use tab for guitar though; I have to sit down to translate standard music notation to tab (or have it automated if I can).
+[3:19 AM] chameleon: Yeah, sheet music for guitar is so confusing since you can use any of six strings to play the notes ;)
+[3:20 AM] h0p3: I am envious of those who can play by ear. Were I to aim to craft offspring who were musically talented, I would have gone for the Suzuki method.
+[3:21 AM] chameleon: Reminded of https://youtu.be/DzGbCDNhZFc
+[3:25 AM] h0p3: String highlighting and hiding comments make sense for me. If I wrote code often, it would probably be something I would have stronger sensibilities about. It's compounded by the problem that I don't really see color as well as most folks, so I have to use my narrow range sparingly. There are lots of high-bandwidth, well-abstracted graphs that I simply can't see because they abuse color perception so thoroughly.
+"""

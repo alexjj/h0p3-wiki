@@ -1,0 +1,11 @@
+caption: History
+created: NaNNaNNaNNaNNaNNaNNaN
+creator: Wim Moermans
+modified: 20220128040735936
+modifier: wjam
+tags: Timelines historyplugin More
+title: $:/plugins/wimmoermans/history/HistoryTab
+
+{{{ [history[]] }}}
+
+{{$:/plugins/wimmoermans/clearHistoryButton}}

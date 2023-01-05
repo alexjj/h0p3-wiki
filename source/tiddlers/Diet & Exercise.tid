@@ -1,0 +1,37 @@
+created: 20190106235142954
+fc-filter: Diet & Exercise
+modified: 20200902220213807
+tags: [[Infrequent Logs & Projects]] FTO
+title: Diet & Exercise
+
+!! About:
+
+HEY!!!! FIX ME!
+
+
+---
+!! Principles:
+
+
+
+
+---
+!! Focus:
+
+<$set name="mydate" value=<<now YYYY.0MM.>>>
+<$macrocall $name="list-links" filter="[prefix[$(currentTiddler)$:]]"/>
+<$macrocall $name="list-links" filter="[tag[$(currentTiddler)$]!prefix[$(currentTiddler)$:]!regexp[\d\d\d\d.\d\d.\d\d - .*]!regexp[\d\d\d\d - .*]!regexp[\d\d\d\d.\d\d - .*]]"/>
+<$macrocall $name="list-links" filter="[regexp[^\d\d\d\d\.\d\d\.\d\d - $(currentTiddler)$]] [regexp[^\d\d\d\d\.\d\d\.\d\d - .*]tag[$(currentTiddler)$]!regexp[^\d\d\d\d.\d\d.\d\d - $(currentTiddler)$]] -[regexp[^\d\d\d\d.\d\d.\d\d - Retired: $(currentTiddler)$]] +[prefix<mydate>] +[sort[title]]"/>
+</$set>
+
+---
+!! Vault:
+
+* Retired:
+** [[2019.01.06 - Retired: Diet Log]]
+
+
+---
+!! Dreams:
+
+* To dream of more dreams for this page.

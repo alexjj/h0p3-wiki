@@ -1,0 +1,152 @@
+created: 20221003040318528
+modified: 20221003042312030
+tags: sabaLynx Chatlog
+title: 2022.09.30 - sabaLynx: Attack On Tor
+
+"""
+[pending] : 2022-09-29
+[14:35:57] saharsedigh: hello
+[20:14:23] h0p3: Yo
+[20:14:25] h0p3: How are you doing today?
+[22:41:02] saharsedigh: hello;
+[22:41:10] saharsedigh: everything good?
+
+[pending] : 2022-09-30
+[00:12:02] saharsedigh: :D
+[00:20:38] h0p3: lmao
+[00:20:49] h0p3: well, I'll leave it up longer
+[00:21:21] h0p3: Try out Whonix if you get the chance. Resilio Sync is fast. 
+[00:22:03] h0p3: They are mutable torrents of synchronized directories, and I've found serious competition in this place. 
+[00:22:10] h0p3: (something I hope to rectify one day)
+[01:27:57] h0p3: I can't say that everything is good, but I'll say my day has been good.
+[01:47:49] saharsedigh: I don't know your setup. but I want to do a test. http://i5qvk6kcblmnad2cwd6biqgi3q7plttzzikrqeukny3dlqpgtvkamvqd.onion/
+[01:48:35] saharsedigh: that link is the whole collection of Darts you gave me. (all the goodies)
+[01:49:06] saharsedigh: Would it be much to give the same directory as retroshare collection?
+[01:49:54] saharsedigh: I want to test the best delivery system in our machines?
+[01:50:02] h0p3: Makes sense.
+[01:50:15] saharsedigh: also I have a Mac system free at the moment.
+[01:50:46] saharsedigh: Would It do the job? For Whonix?
+[01:51:01] h0p3: I believe it should work on it, yes. 
+[01:51:06] saharsedigh: I will go each route that you recommand!
+[01:51:25] saharsedigh: either RS Collection OR Whonix
+[01:51:43] h0p3: Well, bad news is that my custom Whonix does not appear to be working correctly at the moment!
+[01:51:45] h0p3: Just checked.
+[01:52:20] saharsedigh: Also tell me if any other way is possible.?!@
+[01:52:44] h0p3: MuWire is another way.
+[01:52:49] saharsedigh: {{Well, bad news is that my custom Whonix does not appear to be working correctly at the moment!}} >> No Rush.
+[01:53:32] h0p3: nm, just needed to restart gateway, appears operational again, for now* =D.
+[01:53:56] h0p3: I'd like to test that with you.
+[01:54:03] saharsedigh: 😆 love ATM part.
+[01:54:12] saharsedigh: I am game
+[01:55:05] h0p3: I keep my syncs fully separate from what retroshare can access. I can just copy and paste the directory (though all the parts are already shared, they aren't in one nice directory).
+[01:55:36] saharsedigh: tor rx is about 9.2KB  right now
+[01:55:44] h0p3: Yuck
+[01:56:00] h0p3: We can do better than that
+[01:56:17] saharsedigh: {{(though all the parts are already shared, they aren't in one nice directory).}} >> That would do. RSCollection won't work at way.
+[01:56:23] h0p3: I currently am not at max upload speed either.
+[01:56:41] saharsedigh: ahhh; I wish Tox had reply option like TelegrAM]: [01:57:01] h0p3: It does, I believe. 
+[01:57:07] h0p3: I don't know how to make it do that. =D. 
+[01:57:30] saharsedigh: It seems tor network is heavy under attack....
+[01:57:51] saharsedigh: has been for sometime.
+[01:58:50] h0p3: Yes, indeed.
+[01:58:51] saharsedigh: tell you waht! Just make a RS Collection of an small portion of what is available about 1G or 2.
+[01:59:35] h0p3: You should be able to see what I'm sharing, right? /mnt/m16-new-storage/public-share/temp/sabaLynx
+[01:59:42] h0p3: then you can pick out exactly what you want. 
+[02:00:27] saharsedigh: In Files?
+[02:00:32] h0p3: Aye
+[02:01:00] saharsedigh: In friends file?
+[02:02:11] h0p3: Should work, yeah
+[02:03:41] h0p3: I'm topping out at 80kb/s on this one download (testing https://keet.io).
+[02:03:46] h0p3: Ugly
+[02:05:37] h0p3: I appreciate your testing file transfer options out with me. I assume you are a busy person, and this might not be nearly as fun as standard programming.
+[02:07:39] saharsedigh: I don't have you in there. You appear to be offline. I send you an Retroshare email. Plz connect to both links/IDs. I hit you at the same time at my end.
+[02:07:59] saharsedigh: I appreciate you help.
+[02:09:17] saharsedigh: *your help
+[02:13:37] h0p3: Hrm. Retroshare showed me some activity from you, Tunnel is pending again...
+[02:13:53] saharsedigh: Wait
+[02:14:58] saharsedigh: Let me restart my machine
+[03:46:46] saharsedigh: 😓😵 Hi back.
+[03:47:09] saharsedigh: that was something. all things went down here. all the way to my router
+[03:47:23] saharsedigh: I lost my wifi connection too
+[03:55:37] h0p3: =D
+[03:55:44] h0p3: Sorry. I know that feel.
+[03:56:00] h0p3: Our interwebs went down today in the household. 4 of us almost died. :P
+[03:58:28] saharsedigh: I hold my breath when that happens. but it usually don't help I get dizzy
+[03:58:46] saharsedigh: 😴😄
+[08:26:03] saharsedigh: Did you ever tried ZeroNet or IPFS?
+[08:49:27] saharsedigh: I see you online but I cant connect to you. something is wrong!
+[pending] h0p3: I have tried ZeroNet and IPFS. Both are interesting tools. 
+[pending] h0p3: Something is wrong! Lol. I think Retroshare's connectivity is still flawed while routed over Tor.
+"""
+
+<br>
+
+"""
+SabaS3digh [4:42 AM]: hello
+SabaS3digh [4:42 AM]: this is my mac
+SabaS3digh [8:09 AM]: hello
+SabaS3digh [8:10 AM]: are you available.
+SabaS3digh [8:10 AM]: plz add this ...
+SabaS3digh [8:10 AM]: RetroShare Certificate (sabas3digh (Generated by RetroShare) , @sabaclear) 
+SabaS3digh [8:10 AM]: this is my mac
+SabaS3digh [8:10 AM]: then I will try to find the temp folder
+h0p3 [11:04 PM]: Yo =)
+SabaS3digh [11:04 PM]: Yo ;D
+SabaS3digh [11:05 PM]: took long enough I was about to give up ..
+SabaS3digh [11:05 PM]: thanks retroshare 
+h0p3 [11:05 PM]: Able to see the files here?
+SabaS3digh [11:05 PM]: send my yor retroshatre link first
+SabaS3digh [11:05 PM]: plz
+SabaS3digh [11:06 PM]: RetroShare Certificate (sabas3digh (Generated by RetroShare) , @sabaclear) 
+h0p3 [11:06 PM]: RetroShare Certificate (h0p3 (Generated by RetroShare) , @My computer) 
+SabaS3digh [11:14 PM]: I just install ipfs 
+SabaS3digh [11:14 PM]: now what?
+SabaS3digh [11:15 PM]: you gave me a hash-key of some sort. Should I import that?
+h0p3 [11:15 PM]: You might try ipfs-desktop
+h0p3 [11:15 PM]: makes it a bit simpler, imho
+SabaS3digh [11:15 PM]: it is that.
+SabaS3digh [11:15 PM]: the desktop
+h0p3 [11:16 PM]: (this process has been hilariously sad, btw...it's 2022, and we're struggling to move a batch of files anonymously when governments don't want us to)
+h0p3 [11:16 PM]: Import "From IPFS"
+SabaS3digh [11:16 PM]: to put it nicely.
+SabaS3digh [11:19 PM]: ￼Screenshot 2022-09-30 at 20.18.42.png (47.7 KB) it is RED
+SabaS3digh [11:19 PM]: QmcN28TNnrnLVjYBAJdE7SAnWWqcDebKM9w2FJ8fmuscer
+SabaS3digh [11:19 PM]: I even add /ipfs/at the begining
+h0p3 [11:24 PM]: Aye. I'm having trouble reaching it as well.
+h0p3 [11:26 PM]: restarting it
+"""
+
+<br>
+
+"""
+[21:41:37] saharsedigh: hi
+[21:42:32] saharsedigh: I lost tor and qtox connections for about 12hrs
+[22:21:13] h0p3: Yo. Sorry, man. The network has been under attack.
+[22:21:32] h0p3: We could avoid using Tor, if you prefer. 
+[22:37:24] saharsedigh: Hello back
+[22:37:30] h0p3: Yo =)
+[22:40:37] saharsedigh: No; I prefer tor. Beside It was very strange thing. even meek bridges didn't connect. I change carrier and got connected. even then no data did exchange... I even went as far as Reset my router.... I just got connected again... I did think you left or something but It was my not getting through... I was something I tell you....
+[22:41:26] h0p3: That sounds frustrating.
+[22:41:45] h0p3: Especially if you've got critical work to get done that can't be done offline.
+[22:41:51] saharsedigh: I went and Install ZeroNet. The idea is very intersting but how much secure and anon is it I don't know
+[22:44:20] saharsedigh: I think there is a shif in the geo-political world happening right now... too much happening in too many places to be coincidence.
+[22:45:24] h0p3: I am, unfortunately, too blind to understand what is happening (though I am doing my best to understand).
+[22:45:34] saharsedigh: It is something for tor to be this unreliable
+[22:46:13] saharsedigh: me too...me too but something is going on..
+[22:46:33] saharsedigh: by the way... you told me you done both IPFS and ZeroNet
+[22:46:36] saharsedigh: yes?
+[22:47:00] h0p3: I've used them since they first came out, but I'm not a huge fan of either of them. 
+[22:47:12] h0p3: I've an IPFS key for your directory: QmcN28TNnrnLVjYBAJdE7SAnWWqcDebKM9w2FJ8fmuscer
+[22:47:30] h0p3: (but, I can't say it is easily reached...again, over Tor)
+[22:48:33] saharsedigh: oh oh .....
+[22:48:53] saharsedigh: the temp directory you were telling me about... in retroshare...
+[22:49:30] saharsedigh: look at the access permission of that... Does it set right?
+[22:49:41] saharsedigh: I can't see it...
+[22:49:57] saharsedigh: check your retroshare email.. do you have any new ones?
+[22:51:28] h0p3: E-mails checked. Keys added again. 
+[22:53:52] h0p3: Reset permissions. Looks good.
+[23:42:25] h0p3: I gotta get some sleep. 
+[23:42:41] h0p3: TTYL `/salute`
+[23:43:21] saharsedigh: and I got to eat.
+[23:43:34] saharsedigh: nice sleep I hope ....
+"""

@@ -1,0 +1,111 @@
+created: 20200703205611384
+modified: 20200704040218918
+tags: K To Letter
+title: 2020.07.03 - K: Don't Stop Learning
+
+Dear [[K]],
+
+I was originally just going to try to say it over instant messaging, but that's not the fitting medium for this message.<<ref "e">> I am still thinking about your claim:
+
+<<<
+I’m ready to get back to work on my schooling though.
+<<<
+
+Even if it isn't asked for, it's always my honor to stick my neck out and tell someone I care about (especially my brothers) what I understand as best as I can.  
+
+I am going to sound even more maniacally [[arrogant]] than usual here,<<ref "a">> but {[[I|About]]} [[know myself|Know Thyself]] enough to fairly recognize I'm a [[monster]] at learning some things. Even as an oddball student, I take my job to be [[computing]] for [[Humanity]], so please hear me out. I will fail to explain how highly I think of learning well; learning and applying what is [[salient]] about what is true, [[irwartfrr]], is my purpose. While I'm an outlier and maybe polymath (learning is pathologically fun for me), I am, unfortunately, not a [[good]] teacher in many respects. So, with less ability here to judge wisely, I also think highly of effective justified teachers.<<ref "b">>
+
+My advice as someone who is privileged enough to climb ladders, crawl webs, and penetrate spheres of knowledge and meaning at the pace I do: take and squeeze every day you have for your studies. Pwn it. Make it the [[vidya]] [[game|Games]] you adore most of all. The best teachers I know are radical life-long learners. Take the subject-matter you are going to teach, and do the work of someone getting a graduate degree in that topic outside of class.<<ref "i">> You can and should do it. Your children will uniquely benefit from having any teacher who is an expert in the humanities. Even in role-modeling to your students, there is no substitute for learning from a daily-practitioner and passionate student of their subjects.
+
+I've recently considered how much I think and talk about my teachers and teachers I've met over my lifetime. I do it a lot as a student; I have to retell the stories of who my teachers have been (and what they taught) because of [[other]] teachers too.<<ref "t">> I [[hope]] it's a topic we will cherish together. I have been lucky enough to work alongside many teachers, and I care deeply about the vocation. The following are just random colleagues of whom I've hundreds of pages of writing about that justify what I'm saying to them. You are my brother, and my integrated thinking on your behalf eclipses these [[other]] teachers I have cared for:
+
+!! [[Afterschool Teaching: Whitney]]
+
+: <$button class="tc-btn-invisible" popup=<<qualify "$:/temp/Whitney">>>
+Contextlink: [search:text[Whitney]] -[tag[Link Log]] -[tag[Music]]
+</$button>
+<$reveal type="nomatch" state=<<qualify "$:/temp/Whitney">> text="">
+
+<$list filter="[search:text[Whitney]] -[tag[Link Log]] -[tag[Music]] +[sort[title]]" emptyMessage="">
+<$link to={{!!title}}><$view field="title"/></$link>
+<$context length=80 term="Whitney"/>
+<br>
+</$list>
+
+</$reveal>
+
+<br>
+
+!! [[Afterschool Teaching: Matt]]
+
+: <$button class="tc-btn-invisible" popup=<<qualify "$:/temp/Matt">>>
+Contextlink: [search:text[Matt]tag[Afterschool Teaching]]
+</$button>
+<$reveal type="nomatch" state=<<qualify "$:/temp/Matt">> text="">
+
+<$list filter=" [search:text[Matt]tag[Afterschool Teaching]] +[sort[title]]" emptyMessage="">
+<$link to={{!!title}}><$view field="title"/></$link>
+<$context length=80 term="Matt"/>
+<br>
+</$list>
+
+</$reveal>
+
+<br>
+
+!! [[Afterschool Teaching: Carson]]
+
+: <$button class="tc-btn-invisible" popup=<<qualify "$:/temp/Carson">>>
+Contextlink: [search:text[Carson]] -[tag[L]] -[tag[K]] -[search:title[D2: ]]
+</$button>
+<$reveal type="nomatch" state=<<qualify "$:/temp/Carson">> text="">
+
+<$list filter="[search:text[Carson]] -[tag[L]] -[tag[K]] -[search:title[D2: ]] +[sort[title]]" emptyMessage="">
+<$link to={{!!title}}><$view field="title"/></$link>
+<$context length=80 term="Carson"/>
+<br>
+</$list>
+
+</$reveal>
+
+<br>
+
+!! [[Afterschool Teaching: MadameM]]
+
+: <$button class="tc-btn-invisible" popup=<<qualify "$:/temp/MadameM">>>
+Contextlink:  [search:text[MadameM]]
+</$button>
+<$reveal type="nomatch" state=<<qualify "$:/temp/MadameM">> text="">
+
+<$list filter="[search:text[MadameM]] +[sort[title]]" emptyMessage="">
+<$link to={{!!title}}><$view field="title"/></$link>
+<$context length=80 term="MadameM"/>
+<br>
+</$list>
+
+</$reveal>
+
+<br>
+
+I'm thinking of you with the same intense [[love]], but with far more skin in the game with you. 
+
+It may be reasonable to predict that the next two years will be ones in which you have the least interrupted and most plentiful freetime available to you for the next several decades. I'm trying to help you make the most of it. You only get out what you put into school,<<ref "p">> and you should set the bar for yourself as high as possible here. 
+
+
+
+[[Love]],
+
+[[h0p3]]
+
+---
+<<footnotes "e" "It is always daunting to write to English majors. Forgive my prose and syntax errors.">>
+
+<<footnotes "a" "And, you should freely say so, please.">>
+
+<<footnotes "b" "I'm an annoying brother to have here: I have ridiculously high moral expectations of everyone.">>
+
+<<footnotes "i" "I have argued this to you on more than one occasion (and from several directions).">>
+
+<<footnotes "t" "This is one of the most noble and aretaic parts of my senpai, [[Madame chameleon|chameleon]].">>
+
+<<footnotes "p" "Even grad school should not be merely about passing a test and acquiring a piece of paper that signals your competence. This is a chance to dive deep and learn in an especially limited space. I [[hope]] you'll be able to habituate the same virtue in your own students.">>

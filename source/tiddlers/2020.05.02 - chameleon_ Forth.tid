@@ -1,0 +1,61 @@
+created: 20200714222240164
+modified: 20200714222733519
+tags: chameleon Chatlog
+title: 2020.05.02 - chameleon: Forth
+
+"""
+[5:18 PM] chameleon: https://twitter.com/johnvvariety/status/1256452260642643969
+[5:19 PM] chameleon: Philosopher king of the friend zone :rofl:
+[7:53 PM] h0p3: lmao! poyfect!
+[7:53 PM] h0p3: gracias
+[7:53 PM] h0p3: also, how's it going?
+[7:54 PM] h0p3: https://www.digitalmars.com/articles/b90.html
+[7:55 PM] h0p3: https://news.ycombinator.com/threads?id=WalterBright seems like an interesting dude
+[7:55 PM] h0p3: I've never even tried D out before.
+[7:56 PM] chameleon: I'll try it out soon™
+[7:56 PM] chameleon: I have lots to do recently
+[7:56 PM] h0p3: I hear that.
+[8:00 PM] chameleon: I do have my own Forth system up and running already :stuck_out_tongue: It's not very good though. It doesn't have strings.
+[8:00 PM] h0p3: Noice.
+[8:00 PM] chameleon: I implemented it in C, which is Not What You're Supposed To Do
+[8:00 PM] h0p3: Keep running into Forth.
+[8:01 PM] h0p3: Why not?
+[8:01 PM] chameleon: it's really a low level language
+[8:01 PM] chameleon: it wants to have the memory to itself, without worrying about allocation
+[8:01 PM] chameleon: It should, really, be implemented in asm
+[8:01 PM] chameleon: but I translated jonesforth to C anyway =w=.
+[8:02 PM] h0p3: I am out of my league here. I assumed something like transpiling to LLVM IR would be the way go.
+[8:04 PM] h0p3: Still, C seems like a great language to do it in. Portable.
+[8:05 PM] chameleon: it's a rare example of a highly portable forth
+[8:06 PM] chameleon: I learned a lot building it
+[8:07 PM] h0p3: I can imagine; it's an amazing kind of project. For the love of computing.
+[8:10 PM] h0p3: I think Cython and Xonsh are pretty nifty, if I understand correctly. Tying the writing of languages together like that is beautiful.
+[8:11 PM] h0p3: Being able to write in the one most fitting for the job up until it's just better, safer, faster, whatever to do it in the other.
+[8:11 PM] chameleon: jonesforth is quite similar; the asm core is quite small
+[8:12 PM] chameleon: just enough to do branching, arithmetic, and memory management
+[8:12 PM] chameleon: oh and IO
+[8:12 PM] chameleon: the rest can actually be done in Forth
+[8:13 PM] chameleon: even the "compile a word" word is written in forth, which is pretty impressive
+[8:13 PM] chameleon: and so are the looping constructs, and if/then/else
+[8:13 PM] chameleon: https://github.com/nornagon/jonesforth
+[8:13 PM] chameleon: it's a fun project
+[8:13 PM] chameleon: translating it to C lead me to really understand it, imo
+[8:14 PM] chameleon: you do have to read a lot of asm, tho
+[8:15 PM] h0p3: Neat.
+[8:15 PM] h0p3: Have you been able to show your dad the project?
+[8:15 PM] chameleon: not in full
+[8:16 PM] chameleon: pops and I need to meet up for that, because I'd have to show him it running on my environment
+[8:16 PM] chameleon: I suppose I could get him to make a discord and do it over VC, but that might take some time, haha
+[8:17 PM] h0p3: Maybe terminal sharing would work. I don't know.
+[8:17 PM] chameleon: mm. Either way, I think it's best to save it for when he and mom visit
+[8:17 PM] chameleon: which will be... soon™
+[8:17 PM] h0p3: something to look forward to talking about
+[8:17 PM] chameleon: (thanks covid)
+[8:18 PM] chameleon: it would've been april if not for this poxy virus
+[8:18 PM] h0p3: Yeah. =/.
+[8:18 PM] chameleon: ...no pun intended
+[8:18 PM] h0p3: Even if the states come back online faster than anticipated, I don't know what if any travel restrictions will be in place.
+[8:19 PM] chameleon: the UK and US should be travellable, but I really don't want to put anyone at risk until I know we're safe
+[8:19 PM] h0p3: Makes sense. Sucks. :frowning:
+[8:19 PM] chameleon: mm ;; didn't realise that the small amount of going-out we do had such a large impact
+"""

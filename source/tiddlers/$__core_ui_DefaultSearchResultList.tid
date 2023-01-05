@@ -1,0 +1,68 @@
+caption: 1st 100 Matches
+caption.orig: {{$:/language/Search/DefaultResults/Caption}}
+created: NaNNaNNaNNaNNaNNaNNaN
+modified: 20220129034425980
+tags: $:/tags/SearchResults j3d1h
+title: $:/core/ui/DefaultSearchResultList
+
+\define searchResultList()
+<$button class="tc-btn-invisible tc-tiddlylink">
+<$list filter="[title{$(searchTiddler)$}has[title]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<span style="color:#66ff66">//<small>Exact match:</small>//</span>
+</$button>
+
+
+<$list filter="[title{$(searchTiddler)$}has[title]]" template="$:/core/ui/ListItemTemplate"/>
+
+
+<$button class="tc-btn-invisible tc-tiddlylink">
+<$list filter="[search:aliases{$(searchTiddler)$}has[title]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<span style="color:#66ff66">//<small>Alias matches:</small>//</span>
+</$button>
+
+
+<$list filter="[search:aliases{$(searchTiddler)$}has[title]]" template="$:/core/ui/ListItemTemplate"/>
+
+
+<$button class="tc-btn-invisible tc-tiddlylink">
+<$list filter="[!is[system]search:title{$(searchTiddler)$}!tag[Hidden]sort[title]limit[100]] -[title{$(searchTiddler)$}]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<$list filter="[!is[system]search:title{$(searchTiddler)$}!tag[Hidden]sort[title]limit[100]] -[title{$(searchTiddler)$}] +[first[]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<span style="color:#66ff66">//<small>{{$:/language/Search/Matches/Title}}</small>//</span>
+</$button>
+
+<$list filter="[!is[system]search:title{$(searchTiddler)$}!tag[Hidden]sort[title]limit[100]] -[title{$(searchTiddler)$}]" template="$:/core/ui/ListItemTemplate"/>
+
+<$button class="tc-btn-invisible tc-tiddlylink">
+<$list filter="[!is[system]search{$(searchTiddler)$}!tag[Hidden]sort[title]limit[100]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<$list filter="[!is[system]search{$(searchTiddler)$}!tag[Hidden]sort[title]limit[100]] +[first[]]">
+<$wikify name=title text="""<$view field="title"/>""">
+<$action-navigate $to=<<title>>/>
+</$wikify>
+</$list>
+<span style="color:#66ff66">//<small>{{$:/language/Search/Matches/All}}</small>//</span>
+</$button>
+
+<$list filter="[!is[system]search{$(searchTiddler)$}!tag[Hidden]sort[title]limit[100]]" template="$:/core/ui/ListItemTemplate"/>
+
+\end
+<<searchResultList>>

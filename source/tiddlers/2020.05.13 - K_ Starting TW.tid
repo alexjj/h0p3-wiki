@@ -1,0 +1,38 @@
+created: 20200711024712745
+modified: 20200711024809488
+tags: K Chatlog
+title: 2020.05.13 - K: Starting TW
+
+"""
+[9:42 AM] h0p3: Doing the office today?
+[10:21 AM] Ardent_Assailant: not today. I'm working from home. How are you today? :slight_smile:
+[10:21 AM] h0p3: Noice. What they got you doing at home?
+[10:21 AM] h0p3: I'm doing great.
+[10:22 AM] h0p3: Like 210lbs of offspring off my shoulders. Like dropping half my weight, lol.
+[10:22 AM] Ardent_Assailant: I have a box of microfiche where each individual piece is in a paper slip. they want me to separate them put for recycling... Yay busy work!
+[10:22 AM] Ardent_Assailant: Love it lol
+[11:30 AM] Ardent_Assailant: How's it going today?
+[11:53 AM] h0p3: Feeling lazy. May or may not push today. We'll see.
+[11:54 AM] h0p3: No school is best.
+[11:54 AM] h0p3: How about you, homie?
+[11:54 AM] Ardent_Assailant: I got bored during work yesterday and finally started my TiddlyWiki. :slight_smile: I know you offered to help me set it up, but I wanted to challenge myself to get it up and running before telling anybody.
+[11:54 AM] Ardent_Assailant: It's looking sexy so far.
+[11:54 AM] h0p3: ! :slight_smile: Yay
+[11:55 AM] Ardent_Assailant: I haven't decided how to host it yet, but I am backing it up manually, for now.
+[11:55 AM] h0p3: What is your saving mechanism?
+[11:56 AM] Ardent_Assailant: I decided to just use file-backups within Firefox for now.
+[11:56 AM] Ardent_Assailant: Because I'm insane, I'm also saving it to my HDD and backing it up to Google Drive.
+[11:57 AM] h0p3: That sounds like an excellent route. Simple, does the job well.
+[11:58 AM] Ardent_Assailant: Once I've got it brimming with content, I'll likely share the link with you all. :slight_smile:
+[11:58 AM] h0p3: For automated backups, on Windows, this is the simplest (and still very powerful) tool I know: http://synkron.sourceforge.net/
+[11:58 AM] Ardent_Assailant: Oooo, I'll look into this. Thanks [[h0p3]]! :slight_smile:
+[12:03 PM] h0p3: Private distribution over Resilio Sync works like a charm (bookmarkable to the filesystem, even in Tiddlywiki itself). If you aim to pubicly host it online, there are a few routes. Let us know, and we can help with that too, if you want.
+[12:03 PM] Ardent_Assailant: SHIT! OF COURSE I CAN USE RESILIO! WHY DIDN'T I THINK OF THAT? :joy:
+[12:04 PM] Ardent_Assailant: https://tenor.com/view/feel-me-think-about-it-gif-7715402
+[12:04 PM] h0p3: Remember that you can have multiple TWs (and they can be merged and peeled apart easily enough). What content do you aim to put in your TW?
+[12:05 PM] Ardent_Assailant: At this point, I want to have a lot of different things, just for ease of access, but eventually I could see myself exporting a lot of the lofty content into its own place.
+[12:05 PM] Ardent_Assailant: For instance, I've started a compendium for my homebrew campaign, and I'm going to dump A TON OF CONTENT into it.
+[12:07 PM] h0p3: If you need help munging text to be formatted correctly into TW markup, let me know. I might be able to automate some of that for you. Your Google Docs for the session notes would probaby be a good addition.
+[12:08 PM] Ardent_Assailant: Can do! I'm trying to make a strong template from scratch to make pages for important things, NPCs, locations, Player characters, etc, but eventually I intend to copy/ paste a lot of my old documents.
+[12:08 PM] Ardent_Assailant: I'll definitely ask for help when the time comes. :slight_smile:
+"""

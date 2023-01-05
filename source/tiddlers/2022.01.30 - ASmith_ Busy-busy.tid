@@ -1,0 +1,85 @@
+created: 20220131083930499
+modified: 20220201225140389
+tags: ASmith Chatlog
+title: 2022.01.30 - ASmith: Busy-busy
+
+"""
+[21:26:29] ASmith: Hi h0p3, I see you are busy-busy, well done. The Hypertext link is taking forever to load to philosopher.life
+[21:27:51] ASmith: I've been working to track down the 3 remaining 2160p 4K episodes in Snowpiercer season 2 for my collection of season 2 of that tv series, ah the link finally loaded.
+[pending] : 2022-01-30
+[05:13:26] h0p3: Thank you, sir. I do my best.
+[05:13:50] h0p3: I wish it weren't so slow to load (how long is it taking for you?). 
+[05:14:41] h0p3: I assume you are loading over Tor* (I'd have a hard time imagining you not doing so, :P). 
+[05:17:50] h0p3: There are trade-offs I have to consider here. It's ~50MB in total size right now, ~13MB after gzip compression for the browser. I understand that seems bloated AF, but it's about as slimmed down as I can make it (staying nearly pure text). The difference is that you can download it once, and you have your own copy, everything runs clientside, full off-line capability. It's //built// to live on sneakernets, [[anonymizing]] networks, and ephemeral connections while providing maximum [[privacy]] to my users. I can't see what you are reading or doing on the site at all, and that's exactly what I want.  
+[05:18:49] h0p3: Every time you load the site, it's a complete siterip. Makes it hard to censor.
+[05:21:00] h0p3: And, if you are going to be using it (I'm constantly searching through all 15k documents embedded inside it) for a long session, especially over high-latency networks, the performance will usually be significantly better than if I had been running a more lazy-loaded site that did the computation server-side. 
+[05:25:23] h0p3: It's also well-suited to hosting over many types of networks. I can use filesharing tools to host my site (and its snapshots, in case the historical record is important). Beaker-browser, Zeronet, IPFS, and mutable torrent tooling can be quite well-suited to having a swarm around a single html file too. It's hard to find a model that fits all the requirements. This is what I think the web should look like. Single Page Applications that will last for a long-time and don't require anyone to maintain a server, kinda like an operating system rolled into a PDF. 
+[05:25:26] h0p3: It has turned out to be a bonus that folks who lack the patience for delayed gratification (that is not you at all, sir) are turned off and bounced (by their own choice*). I'm glad that the site rewards curiosity and mitigates my interaction with those who weren't going to attempt to empathize enough.
+[05:30:02] h0p3: I've found a 2160p S02 pack. Let me know if I should grab it and send it to ya (we can test [[DarkMX]] for a 120GB of files too, if you want, lol).
+[13:56:06] ASmith: Hi, I"m slowly dl snpwpiercer s02 2160p episodes 7,8 at this time
+[13:57:16] ASmith: looks like when and if these complete then I'll only be lacking Snowpiercer.s02e05 2160p.
+[14:11:56] ASmith: slowly dling s02e05 2160p now, its a italian-english audio track, 12 GB
+[14:12:09] h0p3: I just finished grabbing it, hehe.
+[14:12:33] ASmith: nice is it a straight en audio or sub or ?
+[14:13:12] h0p3: 
+
+General
+Container......: Matroska
+Duration.......: 46mn 19s
+Size...........: 114.19 GB
+
+Video
+Codec..........: V_MPEGH/ISO/HEVC
+Resolution.....: 3840x2160
+Bit rate.......: 38.1 Mbps
+Frame rate.....: 23.976 fps
+
+Audio
+Format.........: E-AC-3
+Channels.......: 6 channels
+Bit rate.......: 768 Kbps
+Language.......: English
+
+Subtitles
+Language.......: English
+Language.......: Arabic
+Language.......: Czech
+Language.......: Danish
+Language.......: German
+Language.......: Greek
+Language.......: Spanish
+Language.......: Finnish
+Language.......: French
+Language.......: Hebrew
+Language.......: Hindi
+Language.......: Croatian
+Language.......: Hungarian
+Language.......: Indonesian
+Language.......: Italian
+Language.......: Japanese
+Language.......: Korean
+Language.......: Malay
+Language.......: Norwegian Bokmal
+Language.......: Dutch
+Language.......: Polish
+Language.......: Portuguese
+Language.......: Romanian
+Language.......: Russian
+Language.......: Swedish
+Language.......: Thai
+Language.......: Turkish
+Language.......: Vietnamese
+Language.......: Chinese
+
+
+[14:13:33] h0p3: (that's the full season, just grabbed the one you're missing)
+[14:13:37] ASmith: able to offer that on DarkMx or ?
+[14:13:50] h0p3: Refreshing, takes a bit
+[14:15:19] h0p3: darkmx:file:h0p3@k53zlirxiykmc5tkenqxqysnxc2wvhp2kr3gp2kaswkfoxvwerxq/public-share/torrents/Snowpiercer.S02.2160p.NF.WEBRip.DDP5.1.Atmos.x265/Snowpiercer.S02E05.Keep.Hope.Alive.2160p.NF.WEBRip.DDP5.1.x265-NTb.mkv
+[14:17:29] ASmith: thanks alot h0p3, downloading now
+[14:17:57] ASmith: time to get some kindling for the fireplace, cold in the house here, time for a warmup
+[14:18:04] ASmith: afk
+[14:18:17] h0p3: Yes, sir. `/salute`.
+[14:21:07] h0p3: Turned off another tool that was consuming my upload. Still slow AF though. Hrm.
+[14:46:11] ASmith: its over 100 KB/sec now, thanks,
+"""

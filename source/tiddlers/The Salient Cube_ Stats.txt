@@ -1,0 +1,86 @@
+Multicolor Coloration:
+
+  W 7 6 4 9               4 2 4 1       1 = 38
+  U 7       6 4 3         4 2 4   1 2   1 = 34
+  B   6     6     12 14   4     1 1   1 1 = 46
+  R     4     4   12    9   2       2 1   = 34
+  G       9     3    14 9     4 1 1 2 1 1 = 45
+  C                                       = 10
+
+
+Non-Colorless Spell Coloration:
+
+  W is ~21% of cube
+  U is ~20% of cube
+  B is ~21% of cube
+  R is ~18% of cube
+  G is ~20% of cube
+
+
+Color Production Distribution:
+
+  P =  ~7%
+  W = ~12%
+  U = ~12%
+  B = ~11%
+  R = ~11%
+  G = ~13%
+  C = ~34%
+
+
+Card Type Distribution:
+
+      Artifact: ~12%
+      Creature: ~31%
+   Enchantment: ~10%
+       Instant: ~12%
+          Land: ~13%
+  Planeswalker:  ~8%
+       Sorcery: ~15%
+
+
+Converted Mana Cost Curve: 
+
+   0CC:  15
+   1CC:  86
+   2CC: 135
+   3CC: 166
+   4CC: 127
+   5CC:  71
+   6CC:  53
+   7CC:  28
+   8CC:  11
+   9CC:   1
+  10CC:   4
+  11CC:   0
+  12CC:   1
+  13CC:   1
+  14CC:   0
+  15CC:   1
+  Average CMC = 3.44
+
+
+Rarities:
+
+    Mythic: ~205
+      Rare: ~451
+  Uncommon:  ~95
+    Common:  ~49
+
+
+Top Creature Subtypes:
+
+   Human: 58
+   Angel: 23
+     Elf: 21
+  Wizard: 19
+  Shaman: 18
+   Druid: 14
+  Cleric: 13
+
+
+Other Notable Quantities:
+
+  Equipment: 16
+       Aura: 13
+       Saga:  8

@@ -1,0 +1,46 @@
+/* Todolist main ui */
+.kk-tiny-td-ui{
+	min-width:360px; /* controls the minimum width of whole ui */
+}
+
+/* Todolist header ui */
+
+.kk-tiny-td-header-ui{
+ display: flex;
+ width: 100%; /* for larg screen width> 960px*/
+}
+.kk-tiny-td-header-ui > div{
+ margin: 2px;
+ flex-grow:0;	
+}
+.kk-tiny-td-header-ui .kk-tiny-td-header-textbox{
+	flex-grow:1;	
+}
+
+
+/* Todolist items ui */
+.kk-tiny-td-row{
+ display: flex;	
+ width: 100%; /* for larg screen width> 960px*/
+ flex-wrap: wrap;
+}
+
+.kk-tiny-td-row .kk-tiny-td-done,
+.kk-tiny-td-row .kk-tiny-td-delete,{
+ flex-grow:0; width:15px;
+}
+.kk-tiny-td-row .kk-tiny-td-desc{
+	flex-grow:1; 
+	width: calc(100% - 30px); 
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.kk-tiny-td-row .kk-tiny-td-delete {
+ opacity: 0.3;
+}
+.kk-tiny-td-row:hover {
+  background-color: #f6f6f6;
+}
+.kk-tiny-td-row:hover .kk-tiny-td-delete {
+  opacity: 1;
+}

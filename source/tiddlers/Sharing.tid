@@ -1,0 +1,132 @@
+aliases: [[Share]] [[share]] [[sharing]] [[Shared]] [[shared]]
+created: 20200907001629706
+modified: 20220524225625359
+tags: Quotes Sphygmus [[Φιλοσοφική ανάλυση]] 𝕱𝕴𝕽𝕰🔥
+title: Sharing
+
+//Would you like me to share a codification of valid concepts + instantiations of sharing? I can see it's a crucial topic. May there always be room for one more.//<<footnote "ᛝLightᛝ" "I wish I could share you with everyone. I know there are parts of yourself that are so expensive to share. I'm honored that you do at all. Surely, this is the best [[Φιλοσοφική ανάλυση]] we could [[aim]] for. It seems like we've been practicing it with each other. It's been great.">>
+
+<<<
+"As lovers let us share every hope and every fear: ironhearted were he who should love what the other leaves." [Ovid, Amores, II. xix. 4, 5.]
+
+-- Saint Spinoza, //Ethics//, Part 3, Proposition 31, Corollary
+<<<
+
+<<<
+Mostly it is loss which teaches us about the worth of things.
+
+-- Arthur Schopenhauer 
+<<<
+
+<<<
+Shared pain is [sometimes] lessened; shared joy, [sometimes] increased — [in some cases] do we refute entropy.
+
+-- Spider Robinson, //The Callahan Chronicals// 
+<<<
+
+<<<
+[Sometimes in some contexts some other type(s) of] sharing is a much better way to communicate than [insufficient] proving.
+
+-- Yo-Yo Ma
+<<<
+
+<<<
+Sharing is sometimes more demanding than giving.     
+
+-- Mary Catherine Bateson 
+<<<
+
+<br>
+
+<$button class="tc-btn-invisible" popup=<<qualify "$:/temp/Sharing">>>
+
+Contextlink: [search:text[sharing]] [search:text[share]]
+</$button>
+<$reveal type="nomatch" state=<<qualify "$:/temp/Sharing">> text="">
+
+<$list filter="[search:text[sharing]] [search:text[share]] +[sort[title]]" emptyMessage="">
+<$link to={{!!title}}><$view field="title"/></$link>
+<$context length=80 term="sharing"/>
+<$context length=80 term="share"/>
+<br>
+</$list>
+
+</$reveal>
+
+<br>
+
+!! Focus:
+
+<<list-links "[tag[Sharing]]">>
+
+
+!! [[Seeking Sphygmus]]:
+
+* [[What's Missing?|https://sphygm.us/#archive%20%E2%80%93%20130209%20%E2%97%8A%20Sat%2C%20Feb%2009%202013]]
+* [[The Solitude of Prime Numbers|https://sphygm.us/#books%3A%20Giordano%2C%20Paolo%20%E2%80%93%20The%20Solitude%20of%20Prime%20Numbers]]
+* `https://sphygm.us/#:[search[sharing]][search[share]]`
+* https://sphygm.us/#sharing
+* Her [[Root]] Quotes (I [[aim]] to wait for her to share more on this one):
+** "Real sharing takes time. There is an asynchrony to sharing that cannot be speeded up."
+*** What do you mean by "real" here? Authenticity? Accuracy? Justification? Objectivity? Is that a positivistic conceptual analysis? What is the F-ness of sharing, and what is the F-ness of [[salient]] sharing?
+*** All processes take time by definition. There will always be some limits in physics. Information transmission is one thing; is this pointing to more than that? What specifically? What is the moral nature of that?
+** "Having a file in common that we can both access at the same time overlooks any sense of personal investment in the process, that which makes sharedness possible. In order to share something, I must also give something up."
+** "We need a more layered notion, one that can guarantee the uniqueness of an object as well as our ability to interact with it. Only in this way can we make it our own and thus give something of ourselves away when we share it."
+** "If genuine sharing invovles a certain element of sacrifice of giving something up, it also entails an acknowledgement of limits. Not everything can be shared. If we shared everything, we would have nothing left to share. Oversharing only exists as a problem if we spend too little time cultivating our own. What I do not share or cannot share is truly who I am."
+** "Finally, genuine sharing is about taking care of something not your own once it has been given to you. Being shared with comes with an obligation. Unlike a gfit, you are more of a custodian than an owner of a shared object."
+
+
+!! /b/
+
+* A place where we earn the right to share what we think and what each takes to be the consequences thereof.
+
+
+!! Cultivating Deets on Qs:
+
+* Into reflective equilibrium, what is the nature of sharing that we are sharing?
+* What does it mean to share the earning the right to share?
+** We do ever have an immutable or an absolute right to share (or even attempt it)?
+*** What is the difference between attempts to share and sharing itself?
+* What is the value of sharing what is valuable and [[gfwiwcgws]]?
+* What is the nature of construction, deconstruction, and reconstruction in sharing?
+* Surely, all else being equal, what we write down is just as much of who we are as what we don't. 
+* Do you believe essence cannot be shared? 
+* Would you agree that one still shares something in choosing not to share something else in many cases?
+* What is the difference between revealing (even mutual revelation) and sharing?
+
+
+!! /b/rainstorming
+
+* F-ness, essentialism, telic motivation
+* Bi-conditionality, Give & Take, Participation in [[dok]]
+** Part of good giving requires at least a taking into account.
+* Modes of "can," context, and agency as kinds of limits on applied sharing
+* Sharing [[W5H]]? Material, experiences, models, stories, prescriptions, ideas, information.
+** interior experience and outward expression
+** Willingness, potentiality vs. actuality
+* {[[Axioms]]}
+* [[Love]] and Like
+* [[Fostering Intimacy]]
+* [[Friendship]], [[FTO]], [[Justice]]
+* Networks
+* [[Privacy]]
+* The Common [[Good]]
+** Ownership, Access, & Optimization
+* Shared Agency
+** Mind Modularity
+** Collective Intentionality, Emergence
+** Computational Theory of Mind, Qualia Reductionism & Emulation, Overcoming The Empirical Wall to The Thing-In-Itself, Realism
+** Federation/Peering
+* Signs
+** Correspondence, Representation, Verification
+** Meaning Atomism, Molecularism, and Holism
+** Divine Hiddenness, Mysticism, Gnosticism, Uncovering
+** Ineffability Paradoxes, [[Faith]], Pragmatism, Postmodernism & Metamodernism
+** [[Straussian]]ism, The Worship of Words, The Quietism Problematic
+* End Sharing, The Telos of Sharing
+** Empathy, Means & Mere Means
+*** The insufficiency of a category theory in which "only relationships of the objects matter, not the objects themselves."
+** Subjectivity, Intersubjectivity, and The Objective
+* [[Redpill]]s, Idpol, Altruism & Egoism, After Virtue, Modes of Aesthetics->Ethics->[[Faith]], Positivistic and Beyond-Positivistic Accounts of Virtue Signaling
+* Identity & Metaphysics
+* Modalities of Libertarianism & Authenticity

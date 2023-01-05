@@ -1,0 +1,77 @@
+created: 20200528003225356
+modified: 20200529034400530
+tags: PAlec Note To Dreams
+title: 2020.05.27 - PAlec: TW-Talk
+
+Dear [[PAlec]],
+
+I'm thinking about what I want to say to you here.
+
+<<<
+Oh hell yeah did not expect to get a comment about TW5 but I threw it out there anyway!
+<<<
+
+I look out for Tiddlywiki-talk. I use mine a lot ([[WINTCIS]]), and I'm generally curious about it. I'm glad I stumbled upon you.
+
+<<<
+It's a big scope, but I want to bring the user experience, and embedding functions, filtering syntax and everything that makes TW5 what it is into something more full featured and performant in react or vue land, which I think would expand the developer base significantly if done right.
+
+I want to redesign the plugin architecture for reactive events, streams, etc, enabling plugins like Google-Docs style multi-user collaboration, Google-Now style 'just in time' notifications/feed synced with whichever existing data sources provide apis. Then plugins could expose their triggers/events, making 'If this then that' capabilities.
+
+Or for example an address book plugin on TW where you might have tiddlers storing whatever information you want about that friend/work contact, would no longer need to be maintained, becoming out of date, but could dynamically update new contacts from Google, facebook, twitter for instance, as well as provide a consolidated feed for each contact, or perhaps just themselves via OAuth application subscriptions.
+
+🕵
+
+Essentially like a power users' customizable virtual assistant built into their journal wiki using realtime data. Send me a pm on here with any thoughts or some of your ideas!
+<<<
+
+TW5-Bob seems like a tool worth thinking about.
+
+* Archive Bookmarking
+** Parse out links in the wiki (dat, https, torrents, etc.) and download them. 
+*** Saving to PDF (`chromium --headless --disable-gpu --print-to-pdf=file1.pdf http://www.example.com/`) or [[Single-HTML file|https://github.com/gildas-lormeau/SingleFile/blob/master/cli/README.MD]].  
+** Seems like the wiki gives context, commentary, and mapping to the archive.
+** Expanding searches in the wiki to CLI searches of the archive
+*** Might not have a reason to leave the wiki at all.
+
+* P2P Chat/Forum embedded in the wiki, Federation, Shared Tiddlers
+** https://github.com/chr15m/build-decentralized-web-app/
+** Dat/Resilio Sync/IPFS/etc. 
+** Ratox
+
+* Automated Decentralized Distribution
+** The idea is to have a one-tool-rule-them-all that modularly allows one to distribute and syndicate across various networks
+
+* Basic ASCII drawing tools in the wiki
+** e.g. https://github.com/lewish/asciiflow2
+
+* Tiddler Versioning
+** Storing diffs rather than whole tiddlers
+*** Needs a diff viewer.
+** Allowing me to control how many versions are held (or for how long)
+
+* TWASM - Building TW from scratch
+** Better hosting options than node too.
+** Golang is probably the best choice here. 
+** Jermolene, the creator of TW, intends to eventually go this direction.
+
+* Continued https://fraidyc.at/ integration and extension
+
+* Advanced GUI Search Tooling
+** Bimlas Kin
+** Search of h0p3
+** https://scryfall.com/advanced
+
+* TW visualizers
+** I'm convinced javascript alone is simply too slow for any reasonably sized wiki. 
+** Real mind-mapping visuals need to be GPU accelerated in a lower level language.
+** The Worm-Cone Timeline
+*** I actually care about the timeline of wiki, for example.
+
+* Semantic Wiki Specialization?
+
+Just brainstorming here. 
+
+Sincerely,
+
+[[h0p3]]

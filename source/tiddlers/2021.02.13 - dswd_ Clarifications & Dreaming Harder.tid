@@ -1,0 +1,40 @@
+created: 20210213073621609
+modified: 20210213192211230
+tags: dswd Note To
+title: 2021.02.13 - dswd: Clarifications & Dreaming Harder
+
+Thank you for such a thorough response. I apologize for my poor questions and unclear suggestions. Again, I know you are one person working in your spare time on this pan (one of many in the fire). To my eyes, it's such a unique piece of software that could take over significant parts of the decentralization space with a few moves.
+
+> I think both Zerotier and yggdrasil-go are made for desktop users and support multiple platforms. VpnCloud on the other hand comes from the world of Linux servers and strives for high performance. So there are different starting points for the projects. Although VpnCloud will support desktop user cases and multiple platforms we are not there yet (see projects tab). I only have limited time for my open source projects and I when I do something I want to do it right, so sometimes it takes more time.
+
+As I said, it's hard to find alternatives to your software (Tinc and few others that I consider still in alpha too). I suppose Wireguard, in terms of performance, is another metaphor I'm missing here.
+
+To be fair, Zerotier has an enormous amount of money and manpower behind it by comparison (in addition to being merely federated). Yggdrasil is still just proof of concept, and I find your software easier to use on any desktop. Given virtualization and containerization, targeting Linux will likely make it viable on any system (including Fuchia `/shudder`). If doing it right is what matters, perhaps it's best to simply stick to Linux and guest-Linux systems. You do have the "one thing well" down.
+
+> When I provide a precompiled static binary (I probably will) then you can do one-line installs. You can provide a config file for him and he just needs to enable it with a command.
+
+Aye. That's probably the way to go. As long as the build can be easily reproduced, I think it makes sense to just have the binary. Make it easy on downstream. Ideally, it would be the kind of tool that other software would build around as a dependency (and, that too may require some forethought). 
+
+> This depends on what you mean with networks. If you mean VPNs (i.e. VpnCloud instances) the honest answer is "i don't know". There might be a limit on the number of network interfaces you can have. VpnCloud is quite efficient but running hundreds of instances will consume some resources. If you mean hundreds of networks that are joint using one VPN (routed), yes that is possible. I once tested VpnCloud with 500 nodes and it worked quite well. That was the original reason, why I stopped using tinc and wrote my own VPN software: Tinc couldn't handle that many peers.
+
+I should have been more specific. You should be able to have hundreds of virtual NICs on a modern Linux system, but perhaps one day that could be abstracted away in this tool. A library or a socket could go a long way. It no longer functions as a traditional TUN/TAP VPN at that point, but since we're trying to be exact here: a VPN is an extremely broad notion (i2p and Tor are VPNs, for example). That defeats the purpose in many cases, I recognize, but there are cases in which it's the most performant, safest, and straight-forward option for both standard consumers on consumer-grade hardware and other developers.
+
+Also, you might find this a useful tool: http://imunes.net/
+
+> Yes you can. Of course you will suffer some performance penalty be encrypting the data twice but there is no reason not to run a VPN inside another VPN.
+
+I can see I wasn't specific enough in my request. Sorry. VPN chaining/nesting is actually not easy to do well in my experience, and it's the kind of technology that needs to be readily available to anyone. I'm suggesting building that feature into the binary, abstracting it away from the user/admin to a significant degree. This perhaps seems too paranoic and futuristic a feature, but I'm convinced radical decentralization requires this ability.
+
+> Honestly I have not tested it. With the websocket proxy feature you might have some luck running over tor. However I expect the performance to be pretty bad.
+
+Aye. That bottleneck must hurt to consider, lol (given that it's UDP, I think you are still better positioned than most). I know it's not fun to be reliant upon other people as well. I appreciate that this software was built to run in datacenters, and we're perhaps in unintended territory here. Given how well it scales, perhaps one day you might add an onion routing feature. None of the anonymizing networks are brilliant in performance (and there are other serious security considerations to worry about here, I recognize). This seems like low-hanging fruit to pick. You've already got some of the hardest parts already solved. 
+
+> On Android: technically you might be able to cross compile it to run on a rooted android device but it will come without any UI and only run on the console (so no app). Battery usage will be another topic on mobile devices. VpnCloud is connected all the time and periodically (at least once a minute) sends some data. This is not optimal for mobile devices.
+
+I've not tried it on ARM in a long time. Android is ~~GNU/~~Linux, but that's a key piece for making this everyday usable for the average Joe, imho. Getting it to run on Android is one thing. Getting it to run well on a battery is another, as you point out. Long-term, I think that's worth thinking about (I'm not sure if any choices now would help in the future for this). There are no good players in this space, and given how resource efficient this tool is (in addition to its natural decentralization, enabling one to leverage other pieces of hardware), it is well-positioned.
+
+If you implement some of the abstractions I've suggested, you might be able to do an end-run around the root requirement (that's a big deal on lots of systems). You'd probably need an Android developer to build an interface (as I said, you probably need a dozen people).
+
+> A lot of that is already possible using VpnCloud and some of the points are already on my roadmap. I am working on improving VpnCloud but my time is limited and I also have other projects that I am working on (there is a backup solution coming sometime soon). I am open to contributions of any kind. Even non-developers can help if they write documentation, help other users or just spread the word. (Also donations are welcome wink)
+
+I'm doing what I can here too (I did donate ;P). I totally understand what it's like to have limited time and many projects. Obviously, you've already done an amazing job. I'm asking you to dream big. I don't mean to sound pushy or ungrateful at all. I recognize the difficulty of this task. Thank you once again.

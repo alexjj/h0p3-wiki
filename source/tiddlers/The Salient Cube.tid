@@ -1,0 +1,1169 @@
+aliases: [[The Proxy Cube]] [[The Cube]] [[MTG: The Proxy Cube]]
+created: 20221021041555044
+modified: 20221129210400935
+tags: [[Recent Obsession]] Recipe Magnus MTG BAGD [[The Library]] Highdeas Leet Directory Links
+title: The Salient Cube
+
+!! About:
+
+//Home for the beautiful mistakes and legends: a different attempt at playing with the best cards in magic in the best way I can imagine. Pick out what is excellent from the chaos and optimize. Discover what is [[salient]]. Every family has them timeless secret recipes, right? This is one of ours. Bon Appétit.//
+
+[[The Alien Asylum]]'s cube drafting has developed into a new type of limited (and highlander constructed<<ref "ic">>) format. We call it The Salient Cube, an extensible eternal proxy<<ref "p">> cube draft (and highlander-capable) format designed to make full use of asynchronous tournaments (encouraging remote play) that more strongly rewards continuous studying and adaptive deck [[reconstruction]] between games,<<ref "rc">> liquid-democratically governed by and played with up to 16 players per tournament (not easily accomplished for a cube). Since every card is drafted, regardless of the number of players, small and medium-sized tournaments are rewarded with large personal card pools for each player,<<ref "bt">> maximizing their autonomy in expressing a broad variety of their [[MTG]] skills in story-telling through the enjoyably complex rules and game loops of magic.
+
+The Salient Cube employs a living list of cards meant to evolve over decades based on the preferences of the players of the format (insofar as they coordinate, at whatever scale they do).<<ref "ev">> Special attention has been given to selecting the 100 best cards of each of the following:<<ref "100">> lands, colorless artifacts, five mono colors, as well multi-color & colorless non-artifacts. That's 800 cards in the base cube, supporting up to 16 players.<<ref "16">> Color balance while maintaining their traditional flavor is desired. Even more desirable, however, is an eternal format that profoundly resists degenerating into one ruled by the most broken combos,<<ref "c">> rock-paper-scissorsification, or the tempo dominance of the usual low mana curves.<<ref "al">> However difficult it may be to achieve in such a high-powered format, maximum viability and variety in midrange and dedicated control decks with sustained interactivity (both in and outside of each game) is our ideal metagame to cultivate.<<ref "ws">>
+
+Note the tradeoff: learning the format is somewhat expensive up front,<<ref "vt">> but the value of developing deep, long-term knowledge of the format will persist rather than becoming obsolete, without the format losing much novelty in the long-run to boot.<<ref "un">> Shopping (which is what drafting this pool feels like) will continue to remain such a rich experience even though card rotation should be slow'n'steady given how uncommon it is for cards of similar power levels to be printed. Of course, this is an excellent format in which to learn the theories and history of magic, but the ceiling and curve on player skill leave plenty of room for growth and experimentation even among expert students of the game. 
+
+Part of the [[beauty]] of this format (especially for most of us with smaller tournaments) is how each player drafts a deep, highly constructible pool from which to design decks throughout each match of a tournament (even if they were to randomly select cards from their packs), including complete transformation sideboarding.<<ref "pe">> Players are incentivized to think about and practice adapting with their pools throughout the tournament. It is said that the onus is on the losing side to take risks and adapt, and this format empowers players to do so. Unlike traditional tournament structures which are limited by time and trust, the richness of these pools can be fully leveraged because players can accept significant time delays between not only asynchronous matches, but games themselves. 
+
+[[The Salient Cube]] is optionally and preferably 1000 cards,<<ref "lm">> not 800. The base 800 are stable and relatively static, but the remaining 200 should be contingent cards that players submit to the pool (proxies, of course) for each tournament. Unlike traditional draft environments, players can participate in shaping the draft pool, opening avenues to attack the base 800 pool, providing the [[chance]] to pilot pet decks or cards, and cultivating a minor testing league that may replace cards in the base. Ideally, those playing the format and posting their contingent 200 would provide ample grounds for automated, weighted, and global playerbase voted evolution of the base set.
+
+I'm looking for input from those who have actually practiced with the cube. Your vote matters to me. To ease the burden in reproducing this at your location, please check [[Connect]] and search for "The Salient Cube" on the listed p2p networks (or let me know how you want the files transferred) to pick up pdfs of the proxies (with sexy art itellyawhat), a full card text and rulings document (for the 800), a complete magic game rules wiki, and other tools designed to enable remote voting, drafting, and gameplay.
+
+<br>
+
+---
+!! Principles:
+
+* Evolve A Duelist's FLOSS Rule-0-oriented Full-Proxy Non-Commander Vintage Legal Singleton Cube Draft ''Trading Card Game'' With Extended Tournament Structures In High-Trust Low-Wealth Democratic Offline+Online Hybrid Environments
+** Pursue close to a nash ranking of first-picks for singleton draft, maximizing the uniqueness of each game and the variety of cards that might actually see play, even if total balance may never be achieved.
+** Build a format resistant to ML, even if balance is aided by ML testing.
+
+* If we are going to waste our time, at least don't waste money or more time on mere status signaling or paying-to-win. Normalize proxy play (which has gotten better over the years) and build on the assumption of long-term open cooperation of the players themselves.
+** All cards must be physically (you may use basic land as a backing) or digitally proxied.   
+** Materials must be nearly free, essentially. Build something everyone in the world can use, remove the WOTC Printing Press IP problematics, be willing to lend and lose cards because you don't attach any value to them beyond the stories you have played with the ideas of them, encourage face-2-face but make it something people would happily play with a computer (can be hybridized).
+
+* All cards in the cube must be drafted (roll for remainder cards).
+
+* Players may trade before and between all rounds if and only if they are unwilling to collude and the majority of players are convinced no one will collude. 
+** This is an honorable game. We will learn much about who you are if and when you get caught cheating. You will also be depriving yourself and [[others]] the satisfaction of playing-to-win fairly and learning about the nature of trading in a "Perfectly Free Market Computed By Completely Rational^^tm^^ Agents". May it teach us who includes us among their tribe.
+
+* Matches may be played fully asynchronously (and simultaneously, including each player playing each other player all at once, though that is not recommended) over paper or machine. Players may spend significant time between games of a given match to carefully sideboard (which, in this format, could be complete deck [[reconstruction]]).
+
+* A tournament may last any number of round-robins above 1 so long as each player [[anonymous]]ly agrees. 
+** If you agree to play a round-robin, then you are committed to playing it out should it obtain.
+** Reiterating: players may change their decks and trade cards with [[other]] players between games, matches, and round-robins.
+** At the beginning of any game, a player may effectively announce their basic lands are snow-covered.
+
+* The Judge™ is the democratic rule of the entire party (players may proxy vote so long as both players consent). >50% of the players is a quorum, and Ranged or STAR Voting must be used for multiple-choice ballots (generated by any number of individual players). Quadratic voice currencies are also allowed, but probably only valuable if the player group remains relatively static over multiple drafts.
+** The contingent (up to) 200 cards are either entirely voted upon, or every player can contribute their equal [[share]] (or use a proxy representative player to pick cards for them) with remainders being voted upon.
+*** For offline play, any player voting has to be willing to print the card they've voted for, even if by `/ahem` proxy through another player willing to do so.
+** Players must vote on the minimum library sizes. 40, 60, or 100 are the suggested sizes.
+** Players must vote upon whether or not all players' personal draft pool lists must be publicly submitted to the entire group.
+
+* Other Social Policy
+** Notetaking & Reports are to be highly encouraged.
+** Prima facie, Jesus doesn't care what you smell like, and neither should we. It is our honor to be with each [[other]].
+** Each pair of players will shake hands at the end of the match ("`/handshake`, gg[...]" is a start), and they will offer at least one substantial, non-self-aggrandizing, non-backhanded, [[good]] [[faith]] compliment on the other player's gameplay (including construction, kindness, objectively valuable intangibles, particular plays, etc.).
+
+<br>
+
+---
+!! Focus:
+
+; Lands:
+
+<<<
+# Flooded Strand
+# Bloodstained Mire
+# Wooded Foothills
+# Polluted Delta
+# Windswept Heath
+# Marsh Flats
+# Scalding Tarn
+# Verdant Catacombs
+# Arid Mesa
+# Misty Rainforest
+
+# Tundra
+# Tropical Island
+# Underground Sea
+# Volcanic Island
+# Savannah
+# Scrubland
+# Bayou
+# Taiga
+# Badlands
+# Plateau
+
+# Breeding Pool
+# Steam Vents
+# Hallowed Fountain
+# Godless Shrine
+# Blood Crypt
+# Watery Grave
+# Stomping Ground
+# Temple Garden
+# Overgrown Tomb
+# Sacred Foundry
+
+# Zagoth Triome
+# Savai Triome
+# Indatha Triome
+# Ketria Triome
+# Raugrin Triome
+
+# Terramorphic Expanse
+# Evolving Wilds
+# Prismatic Vista
+# Fabled Passage
+
+# City of Brass
+# Mana Confluence
+# Grand Coliseum
+# Plaza of Heroes
+# Cascading Cataracts
+
+# Urborg, Tomb of Yawgmoth
+# Yavimaya, Cradle of Growth
+# The World Tree
+
+# Tolarian Academy
+# Mishra's Workshop
+# Nykthos, Shrine to Nyx
+# City of Shadows
+# Urza's Power Plant
+# Urza's Tower
+# Urza's Mine
+# Cabal Coffers
+# Ancient Tomb
+# Gaea's Cradle
+# Scorched Ruins
+
+# Dust bowl
+# Strip Mine
+# Tectonic Edge
+# Wasteland
+# Rishadan Port
+# Ghost Quarter
+
+# Maze of Ith
+# Kor Haven
+
+# Boseiju, Who Endures 
+# Homeward Path
+# Detection Tower
+
+# Scrying Sheets
+# Library of Alexandria
+# Reliquary Tower
+# Bazaar of Baghdad
+# The Biblioplex
+# Arch of Orazca
+
+# Hall of Heliod's Generosity
+# Inventors' Fair
+# Academy Ruins
+# Urza's Saga
+# Treasure Vault
+# Tower of the Magistrate
+# Buried Ruin
+# Mistveil Plains
+
+# Terrain Generator
+# Thespian's Stage
+# Vesuva
+# Deserted Temple
+# Petrified Field
+# Tolaria West
+
+# Karakas
+# Minamo, School at Water's Edge
+# Volrath's Stronghold
+
+# Alchemist's Refuge
+# Mirrorpool
+# Field of the Dead
+# Valakut, the Molten Pinnacle
+
+# Eye of Ugin
+# The Tabernacle at Pendrell Vale
+# Dark Depths
+# Glacial Chasm
+<<<
+
+<br>
+
+; Colorless Artifacts:
+
+<<<
+# Black Lotus
+# Mox Emerald
+# Mox Jet
+# Mox Pearl
+# Mox Ruby
+# Mox Sapphire
+# Mana Crypt
+# Chrome Mox
+
+# Mana Vault
+# Sol Ring
+
+# Timeless Lotus
+# Worn Powerstone
+# Sceptre of Eternal Glory
+# Replicating Ring
+# Metalworker
+# Azor's Gateway
+# Gilded Lotus
+# Everflowing Chalice
+# Empowered Autogenerator
+# Chromatic Lantern
+# Astral Cornucopia
+
+# Caged Sun
+# Extraplanar Lens
+# Doubling Cube
+# Inspiring Statuary
+# Candelabra of Tawnos
+# Aether Vial
+
+# Solemn Simulacrum
+# Journeyer's Kite
+# Golos, Tireless Pilgrim
+
+# Semblance Anvil
+# Quicksilver Amulet
+# Primal Amulet
+# Crucible of Worlds
+
+# Bösium Strip
+# Temporal Aperture
+# Panoptic Mirror
+# Strionic Resonator
+# Lithoform Engine
+# Isochron Scepter
+
+# Mindslaver
+# Goblin Charbelcher
+# Darksteel Reactor
+# Aetherflux Reservoir
+# Elixir of Immortality
+# The Chain Veil
+
+# The Mana Rig
+# Mazemind Tome
+# The Immortal Sun
+# Staff of Nin
+# Staff of Domination
+# Retrofitter Foundry
+# Chromatic Orrery
+# Aetherworks Marvel
+
+# Memnarch
+# Time Vault
+# Kuldotha Forgemaster
+# Unwinding Clock
+# The Ozolith
+# Amulet of Vigor
+# Voltaic Key
+# Paradox Engine
+# Forsaken Monument
+# Cloudstone Curio
+
+# Sensei's Divining Top
+# Scroll Rack
+
+# Walking Ballista
+# Cursed Scroll
+
+# Wurmcoil Engine
+# Sundering Titan
+# Karn, Silver Golem
+# Ramos, Dragon Engine
+# Blightsteel Colossus
+# Platinum Angel
+
+# Grafdigger's Cage
+
+# Jester's Cap
+# Chalice of the Void
+
+# Static Orb
+# Smokestack
+# Mishra's Helix
+# Pithing Needle
+# Phyrexian Revoker
+# Null Rod
+
+# Vedalken Shackles
+# Helm of Possession
+
+# Oblivion Stone
+# Nevinyrral's Disk
+# Karn's Sylex
+# Coercive Portal
+
+# Shadowspear
+# Skullclamp
+# Umezawa's Jitte
+# Sword of Body and Mind
+# Sword of Feast and Famine
+# Sword of Fire and Ice
+# Sword of Light and Shadow
+# Sword of Sinew and Steel
+# Sword of the Animist
+# Batterskull
+# Kaldra Compleat
+<<<
+
+<br>
+
+; White:
+
+<<<
+# Land Tax
+# Weathered Wayfarer
+
+# Legion's Landing
+
+# Aegis of the Gods
+# Esper Sentinel
+# Adeline, Resplendent Cathar
+# Thalia, Guardian of Thraben
+# Angel of Jubilation
+# Linvala, Keeper of Silence
+# Oketra the True
+# Heliod, Sun-Crowned
+# Ethersworn Canonist
+# Michiko Konda, Truth Seeker
+# Mila, Crafty Companion
+# Kataki, War's Wage
+# Grand Abolisher
+# Masako the Humorless
+# Gideon Blackblade
+# Seraph of the Sword
+# Odric, Master Tactician
+# Drannith Magistrate
+# The Book of Exalted Deeds
+# Sisay, Weatherlight Captain
+# Mangara, the Diplomat
+
+# Journey to Nowhere
+# Solitude
+# Swords to Plowshares
+# Path to Exile
+# Hidden Dragonslayer
+# Angel of Condemnation
+# The Wandering Emperor
+
+# Oblivion Ring
+# Quarantine Field
+# Conclave Tribunal
+# Cast Out
+# Angel of Sanctions
+# Faith's Fetters
+# Grasp of Fate
+# Dispeller's Capsule
+
+# Austere Command
+# Wrath of God
+# Terminus
+# Doomskar
+# Final Judgment
+# Ajani, Strength of the Pride
+# Farewell
+# Vanquish the Horde
+# Scourglass
+
+# Aura of Silence
+# Serenity
+# Rest in Peace
+
+# Armageddon
+# Ravages of War
+# Balance
+# Restore Balance
+# Karmic Justice
+# Catastrophe
+# Cataclysm
+
+# Humility
+# Moat
+
+# Pulse of the Fields
+# Approach of the Second Sun
+
+# Teferi's Protection
+# Giver of Runes
+# Mother of Runes
+# Orim's Chant
+# Leyline of Sanctity
+
+# Steelshaper's Gift
+# Enlightened Tutor
+# Stoneforge Mystic
+# Losheel, Clockwork Scholar
+# Bronze Guardian
+
+# Sun Titan
+# Adarkar Valkyrie
+# Elspeth Conquers Death
+# Emeria Shepherd
+# Luminous Broodmoth
+# Gift of Immortality
+# Loyal Retainers
+# Serra Paragon
+# Reya Dawnbringer
+
+# Elspeth Tirel
+# Archangel of Tithes
+# Elspeth, Knight-Errant
+# Admonition Angel
+# Elesh Norn, Grand Cenobite
+# Lyra Dawnbringer
+# Angel of Destiny
+# Angel of Invention
+# Avacyn, Angel of Hope
+# Elspeth, Sun's Champion
+# Archangel of Thune
+# Valkyrie Harbinger
+# Felidar Sovereign
+# Serra the Benevolent
+# Thalia's Lancers
+# Baneslayer Angel
+# Archon of Coronation
+# Gisela, the Broken Blade
+# Akroma, Angel of Wrath
+<<<
+
+<br>
+
+; Blue:
+
+<<<
+# Whir of Invention
+# Muzzio, Visionary Architect
+# Tinker
+# Tezzeret the Seeker
+# Transmute Artifact
+
+# Tezzeret, Betrayer of Flesh
+# Padeem, Consul of Innovation
+# Urza, Lord High Artificer
+# Master Transmuter
+# Emry, Lurker of the Loch
+
+# Jace Beleren
+# Jace, Wielder of Mysteries
+# Court of Cunning
+# Jace, Memory Adept
+
+# Cunning Wish
+# Spellseeker
+# Personal Tutor
+# Mystical Tutor
+# Intuition
+# Merchant Scroll
+# Gifts Ungiven
+
+# Beacon of Tomorrows
+# Temporal Mastery
+# Time Walk
+# Nexus of Fate
+# Lighthouse Chronologist
+
+# Kira, Great Glass-Spinner
+# Glen Elendra Archmage
+# Venser, Shaper Savant
+# Jace, Unraveler of Secrets
+# Ertai, Wizard Adept
+
+# Archmage's Charm
+# Spell Pierce
+# Forbid
+# Force of Will
+# Mana Drain
+# Counterspell
+# Mana Leak
+# Daze
+# Remand
+# Force of Negation
+# Flusterstorm
+# Trickbind
+# Sublime Epiphany
+# Cryptic Command
+
+# Narset's Reversal
+# Spelljack
+# Aethersnatch
+# Desertion
+# Commandeer
+
+# Empress Galina
+# Mind Control
+# Thieving Skydiver
+# Control Magic
+# Beguiler of Wills
+# Sower of Temptation
+# Treachery
+# Gilded Drake
+# Persuasion
+
+# Thada Adel, Acquisitor
+# Bribery
+# Acquire
+# Eternal Dominion
+# Sphinx Ambassador
+
+# Faerie Artisans
+# Phyrexian Metamorph
+# Volrath's Shapeshifter
+# Mechanized Production
+# Spark Double
+# Vesuvan Doppelganger
+# Mystic Reflection
+# Jin-Gitaxias, Progress Tyrant
+# Twincast
+
+# Snapcaster Mage
+# Torrential Gearhulk
+# Founding the Third Path
+
+# Timetwister
+# Ancestral Recall
+# Dig Through Time
+# Brainstorm
+# Ponder
+# Preordain
+# Serum Visions
+
+# The Reality Chip
+
+# Capsize
+# Cyclonic Rift
+# Hurkyl's Recall
+# Thing in the Ice
+
+# Delver of Secrets
+# True-Name Nemesis
+# Vendilion Clique
+# Murktide Regent
+# Jace, the Mind Sculptor
+# Alrund, God of the Cosmos
+
+# Opposition
+# Mind Over Matter
+
+# As Foretold
+# Back to Basics
+
+# Clockspinning
+# Whim of Volrath
+<<<
+
+<br>
+
+; Red:
+
+<<<
+# Court of Ire
+# Harsh Mentor
+# Zo-Zu the Punisher
+# Sulfuric Vortex
+# Eidolon of the Great Revel
+# Goblin Sharpshooter
+# Grim Lavamancer
+
+# Soul Sear
+# Glorybringer
+# Demon Bolt
+# Purphoros's Intervention
+
+# Price of Progress
+
+# Beacon of Destruction
+# Electrodominance
+# Sudden Shock
+# Ghitu Fire
+# Red Sun's Zenith
+# Bonecrusher Giant
+# Lightning Strike
+# Staggershock
+# Volcanic Hammer
+# Magma Jet
+# Punishing Fire
+# Rift Bolt
+# Searing Spear
+# Incinerate
+# Disintegrate
+# Lightning Bolt
+# Chain Lightning
+
+# Fury
+# Inferno Titan
+
+# Starstorm
+# Storm's Wrath
+# Pyroclasm
+# Sweltering Suns
+# Balefire Dragon
+
+# Earthquake
+# Cave-In
+# Fault Line
+
+# Subterranean Tremors
+# Fiery Confluence
+# Jokulhaups
+
+# Boom /''''/ Bust
+# Ruination
+# Magus of the Moon
+# Blood Moon
+
+# Aftershock
+# Abrade
+
+# Vandalblast
+# Shattering Spree
+
+# Fanning the Flames
+# Repeating Barrage
+# Hammer of Bogardan
+# Squee, Goblin Nabob
+
+# Underworld Breach
+# Mizzix's Mastery
+
+# Wish
+# Burning Wish
+# Godo, Bandit Warlord
+# Imperial Recruiter
+
+# Wheel of Fortune
+
+# Sunbird's Invocation
+# Stolen Strategy
+# Conspiracy Theorist
+# Etali, Primal Storm
+# Ragavan, Nimble Pilferer
+# Laelia, the Blade Reforged
+# Grenzo, Havoc Raiser
+
+# Ken, Burning Brawler
+# Braid of Fire
+
+# Krenko, Mob Boss
+# Goblin Rabblemaster
+# Najeela, the Blade-Blossom
+
+# Embercleave
+# Adamaro, First to Desire
+# Dragon's Rage Channeler
+# Terror of the Peaks
+
+# Chandra, Pyromaster
+# Chandra Nalaar
+# Chandra, the Firebrand
+# Chandra, Flame's Catalyst
+# Chandra, Torch of Defiance
+# Chandra Ablaze
+# Chandra, Bold Pyromancer
+# Chandra, Dressed to Kill
+# Chandra, Awakened Inferno
+# Jaya, Fiery Negotiator
+
+# Chandra's Regulator
+
+# Hellkite Tyrant
+# Daretti, Scrap Savant
+# Goblin Welder
+# Aladdin
+# The Reaver Cleaver
+
+# Rionya, Fire Dancer
+# Splinter Twin
+# Cursed Mirror
+# Kiki-Jiki, Mirror Breaker
+# Fable of the Mirror-Breaker
+
+# Sneak Attack
+# Ilharg, the Raze-Boar
+<<<
+
+<br>
+
+; Green:
+
+<<<
+# Kogla, the Titan Ape
+# Silverback Elder
+# Elder Gargaroth
+# Freyalise, Llanowar's Fury
+
+# Nissa, Voice of Zendikar
+
+# Dosan the Falling Leaf
+# Scavenging Ooze
+
+# Acidic Slime
+# Beast Within
+
+# Thorn Mammoth
+# Drop of Honey
+
+# Carnage Tyrant
+# Hexdrinker
+# Thrun, the Last Troll
+
+# Aggressive Mammoth
+# Craterhoof Behemoth
+# Ohran Frostfang
+# Dawnglade Regent
+# Vorinclex, Monstrous Raider
+
+# Apex Devastator
+# Hungering Hydra
+# Primordial Hydra
+
+# Cultivator Colossus
+# Multani, Yavimaya's Avatar
+# Wrenn and Seven
+
+# Burgeoning
+# Exploration
+# Fastbond
+# Wayward Swordtooth
+# Dryad of the Ilysian Grove
+
+# Cultivate
+# Explosive Vegetation
+# Farhaven Elf
+# Hour of Promise
+# Kodama's Reach
+# Primeval Titan
+# Rampant Growth
+# Sakura-Tribe Elder
+# Beanstalk Giant
+# Topiary Stomper
+# Farseek
+
+# Krosan Tusker
+# Nylea's Intervention
+
+# Awakening Zone
+
+# Jorn, God of Winter
+# Nissa, Who Shakes the World
+# Vorinclex, Voice of Hunger
+# Regal Behemoth
+# Growing Rites of Itlimoc
+
+# Bloom Tender
+# Priest of Titania
+# Rofellos, Llanowar Emissary
+# Selvala, Heart of the Wilds
+
+# Esika, God of the Tree
+# Birds of Paradise
+# Noble Hierarch
+# Somberwald Sage
+# Utopia Tree
+# Sylvan Caryatid
+# Ignoble Hierarch
+# Harabaz Druid
+# Llanowar Loamspeaker
+# Gemhide Sliver
+
+# Boreal Druid
+# Elvish Mystic
+# Fyndhorn Elves
+# Llanowar Elves
+
+# Magus of the Library
+# Gilanra, Caller of Wirewood
+
+# Crop Rotation
+# Sylvan Scrying
+# Scapeshift
+# Living Wish
+# Worldly Tutor
+# Sylvan Tutor
+# Survival of the Fittest
+# Fauna Shaman
+# Time of Need
+
+# Birthing Pod
+# Caller of the Untamed
+# Defense of the Heart
+# Finale of Devastation
+# Green Sun's Zenith
+# Natural Order
+# The World Spell
+# Tooth and Nail
+# Yisan, the Wanderer Bard
+# Elvish Piper
+# Chord of Calling
+
+# Kodama of the East Tree
+# Norwood Priestess
+
+# Eternal Witness
+# Noxious Revival
+# Regrowth
+# Life from the Loam
+# Genesis
+
+# Mirri's Guile
+# Sylvan Library
+# Vizier of the Menagerie
+# Guardian Project
+<<<
+
+<br>
+
+; Black:
+
+<<<
+# Crypt Ghast
+# Liliana of the Dark Realms
+
+# Confront the Past
+
+# Vraska's Contempt
+# Never /''''/ Return
+# Soul Transfer
+# Hero's Downfall
+# Ruinous Path
+# Murderous Rider
+# Feed the Serpent
+# Bloodchief's Thirst
+
+# Poison the Cup
+# Murder
+# Rend Flesh
+# Mythos of Nethroi
+# Damn
+# Victim of Night
+# Walk the Plank
+
+# Slaughter Pact
+# Executioner's Capsule
+# Dark Banishing
+# Doom Blade
+
+# Chainer's Edict
+
+# Sudden Death
+# Ob Nixilis's Cruelty
+# Grasp of Darkness
+# Dismember
+# Sickening Shoal
+# Erebos's Intervention
+# Battle at the Bridge
+
+# The Abyss
+# Ruthless Winnower
+# Lucille
+# Night of Souls' Betrayal
+# Black Sun's Zenith
+
+# Damnation
+# The Meathook Massacre
+# Mutilate
+
+# Liliana, Waker of the Dead
+# Sheoldred, Whispering One
+
+# Reanimate
+# Animate Dead
+# Corpse Dance
+# Dance of the Dead
+# Beacon of Unrest
+
+# Yawgmoth's Will
+
+# Brain Maggot
+# Grief
+# Thoughtseize
+# Hymn to Tourach
+# Mind Twist
+# Duress
+# Valki, God of Lies
+# Raven's Crime
+# Distress
+
+# Hypnotic Specter
+# Nezumi Shortfang
+# Court of Ambition
+
+# The Eldest Reborn
+
+# Liliana of the Veil
+# Liliana Vess
+# Liliana, Death's Majesty
+# Liliana, Dreadhorde General
+# Liliana, the Last Hope
+# Professor Onyx
+# Ob Nixilis Reignited
+# Grave Titan
+# Griselbrand
+# Lord of the Void
+# Ob Nixilis, the Fallen
+# Mask of Griselbrand
+
+# Bitterblossom
+# Curse of Shallow Graves
+# Ophiomancer
+
+# Twilight Prophet
+# Cunning Rhetoric
+# Draugr Necromancer
+# Nashi, Moon Sage's Scion
+# Phyrexian Arena
+
+# Rhystic Tutor
+# Profane Tutor
+# Demonic Tutor
+# Vampiric Tutor
+# Entomb
+# Imperial Seal
+# Grim Tutor
+# Beseech the Queen
+# Mastermind's Acquisition
+
+# Word of Command
+# Praetor's Grasp
+# Opposition Agent
+
+# Dauthi Voidwalker
+# Elspeth's Nightmare
+# Leyline of the Void
+
+# Out of the Tombs
+
+# Braids, Cabal Minion
+# Curse of the Cabal
+# Phyrexian Obliterator
+
+# Nether Void
+# Contamination 
+<<<
+
+<br>
+
+; Multicolor & Colorless Non-Artifacts
+
+<<<
+# Fractured Identity
+# Teferi, Hero of Dominaria
+# Chun-Li, Countless Kicks
+# Supreme Verdict
+# Teferi, Who Slows the Sunset
+# Lavinia, Azorius Renegade
+# Geist of Saint Traft
+
+# Anguished Unmaking
+# Vindicate
+# Sorin, Lord of Innistrad
+# Lurrus of the Dream-Den
+# Fracture
+# Utter End
+
+# Iroas, God of Victory
+# Ajani Vengeant
+# Nahiri, the Harbinger
+# Nahiri, Heir of the Ancients
+
+# Eladamri's Call
+# Hunting Grounds
+# Aura Shards
+# Mirari's Wake
+# Wheel of Sun and Moon
+# Congregation at Dawn
+# Gaddock Teeg
+# Knight of the Reliquary
+# Sterling Grove
+
+# Lim-Dûl's Vault
+# Baleful Strix
+# Ashiok, Sculptor of Fears
+# Tezzeret, Master of the Bridge
+# Tezzeret, Agent of Bolas
+# Tezzeret, Master of Metal
+
+# Saheeli Rai
+# Dack Fayden
+# Expressive Iteration
+# Saheeli, the Gifted
+
+# Hydroid Krasis
+# Double Major
+# Edric, Spymaster of Trest
+
+# Daretti, Ingenious Iconoclast
+# Vial Smasher the Fierce
+# Magar of the Magic Strings
+# Dreadbore
+# The Ruinous Powers
+# Kroxa, Titan of Death's Hunger
+# Defiler of Souls
+# Lightning Skelemental
+# Hurl Through Hell
+# Bedevil
+# Angrath's Rampage
+# Lagomos, Hand of Hatred
+
+# Deathrite Shaman
+# Garruk, Apex Predator
+# Meren of Clan Nel Toth
+# Assassin's Trophy
+# Pernicious Deed
+# Journey to Eternity
+# Glissa, the Traitor
+# Maelstrom Pulse
+# Casualties of War
+# Jarad's Orders
+# Putrefy
+# The Gitrog Monster
+# Binding the Old Gods
+# Mortality Spear
+
+# Hull Breach
+# Cindervines
+# Firespout
+# Meria, Scholar of Antiquity
+# Artifact Mutation
+# Savage Twister
+# Shadow in the Warp
+# Minsc & Boo, Timeless Heroes
+# Vexing Shusher
+
+# Sen Triplets
+# Yennett, Cryptic Sovereign
+# Void Rend
+# Dakkon, Shadow Slayer
+
+# Ruhan of the Fomori
+# Narset, Enlightened Master
+
+# Wargate
+# Shanna, Purifying Blade
+# Stoic Angel
+# Endless Detour
+
+# Crime /''''/ Punishment
+
+# Leovold, Emissary of Trest
+
+# Riku of Two Reflections
+# Song of Creation
+
+# Destructive Flow
+
+# Atraxa, Praetors' Voice
+
+# All Is Dust
+# Emrakul, the Aeons Torn
+# Emrakul, the Promised End
+# Karn Liberated
+# Karn, Living Legacy
+# Karn, the Great Creator
+# Karn, Scion of Urza
+# Ugin, the Ineffable
+# Ugin, the Spirit Dragon
+# Ulamog, the Ceaseless Hunger
+<<<
+
+
+<br>
+
+; Links:
+
+<<<
+* [[The Salient Cube: Stats]]
+
+''''
+
+* https://deckstats.net/decks/217071/2763526-the-salient-cube
+* https://tappedout.net/mtg-cube-drafts/the-salient-cube/
+* https://cubecobra.com/cube/overview/4a0a3
+
+''''
+
+* Tools
+** https://www.mtg-print.com/
+** https://github.com/dr4fters/dr4ft
+** https://housedraft.games/shg/
+** https://deckstats.net/deckbuilder/en/
+
+<<list-links "[tag[The Salient Cube]]+[tag[MTG Deck]]">>
+<<<
+
+<br>
+
+---
+!! Vault:
+
+* [[The Salient Cube: Purgatory]]
+
+* Links:
+** http://192.168.1.100:9001/p/MTG-The-Proxy-Cube
+** http://turnonemagic.com/cube-drafting/
+** https://cubecobra.com/landing
+*** https://cubecobra.com/tool/topcards?f=legality%3DVintage&p=4&s=Elo
+** http://mtgpress.net/
+** https://github.com/RyanSaxe/mtg
+
+* [[2022.10.21 - Retired: MTG: The Proxy Cube]]
+
+<br>
+
+---
+!! Dreams:
+
+* A web-oriented self-hostable drafting tool that allows for the high quantity parameters of this cube. I've not found one that works yet.
+* If it crystallized, I think bedazzled, flashy, baroque [[Text Art]] proxies would be dope (real card proxies wiped clean, with stickers?).
+* Perhaps we could all generate priority lists (with extra scriptable rules), and the draft itself could be fully automated.
+* Recording decklists, including changes, as well as tournament reports.
+* Various ELO ranking for players, cards, and colors.
+* Perhaps a separate proxy cube for chaos multiplayer all-against-all games, you know, for the plebs amogus.
+* Are we forced to use zero-knowledge proofs to demonstrate our decks do in fact arise from our card pool (we can prove this with the hash)?
+* [[∰]] might be an addition worth exploring.
+
+* How did you forget these cards? Noice new prints! Given the step before the nash equilibrium, these need to be considered instead, etc.
+** Lands:
+** Colorless Artifacts:
+** White:
+*** Court of Grace
+** Blue:
+** Red:
+** Green:
+*** Court of Bounty
+** Black:
+** Multicolor & Colorless Non-Artifacts:
+
+
+
+
+<br>
+
+---
+<<footnotes "ic" "I consider the ability to have a great highland constructed format to be a good sign for limited play as well. While fully capable of enabling a EDH/Commander-oriented cube draft, I don't because I think it damages the skill curve of constructing to mitigate variance while also unnecessarily narrowing the metagame.">>
+
+<<footnotes "p" "To buy all of these cards in good condition, especially the prettiest or oldest ones, could cost you as much as buying a house. I prefer a game that the global poor are far more likely to be able to afford to play. We should all enjoying playing with what these pieces of cardboard represent even if we can't afford idolatrous collectibles.">>
+
+<<footnotes "rc" "Arguably the most fun part of [[MTG]]: thinking about the game, perhaps at the expense of directly playing it.">>
+
+<<footnotes "bt" "And, I suppose big tournaments will lack this privilege, but they have the joys of so many people coming together, and surely other interesting dynamics that arise from scarcer resources.">>
+
+<<footnotes "ev" "Surely, we will spiral-learn all the lessons of [[MTG]] all over again.">>
+
+<<footnotes "100" "In terms of high standalone power, insofar as that is meaningful to say.">>
+
+<<footnotes "vt" "Though veterans will quickly recognize so many of their favorite cards, and many will recognize combos that have been excluded (and perhaps more should be yet!).">>
+
+<<footnotes "un" "Unless the game changed fundamentally or power creep inflated above Vintage, both of which would be quite surprising given the history of the game.">>
+
+<<footnotes "pe" "To put it into perspective: in a 4-player tournament, each player will receive 200-250 cards. Each personal pool would be large enough to viably draft 4 decks from, and it is difficult to know how many different viable decks might arise from even such a pool owned by one player.">>
+
+<<footnotes "16" "Though, even 25 cards per person from this pool could make for a reasonably coherent 40-card deck for the vast majority of players given the legacy of standard limited construction (aside, given our context, that is a confusing phrase in magic :P). With the suggested 1000 card pool, one could push this cube to 40 players, but there's something to be said for simply printing up more copies of the cube to scale up instead.">>
+
+<<footnotes "c" "Or, at least may combos get stalemated through priority hoarding. I'm not a fan of building a metagame in virtue of critical luck.">>
+
+<<footnotes "al" "All too common, almost inevitable, in the elite echelons of the most inclusive competitive eternal formats. Serious work has been put into preventing this tragedy, but it remains to be seen if this format too will be broken. Let's see what we can do!">>
+
+<<footnotes "ws" "Which sets this cube apart from many other similarly powered cubes.">>
+
+<<footnotes "lm" "Technically, players could vote to have as large a pool as they wish, but I suggest we're already pushing the power limits of some colors here. The remaining wiggle room is best left for testing new cards, answering egregious imbalances, and providing room for customizing to taste.">>

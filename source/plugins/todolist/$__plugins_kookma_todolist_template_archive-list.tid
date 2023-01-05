@@ -1,0 +1,12 @@
+created: 20190716084402662
+modified: 20190716161710942
+tags: 
+title: $:/plugins/kookma/todolist/template/archive-list
+type: text/vnd.tiddlywiki
+
+!! Archive of completed (done) items
+
+<$macrocall $name="todolist-delete-archived-tiddler" archiveTiddler={{!!archive-tiddler}} />
+
+> <$macrocall $name="todolist-list-archived-items" archiveTiddler={{!!archive-tiddler}} />
+

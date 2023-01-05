@@ -1,0 +1,21 @@
+created: 20200519221724052
+modified: 20200519221813356
+tags: dziggetai Chatlog
+title: 2020.04.14 - dziggetai: Wikitalk
+
+"""
+[10:13 AM] h0p3: How's it going?
+[12:55 PM] Shp: I'm excited for the editor magic plugin
+it can do what editcomptext does and works with codemirror (except for keyboard navigation)
+so I hope the smart people at the gg will get it to a fully working state!
+[12:55 PM] h0p3: Oh, neat.
+[12:55 PM] h0p3: I didn't know about it.
+[12:57 PM] Shp: http://editormagic.tiddlyspot.com/
+[12:58 PM] Shp: the freelink plugin is interesting too, but with large wikis like mine or yours (especially yours haha) it will not work probably
+[12:59 PM] h0p3: Aye. Most plugins just aren't made for large wikis.
+[12:59 PM] h0p3: Err... Many*
+[12:59 PM] Shp: maybe some of them work better on node
+[12:59 PM] Shp: of the ones that don't work well with large wikis
+[1:01 PM] h0p3: Yeah, there's a different feel on node vs singlefile. I aim to use tools that work well in both if I can.
+[1:02 PM] Shp: I will try out the freelink plugin on your wiki to see how slow it is
+"""

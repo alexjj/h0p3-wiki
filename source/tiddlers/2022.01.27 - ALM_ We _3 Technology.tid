@@ -1,0 +1,146 @@
+created: 20220127050605337
+modified: 20220130220003941
+tags: [[Computer Musings]] ALM To Letter
+title: 2022.01.27 - ALM: We <3 Technology
+
+Dear ALM, 
+
+I appreciate your continuing to read and write with me. I know it can be an expensive task. I also think it's the best base for a serious, in-depth, long-distance relationship. I think it provides the necessary time and space for us to think as we communicate, and, in many cases, there are some things that can't be communicated well except through writing.
+
+> It is nice to speak back and forth with you, even in a round-about way. 
+
+Yes, sir. [[ITS]], [[we|Root Users]] read our words together in [[Family Time]], and we'll all be thinking about our conversations and how we put our skin in the game together. I realize it can be round and rhyming, and we're doing the best we can with what we've got. This is my [[chance]] to hear your story<<ref "e">> and think about your life with you. May we be [[empathic|E.T. The Extra-Terrestrial]] [[irwartfrr]]. I'm [[serious|2021.04.18 - DrDeezee: Mystics & Martyrs]] in my [[letter]]-writing; you get everything I've got.
+
+> When it comes to the kids and the time staying with family a few months back they say that they miss being around their Nano and Pepaw. Long story short there is that they spoil the dickens out of them and let them play on a phone/tablet all the time. Gets on my ever lovin' nerves. 
+
+I can see why they would miss being around their grandparents. It is generally quite pleasant to be spoiled, at least initially. I can appreciate the difficulty in fighting back against that. I could imagine it will be interesting for you if and when you are a grandparent (a possibility even in the upcoming decade [we're old :P]).
+
+* How do your offspring use technology? 
+* How are they supposed to use technology? 
+* What are your {[[dreams]]} for how they use technology? 
+* What are your predictions for how they will use technology at your age?
+
+I know my offspring will be especially interested in your approach. They'll be chewing on it.
+
+> No curation or filter just wide open. I have seen what the internet has on tap and they are not yet conditioned to deal with that. 
+
+* How do you all curate and filter for your offspring these days?
+* How do you [[aim]] to condition them to deal with what is on the tap? 
+** What would their ideal behaviors and perspectives be?
+
+Curation and filtering are areas of interest for me. It's a common topic for me. As usual, I can't say I understand it well enough, but I'm trying.
+
+> The wife and I are quite glad they they are spending less time with them for this reason.
+
+`/nod`. I can appreciate how difficult that problem can be. I wish I knew how to strike the fitting balance in so many areas.
+
+> Funny you should ask about predictions for the year with all of the propaganda and saber rattling that is going on. 
+
+Unfortunately, I rarely have enough [[salient]] information. I wish I knew [[hao]] to make more effective predictions. It's hard to find [[trust]]worthy sources, no doubt. I appreciate your willingness to project into the future and provide practical guidance.
+
+> I am very happy that we don't do TV in the way that most American's do. 
+
+How do you think most Americans do TV? How does your family's practice differ? Obviously, I'm fairly [[bias]]ed in my voracious media consumption. =D. 
+
+> I'd say things are more or less coming to a head as the Covid charade is wearing thin and (((they))) have to replace it with something else.
+
+Classic question, ofc: who is (((they)))?
+
+> Last trip to the store resulted in canned foods and bulk rice. Not a crazy ton, but a bit of a buffer. I don't see being able to truly 100% prep our way out of a SHTF situation. 
+
+`/salute`. How long do you think your family could survive on the rations if you couldn't leave the house or find anything to eat outside it for a while? I agree there are severe limitations to prepping. 
+
+What's your ideal prep look like in the coming years? 
+
+> More disruptions in food, fuel, and electricity supply are in the cards for us.
+
+Energy for all the things, sir. Yeah, I bet you're right. Billions may likely experience these problems, and more.
+
+> We don't have enough land to be self-sufficient but no one is going to make it as a loner if shit gets real. 
+
+No one is self-sufficient in the end. Even with enough land, it seems unlikely to me. [[T-Money]] has some interesting thoughts on this, and [[ASmith]] too. 
+
+> Gotta get a tribe. We have connections with a few folks but far from a tribe yet.
+
+I agree that we're obligated to engage in picking our tribe. It is a difficult task to do with integrity. Hard to guess, I realize, but how many connections do you think you'll need before you feel you have enough for a tribe? What are you missing in your tribe?
+
+> Similar backgrounds and whatnot.
+
+That can certainly be prudent. It's much more expensive to build relationships with those who are of different backgrounds.
+
+> The young ones do not stay in touch in any other way than face to face encounters.
+
+How do they think and feel about that?
+
+> The kids of those other couples are home schooled and one set no longer attends our church but the other does and her boy and my kiddos are in the same Sunday school class.
+
+I can imagine school and church are especially important to them.
+
+<<<
+The computer issue I was trying to resolve revolves around the following when trying to update Manjaro:
+
+```
+error: GPGME error: No data
+error: GPGME error: No data
+error: GPGME error: No data
+error: GPGME error: No data
+:: Synchronizing package databases...
+core                  167.7 KiB   986 KiB/s 00:00 [######################] 100%
+extra                1899.9 KiB  17.3 MiB/s 00:00 [######################] 100%
+community               6.9 MiB  34.6 MiB/s 00:00 [######################] 100%
+multilib              174.3 KiB  7.40 MiB/s 00:00 [######################] 100%
+error: GPGME error: No data
+error: GPGME error: No data
+error: GPGME error: No data
+error: GPGME error: No data
+error: failed to synchronize all databases (invalid or corrupted database (PGP signature))
+```
+<<<
+
+Ugh. Yeah. =/. I don't like that shit. [[This|https://forum.manjaro.org/t/error-gpgme-error-no-data-when-im-trying-to-update/77339/6]] may be the solution, if you've not resolved it yet. I wish keying was done differently, and it could be more fully decentralized at the same time. 
+
+```bash
+# temporarily turn off signature checks to bootstrap
+sudo cp -f "/etc/pacman.conf" "/etc/pacman.conf.orig"
+sudo sed -i 's/SigLevel.*/SigLevel = Never/' /etc/pacman.conf
+sudo pacman -Syy gnupg archlinux-keyring manjaro-keyring --ignore manjaro-system
+sudo mv -f "/etc/pacman.conf.orig" "/etc/pacman.conf"
+sudo pacman -Syu
+```
+
+> Also, when you refer to "ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱" are you referring to your wiki as a whole or something else in particular? I have not been able to figure that one out yet.
+
+Yes. At least the entire html file, which is the centerpiece. Perhaps it is a more inclusive notion, extending into my [[RGM]], some additional files I don't want to embed, [[Links: Library]], [[piracy]], and [[Outopos: Meh]]. I'm still investigating. I don't know how far I'm going to build it out. I'd eventually like to have something that is easy to duplicate/replicate, something that would save anyone trying to do the same quite a bit of blood, sweat, and tears.
+
+> Also, I have found that I have been using my desktop less and less other than for work and when I time sink in vidya. As you have said previously I do lean more on the mobile phone. I have a Pixel 4a running GrapheneOS.
+
+It is quite a privilege to be able to live on [[monster-16]]. I used to think it nearly impossible, but I'm looking forward to the day that my phone might converge and become my primary fully-dockable device (though, I do not hold my breath). I'm more than happy to carry around extra batteries too.
+
+How are you liking GrapheneOS? I [[like]] that choice a lot. What problems have you run into? I was relatively [[recent]]ly forced to buy [[monster-20]]<<ref "2">> when I could no longer repair [[monster-14]]. I'm pretty shocked by the performance of this machine. M1 seemed pretty eye-opening too. May there be a Risc-V alternative soon (depends on what Nvidia does with ARM, I think).
+
+> I have used tablets before and they just don't seem right. I keep my eyes peeled on the small electronics space as I want something that can be a replacement for the desktop that I can carry around with me that is also not a laptop. The Switch form factor is an unknown. I can say that I would not want something that has joy sticks on it that is for sure. But now I am just going off on a rant. 
+
+Had I the money to burn, I would pick up a [[GPD device|https://gpd.hk/gpdpocket3]] in a heartbeat. Hawt AF. It's disturbing to me that they've not really gone after SIM slots in these. I wish [[Pinephone]] went this sort of direction instead (pretty damn hard to find [[good]], cheap, and open [ish, at best] hardware and firmware though). I suppose one can save battery life by keeping the modem separate, and I can think of reasons I'd want them to be separate beyond that too (so not a total bust at all).
+
+> Perhaps if Tiddlywiki has been updated to work better on mobile I might get into it.
+
+[[j3d1h]] has customized hers to behave and display differently between her phone and larger screened devices. It takes some doing, I think, to make TW work the way you may prefer on all of your devices.<<ref "t">> The honorable text file can go surprisingly far too. There's something to be said for that simplicity.
+
+<<<
+Have a nice evening,
+ALM
+<<<
+
+You too, sir.
+
+[[Love]],
+
+[[h0p3]]
+
+
+---
+<<footnotes "e" "Every word as best I can and [[hope]]fully ought, including the ones I don't understand or agree with.">>
+
+<<footnotes "2" "$250 used. I think I may continue to buy used mobile products (as I do for laptops).">>
+
+<<footnotes "t" "Though, the same can roughly be said for any tooling of this kind, imho.">>

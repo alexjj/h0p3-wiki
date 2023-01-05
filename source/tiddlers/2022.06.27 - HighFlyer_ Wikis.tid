@@ -1,0 +1,17 @@
+created: 20220708131117807
+modified: 20220708131608473
+tags: HighFlyer Chatlog Aether
+title: 2022.06.27 - HighFlyer: Wikis
+
+`aether://board/93b2df18b96e19417924aa6d3faf77e576d747317f2cfe0bbc26ff8bac829424/thread/0be33793d83db1dd64be4af9c834e0419f97213d3815328b90d82c799f756c65`
+
+<<<
+What happened to Wikis? You cannot download them anymore...
+The philosophy of Wikis is to include a download the wiki facility. Try and find a Wiki which supports that these days...
+
+https://kiwix.org has some .zim files to download, but many of them do not work...
+<<<
+
+https://tiddlywiki.com/ does a great job for anyone looking for an all-in-one downloadable wiki.
+
+Site downloading tools do an alright job if the content was meant to be static, but some functions, like search, are highly unlikely to be embedded in the downloaded source (again, tiddlywiki shines here). Platform agnosticism and requiring the least amount of specialized stack reproduction are unlikely to be generated and maintained in a world that aims (1) to make money off SaaS, and (2) consume content as conveniently as possible, almost regardless of losses in freedom.

@@ -1,0 +1,82 @@
+created: 20180913211840682
+creator: h0p3
+modified: 20191118013353242
+modifier: h0p3
+tags: ‌‌‌​​‌​‌​‌‍‌​​​‍​‍​‌‌‍‌​‍​‍​‍‌​‌​‍​‍​‍​‌‌‌‍​​​​‍‍‍ j3d1h python
+title: invisicode.py
+
+```python
+#!/usr/bin/python
+
+#Invisign simplified!
+#This script converts between UTF-8 and Invisicode.
+#(It automatically detects which one you're working with :3)
+#If there's any Invisicode in the text you input, then it will assume you're decoding.
+#If there isn't any, it will assume you're encoding.
+
+#Import stuffthings!
+import baseconvert #To convert between hexadecimal and ternary.
+import sys #To use piping.
+import pyperclip #To use the clipboard.
+import argparse #To use arguments.
+import base64 #To decode hexadecimal.
+
+###
+
+#Set up arguments.
+parser=argparse.ArgumentParser(add_help=False)
+parser.add_argument('-p', action='store_true', dest='pipe') #Piping.
+parser.add_argument('--pipe', action='store_true', dest='pipe') #Piping, but the long option.
+arguments=parser.parse_args()
+
+#A function to go through a string and replace based on a given dictionary.
+def replace(text, Dict):
+    for key in Dict:
+        text=text.replace(key, Dict[key])
+    return text
+
+#Dictionaries - one to encode into Invisicode...
+encodedict = {
+"0":"​",
+"1":"‌",
+"2":"‍"
+}
+
+#...and one to decode into ternary.
+decodedict = {
+"​":"0",
+"‌":"1",
+"‍":"2"
+}
+
+###
+
+#Checking input type.
+if arguments.pipe == True: #Try to take input from command line.
+    sig=sys.stdin.readlines()
+    sig=sig[0]
+    sig=''.join(sig.rsplit('\n', 1))
+else: #Otherwise, just copy from the clipboard.
+    sig=pyperclip.paste()
+
+if "​" in sig or "‌" in sig or "‍" in sig: #If there's any invisicode in the input..
+    for char in sig:
+        #Remove all non-invisicode characters.
+        if char not in "​‌‍":
+            sig=sig.replace(char, "")
+    #Convert from ternary to hexadecimal, and from hexadecimal to UTF-8.
+    result=baseconvert.base(replace(sig, decodedict), 3, 16, string=True)
+    result=(base64.b16decode(result, 'utf-8')).decode("utf-8")
+else: #Otherwise (if it's pure plaintext)..
+    #Convert from UTF-8 to hexadecimal, and from hexadecimal to ternary.
+    result=(base64.b16encode(bytes(sig, 'utf-8'))).decode("utf-8")
+    result=replace(baseconvert.base(result, 16, 3, string=True), encodedict)
+
+#Hexadecimal is used as a sort of bridge because I couldn't find anything directly between ternary and UTF-8.
+
+###
+
+#Outputs - print to stdout, in case they're piping into a file, and also put output in the clipboard.
+pyperclip.copy(result)
+print("|"+result+"|")
+```

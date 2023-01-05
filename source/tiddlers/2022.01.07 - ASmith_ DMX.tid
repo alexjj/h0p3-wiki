@@ -1,0 +1,122 @@
+created: 20220107072702785
+modified: 20220107072746415
+tags: ASmith Chatlog
+title: 2022.01.07 - ASmith: DMX
+
+"""
+[00:46:25] ASmith: Have you heard the theme song of the Book of Boba Fett yet? I think you'd enjoy listening to it.
+[00:46:53] h0p3: On it now, sir.
+[00:47:02] h0p3: Watched the first episode after I saw you mention it.
+[00:47:25] h0p3: I'm hoping it will be better than //The Mandalorian//. `/fingers-crossed`.
+[00:47:43] h0p3: As the kids say these days: it bops and it slaps.
+[00:48:44] h0p3: Also, gonna try a feralhosting box to seed public torrents. Been a while since I've done that. 
+[00:50:21] ASmith: Its first 2 episodes in this 1st Season have been slow at times but very rich in tribal mythology and rituals. I think you'd enjoy watching it.
+[00:50:54] ASmith: darkmx:file:ASmith@4fmoaymlaic45aoimsjyyni3jyegukogal5eydna5jccocxijshq/Incoming-2/The.Book.Of.Boba.Fett/The.Book.of.Boba.Fett_Season_1/The.Book.of.Boba.Fett.720p_Season_1/The.Book.of.Boba.Fett.S01E02.720p.WEB.h264-KOGi%5Beztv.re%5D.mkv
+[00:51:22] h0p3: Yes, sir. Reading my mind, I think.
+[00:51:29] h0p3: Thank you again. 
+[00:52:07] ASmith: darkmx:file:ASmith@4fmoaymlaic45aoimsjyyni3jyegukogal5eydna5jccocxijshq/Incoming-2/The.Book.Of.Boba.Fett/The.Book.of.Boba.Fett_Season_1/The.Book.of.Boba.Fett.720p_Season_1/The.Book.of.Boba.Fett.S01E01.720p.WEB.h264-KOGi.mkv
+[00:52:36] ASmith: just instruct your DarkMX to download those overnight for you?
+[00:52:59] h0p3: I appreciate it. I've already got 1080p copies from IPT. 
+[00:53:20] h0p3: (btw, would you like an account?...I'm not a fan of private trackers, but sometimes it's what I've got)
+[00:53:21] ASmith: oh, I see
+[00:53:46] ASmith: I'm ok for the moment, ty 
+[00:54:20] ASmith: on the search for Spider Man no way home, the only copies I see are those eye tossing CAM's
+[00:54:33] ASmith: same with Nightmare Alley, nothing but CAM's thus far
+[00:55:43] h0p3: I got nothing. =/
+[00:56:36] ASmith: I got 4K 2160p Ghostbusters Afterlife today
+[00:56:37] h0p3: Worst part about CAMs is that anything that I can't wait to watch I'm also somehow disappointed in not waiting to have decent copy for my first showing.
+[00:57:02] ASmith: the vast majority of CAMS are now riddled with sports betting links
+[00:57:37] ASmith: not just at the beginning but here, there across the CAM which is lousy resolution, the light-dark contrast is often very bad
+[00:57:44] h0p3: Yup.
+[00:58:28] ASmith: I'm anxious to see what the DarkMX developers add or enhance with their stable project now
+[00:58:49] h0p3: No idea. 
+[00:59:00] h0p3: I'd like to see command line control.
+[00:59:07] ASmith: they have a support forum, type in some wanted features
+[00:59:20] h0p3: The more I look at it, the more I prefer that regular html were supported. 
+[00:59:33] h0p3: I'm writing it up: [[DarkMX]]
+[00:59:50] ASmith: SimpleWebserver comes bundled with DarkMX
+[00:59:53] h0p3: Speaking with Arathorn of Element/Matrix too, and the feller in charge of MuWire.
+[01:00:32] h0p3: Love how it makes a working hidden web server easy. 
+[01:00:48] ASmith: yep, very easy at that
+[01:00:56] h0p3: Shit that I normally only do on a throwaway VPS or inside Whonix. 
+[01:00:58] ASmith: they'll likely add i2p ability
+[01:01:12] h0p3: Would be crazy not too. Hope they go with i2pd.
+[01:01:43] ASmith: well as a proxy, I don't think i2pd had fully support of the ippsy website commands
+[01:02:19] h0p3: I'm fine with leveraging it entirely as a proxy. The performance difference is a big deal, imho.
+[01:02:56] ASmith: yes, I2P was built from the beginning for streaming audio, video files, it just needed 5G to give the network enough bandwidth
+[01:03:20] ASmith: tor was built from the beginning for delivering crypto grams and short messages privately
+[01:03:35] h0p3: I'm surprised I don't see multiplexing over i2p connections. That's what I'd like to see in file transfer too (and, given that he can write a torrent client, this is doable).
+[01:04:07] ASmith: yes there's some streaming video/torrent clients out there
+[01:04:14] ASmith: some even add a built in VPN
+[01:06:57] h0p3: We've been considering rolling our own, [[Outopos: Meh]]. 
+[01:07:15] ASmith: well perhaps a socks5 proxy
+[01:08:43] h0p3: Speaking of which, been thinking about using this tool for onion routing: https://guide.v2fly.org/en_US/advanced/outboundproxy.html#basic-proxy-forwarding
+[01:09:12] h0p3: shadowsocks has excellent performance, right up there with wireguard
+[01:09:35] ASmith: I use cloudflare for its global reach
+[01:09:51] ASmith: as in proxy forwarding
+[01:09:56] h0p3: That it does have.
+[01:10:39] ASmith: the free clouldflare accounts also allow for secure DNS, encrypted end-end service
+[01:10:51] ASmith: and giveyou two custom DNS servers
+[01:10:56] h0p3: I can't say I'm a fan of Cloudflare.
+[01:11:26] ASmith: I see, well their free accounts are really worth more than zero
+[01:12:58] h0p3: Imho, they have been a major force in centralizing power on the web (and the net, arguably). I can appreciate how useful their services can be. And, thank you, I appreciate your letting me know.
+[01:13:38] ASmith: the shadowsocks forwarding proxy looks interesting
+[01:14:02] ASmith: it seems they double encrypt the data in case the servers at the shadowsocks end are corrupted or taken over
+[01:26:15] h0p3: I'm still on the hunt for a replacement to Resilio Sync, btw. It's a core piece of architecture for me, and I don't have anything I like. 
+[01:30:42] ASmith: haven't heard of it, it synchs folders or ?
+[01:31:14] h0p3: Indeed. Made by the original Bittorrent corp, I believe. 
+[01:33:22] h0p3: Does a decent job of piercing nats on lots of devices (including mobile), straightforward to use, very high performance, and it has stood the test of time. I can keep 4TB synced on two machines, and it doesn't burn my IO/CPU/RAM. The swarm is solid too. It's mutable torrents for sharing directories.
+[01:34:25] ASmith: https://alternativeto.net/software/bittorrent-sync/
+[01:34:28] h0p3: There's Read+Write keys, Read keys, and Encrypted keys. Hand someone an encrypted key, and they join the swarm, but only have access to encrypted fragments (100% of the files, but hides metadata) that they share with anyone else in the swarm. 
+[01:34:37] h0p3: Unfortunately, nothing comes close.
+[01:34:42] ASmith: https://www.capterra.com/p/173194/Resilio-Sync/alternatives/
+[01:35:29] h0p3: Almost all of them are centralized. 
+[01:36:01] h0p3: I admire how you can force some of the providers to only hold encrypted files that you decrypt client side (usually as a mounted drive to read+write). 
+[01:36:05] ASmith: I used syncthing years ago
+[01:36:17] h0p3: About as close as it gets.
+[01:36:32] h0p3: Hypercore/Beaker-Browser too.
+[01:36:45] h0p3: Both have come a very long way too.
+[01:36:53] h0p3: Neither are in the same league though.
+[01:38:23] h0p3: I bet there's commercial/industrial/proprietary tooling out there with the giants. But, they're dealing with different beasts.
+[01:38:28] ASmith: I left a feature request for a sync ability with a folder flag on DarkMX for its dev
+[01:38:54] h0p3: I need to finish up my evaluation and suggestions for him.
+[01:39:08] h0p3: Many pans in the fire.
+[01:39:16] h0p3: You been holdin' up alright?
+[01:39:32] ASmith: that and a Swarm Abiilty, decentralized networks can be pretty sluggish depending on users bandwidth and wanting to share. I created a Seed Channel to pump up the number of sources and hence availability and bandwidth
+[01:39:33] h0p3: It's about to snow something fierce here in New England.
+[01:40:01] ASmith: I've also been caring for my elderly mother, aged 97
+[01:40:21] h0p3: Has she been able to avoid covid?
+[01:40:29] ASmith: cooking for her, chores for her , her grandson is more of a problem than she is
+[01:40:49] ASmith: yes but her grandson brings in all kinds of homeless type that are anti-vaxxers
+[01:41:11] ASmith: I've had to take her to get her 3 pfizer shots, sometimes driving her 60 miles 
+[01:41:41] h0p3: God damn.
+[01:41:42] ASmith: she's slowly catching on however and her nurse practioneer is wonderful as her MD
+[01:42:03] h0p3: You hold a diverse house together, sir.
+[01:42:23] h0p3: I always admire that about you. I hope I can succeed as well as you have. 
+[01:42:38] ASmith: I've gotten here various types and styles of masks, thus far her grandson has gotten the original covid, not sure about delta and now omicron
+[01:43:22] ASmith: I'm waiting as I have for a long time I guess, but I'm hopeful this year will be a new beginning of good things and larger growth
+[01:47:25] h0p3: `/nod`. Even while the world may be going to shit in some respects, I'm kinda think 2022 could be the best year of my life (locally).
+[01:48:04] h0p3: My daughter [[j3d1h]] is 16, and at this point, I'm just holding my breath and waiting to catch her. 
+[01:48:06] ASmith: LIVE: Northeast, Mid-Atlantic brace for dangerous road conditions https://www.accuweather.com/en/winter-weather/live-news/tennessee-valley-to-northeast-snowstorm-live-updates/1121187
+[01:48:24] ASmith: Tjat
+[01:48:30] ASmith: That's wonderful
+[01:49:15] h0p3: Dude, we had like 10-15 cars pile-up right in front of our house yesterday. Things are already being called off for tomorrow.
+[01:50:01] ASmith: wow, I know some old school friends that'd be out there collecting wallets for their money!
+[01:50:27] h0p3: lol
+[01:50:34] ASmith: The Star Trek Picard production was halted today after 50+ members all tested positive for the Omicron Covid19 virus
+[01:50:47] h0p3: Spreading like wildfire.
+[01:51:55] ASmith: yes, seems rather un-natural for the #Covid19 to suddenly have the transmission rate of smallpox, the most infectious virus on the planet
+[01:52:22] ASmith: delta sped things up to chickenpox levels but omicron is said to be another 8x faster
+[01:53:43] ASmith: Wow, only TWO Covid19 deaths in all of mainland China in 2021.
+[01:54:16] h0p3: XD
+[01:59:39] ASmith: I'm anxious to watch the technologically advanced China Beijing Winter Olympics in a month
+[02:00:02] ASmith: are your kids physically going to school or telecommutting?
+[02:00:50] ASmith: no way would I pay the University I attended 52,000/year for tuition if it was telecommutte only, over 50% was the experience of being on campus and meeting students all over the world there
+[02:08:40] ASmith: gd'nite, time for me to go horizontal my friend
+[02:08:54] ASmith: Hope your week goes as well there, gd'nite
+[02:09:41] ASmith: 🎃 afk
+[02:13:00] h0p3: Sorry, afked to grab some food. My offspring are homeschooled. 
+[02:13:16] h0p3: I agree with you about remote learning. 
+[02:13:27] h0p3: Students everywhere are getting wrecked. =/
+[02:13:29] h0p3: Gnite, sleep well, sir. 
+"""

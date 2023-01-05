@@ -1,0 +1,25 @@
+created: 20160125091509546
+modified: 20160125094720565
+tags: 
+title: $:/plugins/matabele/action-maketid/widget
+
+! Introduction
+
+The ''action-maketid'' widget is an action widget designed to create a new tiddler, with the built in functionality to set the values of the title, tags and fields. The new tiddler may be hidden, displayed in the story river or opened for editing.
+
+The ''action-maketid'' widget may be used to do any of the following.
+
+* create a new tiddler with or without the use of a template
+* set a unique title for the new tiddler
+* manipulate the 'tags' field by applying a sub-filter expression
+* set the values for any number of fields for the new tiddler (overwriting template values)
+* hide the new tiddler in the background, navigate to the new tiddler (the default) or open the new tiddler for editing
+
+! Content and Attributes
+
+|Attribute |Explanation |h
+|$title |The title for the new tiddler (if not provided, defaults to 'currentTiddler') |
+|$tags |Option to apply a subfilter to the 'tags' field |
+|$template |Option to name the template to use |
+|$navigate= |"show" navigates to the new tiddler (default) : "hide" creates the new tiddler in the background : "edit" navigates to and opens the new tiddler for editing |
+|{attributes not starting with $} |Values may be set for any number of fields (overwriting template values) - each attribute name specifies a field, with the attribute value providing the value to assign to the field |

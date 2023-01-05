@@ -1,0 +1,59 @@
+created: 20181215153022475
+creator: sphygmus
+title: $:/plugins/sphygmus/sbuttonsV2/buttonAppendWikiReview
+type: text/vnd.tiddlywiki
+
+\define WickedTitle() <$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##3buttTitle}} />
+
+\define append()
+<!--
+	Same deal as our append & wiki review buttons - we've leveled up and are sticking them together into the //same// button! This code should be very familiar by now.
+--><$vars front="* [[" back="]]"><$wikify name=WR_title text=<<WickedTitle>> ><$list filter={{$:/plugins/sphygmus/sbuttonsV2/dick##3buttLocation}}><$view field="text" /><<front>><<WR_title>><<back>>
+</$list></$wikify></$vars>
+\end
+
+\define WR_list(delta)
+<$vars front="* [[" back="]]"><$list filter="$delta$"><<front>><$view field="title" /><<back>>
+** 
+</$list></$vars>
+\end
+
+\define testButton()
+
+<!-- Seriously, it's just the same thing as the append & wiki review buttons, just taking the concept further and merging them into the same button code. Buttons can do a lot! -->
+
+<$wikify name=LogAppend text=<<append>> >
+<$wikify name=LogLocation text={{$:/plugins/sphygmus/sbuttonsV2/dick##3buttLocation}} >
+
+<$wikify name=WR_title text=<<WickedTitle>> >
+<$wikify name=WR_text text="""<$macrocall $name="WR_list" delta=<<myFilter>> />""" >
+
+<$action-setfield $tiddler=<<LogLocation>> text=<<LogAppend>> />
+
+<$reveal type="nomatch" state=<<WR_title>> text="">
+<$action-sendmessage $message="tm-new-tiddler" title=<<WR_title>> />
+</$reveal>
+<$reveal type="match" state=<<WR_title>> text="">
+<$action-sendmessage $message="tm-new-tiddler" title=<<WR_title>> tags={{$:/plugins/sphygmus/sbuttonsV2/dick##3buttTags}} text=<<WR_text>> />
+</$reveal>
+
+</$wikify></$wikify></$wikify></$wikify>
+\end
+
+<$set name="myFilter" value={{$:/plugins/sphygmus/sbuttonsV2/dick##WRfilter}} >
+
+<p class="center" style="font-size:1.5em"><$button actions=<<testButton>> >Appending Wiki Review Button</$button></p>
+
+</$set>
+
+---
+
+* //Wiki Review filter to be used://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="WRfilter" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Title of the new tiddler (that will be appended)://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="3buttTitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Tags to apply to new tiddler://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="3buttTags" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Location to append title to://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="3buttLocation" class="tc-edit-field-value" class="reviewButton" tag=input />
+** {{$:/plugins/sphygmus/sbuttonsV2/dick##3buttLocation}}

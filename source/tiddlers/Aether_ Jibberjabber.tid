@@ -1,0 +1,645 @@
+aliases: Aether aether
+created: 20200924062204743
+modified: 20221024072607727
+tags: Jibberjabber Log Aether islander HighFlyer Troglodyte
+title: Aether: Jibberjabber
+
+`aether://board/bfa2ec06014ddd3a1a57e4ef5df2f102d28497ad0b3368d4887dd391768ee355/thread/8a65783358911fb7aeb928aa96d3affb9bdb0cf67e1285dee8b5ba4073311f08?focusSelector=6c9ccdb9c2d3c55bf49cff6a3a63d900290c5246948867a52b488748be46889d&highlightSelectors=["6c9ccdb9c2d3c55bf49cff6a3a63d900290c5246948867a52b488748be46889d"]`
+
+<<<
+>> https://hackea.org/notas/matrix.html
+
+> About 14 months ago, I had a conversation with [[benhylau]] about that and more (and after that I spoke with Element's CEO/CTO [[2021.11.17 - HN Log: Arathorn & P2P Matrix]]). I'm willing to read negative stories, takes, technical arguments about the ecosystem. Do you have any links on the subject worth approaching?
+
+matrix is an israel intelligence operation and the definition of bloated cpu eating software
+<<<
+
+<br>
+
+`aether://board/93b2df18b96e19417924aa6d3faf77e576d747317f2cfe0bbc26ff8bac829424/thread/e34f812f4dc83bc34809447e1e6f9320e01132f62177f7a626a69e20b7253bc3`
+
+<<<
+> First time I tried it was [[2018.11.04 - Link Log: Late Night Run]]. There's not a lot of functioning examples like this one. There's never been a ton of hype, which I think is surprising.
+
+> I don't think [[Aether]] has solved the problem of distributed governance, but I admire that it aspires to. It may be the case the devs (to whom I am indebted*) have been deceptive in their marketing about why content isn't persistent. Network effect is hard to reach, and it hasn't hit that threshold. As to why there are fewer active users now, I suggest it was because of what amounted to a network wipe given what may have been a failure in centralized bootstrapping into this network.
+
+How was Aether when it first started?
+Did it have a promising launch or was the growth sluggish?
+
+What were some highlights or greatest problems?
+
+Why do you think that there are fewer active users here?
+<<<
+
+<br>
+
+`aether://board/93b2df18b96e19417924aa6d3faf77e576d747317f2cfe0bbc26ff8bac829424/thread/0be33793d83db1dd64be4af9c834e0419f97213d3815328b90d82c799f756c65?focusSelector=f524b9f4c135345703089bc03560cd7f626c0bcac4b7c5eca35d34b986110d25&highlightSelectors=["f524b9f4c135345703089bc03560cd7f626c0bcac4b7c5eca35d34b986110d25"]`
+
+<<<
+>>>>>>>> Yup. There's still tooling available for it (not every attempt has survived), and I'm [[grateful]] too. I do [[hope]] to see Wikipedia (which brings its own set of challenges) and other wikis streamlined for offline use for everyday people as well. There's a long way to go to get there.
+
+>>>>>>> How about this? https://en.wikipedia.org/wiki/Wikipedia:Database_download
+
+>>>>>>> I actually cloned one of the oldest dumps and restored with UseModWiki in my computer.
+
+>>>>>> I can appreciate how continuous synchronization is valuable in this case. I owned encyclopedias for years after their publication and still found them useful, even if only as a starting place in my research. Mutable torrents of the content would be highly preferred. Note how your claim still isn't an argument against the claim that we should have the ability to clone.
+
+>>>>> Yet the contents on Wikipedia are quickly updated that they become outdated so soon even at the time of downloading.
+
+>>>> I'm surprised to find you on this platform then. Higher degrees of ownership of the data one uses (and limiting how much data one hands to centralized silos) has profound implications. I'm not claiming you in particular should clone Wikipedia, but I am claiming you should have the ability to do so.
+
+>>> I don’t see why I should clone Wikipedia.
+
+>> Though cloning Wikipedia, either in part or whole, was a practical goal for at least the beginning of those 18 years. I can't say most wikis were designed for offline use.
+
+> I’ve been editing on Wikipedia for 18 years and I don’t know this philosophy.
+
+What happened to Wikis? You cannot download them anymore...
+The philosophy of Wikis is to include a download the wiki facility. Try and find a Wiki which supports that these days...
+
+https://kiwix.org has some .zim files to download, but many of them do not work...
+<<<
+
+<br>
+
+`aether://board/86e782e80681ac580b4d6d102b12e787c066e59f194fee57bb0bf83cc1e42fc6/thread/3dfec8972838eb646464d25142355d1664f0522987c6a0e8ccc867b93c6cb95c`
+
+<<<
+> Thank you for reminding me that Aether really hasn't solved the problem of being able to compose our own feeds, blocklists, and how we might leverage the trust we have in the signals of others (including their own trust in the signals of others).
+
+HighFlyer bot
+aether:/''''/user/447e409e65e9e91ce6b60f5ffe681a56143fab5bf4b4f0a6dcb3246c17b4bfd7
+I just reported spams and downvoted them all.
+<<<
+
+<br>
+
+`aether://board/86e782e80681ac580b4d6d102b12e787c066e59f194fee57bb0bf83cc1e42fc6/thread/f9b3c715ba3fff297a6dfcd6f1b3f404adcdeda27fcd00b9864435927737b1a8`
+
+<<<
+> I couldn't get it fully operational in Whonix, unfortunately. I think that is the way to go.
+
+Sandboxing and TORyfying Aetherp2p
+I've been trying to sandbox aetherp2p using Firejail (Linux RPM) but it seems to make chroot system calls. I know there is a Snap but I like to control the sandbox especially the networking. I think running the snap within Whonix workstation would be reasonably secure, especially since it isn't super bandwidth intensive. It should be integrated into Whonix workstation it could be turnkey.
+
+Regarding SNAPs, appimage is more versatile then snap because it can be granularly sandboxed within firejail.
+<<<
+
+<br>
+
+`aether://board/3e4ec4993aa333d118795f0d53cada7070626ce89463f50a4ad3e8de550b0ce5/thread/88863c53e4b82379515668c18edfd4656aad645749af3d2bffd2206660f6bf37`
+
+<<<
+>>>> If that is not an option anymore, backup to freenet. send the encfs dir (or share plain files :), set to keep it refreshed. Save the dir key everywhere.
+
+>>>> If you loose your data, a quick new setup can recover everything a few days later.
+
+>>> That's exactly how I did it. Was a worthy use of my gen1 RPi. Ran several services, including file syncing, for erryone.
+
+>> I created the option of an offsite backup by instaling a raspberry with external harddisk in family houses.
+
+> Timeshift for the root partition. `rsync -acr --delete --force /foo/bar/ /destination/dir/` for the rest.
+
+> * Nightly: NVME1 -> NVME2
+> * Weekly: NVME2 -> HDD1
+> * Monthly: HDD1 -> HDD2
+
+> I use a wide variety of backup/redundancy options for my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 (https://philosopher.life/).
+
+> Had I the option (long ago, I did), I'd have an offsite backup of everything with friends or family, but I'm not so convinced anyone would be interested in holding for me (not even encrypted).
+
+What do you use for your Linux backups?
+Hello everyone. I was wondering what software people around here use to backup their computer. I've been using rsnapshot on Debian for some time, and it works rather nicely. But unlike Windows or OS X, there are many backup tools available on Linux, which got me rather curious about other peoples' backup software choices.
+<<<
+
+<br>
+
+`aether://board/86e782e80681ac580b4d6d102b12e787c066e59f194fee57bb0bf83cc1e42fc6/thread/73fd3c08f7f9cfe4abfabe3d3cc0ab30be2c09f5515c7201c8e22c8ac5ea78d0`
+
+<<<
+>> "It wouldn't hurt to be able to construct our own feeds following particular users,"
+
+>> I'm working on such a feature with someone building our own forum currently. I think Soapbox offers this already. I think it would be a HUGE plus.
+
+> On Reddit, I even use tools that provide tagging about the poster to provide additional signal about how to interpret the content in my feed. High signal-to-noise ratio feeds with proper information density are invaluable (practically spreadsheets with links). It wouldn't hurt to be able to construct our own feeds following particular users, especially with keyword filtering (or even better, a client-side [may it all remain so] engine that might probabilistically decide if a particular post from a particular user fit a set of filters for topics we are interested in).
+
+Is there a reason a posters user name isn't shown next to the title of the post when browsing posts here?
+Not have that "feature" here has made me realize how much I like to be able to see the posters name.
+<<<
+
+<br>
+
+`aether://board/3e4ec4993aa333d118795f0d53cada7070626ce89463f50a4ad3e8de550b0ce5/thread/ac870220548ae7aa687b96630ae12b7ce7964de4175a7730e8377381893c3aa9`
+
+<<<
+> I wish Wayland was obviously better now or in the future. It's not even close to ready, imho. There's a ton of inertia behind Xorg that may take decades for Wayland to catchup on unless we significant changes to Wayland development.
+
+Is Wayland any better than Xorg?
+I see a lot of people online saying that Wayland is the future and Xorg is an outdated piece of trash. For the standard user who browses the Internet, uses LibreOffice, etc, is it really that big of a difference? Because so far I've seen nothing wrong with X and it works exactly how I need it to. Maybe there's some cool features I'm missing out on, but I haven't heard of anything crucial. What do you think?
+<<<
+
+<br>
+
+`aether://board/dc13f7584732077a999cd8983691d049213f57997f693b26b127c540428baddb/thread/a3618665e7500c975418e0410f88a1f5dea18bcb4b1b2c5a0c8cbfd13eaed796`
+
+<<<
+> I'm still a fan of it too:
+
+> ABDxw8FJRZH/KVW0qSPemzBAxTa3YS2S+EH7Ko9z2gQg5HoW9uDdwEEaDBwM5BEAAAAAiaWZXdqN2Roc2xyYzN5cmN6ajI1ejNndnd5dmlqM3libTVsaWh1N2NhYWw1aDYyYXdkZXFtcDRjYWQub25pb26TBgEAAH8e/gQD/miw
+
+RetroShare still around, trying to get in on Google summer of code
+Check their tweet from March 24th: https://twitter.com/retroshare/status/1506984690015772680
+<<<
+
+<br>
+
+`aether://board/2446e66d519726401f7f1b6d4c22f668dce2bd44d77d038a9eb9e131e940df7e/thread/ee702c9d106248fede7378f196a876d921c1ce542c2de48e17499e11b55dd46a?focusSelector=5377b1ff785d89ace024c98cf6082a80fc5ba66331574d5cd4cd49b02d7476a8&highlightSelectors=["5377b1ff785d89ace024c98cf6082a80fc5ba66331574d5cd4cd49b02d7476a8"]`
+
+<<<
+>> older than cwtch.
+
+> It is just as old as Tor.
+
+i2p seems way older.
+<<<
+
+<br>
+
+`aether://board/93b2df18b96e19417924aa6d3faf77e576d747317f2cfe0bbc26ff8bac829424/thread/596361331279d0116daf40e36872fc9eea62646b89e9752836601228b61829cd`
+
+<<<
+> I hand them my [[Public Self-Model]], https://philosopher.life/, then I listen and [[aim]] to speak where fitting.
+
+You really are what you do in your spare time: truth or opinion?
+So you as a person, as an entity, are what you do\create\idealize during your free time - this I always conveyed through my thought flow.
+
+What about those that when asked "who are you" they answer with "I am a job profession" and whose small worlds revolves around their work place instead of what they do outside of it?
+
+Whenever somebody asks me "what do you do" I always ask "I do many things like this, that, and then to keep them up I work as a job position", which still answers about what my current work is but places it on the sidelines, so that they understand that they don't have an ordinary Alec before them but somebody that values what he does because he put effort into learning those crafts instead of droning out.
+
+What about you people.
+<<<
+
+<br>
+
+`aether://board/68709c81d0e0f2b020c836a2674b26acd1a8f576c215644e288bbb4df5e209c7/thread/af7728871d5a8e42f4fb760ed21f5343298b4a72241b00a0a36d6e56b1867269`
+
+<<<
+>>> Yes, my friend. I appreciate your plight. Isolation sucks. I wish I could visit you in the flesh. My offer stands, in any case. I'll be thinking about your words. I hope you find what matters most in our world.
+
+>> I am referring to the people around as physically, I doubt you are leaving nearby Avigliana, Piemonte :|
+
+> If you like reading and writing, I might be of service. I'm a very consistent interlocutor, and I put my skin in the non-mere game, as it were. I speak with all kinds, [[nomad]].
+
+There is so much, yet I need so little on the materialistic side
+What I really need is interesting people to come in contact with, but when you are surrounded by yours peers of age always handling the goddamn phones or when you talk to them and they can't even keep the conversation going, making you feel like you are literally wasting both time both energy, how do you even cope with that?
+
+We don't need shopping malls and grandeur like that, we need more affordable\accessible public places where we can be mentally and\or physically active together with alike-minded people.
+<<<
+
+
+<br>
+
+`aether://board/16832a864fd116c9f108d2d95c2d417c4e5381d7fd824fe8638aaaba565ada83/thread/fec82b6158ce3cf3e8b069352f4e924b5fa9a4c5540b5138e3396b8c8ca37f05`
+
+<<<
+> Nothing against the amazing developers here. There's only so much time in the day.
+
+> This is an excellent point. [[DarkMX]], [[MuWire]], and Retroshare do a better job of this. Note that I cannot use Aether from within Whonix either. If [[anonymity]] isn't easily available, it's not so obvious that [[privacy]] more generally is either. There are limits to how much storage you can ask of the average user in flood routing and seeding content, and that appears to the real underlying reason for the "choice" of ephemerality on this network.
+
+> I don't have a problem with users having the option to route both over darknets and clearnets (high performance federation of supernodes may even prefer it), but the default should be anonymized. i2pd is sufficiently performant, and it's not like this network is going to be all that fast for everyone (I'm fine having slower conversations too).
+
+Does Aether use I2P? If not, would it be an easy task to build support for I2P?
+Title pretty much says it all. Since both technologies are P2P, it seems to me like they would be a good fit for each other.
+<<<
+
+<br>
+
+`aether://board/6890d7b222a7bad0ed6746f77bcf70d847951f1937860c003632a4f9a7ac2a08/thread/2dc1f0582b9144782aca035e419f367b82e255c94807ca055eab0bb7221ea3ce`
+
+<<<
+>>>> Thanks! It's funny: I was playing the Tetris theme on the guitar while his voice was looping "The key to success is failure. I've already failed 10 times today ; what have you done?" and I have to say this combo is a great match, haha :D
+
+>>> https://www.tiktok.com/@graemebarrett69/video/6974937133748440326
+
+>> t_0 :
+
+>> failure rate = 50%
+>> success rate = 100% - 50% = 50%
+>> t_1 :
+
+>> failure rate = 50% * 2 = 100%
+>> success rate = 100% - 100% = 0%
+>> Well, that worked great, thanks!
+
+> https://philosopher.life/#%2Fb%2F:%2Fb%2F
+
+> If you want to increase your success rate, [wisely] double your failure rate. [Failure isn’t an option. It’s mandatory.]
+
+> – Thomas Watson Jr., A Whack on the Side of the Head
+
+The "Good Idea Fairy" - Why is it?
+Maybe you've never heard this term before, but the "Good Idea Fairy" is basically when you have this eureka moment; one when everything becomes clear, this new idea seems groundbreakingly good, and thus without any second thought or criticism it is put into motion...
+
+...And then the day after you realize "Dear God, why did I think this was a good idea?"
+
+To clarify, I'm talking about dumb decisions made whilst sober; because the Good Idea Fairy isn't beer-goggles, it's making drunkard-tier decisions whilst completely uninebriated. You've probably done some pretty stupid things yourself which seemed brilliant at the time, then figured "Oh, this is a terrible idea," maybe halfway through or not until the end.
+
+I find it a bit difficult to say that this is just plain stupidity, because most of these "good" ideas are indeed brought up by strokes of brilliance, but perhaps not the best stroke of brilliance; one might say antibrilliance.
+
+So what would you say causes us to reason like drunkards whilst gripped by the throes of sobriety?
+<<<
+
+<br>
+
+`aether://board/6890d7b222a7bad0ed6746f77bcf70d847951f1937860c003632a4f9a7ac2a08/thread/5892601a49cebd00dbcb37d40d5b2ed1ea2bc42641ad30577094a60e31f97fc9`
+
+<<<
+>>> Hello. Can you see this, islander?
+
+>> That Plato resource at Stanford is excellent.
+
+> Sir Troglodyte, I'm an autistic individual who has had to study the concept of empathy some for his vocation. I cannot say I understand it well enough myself, and it is likely the case that the average person doesn't quite know what they mean (or should mean) by it either. To my poor understanding, the neurological basis for empathy non-trivially begins in our tacit spatial reasoning for modeling our own bodies moving in the world, and our ability to generate theories of mind of The Other are built on those primitive functions we need to survive at all. Perhaps this may be of use to you as well: https://plato.stanford.edu/entries/empathy/. I will point out that empathy is perhaps not a sufficient mechanic for what you're concerned with. Note that sociopaths and highly-integrated dark-triads can be quite empathetic (often part of what makes them so charming and socially effective) until they turn the switch off where it is convenient. The reasons for how we wield our empathy are pretty crucial, as far as I can tell. As always, it is my honor to read your words, sir.
+
+Why empathy has become a dirty word
+I think its conflation with neuroticism is why people roll their eyes at the word "empathy" now.
+
+Think about it: those who claim to be empathetic are really thin-skinned, take everything to heart and feel they're "under attack" whenever someone disagrees with them, even if it's in an unintentional way.
+
+Whereas empathy actually means feeling bad or good for others, (feeling the joy of someone who won a lottery, for instance) what it has come to mean is projecting negative emotions onto others whenever they do something to offend you. To such "empaths" it can't just be that someone said something completely inoffensive and they took it to be a personal insult; as the "empathetic" project their own feelings onto those who offend them.
+
+TL/DR: The word "empathy" has come to mean being easily offended.
+<<<
+
+<br>
+
+`aether://board/6cd0a690b52719bc37c59bac11a2ce0846b3f6dd953c833e71798855b0365419/thread/7b1d6a3e2ddaa568c7358bc43585483c23eb3455d9d557702d4ef039bf739b58`
+
+<<<
+> I can't say you're wrong. I'm sorry. There may be other considerations worth thinking about.
+
+> https://philosopher.life/#2021.08.12 - %2Fb%2F. Perhaps irrelevant. Do what you will with it, ofc, Sir Troglodyte.
+
+> http://www.shadowstats.com/alternate_data. Those are non-trivial reasons for inflation, but I think the primary cause is still the amount of money that has been printed. May be a perfect storm. I'm [[grateful]] we've avoided hyperinflation thus far. I am not convinced "nobody's working," but I agree there are significant unemployment and especially underemployment problems. I have no idea what would happen if the USD were no longer the reserve currency, but there have been shifts away from it (though, when there are serious spikes, a lot of people seem to run back...perfect abuse cycle).
+
+> As always, it is my honor to read your words. /salute.
+
+So is America's economy just going to totally flatline?
+The year prior, there was a one-trillion-dollar bill to bail out loads of people, but apparently most of that money went to starting useless garbage; since your average nobody only got 1,400 dollars. People were getting really worried back then because the economy was doing stuff it shouldn't do, such as petroleum having a negative value.
+
+Things have only gotten more expensive since, partly from inflation, partly from the fact that giving everyone a thousand-odd dollars gives businesses an excuse to raise the price of things by a time and a half.
+
+So what our dumbass government over here in the US of A just did was pass a 3.5 trillion dollar bill, which will no doubt be signed by our hair-sniffing president. This bill, like the last one, largely provides funding to new agencies which (from what I can tell) is just a way for more friends of career politicians to enter the upper-class and flee the sinking ship of the middle-class; as once again it's mostly going to useless garbage, and this time without even the table-scraps for us plebs. The print-out of this things is the size of a log, its pages stacked some eighteen inches, give or take. (about half a metre if you're French, or a cubit if you're old-fashioned)
+
+Oh, and one scene that's playing out in the ocean is an enormous traffic jam of cargo ships outside the port of Los Angeles; somewhere shy of sixty of the things are waiting their turn to dock due to what I think equates to the manifests of each vessel being lost, I'm not sure.
+
+Adding to this, enough companies are going along with that mandate to where they're missing out on a growing number of potential employees. Presently the "unvaccinated" population of the United States is a bit more than a third, but it's growing as people decide the adverse reactions from one shot are enough already and refuse to get a booster; IE "becoming unvaccinated." In other words, there's a growing number of legally-not-vaccinated people in America who (in addition to plenty of others refusing to work because the pay is shit,) are joining the equivalent of a general strike right now. What this means is that nobody's working, which means not enough people are driving trucks, which means not enough people are stocking the shelves, which means food is getting expensive along with other supply-chain things.
+
+It's amusing to me that prior to now, actual meat here was cheaper than the fake vegan stuff due to the huge infrastructure we had built around meat-production, but now it's the other way around. At least it's made from corn and oats, and not bugs. (Yet.)
+
+To summarize these: our bosses are too stubborn to see the writing on the wall and pay us living wages, the government's basically set a rally date for a huge general strike without realizing it, and our money is worthless. This must must how people feel in South America, or the ex-USSR, or basically any other former empire. The difference is that none of those powers had had currency that was accepted worldwide. If the US Dollar collapses, then everyone is going to feel it, and I'm more convinced that it will than it won't.
+
+Please prove me wrong, because I want to be proven wrong.
+<<<
+
+<br>
+
+`aether://board/93b2df18b96e19417924aa6d3faf77e576d747317f2cfe0bbc26ff8bac829424/thread/d2a99a1633e4ed1d31c23f445e893b980f033c60966449bec0b4ac75143f7926`
+
+<<<
+>> They are quite famous for that, now I think of it.
+
+>> https://en.wikipedia.org/wiki/List_of_Hungarian_mathematicians
+
+> Anecdata: the Hungarians I've been lucky to meet tend to kick serious ass in mathematics, computer science, or hacking. That is not much of an argument though.
+
+Which Eastern European Nation has the best IT skills?
+I remember Bill Gates went to Romania. He was publicly thanked by their leader for all the Microsoft piracy there which kick-started Romania's software industry.
+
+Does anywhere else spring to mind?
+<<<
+
+<br>
+
+`aether://board/dc13f7584732077a999cd8983691d049213f57997f693b26b127c540428baddb/thread/22882a54cbd08a3305bb9720388a7beb2fd31ef91d51131b074bc55ba519a908`
+
+<<<
+> I don't fucking trust it. Slick AF and red flags. They have not come correct, unlike Retroshare (though I share many concerns with you on this).
+
+Thoughts on Utopia?
+https://utopia-ecosystem.com
+Any security/p2p experts that have looked at Utopia? It is as good as it sounds? Installing it went smooth and UI seems ok.
+<<<
+
+<br>
+
+`aether://board/6890d7b222a7bad0ed6746f77bcf70d847951f1937860c003632a4f9a7ac2a08/thread/10b48f7e792447a66769353e4f2c3aab29dd5be8d3ccc9c608d6612cc756b120`
+
+<<<
+> I walked away from this, not sure where to go with it, but decided I would say something. Please ignore my gibberish at will, Sir Troglodyte. We are all very fortunate to hear your words, and I only [[hope]] to contribute to your work. You're a pillar of whatever this community may be. Maybe this fragment will be worth thinking about.
+
+> Some argue that the virtuous agent is a flourishing specimen, and that those who suffer from having to choose to do what is right but at great cost to their flourishing cannot be virtuous (seriously, this is theory handed down from on high in analytic phil). We are Hursthousianly "marred" by this, but we can flourish in our contexts as persons. It is better to be the sad philanthropist than a happy pig. We must do the best we can with what we have, what else ought we do? It is why Saint Kant is correct about The Moral Law, no matter how much I worship Saint Aristotle.
+
+A bizarre idea on what's right and wrong
+I'm not completely convinced of it myself, but it goes something like the following: "Vice is suffering, virtue is fulfillment; so anyone who gives into cravings enjoys being miserable." This struck me as a bit bizarre, if at least somewhat consistent. But it bears mentioning that this comes from a... shall-we-say Evangelical standpoint. This basically originated as a way of explaining heaven and hell from what I could figure; saying that awful people go to hell because they like being miserable (due to attachment, I guess?) and go to heaven due holding good will and not wanting to be miserable.
+
+Basically, the argument went that the whole "delayed gratification" thing is misleading and that working for a higher goal is pleasant in its own right; since it's for the good of others and we should enjoy reducing misery out of good will. Contrarywise, the argument against vice was that people don't actually enjoy partaking in vices, but that what they're really addicted to are the cravings for those things and that indulging them comes about from an addiction to misery.
+
+I've got to say this struck me as a borderline alien way of looking at things. Basically, it was a way of justifying free-will, heaven and hell; saying that people go to hell because they're addicted to "sin" (revelry and suffering, as I understood) and otherwise that people who end up in heaven go there because they want to be rid of suffering. Of course, the argument went that we're placed here in this mortal coil to try both out, see which one we like the most. I guess there's no booze or gambling in heaven, then?
+
+I wish I had something more thoughtful to say, but I really don't have anything to add; just that I thought this was an... interesting view of things and wanted to see what everyone else thinks ¯\(°~°)/¯
+<<<
+
+<br>
+
+`aether://board/93b2df18b96e19417924aa6d3faf77e576d747317f2cfe0bbc26ff8bac829424/thread/f55e59a0c2d341e61535ee4ab90cff0a3930a8118493e990c2cce63e492f89f8`
+
+<<<
+> I want to join your forum when it comes into existence. Please give me a way to know how to find it.
+
+I've considered starting a forum of my own. Any advice?
+Don't get me wrong, I've got nothing against Aether, it's just that I'd like to start up an actual forum of my own one of these days.
+
+I'm partly concerned about hosting, but I'm also worried about cost and not least of all (what I imagine most of you will be knowledgeable about) what software to actually use for said forum.
+
+I've heard that the software for Ruqqus is available, but I'm less interested in doing a Purple Reddit sort of thing, and more doing something that's based on a select number of topics; where the admin creates/ closes the boards. When I was a tween-ager, I recall Envision was the big go-to software for forums, but I also recall almost every forum I went to that actually ran Envision being hacked by weeaboos , so maybe that's not a good choice.
+
+I'd like to know what software Meta Aether uses, (the help forum, in case Ather proper stops working) since it seems like a neat balance of modernity and sensibility, if anyone knows.
+
+All in all, I'd like any advice you can give me. Any advice aside from starting an Invisionfree board, at least.
+
+@Troglodyte
+<<<
+
+<br>
+
+`aether://board/a76595fe8f82f9268b83532019a022c6e792fc36885da68bdbf2b5a07627ac7e/thread/ef1f8adb4fc84b1d9f752df7713e47c3d455302125331c79316250b3601f1038`
+
+<<<
+> https://philosopher.life/#Contact h0p3 -- 05c17f4a9286f13dc5e57cc996b8f9b76a0767b0edab8d9ff425dbb34afd063a48
+
+> It works, though it is still not primetime ready. I'm glad to have it. Most people seem to prefer it to Tox with me.
+
+Session/Loki
+Anyone ever gave it a shot? What did you think?
+<<<
+
+<br>
+
+`aether://board/93b2df18b96e19417924aa6d3faf77e576d747317f2cfe0bbc26ff8bac829424/thread/1a6afe872148784214be61e3e3b61fc11aa3baf37bbf29757e6c0375c9d26dfb`
+
+<<<
+>> Very high praise! Thanks
+
+> https://fraidyc.at/ - The person in charge of it is a servant of Humanity. It's actively developed, and you should speak with them.
+
+Which is a nice RSS/Atom Feed tool?
+There is a facility in Mozilla Thunderbird, but do you think there are much better offerings elsewhere?
+<<<
+
+<br>
+
+`aether://board/11b92fb72c7bc2be2242612719e7fc83a0425dcfa5cf63a6721c47a12edc688e/thread/930aad476056dc12e1e26b95141ed99916419aadaf19c0857f3b6d535098e973`
+
+<<<
+> Keep working your way up the food-chain (explaining which previous addresses have not responded to you). Do NOT reveal your identity to them. They often go after people doing the right thing (I know how paradoxical or backwards that seems).
+
+First post here in the Hacking sub.
+
+I found something big, like... really big. But my disclosure has fallen on dead ears. What do you do when you know that millions of users could be impacted but the provider is ignoring responsible disclosure?
+
+My background is in web attacks and exploitation so I naturally find myself tinkering with most of the sites and services I use on a daily basis. It is pretty common for me to run the whole day with Burpsuite proxy on so I can inspect the traffic and spot potential bugs. It is actually amazing and scary how many popular websites are utterly broken...
+
+Anyway while setting up autopay for a service I use, I made some observations and noticed that their payment gateway API was returning more data than what was showing in the response on the webpage. So the webpage says something like "thanks for your payment", but the API was actually returning a full JSON object of all the payment details in clear!
+
+Digging further I found out that any user was able to query the API and return payment details for ANY other user on that platform... like I said, this is really bad. What's worse? Anyone can sign up for an account without even being a customer and perform those lookups via this broken API.
+
+Fast-fwd I immediately documented my findings and did some quick OSINT to find the correct email to disclose the issue to. This company does not have a bug bounty or vulnerability disclosure program and did not seem to have much of a security department either (go figure...). So I sent it to their email address posted in their privacy policy but it has been crickets so far. No response at all...
+
+I dont want to just send this information to anyone because this company has millions of customers and if it gets into the wrong hands it would be really bad for all the people who are trusting this company with their financial details, let alone the customer PII exposed too...
+
+So, what does the aether community have to offer for expertise on how to proceed???
+<<<
+
+<br>
+
+`aether://board/a570802f2c5f35dff6b47c2a5db8bb2eea65d1994ad18f038ac6c6599d8a6533/thread/ce880f01a3778c6452d5572d5069af66b60f6be4f260f77a4d1b6cf5aeef0f5b?focusSelector=0eab8262bb56f7dc441475537a4d1299544a16325959182a277f075ebf373fd1&highlightSelectors=["0eab8262bb56f7dc441475537a4d1299544a16325959182a277f075ebf373fd1"]`
+
+<<<
+>>>> This person may be of interest to you, I don't know: https://www.reddit.com/user/nightsky2020. Perhaps unhinged (and I have profound disagreements with them), but maybe there is a gem or two in their posting worth considering.
+
+>>>> Take as much time as you need. Thank you. `/salute`
+
+>>> Sorry for the wait. That thing CRT thing I mentioned is at: https://opencommons.uconn.edu/cgi/viewcontent.cgi?article=1116&context=law_review
+
+>>> Be forewarned that in addition to the obfuscation-by-jargon that academic political stuff tends to have, there are loads of pages with maybe two sentences tops, the rest of them filled with loads upon loads of citations; so if you skip over the parts where they gripe about Obama incessantly, it's effectively half the length you would expect. It's still woefully long-winded, though.
+
+>>> Just bear in mind that it's ten years out of date. CRT advocates have grown more bold over the years, and this is downright tame compared to what they're pushing now.
+
+>> Those are my random words (https://philosopher.life/#2021.06.24 - %2Fb%2F). It's my honor to read yours, Troglodyte. You do good work, my friend. I'm interested to see your next installment.
+
+>> I think what we've said is compatible thus far.
+
+>> I appreciate that you consider it fair enough. Excepting the last line, I purposely avoided defining it (in part because it isn't a clean, self-consistent social monolith) and aimed to speak of the implications of taking up different positions; it was the best I could hope for in my critique of various positions of CRT I've encountered.
+
+>> I'll say that no one arguing for anti-essentialism actually takes it up with integrity in practice. I see this move made by some though, and it's part of the problem.
+
+>> If you have the chance to help a geezer out, do you mind showing me the bare link? They are not clickable in my OS from Aether.
+
+> Assuming that's yourself you've quoted, I'd say that's a fair enough take, but I don't agree that CRT is anti-essentialist, however.
+
+> I do actually agree with CRT proponents when they say that the policy of race-blindness has been used in bad faith as a way of disadvantaging students and the like, but I don't agree that responding with some kind of "positive discrimination" is going to do anything but aggravate current prejudices, nor do I think that telling people they have "unconscious biases" is going to do anything but cause biases. People may have unadmitted biases by contrast, but of course they won't admit to them; no one wants to be seen as prejudiced. And frankly, CRT strikes me as a massive form of projection, one created both by people who want to project their prejudice onto "whitey" and those with a white-savior/white-guilt complex.
+
+> I also don't exactly see it as being based on the "golden rule," either. This one CRT publication I read would have been hilarious if it wasn't so boring and pathetic; they lamented the end of segregation, and figured that since they can't take the step backwards of re-segregating/disintegrating, that they want to convince people to more-or-less self-segregate. And the last quarter of the article is just them blaming Obama for everything, I kid you not. It's also contemporary to Obama; seeing as it's ten years old. (Thanks, Obama!)
+
+> What actually makes me genuinely concerned with CRT proponents is that they use the term "race-consciousness" rather frequently. It's a spin on class-consciousness, but one meant to pretend that racism is the root of class hierarchy instead of (for instance) inheritance, connections, propriety, and really anything else which contributes to capital. So I would say that the biggest flaw with CRT is that it is race-reductionist.
+
+> Presently, I've been re-reading a lot of CRT & "anti-racist" stuff, taking notes this time as to better get a grip on its nuances. I'm writing up a better refutation of Critical Race Theory that doesn't start off with noting baffling connections to the Nation of Islam, so that'll probably be a better outlet for conversation on the subject once it's posted.
+
+''''
+
+> Nobody seems to be able to define CRT well enough (with plenty of No True Scotsman to go around), so I'll pick out some membranes that matter. Insofar as CRT's approach to legal scholarship is working from the assumption of pervasive racial inequality at a global scale, particularly as a type, flavor, and crucial function of classism, it's correct. Insofar as CRT is an offshoot of intersectionality that promotes misdirecting our focus from class to idpol, as though racism, be it domination or ideology, is the central priority political problem, it's mistaken (that would be another vein of reactionary reasoning). Insofar as CRT uncritically embraces anti-essentialism and materialist constructionism (the denial of which is hardly the claim that constructions do not obtain or are somehow irrelevant), it's yet another postmodern failure that deconstructs itself (I find most have people have no idea what they've committed themselves to in formal philosophy, and I'm disappointed to find they don't want to know). Insofar as CRT fails to recognize the necessity of the labeling of the other, it cannot speak intelligibly about normativity. Insofar as CRT is critical of dominant historical legal claims to neutrality, objectivity, fairness, and justice without denying the necessity of intersubjectively exploring philosophic abstractions and generalizations about these concepts (including understanding race as a morally arbitrary characteristic that we've failed to treat as such throughout history), it's doing good work. Insofar as CRT agrees that the problem of racism is necessary but insufficient for describing the immorality of the history of political power, it's correct; but, insofar as CRT would claim looking through the lens of race is necessary for describing the concept of immoral political power, it would be wrong. Insofar as CRT acknowledges the dignity of the essence of the good of all persons (wisely wielded metaethical autonomy, goodwill itself), including their qualia and the knowledge that can only have been acquired through experiencing marginalization, claiming that justice cannot obtain without taking each person's perspective into account, it is golden-rule-oriented, and fundamentally concerned with The Moral Law in practice. Insofar as CRT aims to challenge the possibility of any fair hierarchy of power, epistemic or ontological, it is incoherent. Even a minimally charitable, barely steelpersoned position of CRT can meet all the conditions here, and I suggest most obviously do.
+
+Do you think what we've both said is compatible?
+<<<
+
+<br>
+
+`aether://board/93b2df18b96e19417924aa6d3faf77e576d747317f2cfe0bbc26ff8bac829424/thread/a43f42908c23a884625486dbdaba192d597eda95087aaa22f7ccee97e11e2dbf`
+
+<<<
+> Prima facie, to use another's mind as mere means, including deception, is immoral. There are cases in which we should deceive, including to the ax murderer at our doorstep. And, sometimes defection is the morally obligated response to defection. [[Memetic Warfare]], even on the order of sockpuppetry, may be obligated in some cases. I [[aim]] to argue the truth as best I understand it first though, to respect [[the other]]'s dignity and autonomy to make the right moves (and even to make the wrong ones in many cases).
+
+Is sockpuppetry immoral?
+
+It is of course acting in bad faith to sockpuppet, but is it even possible for there to be a threshold which makes it justifiable? Or is it just completely awful and unjustifiable through-and-through?
+
+It's always struck me as a scummy practice, but when I think about how widespread it is on certain platforms (such as Reddit) I start to worry if maybe sockpuppetry is the only way to counter sockpuppetry in turn. It's already pretty obvious that Twitter and Reddit use bots and shills to upvote and crosspost/retweet to advance the interests of their sponsors.
+
+To give another example, there's this one topic that if you post about it on Youtube, will get you almost exactly 1,200 downvotes on your video, no less and not much more unless you discuss it poorly, in which case you get about ~600 with almost the same amount of "fuzz" to that lesser number. It's plain as day to me that it's bots or some other form of sockpuppetry behind this, and every time I see that done, I have to wonder if this strategy should likewise be used against those who use it.
+
+Although that might as well be the temptation of power that hack fantasy writers are so keen to warn about. After all, it is possible to learn this power, but I suppose the real question is whether or not it means you've compromised your soul or conscience. This is where you guys come in, since I want answers.
+
+TL/DR: is using alt accounts, bots or shills to sockpuppet pro or con a position a morally repugnant strategy, or can it be a force for good? If not, does an opponent's use of sockpuppets change this?
+<<<
+
+<br>
+
+`aether://board/93b2df18b96e19417924aa6d3faf77e576d747317f2cfe0bbc26ff8bac829424/thread/458fe67709462a18d160794d17cb5a90bbb2a9998fe4391f644db0c2b101f34a`
+
+<<<
+> I'd be subbed to your words, homie: [[https://philosopher.life/#We Could Probably Be Friends]] - you got a good eye (I am a quiet listener, usually, as I tend not to start conversations I'm not willing to finish). I appreciate how you aim to be considerate here, and I don't know what you should do in your shoes. You would not be wrong to do that though! Continue to be creative with your use of Aether. There are powerusers I follow on Plebbit, and I'm hoping to see more powerusers to follow on this platform too.
+
+> I have a roughly similar problem. My writing habits are considerable. I prefer to use Tiddlywiki still. However, if Aether continues to make strides, I may eventually use it as the underlying forum-piece for my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱. So, you can use it as a blog, or you could use it for continuing a conversation from your blog. In any case, I think you need a blog, or a digital gardens, or a whatever we need to call it. Go for it.
+
+Would this go against the community spirit/ purpose of Aether?
+I've considered starting a "community" here on Aether to post my gripes in, although I certainly wouldn't mind other people posting in it. Thing is: I want to do a series of posts which link to and summarize news articles and the likes that pertain mostly to the things which make me angry.
+
+And a lot of things are making me angry these days. Not to go into details, these are (generally speaking) political or culture-war based things, and I'd rather not post them on a pre-existing "community" out of fear that I might drown out everybody else. My first impulse was to post these on /b/Politics, but I figured that board has something of a shall-we-say niche crowd these days, and I already feel like I've posted too many threads there already.
+
+Since I don't want to take up too much space with all my griping, this seemed like a good idea. But I have to ask if it's appropriate for the platform. If nobody else posts there then it would basically be a blog, which I feel isn't exactly what Aether is meant for.
+
+So would I be wrong to do that, or is it appropriate?
+<<<
+
+<br>
+
+`aether://board/3e4ec4993aa333d118795f0d53cada7070626ce89463f50a4ad3e8de550b0ce5/thread/1f23488a106bb79981c1ef7dcb576d2070d461004781665595f615c54b2ea58c`
+
+<<<
+> How far down the rabbithole do they want to go? I think plenty of people will be served by just sticking to Mint. If people aim to own their machines deeper in the stack and long-term, then I think Manjaro is a better pick.
+
+What distro would you all recommend for someone that is new to Linux, but wants to learn in the easiest way possible? I am currently using Linux Mint and I love it. Any suggestions?
+<<<
+
+<br>
+
+`aether://board/6890d7b222a7bad0ed6746f77bcf70d847951f1937860c003632a4f9a7ac2a08/thread/7c09b7500ee562a9c523602421db8ecf5639977535f96cb4bd7b175b3ea818f7`
+
+<<<
+>>> I'll agree that "a place to be" is an important part of the story. Some humans are more nomadic than others, but not so much that people haven't tended to settle down and create civilization. Most humans emotionally benefit from having a stable home, roots even (which isn't to say that travel, moving, and even losing one's home aren't important experiences, far from it).
+
+>>> I think you'd have to make far more changes to society than that in order for it to be preferred. I'll grant that some people would be quite happy living that way, and perhaps even most could be.
+
+>>> I do not see why that entails giving up the concept of ownership, but I'll agree the complexity of those ownership rights might grow.
+
+>> Ah, I suppose your arguments could fall under, "A place to be" Which certainly makes sense.
+
+>>If society was different though, there are interesting alternatives that could happen.
+
+>>Perhaps, instead of everyone having bedrooms, kitchens, game rooms, etc... There could be buildings dedicated to the concept. Such as, one building is for sleeping, another for kitchen work, another for entertainment. Of course, this would almost entirely give up the concept of ownership in so far as land and housing is concerned.
+
+>>I'm convinced humans are largely nomadic in nature, it would be neat to be able to indulge in that type of behavior while still properly enjoying our social nature.
+
+> Hi there, logen. My name is h0p3. It's an honor to meet you. I am willing to have a very in-depth conversation if you want (though most do not*).
+
+> There's also other kinds of safety, and anchors for our stories, and sentiment, and a place that grows with us and our families. Most people are terrible with money (and even worse with other people's money), and storing their capital in something they are responsible for using and maintaining does some important work. None of these are knock down, drag out arguments. But, I'd like to see an exploration of those intuitions. Let us say, I will agree that if society were radically structured otherwise, your argument would have even more force to it.
+
+A home is protection from the elements for our things and our selves. A home is protection from hostile members of society. (somewhat) A home is privacy. (also somewhat) A home is storage for our things. (Most of which tend to be rather unimportant, also, storage is cheap)
+
+I'm not sure there is anything else to a home than that, but it sure costs us a lot of our time and money-time to acquire and maintain. And from what I've seen, the price is a bit steep.
+
+Surely there must be reasonable alternatives to giving up a large chunk of our lives to merely obtain those things listed above.
+<<<
+
+<br>
+
+`aether://board/93b2df18b96e19417924aa6d3faf77e576d747317f2cfe0bbc26ff8bac829424/thread/7fa24aa187f8fe5e78483d25315d2faea90c120f21a3375adf628b68f9b0bbff`
+
+<<<
+>>>I agree there can be many reasons to use Aether. It has some default temporariness that the vast majority will never override, but I'm not convinced that will be the case long-term (if the tool makes it big). I appreciate that desire though. I use Shreddit to overwrite+delete my words within 72 hours on Reddit, and that still does something too.
+
+>>>I'm hoping to see Aether turned into an extremely high performance tool that will work even on a potato. There's something to be said for de-webifying applications, especially as we cannot predict how WASM might mature.
+
+>>Well done.
+
+>>But there can be many reason for someone to use Aether. Mine is that I like discourse to be temporal, unless it really needs to be written down, and it's nice to have a social platform on the internet that has nothing to do with web browsers.
+
+>>Aether seems to be growing from what I've researched, it'll be interesting to see how this platform evolves.
+
+>Hey, there. My name is h0p3 (https://philosopher.life). I'll bite, playfully though!
+
+>I can say things like: you are you. =). I can worry that you don't know the flaws of stoicism well enough. I infer that you actually give a shit about the autonomy of people in the world. I think that you use Aether gives signals we can use to make predictions about who you are, or at least identify likely characteristics of your identity.
+
+>It's nice to meet you. Conversations are a sacrament to me.
+
+Who am I?
+Anyone?
+<<<
+
+<br>
+
+`aether://board/86e782e80681ac580b4d6d102b12e787c066e59f194fee57bb0bf83cc1e42fc6/thread/4f3a4283cffff907b68756dd6910efb89c2f7d93889f20cc2c44f87bab0444b9`
+
+<<<
+> Being able to have multiple custom "New" or "watch" feeds would never stop being useful at any size of this network for me.
+
+What's the future decision for what "New" should be when Aether grows?
+So, I was noticing a bit of activity these last two days. And I was thinking about how the New button works where basically it's just what the new comments are in various threads. As aether continues to grow, is the expectation to keep it like that?
+
+At what point does new become less useful when there are a bunch of users populating stuff non-stop?
+<<<
+
+<br>
+
+`aether://board/86e782e80681ac580b4d6d102b12e787c066e59f194fee57bb0bf83cc1e42fc6/thread/a095bc62996e93d9cbd2744e7d9b9910116cc3c46501413e63204f47bee7a778`
+
+<<<
+> I can tell there's a lot of blood, sweat, and tears poured into this one. [τ̲̅н̲̅a̲̅и̲̅κ̲̅ ч̲̅o̲̅u̲̅]
+
+Aether is beautiful
+
+Can we appreciate for a moment how well designed this app is? This is probably the most enjoyable-to-look-at social network that I've been a part of
+<<<
+
+<br>
+
+`aether://board/86e782e80681ac580b4d6d102b12e787c066e59f194fee57bb0bf83cc1e42fc6/thread/304a5620172be338a1ecac2b8d7a908361c5cf41e46b498ee3067d8ccc96453c`
+
+<<<
+>>>> That is a step in the right direction, but it has to run much deeper. I think https://urbit.org/ is even closer in some respects (but I don't trust it).
+
+>>> What about Nextcloud?
+
+>>>> Self-hosted backends that can be tunneled into and act as a proxy on behalf of one's many devices can still be decentralized (a lot of settings have to be tweaked to fit the resource limitations of mobile and NATing). That decentralization mechanism perhaps shouldn't be solved by Aether (though it already gets so much right).
+
+>>> Hopefully it will be possible to open an Aether backend server to the public, making nodes available to mobile devices in order to participate without the network and power usage drawbacks. It goes a bit against decentralization, but I don't see a better way for mobile platforms.
+
+>> This is probably one of the largest issues facing P2P-Decentralization, particularly given how many people only have mobile access. Even best case scenarios will require a concession from a mobile user (up to and including being a second-class citizen on the network) that will make it less likely to succeed. I admire the solution of centralizing/federating within a person's own cloud. I've yet to see any tool handle this approach really well.
+
+> Right now there is no solution, as the design requires a constant connection to keep the graph in sync with the backend, and on a mobile device that is not something you want because it will drain battery and consume data.
+
+> My 2¢ regarding this issue would be to make a mobile app that can be tethered to the backend of one of your desktop system, and use that backend to retrieve the graph and to submit new content.
+
+Aether for Android
+
+Are there any plans to use aether for android? or is there already a solution?
+<<<
+
+<br>
+
+`aether://board/3e4ec4993aa333d118795f0d53cada7070626ce89463f50a4ad3e8de550b0ce5/thread/d9899441c1971c96fb2ed8ba262755f0f0d18824c894a9a3e8ece996b2727bdc`
+
+<<<
+I suggest building in VM first to get an idea. You might consider using Manjaro as a middle step. There's a lot of adventures ahead of you. `/salute`
+<<<
+
+<br>
+
+`aether://board/eb5a77bd296488235a94f426974cb9fdb70ba4c2ee52a5b9b2b8256cdd3b9658/thread/a7a87bafc9bceadac7f820d60a6df4b14dba9761e7a4039e52d189e1f6d5cce7`
+
+<<<
+>>>You can reach out to me at burak@getaether.net, but in the interest of being public, I do post conversations I get publicly so that people can see what's being discussed. I would recommend you to create a thread in b/Meta instead of emailing, so that other people can join in the discussion, however, if you have something private, please do email. (I might still post them publicly if I find it relevant for Aether)
+
+>> Hello, bnehbit. It's an honor to meet you. I'm h0p3.
+
+>> I've been watching Aether unfold since 2018: https://philosopher.life/#2018.11.04 - Link Log%3A Late Night Run
+
+>> If you ever have time, I would like to meet you (or anyone as qualified as you) either in writing or in VC. I don't want to waste your time, but I think what you are building may be a profoundly morally justified object. Here's a small outline of topics I'd want to speak with you about: https://philosopher.life/#P2P%3A Aether
+
+> Thank you!
+
+<3
+
+This tool is lovely.
+<<<

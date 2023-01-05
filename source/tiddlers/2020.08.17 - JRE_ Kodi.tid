@@ -1,0 +1,42 @@
+created: 20200903182328143
+modified: 20200906083938053
+tags: JRE Chatlog
+title: 2020.08.17 - JRE: Kodi
+
+"""
+[11:49 AM] [[JRE]]: https://www.kickstarter.com/projects/flipper-devices/flipper-zero-tamagochi-for-hackers?fbclid=IwAR2wjPBuXWrdpmqnlYvlW4T0-RVDYingKoP5TyvC9zVHvB9JjAG_gvJ-8qQ
+[9:56 PM] [[JRE]]: Dude-- would you tell me if I were retarded??
+[9:57 PM] [[JRE]]: I am finding the Kodi program so fucking frustrating...
+[9:58 PM] [[JRE]]: it isn't letting me choose which file is my source... and the only people on google with the same problem also seem to not get answers...
+[10:07 PM] [[JRE]]: Click this guy on the left...
+[10:07 PM] [[JRE]]: clicked +add videos, and it made the "TV shows" option above after choosing a file path
+[10:08 PM] [[JRE]]:
+[10:09 PM] [[JRE]]: but now there is no way to actually select "TV shows" -- if i click it, it just opens the file i choose via my filepath, which has 2 shows in it...
+[10:10 PM] [[JRE]]: Whaaaaaat the fuuuuuck...
+[10:53 PM] [[h0p3]]: You should be adding a directory rather than a file as a source, I believe.
+[10:55 PM] [[h0p3]]: It's like a mount point.
+[10:56 PM] [[h0p3]]: Except, it can group multiple locations into a single source.
+[11:53 PM] [[JRE]]: sorry-- i meant it opens the folder i choose.  I choose G:\MATURE PR0N\TV Shows -- even though when it lets me open that up and see the two tv shows i have loaded in it and lets me play them, it won't let me choose the folder as my source.  Same thing if I just choose G: -- except then i have to navigate to G:\MATURE PR0N\TV Shows\Schitt's Creek.S06\Schitt's.Creek.S06E02.The.Incident.1080p.AMZN.WEB-DL.DD+2.0.H.264-CtrlHD to actually watch the episode-- so it just adds an extra two steps when i choose  G:-- either way, it doesn't let me actually choose either G: or the TV show folder as a source.
+[11:55 PM] [[h0p3]]: I don't think I've ever seen that before.
+[11:55 PM] [[h0p3]]: I would try another binary (try an older one). See if it still happens.
+[11:56 PM] [[h0p3]]: I have had problems that required me to revert to older versions.
+[11:56 PM] [[JRE]]: It essentially lets me manually use it as a file explorer, but won't fucking scrub the folder because it won't let me actually select it-- there is no option in the context menu or anywhere to actually CHOOSE anything
+[11:56 PM] [[JRE]]: Yeah, I checked to see if I have a stable version-- apparently I do
+[11:56 PM] [[JRE]]: super fucking weird
+[11:57 PM] [[h0p3]]: Stable does not mean flawless.
+[11:57 PM] [[h0p3]]: So, you can choose some directories, just not all, right?
+[11:57 PM] [[h0p3]]: That is weird
+[11:58 PM] [[JRE]]: I can scroll through any of them-- just imagine you are trying to load a program, and it says "where to install" and it opens up a file explorer, but when you finally get to the folder you want, the "select" button is grayed out... except there isn't even something to be grayed out
+[11:59 PM] [[JRE]]: I see older videos showing versions with context menu to choose it, but the current version is supposed to jump to a different step after I finish naming, designating what's in the folder, and choosing what system to scrub for tv shows
+[12:01 AM] [[JRE]]: When I try to tell it to select G:  -- if I push enter, it just goes into G:, and nothing in context menu...
+[12:03 AM] [[h0p3]]: I have no idea. That menu arises with a right click for me.
+[12:03 AM] [[JRE]]: lemme see
+[12:04 AM] [[JRE]]: give me proof that g-d hates me
+[7:11 PM] [[AIR]]: https://g.co/kgs/VkVdWs
+[7:13 PM] [[h0p3]]: Gracias!
+[7:19 PM] [[h0p3]]: That one goes straight into [[Music: Library]]
+
+[1:59 PM] [[JRE]]: Got to explain to Rebecca and the speech therapist what it meant when I muttered, "Mama Llama is dummy thicc," under my breath while we read to Matthew today.
+[1:59 PM] [[h0p3]]: lmao
+[1:59 PM] [[h0p3]]: How did that conversation go?
+"""

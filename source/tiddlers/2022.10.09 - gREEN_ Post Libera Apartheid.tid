@@ -1,0 +1,32 @@
+created: 20221010041208285
+modified: 20221010205135857
+tags: gREEN Chatlog
+title: 2022.10.09 - gREEN: Post Libera Apartheid
+
+//Beyond [[their borderline hypocrisy|https://libera.chat/policies/#unwanted-content-and-behaviour]] in the case you are mentioning, I think the primary issue with Libera is their censorship. I'll agree that if the Tox devs were not comfortable saying words like ''nigger'' or ''troon'' in public,<<ref "u">> then they should probably have some doubts about saying these words on an IRC server, even in seemingly private channels (that doesn't excuse the censorship). To my understanding, IRC was never meant to be a secure protocol against the server (which isn't to say it hasn't been done), and it's generally too centralized to be able to speak freely without the possibility of getting kicked (all facts the Tox devs knew). It's unfortunate that Libera even had the opportunity to spy, let alone censor, but I'm glad the [[Toxcore]] folks are building a space where both will be difficult. I do see some irony in being asked to leave the decentralized NGC, especially while having worked to say nothing but the truth. I think it makes far more sense to have a publicly accessible NGC where the devs commit themselves to [[good]] [[faith]] real-time interactions with the public. If that group is meant to be a place for Tox development, then you let me know if and when you all are ready to take responsibility for your words rather than merely fight for your right to say them.//
+
+"""
+[16:18:10] [[gREEN]]: *for the record*, tox is often used by people that are tracked, uncomfortable with being followed etc. and that group inparticular is intendet to be more of a safespace.
+*off the record* after recent events with libera, where it got clear that they where spying on private conversations, some people totally moved over to tox. and that ptsd kicked in
+[16:18:28] [[gREEN]]: nothing against you :)
+[16:20:06] [[h0p3]]: I am no supporter of Libera. And, I am glad to see tools that are designed for actual [[privacy]]. 
+[16:21:17] [[h0p3]]: I appreciate the need for safespaces. `/nod`. I hope Tox takes over. =)
+[16:21:47] [[gREEN]]: :)
+[16:22:10] [[gREEN]]: dont cite me on this, but feel free to log the irc side of things
+[16:22:21] [[h0p3]]: I log it all. 
+[16:22:55] [[h0p3]]: I didn't answer your question from the groupchat. It's a very long story. 
+[16:23:14] [[gREEN]]: hm
+[16:23:22] [[gREEN]]: did you write it out somewhere?
+[16:24:58] [[h0p3]]: I have been writing the story, but it is absurdly long. My ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱 is probably on the order of 70 novels worth of text. I think the [[Readme]], [[2016.10.17 - Letter to Mom and Dad]], and the [[Letters]] from [[Find The Others]] provide significant context. 
+[16:29:10] [[h0p3]]: I appreciate having that ptsd kick in. My vocation is expensive for most parties involved. 
+[16:30:36] [[gREEN]]: yea. man i allways though of irc like an open freespeech platorm.
+[16:31:06] [[gREEN]]: you probably know of this but, did you know this? : https://github.com/Tribler/tribler/wiki/Anonymous-Downloading-and-Streaming-specifications
+[16:34:12] [[h0p3]]: `/nod`. Unfortunately, Tribler is not a high-functioning tool, in my experience. I am an early adopter of many tools, always in search for an answer. This one has not passed the usability test in the many times I've tried it. I consider it a [[beautiful]] proof of concept though. 
+[16:35:16] [[h0p3]]: High performance onion routed mutable torrents are still a holy grail. 
+[16:35:45] [[h0p3]]: I like their work toward discoverability too. Not an easy problem. 
+[16:36:12] [[gREEN]]: yea
+"""
+
+
+---
+<<footnotes "u" "...understandably so, as it is all too easy for even proper, valid, or at least acceptable uses of these terms to be taken out of context, [[ITS]].">>

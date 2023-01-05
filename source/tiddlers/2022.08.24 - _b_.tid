@@ -1,0 +1,22 @@
+created: 20220824041325274
+modified: 20220826092822730
+tags: /b/
+title: 2022.08.24 - /b/
+
+personality-h0p3/personality-h0p3's (his edgelordness will also do, m'theydy), low sausage to bread ratio, room smells of body odor and quiet desperation, sitting in the dark with many bottles, deconstructing [[silence]] [[itself]]
+
+<br>
+
+If you can go to prison for lying to a politician (like a member of congress or a judge) in official contexts, they should go to prison for lying to you or others in official contexts (which should perhaps be //any// context in which their signaling has impact).
+
+<br>
+
+as a ~~highly educated~~ fully indoctrinated grifter customizing my life by conveniently idealizing my bondage (decorating my prison coffin cell of a life), imfinna join yet another newage [[stoic]] (or epicurean, whichever) cult that focuses on fate, inevitability, acceptance, and detachment from a world I'm helpless against while denying my autonomy, selfhood, responsibility, or access to any other "Truth" than `/this` one...and, performativity is my self-constructed real self, all that really mattered if anything did...as, but, of course, no stance could be more fitting in this Lovecraftian world ruled by monolithic, inhuman, malignant entities known as "corporations" that trample humans simply for being in the way (because "they" are too far beyond "us", too big to fail), and if we see the universe as ultimately not even apathetic towards humans, but rather just an incomprehensible vastness that swallows us all in eventual oblivion, we can feel better about ~~setting healthy boundaries~~ not actually giving a shit about anyone but ourselves through positive nihilism, a quasi-self-fulfilling prophesy which only further validates my feelings on the matter
+
+<br>
+
+When it can be helped, don't abandon the evil people in your life (just as we should do for ourselves); someone needs to watch them and give them attention, if not help them become someone who deserves to live. Odds are: you won't be able to tell them the truth, but it's not like they were really interested in such a thing anyways. At the very least, quietly, [[private]]ly point, no other direct words necessary. 
+
+<br>
+
+I'm not convinced switching to Ed448-Goldilocks, a 3.5x slowdown, is worth it. Post-quantum is the real concern, and I think something like CECPQ2 is much closer to correct. 3-5% packet loss rates start to have a significant impact on post-quantum algorithms that fragment across many packets, such as those based on unstructured lattices. On key rotation and handshakes we can double our packets and route them differently to try to make up for it, but forward secrecy is the really expensive part. For now, a hybrid approach with adjustable forward secrecy tradeoffs is surely the best approach for a high-performance networking mask layer that can stand the test of time. Say we should continue swapping 25519 keys out every 3 pings, adding CRYSTALS-Kyber, which has a runtime slowdown (and energy consumption increase) of 2.3 (seems better than Ed448 without any hardware acceleration too) but a 70x increase in data overhead, should probably see far fewer rotations. Instead of lock-step hybrid key rotation for forward secrecy, make them asynchronous. But, now we get to help ourselves to solving the broader problem of having so many untested tools that we aren't certain will work (e.g. SIKE just got wrecked). Why not use multiples and scale their use in the protocol with their computational difficulty? BIKE, Classic McEliece (maybe an hourly rotation with a keysize like that), or HQC can be added to the mix. Diversity, one of each of type preferred, where you trade some forward secrecy without losing a ton to overhead can provide a high-performance hedge against any one of them failing (nothing here has stood the test of time, not like the ~45 years of RSA). It's unfortunate how much state and history must be maintained for the double ratchet, let alone a triple or quadruple ratchet. Building a routing protocol designed to provide some control over the cryptographic primitives won't be easy. And, of course, I'm far from convinced that forward secrecy on every message makes much sense; we're talking about catastrophic failure to even be able to find one, as far as I can tell. We need more time to weed out the losers and protocols designed to weave and swap primitives.

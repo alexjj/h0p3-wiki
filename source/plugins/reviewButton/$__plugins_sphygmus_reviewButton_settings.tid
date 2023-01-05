@@ -1,0 +1,15 @@
+created: 20180916165333452
+modified: 20180916172544085
+tags: 
+title: $:/plugins/sphygmus/reviewButton/settings
+type: text/vnd.tiddlywiki
+
+|! Review Title:||! Review Tags:|
+| {{$:/config/reviewButton/Title}} || {{$:/config/reviewButton/Tags}} |
+| <$edit-text tiddler="$:/config/reviewButton/Title"/> || <$edit-text tiddler="$:/config/reviewButton/Tags"/> |
+|! Carpe Title:||! Carpe Tags:|
+| {{$:/config/reviewButton/carpeTitle}} || {{$:/config/reviewButton/carpeTags}} |
+| <$edit-text tiddler="$:/config/reviewButton/carpeTitle"/> || <$edit-text tiddler="$:/config/reviewButton/carpeTags"/> |
+|! Intro Title:||! Intro Tags:|
+| {{$:/config/reviewButton/introTitle}} || {{$:/config/reviewButton/introTags}} |
+| <$edit-text tiddler="$:/config/reviewButton/introTitle"/> || <$edit-text tiddler="$:/config/reviewButton/introTags"/> |

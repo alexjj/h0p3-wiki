@@ -1,0 +1,123 @@
+aliases: JuNest Junest junest
+created: 20220128170817816
+modified: 20220214035823385
+tags: Exploration Outopos Walkthrough
+title: Outopos: JuNest
+
+//I think this is some slick tooling for the unprivileged, and it's superior to https://github.com/drizzt/vps2arch. I want builds to be easy to inspect and modify if not fully reproducible. Using Arch as a base (or base upon the base) might be crazy, but I [[like]] that it's up-to-date and easy to install vanilla software. It's portable enough, not just in terms of architectures but also copy'n'pastable chroot+proot environments, formal containerization, virtualization, and constructing our own isos. It should be AppImageable for those who don't want a script or to deal with it at all, and it should be possible to wrap it as a dmg, apk (termux aint bad), or exe. WASM would be fine, but I'm not convinced browser constraints will be lifted for powertooling like this for the average user (maybe a decade or two from now?). I don't know where to begin, but this seems like a reasonable starting place for exploration. I'm fine burning drive space but not so much with burning RAM/CPU if I can help it. I'm not okay with being locked into a single programming language or ecosystem, and I'd prefer to begin with full access and then compartmentalize down after. Nix can always fit inside too, and perhaps one day it will be fully converted to this. Yeah, like electron, this may be a terrible idea.//
+
+
+<br>
+
+!! Install:
+
+```bash
+git clone https://github.com/fsquillace/junest ~/junest
+~/junest/bin/junest setup 
+
+# shell initialization files may not be the best place to define environment variables insofar as they are only available in a terminal where the user launched the shell, but not for programs started from GUI. ~/.profile may be better in many cases. In some ways, this may just be something the user has to do for themselves. If scripting, you may want to disable non-interactive conditional in .bashrc, or you should source manually.
+if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]; then
+   echo "export PATH=~/junest/bin:\$PATH" >> ~/.zshrc && source ~/.zshrc 
+elif [ -n "`$SHELL -c 'echo $BASH_VERSION'`" ]; then
+   echo "export PATH=~/junest/bin:\$PATH" >> ~/.bashrc && source ~/.bashrc 
+else
+   echo "You may want to manually set a path: export PATH=~/junest/bin:\$PATH"
+fi
+
+# upgrade
+junest -f pacman -Syyu --noconfirm
+#junest -f pacman -Sgq base-devel | grep -v sudo | pacman -S - --noconfirm #for AUR, note: sudo conflicts with sudo-fake...not ready for Arch hosts
+```
+
+
+<br>
+
+!! Quickstart:
+
+* Enter JuNest environment as user: `junest`
+* Enter JuNest environment as fakeroot: `junest -f`
+* Leave JuNest environment: `exit`
+* Install htop inside JuNest environment: `junest -f pacman -S htop --noconfirm`
+* Run JuNest's htop as user: `junest htop` 
+* Run JuNest's htop as fakeroot: `junest -f htop`
+
+
+<br>
+
+!! Current^^tm^^ Gotchas, Trix, & Docs:
+
+|customTable|k
+||QEM|Root Required|AUR Pkgs|Portability|Support|User modes|h
+|Linux Namespaces|No|No|Yes|Poor|Yes|Normal user and fakeroot|
+|Proot|Yes|No|No|Yes|Yes|Normal user and fakeroot|
+|Chroot|No|Yes|Yes|Yes|Yes|Root|
+
+* By default, JuNest uses ns mode, which relies upon linux namespaces. Linux Kernel 3.8+ allows unprivileged processes to create user and mount namespaces, and the host kernel must have it enabled. 
+** 2.6.32+ is recommended for proot mode.
+* proot mode has its own gremlins, and it may add too much overhead.
+* In order to build packages from AUR, `base-devel` package group may be required first. Dev recommended:
+** `pacman -Syu --ignore sudo base-devel`
+** Apparently, JuNest uses a modified version of sudo. That’s why the original sudo package must be ignored.
+*** Apparently, one should be able to `junest yay -S foobar` as host root user, but it does not work. Best practices won't have this problem.*
+** JuNest no longer supports the building of AUR packages in proot mode.
+* JuNest requires bash (>=4.0) & GNU coreutils. `/nod`
+* Every interaction with systemd must be done via the user mode and not fakeroot mode. This is because the systemd communicates with DBUS which is set up only when the normal user is logged in.
+* Apparently, by default the wrappers use `ns --fakeroot` but you can change it via `JUNEST_ARGS` environment variable. For instance, if you want to run `iftop` with real root privileges: `sudo JUNEST_ARGS="groot" iftop`
+** Hasn't worked for me.
+* `junest setup -i <local-image>` enables us to get off the tit
+* Lots of edgecases, https://github.com/fsquillace/junest/issues, enough that not only is complete automation perhaps infeasible, but the project might not be fit. Still may just be a proof-of-concept and a jig in some well-understood specialized contexts.
+** Even if this project fails for [[Outopos]], the work here will still make life easier down the road. How many times have I needed to just pacman or yay my way out of a problem? Too many.
+* fakeroot mode is not able to execute a command set with suid.
+* Can't create fake users in JuNest for privilege separation.
+* EZ mode systemd tooling for Arch does not simply carry over with JuNest. For now, you have to re-write it all, mapped onto JuNest's binaries and configs.
+
+<br>
+
+!! Uninstall:
+
+```bash
+rm -rf ~/junest ~/.junest #`junest setup -d` nags
+if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]; then
+   sed -i '/export PATH=~\/junest\/bin:\$PATH/d' ~/.zshrc 2> /dev/null && source ~/.zshrc
+elif [ -n "`$SHELL -c 'echo $BASH_VERSION'`" ]; then
+   sed -i '/export PATH=~\/junest\/bin:\$PATH/d' ~/.bashrc 2> /dev/nul && source ~/.bashrc
+else
+   echo "You may want to manually delete paths."
+fi
+```
+
+
+<br>
+
+!! /b/:
+
+* It takes [[monster-16]] 25 seconds to install the system with upgrades. 
+* I don't want to limit someone else's ability to run a separate JuNest installation. I guess I should make it separate if this goes further?
+* Some config files, keys, etc. should be backed up to a separate directory. We want to be able to arbitrarily hose and gracefully unhose ourselves with little fear. In a sense, these are the real privileged files we care about in a system designed to work with no privileged files.
+* I prefer this to Nix (which I find illegible and arcane, however cutting edge, by comparison), Guix, Linuxbrew, Gentoo Portage Prefix, 0install, exherbo, Gobolinux, etc. This gives us an extremely well-documented environment that just werx. `/shrug.`
+** Bedrock Linux, however, appears to be its own beast on this front.
+* musl base with a script that bootstraps the rest, have the rolling release there, nothing old, still reliant upon JuNest? I could just maintain the images myself? Entry is always the hardest part, and ironically, I want the tool itself to gain that entry. Bootstrapping problem.
+** We're a hop, skip, and a jump from the basics of a subdistro here. I could maintain something downstream myself. `/shrug`.
+
+<br>
+
+!! Links:
+
+* https://github.com/fsquillace/junest
+** https://fsquillace.github.io/junest-site/
+** https://gitter.im/fsquillace/junest
+* http://adamierymenko.com/ports.html
+* https://wiki.archlinux.org/title/PRoot
+* https://github.com/containers/bubblewrap
+* https://wiki.archlinux.org/title/Systemd-nspawn
+* http://0pointer.de/blog/projects/changing-roots
+* https://github.com/rootless-containers/slirp4netns
+** Leet.
+
+<br>
+
+!! [[h0p3]]'s Personal [[JuNest.sh]]:
+
+<<<
+{{JuNest.sh}}
+<<<

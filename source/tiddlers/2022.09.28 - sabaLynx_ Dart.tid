@@ -1,0 +1,79 @@
+created: 20220928070621588
+modified: 20220928193905420
+tags: sabaLynx Chatlog
+title: 2022.09.28 - sabaLynx: Dart
+
+"""
+[01:44:00] sabaLynx: hello
+[01:44:05] sabaLynx: howdy ;D
+[01:44:09] h0p3: Hello! =)
+[01:44:11] h0p3: How are you doing?
+[01:44:24] sabaLynx: Not bad... What about You?
+[01:44:39] h0p3: Grinding along. Finishin yesterday's [[CTS]] (I'm behind*). 
+[01:44:57] h0p3: What have you been up to? Programming going well for ya?
+[01:46:10] sabaLynx: Yes. Going to start  Dart pretty soon. do you have anything on that beast :D
+[01:46:37] h0p3: I do not. But, I can acquire any specifics you require. I'll go hunt now for generic anything on the topic.
+[01:47:08] sabaLynx: Your are gold. thanks
+[01:50:13] sabaLynx: What is the VPN service of your choice?
+[01:50:25] h0p3: What is the purpose?
+[01:50:30] sabaLynx: If You have such a thing?
+[01:51:08] sabaLynx: Bypass the Geo-restriction
+[01:53:44] h0p3: I've been pleased with this service before: https://www.privateinternetaccess.com/
+[01:54:21] h0p3: You may find short-term proxies online can do the trick for ya as well. 
+[01:54:40] h0p3: I suggest doing this only for geoblocked content. 
+[01:55:39] sabaLynx: Yes. I came to that too. Thanks for confirming.
+[01:56:16] h0p3: In a pinch, this should work as well: https://philsopher.life/#Keys%3A%20Links (at the bottom)
+[01:59:21] h0p3: https://philosopher.life/#Keys%3A%20Links
+[02:00:26] h0p3: Still waiting on some very large files to come down for ya
+[02:02:00] sabaLynx: Thanks
+[02:02:03] sabaLynx: CA5C16EE568984FDAC1E417B5D023464E862AA1AEAC176A751ED9C4C668E145C02190FF1E640
+[02:02:13] sabaLynx: add this one too if you feel like it :D
+[02:02:41] h0p3: Done
+[02:03:57] h0p3: Want it transferred over Onionshare again?
+[02:07:36] sabaLynx: If it is convenient. 
+
+[02:04:05] saharsedigh: Hello :D
+[02:04:11] h0p3: Yo =)
+[02:09:45] saharsedigh: Do you know if it is possible to import all of my friends from that qtox to this one?
+[02:10:02] saharsedigh: or should I contact each one for their IDs again?
+[02:10:09] h0p3: I believe you can open the database up, but I've never done it.
+[02:10:26] h0p3: Sorry, you'll have to add them.
+[02:10:53] h0p3: May the [[Toxcore]] crew add multi-device soon enough.
+[02:13:31] saharsedigh: I thought soo. going for the easy way this time ;D
+[02:13:42] saharsedigh: cotacting everyone...
+[02:16:42] h0p3: I wish Onionshare did not attempt to compress the files (and therefore keep an entire copy of them). That could be done on transfer time in a few ways. 
+[02:17:18] saharsedigh: what are the other options?
+[02:17:28] saharsedigh: that is more handy for you?
+[02:18:09] h0p3: Naw, it's all good. It's gonna take a bit. I'm at 8%, and onionshare's python is single threaded here. Will be up soon enough.
+[02:18:39] h0p3: I've included a special treat.
+[02:18:47] saharsedigh: ok. but I can do DarkMX retroshare too.
+[02:19:22] h0p3: brb
+[02:20:27] saharsedigh: Oh, how nice. Things got intersting all of a sudden.
+[02:21:44] saharsedigh: and I see Shadow Socks Proxy. What !!! Do you provide ShadowSocks Proxy?
+[02:31:52] h0p3: http://i5qvk6kcblmnad2cwd6biqgi3q7plttzzikrqeukny3dlqpgtvkamvqd.onion
+[02:32:30] h0p3: Yes, in case others may find it valuable. 
+[02:33:15] h0p3: I've included //Kushiel's Dart// audiobook, a worthy listen (or read*). 
+[02:35:21] saharsedigh: Thanks....Very....much....
+[02:35:35] h0p3: `/salute`. It's not a problem. Let me know if I can find anything else for you.
+[02:35:46] saharsedigh: How long would the link be valid?
+[02:36:37] h0p3: No idea. I will [[aim]] to leave it up for at least a week. DarkMX and Retroshare should also provide you access to these files. 
+[02:36:43] h0p3: MuWire too.
+[02:37:02] saharsedigh: I will finish downloading inside thte week.
+[02:37:20] saharsedigh: *the
+[02:37:25] h0p3: If you want, I can set up Resilio Sync over Tor as well. That should be the most effective option.
+[02:37:35] h0p3: In case you have to come and go.
+[02:38:38] saharsedigh: I am over 4G connection with most drop out you could imagine. I ask for that.
+[02:38:54] h0p3: Ah. K, give me a bit.
+[02:39:11] saharsedigh: I ask for the time for that problem.
+[02:39:42] saharsedigh: But not to worry. I can work with onionshare. it is nice and easy to work with
+[02:56:33] h0p3: [[REDACTED]]
+[02:56:58] h0p3: There's the Read+Write key. 
+[03:02:38] h0p3: Nice part about this one is that it will be a persistent gateway to move files (with as many devices as we'd like). 
+[03:03:19] h0p3: If you do go this route, please mv them out of the directory (since it synced on both our devices).
+[04:23:56] saharsedigh: Thanks again.
+[04:24:12] saharsedigh: I will report back 
+[05:30:51] saharsedigh: made my very intersted about resilio sync... It works with linux But how to set it up over tor is another thing. is it hard?
+[06:56:14] saharsedigh: are you there?
+[pending] h0p3: For Tor, I run it within a VM that connects to a Whonix Gateway. 
+[pending] h0p3: I hit the sack, exhausted. =)
+"""

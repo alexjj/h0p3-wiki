@@ -1,0 +1,226 @@
+created: 20220920055046974
+modified: 20221009221115048
+tags: Toxcore groupchat gREEN [[That's for you to decide]]
+title: 2022.09.19 - Toxcore: Proof of Concept
+
+"""
+[16:52:56] [[gREEN]]: :D
+[16:52:58] [[h0p3]]: =D
+[16:53:04] [[h0p3]]: It's a pleasure to meet you.
+[16:53:11] [[gREEN]]: the plesure is mine
+[16:53:22] [[gREEN]]: aaaaaaand ther is my first typo
+[16:53:29] [[gREEN]]: and the secound
+[16:53:29] [[That's for you to decide]]: good start
+[16:53:36] [[gREEN]]: what a run lol
+[16:54:03] [[gREEN]]: [[h0p3]]: reading a log [[That's for you to decide]] sent me rn
+[16:55:06] [[gREEN]]: is it ok to repost here and my thoughts on your thoughts?
+[16:55:17] [[gREEN]]: basically line by line?
+[16:55:19] [[h0p3]]: Of course. I'm here to think with you. Anything.
+[16:55:25] [[gREEN]]: :)
+[16:55:53] [[gREEN]]: > I will participate in whatever communications channels you deem fit. I respect what you two are seeking. I'm not sure if I've ever used a Tox conference channel, but I like the idea of dogfooding.
+yes. :)
+[16:56:34] [[That's for you to decide]]: lel, I copied that one by mistake
+[16:56:46] [[gREEN]]: > On the Multi-device PoC, I appreciate that the user has a choice which devices will be revealed to their friend. There are some devices that the user may wish to keep connected to their identity without revealing that to a friend. Though, I suggest the default should be all devices to limit mental overhead. 
+yep, the defaults should be tailored torwards the mainstream user, i guess
+[16:57:20] [[gREEN]]: though for the PoC i might see a per device config optional.
+[16:58:21] [[gREEN]]: > Will a friend send a message to each of my devices (they see one account, but transparently abstracted away from them would be the tox library maintaining connections and sending to each)? There may be tradeoffs to consider here.
+yes, so, the tradeoff here is paired with how history-sync would be implemented, but by default i would say yes.
+[16:58:27] [[gREEN]]: although
+[16:59:21] [[gREEN]]: the tox-message itself is only ever sent directly IF the other peer is online at that given time, so history sync is really the backbone here.
+[16:59:33] [[gREEN]]: (you might be screeming into the void ^''''^)
+[16:59:49] [[h0p3]]: If we are to have hidden devices, then we'll need to have an additional step for the proxying among our own devices. 
+[16:59:57] [[gREEN]]: but this is just the "lowlevel" on how the tox api works rn
+[17:00:18] [[gREEN]]: hm
+[17:00:20] [[gREEN]]: yes
+[17:00:33] [[h0p3]]: I really need the ability to have my friends be my proxies, btw. That's so crucial. I have some friends who only have one device, and I'd like to be able to hold their encrypted messages for them. 
+[17:00:37] [[gREEN]]: we should prob. design the history-sync so it can handle that
+[17:00:49] [[gREEN]]: ah
+[17:01:15] [[gREEN]]: yea
+[17:01:29] [[gREEN]]: thats what encryption is for
+[17:01:40] [[gREEN]]: but the metadata level would become interresting
+[17:01:49] [[gREEN]]: how much do we want to leak
+[17:01:51] [[gREEN]]: etc
+[17:02:13] [[gREEN]]: and hard to design. so i kept the scope simple for the PoC
+[17:02:44] [[gREEN]]: (the hidden goal of the PoC is to sway ppl )
+[17:02:47] [[h0p3]]: `/nod`. That makes sense. And, I'm sorry that many of my questions may not be fit for the immediate PoC.
+[17:02:58] [[h0p3]]: I appreciate that. Yes. 
+[17:02:58] [[gREEN]]: yea sure
+[17:03:12] [[gREEN]]: keeping the end goal in mind is good
+[17:03:32] [[gREEN]]: well, not while coding, but while designing, anyway
+[17:03:53] [[gREEN]]: > Also, I appreciate your speaking about this problem with me. I realize I am not nearly as skilled with computers as you two are. Your patience and openness means a lot to me. 
+:)
+[17:04:23] [[gREEN]]: > So, I have to ask again, how do you intend to revoke devices? How do I ensure my stolen device doesn't, for example, revoke my other devices before I can revoke it?
+thatone is harder
+[17:04:52] [[That's for you to decide]]: I was thinking of syncing the list of devices between your devices and your friend's devices
+[17:05:03] [[gREEN]]: and i did not think much about that yet tbh
+[17:05:22] [[gREEN]]: [[That's for you to decide]]: which exposes alot of data, maybe
+[17:05:24] [[That's for you to decide]]: That way you could get an early warning if something doesn't fit
+[17:05:24] [[h0p3]]: I have an ugly opinion on how to handle that, not fully formed.
+[17:05:42] [[gREEN]]: go for it, i cant really think of a perfect solution
+[17:05:53] [[That's for you to decide]]: [[gREEN]]: yeah, if there is something better we should research it
+[17:07:13] [[gREEN]]: my plan rn is to just manually remove them from your own devices as trusted device. and kicking them from the chat, but hat might be impossible with the current implementation, since the stolen device has "full" rights too *shrug*
+[17:08:02] [[That's for you to decide]]: [[gREEN]]: maybe giving regular user role to devices you are likely to lose?
+[17:08:34] [[gREEN]]: [[That's for you to decide]]: but most casual users likely only have there phone
+[17:09:04] [[That's for you to decide]]: [[gREEN]]: that's one device then, which doesn't apply to the poc
+[17:09:17] [[gREEN]]: one device on one side :P
+[17:09:59] [[h0p3]]: https://philosopher.life/#Outopos%3A%20Logical%20P2P%20Accounts:%5B%5BOutopos%3A%20Logical%20P2P%20Accounts%5D%5D
+[17:10:16] [[h0p3]]: The idea is a master/slave key. No need to keep the master key on the device.
+[17:11:10] [[h0p3]]: To revoke a device requires the user to create their master key, temporarily, and sign the revokation, send it (or update the mutable content-addressable value).
+[17:11:18] [[gREEN]]: > Updating Torrents Via DHT Mutable Items (bittorrent link)
+afaik ngc is using this for privacy state, MotD and moderator list
+[17:12:45] [[gREEN]]: what the
+[17:12:54] [[gREEN]]: where did u pull that doc?
+[17:13:02] [[h0p3]]: Forgive my retardations. I beg your patience with me.
+[17:13:16] [[gREEN]]: why are you so prepared :P
+[17:13:18] [[That's for you to decide]]: > Forgive my retardations. I beg your patience with me.
+don't say that lol
+[17:14:48] [[h0p3]]: This is different from how Tox currently handles accounts. 
+[17:15:49] [[gREEN]]: > PBKDF(username + password + known_salt)
+the save encryption uses a propper algorithm for this
+[17:16:07] [[h0p3]]: `/nod`.
+[17:16:07] [[gREEN]]: or 
+[17:16:08] [[gREEN]]: well
+[17:16:30] [[gREEN]]: yea no
+[17:17:11] [[h0p3]]: I think masterkey generation should be quite expensive. https://www.kicksecure.com/wiki/Passwords
+[17:18:52] [[gREEN]]: the thing is, the derivation is not only cpu intesive (not really is used to be) but also memory intessive (still true, >1gig for something secure)
+[17:19:07] [[gREEN]]: * it used to be
+[17:20:37] [[h0p3]]: I've been workin on a different project that would synchronize a NixOS configuration and other filesyncs (like most of /home/h0p3) on my devices from a masterkey. I try to make the price quite steep (I prefer Argon2).
+"""
+ 
+[17:21:01] [[h0p3]]: 
+
+```
+if [ "${#PASSWORD}" -lt 4 ]; then
+PRICE_FOR_SHORT_PASSWORDS="1024"
+elif [ "${#PASSWORD}" -lt 6 ]; then
+PRICE_FOR_SHORT_PASSWORDS="512"
+elif [ "${#PASSWORD}" -lt 8 ]; then
+PRICE_FOR_SHORT_PASSWORDS="256"
+elif [ "${#PASSWORD}" -lt 10 ]; then
+PRICE_FOR_SHORT_PASSWORDS="128"
+elif [ "${#PASSWORD}" -lt 12 ]; then
+PRICE_FOR_SHORT_PASSWORDS="64"
+else
+PRICE_FOR_SHORT_PASSWORDS="32"
+fi
+
+MASTERKEY=$(echo $USERNAME$PASSWORD | argon2 "MASTERKEY: $USERNAME, goodwill shines forth like a precious jewel." -t $PRICE_FOR_SHORT_PASSWORDS -m 21 -p 16 -r)
+echo "Master Key Generation Complete."
+echo "Generating derivative keys (a shorter process) and installing their systems (may require time to synchronize)."
+```
+
+"""
+[17:21:22] [[h0p3]]: Prolly not the right way to do it, but you get the idea. 
+[17:21:40] [[gREEN]]: haha the salt
+[17:21:48] [[h0p3]]: :P
+[17:22:03] [[gREEN]]: but yea, i think i get the idea
+[17:24:24] [[gREEN]]: [[That's for you to decide]]: do you remember the dht change that merged with the ngc dht changes in the last release?
+[17:25:21] [[That's for you to decide]]: this? https://github.com/TokTok/c-toxcore/pull/2230
+[17:28:55] [[gREEN]]: https://github.com/TokTok/c-toxcore/pull/2147
+[17:28:56] [[gREEN]]: there
+[17:29:18] [[That's for you to decide]]: ahhh
+[17:29:56] [[gREEN]]: if i understood that right, its basically arbitrary, but small, data storage for dht
+[17:31:46] [[h0p3]]: Noice.
+[17:31:53] [[h0p3]]: I didn't know this.
+[17:31:56] [[gREEN]]: well
+[17:32:03] [[gREEN]]: there is no public api for it
+[17:32:20] [[gREEN]]: but every node using the last release is allready part of it
+[17:32:34] [[gREEN]]: same with ngc,
+[17:33:26] [[gREEN]]: [[That's for you to decide]]: we sould write a scraper for this, mybe its being used
+[17:41:40] [[gREEN]]: > So, correct me if I'm wrong, but, from what I understand, currently if I have multiple devices sharing a ToxID, a stranger trying to befriend me might be handed a random device-IP from one of my neighbors on the DHT. What, if any, problems does this pose for our current solution? 
+you wont have multiple devices sharing a toxID, toxID is for the device.
+the "befriending" and lookup of your friend( PoC calls a friend a device) is done via onionrouting on the dht, if you never accept that friend request, the other party never knows, which of all the ips in the DHT is your's
+[17:42:43] [[gREEN]]: so the idea rn is, you add one of your friend's devices, and that spawns a new group, and both friends (auto) add all there devices
+[17:42:53] [[gREEN]]: their*
+[17:43:49] [[gREEN]]: "append-only mutable torrent" - i linke that description :D
+[17:44:10] [[gREEN]]: CRDT - probably a good and noble goal
+[17:44:33] [[h0p3]]: Is there going to be an abnormal keep-alive cost that mobile users would prefer not to pay?
+[17:44:45] [[gREEN]]: yes,
+[17:44:56] [[h0p3]]: I don't see around this problem without proxying.
+[17:44:58] [[gREEN]]: p2p on mobile is a hard problem
+[17:45:07] [[h0p3]]: Indeed. Preach, yo!
+[17:45:29] [[h0p3]]: I think that needs to be done correctly, from the beginning. Most of the people I encounter only have a phone to begin with.
+[17:45:34] [[gREEN]]: if you want to be part of the DHT, you need to be "always" on
+[17:45:41] [[gREEN]]: yea
+[17:45:53] [[gREEN]]: tox takes a moment to connect
+[17:46:23] [[gREEN]]: and /push/ is relying on some central http push server
+[17:46:34] [[That's for you to decide]]: > tox takes a moment to connect
+yes, one thing that would speed things up significantly is a temporary cache(probably in memory) with the routing you used to connect to your friends
+[17:46:36] [[gREEN]]: but thats how modern phones work
+[17:46:43] [[That's for you to decide]]: and use that when attempting to reconnect
+[17:46:53] [[That's for you to decide]]: or at least that's what I think of
+[17:47:16] [[That's for you to decide]]: I'm probably wrong and this is already done or something xD
+[17:47:28] [[gREEN]]: in part
+[17:47:40] [[gREEN]]: some DHT nodes are written to the .tox save file
+[17:47:44] [[That's for you to decide]]: I wish it was possible to allow the device to go in deep sleep while maintaining connections
+[17:47:58] [[gREEN]]: so you dont strictly have to bootstrap of the bootstrap nodes every program start
+[17:48:03] [[gREEN]]: well
+[17:48:10] [[gREEN]]: keep dreaming :P
+[17:48:22] [[gREEN]]: iOS is worse btw
+[17:48:23] [[h0p3]]: [Also, I apologize that I have to AFK. I'm very much enjoying this conversation (and it matters to me). I will read everything you write. I am a reliable recriprocating interlocutor (I bet you've not see the tip of the iceburg yet in my ℍ𝕪𝕡𝕖𝕣𝔱𝔢𝔵𝔱). Wife is home, and I probably have less than an hour with just her today. If I drop off the map, you know why. I will be back eventually.]
+[17:48:53] [[gREEN]]: :)
+[17:48:56] [[gREEN]]: have fun
+[17:49:18] [[That's for you to decide]]: > so you dont strictly have to bootstrap of the bootstrap nodes every program start
+it's not so much about starting a new instance, sometimes you will lose connection for whatever reason, I don't know if we are fast enough yet but if you already knew the routing to your friends a moment ago then why not use that routing first and then try announcing to the dht
+[17:49:53] [[gREEN]]: [[That's for you to decide]]: idk, look at the code .P
+[17:50:07] [[That's for you to decide]]: ha, as if I understand much
+[17:50:22] [[gREEN]]: but basically, rn toxcore warmstarts the DHT
+[17:50:26] [[That's for you to decide]]: too much back and forth(or I am too lazy)
+[17:50:30] [[h0p3]]: Indeed. We should have multiple k-bucket strategies, including high persistence. 
+[17:50:47] [[gREEN]]: problem here is, as allways, abuse
+[17:51:35] [[h0p3]]: we can test or mark for trustworthiness to some degree
+[17:51:42] [[That's for you to decide]]: yep^
+[17:51:52] [[That's for you to decide]]: toxcore doesn't seem to have such "smart" features
+[17:52:11] [[gREEN]]: > Consensus probably doesn't matter, right? Or, it's okay that we can eventually get something like consensus when anyone with updates to the groupchat (even if everyone else currently online never received them) can upload the signed information, right?
+well yea, thats hisotry-sync using torrent like swarming, with the swarm being the group. .... or so i keep dreaming :)
+[17:52:19] [[That's for you to decide]]: you'd also argue that even if it had some sort of learning of habits it could also be abused
+[17:52:35] [[gREEN]]: yep
+[17:52:41] [[gREEN]]: p2p is hard
+[17:52:58] [[h0p3]]: Ah, I have another odd idea there, then.
+[17:53:15] [[That's for you to decide]]: [[gREEN]]: if/when we get history sync in ngc we need to make it optional, and if possible with how large the log can become before it starts flushing
+[17:53:27] [[h0p3]]: https://philosopher.life/#Gradual - It is my opinion that [[Gradual]]ized [[T42T]] is the best strategy for golden-ruled relationships. I think it is quite hard to game.
+[17:53:36] [[h0p3]]: Though, I agree one may be able to find parasitic strategies for it.
+[17:53:44] [[That's for you to decide]]: I just like the way fopnu gives you options to configure your channel, pretty simple
+[17:54:36] [[That's for you to decide]]: [[gREEN]]: 🤯
+[17:54:39] [[That's for you to decide]]: you^
+[17:55:29] [[gREEN]]: lol qtox does not display that emoji
+[17:55:40] [[That's for you to decide]]: I copy-pasted it
+[17:55:52] [[That's for you to decide]]: head blown emoji or whatever
+[18:17:54] [[That's for you to decide]]: regarding the scraper for DHT
+[18:18:14] [[That's for you to decide]]: can we use jf's toxcrawler maybe?
+[18:37:02] [[gREEN]]: prob
+[18:37:13] [[gREEN]]: just extend it
+[18:48:25] [[h0p3]]: These questions come later, but might be worth thinking about in advance. Are there going to be verification/rejection options in some groupchats? Are there going to be temporary keys for joining? Is there an easy way to clone/fork a current group chat to start another? Do I have the ability to block particular users from at least showing up on my screen? Can we make it easy to share blacklists (even automatically in some cases, perhaps)?
+[18:52:09] [[h0p3]]: Perhaps some of those should be strictly determined by the client.
+[19:34:55] [[gREEN]]: ngc is ready for merge, actually
+[19:35:07] [[gREEN]]: and some of those things are no and some are yes
+[19:36:05] [[gREEN]]: ngc will have roles, since it was designed to feel more like /irc/ then anything else.
+founder, moderator, user(or so), and observer
+[19:36:21] [[gREEN]]: the moderator list is part of the dht record
+[19:36:30] [[gREEN]]: iirc
+[19:37:20] [[gREEN]]: but the observer list is not, so if the last user gos offline, the observer list is reset, and all demoted clients can send again
+[19:40:08] [[gREEN]]: [[h0p3]]: here is a mostly current overview of the ngc, that is about to be merged https://toktok.ltd/spec.html#dht-group-chats
+[19:42:37] [[h0p3]]: I'd like to see it so there is more than one founder possible. If, for example, they were to disappear, it could be a problem. Might also enable multi-sig voting. 
+[19:43:57] [[h0p3]]: Still reading to see if that is part.
+[19:44:01] [[gREEN]]: i cant speak for other, but i think the sole founder approach was chosen for simplicity. otherwise we get into the consensus lands
+[19:44:04] [[That's for you to decide]]: group ownership transfer was talked about but I don't remember where they reached
+[19:44:10] [[That's for you to decide]]: ^''''^
+[19:54:19] [[h0p3]]: Also, I'm hoping qTox will get the update. It will, right?
+[19:54:28] [[gREEN]]: ..........................
+[19:54:36] [[That's for you to decide]]: well.... anthony is not responding
+[19:54:46] [[That's for you to decide]]: so we are unsure of the future of qtox atm
+[19:54:51] [[h0p3]]: Ugh.
+[19:54:54] [[gREEN]]: yea
+[19:55:27] [[h0p3]]: Fork or needs to transfer ownership, or we just build it ourselves until.
+[19:55:35] [[gREEN]]: no need
+[19:55:47] [[gREEN]]: we have ppl with access
+[19:55:51] [[h0p3]]: Dope.
+[19:56:44] [[gREEN]]: if you want a client that has support,  you will need to use toxic or trifa
+[19:56:52] [[gREEN]]: until there is more adoption
+[19:57:09] [[That's for you to decide]]: avoidr says that he will try to add ngc support to vtox
+[19:57:21] [[That's for you to decide]]: but he didn't specify when lol
+[19:59:24] [[gREEN]]: im off,
+[19:59:38] [[gREEN]]: be aware that this has no history-sync :/
+[19:59:38] [[h0p3]]: peace
+[19:59:50] [[gREEN]]: :)
+"""

@@ -1,0 +1,23 @@
+created: 20200610170854764
+modified: 20200611131843143
+tags: [[Computer Musings]]
+title: 2020.06.10 - Computer Musings: btrfs
+
+Alright, so I'm not sold on proxmox since I can't do passthrough given my PSU (presumably). That's okay. Between the GPU and nvme, I much prefer the nvme drive. I've decided against the integrated RAID 1 option because I don't fucking trust it, lol. Further, I think it makes more sense to just use it for nightly backups. Additionally, if I'm going software, why not just btrfs? Timeshift is paranoic on my system, but it fucking eats so much. Transparent compression (I cum for zstd; it pains me to be even remotely close to feeling thankful to FB) is money. This will also ease the burden on the mechanicals.
+
+I'm not going whole-hog on btrfs though. It's not bullet-proof enough for a retard like me.
+
+Added a line to fstab:
+
+```
+# /dev/nvme0n1p1
+UUID=dac581ba-58c1-4593-b536-d5dd565f26b8       /mnt/m16-backup-nvme    btrfs noatime,autodefrag,compress=zstd 0 2
+```
+
+```bash
+sudo pacman -S compsize --noconfirm
+```
+
+66%. Okay.
+
+I can't recall the last time I had to timeshift (it's just nice to have in case I would need it), but I have had use for my backups. Maybe I should focus instead on versioning. For now, I won't commit too much. Next step would just be converting /home to it. If I went for drives, then I might just head to zfs.

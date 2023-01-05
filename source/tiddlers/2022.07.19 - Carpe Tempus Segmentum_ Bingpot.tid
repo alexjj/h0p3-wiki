@@ -1,0 +1,58 @@
+created: 20220719141720837
+modified: 20220720144308679
+tags: [[Polymath Craftsman]] [[Carpe Tempus Segmentum]] [[Computer Musings]]
+title: 2022.07.19 - Carpe Tempus Segmentum: Bingpot
+
+Woke at 8:00. I slept well, and my dreams crept out of my sleep into that liminal space where I'm partially awake. Not lucid dreaming, but a precursor stage. //Skintime// with my sympaticon.
+
+Massage + //Hyperion// @030:01:20. Pushed brix.
+
+Hugs'n'bugs with my offspring. Assignments. Saw [[5c0ut]] for a bit. He's been quiet as of late. Curling up, I think.
+
+[[TTTOTW]].
+
+```bash
+$❯ sudo pacman -Syu --noconfirm      
+
+...
+
+:: Replace wxgtk-common with extra/wxwidgets-common? [Y/n] 
+:: Replace wxgtk3 with extra/wxwidgets-gtk3? [Y/n] 
+resolving dependencies...
+looking for conflicting packages...
+error: failed to prepare transaction (could not satisfy dependencies)
+:: removing wxgtk-common breaks dependency 'wxgtk-common' required by wxgtk2
+
+$❯ sudo pacman -R wxgtk2       
+checking dependencies...
+error: failed to prepare transaction (could not satisfy dependencies)
+:: removing wxgtk2 breaks dependency 'wxgtk2' required by p7zip-gui
+```
+
+I really don't want to lose that. I fucking use that. I wish Arch injected or perfected Nix.
+
+Hugs'n'bugs with [[5c0ut]]. He's tired, and he's peopled out. Also, [[5c0ut]]'s been talking with experts and thinkin' about his industry. Not lookin' good. Continues to recommend we build more depression-style food storage. More vinegar and rice (and MSG, as my brother uses it well). We're thinking about how to make black beans amazing (which I don't know how they do it in Central America, but they do). I've been inside a few depression era pantries of post-war era Southerners who have made do and made it work<<ref "tg">> for decades; we aren't even close (and we can't be, since we lack the land to do so*). He's getting tires, and gonna wait on vape setup.
+
+Cleaned & Organized, the youngest 5 of we. [[The Den]] is in good shape. We fixed up the tool room and the garage area nicely. Spare wood area stacked safelyish, including the dying piece from outside. The untrustworthy ladder is also there. Sad about not being heard on the cat litter, but that's okay. Offspring rotated the semi-broken shelf so that it would "fall" into the wall instead, were it to collapse. They did a good job of repacking the bottom with the heaviest layers. Lots of stuff went to the attic. My son and my sympaticon finalized our emergency water supply (most of the adults are waiting for us to have the money to buy water barrels to collect from our gutters). Mounted hooks into the wood foundation (ceiling of the basement), and the weedwacker fits like a glove. Put together the table we dumpster dove, and it's not perfectly stable even after tightening everything. It's quite reasonable though, it would hold my weight, we can freely damage it (though we won't*), and I'm glad we have it. We finally have a table in the shop, and we'll be using it as a temporary tabletop (with the exception of one bucket that will mimic what I do on my tiny table upstairs).<<ref "m">> Packed everything under and around it I could, protecting the boiler. Dismantled some padded parts, and these plus a tarp fit under our oil tank with the rest of the packing and protective layer gear. 
+
+Watered the [[garden]] with my sympaticon.
+
+We went through all the boxes (some delivered today), divided up the foodstuffs, and put them in storage in the attic or basement (unless the kitchen needed it now). Tons of recycling and boxes to break down. Coconut water shots all around. I continued work on the tools. Hacksawed through a rivet on the sheath to fit hatchet. We now have an ammo box for locks.<<ref "p">> My bucket-bag fitted to a new dirty bucket, and the old (good) one cleaned for watering. The Tool Bucket was loaded up. Organizing loose hardware. That tool area gets better each iteration (though, surely I am proud of something that many would consider a pile of junk or at least a waste of my time). I have a hard time sorting some things that bleed into multiple areas (or don't belong in any), but I'm opposed to digitizing or cataloging inventory as a librarian or warehouse logistician might. Retard Grogg need tool space be simple. 
+
+Prepped dinner with my sympaticon. Many hands make light work. It's scorching hot today. There's no AC in that kitchen. My sympaticon made an excellent point (as usual): the table downstairs will make a useful prep table (it's cooler downstairs by at least 10 degrees, if not 20 or 30 somes [if not 50 during the winter], imho).
+
+//Raw Skintime// with mi amor. Walked through our days. Being competent means she is having to do the emergency work of special collections for them. Unfortunately, what is not her circus has become her monkeys. Standard punishment for good workers. Missed her Greek meeting for it too. =(. Feeling ADHD today, but at least her body is better. //Inform the Men!// Shower of the gods!
+
+[[Family Gathering]] was staggered. Trickles in, me being near last. Two bowls of kielbasa casserole. It's broken good. I'm going to be sad if we run out of kielbasa for months at a time. I forgot to join my son's game to drop mana regen gear, as traps don't really become effortless until Insight. A discussion of Plebbit™ vaporware. [[TTTOTW]]. //Stranger Things//. I'm downgrading this show. At least my offspring forced us to [[pause]] to read the BASIC code. Played my clarinet. Mi amor gave me her final finger nail to chewstim on. <3.
+
+Finished off the tool area while my sympaticon cleaned instruments. I continue to push what is less [[salient]] to the bottom, if I can. Thankfully, some of the heaviest stuff essentially goes to the bottom. Instead of trashing it, I tried to preserve an old plastic toolbox-case while ripping out the insides, but I ended up tearing through it (not the hinges*). Eventually, we'll continue to pick up a tool again each month, and I know what I want (since the last few attempts I've not picked up anything because I'm not convinced we need it, or likely need it, or that it's a survival matter). I'd like to purchase generalized chemicals that many shops would eventually consume. Also, I think we should find a transparent vinyl strip/blinder for the basement door to buffer against heat (with a way to slide it out of the way entirely).
+
+Put mi amor to bed. [[TTTOTW]]. Put my sympaticon to bed. [[TTTOTW]].
+
+
+---
+<<footnotes "tg" "I still admire the old persona, Tim Gunn.">>
+
+<<footnotes "m" "My daughter and I argued about what type of working cache memory it might be.">>
+
+<<footnotes "p" "And picks, too.">>

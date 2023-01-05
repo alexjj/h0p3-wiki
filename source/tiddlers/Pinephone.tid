@@ -1,0 +1,100 @@
+aliases: monster-19 monster-pine pinephone
+created: 20210502012330270
+modified: 20221209161039489
+tags: [[Infrequent Logs & Projects]] Computing .tdl More
+title: Pinephone
+
+//My Other Phone is Pine64...We'll see.//
+
+<<<
+Wise people are fools if they cannot adapt to foolish people.<<ref "fu">>
+
+-- Michel Eyquem de Montaigne
+<<<
+
+<br>
+
+!! {[[Dreams]]}:
+
+* Decentralized TW, hand-made. 
+** This is yet another reason to go after virtualization from the beginning. Unikernels and other such assemblages, they must eventually take over the consumer space. The Pinephone needs to be there from the beginning. Make it effortless, and you buy yourself LineageOS native-esque (for whatever that is worth as the clamps tighten), and far more. You can hit the Whonix model correctly for a number of networks, and you should. Your competitive advantage is that you can a lot of OSes (though I don't anticipate you'll be able to run Fuchsia), so do it (and defeat the Embrace, Extend, Extinguish). It's the breadwinning feature, even though modularity and enriched hardware control are beyond crucial (may RISC-V take over the world).
+
+* H1R3N's Rescue Disk
+** Small enough to be worth partitioning for it. We need a tool designed for fixing and running a machine. Every kid needs this swiss army knife. We should have such a thing be as common as systemd. What's the fixit busybox toolset for normies? Does it fucking work? Okay. Will it last long enough that even grandma will have remembered learning it? It's good enough.
+
+<br>
+
+!! [[Links]]:
+
+* https://linmobapps.frama.io/
+
+<br>
+
+!! Autogen:
+
+<<list-links "[tag[Pinephone]]">>
+
+<br>
+
+!! Log: 
+
+; 2021.10.06 - Pinephone: Authentication
+
+* Having trouble getting the pin and password authentication to even work at all. `/head-scratch`. No updates are working either. A broken installation, and it's not clear what is even worth the jumpdrive.
+
+; 2021.06.13 - Pinephone: Performance
+
+* The functionality and performance gap between open-ish hardware and the blackbox SoCs on even budget Androids only continues to grow, and there's no mainline Linux kernel support coming. It's a very fancy RPi; a retard like me can find uses for it (will invent uses for it even for the funsies).
+** Continued streamlining may still produce something, but I think now it would only be virtue of a competitor about to go under (a la Windows) if they don't do something drastic (and, it would still be forked). 
+** Fuschia is officially being released, finally. I fear might be a nail in a coffin kind of move. I don't know. I must admit, Linux finds a way to survive. `/Jurassic-Park`. 
+** I'm pretty worried there is no way around requiring the user to be a beginner-intermediate user. This is doable, but the barrier is high enough that (1) it's likely that only highly motivated and gifted students would end up adopting, and (2) convenience factor of Google.OS will drain any serious momentum that is built.
+* The DE has to be slimmed down to almost nothing, nothing. I'm not convinced we can rely upon acceleration. It might need to just be a terminal machine (for which GUI software can be made, especially if the requirements are clear). I don't think that's a price worth paying though. Workspace management is a foundation that cannot be ignored; it's gotta be first-class.
+* Here's where I'm optimistic: GenZ has a fascination with their phones that might be the missing motivational piece. They may be more likely to jump through the hoops than any other generation before them to fix this problem. They value their phones more.
+* Still, I'm the kind of person that will use whatever gets the job done (including proprietary when I must), and buying android phones that can be hacked to run versions of linux might still be the best option for a retard like me (just like I only buy used laptops for the family). After all, I'm still clutching [[m14]] for dear life (and the hardware replacements, unfortunately, still aren't as good as the originals). 
+* It's not obvious to me that just owning this phone sends a message to manufacturers, nor do I think it sends a message to family and friends beyond being a conversation piece (if I'm struggling with it, no one I know is going to touch it with a 10 and a half foot pole).
+
+; 2021.05.25 - Pinephone: Test Drive
+
+* Took it out in public alongside [[m14]]. When I'm out in the world, I need it to work. I'm patient, but this is unacceptable. It's hard to build GUIs, and they are doing what they can with what they have. Attempted an update, and it went poorly.
+** I think we need to reconsider KDE entirely. I don't use it on anything that isn't a very strong computer in the first place. It's pretty, but I'm not predicting this route will ever be battery efficient (even if they got the rest of it working). KDE's EZ and gorgeous customization comes at too many prices. I think that means I have my work cut out for me, and unfortunately, I'm relying upon a lot of standlone tooling to have the modem aspects of this device work. 
+*** I'd wager it needs another a decade.
+
+; 2021.05.12 - Pinephone: Hypervisor
+
+* Talking with folks. There's almost no virtualization in this space, though containers for Anbox, etc. 
+** The people working on these devices are too enamored with their Android phones, protective of it in a way that is incoherent. Pinephones are //merely// a toy here. Hrm. =/.
+* Devs still think it's too slow to ever be usable, so perhaps pushing for CLI is the correct answer?
+* Reliance upon SD appears fragile.
+** eUFS is better than I knew.
+
+; 2021.05.11 - Pinephone: KVM 
+
+* Parts have come in. HDMI+USB KVM Switch is up. Primary screen for [[m16]] as well as the primary keyboard and mouse can switch over. 
+** As usual, I have to duct tape the fucking LEDs. I only need those for troubleshooting. 
+** Docking station cord is not flexible enough, but it works. 
+* Huge flaws in convergence and second monitor, but this is alpha software. I'm extremely happy to see it work. I think I was way more happy than anyone else. 
+** I am convinced this is what we can give each child around the world though. It can do it all.
+* I've got microSD cards now. I'm excited to screw up a ton.
+
+; 2021.05.05 - Pinephone: Logged In
+
+* Bravo to the KDE Manjaro folks (and I haven't even updated yet!, no interwebs at the time). Even after having watched plenty, there's nothing like actually touching it (boobs are like that too). 
+* Terminal emulator has a long way to go. And, I ain't picky, imho. It's not usable. 
+* Eurotrash installed telegram. Lawd.
+* Pin should just be a keyboard. All other mechanisms are too obvious (as [[Afterschool Teaching]] and otherwise have demonstrated).
+
+; 2021.05.04 - Pinephone: Thankin'
+
+* Virtualization has to be souped up. Made EZ.
+** FPGA and Unikernels may be huge together. Find the right IR. Imagine loading key sections of the system into your constructed circuitry? Some bad code will be cleansed or at least live to see another day.
+* I'm still betting on an Arch-Nix-Guix Basis. I could easily be wrong. They've got so much in place already, well-prepared for this event. Hell, may it stay fragmented. Fuck it.
+* Pirate Tooling (including relevant pentesting), pre-installed. Ready to go, for legal use only, ofc. One must study the dark arts, but never use them. Mmmm, k.
+** Should just be a package(s). 
+
+; 2021.05.01 - Pinephone: Unboxing
+
+* It arrived early. Cool. I've never had a phone `/this` size long. It boots, but account creation wizard doesn't work. This is loonix. Hardware might be beta, but the GUI ecosystem is alpha (including lacking hardware acceleration, imho).
+
+
+---
+<<footnotes "fu" "Proof that I'm retarded.">>

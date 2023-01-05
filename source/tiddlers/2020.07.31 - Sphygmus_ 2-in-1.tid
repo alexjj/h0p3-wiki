@@ -1,0 +1,35 @@
+created: 20200909084719868
+modified: 20200909085015599
+tags: Sphygmus Chatlog
+title: 2020.07.31 - Sphygmus: 2-in-1
+
+"""
+[10:31 PM] h0p3: Thinking about how to make use of the 2-in-1 for drawing. Gimp is basically what I'm stuck on for now. If you have any other ideas, let me know.
+[10:32 PM] h0p3: Eventually, I'd like to integrate drawing and handwriting somewhat into the wiki.
+[10:33 PM] robotic_scarab: I use krita on Linux - it's the best thing I've found to replace photoshop, though it doesn't do everything and I'm still not used to all its keyboard shortcuts and quirks
+[10:33 PM] robotic_scarab: I'm not sure if paint tool sai works on Linux?
+[10:35 PM] h0p3: I'm willing to boot into whatever OS is necessary in this case. Pretty worried that this space is going to be dominated by expensive seats in the cloud, SaaS, and won't be locally-owned.
+[10:35 PM] h0p3: Maybe handwriting-to-text will be local though. That would be dope.
+[10:35 PM] robotic_scarab: I don't know how to solve the images in wiki problem - it doesn't feel smooth and natural to me at all, which is an issue. I've not been able to figure out the local URL reference thingy but that might make it at least a little smoother
+[10:36 PM] h0p3: ASCIIfication and inserting into the wiki is doable.
+[10:36 PM] h0p3: I still don't like any answer I have available for pictures either. =/
+[10:36 PM] robotic_scarab: If OS doesn't matter then a pirated copy of Photoshop and Illustrator are definitely my recommendations
+[10:37 PM] robotic_scarab: Could do the latest yearly release of the creative cloud edition, but I believe CS6 (?) was the last stand-alone version and it's also very solid
+[10:38 PM] robotic_scarab: probably not any different for learning in than the CC versions
+[10:38 PM] h0p3: Might be what we have to do.
+[10:39 PM] robotic_scarab: My thinkpad would be considered a 2 in 1, I think - touchscreen and stylus - but I've not used it super extensively
+[10:39 PM] robotic_scarab: It's still nice to have on occasion though, because the stylus is precise
+[10:40 PM] robotic_scarab: I feel pretty bound to keyboard shortcuts tho so I can't flip the screen around and use it like a tablet without losing that and crippling myself XP
+[10:40 PM] h0p3: Aye. Much better than my fingerpainting.
+[10:41 PM] h0p3: I'm considering a remote.
+[10:41 PM] robotic_scarab: a remote?
+[10:41 PM] h0p3: n52 + stylus maybe
+[10:42 PM] h0p3: https://en.wikipedia.org/wiki/Nostromo_SpeedPad_n52
+[10:43 PM] h0p3: or a smaller wireless, completely handheld
+[10:43 PM] robotic_scarab: oh, nice!
+[10:44 PM] robotic_scarab: I've never used a one handed keyboard but the only gamer YouTube I follow uses an older one-handed keyboard exclusively and loves it
+[10:45 PM] h0p3: I am a huge fan of it paired with AHK in Windows.
+[10:45 PM] h0p3: There is nothing in Linux that does that.
+[10:45 PM] robotic_scarab: aye, nothing in Mac either, I was hoping to automate part of a task with screen recording macro the other day and couldn't find anything that worked
+[10:46 PM] robotic_scarab: I can't say I've used AHK that much myself tho
+"""

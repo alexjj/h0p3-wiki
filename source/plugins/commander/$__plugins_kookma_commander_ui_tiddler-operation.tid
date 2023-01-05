@@ -1,0 +1,9 @@
+caption: Tiddler
+created: 20190212125319261
+creator: Mohammad
+modified: 20190314211439469
+modifier: Mohammad
+tags: $:/tags/Commander
+title: $:/plugins/kookma/commander/ui/tiddler-operation
+
+<<tabs "[all[shadows+tiddlers]tag[$:/tags/Commander/TiddlerOps]!has[draft.of]]" class:"tc-vertical cm-tab-colorful cm-tab-wd">>

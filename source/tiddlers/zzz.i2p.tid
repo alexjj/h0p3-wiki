@@ -1,0 +1,31 @@
+created: 20221123090537759
+modified: 20221123090855942
+tags: [[FTO: h0p3's Published Communications]] [[Nomadic Tribe]] FTO
+title: zzz.i2p
+
+!! 2022.11.23 - zzz.i2p: Presenting A Social Proof of Trust Here
+
+<<<
+> Small proofs of work can act as a deterrent to small attacks. It's not nothing. It may enable some networks to prevent a single computer from bringing a network to its knees. With sufficient resources (and, I think there's reason to think a sufficiently popular network may attract adversaries with such resources; even just getting someone to write the code is the most expensive part), these may be mere speedbumps. Ideally, proofs of work are in themselves useful.
+
+> There may not be excellent ways to fully automate our way out of this problem, particularly for bootstrapping new users. Social proofs of trust, the friend-to-friend model, may be the most resilient and cost-effective. Unfortunately, it's hard to scale (especially given how little patience most people have for even minimal friction) and it's hard to prevent unjustified centralization with it too (will probably tend to federate into a few whales). And, even that may eventually fail against sufficiently advanced machine learning attacks on how we socially authenticate with each other. In the end, it makes sense for a person to make the choice if they think something is salient, authentic, or at least worth the gamble.
+
+Not a Tor expert but apparently the Tor sites getting DDoSed issue is a "flood of intro cell requests".
+
+The possible solution is PoW for introductions?
+
+The equivalent for us would be IBGWs, I think (although perhaps LS lookup?)
+
+So the questions are, would we be vulnerable to something similar, if not why not, if so what are possible solutions?
+
+Looks like this would be a lot of research, need help.
+
+For further reading:
+
+"""
+https://github.com/torproject/torspec/blob/main/proposals/327-pow-over-intro.txt
+https://www.reddit.com/r/TOR/comments/yr007h/whats_the_hold_up_on_proof_of_work_pow/
+https://lists.torproject.org/pipermail/tor-relays/2022-October/020858.html
+https://gitlab.torproject.org/tpo/core/tor/-/issues/40634
+"""
+<<<

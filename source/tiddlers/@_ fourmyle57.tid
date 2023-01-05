@@ -1,0 +1,58 @@
+created: 20221129115358934
+modified: 20221227012036547
+tags: fourmyle57 @
+title: @: fourmyle57
+
+; 2022.12.26 - @h0p3
+
+Sounds good I will try and get Tox setup then.
+
+<br>
+
+; 2022.12.26 - @h0p3
+
+Do you do any real time comms on I2P? Whonix setup is a bit blocked for me at the moment as I have Apple Silicon.
+
+<br>
+
+; 2022.12.03 - @fourmyle57
+
+If you feel comfortable writing in [[Rust]] (I don't feel comfortable in any language, including English), then I think that's the best choice, hands down. We may actually end up needing to use Chord in some places as well. 
+
+<br>
+
+; 2022.12.03 - @h0p3
+
+Going to start with implementing Chord and then some other DSPs. Do you have a lang preference? I was between C and Rust.
+
+<br>
+
+; 2022.11.29 - @fourmyle57
+
+I've added my [[Outopos: DHT]] brainstorm notes, schizogibberish at best. At the bottom, you'll find some links that I think are worth considering. I don't have any code at this point. Ran some tests to see what languages I might prefer and to benchmark some tools to have an understanding of what might be feasible. I'm still just thinking about the problem right now. I'm reading about erasure encoding. I'd like to know any other approaches you think might even possibly be worth considering here. If there are places where we can avoid using a DHT without meaningful loss, we should; we're going to need shortcuts (from what I understand, i2p, for example, isn't really fully decentralized, relying upon other kinds of shortcuts). Roughly, we'll decentralize until it hurts, then federate until it works.
+
+<br>
+
+; 2022.11.29 - @h0p3
+
+Went through some of the material you soft linked in your last email on the site. Any good papers/resources on DHTs you would recommend for flight reading? 
+
+What's the current state of this project (mobile friendly / anon / private / dht)? Is there any code or are we still in the research / design phase? 
+
+Also, important imo not to rule out other distributed data structures / techniques besides DHT though it is likely the correct path given decentralized goals. Other possible approaches, at least for centralized systems include erasure encoding. 
+
+<br>
+
+; 2022.11.29 - @fourmyle57
+
+Sleep well, [[friend]]. I should hit the hay here soon enough too. I'm glad you enjoy the site, and I'll be speaking from it (and [[link]]ing heavily within it). I'm happy to do real-time comms as well. I'm currently researching and thinking about how to build a world-class [[DHT|2022.09.09 - dscnct: Tox & Bleep]]. [[Some|Eijah]] think it is irrelevant, [[others|2021.11.17 - HN Log: Arathorn & P2P Matrix]] haven't been sufficiently concerned with going fully distributed with [[anonymity]] and [[privacy]], and [[so on|Toxcore]]. It turns out to be a hard problem. I think i2p is worth studying, and I think it's worth having practice with it and other tools like it that people actually use. I think Whonix is worth your time. TTYL, [[homie|fourmyle57]].
+
+<br>
+
+; 2022.11.29 - @h0p3
+
+Hi,
+
+Going to bed now but wanted to reach out. DHT idea interested me. Cool site btw. Traveling tomorrow back home, but can email asynchronously for now. Will setup some more real time comms later. Was thinking of getting on I2P. Anything you prefer or recommend? 
+
+https://boards.4channel.org/g/thread/90022927#p90022927

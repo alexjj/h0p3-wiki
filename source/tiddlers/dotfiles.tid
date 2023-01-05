@@ -1,0 +1,9 @@
+aliases: [[dot files]] [[Dotfiles]] [[Dot Files]] [[Dot files]] [[dotfile]] [[Dotfile]]
+created: 20190705031517063
+modified: 20200902223307742
+tags: config Computing Collection Leet
+title: dotfiles
+
+//I may not be a skilled computer user, but I adore GNU/Linux and the terminal (when I'm not frustrated, ;P). These files are valuable to me. These should be automaticaly up-to-date. If you see something exceptionally stupid or something I'm obviously missing, let me know.//
+
+<$macrocall $name="list-links" filter="[tag[dotfiles]]"/>

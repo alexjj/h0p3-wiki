@@ -1,0 +1,10 @@
+created: 20220926075400234
+modified: 20220926080136219
+tags: squirrelcity Note To
+title: 2022.09.24 - squirrelcity: More Bad News
+
+I was going to do a line-by-line explication (there's quite a bit to [[wrestle]] about here), but I'm not convinced that's what you want from me. I can only confirm what you already know. Eve has Alice's information to point to where the data is hosted and prove what's inside. On your current model, the game is over. Whoever is holding the hot potato is subject to legal pressure unless they are anonymous. Otherwise, we're relying upon redundancy in disparate legal jurisdictions to save us (which isn't nothing, but it's not enough). On a high-functioning uncensorable network, the redundant hosts must be protected; and, insofar as Alice's information isn't private, there is no guarantee of no-knowledge hosting. The only way to ensure hosts cannot be compelled to censor Alice's data is for Eve to be unable to know where to send the police. You must start there.
+
+I'm trying to think of anything to help. I'm just spitballin' here. Could be useless, `/nod`. It's possible for Alice to not know who hosts the data (and hence Eve won't know either) while still accessing it over DC-nets (or a tool like Riffle, https://dedis.cs.yale.edu/dissent/papers/riffle.pdf), but then there may not be a great way for Alice to hold the host accountable for failing to deliver. Anonymous reputation (https://dedis.cs.yale.edu/dissent/papers/anonrep.pdf) might be a way out.
+
+It's very late here, so I may not be thinkin' straight (usually can't anyway :P). This is a weak idea, I don't know how the pieces would go together, and I'm not convinced by it. Given the abysmal throughput of a DC-net, perhaps stronger decoupling of the metadata from the data is possible? DC-net the metadata and have temporary hosts as end-points for the data. The anonymous host never reveals that they have the canonical data nor that they control pointing to temporary hosts. You can whack-a-mole the temporary host end-points, but more can pop  up. 

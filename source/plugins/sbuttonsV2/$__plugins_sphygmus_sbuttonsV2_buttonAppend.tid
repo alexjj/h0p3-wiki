@@ -1,0 +1,56 @@
+created: 20181215153022475
+creator: sphygmus
+title: $:/plugins/sphygmus/sbuttonsV2/buttonAppend
+type: text/vnd.tiddlywiki
+
+\define WickedTitle()
+<!--this macro takes a title with a date-format template and returns the proper date conversion -->
+<$macrocall $name="now" format={{$:/plugins/sphygmus/sbuttonsV2/dick##1buttTitle}} />
+\end
+
+\define append()
+<!--
+	This macro inserts the title into the desired tiddler (X).
+
+	* $vars allows the escaped insertion of special characters;
+	* $wikify creates plaintext from the results of the date conversion macro;
+	* $list ensures we're operating only on tiddler (X).
+	* $view shows the current text field in tiddler (X).
+
+	We then call the front variable, the title we're inserting, and the back variable to "insert" that text after the current text field.
+
+	Finally, the $list, $wikify, and $vars widgits are closed.
+
+	NOTE: the linebreaks (or lack thereof) are //important// in this macro. With any extra linebreaks, there will be unwanted wild linebreaks created in the output text.
+	
+--><$vars front="* [[" back="]]"><$wikify name=WR_title text=<<WickedTitle>> ><$list filter={{$:/plugins/sphygmus/sbuttonsV2/dick##1buttLocation}}><$view field="text" /><<front>><<WR_title>><<back>>
+</$list></$wikify></$vars>
+\end
+
+\define testButton()
+<!--
+	This macro sets up the action to call append().
+
+	First, we $wikify the append macro - this converts the results into a plaintext form.
+
+	Then we also $wikify tiddler (X)'s title, because the setfield widget will not accept a dictionary reference as a parameter. (If you try, you'll get a XMLHttpRequest error code: 500.)
+
+	Finally, we use $action-setfield to change tiddler (X)'s text field to our new text field, with freshly appended bulleted link.
+
+	NOTE: unlike <<append>>, line breaks do not matter in this macro.
+-->
+<$wikify name=newText text=<<append>> >
+<$wikify name=WR_tid text={{$:/plugins/sphygmus/sbuttonsV2/dick##1buttLocation}} >
+<$action-setfield $tiddler=<<WR_tid>> text=<<newText>> />
+</$wikify></$wikify>
+\end
+
+<p class="center" style="font-size:1.5em;"><$button actions=<<testButton>> >Appending Button</$button></p>
+
+---
+
+* //Title to be appended://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="1buttTitle" class="tc-edit-field-value" class="reviewButton" tag=input />
+* //Location to appended to://
+** <$edit-text tiddler="$:/plugins/sphygmus/sbuttonsV2/dick" index="1buttLocation" class="tc-edit-field-value" class="reviewButton" tag=input />
+** {{$:/plugins/sphygmus/sbuttonsV2/dick##1buttLocation}}

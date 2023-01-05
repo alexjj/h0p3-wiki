@@ -1,0 +1,44 @@
+created: 20220815142435411
+modified: 20220821193716327
+tags: [[Carpe Tempus Segmentum]] [[Computer Musings]]
+title: 2022.08.15 - Carpe Tempus Segmentum: bad rainbows go to prism with a light sentence
+
+<<<
+[[TTTOTW]]. Skidding the fuck out of Nix. <3. I technically have a system that works, but it is nowhere near close. I like how little there is to do if I were to start from the beginning again. For someone who needs to play with his system (`/wink`), this is delightful.
+
+Sleep by unknown time. Woke at 9? //Skintime// with my sympaticon. [[Morning Routine]]. [[TTTOTW]].
+
+//The Walk// with mi amor.
+
+Working on two machines at once. I believe Force Composition Pipeline for `nvidia-settings` has helped a bit, but doesn't solve it.
+
+I've learned that one does not, at least not currently, follow the official instructions for btrfs for compression. Able to get kernel panics and actually break the install. The only method that worked was building the proper configuration before it is ever installed, the first time or you don't get to have it. Looked into building the isos for unattended installation, but for now scp the install script (cause, I'm tired of typing it out for the 4th time) and configuration file does the trick. You don't edit /etc/fstab, your configuration generates it, and that is delightful when it works. That's what I'm hoping for. Reinstalling the exact the system is so much easier. `/tears`.
+
+There's absurd amounts to learn and test. I'm hoping to keep the base system in one file, but I'm doubtful that will be doable, let alone reasonable. I adore how easy it is to iterate with this tooling. The test preview is a lifesaver. Nix has plenty of problems, but I'm feeling hopeless about anything else. I'm going to continue working on making something that installs well.
+
+[[j3d1h]] acquiring family medical history. Unfortunately, I'm struggling to find my most complete copy.
+
+[[Family Time]] @ 4. Chips.
+
+Blows my mind that people use private github for personal things, especially secrets. Unfortunately, so much of the automation around NixOS is built on that assumption, as though it's the right way to do it. Still, flakes may be worthy! I am not convinced doing everything the Nix-way* (especially if that includes whole other worlds like home-builder as de facto, default, assumed, etc.) makes sense, though I do appreciate the ideal it reaches for.
+
+//The Walk// with my sympaticon.
+
+We made hotdogs, cut up hot pickles, found a mustard she could have. We need more mustard. Put mi amor to bed. [[TTTOTW]].
+<<<
+
+[[TTTOTW]]. Tried sleeping at 12:30? No Go. [[TTTOTW]]. Sleep by 2:30? Woke at 9:30, phasing in and out. [[Morning Routine]]. Hugs'n'bugs. [[TTTOTW]]. 
+
+[[D2]] + //Dresden Files// @01:01:05:10:30. We got a key! Offspring came down to grind. Not much progress. They don't like it. Wish they chose to have something else practical and constructive to do otherwise. `/shrug`. 
+
+Dialectics with my sympaticon.
+
+Mi amor was on the phone. Chilled with [[5c0ut]] and [[j3d1h]] while waiting for her. Phil smokes, cool dude, lots of optics problems to worry about, and they have to spend every last cent they get or lose it. All's well so far.
+
+[[Family Gathering]] was delicious. Kickerassole and water. //House of Cards//. I am, of course, the most excited about the deal. The young ones find it disgusting and boring, I think. One day they might be glad they watched this one.
+
+A Flash.
+
+//Skintime// with mi amor. She toast. 2.5 hours with [[CH]]. 
+
+Chilled with my sympaticon. [[TTTOTW]]. Massage + //Dresden Files// @01:03:02:08:20.

@@ -1,0 +1,17 @@
+created: 20220926194210811
+modified: 20220926194257230
+tags: squirrelcity Note From
+title: 2022.09.26 - squirrelcity: Input
+
+"""
+3:19:47 PM - [[squirrelcity]]: I dont mean to load a difficult design problem onto your shoulders, i was looking for any input about technologies i may not be aware of, specifically DHTs that carry strong anonymity and security. 
+3:21:42 PM - [[squirrelcity]]: I was originally considering in this design that instead of Alice communicating directly with Bob, that Alice would query a class of nodes "query nodes" that would solely maintain the DHT containing Bobs link to Alices file. They would act as a guard node, passing data between Alice and Bob. 
+3:23:33 PM - [[squirrelcity]]: This way the attacker, lets go with Eve as you called it, barring it being a query node, would not have any way of knowing who the Bobs were. 
+3:24:42 PM - [[squirrelcity]]: At this point the main weakness in this design is, if for say Eve were to become a query node, and all query nodes shared the same DHT, then it would be trivial to map all public keys to all Bobs. 
+3:25:57 PM - [[squirrelcity]]: So this may be more in your domain: Are there any DHT tech that would allow a node to host a DHT without necessarily being able to see the entire DHT? 
+3:27:29 PM - [[squirrelcity]]: As alices key is shared, the private key can as well be provided to the query node, in essence allowing the node to unlock the directions to her file. Are there any DHT's that can be encrypted on a per-entry basis?
+3:29:31 PM - [[squirrelcity]]: This would be optimal, as opposed to slow cumbersome networks like DC-nets, or ones that offer weak security against DDoS and deanonymization like .onions. 
+3:34:07 PM - [[squirrelcity]]: The security provided by IP anonymization networks is not ideal for a sufficiently secure network at this time. 
+3:57:32 PM - [[squirrelcity]]: I suppose this doesnt really solve the problem of Eve having the keys, since she can simply look it up herself as a query node. Then as you said it comes down to establishing trust.
+4:02:11 PM - [[squirrelcity]]: I would have to wonder what Bobs liability in this situation would be, if his role carried any sort of liability. 
+"""

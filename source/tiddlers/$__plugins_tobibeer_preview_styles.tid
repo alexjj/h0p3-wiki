@@ -1,0 +1,12 @@
+created: NaNNaNNaNNaNNaNNaNNaN
+creator: h0p3
+modified: NaNNaNNaNNaNNaNNaNNaN
+modifier: h0p3
+tags: $:/tags/Stylesheet
+title: $:/plugins/tobibeer/preview/styles
+
+.tc-popup.tc-preview-tiddler{
+	max-width:900px;
+	width:100%;
+	padding:1em;
+}

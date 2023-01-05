@@ -1,0 +1,35 @@
+created: 20210622114719092
+modified: 20210622124337343
+tags: benhylau
+title: 2021.06.17 - benhylau: Matrix
+
+`aether://board/a76595fe8f82f9268b83532019a022c6e792fc36885da68bdbf2b5a07627ac7e/thread/9867792cd55ed9212c8761b39d0a31176b6a57c7b0eb58a6228b9d5a292f8c59`
+
+https://www.hackea.org/notas/matrix.html
+
+<<<
+1. Are there more technical references to this list? For example, I find this hard to believe:
+
+> Email addresses, phone numbers of the user and their contacts.
+
+2. Is this the case if federation is turned off on the self-hosted server? For example, sending these to Matrix's server, or any other, is expected behaviour if federation is on... otherwise how does it federate?
+
+> Every file, image, video, audio that is uploaded to the Homeserver.
+> Profile name and avatar of users.
+
+The post seems to read a bit biased against Matrix. I would've preferred if they gave more specific examples and technical proof.
+<<<
+
+Element/Matrix is not the answer at the moment (maybe it will be P2P-viable some day, and maybe Cabal will become worthy too), but I don't have one I adore. Session and Tox (and Retroshare) are the best answers I've got so far.
+
+<<<
+>Element/Matrix is not the answer at the moment
+
+I am more wondering the basis for this. For example, if there is a source of in-depth technical analysis of the claims in the article, or an opportunity for feedback from Matrix why certain things are done in a particular way.
+
+It's very easy to criticize any FOSS project. Of their origins, clients, ties to some partner or funding sources, specific technical behaviour, etc. Signal similarly gets a lot of criticism, bc they didn't open source their servers, and didn't respond quickly to someone who filed a security report. I generally feel these criticisms don't help open source / security-focused software, and push people away from what is otherwise a good project.
+
+re: Matrix, while I think their UX is terrible, I tend to defend them for making federated chat mainstream, and prioritizing e2e-encryption, and writing about the challenges of doing that in a federated world. It's not easy, they invested heavily into it, and in implementing and re-implementing the UX made the usability miserable for many people, but it was important.
+
+Of course, I'd like Aether to be the go to homeserver solution (one day!), and I think @b can do a much much better UX job than Matrix 😎 but as someone who ran Synapse for many years and knowing several Matrix folks, I do support Matrix and don't want to dismiss the amazing job they have accomplished.
+<<<

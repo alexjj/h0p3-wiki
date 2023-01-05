@@ -1,0 +1,78 @@
+created: 20220902195404442
+modified: 20221009220756661
+tags: Chatlog [[That's for you to decide]]
+title: 2022.04.23 - That's for you to decide: Chance Encounter
+
+"""
+Yup. =) I've added you as well. 
+
+[09:44:07] [[h0p3]]: Hey there. =) I'm glad to meet you.
+[09:44:16] [[h0p3]]: I like that you are organizing a Tox community.
+[09:44:28] [[h0p3]]: The tool doesn't see nearly enough use.
+[15:04:36] [[That's for you to decide]]: Hey, yeah, though it will be a good idea to advertise somewhat
+[15:30:50] [[h0p3]]: I do my part there. 
+[15:31:39] [[h0p3]]: It's one of the few IM tools I use to speak with folks online (https://philosopher.life/#Contact%20h0p3).
+[15:33:00] [[h0p3]]: Any Tox related software stand out to you? Multi-device, persistent groupchat, and some basic bots are important, imho.
+[15:37:22] [[That's for you to decide]]: Well, multidevice is a tricky one to tackle
+[15:37:49] [[That's for you to decide]]: I don't think anyone will bother with that one any time soon
+[15:38:03] [[That's for you to decide]]: > persistent groupchat
+How do you mean?
+[15:38:15] [[h0p3]]: Quite tricky, yeah. 
+[15:38:24] [[h0p3]]: Requires having people we trust proxy for us.
+[15:38:51] [[That's for you to decide]]: I'm running a tox ngc to irc bridge at the moment and I have converted echobot to do some other stuff aswell but it's only accessible through ngc atm
+[15:38:56] [[That's for you to decide]]: ohhh
+[15:39:01] [[That's for you to decide]]: mesh network?
+[15:39:08] [[h0p3]]: That may be required in the end.
+[15:39:46] [[That's for you to decide]]: Well, NGC is doing that as far as I'm aware
+[15:39:47] [[h0p3]]: Last time I did a groupchat in Tox, it was somewhat ephemeral (been a long time). Maybe that has changed.
+[15:39:54] [[That's for you to decide]]: Was meant to be doing*
+[15:40:30] [[That's for you to decide]]: I've been using the conferences for a long time, been fine for me so far
+[15:40:46] [[That's for you to decide]]: especially for toxirc, I have different conferences for each irc channel
+[15:41:03] [[h0p3]]: No other client comes even close, imho. Been talking to a feller who works on P2P Matrix, but I'm not convinced that is happening any time soon.
+[15:41:26] [[h0p3]]: Noice
+[15:41:28] [[That's for you to decide]]: What was your problem with conferences though?
+[15:41:52] [[h0p3]]: IIRC, they had to be remade consistently.
+[15:42:01] [[That's for you to decide]]: ohh
+[15:42:06] [[That's for you to decide]]: it's not like that anymore
+[15:42:10] [[That's for you to decide]]: actually
+[15:42:21] [[That's for you to decide]]: forget about conferences since we are about to merge ngc sometime soon
+[15:42:26] [[That's for you to decide]]: which is new groupchats
+[15:42:44] [[That's for you to decide]]: There is no joining my using the group chat id, no need to get invited by a friend
+[15:42:52] [[That's for you to decide]]: Also, moderation and roles
+[15:43:08] [[That's for you to decide]]: https://github.com/JFreegman/toxic/releases/tag/ngc
+[15:43:40] [[That's for you to decide]]: Ohh, and there is now a topic that moderators/founder can change
+[15:44:09] [[That's for you to decide]]: I'm running a node for the testnet and everything has been very stable so far
+[15:44:34] [[h0p3]]: Neat. Is the data shared in a manner similar to cabal.chat? 
+[15:44:55] [[h0p3]]: Will there be room in which we choose our moderators?
+[15:45:24] [[That's for you to decide]]: I haven't used cabal at all so no idea how that works
+[15:45:27] [[h0p3]]: (Toxic client is gorgeous btw)
+[15:45:31] [[That's for you to decide]]: NGC is still P2P messaging
+[15:45:59] [[That's for you to decide]]: The devs are trying to figure out a way to make mesh messaging work without trading security
+[15:46:10] [[h0p3]]: That is not easy.
+[15:46:15] [[That's for you to decide]]: Yeah :\
+[15:46:26] [[That's for you to decide]]: :/
+[15:48:04] [[That's for you to decide]]: I've been using qtox on my desktop and laptop
+[15:48:13] [[h0p3]]: That's the one I use as well.
+[15:48:15] [[That's for you to decide]]: But there are so many issues that are annoying...
+[15:48:22] [[h0p3]]: Which one stands out to you?
+[15:48:29] [[That's for you to decide]]: There is still no history saving for conferences
+[15:48:37] [[That's for you to decide]]: Which is a huge bummer
+[15:48:45] [[That's for you to decide]]: I want to be able to see a few days back
+[15:48:49] [[h0p3]]: Yeah. That's a persistence problem.
+[15:49:06] [[That's for you to decide]]: I don't really keep history for long anyways but sometimes I might have missed a lot
+[15:49:12] [[h0p3]]: Ultimately, I transplant messages out of my Tox clients anyway. 
+[15:49:46] [[That's for you to decide]]: On mobile I use aTox and trifa
+[15:49:51] [[h0p3]]: `/nod`
+[15:50:01] [[That's for you to decide]]: trifa for toxirc xD
+[15:50:10] [[That's for you to decide]]: cause aTox doesn't support groups yet
+[15:51:04] [[That's for you to decide]]: I really like how fopnu and darkmx work(and tixati too)
+[15:51:12] [[That's for you to decide]]: Too bad isn't all closed source
+[15:51:16] [[That's for you to decide]]: it's*
+[15:51:18] [[h0p3]]: [[DarkMX]] gets a lot right.
+[15:51:20] [[h0p3]]: Agreed.
+[15:51:35] [[h0p3]]: It's still too federated. 
+[15:52:22] [[h0p3]]: But, it's a turnkey method for running some vital hidden services that most people wouldn't do on their own. 
+[15:54:53] [[h0p3]]: I'm hoping we'll see something like Etherpad over Tox one day. A CRDT routed over raTox seems feasible. 
+[15:55:55] [[h0p3]]: I have a meeting in a couple minutes. I'm a consistent responder, even if asynchronously. It's a pleasure to meet you. 
+[16:01:26] [[That's for you to decide]]: Same, ttyl
+"""
